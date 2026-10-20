@@ -1,0 +1,6 @@
+---
+// ponytail: stub so MDX can use <Structure> now; the structure-component story adds the atlas index and /atlas?focus= link.
+interface Props { id?: string }
+const { id } = Astro.props;
+---
+<span class="structure" data-id={id}><slot /></span>

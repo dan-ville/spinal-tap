@@ -1,0 +1,69 @@
+---
+import { parse } from 'yaml';
+import raw from '../content/sources/sources.yml?raw';
+import Disclaimer from '../components/Disclaimer.astro';
+
+interface Nav { title: string; href: string }
+interface Props {
+  title: string;
+  track: string;
+  sources: string[];
+  headings: { depth: number; slug: string; text: string }[];
+  prev?: Nav;
+  next?: Nav;
+}
+const { title, track, sources, headings, prev, next } = Astro.props;
+const registry = parse(raw) ?? {};
+const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const resolved = sources.map((id) => {
+  const s = registry[id];
+  if (!s) throw new Error(`Article "${title}": unknown source id "${id}"`);
+  return s;
+});
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} · Spine Academy</title>
+  </head>
+  <body>
+    <main class="article">
+      <p class="track"><a href="/">Spine Academy</a> › {track}</p>
+      <h1>{title}</h1>
+      <slot name="lede" />
+      {track === 'rehab' && <Disclaimer />}
+      {toc.length > 0 && (
+        <nav class="toc" aria-label="On this page">
+          <ol>{toc.map((h) => <li class={`d${h.depth}`}><a href={`#${h.slug}`}>{h.text}</a></li>)}</ol>
+        </nav>
+      )}
+      <slot />
+      <section class="sources">
+        <h2 id="sources">Sources</h2>
+        <ul>{resolved.map((s) => (
+          <li><a href={s.url}>{s.title}</a>{s.author && ` — ${s.author}`}{s.year && ` (${s.year})`} <span class="tier">Tier {s.tier}</span></li>
+        ))}</ul>
+      </section>
+      <nav class="prevnext" aria-label="Article navigation">
+        {prev && <a rel="prev" href={prev.href}>← {prev.title}</a>}
+        {next && <a rel="next" href={next.href}>{next.title} →</a>}
+      </nav>
+    </main>
+  </body>
+</html>
+<style is:global>
+  body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; color: #1f2937; }
+  .article { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+  .track { text-transform: capitalize; color: #6b7280; font-size: 0.9rem; }
+  .lede { font-size: 1.25rem; color: #374151; }
+  .toc { border-left: 3px solid #e5e7eb; padding-left: 1rem; margin: 1.5rem 0; font-size: 0.95rem; }
+  .toc ol { list-style: none; padding: 0; margin: 0; }
+  .toc .d3 { padding-left: 1rem; }
+  .sources li { margin-bottom: 0.25rem; }
+  .tier { font-size: 0.8rem; color: #6b7280; }
+  .prevnext { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; border-top: 1px solid #e5e7eb; padding-top: 1rem; }
+  .prevnext a[rel="next"] { margin-left: auto; }
+</style>

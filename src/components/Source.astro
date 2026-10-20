@@ -1,0 +1,13 @@
+---
+// Inline citation that resolves a sources.yml id to its title/url. Usage in MDX (no import needed):
+//   <Source id="openstax-ap-2e" />            → linked short cite
+//   <Source id="openstax-ap-2e">ch. 7</Source> → linked cite with custom text
+import { parse } from 'yaml';
+import raw from '../content/sources/sources.yml?raw';
+interface Props { id: string }
+const { id } = Astro.props;
+const src = parse(raw)?.[id];
+if (!src) throw new Error(`Source: unknown source id "${id}"`);
+---
+<a class="source" href={src.url} data-tier={src.tier}><slot>{src.author ? `${src.author}, ` : ''}{src.year}</slot></a>
+<style>.source { font-size: 0.9em; }</style>

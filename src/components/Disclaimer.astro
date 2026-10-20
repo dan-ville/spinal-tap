@@ -1,0 +1,22 @@
+---
+// Red-flag boundary from docs/plan.md §0. Article.astro renders it on every `rehab` article.
+const redFlags = [
+  'symptoms below the knee',
+  'numbness or weakness',
+  'saddle anaesthesia',
+  'bladder or bowel change',
+  'night pain',
+  'fever',
+  'unexplained weight loss',
+  'trauma',
+];
+---
+<aside class="disclaimer" role="note">
+  <p><strong>This site teaches. It does not diagnose, clear a symptom, or replace a clinician.</strong>
+  Stop self-directed work and see a clinician the same day if you have any of:</p>
+  <ul>{redFlags.map((f) => <li>{f}</li>)}</ul>
+</aside>
+<style>
+  .disclaimer { border: 2px solid #b91c1c; border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0; background: #fef2f2; }
+  .disclaimer ul { columns: 2; margin: 0.5rem 0 0; }
+</style>
