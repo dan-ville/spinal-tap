@@ -1,0 +1,80 @@
+---
+title: "Workload spikes: why not ACWR, and what the plan uses instead"
+track: training-science
+order: 6
+kc: skill
+summary: The acute-to-chronic workload ratio was a popular rule for keeping training spikes under control, and it does not hold up. Its components are mathematically coupled, its windows are arbitrary and its injury thresholds were never validated. This article explains the critique, then teaches the plan's alternative, a weekly axial hard-set budget together with a trailing-30-day single-session maximum, and works it from a log.
+sources: [impellizzeri-2020-acwr, schoenfeld-volume, helms-rpe-rir, deadlift-loads-2022]
+status: published
+---
+
+<Lede>The acute-to-chronic workload ratio was a popular rule for keeping training spikes under control, and it does not hold up. Its components are mathematically coupled, its windows are arbitrary and its injury thresholds were never validated. This article explains the critique, then teaches the plan's alternative, a weekly axial hard-set budget together with a trailing-30-day single-session maximum, and works it from a log.</Lede>
+
+## What ACWR claimed
+
+The acute-to-chronic workload ratio divides this week's load, the acute window, by the average of the last four weeks, the chronic window. A ratio near 1 was said to be safe, a ratio above about 1.5 a spike that raised injury risk, and the band between 0.8 and 1.3 was given a name, the "sweet spot". The idea spread fast in team sport and then into lifting advice because it reduced "do not do too much too soon" to a single number with a threshold.
+
+## Why it does not hold up
+
+The critique has three parts, and together they are why the plan refuses ratios rather than adjusting them <Source id="impellizzeri-2020-acwr" />.
+
+**The components are coupled.** The acute week is inside the chronic average. The numerator is part of the denominator, so the ratio moves in ways that have nothing to do with the athlete; its statistical behaviour is partly an artefact of its own construction. A ratio computed against a random chronic window is about as associated with injury as the real one, which is what you would expect from a number that is largely measuring itself.
+
+**The windows are arbitrary.** One week and four weeks were chosen for convenience, not derived from any tissue or fatigue time course. Change the windows and the ratio for the same training history changes, including whether a given week is a "spike".
+
+**The thresholds were never validated.** The injury associations came from observational team-sport datasets with small injury counts, with cut-points chosen after looking at the data and not replicated prospectively. No causal model connects a ratio of 1.5 to a mechanism. Nothing in the lifting or low-back literature tested it at all.
+
+The plan tags the ratio `[contested]`, which is generous; the authors of the critique called for it to be dismissed. What survives is the question it was trying to answer: how much more than usual is too much more than usual?
+
+## The plan's alternative
+
+Two numbers, both read straight off the log, neither of which is a ratio.
+
+**A weekly axial hard-set budget.** Count every set at RPE 7 or above on a lift that loads the spine axially, squats, deadlifts and their variants, loaded carries, yoke <Source id="helms-rpe-rir" />. The week may not exceed the budget. The budget is set at the start of a phase and raised only at a block review, never mid-week. This is the guard against gradual overreach; it caps where the [volume climb](/learn/training-science/volume-intensity-frequency/) can go, and its justification is the volume dose-response relationship read conservatively <Source id="schoenfeld-volume" />.
+
+**A trailing-30-day single-session maximum.** For each axial lift, the heaviest load and the most hard sets done in any one session over the last 30 days. Today's session may not exceed either by more than one progression step. This is the guard against the sudden spike, the Saturday where the lifter feels good and pulls 30 kg more than any day in the last month. Spinal compression in a deadlift scales with the load on the bar, and the review of deadlift loads puts the range in the thousands of newtons <Source id="deadlift-loads-2022" />; a step that the tissues have not seen in a month is the step the plan declines to take.
+
+Why these two rather than a ratio: each is one number, each is a count or a maximum rather than a quotient, each has a mechanism that can be said in a sentence, and each can be checked by anyone with the log. The 30-day window is a `[heuristic]`; it was chosen to be long enough that a holiday does not reset it and short enough that a rising load is tracked.
+
+## Working it from a log
+
+A lifter in Phase 2 with an axial budget of 10 hard sets per week. Trap-bar deadlift sessions over the last five weeks:
+
+| Date | Load | Hard sets | 30-day max load | 30-day max sets |
+|---|---|---|---|---|
+| day 1 | 110 kg | 3 | 110 | 3 |
+| day 8 | 112.5 kg | 3 | 112.5 | 3 |
+| day 15 | 115 kg | 4 | 115 | 4 |
+| day 22 | 115 kg | 4 | 115 | 4 |
+| day 29 | 117.5 kg | 4 | 117.5 | 4 |
+
+On day 36 the lifter feels strong and wants 130 kg for 5 hard sets. The trailing-30-day maximum, computed over days 8 to 36, is 117.5 kg and 4 sets. One progression step is 2.5 kg and one set. The guard allows 120 kg for up to 5 sets; it refuses 130. The lifter's week must also fit the budget: if the squat day already used 5 hard sets, the deadlift day has 5 left, so 120 kg for 5 is the most the two rules together permit. Nothing in that reasoning involved how the back felt, which is the next-day verdict's job and is read the morning after.
+
+The hard-set calculator in the [volume article](/learn/training-science/volume-intensity-frequency/) counts the week; the 30-day maximum is two columns in the log that the [self-coaching track](/learn/self-coaching/) builds into the daily decision tree.
+
+## Key points
+
+<KeyList>
+
+1. **ACWR is this week divided by the last four.** It claimed a safe band and a spike threshold.
+2. **It does not hold up.** The acute window sits inside the chronic one, the windows are arbitrary and the thresholds were never validated <Source id="impellizzeri-2020-acwr" />.
+3. **The question survives; the ratio does not.** How much more than usual is too much is still worth asking.
+4. **Guard one: the weekly axial hard-set budget.** A count, set per phase, raised only at review.
+5. **Guard two: the trailing-30-day single-session maximum.** Load and sets per lift; today may exceed it by one progression step, no more. `[heuristic]`.
+6. **Both are read from the log, and neither reads the back.** The next-day verdict does that.
+
+</KeyList>
+
+<Check kind="concept">
+In your own words, explain why the plan replaces ACWR with two counts rather than tightening the ratio's thresholds.
+<Fragment slot="answer">
+Tightening a threshold would still leave the ratio's structural problems: its numerator is inside its denominator, so part of what it measures is itself; its windows were chosen for convenience; and no threshold was ever validated, so a stricter one is no better founded than the original. A count of hard sets and a maximum over a window are not ratios, so they do not have the coupling problem, and each has a mechanism that can be stated: too many hard sets accumulate fatigue, and a load the tissues have not seen in a month is a spike. Why it matters: a guard you can explain is a guard you will apply on the day it says no.
+</Fragment>
+</Check>
+
+<Check kind="apply">
+Front squat sessions in the last 30 days: 80 kg × 3 hard sets, 82.5 × 3, 85 × 3, 85 × 4. The lifter's budget is 12 axial hard sets and the deadlift day used 6. Today they want 95 kg for 5 sets. What does each guard say, and what is the session?
+<Fragment slot="answer">
+The trailing-30-day maximum is 85 kg and 4 sets; one progression step is 2.5 kg and one set, so the spike guard allows up to 87.5 kg for 5 sets and refuses 95. The budget has 6 sets left this week, so 5 fits. The session is 87.5 kg for up to 5 hard sets. The lifter logs the refused 95 as a note, because wanting it is itself a reading of mood that the weekly review can look at. Why it matters: the two guards work together, one capping the week and one capping the day, and both were decided before the lifter felt strong.
+</Fragment>
+</Check>

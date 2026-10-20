@@ -343,6 +343,40 @@ mann-2010-apre:
   licence: J Strength Cond Res (abstract free; full text not open licence)
   note: Source of the APRE 3/6/10 adjustment tables; six-week trial in trained college athletes.
 
+williams-2017-periodization-meta:
+  id: williams-2017-periodization-meta
+  tier: B
+  title: "Comparison of periodized and non-periodized resistance training on maximal strength: a meta-analysis"
+  author: Williams TD, Tolusso DV, Fedewa MV, Esco MR
+  year: 2017
+  url: https://doi.org/10.1007/s40279-017-0734-y
+  doi: 10.1007/s40279-017-0734-y
+  pmid: 28497285
+  licence: Sports Med (abstract free; full text not open licence)
+  note: Periodized > non-periodized for 1RM in pooled trials; most trials short, mixed training status, volume often not equated.
+
+bell-2023-deload-delphi:
+  id: bell-2023-deload-delphi
+  tier: B
+  title: "Integrating deloading into strength and physique sports training programmes: an international Delphi consensus approach"
+  author: Bell L, Nolan D, Immink MA, Swinton PA
+  year: 2023
+  url: https://doi.org/10.1186/s40798-023-00633-0
+  doi: 10.1186/s40798-023-00633-0
+  licence: Sports Med Open (CC BY 4.0)
+  note: Expert consensus, not a trial; deload defined as a planned reduction, typically volume cut with intensity held, every few weeks.
+
+impellizzeri-2020-acwr:
+  id: impellizzeri-2020-acwr
+  tier: B
+  title: "Acute:chronic workload ratio: conceptual issues and fundamental pitfalls"
+  author: Impellizzeri FM, Tenan MS, Kempton T, Novak A, Coutts AJ
+  year: 2020
+  url: https://doi.org/10.1123/ijspp.2019-0864
+  doi: 10.1123/ijspp.2019-0864
+  licence: Int J Sports Physiol Perform (abstract free; full text not open licence)
+  note: The ACWR critique; mathematical coupling, arbitrary windows, no validated causal model. Do not cite as support for ratio thresholds.
+
 # ---- Tier C ---------------------------------------------------------------
 
 rubinstein-2011-cochrane-smt:
