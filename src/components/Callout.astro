@@ -1,0 +1,20 @@
+---
+// A bordered, color-coded aside. Usage in MDX (no import needed):
+//   <Callout type="accent" title="The encouraging finding">
+//   ...markdown body...
+//   </Callout>
+interface Props {
+  type?: 'accent' | 'amber' | 'rose' | 'indigo';
+  title?: string;
+  icon?: string;
+}
+const { type = 'accent', title, icon } = Astro.props;
+const defaultIcon: Record<string, string> = {
+  accent: '✦', amber: '⚠', rose: '✕', indigo: '◆',
+};
+const glyph = icon ?? defaultIcon[type] ?? '✦';
+---
+<aside class={`callout ${type}`}>
+  {title && <div class="ctitle">{glyph} {title}</div>}
+  <slot />
+</aside>

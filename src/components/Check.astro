@@ -1,0 +1,78 @@
+---
+// An inline lesson Check — the core Page UI primitive.
+// Flow: question → (optional) pre-answer confidence rating → reveal → answer + explanation.
+//
+// Usage in MDX (no import needed):
+//   <Check kind="recall">
+//   What does FSRS model as "Mastery"?
+//   <Fragment slot="answer">
+//   Retrievability **R(t)** — a calibrated 0–1 probability that decays between reviews.
+//   </Fragment>
+//   </Check>
+//
+// `answer` may also be passed as a prop for one-liners: <Check answer="..." >Question</Check>
+interface Props {
+  kind?: 'recall' | 'apply' | 'concept';
+  confidence?: boolean; // show the pre-answer confidence rating (default true)
+  answer?: string;
+}
+const { kind = 'recall', confidence = true, answer } = Astro.props;
+const labels: Record<string, string> = { recall: 'retrieval', apply: 'apply', concept: 'explain' };
+const hasAnswerSlot = Astro.slots.has('answer');
+---
+<div class="check" data-confidence={confidence ? 'true' : 'false'}>
+  <div class="check-head">Check · {labels[kind] ?? kind}</div>
+
+  <div class="check-q"><slot /></div>
+
+  {confidence && (
+    <div class="check-confidence" role="group" aria-label="How confident are you?">
+      <span class="check-confidence-label">How confident are you?</span>
+      <div class="check-pills">
+        <button type="button" class="check-pill" data-c="low">Guessing</button>
+        <button type="button" class="check-pill" data-c="med">Fairly sure</button>
+        <button type="button" class="check-pill" data-c="high">Certain</button>
+      </div>
+    </div>
+  )}
+
+  <button type="button" class="check-reveal">Reveal answer</button>
+
+  <div class="check-answer" hidden>
+    <div class="check-answer-label">Answer</div>
+    {hasAnswerSlot ? <slot name="answer" /> : answer && <p>{answer}</p>}
+  </div>
+</div>
+
+<script>
+  // One delegated handler drives every <Check> on the page.
+  document.addEventListener('click', (e) => {
+    const t = e.target as HTMLElement;
+    const check = t.closest('.check') as HTMLElement | null;
+    if (!check) return;
+
+    // confidence selection
+    const pill = t.closest('.check-pill') as HTMLElement | null;
+    if (pill) {
+      check.querySelectorAll('.check-pill').forEach((p) => p.classList.remove('selected'));
+      pill.classList.add('selected');
+      check.dataset.rating = pill.dataset.c;
+      return;
+    }
+
+    // reveal
+    if (t.closest('.check-reveal')) {
+      const answer = check.querySelector('.check-answer') as HTMLElement | null;
+      if (answer) answer.hidden = false;
+      check.classList.add('revealed');
+      (t as HTMLButtonElement).disabled = true;
+      // The rating + reveal is the signal the nightly miner would grade against.
+      // For the prototype we just surface it; later this posts to the Mastery loop.
+      if (check.dataset.rating) {
+        check.dispatchEvent(
+          new CustomEvent('check:graded', { bubbles: true, detail: { confidence: check.dataset.rating } })
+        );
+      }
+    }
+  });
+</script>
