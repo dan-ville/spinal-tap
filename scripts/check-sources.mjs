@@ -37,6 +37,16 @@ for (const file of globSync("src/content/articles/**/*.mdx"))
   for (const m of readFileSync(file, "utf8").matchAll(/<Structure\s+[^>]*?id="([^"]+)"/g))
     if (!structureIds.has(m[1])) errors.push(`${file}: unknown atlas concept id: ${m[1]}`);
 
+// Every <Check> needs a stable, site-unique id: it keys the reader's localStorage grade record.
+const checkIds = new Map();
+for (const file of globSync("src/content/articles/**/*.mdx"))
+  for (const m of readFileSync(file, "utf8").matchAll(/<Check\b([^>]*)>/g)) {
+    const id = m[1].match(/\bid="([^"]+)"/)?.[1];
+    if (!id) errors.push(`${file}: <Check> without id`);
+    else if (checkIds.has(id)) errors.push(`${file}: duplicate Check id "${id}" (also in ${checkIds.get(id)})`);
+    else checkIds.set(id, file);
+  }
+
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

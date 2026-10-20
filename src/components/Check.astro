@@ -3,24 +3,28 @@
 // Flow: question → (optional) pre-answer confidence rating → reveal → answer + explanation.
 //
 // Usage in MDX (no import needed):
-//   <Check kind="recall">
+//   <Check id="disc-anatomy-1" kind="recall">
 //   What does FSRS model as "Mastery"?
 //   <Fragment slot="answer">
 //   Retrievability **R(t)** — a calibrated 0–1 probability that decays between reviews.
 //   </Fragment>
 //   </Check>
 //
-// `answer` may also be passed as a prop for one-liners: <Check answer="..." >Question</Check>
+// `answer` may also be passed as a prop for one-liners: <Check id="..." answer="..." >Question</Check>
+// `id` is required and must be unique across the site (scripts/check-sources.mjs enforces it): it keys the
+// self-grade record stored in localStorage (see src/lib/recall.ts) that /review schedules from.
 interface Props {
+  id: string;
   kind?: 'recall' | 'apply' | 'concept';
   confidence?: boolean; // show the pre-answer confidence rating (default true)
   answer?: string;
 }
-const { kind = 'recall', confidence = true, answer } = Astro.props;
+const { id, kind = 'recall', confidence = true, answer } = Astro.props;
+if (!id) throw new Error('<Check> needs an id');
 const labels: Record<string, string> = { recall: 'retrieval', apply: 'apply', concept: 'explain' };
 const hasAnswerSlot = Astro.slots.has('answer');
 ---
-<div class="check" data-confidence={confidence ? 'true' : 'false'}>
+<div class="check" data-check-id={id} data-confidence={confidence ? 'true' : 'false'}>
   <div class="check-head">Check · {labels[kind] ?? kind}</div>
 
   <div class="check-q"><slot /></div>
@@ -41,21 +45,52 @@ const hasAnswerSlot = Astro.slots.has('answer');
   <div class="check-answer" hidden>
     <div class="check-answer-label">Answer</div>
     {hasAnswerSlot ? <slot name="answer" /> : answer && <p>{answer}</p>}
+    <div class="check-grade" role="group" aria-label="Did you get it right?">
+      <span class="check-confidence-label">Did you get it right?</span>
+      <div class="check-pills">
+        <button type="button" class="check-pill" data-g="correct">Correct</button>
+        <button type="button" class="check-pill" data-g="incorrect">Incorrect</button>
+      </div>
+    </div>
   </div>
 </div>
 
 <script>
+  import { parseRecords, mergeRecord, serialise } from '../lib/recall';
+  const KEY = 'recall';
+  const pick = (scope: Element, btn: Element) => {
+    scope.querySelectorAll('.check-pill').forEach((p) => p.classList.remove('selected'));
+    btn.classList.add('selected');
+  };
+
+  // Show the last grade for checks already reviewed in this browser.
+  const stored = parseRecords(localStorage.getItem(KEY));
+  for (const el of document.querySelectorAll<HTMLElement>('.check[data-check-id]')) {
+    const r = stored[el.dataset.checkId!];
+    if (r) el.dataset.grade = r.grade;
+  }
+
   // One delegated handler drives every <Check> on the page.
   document.addEventListener('click', (e) => {
     const t = e.target as HTMLElement;
     const check = t.closest('.check') as HTMLElement | null;
     if (!check) return;
 
+    // self-grade (only reachable after reveal; the row lives inside the hidden answer)
+    const grade = t.closest('[data-g]') as HTMLElement | null;
+    if (grade) {
+      pick(grade.closest('.check-grade')!, grade);
+      const g = grade.dataset.g as 'correct' | 'incorrect';
+      check.dataset.grade = g;
+      const rec = { id: check.dataset.checkId!, confidence: (check.dataset.rating as any) ?? null, grade: g };
+      localStorage.setItem(KEY, serialise(mergeRecord(parseRecords(localStorage.getItem(KEY)), rec)));
+      return;
+    }
+
     // confidence selection
     const pill = t.closest('.check-pill') as HTMLElement | null;
     if (pill) {
-      check.querySelectorAll('.check-pill').forEach((p) => p.classList.remove('selected'));
-      pill.classList.add('selected');
+      pick(pill.closest('.check-confidence')!, pill);
       check.dataset.rating = pill.dataset.c;
       return;
     }
@@ -66,13 +101,6 @@ const hasAnswerSlot = Astro.slots.has('answer');
       if (answer) answer.hidden = false;
       check.classList.add('revealed');
       (t as HTMLButtonElement).disabled = true;
-      // The rating + reveal is the signal the nightly miner would grade against.
-      // For the prototype we just surface it; later this posts to the Mastery loop.
-      if (check.dataset.rating) {
-        check.dispatchEvent(
-          new CustomEvent('check:graded', { bubbles: true, detail: { confidence: check.dataset.rating } })
-        );
-      }
     }
   });
 </script>

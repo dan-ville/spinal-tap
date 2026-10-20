@@ -1,0 +1,26 @@
+---
+// Per-article notes box. Plain-markdown textarea persisted in localStorage under `notes:<slug>`;
+// the key depends on the slug only, so rebuilding the site never touches a stored note.
+interface Props { slug: string }
+const { slug } = Astro.props;
+---
+<section class="notes">
+  <label for="article-notes">Your notes <small>(plain markdown · saved in this browser only)</small></label>
+  <textarea id="article-notes" data-notes={slug} rows="6" placeholder="What do you want to remember from this article?"></textarea>
+</section>
+
+<script>
+  const ta = document.querySelector<HTMLTextAreaElement>('textarea[data-notes]');
+  if (ta) {
+    const key = `notes:${ta.dataset.notes}`;
+    ta.value = localStorage.getItem(key) ?? '';
+    ta.addEventListener('input', () => localStorage.setItem(key, ta.value));
+  }
+</script>
+
+<style>
+  .notes { margin: 2rem 0; }
+  .notes label { display: block; font-weight: 600; margin-bottom: 0.4rem; }
+  .notes small { color: #6b7280; font-weight: 400; }
+  .notes textarea { width: 100%; box-sizing: border-box; font: inherit; padding: 0.6rem; border: 1px solid #d1d5db; border-radius: 6px; }
+</style>

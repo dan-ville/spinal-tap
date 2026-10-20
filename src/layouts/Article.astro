@@ -3,17 +3,19 @@ import { parse } from 'yaml';
 import raw from '../content/sources/sources.yml?raw';
 import Base from './Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
+import Notes from '../components/Notes.astro';
 
 interface Nav { title: string; href: string }
 interface Props {
   title: string;
+  slug: string; // content entry id, e.g. anatomy/disc — keys the notes box
   track: string;
   sources: string[];
   headings: { depth: number; slug: string; text: string }[];
   prev?: Nav;
   next?: Nav;
 }
-const { title, track, sources, headings, prev, next } = Astro.props;
+const { title, slug, track, sources, headings, prev, next } = Astro.props;
 const registry = parse(raw) ?? {};
 const toc = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const resolved = sources.map((id) => {
@@ -34,6 +36,7 @@ const resolved = sources.map((id) => {
         </nav>
       )}
       <slot />
+      <Notes slug={slug} />
       <section class="sources">
         <h2 id="sources">Sources</h2>
         <ul>{resolved.map((s) => (
