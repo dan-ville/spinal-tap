@@ -331,6 +331,18 @@ moseley-butler-explain-pain:
   pmid: 26051220
   licence: J Pain (abstract free; full text not open licence)
 
+mann-2010-apre:
+  id: mann-2010-apre
+  tier: B
+  title: "The effect of autoregulatory progressive resistance exercise vs. linear periodization on strength improvement in college athletes"
+  author: Mann JB, Thyfault JP, Ivey PA, Sayers SP
+  year: 2010
+  url: https://doi.org/10.1519/JSC.0b013e3181def4a6
+  doi: 10.1519/JSC.0b013e3181def4a6
+  pmid: 20543732
+  licence: J Strength Cond Res (abstract free; full text not open licence)
+  note: Source of the APRE 3/6/10 adjustment tables; six-week trial in trained college athletes.
+
 # ---- Tier C ---------------------------------------------------------------
 
 rubinstein-2011-cochrane-smt:

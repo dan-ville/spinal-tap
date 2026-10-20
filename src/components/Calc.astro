@@ -4,16 +4,20 @@
 //   <Calc kind="e1rm" />     weight × reps → Epley estimated 1RM
 //   <Calc kind="dots" />     total, bodyweight, sex → DOTS points
 //   <Calc kind="torque" />   mass × horizontal moment arm → moment in N·m
+//   <Calc kind="rpe" />      weight × reps @ RPE → RIR-adjusted Epley e1RM
+//   <Calc kind="hardsets" /> sessions × axial sets × RPE → weekly hard-set count (+ the plan's 40% cut)
 // All maths lives in src/lib/calc.ts; this file only wires inputs to outputs client-side.
-interface Props { kind: 'mcgill' | 'e1rm' | 'dots' | 'torque' }
+interface Props { kind: 'mcgill' | 'e1rm' | 'dots' | 'torque' | 'rpe' | 'hardsets' }
 const { kind } = Astro.props;
 const fields: Record<Props['kind'], [name: string, label: string][]> = {
   mcgill: [['flexor', 'Trunk flexor hold (s)'], ['extensor', 'Extensor hold (s)'], ['bridgeL', 'Side bridge L (s)'], ['bridgeR', 'Side bridge R (s)']],
   e1rm: [['weight', 'Weight'], ['reps', 'Reps']],
   dots: [['total', 'Total (kg)'], ['bodyweight', 'Bodyweight (kg)']],
   torque: [['mass', 'Load (kg)'], ['arm', 'Horizontal moment arm (cm)']],
+  rpe: [['weight', 'Weight'], ['reps', 'Reps'], ['rpe', 'RPE (1–10)']],
+  hardsets: [['sessions', 'Axial sessions this week'], ['sets', 'Axial sets per session'], ['rpe', 'RPE of those sets']],
 };
-const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)', dots: 'DOTS', torque: 'Moment about the lumbar spine' };
+const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)', dots: 'DOTS', torque: 'Moment about the lumbar spine', rpe: 'RPE-adjusted e1RM', hardsets: 'Weekly axial hard sets' };
 ---
 <form class="calc" data-kind={kind} aria-label={titles[kind]}>
   <div class="calc-head">Calc · {titles[kind]}</div>
@@ -27,7 +31,7 @@ const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)
 </form>
 
 <script>
-  import { mcgillRatios, e1rm, dots, torque } from '../lib/calc';
+  import { mcgillRatios, e1rm, dots, torque, hardSets } from '../lib/calc';
   const f1 = (n: number) => n.toFixed(1);
   const f2 = (n: number) => n.toFixed(2);
   const verdict = (ok: boolean) => (ok ? 'pass' : 'not yet');
@@ -44,6 +48,15 @@ const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)
     e1rm: (v) => `Estimated 1RM ${f1(e1rm(+v.weight, +v.reps))}`,
     dots: (v) => `DOTS ${f1(dots(+v.total, +v.bodyweight, v.sex as 'male' | 'female'))}`,
     torque: (v) => `Moment ${f1(torque(+v.mass, +v.arm))} N·m (load ${f1(+v.mass * 9.81)} N × arm ${f2(+v.arm / 100)} m)`,
+    rpe: (v) => {
+      const rir = Math.max(0, 10 - +v.rpe);
+      return `${rir} reps in reserve → set counted as ${+v.reps + rir} reps\nEstimated 1RM ${f1(e1rm(+v.weight, +v.reps + rir))}`;
+    },
+    hardsets: (v) => {
+      const week = Array.from({ length: +v.sessions }, () => Array.from({ length: +v.sets }, () => ({ axial: true, rpe: +v.rpe })));
+      const n = hardSets(week);
+      return `Weekly axial hard sets ${n} (a hard set is RPE ≥ 7)\nAfter the plan's 40% cut: ${Math.floor(n * 0.6)}`;
+    },
   };
 
   document.addEventListener('input', (e) => {
