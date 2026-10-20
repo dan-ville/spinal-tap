@@ -7,12 +7,13 @@
   },
   "scripts": {
     "dev": "astro dev",
-    "build": "npm run build:atlas && astro build",
+    "build": "npm run build:atlas && npm run build:atlas-index && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "check:sources": "node scripts/check-sources.mjs",
     "check:links": "node scripts/check-links.mjs",
-    "build:atlas": "npm --prefix atlas run build && rm -rf public/atlas && cp -R atlas/dist public/atlas && mv public/atlas/index.html public/atlas/app.html"
+    "build:atlas": "npm --prefix atlas run build && rm -rf public/atlas && cp -R atlas/dist public/atlas && mv public/atlas/index.html public/atlas/app.html",
+    "build:atlas-index": "node scripts/build-atlas-index.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^4.3.14",

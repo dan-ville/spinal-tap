@@ -1,6 +1,21 @@
 ---
-// ponytail: stub so MDX can use <Structure> now; the structure-component story adds the atlas index and /atlas?focus= link.
+// <Structure id="FMA13072">first lumbar vertebra</Structure> or <Structure>sacrum</Structure> (matched by lowercase name).
+// Known ids link to /atlas/?focus=<id>; unknown names render unlinked with a "not in atlas" marker.
+// An explicit id that is not in the index is a build error, so no invented FMA id can ship.
+import concepts from '../data/atlas-concepts.json';
+
 interface Props { id?: string }
 const { id } = Astro.props;
+const text = (await Astro.slots.render('default')).trim();
+const byId = id ? concepts.find((c) => c.id === id) : undefined;
+if (id && !byId) throw new Error(`<Structure id="${id}">: not in src/data/atlas-concepts.json`);
+const match = byId ?? concepts.find((c) => c.name === text.toLowerCase());
 ---
-<span class="structure" data-id={id}><slot /></span>
+{match
+  ? <a class="structure" href={`/atlas/?focus=${match.id}`} title={`View ${match.name} in the atlas`} set:html={text} />
+  : <span class="structure structure--absent"><Fragment set:html={text} /> <small class="not-in-atlas" title="This structure is not modelled in the atlas">not in atlas</small></span>}
+
+<style>
+  .structure--absent { border-bottom: 1px dotted currentColor; }
+  .not-in-atlas { font-size: 0.7em; opacity: 0.7; vertical-align: super; }
+</style>
