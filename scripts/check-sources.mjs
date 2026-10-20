@@ -18,6 +18,11 @@ for (const file of globSync("src/content/articles/**/*.mdx")) {
   for (const id of cited) if (!(id in registry)) errors.push(`${file}: unknown source id: ${id}`);
 }
 
+// Atlas preset ids must exist in atlas.json's concepts (ids are never written from memory).
+const atlasIds = new Set(JSON.parse(readFileSync("atlas/public/models/atlas.json", "utf8")).concepts.map((c) => c.id));
+for (const m of readFileSync("atlas/app/anatomy.ts", "utf8").match(/export const LUMBAR_PRESET[\s\S]*?\];/)?.[0].matchAll(/'(FMA\d+)'/g) ?? [])
+  if (!atlasIds.has(m[1])) errors.push(`LUMBAR_PRESET: unknown atlas concept id: ${m[1]}`);
+
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

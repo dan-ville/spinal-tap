@@ -34,3 +34,15 @@ export const EXPLANATIONS:Record<string,string> = {
  'diaphragm':'A broad muscle separating the chest and abdomen. When it contracts, it increases chest volume and helps draw air into the lungs.',
 };
 export function explanation(name:string,system:SystemId){return EXPLANATIONS[name.toLowerCase()] ?? SYSTEMS.find(s=>s.id===system)?.description ?? '';}
+// Lumbar-spine preset. Concept ids resolved from public/models/atlas.json by name (bilateral concepts cover both sides).
+// Verified against atlas.json by scripts/check-sources.mjs.
+export const LUMBAR_PRESET:string[] = [
+ 'FMA13072','FMA13073','FMA13074','FMA13075','FMA13076', // first..fifth lumbar vertebra
+ 'FMA16033','FMA16034','FMA16035','FMA16036','FMA16037', // intervertebral disk of first..fifth lumbar vertebra
+ 'FMA16202', // sacrum
+ 'FMA16585', // hip bone (right + left)
+ 'FMA18060', // psoas major (right + left)
+ 'FMA22314', // gluteus maximus (right + left)
+ 'FMA22702', // iliocostalis lumborum (right + left)
+ 'FMA22709', // longissimus thoracis (right + left)
+];
