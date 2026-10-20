@@ -22,3 +22,7 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# generated atlas bundle (npm run build:atlas)
+public/atlas/
+atlas/dist/
