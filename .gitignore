@@ -26,3 +26,4 @@ pnpm-debug.log*
 # generated atlas bundle (npm run build:atlas)
 public/atlas/
 atlas/dist/
+.vercel
