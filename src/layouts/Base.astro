@@ -11,7 +11,9 @@ const { title } = Astro.props;
     <title>{title} · Spine Academy</title>
   </head>
   <body>
-    <slot />
+    <nav class="site-nav" aria-label="Site"><a href="/">Spine Academy</a> · <a href="/plan/">Plan</a> · <a href="/evidence/">Evidence</a> · <a href="/atlas/">Atlas</a> · <a href="/review/">Review</a> · <a href="/search/">Search</a></nav>
+    <!-- ponytail: data-pagefind-body scopes the index to Base-rendered pages; the atlas fork's app.html has none, so it is excluded -->
+    <div data-pagefind-body><slot /></div>
     <footer class="site-footer">
       <!-- ponytail: licence files live at repo root; licence-and-attribution-files story must expose them under public/ or check-links will flag these -->
       <p>
@@ -29,4 +31,5 @@ const { title } = Astro.props;
 <style>
   .site-footer { max-width: 44rem; margin: 3rem auto 0; padding: 1rem; border-top: 1px solid #e5e7eb; font-size: 0.85rem; color: #6b7280; }
   .site-footer p { margin: 0.25rem 0; }
+  .site-nav { max-width: 44rem; margin: 0 auto; padding: 0.75rem 1rem 0; font-size: 0.9rem; color: #6b7280; }
 </style>

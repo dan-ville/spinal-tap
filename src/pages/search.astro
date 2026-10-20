@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Search">
+  <main class="search" data-pagefind-ignore>
+    <h1>Search</h1>
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+    <div id="search"></div>
+    <script is:inline src="/pagefind/pagefind-ui.js"></script>
+    <script is:inline>
+      // ponytail: Pagefind UI as-is; it builds the index at `npm run build`, so `npx astro build` alone leaves /pagefind/ missing
+      window.addEventListener('DOMContentLoaded', () => new PagefindUI({ element: '#search', showSubResults: true }));
+    </script>
+  </main>
+</Base>
+<style>
+  .search { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+</style>
