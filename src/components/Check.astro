@@ -24,7 +24,7 @@ if (!id) throw new Error('<Check> needs an id');
 const labels: Record<string, string> = { recall: 'retrieval', apply: 'apply', concept: 'explain' };
 const hasAnswerSlot = Astro.slots.has('answer');
 ---
-<div class="check" data-check-id={id} data-confidence={confidence ? 'true' : 'false'}>
+<div class="check" id={id} data-check-id={id} data-confidence={confidence ? 'true' : 'false'}>
   <div class="check-head">Check · {labels[kind] ?? kind}</div>
 
   <div class="check-q"><slot /></div>
