@@ -1,0 +1,32 @@
+---
+interface Props { title: string }
+const { title } = Astro.props;
+---
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title} · Spine Academy</title>
+  </head>
+  <body>
+    <slot />
+    <footer class="site-footer">
+      <!-- ponytail: licence files live at repo root; licence-and-attribution-files story must expose them under public/ or check-links will flag these -->
+      <p>
+        Code <a href="/LICENSE">MIT</a> ·
+        Prose <a href="/LICENSE-content.md">CC BY-SA 4.0</a> ·
+        BodyParts3D data <a href="/ATTRIBUTION.md">CC BY 4.0</a>
+      </p>
+      <p>Spine Academy teaches; it does not diagnose or replace a clinician.</p>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; color: #1f2937; }
+</style>
+<style>
+  .site-footer { max-width: 44rem; margin: 3rem auto 0; padding: 1rem; border-top: 1px solid #e5e7eb; font-size: 0.85rem; color: #6b7280; }
+  .site-footer p { margin: 0.25rem 0; }
+</style>

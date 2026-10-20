@@ -1,16 +1,41 @@
 ---
----
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+const tracks = [
+  ['anatomy', 'Anatomy', 'The lumbar spine, pelvis and hip: bones, discs, joints, ligaments, muscles, nerves.'],
+  ['biomechanics', 'Biomechanics', 'Loads, moments and tissue tolerance under lifting and daily movement.'],
+  ['pain-science', 'Pain science', 'What pain is, what it is not, and why hurt is not the same as harm.'],
+  ['pathology', 'Pathology', 'Disc, facet, nerve-root and bone findings: terminology, natural history, red flags.'],
+  ['rehab', 'Rehab', 'Graded exposure, load management and return to lifting.'],
+  ['training-science', 'Training science', 'Dose, progression and adaptation for strength.'],
+  ['self-coaching', 'Self-coaching', 'Writing your own blocks, regressions and daily decisions.'],
+] as const;
+
+const published = (await getCollection('articles', (a) => a.data.status === 'published'));
+const count = (track: string) => published.filter((a) => a.data.track === track).length;
+---
+<Base title="Home">
+  <main class="home">
+    <h1>Spine Academy</h1>
+    <p class="lede">Free, open-source lumbar-spine anatomy, pain science, rehab and strength programming for the motivated non-clinician.</p>
+    <ul class="tracks">
+      {tracks.map(([id, name, blurb]) => (
+        <li>
+          <a href={`/learn/${id}/`}>{name}</a>
+          <span class="count">{count(id)} {count(id) === 1 ? 'article' : 'articles'}</span>
+          <p>{blurb}</p>
+        </li>
+      ))}
+    </ul>
+  </main>
+</Base>
+<style>
+  .home { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+  .lede { font-size: 1.25rem; color: #374151; }
+  .tracks { list-style: none; padding: 0; display: grid; gap: 1rem; }
+  .tracks li { border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1rem; }
+  .tracks a { font-weight: 600; font-size: 1.1rem; }
+  .tracks p { margin: 0.25rem 0 0; color: #4b5563; }
+  .count { margin-left: 0.5rem; font-size: 0.85rem; color: #6b7280; }
+</style>

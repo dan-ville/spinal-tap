@@ -1,6 +1,7 @@
 ---
 import { parse } from 'yaml';
 import raw from '../content/sources/sources.yml?raw';
+import Base from './Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 
 interface Nav { title: string; href: string }
@@ -21,15 +22,7 @@ const resolved = sources.map((id) => {
   return s;
 });
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{title} · Spine Academy</title>
-  </head>
-  <body>
+<Base title={title}>
     <main class="article">
       <p class="track"><a href="/">Spine Academy</a> › {track}</p>
       <h1>{title}</h1>
@@ -52,10 +45,8 @@ const resolved = sources.map((id) => {
         {next && <a rel="next" href={next.href}>{next.title} →</a>}
       </nav>
     </main>
-  </body>
-</html>
+</Base>
 <style is:global>
-  body { font-family: system-ui, sans-serif; line-height: 1.6; margin: 0; color: #1f2937; }
   .article { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
   .track { text-transform: capitalize; color: #6b7280; font-size: 0.9rem; }
   .lede { font-size: 1.25rem; color: #374151; }
