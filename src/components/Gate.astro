@@ -1,0 +1,33 @@
+---
+// A plan gate (docs/plan.md §4): a checkbox whose state persists in localStorage under `gate:<id>`.
+// Every gate must carry a stable `id` and either a `source` id from sources.yml or a `tag` of
+// heuristic | proposed — scripts/check-plan.mjs fails the build otherwise.
+//   <Gate id="p1-ratio-fe" source="mcgill-1999-endurance-norms">Flexor/extensor ratio below 1.0</Gate>
+//   <Gate id="p1-clean-weeks" tag="heuristic">4 consecutive weeks without a bad verdict</Gate>
+interface Props { id: string; source?: string; tag?: 'heuristic' | 'proposed' }
+const { id, source, tag } = Astro.props;
+const label = source ? `[${source}]` : `[${tag}]`;
+---
+<label class="gate" id={id}>
+  <input type="checkbox" data-gate={id} />
+  <span class="gate-text"><slot /></span>
+  <small class="gate-tag" title={source ? 'source id in sources.yml' : 'no measured source; a labelled opening position'}>{label}</small>
+</label>
+
+<script>
+  // ponytail: one delegated listener for every gate on the page; Astro dedupes this script.
+  const key = (id: string) => `gate:${id}`;
+  for (const box of document.querySelectorAll<HTMLInputElement>('input[data-gate]'))
+    box.checked = localStorage.getItem(key(box.dataset.gate!)) === '1';
+  document.addEventListener('change', (e) => {
+    const box = e.target as HTMLInputElement;
+    if (box.dataset.gate) localStorage.setItem(key(box.dataset.gate), box.checked ? '1' : '0');
+  });
+</script>
+
+<style>
+  .gate { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.35rem 0; }
+  .gate input { margin: 0; }
+  .gate-tag { color: #6b7280; font-family: ui-monospace, monospace; font-size: 0.75rem; white-space: nowrap; }
+  .gate:has(input:checked) .gate-text { text-decoration: line-through; color: #6b7280; }
+</style>

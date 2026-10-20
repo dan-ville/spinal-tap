@@ -19,6 +19,7 @@ const count = (track: string) => published.filter((a) => a.data.track === track)
   <main class="home">
     <h1>Spine Academy</h1>
     <p class="lede">Free, open-source lumbar-spine anatomy, pain science, rehab and strength programming for the motivated non-clinician.</p>
+    <p class="nav"><a href="/plan/">The rehab-to-performance plan</a> · <a href="/evidence/">Evidence cards</a> · <a href="/atlas/">3D atlas</a></p>
     <ul class="tracks">
       {tracks.map(([id, name, blurb]) => (
         <li>

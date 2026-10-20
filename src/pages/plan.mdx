@@ -1,0 +1,70 @@
+---
+title: Rehab-to-performance plan
+---
+import Base from '../layouts/Base.astro';
+import Disclaimer from '../components/Disclaimer.astro';
+import Gate from '../components/Gate.astro';
+import Source from '../components/Source.astro';
+
+<Base title="Plan">
+<main style="max-width: 44rem; margin: 0 auto; padding: 2rem 1rem">
+
+# Rehab-to-performance plan
+
+*Template v0. Gates, not calendars. Every number is a labelled opening position, replaced by your own measurements as your log fills. Your baselines and ticked gates stay in this browser's localStorage; nothing leaves your machine.*
+
+**This site teaches. It does not diagnose, clear a symptom, or replace a clinician.** Every rule below keys on load, volume, range and preparedness relative to your own history, never on "this movement is bad". If you have no clinical diagnosis and no imaging, the plan still works, and it says so where it matters. Read the red flags first; they end self-direction and go to a clinician the same day, at any phase.
+
+<Disclaimer />
+
+## How to read the gates
+
+Each gate is a checkbox. Tick it when your log shows it met, not when you feel it is. The tag after each gate names where the number comes from: a source id from the site registry, `[heuristic]` for a rule of thumb without a measured source, or `[proposed]` for an opening position you are expected to replace with your own data. Ticks persist in this browser only.
+
+## Phase 0 — Baseline (2 weeks)
+
+The point of Phase 0 is to turn guesses into a log. Nothing changes in training yet.
+
+- Red-flag screen, written down, repeated monthly.
+- Daily check-in, training day or not: a morning stiffness test performed identically each day, anything felt below the glute (yes/no), hours slept, life stress, bodyweight.
+- McGill endurance battery: trunk flexor hold, Biering-Sørensen extensor hold, side bridge left and right. Record seconds and the ratios. <Source id="mcgill-1999-endurance-norms" />
+- Film squat, deadlift and RDL at working loads; compare monthly.
+- Daily walking minutes.
+
+**Exit gate**
+
+<Gate id="p0-checkins-14" tag="proposed">14 consecutive daily check-ins logged</Gate>
+
+## Phase 1 — Capacity floor (4–8 weeks)
+
+- Daily: walk 20–30 min `[proposed]`; McGill big 3 as endurance work (descending pyramid, e.g. 5-3-1 reps of 10 s holds), done at least an hour after waking because the disc is most hydrated and stiffest in flexion early in the day `[heuristic]`.
+- Two non-consecutive axial-loading days. Main lifts at RPE ≤ 7, no grinding `[proposed]`. <Source id="helms-rpe-rir" /> Squat around 65–75% `[proposed]`; pulls from blocks or trap bar; RDLs as the hinge driver, double progression 3×8 → 3×12 `[proposed]`.
+- Loaded carries (farmer's, suitcase) and anti-rotation work twice a week `[proposed]`.
+
+**Regression rule** `[heuristic]`. A bad next-day verdict drops one rung on that movement, in this order: **range first, then moment arm, then load. Never the movement's identity.** A hinge stays a hinge; it gets shorter, closer to the body, or lighter. **Two bad days in one week cut that week's axial hard sets by 40%.** Intensity is held; it is the volume that comes down.
+
+**Exit gates**
+
+<Gate id="p1-ratio-flex-ext" source="mcgill-1999-endurance-norms">Flexor/extensor endurance ratio below 1.0</Gate>
+<Gate id="p1-ratio-bridge-ext" source="mcgill-1999-endurance-norms">Side bridge/extensor ratio about 0.75</Gate>
+<Gate id="p1-bridge-symmetry" source="mcgill-1999-endurance-norms">Left and right side bridge within 5% of each other</Gate>
+<Gate id="p1-clean-weeks-4" tag="heuristic">4 consecutive weeks without a bad next-day verdict</Gate>
+<Gate id="p1-rdl-1x-bw-8" tag="proposed">Pain-free RDL at 1.0× bodyweight for 8 reps</Gate>
+<Gate id="p1-suitcase-carry" tag="proposed">Suitcase carry at 0.5× bodyweight per hand for 30 m</Gate>
+
+## Phase 2 — Progressive loading (8–16 weeks)
+
+- The deadlift returns to the floor via blocks: 4" → 2" → floor, one step per two clean weeks `[proposed]`.
+- Progression by double progression or APRE. Deload every 4–6 weeks: volume down 40–60%, intensity held `[proposed]`. <Source id="schoenfeld-volume" />
+- A separate weekly axial hard-set budget. The spike guard is your trailing-30-day single-session maximum, not an acute:chronic workload ratio, which does not hold up `[contested]`.
+
+**Exit gates**
+
+<Gate id="p2-deadlift-1-5x-bw-5" tag="proposed">Deadlift from the floor at 1.5× bodyweight for 5 at RPE ≤ 8 with no yellow verdict</Gate>
+<Gate id="p2-squat-1-5x-bw-5" tag="proposed">Squat at 1.5× bodyweight for 5</Gate>
+<Gate id="p2-clean-weeks-8" tag="heuristic">8 consecutive clean weeks</Gate>
+<Gate id="p2-ratios-held" source="mcgill-1999-endurance-norms">Endurance ratios held at the monthly retest</Gate>
+
+</main>
+</Base>
+
