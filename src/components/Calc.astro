@@ -3,15 +3,17 @@
 //   <Calc kind="mcgill" />   four hold times → McGill ratios + §4 gate verdicts
 //   <Calc kind="e1rm" />     weight × reps → Epley estimated 1RM
 //   <Calc kind="dots" />     total, bodyweight, sex → DOTS points
+//   <Calc kind="torque" />   mass × horizontal moment arm → moment in N·m
 // All maths lives in src/lib/calc.ts; this file only wires inputs to outputs client-side.
-interface Props { kind: 'mcgill' | 'e1rm' | 'dots' }
+interface Props { kind: 'mcgill' | 'e1rm' | 'dots' | 'torque' }
 const { kind } = Astro.props;
 const fields: Record<Props['kind'], [name: string, label: string][]> = {
   mcgill: [['flexor', 'Trunk flexor hold (s)'], ['extensor', 'Extensor hold (s)'], ['bridgeL', 'Side bridge L (s)'], ['bridgeR', 'Side bridge R (s)']],
   e1rm: [['weight', 'Weight'], ['reps', 'Reps']],
   dots: [['total', 'Total (kg)'], ['bodyweight', 'Bodyweight (kg)']],
+  torque: [['mass', 'Load (kg)'], ['arm', 'Horizontal moment arm (cm)']],
 };
-const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)', dots: 'DOTS' };
+const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)', dots: 'DOTS', torque: 'Moment about the lumbar spine' };
 ---
 <form class="calc" data-kind={kind} aria-label={titles[kind]}>
   <div class="calc-head">Calc · {titles[kind]}</div>
@@ -25,7 +27,7 @@ const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)
 </form>
 
 <script>
-  import { mcgillRatios, e1rm, dots } from '../lib/calc';
+  import { mcgillRatios, e1rm, dots, torque } from '../lib/calc';
   const f1 = (n: number) => n.toFixed(1);
   const f2 = (n: number) => n.toFixed(2);
   const verdict = (ok: boolean) => (ok ? 'pass' : 'not yet');
@@ -41,6 +43,7 @@ const titles = { mcgill: 'McGill endurance ratios', e1rm: 'Estimated 1RM (Epley)
     },
     e1rm: (v) => `Estimated 1RM ${f1(e1rm(+v.weight, +v.reps))}`,
     dots: (v) => `DOTS ${f1(dots(+v.total, +v.bodyweight, v.sex as 'male' | 'female'))}`,
+    torque: (v) => `Moment ${f1(torque(+v.mass, +v.arm))} N·m (load ${f1(+v.mass * 9.81)} N × arm ${f2(+v.arm / 100)} m)`,
   };
 
   document.addEventListener('input', (e) => {

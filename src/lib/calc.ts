@@ -36,6 +36,12 @@ export function dots(totalKg: number, bodyweightKg: number, sex: 'male' | 'femal
   return (totalKg * 500) / denom;
 }
 
+// Moment about a joint: M = F × d. Mass in kg is converted to newtons with g = 9.81 m/s²,
+// horizontal moment arm in centimetres. Returns N·m. Used by the biomechanics track.
+export function torque(massKg: number, armCm: number, g = 9.81) {
+  return massKg * g * (armCm / 100);
+}
+
 // Weekly axial hard-set count (docs/plan.md §4 phase 2 "axial hard-set budget").
 // A hard set is any set at RPE ≥ 7 (or RIR ≤ 3) in an axial-loading movement; sessions list sets as {axial, rpe}.
 export interface CalcSet { axial: boolean; rpe: number }

@@ -8,7 +8,7 @@ if (!process.features.typescript) {
   process.exit(r.status ?? 1);
 }
 
-const { mcgillRatios, e1rm, dots, hardSets } = await import('../src/lib/calc.ts');
+const { mcgillRatios, e1rm, dots, hardSets, torque } = await import('../src/lib/calc.ts');
 const near = (a, b, tol) => assert.ok(Math.abs(a - b) <= tol, `${a} not within ${tol} of ${b}`);
 
 // mcgillRatios — plan.md §4 gates: flexor/extensor < 1.0, bridge/extensor ≈ 0.75, L/R within 5%
@@ -39,5 +39,10 @@ const week = [
 assert.equal(hardSets(week), 3);
 assert.equal(hardSets(week, 8), 1);
 assert.equal(hardSets([]), 0);
+
+// torque — 100 kg at 10 cm ≈ 98.1 N·m; doubling the arm doubles the moment, load constant
+near(torque(100, 10), 98.1, 1e-9);
+assert.equal(torque(100, 20), 2 * torque(100, 10));
+assert.equal(torque(0, 50), 0);
 
 console.log('calc.test: ok');
