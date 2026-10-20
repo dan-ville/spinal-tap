@@ -1,0 +1,38 @@
+---
+// Inline evidence card. Usage in MDX (no import needed):
+//   <Evidence id="kent-2023-restore" />
+// Looks the card up in the evidence collection and its source in sources.yml; unknown ids fail the build.
+import { getEntry } from 'astro:content';
+import { parse } from 'yaml';
+import raw from '../content/sources/sources.yml?raw';
+interface Props { id: string }
+const { id } = Astro.props;
+const card = await getEntry('evidence', id);
+if (!card) throw new Error(`Evidence: unknown evidence card id "${id}"`);
+const d = card.data;
+const src = parse(raw)?.[d.source];
+if (!src) throw new Error(`Evidence "${id}": unknown source id "${d.source}"`);
+---
+<aside class="evidence" data-certainty={d.certainty}>
+  <p class="claim"><strong>{d.claim}</strong></p>
+  <dl>
+    <dt>Design</dt><dd>{d.design}</dd>
+    <dt>Population</dt><dd>{d.population}</dd>
+    <dt>Effect</dt><dd>{d.effect}</dd>
+    <dt>Certainty</dt><dd class="certainty">{d.certainty}</dd>
+    <dt>Caveats</dt><dd>{d.caveats}</dd>
+  </dl>
+  <p class="cite"><a href={src.url}>{src.author ? `${src.author} ` : ''}({src.year}). {src.title}</a> · <a href={`/evidence/#${id}`}>all cards</a></p>
+</aside>
+<style>
+  .evidence { border-left: 4px solid #6366f1; background: #f5f5ff; padding: 0.75rem 1rem; margin: 1.5rem 0; font-size: 0.95rem; }
+  .evidence[data-certainty="high"] { border-color: #16a34a; }
+  .evidence[data-certainty="moderate"] { border-color: #ca8a04; }
+  .evidence[data-certainty="low"], .evidence[data-certainty="very-low"] { border-color: #dc2626; }
+  .claim { margin: 0 0 0.5rem; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.15rem 0.75rem; margin: 0; }
+  dt { color: #6b7280; }
+  dd { margin: 0; }
+  .certainty { text-transform: capitalize; }
+  .cite { margin: 0.5rem 0 0; font-size: 0.85rem; }
+</style>

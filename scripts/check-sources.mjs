@@ -18,6 +18,14 @@ for (const file of globSync("src/content/articles/**/*.mdx")) {
   for (const id of cited) if (!(id in registry)) errors.push(`${file}: unknown source id: ${id}`);
 }
 
+// Every evidence card's source must exist in the registry and be an open-access Tier B source.
+for (const file of globSync("src/content/evidence/*.mdx")) {
+  const fm = parse(readFileSync(file, "utf8").match(/^---\n([\s\S]*?)\n---/)?.[1] ?? "");
+  const src = registry[fm?.source];
+  if (!src) errors.push(`${file}: unknown source id: ${fm?.source}`);
+  else if (src.tier !== "B") errors.push(`${file}: source ${fm.source} is tier ${src.tier}, evidence cards need tier B`);
+}
+
 // Atlas preset ids must exist in atlas.json's concepts (ids are never written from memory).
 const atlasIds = new Set(JSON.parse(readFileSync("atlas/public/models/atlas.json", "utf8")).concepts.map((c) => c.id));
 for (const m of readFileSync("atlas/app/anatomy.ts", "utf8").match(/export const LUMBAR_PRESET[\s\S]*?\];/)?.[0].matchAll(/'(FMA\d+)'/g) ?? [])

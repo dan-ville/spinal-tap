@@ -22,4 +22,17 @@ const articles = defineCollection({
   }),
 });
 
-export const collections = { articles };
+const evidence = defineCollection({
+  loader: glob({ pattern: '*.mdx', base: './src/content/evidence' }),
+  schema: z.object({
+    source: z.string(), // id in sources.yml; check-sources.mjs enforces existence + tier B
+    claim: z.string(),
+    design: z.string(),
+    population: z.string(),
+    effect: z.string(),
+    certainty: z.enum(['high', 'moderate', 'low', 'very-low']),
+    caveats: z.string(),
+  }),
+});
+
+export const collections = { articles, evidence };

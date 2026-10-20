@@ -1,0 +1,41 @@
+---
+import { getCollection } from 'astro:content';
+import { parse } from 'yaml';
+import Base from '../../layouts/Base.astro';
+import raw from '../../content/sources/sources.yml?raw';
+
+const sources = parse(raw) ?? {};
+const levels = ['high', 'moderate', 'low', 'very-low'] as const;
+const cards = await getCollection('evidence');
+---
+<Base title="Evidence">
+  <main class="evidence-index">
+    <p class="crumb"><a href="/">Spine Academy</a> › evidence</p>
+    <h1>Evidence cards</h1>
+    <p>One card per open-access primary source, grouped by certainty of the headline claim.</p>
+    {levels.map((level) => {
+      const group = cards.filter((c) => c.data.certainty === level);
+      return group.length === 0 ? null : (
+        <section>
+          <h2 class="certainty">{level.replace('-', ' ')} certainty</h2>
+          <ul>{group.map((c) => {
+            const s = sources[c.data.source];
+            return (
+              <li id={c.id}>
+                <strong>{c.data.claim}</strong><br />
+                <small>{c.data.design} · {c.data.population} · {c.data.effect}</small><br />
+                <small><a href={s.url}>{s.author ? `${s.author} ` : ''}({s.year}). {s.title}</a></small>
+              </li>
+            );
+          })}</ul>
+        </section>
+      );
+    })}
+  </main>
+</Base>
+<style>
+  .evidence-index { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+  .crumb { color: #6b7280; font-size: 0.9rem; }
+  .certainty { text-transform: capitalize; }
+  li { margin-bottom: 1rem; }
+</style>
