@@ -1,0 +1,79 @@
+---
+title: "Deadlift and squat spinal loads"
+track: biomechanics
+order: 6
+kc: concept
+summary: Models of heavy deadlifting put lumbar compression somewhere between 5 and 18 kN and anterior shear between 1.3 and 3.2 kN. Those are model outputs, not measurements, they vary widely between studies, and no biomechanics study of repetitive deadlifting exists, so nothing tells you how those loads add up across a training block.
+sources: [deadlift-loads-2022, adams-dolan, biomechanics-human-movement, openstax-ap-2e]
+status: published
+---
+
+<Lede>Models of heavy deadlifting put lumbar compression somewhere between 5 and 18 kN and anterior shear between 1.3 and 3.2 kN. Those are model outputs, not measurements, they vary widely between studies, and no biomechanics study of repetitive deadlifting exists, so nothing tells you how those loads add up across a training block.</Lede>
+
+## Where the numbers come from
+
+Nobody puts a force gauge inside a lifter's L5-S1 disc. Spinal loads during a lift are estimated: a laboratory measures the bar, the lifter's joint angles and the ground reaction force, then a musculoskeletal model works backwards to the muscle forces that must have been present and sums them, with gravity, into compression and shear at the lumbar joints <Source id="biomechanics-human-movement" />. The 2022 narrative review that gathers these studies for the deadlift reports peak lumbar compression in the range of roughly 5 to 18 kN and anterior shear in the range of roughly 1.3 to 3.2 kN <Source id="deadlift-loads-2022" />.
+
+<Evidence id="deadlift-loads-2022" />
+
+The width of the compression range is the first thing to notice. A 5 kN estimate and an 18 kN estimate are not describing the same event, and the difference comes from the barbell load, the lifter's size, the style of pull, and the assumptions baked into each model about how many muscles act and at what lever arms. The numbers are useful for scale, not for precision.
+
+## Why compression is so much larger than the bar
+
+A 200 kg bar weighs about 2 kN. Modelled compression of several times that comes from the mechanism the [torque article](/learn/biomechanics/torque-and-moment-arms/) describes. The bar sits in front of the spine, so it creates a flexion moment that the <Structure id="FMA22702">erector spinae</Structure> and the hip extensors must cancel. Those muscles work on short lever arms close to the spine, so they have to pull with forces several times the bar load, and every newton of muscle force along the spine's axis becomes compression at the disc <Source id="openstax-ap-2e">ch. 10</Source>. Compression therefore scales with two things the lifter influences: the bar load and the horizontal distance between bar and spine.
+
+Anterior shear is the component of the load that tries to slide the upper vertebra forward on the lower one. It comes mostly from the forward lean of the trunk and from the direction the extensor muscles pull. The facet joints and the posterior fibres of the extensors resist it, as the [facet joints article](/learn/anatomy/facet-joints/) explains, which is why the shear estimates are an order of magnitude smaller than the compression ones.
+
+## Squats, briefly
+
+The review is about the deadlift, and the squat literature is thinner. The same mechanism applies: a bar on the back creates a flexion moment proportional to how far the trunk leans, and compression follows muscle force. Low-bar and more horizontal squat styles push the trunk forward and raise the lumbar moment; high-bar and more upright styles shift load toward the knees. A heavy back squat sits in the same order of magnitude as a deadlift of similar load, with the exact figure depending on the same model choices. Treat any single squat compression number you read with the same scepticism as a deadlift one.
+
+## How trained spines carry these loads
+
+Cadaveric lumbar segments fail under compression at loads that overlap with the lower end of the deadlift range <Source id="adams-dolan" />. Trained lifters pull at the upper end of it, repeatedly, for years, without their spines failing. The gap is adaptation. Vertebral bone, the endplate and the disc respond to habitual loading, and a specimen from a cadaver reflects neither a lifter's bone density nor the muscular positioning that a living spine uses to share load across the segment. The cadaveric thresholds and the modelled lift loads are not on the same scale and should not be compared directly, a point the [flexion-compression article](/learn/biomechanics/flexion-compression/) makes from the other direction.
+
+## What nobody has measured
+
+The review states plainly that no biomechanics studies of repetitive deadlifting exist. Every estimate above is a single peak during a single rep. There is no study of how lumbar load behaves across a set of five, across three sets, across a session with squats done first, or across a six-week block, and there is no study of how fatigue in the trunk muscles changes the shear and compression split late in a set. The training-science track's advice about volume, deloads and workload spikes comes from injury and performance data, not from spinal load measurements, because the spinal load measurements do not exist.
+
+That gap should make you suspicious of anyone who quotes a precise per-session "spinal load budget." It cannot have been measured.
+
+## What this means in the gym
+
+- **Keep the bar close.** The one lever the lifter controls directly is the horizontal distance to the spine, and it scales compression.
+- **The numbers are large and that is normal.** Trained spines routinely carry loads that look alarming next to cadaveric failure data. The comparison is wrong, not the lifting.
+- **Progress load gradually.** Because adaptation is what closes the gap between specimen and lifter, the rate of loading matters more than any single absolute number.
+- **Manage accumulation by feel and log, not by kN.** No one can tell you how the loads add up across a block. The [plan](/plan/) uses next-day verdicts, RPE caps and deloads for exactly that reason.
+
+## Key points
+
+<KeyList>
+
+1. **Deadlift lumbar loads are modelled, not measured.** Inverse dynamics and musculoskeletal models estimate them from external measurements.
+2. **Compression roughly 5 to 18 kN, anterior shear roughly 1.3 to 3.2 kN.** The ranges are wide because of load, lifter size, technique and model assumptions.
+3. **Compression scales with bar load and horizontal distance.** The extensors pay for the bar's lever with muscle force along the spine.
+4. **Trained tissue adapts.** Cadaveric failure thresholds and in-vivo lift loads are not directly comparable.
+5. **No repetitive-deadlift biomechanics exist.** Nothing in the literature describes how spinal loads accumulate across sets, sessions or blocks.
+
+</KeyList>
+
+<Check kind="concept">
+Why can a 2 kN barbell produce modelled lumbar compression of 10 kN or more during a deadlift?
+<Fragment slot="answer">
+The bar sits in front of the spine and creates a flexion moment; the extensors cancel it on short lever arms and must pull with several times the bar's force, and that muscle force compresses the disc. Why it matters: horizontal bar distance, which the lifter controls, is a direct multiplier of spinal compression.
+</Fragment>
+</Check>
+
+<Check kind="apply">
+A coach quotes a precise weekly "spinal compression budget" in kilonewtons for a block of deadlifts. What does the literature allow you to say about that number?
+<Fragment slot="answer">
+The published loads are single-rep peak estimates from models, with wide between-study ranges, and no biomechanics study of repetitive deadlifting exists, so no measured basis for a cumulative budget is available. Why it matters: accumulation has to be managed with training-science tools such as logs, RPE caps and deloads rather than invented load totals.
+</Fragment>
+</Check>
+
+<Check kind="recall">
+What if someone compares an 18 kN modelled deadlift compression against cadaveric lumbar failure loads and concludes heavy deadlifts must be damaging the spine? What is wrong with the comparison?
+<Fragment slot="answer">
+Cadaveric specimens lack the bone density, disc adaptation and muscular load-sharing of a living trained spine, and the model outputs carry large assumptions of their own, so the two figures are not on a comparable scale. Why it matters: trained lifters tolerate those loads routinely, which is evidence of adaptation rather than of a measurement error.
+</Fragment>
+</Check>
