@@ -1,4 +1,4 @@
-# Spine Academy
+# Spinal Tap
 
 A static learning site about the lumbar spine for people who lift: anatomy, biomechanics, pathology terminology, pain science, rehab evidence, training science and self-coaching. Articles are MDX with inline source citations, evidence cards summarising open-access studies, an embedded 3D human atlas, a worked return-to-lifting plan, and spaced-repetition review of each article's checks.
 

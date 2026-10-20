@@ -25,7 +25,7 @@ export default function Home(){
  const lumbar=useMemo(()=>atlas?LUMBAR_PRESET.flatMap(id=>atlas.concepts.find(c=>c.id===id)?.elements??[]):[],[atlas]);
  const choose=(c:Concept)=>{setChosen(c);setState(s=>({...s,selected:c.elements,isolate:false,rotate:false}));setDetails(true);setPanel(null);};
  useEffect(()=>{if(!atlas)return;return registerAtlasTools(atlas,c=>flushSync(()=>choose(c)));},[atlas]);
- // ponytail: ?focus=<concept id|name> deep-links a structure (used by the Spine Academy <Structure> component); unknown values are ignored.
+ // ponytail: ?focus=<concept id|name> deep-links a structure (used by the Spinal Tap <Structure> component); unknown values are ignored.
  useEffect(()=>{if(!atlas)return;const focus=new URLSearchParams(location.search).get('focus');if(!focus)return;const c=atlas.concepts.find(x=>x.id===focus||x.name.toLowerCase()===focus.toLowerCase());if(!c)return;choose(c);setState(s=>({...s,isolate:true}));},[atlas]);
  const choosePart=(id:string)=>{const p=parts.get(id);if(!p)return;setChosen({id:p.conceptId,name:p.name,elements:[id]});setState(s=>({...s,selected:[id],isolate:false,rotate:false}));setDetails(true);setPanel(null);};
  const toggle=(id:SystemId)=>{setDetails(false);setState(s=>({...s,selected:[],isolate:false,visible:s.visible.includes(id)?s.visible.filter(x=>x!==id):[...s.visible,id]}));};

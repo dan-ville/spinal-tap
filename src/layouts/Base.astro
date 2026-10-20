@@ -8,10 +8,10 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title} · Spine Academy</title>
+    <title>{title} · Spinal Tap</title>
   </head>
   <body>
-    <nav class="site-nav" aria-label="Site"><a href="/">Spine Academy</a> · <a href="/plan/">Plan</a> · <a href="/evidence/">Evidence</a> · <a href="/atlas/">Atlas</a> · <a href="/review/">Review</a> · <a href="/search/">Search</a></nav>
+    <nav class="site-nav" aria-label="Site"><a href="/">Spinal Tap</a> · <a href="/plan/">Plan</a> · <a href="/evidence/">Evidence</a> · <a href="/atlas/">Atlas</a> · <a href="/review/">Review</a> · <a href="/search/">Search</a></nav>
     <!-- ponytail: data-pagefind-body scopes the index to Base-rendered pages; the atlas fork's app.html has none, so it is excluded -->
     <div data-pagefind-body><slot /></div>
     <footer class="site-footer">
@@ -21,7 +21,7 @@ const { title } = Astro.props;
         Prose <a href="/LICENSE-content.md">CC BY-SA 4.0</a> ·
         BodyParts3D data <a href="/ATTRIBUTION.md">CC BY 4.0</a>
       </p>
-      <p>Spine Academy teaches; it does not diagnose or replace a clinician.</p>
+      <p>Spinal Tap teaches; it does not diagnose or replace a clinician.</p>
     </footer>
   </body>
 </html>

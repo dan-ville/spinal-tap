@@ -1,6 +1,6 @@
 # Contributing
 
-Spine Academy teaches; it does not diagnose. These rules come from `docs/plan.md` §8 and are not negotiable. Pull requests that break one will be sent back.
+Spinal Tap teaches; it does not diagnose. These rules come from `docs/plan.md` §8 and are not negotiable. Pull requests that break one will be sent back.
 
 ## Hard content rules
 

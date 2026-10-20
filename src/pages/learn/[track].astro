@@ -11,7 +11,7 @@ const articles = (await getCollection('articles', (a) => a.data.track === track 
 ---
 <Base title={track}>
   <main class="track-index">
-    <p class="crumb"><a href="/">Spine Academy</a> › {track}</p>
+    <p class="crumb"><a href="/">Spinal Tap</a> › {track}</p>
     <h1>{track}</h1>
     {articles.length === 0 ? <p>No articles published yet.</p> : (
       <ol>{articles.map((a) => <li><a href={`/learn/${a.id}/`}>{a.data.title}</a> — {a.data.summary}</li>)}</ol>

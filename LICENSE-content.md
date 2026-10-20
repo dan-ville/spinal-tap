@@ -1,10 +1,10 @@
 # Content licence
 
-The prose of Spine Academy (every article, evidence card and plan page under
+The prose of Spinal Tap (every article, evidence card and plan page under
 `src/content` and `src/pages`) is licensed under the
 [Creative Commons Attribution-ShareAlike 4.0 International licence (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/).
 You may copy, adapt and redistribute it, including commercially, provided you
-credit Spine Academy, link to the licence, and release derivatives under the
+credit Spinal Tap, link to the licence, and release derivatives under the
 same terms.
 
 Site code is MIT (see [LICENSE](LICENSE)). The 3D atlas and its BodyParts3D
