@@ -25,13 +25,13 @@ if (!src) throw new Error(`Evidence "${id}": unknown source id "${d.source}"`);
   <p class="cite"><a href={src.url}>{src.author ? `${src.author} ` : ''}({src.year}). {src.title}</a> · <a href={`/evidence/#${id}`}>all cards</a></p>
 </aside>
 <style>
-  .evidence { border-left: 4px solid #6366f1; background: #f5f5ff; padding: 0.75rem 1rem; margin: 1.5rem 0; font-size: 0.95rem; }
-  .evidence[data-certainty="high"] { border-color: #16a34a; }
-  .evidence[data-certainty="moderate"] { border-color: #ca8a04; }
-  .evidence[data-certainty="low"], .evidence[data-certainty="very-low"] { border-color: #dc2626; }
-  .claim { margin: 0 0 0.5rem; }
+  .evidence { border: 1px solid var(--border-2); border-left: 3px solid var(--blue); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); padding: 16px 20px; margin: 1.75rem 0; font-size: 0.9375rem; }
+  .evidence[data-certainty="high"] { border-left-color: var(--brand-deep); }
+  .evidence[data-certainty="moderate"] { border-left-color: var(--amber); }
+  .evidence[data-certainty="low"], .evidence[data-certainty="very-low"] { border-left-color: var(--red); }
+  .claim { margin: 0 0 10px; color: var(--text); font-weight: 500; }
   dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.15rem 0.75rem; margin: 0; }
-  dt { color: #6b7280; }
+  dt { font: 500 0.75rem/1.9 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
   dd { margin: 0; }
   .certainty { text-transform: capitalize; }
   .cite { margin: 0.5rem 0 0; font-size: 0.85rem; }

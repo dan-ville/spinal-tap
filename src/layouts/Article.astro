@@ -26,7 +26,7 @@ const resolved = sources.map((id) => {
 ---
 <Base title={title}>
     <main class="article">
-      <p class="track"><a href="/">Spinal Tap</a> › {track}</p>
+      <p class="track"><a href="/">Spinal Tap</a> › <a href={`/learn/${track}/`}>{track.replace('-', ' ')}</a></p>
       <h1>{title}</h1>
       <slot name="lede" />
       {track === 'rehab' && <Disclaimer />}
@@ -49,15 +49,3 @@ const resolved = sources.map((id) => {
       </nav>
     </main>
 </Base>
-<style is:global>
-  .article { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
-  .track { text-transform: capitalize; color: #6b7280; font-size: 0.9rem; }
-  .lede { font-size: 1.25rem; color: #374151; }
-  .toc { border-left: 3px solid #e5e7eb; padding-left: 1rem; margin: 1.5rem 0; font-size: 0.95rem; }
-  .toc ol { list-style: none; padding: 0; margin: 0; }
-  .toc .d3 { padding-left: 1rem; }
-  .sources li { margin-bottom: 0.25rem; }
-  .tier { font-size: 0.8rem; color: #6b7280; }
-  .prevnext { display: flex; justify-content: space-between; gap: 1rem; margin-top: 2rem; border-top: 1px solid #e5e7eb; padding-top: 1rem; }
-  .prevnext a[rel="next"] { margin-left: auto; }
-</style>

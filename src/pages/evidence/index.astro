@@ -12,18 +12,18 @@ const cards = await getCollection('evidence');
   <main class="evidence-index">
     <p class="crumb"><a href="/">Spinal Tap</a> › evidence</p>
     <h1>Evidence cards</h1>
-    <p>One card per open-access primary source, grouped by certainty of the headline claim.</p>
+    <p class="lede">One card per open-access primary source, grouped by certainty of the headline claim.</p>
     {levels.map((level) => {
       const group = cards.filter((c) => c.data.certainty === level);
       return group.length === 0 ? null : (
         <section>
-          <h2 class="certainty">{level.replace('-', ' ')} certainty</h2>
-          <ul>{group.map((c) => {
+          <h2 class="certainty" data-level={level}>{level.replace('-', ' ')} certainty</h2>
+          <ul class="cards">{group.map((c) => {
             const s = sources[c.data.source];
             return (
-              <li id={c.id}>
-                <strong>{c.data.claim}</strong><br />
-                <small>{c.data.design} · {c.data.population} · {c.data.effect}</small><br />
+              <li id={c.id} class="card">
+                <strong>{c.data.claim}</strong>
+                <p>{c.data.design} · {c.data.population} · {c.data.effect}</p>
                 <small><a href={s.url}>{s.author ? `${s.author} ` : ''}({s.year}). {s.title}</a></small>
               </li>
             );
@@ -34,8 +34,12 @@ const cards = await getCollection('evidence');
   </main>
 </Base>
 <style>
-  .evidence-index { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
-  .crumb { color: #6b7280; font-size: 0.9rem; }
-  .certainty { text-transform: capitalize; }
-  li { margin-bottom: 1rem; }
+  .certainty { text-transform: capitalize; display: flex; align-items: center; gap: 10px; }
+  .certainty::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--red); }
+  .certainty[data-level='high']::before { background: var(--brand); }
+  .certainty[data-level='moderate']::before { background: var(--amber); }
+  .cards { list-style: none; padding: 0; display: grid; gap: 12px; }
+  .cards strong { display: block; font-size: 1.0625rem; line-height: 1.45; }
+  .cards p { margin: 8px 0; font-size: 0.875rem; color: var(--muted); }
+  .cards small { font-size: 0.8125rem; }
 </style>

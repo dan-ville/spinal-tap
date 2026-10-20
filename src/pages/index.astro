@@ -16,27 +16,46 @@ const published = (await getCollection('articles', (a) => a.data.status === 'pub
 const count = (track: string) => published.filter((a) => a.data.track === track).length;
 ---
 <Base title="Home">
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="badge">Open source · Lumbar spine</span>
+      <h1>Understand your back.<br />Then load it.</h1>
+      <p class="lede">Free lumbar-spine anatomy, pain science, rehab and strength programming for the motivated non-clinician.</p>
+      <p class="ctas">
+        <a class="btn btn-primary" href="/learn/anatomy/">Start with anatomy</a>
+        <a class="btn" href="/plan/">The rehab-to-performance plan</a>
+        <a class="btn" href="/atlas/">3D atlas</a>
+      </p>
+    </div>
+  </section>
   <main class="home">
-    <h1>Spinal Tap</h1>
-    <p class="lede">Free, open-source lumbar-spine anatomy, pain science, rehab and strength programming for the motivated non-clinician.</p>
-    <p class="nav"><a href="/plan/">The rehab-to-performance plan</a> · <a href="/evidence/">Evidence cards</a> · <a href="/atlas/">3D atlas</a> · <a href="/review/">Review</a></p>
+    <p class="label">Tracks</p>
     <ul class="tracks">
-      {tracks.map(([id, name, blurb]) => (
-        <li>
+      {tracks.map(([id, name, blurb], i) => (
+        <li class="card">
+          <span class="num">{String(i + 1).padStart(2, '0')}</span>
           <a href={`/learn/${id}/`}>{name}</a>
-          <span class="count">{count(id)} {count(id) === 1 ? 'article' : 'articles'}</span>
           <p>{blurb}</p>
+          <span class="count">{count(id)} {count(id) === 1 ? 'article' : 'articles'}</span>
         </li>
       ))}
     </ul>
   </main>
 </Base>
 <style>
-  .home { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
-  .lede { font-size: 1.25rem; color: #374151; }
-  .tracks { list-style: none; padding: 0; display: grid; gap: 1rem; }
-  .tracks li { border: 1px solid #e5e7eb; border-radius: 0.5rem; padding: 1rem; }
-  .tracks a { font-weight: 600; font-size: 1.1rem; }
-  .tracks p { margin: 0.25rem 0 0; color: #4b5563; }
-  .count { margin-left: 0.5rem; font-size: 0.85rem; color: #6b7280; }
+  .hero { background: var(--hero-wash); border-bottom: 1px solid var(--border); }
+  .hero-inner { max-width: 72rem; margin: 0 auto; padding: 96px 24px 72px; }
+  .hero h1 { font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.1; letter-spacing: -1.28px; margin: 20px 0 16px; }
+  .hero .lede { max-width: 36rem; font-size: 1.125rem; }
+  .ctas { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
+  .home { max-width: 72rem; }
+  .tracks { list-style: none; padding: 0; margin: 12px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 16px; }
+  .tracks li { position: relative; display: flex; flex-direction: column; gap: 6px; transition: border-color 0.15s; }
+  .tracks li:hover { border-color: var(--brand); }
+  .num { font: 500 0.75rem/1.5 var(--mono); color: var(--brand-deep); }
+  .tracks a { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.2px; text-decoration: none; }
+  .tracks a::after { content: ''; position: absolute; inset: 0; border-radius: inherit; } /* whole card clickable */
+  .tracks p { margin: 0; font-size: 0.9375rem; color: var(--muted); flex: 1; }
+  .count { margin-top: 10px; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--faint); }
+  @media (max-width: 640px) { .hero-inner { padding: 56px 16px 48px; } }
 </style>

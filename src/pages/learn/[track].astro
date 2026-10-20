@@ -14,12 +14,17 @@ const articles = (await getCollection('articles', (a) => a.data.track === track 
     <p class="crumb"><a href="/">Spinal Tap</a> › {track}</p>
     <h1>{track}</h1>
     {articles.length === 0 ? <p>No articles published yet.</p> : (
-      <ol>{articles.map((a) => <li><a href={`/learn/${a.id}/`}>{a.data.title}</a> — {a.data.summary}</li>)}</ol>
+      <ol class="list">{articles.map((a) => <li class="card"><a href={`/learn/${a.id}/`}>{a.data.title}</a><p>{a.data.summary}</p></li>)}</ol>
     )}
   </main>
 </Base>
 <style>
-  .track-index { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
-  .crumb { color: #6b7280; font-size: 0.9rem; text-transform: capitalize; }
   h1 { text-transform: capitalize; }
+  .list { list-style: none; padding: 0; display: grid; gap: 12px; counter-reset: a; }
+  .list li { position: relative; counter-increment: a; padding-left: 64px; transition: border-color 0.15s; }
+  .list li:hover { border-color: var(--brand); }
+  .list li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 24px; top: 26px; font: 600 0.8125rem/1.5 var(--mono); color: var(--brand-deep); }
+  .list a { font-weight: 600; font-size: 1.125rem; text-decoration: none; }
+  .list a::after { content: ''; position: absolute; inset: 0; }
+  .list p { margin: 4px 0 0; font-size: 0.9375rem; color: var(--muted); }
 </style>

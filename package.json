@@ -6,6 +6,7 @@
     "node": ">=22.0.0"
   },
   "scripts": {
+    "predev": "test -f public/atlas/app.html || ((test -d atlas/node_modules || npm --prefix atlas ci) && npm run build:atlas)",
     "dev": "astro dev",
     "build": "npm run build:atlas && astro build && pagefind --site dist",
     "preview": "astro preview",

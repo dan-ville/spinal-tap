@@ -108,14 +108,11 @@ for (const a of articles) {
 </script>
 
 <style>
-  .review { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
-  .crumb { color: #6b7280; font-size: 0.9rem; }
-  .count { color: #6b7280; font-weight: normal; font-size: 1rem; }
+  .count { font: 500 0.75rem/1.5 var(--mono); color: var(--muted); margin-left: 6px; }
+  #due { padding-left: 1.2rem; }
   #due li { margin-bottom: 0.75rem; }
-  #due li small { display: block; color: #6b7280; }
-  #due li[data-grade='incorrect'] a { color: #b91c1c; }
-  table { border-collapse: collapse; }
-  td, th { text-align: left; padding: 0.25rem 1rem 0.25rem 0; border-bottom: 1px solid #e5e7eb; }
+  #due li small { display: block; color: var(--muted); }
+  #due li[data-grade='incorrect'] a { color: var(--red); }
   .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
-  textarea { width: 100%; font-family: ui-monospace, monospace; }
+  textarea { font-family: var(--mono); font-size: 0.8125rem; }
 </style>

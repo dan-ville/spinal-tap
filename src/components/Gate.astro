@@ -28,6 +28,6 @@ const label = source ? `[${source}]` : `[${tag}]`;
 <style>
   .gate { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.35rem 0; }
   .gate input { margin: 0; }
-  .gate-tag { color: #6b7280; font-family: ui-monospace, monospace; font-size: 0.75rem; white-space: nowrap; }
-  .gate:has(input:checked) .gate-text { text-decoration: line-through; color: #6b7280; }
+  .gate-tag { white-space: nowrap; }
+  .gate:has(input:checked) .gate-text { text-decoration: line-through; color: var(--faint); }
 </style>
