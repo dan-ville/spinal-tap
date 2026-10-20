@@ -1,0 +1,441 @@
+# Source registry (plan §3). Every citation in src/content resolves here.
+# tier: A = copy and adapt (CC BY / public domain)
+#       B = open-access primary literature: summarise, cite, link
+#       C = free but not open-licensed: link and annotate, never copy
+# licence: SPDX-ish string, or "unconfirmed" (which forces tier C)
+
+# ---- Tier A ---------------------------------------------------------------
+
+openstax-ap-2e:
+  id: openstax-ap-2e
+  tier: A
+  title: "Anatomy and Physiology 2e"
+  author: OpenStax
+  year: 2022
+  url: https://openstax.org/details/books/anatomy-and-physiology-2e
+  licence: CC-BY-4.0
+  note: Source on GitHub under openstax/osbooks-anatomy-physiology. Ch. 7, 9, 10-11, 13.
+
+grays-1918:
+  id: grays-1918
+  tier: A
+  title: "Anatomy of the Human Body, 20th edition (Gray's Anatomy) plates"
+  author: Henry Gray; Henry Vandyke Carter (illustrations)
+  year: 1918
+  url: https://commons.wikimedia.org/wiki/Category:Gray%27s_Anatomy_plates
+  licence: public-domain
+
+wikimedia-anatomy:
+  id: wikimedia-anatomy
+  tier: A
+  title: "Wikimedia Commons anatomy illustrations and MRI/CT images"
+  year: 2026
+  url: https://commons.wikimedia.org/wiki/Category:Anatomy
+  licence: CC-BY-4.0 / CC-BY-SA-4.0 (per file; check each file page)
+
+shelton-exercise-science:
+  id: shelton-exercise-science
+  tier: A
+  title: "Introduction to Exercise Science for Fitness Professionals"
+  author: Shelton
+  year: 2021
+  url: https://pressbooks.pub/exercisescience/
+  licence: CC-BY-4.0
+
+biomechanics-human-movement:
+  id: biomechanics-human-movement
+  tier: A
+  title: "Biomechanics of Human Movement"
+  year: 2020
+  url: https://pressbooks.bccampus.ca/humanbiomechanics/
+  licence: CC-BY-4.0
+  note: Derived from OpenStax College Physics.
+
+bodyparts3d-4:
+  id: bodyparts3d-4
+  tier: A
+  title: "BodyParts3D 4.0"
+  author: Database Center for Life Science (DBCLS)
+  year: 2013
+  url: https://lifesciencedb.jp/bp3d/
+  licence: CC-BY-4.0
+  note: Used via the human-atlas fork in atlas/. Attribution in ATTRIBUTION.md.
+
+# ---- Tier B ---------------------------------------------------------------
+
+jospt-2021-lbp-cpg:
+  id: jospt-2021-lbp-cpg
+  tier: B
+  title: "Interventions for the Management of Acute and Chronic Low Back Pain: Revision 2021 (JOSPT clinical practice guideline)"
+  author: George SZ, Fritz JM, Silfies SP, et al.
+  year: 2021
+  url: https://europepmc.org/article/PMC/PMC10508241
+  pmcid: PMC10508241
+  doi: 10.2519/jospt.2021.0304
+  licence: open-access (JOSPT; PMC author manuscript)
+
+who-2023-clbp:
+  id: who-2023-clbp
+  tier: B
+  title: "WHO guideline for non-surgical management of chronic primary low back pain in adults in primary and community care settings"
+  author: World Health Organization
+  year: 2023
+  url: https://www.ncbi.nlm.nih.gov/books/NBK599212/
+  bookshelf: NBK599212
+  licence: CC-BY-NC-SA-3.0-IGO
+
+nice-ng59:
+  id: nice-ng59
+  tier: B
+  title: "Low back pain and sciatica in over 16s: assessment and management (NICE guideline NG59)"
+  author: National Institute for Health and Care Excellence
+  year: 2016
+  url: https://www.nice.org.uk/guidance/ng59
+  licence: NICE terms (free to read; verify surveillance update of July 2026 before citing recommendations)
+
+lancet-2018-lbp-series:
+  id: lancet-2018-lbp-series
+  tier: B
+  title: "Lancet Low Back Pain Series (3 papers): What low back pain is and why we need to pay attention; Prevention and treatment; Call for action"
+  author: Hartvigsen J, Foster NE, Buchbinder R, et al.
+  year: 2018
+  url: https://www.thelancet.com/series/low-back-pain
+  doi: 10.1016/S0140-6736(18)30480-X
+  licence: free-with-registration (not open licence; summarise and link only)
+
+kent-2023-restore:
+  id: kent-2023-restore
+  tier: B
+  title: "Cognitive functional therapy with or without movement sensor biofeedback versus usual care for chronic, disabling low back pain (RESTORE): a randomised, controlled, three-arm, parallel group, phase 3, clinical trial"
+  author: Kent P, Haines T, O'Sullivan P, et al.
+  year: 2023
+  url: https://doi.org/10.1016/S0140-6736(23)00441-5
+  doi: 10.1016/S0140-6736(23)00441-5
+  pmid: 37146623
+  licence: CC-BY-4.0
+
+owen-2020-bjsm-nma:
+  id: owen-2020-bjsm-nma
+  tier: B
+  title: "Which specific modes of exercise training are most effective for treating low back pain? Network meta-analysis"
+  author: Owen PJ, Miller CT, Mundell NL, et al.
+  year: 2020
+  url: https://doi.org/10.1136/bjsports-2019-100886
+  doi: 10.1136/bjsports-2019-100886
+  pmid: 31666220
+  licence: open-access (BJSM)
+
+tataryn-2021:
+  id: tataryn-2021
+  tier: B
+  title: "Posterior-Chain Resistance Training Compared to General Exercise and Walking Programmes for the Treatment of Chronic Low Back Pain in the General Population: A Systematic Review and Meta-Analysis"
+  author: Tataryn N, Simas V, Catterall T, Furness J, Keogh JWL
+  year: 2021
+  url: https://europepmc.org/article/MED/33683497
+  pmid: 33683497
+  pmcid: PMC7940464
+  doi: 10.1186/s40798-021-00306-w
+  licence: CC-BY-4.0
+
+hayden-2021-cochrane:
+  id: hayden-2021-cochrane
+  tier: B
+  title: "Exercise therapy for chronic low back pain (Cochrane Review)"
+  author: Hayden JA, Ellis J, Ogilvie R, Malmivaara A, van Tulder MW
+  year: 2021
+  url: https://doi.org/10.1002/14651858.CD009790.pub2
+  doi: 10.1002/14651858.CD009790.pub2
+  pmid: 34580864
+  licence: Cochrane (abstract and plain-language summary free; full text not open licence)
+
+brinjikji-2015-degeneration:
+  id: brinjikji-2015-degeneration
+  tier: B
+  title: "Systematic Literature Review of Imaging Features of Spinal Degeneration in Asymptomatic Populations"
+  author: Brinjikji W, Luetmer PH, Comstock B, et al.
+  year: 2015
+  url: https://europepmc.org/article/MED/25430861
+  pmid: 25430861
+  pmcid: PMC4464797
+  doi: 10.3174/ajnr.A4173
+  licence: open-access (AJNR; PMC author manuscript)
+
+brinjikji-2015-meta:
+  id: brinjikji-2015-meta
+  tier: B
+  title: "MRI Findings of Disc Degeneration are More Prevalent in Adults with Low Back Pain than in Asymptomatic Controls: A Systematic Review and Meta-Analysis"
+  author: Brinjikji W, Diehn FE, Jarvik JG, et al.
+  year: 2015
+  url: https://europepmc.org/article/MED/26359154
+  pmid: 26359154
+  pmcid: PMC7964277
+  doi: 10.3174/ajnr.A4498
+  licence: open-access (AJNR; PMC author manuscript)
+
+zhong-2017-resorption:
+  id: zhong-2017-resorption
+  tier: B
+  title: "Incidence of Spontaneous Resorption of Lumbar Disc Herniation: A Meta-Analysis"
+  author: Zhong M, Liu JT, Jiang H, et al.
+  year: 2017
+  url: https://pubmed.ncbi.nlm.nih.gov/28072796/
+  pmid: 28072796
+  licence: Pain Physician (free full text; not open licence)
+
+resorption-2025-review:
+  id: resorption-2025-review
+  tier: B
+  title: "Spontaneous regression of lumbar disc herniation: systematic review (2025)"
+  year: 2025
+  url: https://europepmc.org/article/PMC/PMC11820193
+  pmcid: PMC11820193
+  licence: open-access (PMC; confirm CC variant on the article page)
+
+sedrak-2021:
+  id: sedrak-2021
+  tier: B
+  title: "Return to Play After Symptomatic Lumbar Disc Herniation in Elite Athletes: A Systematic Review and Meta-analysis of Operative Versus Nonoperative Treatment"
+  author: Sedrak P, Shahbaz M, Gohal C, Madden K, Aleem I, Khan M
+  year: 2021
+  url: https://europepmc.org/article/PMC/PMC8404721
+  pmcid: PMC8404721
+  doi: 10.1177/1941738121991782
+  licence: open-access (PMC; Sports Health)
+
+overley-2016:
+  id: overley-2016
+  tier: B
+  title: "Return to Play in Elite Athletes After Lumbar Microdiscectomy: A Meta-analysis"
+  author: Overley SC, McAnany SJ, Andelman S, et al.
+  year: 2016
+  url: https://doi.org/10.1097/BRS.0000000000001325
+  doi: 10.1097/BRS.0000000000001325
+  pmid: 26571176
+  licence: Spine (abstract free; full text not open licence)
+
+belavy-2017:
+  id: belavy-2017
+  tier: B
+  title: "Running exercise strengthens the intervertebral disc"
+  author: Belavy DL, Quittner MJ, Ridgers N, Ling Y, Connell D, Rantalainen T
+  year: 2017
+  url: https://europepmc.org/article/PMC/PMC5396190
+  pmcid: PMC5396190
+  doi: 10.1038/srep45975
+  licence: CC-BY-4.0
+
+adams-dolan:
+  id: adams-dolan
+  tier: B
+  title: "Spine biomechanics (review): mechanisms of disc prolapse under flexion and compression"
+  author: Adams MA, Dolan P
+  year: 2005
+  url: https://doi.org/10.1016/j.jbiomech.2004.11.010
+  doi: 10.1016/j.jbiomech.2004.11.010
+  pmid: 16023463
+  licence: J Biomech (abstract free; full text not open licence)
+
+callaghan-mcgill:
+  id: callaghan-mcgill
+  tier: B
+  title: "Intervertebral disc herniation: studies on a porcine model exposed to highly repetitive flexion/extension motion with compressive force"
+  author: Callaghan JP, McGill SM
+  year: 2001
+  url: https://doi.org/10.1016/S0268-0033(00)00063-2
+  doi: 10.1016/S0268-0033(00)00063-2
+  pmid: 11114441
+  licence: Clin Biomech (abstract free; full text not open licence)
+
+mcgill-1999-endurance-norms:
+  id: mcgill-1999-endurance-norms
+  tier: B
+  title: "Endurance times for low back stabilization exercises: clinical targets for testing and training from a normal database"
+  author: McGill SM, Childs A, Liebenson C
+  year: 1999
+  url: https://doi.org/10.1016/S0003-9993(99)90087-4
+  doi: 10.1016/S0003-9993(99)90087-4
+  pmid: 10453772
+  licence: Arch Phys Med Rehabil (abstract free; full text not open licence)
+
+steele-2014-lumbar-extension:
+  id: steele-2014-lumbar-extension
+  tier: B
+  title: "A reappraisal of the deconditioning hypothesis in low back pain: review of evidence from a triumvirate of research methods on specific lumbar extensor deconditioning"
+  author: Steele J, Bruce-Low S, Smith D
+  year: 2014
+  url: https://doi.org/10.1185/03007995.2013.875465
+  doi: 10.1185/03007995.2013.875465
+  pmid: 24328452
+  licence: Curr Med Res Opin (abstract free; full text not open licence)
+
+schoenfeld-volume:
+  id: schoenfeld-volume
+  tier: B
+  title: "Dose-response relationship between weekly resistance training volume and increases in muscle mass: A systematic review and meta-analysis"
+  author: Schoenfeld BJ, Ogborn D, Krieger JW
+  year: 2017
+  url: https://doi.org/10.1080/02640414.2016.1210197
+  doi: 10.1080/02640414.2016.1210197
+  pmid: 27433992
+  licence: J Sports Sci (abstract free; full text not open licence)
+  note: Pair with Schoenfeld 2016 frequency meta-analysis (PMID 27102172) when frequency is the claim.
+
+helms-rpe-rir:
+  id: helms-rpe-rir
+  tier: B
+  title: "Application of the Repetitions in Reserve-Based Rating of Perceived Exertion Scale for Resistance Training"
+  author: Helms ER, Cronin J, Storey A, Zourdos MC
+  year: 2016
+  url: https://europepmc.org/article/PMC/PMC4961270
+  pmcid: PMC4961270
+  doi: 10.1519/SSC.0000000000000218
+  licence: open-access (PMC author manuscript)
+
+volume-landmarks:
+  id: volume-landmarks
+  tier: B
+  title: "Volume landmarks (MEV/MAV/MRV) as a programming model"
+  author: Israetel M, et al. (Renaissance Periodization)
+  year: 2017
+  url: https://rpstrength.com/blogs/articles/training-volume-landmarks-muscle-growth
+  licence: free-to-read (not open licence; present as a model, not a measurement)
+
+deadlift-loads-2022:
+  id: deadlift-loads-2022
+  tier: B
+  title: "Spinal loads during the deadlift: a narrative review (compression 5-18 kN, shear 1.3-3.2 kN)"
+  year: 2022
+  url: https://pubmed.ncbi.nlm.nih.gov/34875981/
+  pmid: 34875981
+  licence: open-access (confirm CC variant on the publisher page)
+
+louw-2016-pne:
+  id: louw-2016-pne
+  tier: B
+  title: "The efficacy of pain neuroscience education on musculoskeletal pain: A systematic review of the literature"
+  author: Louw A, Zimney K, Puentedura EJ, Diener I
+  year: 2016
+  url: https://doi.org/10.1080/09593985.2016.1194646
+  doi: 10.1080/09593985.2016.1194646
+  pmid: 27351541
+  licence: Physiother Theory Pract (abstract free; full text not open licence)
+
+moseley-butler-explain-pain:
+  id: moseley-butler-explain-pain
+  tier: B
+  title: "Fifteen Years of Explaining Pain: The Past, Present, and Future"
+  author: Moseley GL, Butler DS
+  year: 2015
+  url: https://doi.org/10.1016/j.jpain.2015.05.005
+  doi: 10.1016/j.jpain.2015.05.005
+  pmid: 26051220
+  licence: J Pain (abstract free; full text not open licence)
+
+# ---- Tier C ---------------------------------------------------------------
+
+physiopedia:
+  id: physiopedia
+  tier: C
+  title: "Physiopedia"
+  year: 2026
+  url: https://www.physio-pedia.com/
+  licence: unconfirmed (mixed per-page licences; link only)
+
+statpearls:
+  id: statpearls
+  tier: C
+  title: "StatPearls (NCBI Bookshelf)"
+  year: 2026
+  url: https://www.ncbi.nlm.nih.gov/books/NBK430685/
+  licence: CC-BY-NC-ND-4.0 (no derivatives; link only)
+
+teachmeanatomy:
+  id: teachmeanatomy
+  tier: C
+  title: "TeachMeAnatomy"
+  year: 2026
+  url: https://teachmeanatomy.info/
+  licence: all-rights-reserved
+
+radiopaedia:
+  id: radiopaedia
+  tier: C
+  title: "Radiopaedia"
+  year: 2026
+  url: https://radiopaedia.org/
+  licence: CC-BY-NC-SA-3.0 (non-commercial; link only)
+
+stronger-by-science:
+  id: stronger-by-science
+  tier: C
+  title: "Stronger By Science articles and free guides"
+  author: Nuckols G, et al.
+  year: 2026
+  url: https://www.strongerbyscience.com/
+  licence: all-rights-reserved
+
+barbell-medicine:
+  id: barbell-medicine
+  tier: C
+  title: "Barbell Medicine articles and podcast"
+  year: 2026
+  url: https://www.barbellmedicine.com/
+  licence: all-rights-reserved
+
+e3-rehab:
+  id: e3-rehab
+  tier: C
+  title: "E3 Rehab (YouTube and articles)"
+  year: 2026
+  url: https://e3rehab.com/
+  licence: all-rights-reserved
+
+physiotutors:
+  id: physiotutors
+  tier: C
+  title: "Physiotutors (YouTube)"
+  year: 2026
+  url: https://www.physiotutors.com/
+  licence: all-rights-reserved
+
+squat-university:
+  id: squat-university
+  tier: C
+  title: "Squat University"
+  author: Horschig A
+  year: 2026
+  url: https://squatuniversity.com/
+  licence: all-rights-reserved
+
+lehman-recovery-strategies:
+  id: lehman-recovery-strategies
+  tier: C
+  title: "Recovery Strategies: Pain Guidebook"
+  author: Lehman G
+  year: 2017
+  url: https://www.greglehman.ca/pain-science-workbooks
+  licence: free-download (not open licence; link only)
+
+prs-lifting-manual:
+  id: prs-lifting-manual
+  tier: C
+  title: "Progressive Rehab & Strength free lifting manual"
+  year: 2026
+  url: https://progressiverehabandstrength.com/
+  licence: all-rights-reserved
+
+mit-ocw:
+  id: mit-ocw
+  tier: C
+  title: "MIT OpenCourseWare"
+  year: 2026
+  url: https://ocw.mit.edu/
+  licence: CC-BY-NC-SA-4.0 (non-commercial; link only)
+
+nsca-acsm-position-stands:
+  id: nsca-acsm-position-stands
+  tier: C
+  title: "NSCA and ACSM position stands"
+  year: 2026
+  url: https://www.nsca.com/education/articles/position-statements/
+  licence: all-rights-reserved
