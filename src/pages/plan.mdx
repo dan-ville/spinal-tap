@@ -5,14 +5,13 @@ import Base from '../layouts/Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import Gate from '../components/Gate.astro';
 import Source from '../components/Source.astro';
-import Calc from '../components/Calc.astro';
 
 <Base title="Plan">
 <main>
 
 # Rehab-to-performance plan
 
-*Template v0. Gates, not calendars. Every number is a labelled opening position, replaced by your own measurements as your log fills. Your baselines and ticked gates stay in this browser's localStorage; nothing leaves your machine.*
+*Template v0. Gates, not calendars. Every number is a labelled opening position, replaced by your own measurements as your log fills. This page describes the plan; it stores nothing. To keep your own log, download the [tracker spreadsheet or printable log sheet](/templates/).*
 
 **This site teaches. It does not diagnose, clear a symptom, or replace a clinician.** Every rule below keys on load, volume, range and preparedness relative to your own history, never on "this movement is bad". If you have no clinical diagnosis and no imaging, the plan still works, and it says so where it matters. Read the red flags first; they end self-direction and go to a clinician the same day, at any phase.
 
@@ -20,7 +19,7 @@ import Calc from '../components/Calc.astro';
 
 ## How to read the gates
 
-Each gate is a checkbox. Tick it when your log shows it met, not when you feel it is. The tag after each gate names where the number comes from: a source id from the site registry, `[heuristic]` for a rule of thumb without a measured source, or `[proposed]` for an opening position you are expected to replace with your own data. Ticks persist in this browser only.
+Each phase ends in exit gates. A gate is met when your log shows it, not when you feel it is. The tag after each gate names where the number comes from: a source id from the site registry, `[heuristic]` for a rule of thumb without a measured source, or `[proposed]` for an opening position you are expected to replace with your own data. The [tracker spreadsheet](/templates/) has a sheet for marking gates met.
 
 ## Phase 0 — Baseline (2 weeks)
 
@@ -30,15 +29,13 @@ The point of Phase 0 is to turn guesses into a log. Nothing changes in training 
 - Daily check-in, training day or not: a morning stiffness test performed identically each day, anything felt below the glute (yes/no), hours slept, life stress, bodyweight.
 - McGill endurance battery: trunk flexor hold, Biering-Sørensen extensor hold, side bridge left and right. Record seconds and the ratios. <Source id="mcgill-1999-endurance-norms" />
 - Film squat, deadlift and RDL at working loads; compare monthly.
-
-Enter the four holds and the ratios and gate verdicts are computed for you; the same numbers decide the Phase 1 and Phase 2 ratio gates.
-
-<Calc kind="mcgill" />
 - Daily walking minutes.
+
+The four holds give three ratios: flexor/extensor, side bridge/extensor, and left/right side-bridge asymmetry. The same ratios decide the Phase 1 and Phase 2 ratio gates. The [tracker spreadsheet](/templates/) works them out from your hold times.
 
 **Exit gate**
 
-<Gate id="p0-checkins-14" tag="proposed">14 consecutive daily check-ins logged</Gate>
+<Gate phase={0} />
 
 ## Phase 1 — Capacity floor (4–8 weeks)
 
@@ -50,48 +47,35 @@ Enter the four holds and the ratios and gate verdicts are computed for you; the 
 
 **Exit gates**
 
-<Gate id="p1-ratio-flex-ext" source="mcgill-1999-endurance-norms">Flexor/extensor endurance ratio below 1.0</Gate>
-<Gate id="p1-ratio-bridge-ext" source="mcgill-1999-endurance-norms">Side bridge/extensor ratio about 0.75</Gate>
-<Gate id="p1-bridge-symmetry" source="mcgill-1999-endurance-norms">Left and right side bridge within 5% of each other</Gate>
-<Gate id="p1-clean-weeks-4" tag="heuristic">4 consecutive weeks without a bad next-day verdict</Gate>
-<Gate id="p1-rdl-1x-bw-8" tag="proposed">Pain-free RDL at 1.0× bodyweight for 8 reps</Gate>
-<Gate id="p1-suitcase-carry" tag="proposed">Suitcase carry at 0.5× bodyweight per hand for 30 m</Gate>
+<Gate phase={1} />
 
 ## Phase 2 — Progressive loading (8–16 weeks)
 
 - The deadlift returns to the floor via blocks: 4" → 2" → floor, one step per two clean weeks `[proposed]`.
 - Progression by double progression or APRE. Deload every 4–6 weeks: volume down 40–60%, intensity held `[proposed]`. <Source id="schoenfeld-volume" />
-- Bodyweight-multiple gates below are read off an estimated 1RM from a recent working set, never a tested max `[proposed]`.
-
-<Calc kind="e1rm" />
+- Bodyweight-multiple gates below are read off an estimated 1RM from a recent working set, never a tested max `[proposed]`. The [tracker spreadsheet](/templates/) computes Epley e1RM on every logged set.
 
 - A separate weekly axial hard-set budget. The spike guard is your trailing-30-day single-session maximum, not an acute:chronic workload ratio, which does not hold up `[contested]`.
 
 **Exit gates**
 
-<Gate id="p2-deadlift-1-5x-bw-5" tag="proposed">Deadlift from the floor at 1.5× bodyweight for 5 at RPE ≤ 8 with no yellow verdict</Gate>
-<Gate id="p2-squat-1-5x-bw-5" tag="proposed">Squat at 1.5× bodyweight for 5</Gate>
-<Gate id="p2-clean-weeks-8" tag="heuristic">8 consecutive clean weeks</Gate>
-<Gate id="p2-ratios-held" source="mcgill-1999-endurance-norms">Endurance ratios held at the monthly retest</Gate>
+<Gate phase={2} />
 
 ## Phase 3 — Strength build (6–12 months)
 
 - Block periodization: accumulation → intensification → realization, one block of 4–6 weeks each `[proposed]`. <Source id="schoenfeld-volume" /> Deloads and the hard-set budget from Phase 2 carry over unchanged.
 - Strongman implements enter as regressed variants first: yoke walk before yoke-and-turn, sandbag to lap before sandbag over bar, stone to a high platform before a low one `[heuristic]`. Each new implement starts at the bottom of the regression rule and earns its range, moment arm and load in that order.
-- Marker toward elite: a powerlifting DOTS around 450 is roughly the top 1% of competitive open entries `[heuristic]`. Treat it as approximate and multi-year, not a gate. Enter a total and bodyweight below to see where you sit.
-
-<Calc kind="dots" />
+- Marker toward elite: a powerlifting DOTS around 450 is roughly the top 1% of competitive open entries `[heuristic]`. Treat it as approximate and multi-year, not a gate. The [tracker spreadsheet](/templates/) computes DOTS from a total and bodyweight.
 
 **Exit gates**
 
-<Gate id="p3-first-competition" tag="proposed">First competition entered and completed</Gate>
-<Gate id="p3-clean-blocks-3" tag="heuristic">3 consecutive injury-free blocks</Gate>
+<Gate phase={3} />
 
 ## Phase 4 — Performance (ongoing)
 
 Meet prep, peaking and event-specific loading. The rules never retire; the ceilings rise. The red-flag screen, the daily check-in, the regression rule and the hard-set budget all stay exactly as written in Phases 0–2. No exit gate: this phase is the plan running as designed.
 
-<Gate id="p4-monthly-screen" tag="proposed">Red-flag screen and McGill retest repeated monthly, logged</Gate>
+<Gate phase={4} />
 
 ## Standing note
 

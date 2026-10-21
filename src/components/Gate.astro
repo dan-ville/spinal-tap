@@ -1,33 +1,27 @@
 ---
-// A plan gate (docs/plan.md §4): a checkbox whose state persists in localStorage under `gate:<id>`.
-// Every gate must carry a stable `id` and either a `source` id from sources.yml or a `tag` of
-// heuristic | proposed — scripts/check-plan.mjs fails the build otherwise.
-//   <Gate id="p1-ratio-fe" source="mcgill-1999-endurance-norms">Flexor/extensor ratio below 1.0</Gate>
-//   <Gate id="p1-clean-weeks" tag="heuristic">4 consecutive weeks without a bad verdict</Gate>
-interface Props { id: string; source?: string; tag?: 'heuristic' | 'proposed' }
-const { id, source, tag } = Astro.props;
-const label = source ? `[${source}]` : `[${tag}]`;
+// A plan phase's exit gates (docs/plan.md §4), read from src/data/gates.yml. Read-only: readers track
+// gates in the downloadable tracker (/templates/), whose Gates sheet is generated from the same file.
+//   <Gate phase={1} />
+// Each gate shows its provenance: a source id from sources.yml, or [heuristic] / [proposed].
+import { parse } from 'yaml';
+import raw from '../data/gates.yml?raw';
+interface Gate { phase: number; id: string; text: string; source?: string; tag?: 'heuristic' | 'proposed' }
+interface Props { phase: number }
+const { phase } = Astro.props;
+const gates = (parse(raw) as Gate[]).filter((g) => g.phase === phase);
 ---
-<label class="gate" id={id}>
-  <input type="checkbox" data-gate={id} />
-  <span class="gate-text"><slot /></span>
-  <small class="gate-tag" title={source ? 'source id in sources.yml' : 'no measured source; a labelled opening position'}>{label}</small>
-</label>
-
-<script>
-  // ponytail: one delegated listener for every gate on the page; Astro dedupes this script.
-  const key = (id: string) => `gate:${id}`;
-  for (const box of document.querySelectorAll<HTMLInputElement>('input[data-gate]'))
-    box.checked = localStorage.getItem(key(box.dataset.gate!)) === '1';
-  document.addEventListener('change', (e) => {
-    const box = e.target as HTMLInputElement;
-    if (box.dataset.gate) localStorage.setItem(key(box.dataset.gate), box.checked ? '1' : '0');
-  });
-</script>
+<ul class="gates">
+  {gates.map((g) => (
+    <li id={g.id}>
+      <span class="gate-text">{g.text}</span>
+      <small class="gate-tag" title={g.source ? 'source id in sources.yml' : 'no measured source; a labelled opening position'}>{g.source ? `[${g.source}]` : `[${g.tag}]`}</small>
+    </li>
+  ))}
+</ul>
 
 <style>
-  .gate { display: flex; gap: 0.6rem; align-items: baseline; padding: 0.35rem 0; }
-  .gate input { margin: 0; }
-  .gate-tag { white-space: nowrap; }
-  .gate:has(input:checked) .gate-text { text-decoration: line-through; color: var(--faint); }
+  .gates { list-style: none; padding: 0; margin: 0.75rem 0 1.5rem; }
+  .gates li { position: relative; display: grid; padding: 0.35rem 0 0.35rem 1.4rem; }
+  .gates li::before { content: ''; position: absolute; left: 0.2rem; top: 0.85rem; width: 0.45rem; height: 0.45rem; background: var(--brand); border-radius: 50%; }
+  .gate-tag { overflow-wrap: anywhere; }
 </style>

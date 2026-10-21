@@ -31,6 +31,9 @@ const evidence = defineCollection({
     population: z.string(),
     effect: z.string(),
     certainty: z.enum(['high', 'moderate', 'low', 'very-low']),
+    // topic and kind drive grouping and filtering on /evidence/
+    topic: z.enum(['treatment', 'imaging', 'biomechanics', 'pain-science', 'training', 'return-to-sport']),
+    kind: z.enum(['guideline', 'systematic-review', 'rct', 'observational', 'lab', 'narrative']),
     caveats: z.string(),
   }),
 });

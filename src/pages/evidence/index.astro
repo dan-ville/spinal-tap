@@ -1,4 +1,6 @@
 ---
+// /evidence — every evidence card, grouped by topic. Each row shows certainty, study type and year at a
+// glance; details expand in place. Filters are progressive: without JS every card is listed.
 import { getCollection } from 'astro:content';
 import { parse } from 'yaml';
 import Base from '../../layouts/Base.astro';
@@ -6,40 +8,160 @@ import raw from '../../content/sources/sources.yml?raw';
 
 const sources = parse(raw) ?? {};
 const levels = ['high', 'moderate', 'low', 'very-low'] as const;
-const cards = await getCollection('evidence');
+const levelName = { high: 'High', moderate: 'Moderate', low: 'Low', 'very-low': 'Very low' } as const;
+const topics = [
+  ['treatment', 'Treatment and care'],
+  ['imaging', 'Imaging and natural history'],
+  ['biomechanics', 'Biomechanics'],
+  ['pain-science', 'Pain science'],
+  ['training', 'Training'],
+  ['return-to-sport', 'Return to sport'],
+] as const;
+const kindName = {
+  guideline: 'Guideline', 'systematic-review': 'Systematic review', rct: 'RCT',
+  observational: 'Observational', lab: 'Lab study', narrative: 'Narrative review',
+} as const;
+const rank = (l: string) => levels.indexOf(l as (typeof levels)[number]);
+const cards = (await getCollection('evidence')).sort((a, b) => rank(a.data.certainty) - rank(b.data.certainty) || sources[b.data.source].year - sources[a.data.source].year);
+const tally = Object.fromEntries(levels.map((l) => [l, cards.filter((c) => c.data.certainty === l).length]));
+// "Kent P, Haines T, …" → "Kent"; an organisation author (no comma) is shown whole.
+const firstAuthor = (a?: string) => (!a ? '' : a.includes(',') ? a.split(',')[0].replace(/ [A-Z]{1,3}$/, '') : a);
 ---
 <Base title="Evidence">
   <main class="evidence-index">
     <p class="crumb"><a href="/">Spinal Tap</a> › evidence</p>
-    <h1>Evidence cards</h1>
-    <p class="lede">One card per open-access primary source, grouped by certainty of the headline claim.</p>
-    {levels.map((level) => {
-      const group = cards.filter((c) => c.data.certainty === level);
+    <h1>Evidence</h1>
+    <p class="lede">{cards.length} open-access sources, one headline claim each. The coloured mark is how sure the evidence lets us be; open a row for design, effect size and caveats.</p>
+
+    <div class="toolbar" id="filters" hidden>
+      <div class="chips" role="group" aria-label="Filter by certainty">
+        <button type="button" class="chip" aria-pressed="true" data-level="">All <span>{cards.length}</span></button>
+        {levels.map((l) => tally[l] > 0 && (
+          <button type="button" class="chip" aria-pressed="false" data-level={l}><i class="dot" data-level={l}></i>{levelName[l]} <span>{tally[l]}</span></button>
+        ))}
+      </div>
+      <input type="search" id="q" placeholder="Filter claims…" aria-label="Filter claims" />
+    </div>
+
+    <nav class="jump" aria-label="Topics">
+      {topics.map(([id, name]) => <a href={`#topic-${id}`}>{name}</a>)}
+    </nav>
+
+    {topics.map(([id, name]) => {
+      const group = cards.filter((c) => c.data.topic === id);
       return group.length === 0 ? null : (
-        <section>
-          <h2 class="certainty" data-level={level}>{level.replace('-', ' ')} certainty</h2>
-          <ul class="cards">{group.map((c) => {
-            const s = sources[c.data.source];
+        <section class="topic" id={`topic-${id}`}>
+          <h2>{name} <span class="count">{group.length}</span></h2>
+          <ul class="rows">{group.map((c) => {
+            const d = c.data;
+            const s = sources[d.source];
             return (
-              <li id={c.id} class="card">
-                <strong>{c.data.claim}</strong>
-                <p>{c.data.design} · {c.data.population} · {c.data.effect}</p>
-                <small><a href={s.url}>{s.author ? `${s.author} ` : ''}({s.year}). {s.title}</a></small>
+              <li id={c.id} data-level={d.certainty}>
+                <details>
+                  <summary>
+                    <span class="mark" data-level={d.certainty} title={`${levelName[d.certainty]} certainty`}><i class="dot" data-level={d.certainty}></i>{levelName[d.certainty]}</span>
+                    <span class="claim">{d.claim}</span>
+                    <span class="meta">{kindName[d.kind]} · {firstAuthor(s.author)} {s.year}</span>
+                  </summary>
+                  <dl>
+                    <dt>Design</dt><dd>{d.design}</dd>
+                    <dt>Population</dt><dd>{d.population}</dd>
+                    <dt>Effect</dt><dd>{d.effect}</dd>
+                    <dt>Caveats</dt><dd>{d.caveats}</dd>
+                  </dl>
+                  <p class="cite"><a href={s.url}>{s.author ? `${s.author} ` : ''}({s.year}). {s.title}</a></p>
+                </details>
               </li>
             );
           })}</ul>
         </section>
       );
     })}
+    <p id="no-match" hidden>No cards match. <button type="button" class="link" id="clear">Clear filters</button></p>
   </main>
 </Base>
+
+<script>
+  const rows = [...document.querySelectorAll<HTMLLIElement>('.rows > li')];
+  const chips = [...document.querySelectorAll<HTMLButtonElement>('.chip')];
+  const q = document.getElementById('q') as HTMLInputElement;
+  let level = '';
+  document.getElementById('filters')!.hidden = false;
+
+  function apply() {
+    const words = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+    for (const li of rows) {
+      const text = li.textContent!.toLowerCase();
+      li.hidden = (level !== '' && li.dataset.level !== level) || !words.every((w) => text.includes(w));
+    }
+    for (const sec of document.querySelectorAll<HTMLElement>('.topic')) {
+      const shown = sec.querySelectorAll('.rows > li:not([hidden])').length;
+      sec.hidden = shown === 0;
+      sec.querySelector('.count')!.textContent = String(shown);
+    }
+    for (const a of document.querySelectorAll<HTMLAnchorElement>('.jump a'))
+      a.toggleAttribute('data-empty', (document.querySelector(a.hash) as HTMLElement).hidden);
+    document.getElementById('no-match')!.hidden = rows.some((li) => !li.hidden);
+  }
+  for (const c of chips) c.addEventListener('click', () => {
+    level = c.dataset.level!;
+    for (const o of chips) o.setAttribute('aria-pressed', String(o === c));
+    apply();
+  });
+  q.addEventListener('input', apply);
+  document.getElementById('clear')!.addEventListener('click', () => { q.value = ''; chips[0].click(); });
+
+  // Links from inline <Evidence> cards land on /evidence/#<id>: open that row.
+  const openHash = () => {
+    const li = location.hash && document.getElementById(location.hash.slice(1));
+    const det = li && li.querySelector('details');
+    if (det) { det.open = true; li.scrollIntoView(); }
+  };
+  addEventListener('hashchange', openHash);
+  openHash();
+</script>
+
 <style>
-  .certainty { text-transform: capitalize; display: flex; align-items: center; gap: 10px; }
-  .certainty::before { content: ''; width: 10px; height: 10px; border-radius: 50%; background: var(--red); }
-  .certainty[data-level='high']::before { background: var(--brand); }
-  .certainty[data-level='moderate']::before { background: var(--amber); }
-  .cards { list-style: none; padding: 0; display: grid; gap: 12px; }
-  .cards strong { display: block; font-size: 1.0625rem; line-height: 1.45; }
-  .cards p { margin: 8px 0; font-size: 0.875rem; color: var(--muted); }
-  .cards small { font-size: 0.8125rem; }
+  .evidence-index { max-width: 56rem; }
+  .toolbar { position: sticky; top: var(--nav-h); z-index: 5; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 0 -8px 1rem; padding: 10px 8px; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+  .toolbar[hidden] { display: none; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { padding: 3px 12px; font-size: 0.8125rem; box-shadow: none; }
+  .chip span { font: 500 0.75rem/1 var(--mono); color: var(--faint); }
+  .chip[aria-pressed='true'] { background: var(--text); color: var(--bg); border-color: transparent; }
+  .chip[aria-pressed='true'] span { color: inherit; opacity: 0.7; }
+  #q { flex: 1 1 14rem; max-width: 20rem; font-size: 0.875rem; }
+  .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: var(--red); flex: none; }
+  .dot[data-level='high'] { background: var(--brand); }
+  .dot[data-level='moderate'] { background: var(--amber); }
+  .dot[data-level='very-low'] { background: transparent; border: 1.5px solid var(--red); }
+  .jump { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0 0 1rem; font-size: 0.875rem; }
+  .jump a { color: var(--muted); text-decoration: none; }
+  .jump a:hover { color: var(--brand-deep); }
+  .jump a[data-empty] { opacity: 0.35; pointer-events: none; }
+  .topic h2 { display: flex; align-items: baseline; gap: 8px; margin-top: 2.25rem; font-size: 1.125rem; }
+  .count { font: 500 0.75rem/1.5 var(--mono); color: var(--faint); }
+  .rows { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--border-3); }
+  .rows > li { border-bottom: 1px solid var(--border-3); }
+  summary { display: grid; grid-template-columns: 7.5rem 1fr; gap: 2px 16px; padding: 14px 8px 14px 4px; cursor: pointer; list-style: none; border-radius: 8px; }
+  summary::-webkit-details-marker { display: none; }
+  summary:hover { background: var(--hover); }
+  .mark { grid-row: span 2; display: inline-flex; align-items: center; gap: 8px; align-self: start; padding-top: 3px; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
+  .claim { color: var(--text); font-weight: 500; line-height: 1.45; }
+  .meta { font-size: 0.8125rem; color: var(--faint); }
+  summary .meta::after { content: ' · details'; color: var(--brand-deep); }
+  details[open] summary .meta::after { content: ' · hide'; }
+  details dl { display: grid; grid-template-columns: max-content 1fr; gap: 6px 16px; margin: 0 8px 0 calc(7.5rem + 20px); font-size: 0.9375rem; }
+  dt { font: 500 0.75rem/1.9 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
+  dd { margin: 0; }
+  .cite { margin: 12px 8px 18px calc(7.5rem + 20px); font-size: 0.8125rem; }
+  li:target summary { background: var(--brand-light); }
+  button.link { padding: 0; border: 0; background: none; box-shadow: none; font: inherit; text-decoration: underline; text-decoration-color: var(--brand); }
+  @media (max-width: 640px) {
+    summary { grid-template-columns: 1fr; }
+    .mark { grid-row: auto; }
+    details dl { grid-template-columns: 1fr; gap: 0; margin-left: 4px; }
+    dd { margin-bottom: 8px; }
+    .cite { margin-left: 4px; }
+  }
 </style>

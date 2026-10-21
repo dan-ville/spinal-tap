@@ -44,7 +44,9 @@ Third-party sources keep their own licences; `src/content/sources/sources.yml` r
 - `src/content/articles/<track>/` MDX articles. `src/content/articles/_template.mdx` is the starting shape.
 - `src/content/evidence/` frontmatter-only evidence cards, one per Tier B source.
 - `src/content/sources/sources.yml` the source registry.
-- `src/pages/plan.mdx` the return-to-lifting plan with gates and calculators.
+- `src/pages/plan.mdx` the return-to-lifting plan (read-only); its exit gates live in `src/data/gates.yml`.
+- `src/pages/templates/` the downloads page and a printable weekly log sheet. The site stores nothing about readers; they keep their own log.
+- `scripts/templates/build-tracker.py` builds `public/templates/spinal-tap-tracker.xlsx` (needs Python with openpyxl and PyYAML). Re-run it after changing `src/data/gates.yml`; the output is committed.
 - `atlas/` the 3D atlas, built into `public/atlas/` and embedded as an iframe.
 - `scripts/` build and verification scripts.
 - `docs/plan.md` the design document.

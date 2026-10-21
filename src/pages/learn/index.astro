@@ -1,0 +1,60 @@
+---
+// /learn — the directory: every published article, grouped by track in reading order.
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { tracks } from '../../data/tracks';
+
+const published = await getCollection('articles', (a) => a.data.status === 'published');
+const groups = tracks.map((t) => ({
+  ...t,
+  articles: published.filter((a) => a.data.track === t.id).sort((a, b) => a.data.order - b.data.order),
+}));
+---
+<Base title="Learn">
+  <main class="learn">
+    <p class="crumb"><a href="/">Spinal Tap</a> › learn</p>
+    <h1>Learn</h1>
+    <p class="lede">{published.length} articles in {tracks.length} tracks. Each track reads in order; start anywhere.</p>
+    <nav class="jump" aria-label="Tracks">
+      {groups.map((g) => <a href={`#${g.id}`}>{g.name} <span>{g.articles.length}</span></a>)}
+    </nav>
+    <div class="groups">
+      {groups.map((g, i) => (
+        <section id={g.id} class="group">
+          <header>
+            <span class="num">{String(i + 1).padStart(2, '0')}</span>
+            <h2><a href={`/learn/${g.id}/`}>{g.name}</a></h2>
+            <p>{g.blurb}</p>
+          </header>
+          {g.articles.length === 0 ? <p class="empty">No articles published yet.</p> : (
+            <ol>{g.articles.map((a) => (
+              <li><a href={`/learn/${a.id}/`}>{a.data.title}</a><p>{a.data.summary}</p></li>
+            ))}</ol>
+          )}
+        </section>
+      ))}
+    </div>
+  </main>
+</Base>
+<style>
+  .learn { max-width: 72rem; }
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 2.5rem; }
+  .jump a { padding: 4px 12px; border: 1px solid var(--border-2); border-radius: 9999px; font-size: 0.875rem; font-weight: 500; text-decoration: none; color: var(--text-2); }
+  .jump a:hover { border-color: var(--brand); color: var(--text); }
+  .jump span { font: 500 0.75rem/1 var(--mono); color: var(--faint); margin-left: 2px; }
+  .groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr)); gap: 16px; }
+  .group { border: 1px solid var(--border-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); padding: 20px 24px 8px; }
+  .group header { margin-bottom: 8px; }
+  .num { font: 500 0.75rem/1.5 var(--mono); color: var(--brand-deep); }
+  .group h2 { margin: 2px 0 4px; font-size: 1.25rem; }
+  .group h2 a { text-decoration: none; }
+  .group header p { margin: 0; font-size: 0.9375rem; color: var(--muted); }
+  .group ol { list-style: none; padding: 0; margin: 12px 0 0; counter-reset: a; }
+  .group li { counter-increment: a; position: relative; padding: 10px 0 10px 36px; border-top: 1px solid var(--border-3); }
+  .group li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 0; top: 12px; font: 500 0.75rem/1.5 var(--mono); color: var(--faint); }
+  .group li a { font-weight: 500; text-decoration: none; }
+  .group li a::after { content: ''; position: absolute; inset: 0; }
+  .group li:hover a { color: var(--brand-deep); }
+  .group li p { margin: 2px 0 0; font-size: 0.875rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .empty { color: var(--muted); font-size: 0.9375rem; }
+</style>

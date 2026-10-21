@@ -35,7 +35,7 @@ author-2024-short-title:
   pmcid: PMC1234567               # optional; doi, pmid, note also accepted
 ```
 
-Insert Tier B entries before the `# ---- Tier C` marker so the file stays grouped. If you cannot confirm the licence by fetching the source, tier it C. Evidence cards (`src/content/evidence/<id>.mdx`) may only point at Tier B sources; `scripts/check-sources.mjs` enforces this.
+Insert Tier B entries before the `# ---- Tier C` marker so the file stays grouped. If you cannot confirm the licence by fetching the source, tier it C. Evidence cards (`src/content/evidence/<id>.mdx`) may only point at Tier B sources; `scripts/check-sources.mjs` enforces this. Each card also takes a `topic` (treatment, imaging, biomechanics, pain-science, training, return-to-sport) and a `kind` (guideline, systematic-review, rct, observational, lab, narrative), which group and filter the `/evidence/` page.
 
 ## Before opening a PR
 
