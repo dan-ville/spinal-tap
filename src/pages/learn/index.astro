@@ -14,7 +14,7 @@ const groups = tracks.map((t) => ({
   <main class="learn">
     <p class="crumb"><a href="/">Spinal Tap</a> › learn</p>
     <h1>Learn</h1>
-    <p class="lede">{published.length} articles in {tracks.length} tracks. Each track reads in order; start anywhere.</p>
+    <p class="lede">{published.length} articles in {tracks.length} tracks. Each track reads in order; start anywhere. New to the words? The <a href="/glossary/">vocabulary</a> defines them.</p>
     <nav class="jump" aria-label="Tracks">
       {groups.map((g) => <a href={`#${g.id}`}>{g.name} <span>{g.articles.length}</span></a>)}
     </nav>

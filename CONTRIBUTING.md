@@ -44,6 +44,7 @@ npm run build
 npm test
 node scripts/check-sources.mjs
 node scripts/check-links.mjs
+node scripts/check-plan.mjs
 ```
 
-All four must exit 0. CI runs the same commands.
+All five must exit 0. CI runs the same commands.

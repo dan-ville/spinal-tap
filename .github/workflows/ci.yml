@@ -15,3 +15,4 @@ jobs:
       - run: npm test
       - run: node scripts/check-sources.mjs
       - run: node scripts/check-links.mjs
+      - run: node scripts/check-plan.mjs

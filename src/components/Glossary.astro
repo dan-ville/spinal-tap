@@ -1,0 +1,256 @@
+---
+// The vocabulary drawer and the term popover. Render once on any page that uses <Term> (the plan does):
+//   <Glossary />
+// Markup: a floating "Vocabulary" button, a slide-in side panel listing every src/data/glossary.yml entry
+// (searchable), and one shared popover. The script upgrades every <a class="term" data-term> on the page:
+// click → popover with the short definition and a "More" button (desktop) or the drawer open at that
+// entry (narrow screens). Without JS every term is still a link to /glossary/#id.
+// The drawer is data-pagefind-ignore so glossary text is indexed once, on /glossary/, not on every page.
+import { parse } from 'yaml';
+import raw from '../data/glossary.yml?raw';
+
+interface Entry { term: string; short: string; long?: string; see?: string; aliases?: string[]; group: string }
+const entries = Object.entries(parse(raw) as Record<string, Entry>);
+const groups = [...new Set(entries.map(([, e]) => e.group))];
+const searchText = (id: string, e: Entry) => [e.term, id, ...(e.aliases ?? []), e.short].join(' ').toLowerCase();
+---
+<button type="button" class="glossary-fab" id="glossary-fab" aria-controls="glossary-drawer" aria-expanded="false">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20V2H6.5A2.5 2.5 0 0 0 4 4.5v15Z" /></svg>
+  Vocabulary
+</button>
+
+<div class="glossary-backdrop" id="glossary-backdrop" hidden></div>
+
+<aside id="glossary-drawer" class="glossary-drawer" role="dialog" aria-labelledby="glossary-title" data-pagefind-ignore inert>
+  <header class="g-head">
+    <div>
+      <h2 id="glossary-title">Vocabulary</h2>
+      <p class="g-sub">Every term the plan uses, in plain words. <a href="/glossary/">Open as a page</a></p>
+    </div>
+    <button type="button" class="g-close" id="glossary-close" aria-label="Close vocabulary">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18" /></svg>
+    </button>
+  </header>
+  <label class="g-search">
+    <span class="sr-only">Search terms</span>
+    <input type="search" id="glossary-search" placeholder="Search, e.g. verdict, RPE, gate" autocomplete="off" />
+  </label>
+  <div class="g-list" id="glossary-list">
+    {groups.map((group) => (
+      <section class="g-group" data-group={group}>
+        <h3 class="label">{group}</h3>
+        {entries.filter(([, e]) => e.group === group).map(([id, e]) => (
+          <details class="g-entry" id={`g-${id}`} data-search={searchText(id, e)}>
+            <summary>
+              <span class="g-term">{e.term}</span>
+              <span class="g-short">{e.short}</span>
+            </summary>
+            <div class="g-long">
+              {e.long && <p>{e.long}</p>}
+              {e.see && <a class="g-see" href={e.see}>Read the article →</a>}
+            </div>
+          </details>
+        ))}
+      </section>
+    ))}
+    <p class="g-empty" id="glossary-empty" hidden>No term matches. Try another word, or <a href="/glossary/">browse the full list</a>.</p>
+  </div>
+</aside>
+
+<div class="term-pop" id="term-pop" role="dialog" aria-labelledby="term-pop-term" tabindex="-1" hidden data-pagefind-ignore>
+  <p class="term-pop-term" id="term-pop-term"></p>
+  <p class="term-pop-short" id="term-pop-short"></p>
+  <div class="term-pop-actions">
+    <button type="button" class="term-pop-more" id="term-pop-more">More in vocabulary</button>
+  </div>
+</div>
+
+<script>
+  const fab = document.getElementById('glossary-fab') as HTMLButtonElement;
+  const drawer = document.getElementById('glossary-drawer') as HTMLElement;
+  const backdrop = document.getElementById('glossary-backdrop') as HTMLElement;
+  const closeBtn = document.getElementById('glossary-close') as HTMLButtonElement;
+  const search = document.getElementById('glossary-search') as HTMLInputElement;
+  const list = document.getElementById('glossary-list') as HTMLElement;
+  const empty = document.getElementById('glossary-empty') as HTMLElement;
+  const pop = document.getElementById('term-pop') as HTMLElement;
+  const popTerm = document.getElementById('term-pop-term') as HTMLElement;
+  const popShort = document.getElementById('term-pop-short') as HTMLElement;
+  const popMore = document.getElementById('term-pop-more') as HTMLButtonElement;
+  const entries = [...list.querySelectorAll<HTMLDetailsElement>('.g-entry')];
+  const groups = [...list.querySelectorAll<HTMLElement>('.g-group')];
+  const narrow = matchMedia('(max-width: 640px)');
+
+  let opener: HTMLElement | null = null; // element to return focus to when the drawer closes
+  let popOpener: HTMLElement | null = null;
+  let popId = '';
+
+  // ---- drawer ----
+  const isOpen = () => drawer.classList.contains('open');
+  function openDrawer(from: HTMLElement | null, id?: string) {
+    hidePop();
+    opener = from;
+    drawer.inert = false;
+    drawer.classList.add('open');
+    backdrop.hidden = false;
+    fab.setAttribute('aria-expanded', 'true');
+    document.body.classList.add('glossary-open');
+    if (id) {
+      search.value = '';
+      filter('');
+      const entry = document.getElementById(`g-${id}`) as HTMLDetailsElement | null;
+      if (entry) {
+        entries.forEach((e) => { e.classList.remove('g-hit'); });
+        entry.open = true;
+        entry.classList.add('g-hit');
+        // after the slide-in so scrollIntoView measures the final layout
+        requestAnimationFrame(() => {
+          entry.scrollIntoView({ block: 'start', behavior: 'instant' as ScrollBehavior });
+          list.scrollTop = Math.max(0, list.scrollTop - 12);
+          (entry.querySelector('summary') as HTMLElement).focus({ preventScroll: true });
+        });
+        return;
+      }
+    }
+    search.focus();
+  }
+  function closeDrawer() {
+    if (!isOpen()) return;
+    drawer.classList.remove('open');
+    drawer.inert = true;
+    backdrop.hidden = true;
+    fab.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove('glossary-open');
+    opener?.focus();
+    opener = null;
+  }
+  fab.addEventListener('click', () => (isOpen() ? closeDrawer() : openDrawer(fab)));
+  closeBtn.addEventListener('click', closeDrawer);
+  backdrop.addEventListener('click', closeDrawer);
+
+  function filter(q: string) {
+    const needle = q.trim().toLowerCase();
+    let shown = 0;
+    for (const e of entries) {
+      const hit = !needle || (e.dataset.search ?? '').includes(needle);
+      e.hidden = !hit;
+      if (hit) shown++;
+    }
+    for (const g of groups) g.hidden = !g.querySelector('.g-entry:not([hidden])');
+    empty.hidden = shown > 0;
+  }
+  search.addEventListener('input', () => filter(search.value));
+
+  // ---- popover ----
+  function showPop(term: HTMLElement, id: string) {
+    const entry = document.getElementById(`g-${id}`);
+    if (!entry) return;
+    popId = id;
+    popOpener = term;
+    popTerm.textContent = entry.querySelector('.g-term')?.textContent ?? id;
+    popShort.textContent = entry.querySelector('.g-short')?.textContent ?? '';
+    pop.hidden = false;
+    // position below the term, in document coordinates, kept inside the viewport horizontally
+    const r = term.getBoundingClientRect();
+    const w = pop.offsetWidth;
+    const left = Math.min(Math.max(12, r.left), window.innerWidth - w - 12) + window.scrollX;
+    pop.style.left = `${left}px`;
+    pop.style.top = `${r.bottom + 8 + window.scrollY}px`;
+    pop.style.setProperty('--arrow-x', `${Math.max(16, Math.min(w - 16, r.left + window.scrollX - left + Math.min(r.width / 2, 24)))}px`);
+    term.setAttribute('aria-expanded', 'true');
+    pop.focus({ preventScroll: true });
+  }
+  function hidePop() {
+    if (pop.hidden) return;
+    pop.hidden = true;
+    popOpener?.setAttribute('aria-expanded', 'false');
+    popOpener = null;
+  }
+  popMore.addEventListener('click', () => {
+    const from = popOpener;
+    hidePop();
+    openDrawer(from, popId);
+  });
+
+  // ---- terms (and the kind badges from Tag.astro, which carry data-term too) ----
+  for (const t of document.querySelectorAll<HTMLElement>('[data-term]')) {
+    t.setAttribute('role', 'button');
+    t.setAttribute('aria-haspopup', 'dialog');
+    t.setAttribute('aria-expanded', 'false');
+  }
+  document.addEventListener('click', (ev) => {
+    const target = ev.target as HTMLElement;
+    const term = target.closest<HTMLElement>('[data-term]');
+    if (term) {
+      ev.preventDefault();
+      const id = term.dataset.term!;
+      if (!pop.hidden && popOpener === term) { hidePop(); term.focus(); return; }
+      if (narrow.matches) openDrawer(term, id);
+      else showPop(term, id);
+      return;
+    }
+    if (!pop.hidden && !pop.contains(target)) hidePop();
+  });
+  document.addEventListener('keydown', (ev) => {
+    if (ev.key !== 'Escape') return;
+    if (!pop.hidden) { const o = popOpener; hidePop(); o?.focus(); return; }
+    if (isOpen()) closeDrawer();
+  });
+  window.addEventListener('resize', hidePop);
+  // Deep links (/plan/#g-verdict is not a thing; /glossary/#verdict is) — but a hash naming a term opens the drawer.
+  const hashId = location.hash.slice(1);
+  if (hashId && document.getElementById(`g-${hashId}`)) openDrawer(fab, hashId);
+</script>
+
+<style>
+  .glossary-fab { position: fixed; right: 20px; bottom: 20px; z-index: 30; padding: 8px 16px 8px 12px; font-size: 0.875rem; background: var(--text); color: var(--bg); border-color: transparent; box-shadow: rgba(0, 0, 0, 0.18) 0 6px 20px; }
+  .glossary-fab:hover { background: var(--text); color: var(--bg); opacity: 0.9; }
+  .glossary-fab svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+  .glossary-backdrop { position: fixed; inset: 0; z-index: 38; background: rgba(0, 0, 0, 0.25); }
+  .glossary-drawer {
+    position: fixed; top: 0; right: 0; bottom: 0; z-index: 40; width: min(26rem, 100vw);
+    display: flex; flex-direction: column;
+    background: var(--surface); border-left: 1px solid var(--border-2); box-shadow: rgba(0, 0, 0, 0.18) -8px 0 32px;
+    transform: translateX(100%); visibility: hidden; transition: transform 0.25s ease, visibility 0s 0.25s;
+  }
+  .glossary-drawer.open { transform: none; visibility: visible; transition: transform 0.25s ease, visibility 0s; }
+  .g-head { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; padding: 20px 20px 12px; }
+  .g-head h2 { margin: 0; font-size: 1.25rem; }
+  .g-sub { margin: 2px 0 0; font-size: 0.8125rem; color: var(--muted); }
+  .g-close { flex: none; width: 32px; height: 32px; padding: 0; justify-content: center; }
+  .g-close svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+  .g-search { display: block; padding: 0 20px 12px; border-bottom: 1px solid var(--border-3); }
+  .g-search input { width: 100%; }
+  .g-list { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 8px 20px 32px; scroll-padding-top: 8px; }
+  .g-group h3 { margin: 20px 0 6px; }
+  .g-entry { border-top: 1px solid var(--border-3); }
+  .g-entry summary { list-style: none; cursor: pointer; padding: 10px 24px 10px 0; position: relative; display: grid; gap: 2px; border-radius: 8px; }
+  .g-entry summary::-webkit-details-marker { display: none; }
+  .g-entry summary::after { content: '+'; position: absolute; right: 4px; top: 8px; font: 500 1rem/1.5 var(--mono); color: var(--faint); }
+  .g-entry[open] summary::after { content: '−'; }
+  .g-entry summary:hover .g-term { color: var(--brand-deep); }
+  .g-term { color: var(--text); font-weight: 600; }
+  .g-short { font-size: 0.9375rem; color: var(--text-2); }
+  .g-long { padding: 0 0 14px; font-size: 0.9375rem; color: var(--text-2); }
+  .g-long p { margin: 0 0 8px; }
+  .g-see { font-size: 0.875rem; }
+  .g-hit summary { background: var(--brand-light); margin: 0 -8px; padding-left: 8px; padding-right: 32px; }
+  .g-hit summary::after { right: 12px; }
+  .g-empty { margin: 24px 0; color: var(--muted); font-size: 0.9375rem; }
+  .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+
+  .term-pop { position: absolute; z-index: 35; width: min(22rem, calc(100vw - 24px)); padding: 14px 16px; background: var(--surface); border: 1px solid var(--border-2); border-radius: 12px; box-shadow: rgba(0, 0, 0, 0.14) 0 10px 30px; outline: none; }
+  .term-pop::before { content: ''; position: absolute; top: -6px; left: var(--arrow-x, 24px); width: 10px; height: 10px; background: var(--surface); border-left: 1px solid var(--border-2); border-top: 1px solid var(--border-2); transform: translateX(-50%) rotate(45deg); }
+  .term-pop-term { margin: 0 0 4px; font-weight: 600; color: var(--text); }
+  .term-pop-short { margin: 0 0 10px; font-size: 0.9375rem; color: var(--text-2); }
+  .term-pop-actions { display: flex; gap: 8px; }
+  .term-pop-more { padding: 4px 12px; font-size: 0.8125rem; }
+
+  @media (max-width: 640px) {
+    .glossary-fab { right: 12px; bottom: 12px; }
+    .glossary-drawer { width: 100vw; border-left: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) { .glossary-drawer { transition: none; } }
+  @media print { .glossary-fab, .glossary-drawer, .glossary-backdrop, .term-pop { display: none !important; } }
+</style>

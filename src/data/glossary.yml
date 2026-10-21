@@ -1,0 +1,609 @@
+# Site vocabulary. The plan page (src/pages/plan.mdx) wraps terms in <Term id="…">, which shows `short`
+# in a popover and `long` in the vocabulary drawer; /glossary/ lists every entry. Any article can use <Term>.
+# Fields: term (display name), short (one plain sentence), long (a paragraph or two; may contain
+# markdown links), see (the article that teaches it, optional), aliases (other wordings the drawer search
+# should match, optional), group (heading on /glossary/ and in the drawer).
+# scripts/check-plan.mjs validates the file: unique ids, term + short + group present, internal `see` paths.
+
+# ---- How the plan works -------------------------------------------------------------------------
+
+phase:
+  term: Phase
+  group: How the plan works
+  short: >-
+    One of the plan's five stages. You leave a phase when its exit gates are met, not after a set number of weeks.
+  long: >-
+    The plan runs Baseline → Capacity floor → Progressive loading → Strength build → Performance. Each phase has a
+    typical length in weeks or months, but the length is a guide, not a timer: what moves you on is your log
+    showing every exit gate for that phase. Some people spend twice the typical time in a phase. That is the
+    plan working, not failing.
+
+exit-gate:
+  term: Exit gate
+  group: How the plan works
+  aliases: [gate, gates]
+  short: >-
+    A measurement your log has to show before you move to the next phase. Gates replace dates.
+  long: >-
+    A gate is met when it is written in your log, not when you feel it is. Most gates are a number (a hold time,
+    a lift at a multiple of your bodyweight, a run of clean weeks). Every gate carries a label saying where its
+    number comes from: a study, a rule of thumb, or a starting number you are expected to replace with your own.
+    The downloadable tracker has a sheet for marking gates met.
+  see: /learn/rehab/return-to-sport-gates/
+
+daily-check-in:
+  term: Daily check-in
+  group: How the plan works
+  aliases: [check-in, log]
+  short: >-
+    Five things written down every morning, training day or not. It is the plan's main instrument.
+  long: >-
+    Each morning you record the morning stiffness test, whether you felt anything below the glute (yes or no),
+    hours slept, life stress on a simple scale, and bodyweight. It takes under a minute. Everything else in the
+    plan reads from this: the verdict on yesterday, the regression rule, and the decision about how hard today
+    may be. Phase 0 exists to make the check-in a habit before training changes.
+  see: /learn/self-coaching/the-log/
+
+morning-stiffness-test:
+  term: Morning stiffness test
+  group: How the plan works
+  aliases: [stiffness test, stiffness]
+  short: >-
+    One simple movement, done the same way every morning, scored 0 to 10 for how stiff your back feels.
+  long: >-
+    Pick a movement you can repeat exactly, such as a forward reach toward your toes, and do it at the same time
+    each morning before training. Score the stiffness 0 to 10. The number itself matters less than how it compares
+    with your own last fourteen days. Mornings are used because the disc is at its most hydrated and stiffest
+    then, which makes day-to-day change easiest to read.
+  see: /learn/biomechanics/diurnal-disc-changes/
+
+below-the-glute:
+  term: Below the glute
+  group: How the plan works
+  aliases: [below-glute]
+  short: >-
+    Anything felt below the buttock, such as in the thigh, calf or foot. Answered yes or no each morning.
+  long: >-
+    Sensation below the buttock can mean a nerve is involved rather than only muscle or joint, so the plan treats
+    a "yes" as a bad verdict on its own and as a prompt to read the red-flag list before anything else. It does not
+    diagnose what the sensation is; it routes you to the list and, if a red flag applies, to a clinician.
+  see: /learn/pathology/radiculopathy/
+
+red-flags:
+  term: Red flags
+  group: How the plan works
+  aliases: [red flag, red-flag screen]
+  short: >-
+    Symptoms that end self-directed training and send you to a clinician the same day, in any phase.
+  long: >-
+    Symptoms below the knee; numbness or weakness; saddle anaesthesia (numbness around the groin or inner thighs);
+    a change in bladder or bowel control; night pain; fever; unexplained weight loss; trauma. The plan asks you to
+    screen for these in writing at the start and again every month. None of them is a diagnosis. Each is a reason
+    for a clinician to look rather than for you to keep self-directing.
+  see: /learn/pathology/red-flags/
+
+verdict:
+  term: Verdict
+  group: How the plan works
+  aliases: [clean, yellow, bad, bad day, bad next-day verdict, yellow verdict]
+  short: >-
+    Your morning reading of how yesterday's session went: clean, yellow or bad.
+  long: >-
+    Clean: stiffness at or near your baseline and nothing below the glute. Yesterday was tolerated.
+    Yellow: stiffness clearly above baseline but it settles with a walk; nothing below the glute. Yesterday was at
+    the edge. Bad: stiffness well above baseline and it does not settle, or anything below the glute. Yesterday
+    exceeded tolerance. The verdict is about yesterday and it decides today: clean allows progress, yellow holds,
+    bad triggers the regression rule.
+  see: /learn/self-coaching/daily-decision-tree/
+
+clean-week:
+  term: Clean week
+  group: How the plan works
+  aliases: [clean weeks, consecutive clean weeks]
+  short: >-
+    A week in which no day's verdict was bad.
+  long: >-
+    Several gates ask for a run of clean weeks ("4 consecutive weeks without a bad verdict"). A yellow day does
+    not break the run; a bad day does, and the count restarts. The run is read from the daily check-in, which is
+    why the check-in has to be kept on rest days too.
+  see: /learn/self-coaching/weekly-and-block-reviews/
+
+regression-rule:
+  term: Regression rule
+  group: How the plan works
+  aliases: [regression, regress, regression ladder]
+  short: >-
+    What a bad day changes. One movement gets one step easier, in a fixed order, and it stays the same movement.
+  long: >-
+    After a bad verdict, the movement that most recently changed drops one rung: first its range gets shorter,
+    then the load moves closer to the body, then the weight comes down. The movement itself is never swapped out.
+    A hinge stays a hinge. If a second bad day happens in the same week, that week's remaining hard sets on
+    spine-loading lifts are cut by 40 percent while the weight stays the same. The rule is a practitioner
+    convention, not a measured finding, and the plan labels it that way.
+  see: /learn/self-coaching/daily-decision-tree/
+
+rung:
+  term: Rung
+  group: How the plan works
+  aliases: [rungs, one rung]
+  short: >-
+    One step down the regression ladder. The three rungs, in order, are range, moment arm and load.
+  long: >-
+    "Drop one rung" means make the smallest change that keeps the movement. The order is fixed. Range first:
+    the movement gets shorter (an RDL stops at mid-shin instead of below the knee). Moment arm second: the load
+    moves closer (dumbbells at the sides instead of a bar in front, or a pull from blocks). Load last: the bar gets
+    lighter while the sets stay. A new rung is only taken after another bad day.
+  see: /learn/self-coaching/daily-decision-tree/
+
+range:
+  term: Range
+  group: How the plan works
+  aliases: [range of motion]
+  short: >-
+    How far a movement travels. Shortening it is the first rung of the regression ladder.
+  long: >-
+    Range is the distance the bar or body travels: a deadlift from the floor has more range than one from blocks;
+    a full squat has more than a box squat. Shortening range reduces the tissue demand without changing the weight
+    or the movement, which is why it is the first thing the regression rule changes and the first thing a lifter
+    earns back.
+
+moment-arm:
+  term: Moment arm
+  group: How the plan works
+  aliases: [moment arms, lever]
+  short: >-
+    How far the weight sits from your spine. A longer distance means more leverage against your back.
+  long: >-
+    The same weight loads the back harder when it is farther from the hips and spine, because torque is weight
+    multiplied by distance. A bar held in front at arm's length has a longer moment arm than dumbbells at the
+    sides, and a round-backed pull has a longer one than an upright pull. Moving the load closer is the second rung
+    of the regression ladder: the weight stays, the leverage against the back drops.
+  see: /learn/biomechanics/torque-and-moment-arms/
+
+load:
+  term: Load
+  group: How the plan works
+  aliases: [loading]
+  short: >-
+    The weight on the bar or in the hands. It is the last rung of the regression ladder, not the first.
+  long: >-
+    Load comes last on purpose. Range and moment arm reduce the demand on the back at the same weight, so they
+    let you keep the practice and the training effect. Load is the dial the whole plan is trying to turn up, so it
+    is only turned down when the other two steps have not been enough.
+
+axial-loading:
+  term: Axial loading
+  group: How the plan works
+  aliases: [axial, axial-loading day, spine-loading]
+  short: >-
+    Lifts that press down through the spine, such as squats, deadlifts and carries.
+  long: >-
+    "Axial" means along the long axis of the body. Squats, deadlifts, RDLs, loaded carries, yoke walks and
+    overhead work all load the spine this way. The plan counts hard sets on these lifts separately from everything
+    else, because they are the sets that add up on the back. Rows, presses and machine work are still training; they
+    just do not count toward the axial budget.
+  see: /learn/biomechanics/deadlift-and-squat-spinal-loads/
+
+hard-set:
+  term: Hard set
+  group: How the plan works
+  aliases: [hard sets, axial hard sets]
+  short: >-
+    A set taken to an effort of RPE 7 or harder, meaning three or fewer reps left in the tank.
+  long: >-
+    The plan counts hard sets, not total sets, because the hard ones are what drive adaptation and what add up on
+    the back. A set at RPE 7 or above on a spine-loading lift is an axial hard set. Warm-ups and easy work do not
+    count. The tracker spreadsheet counts them from the RPE you log on each set.
+  see: /learn/training-science/volume-intensity-frequency/
+
+hard-set-budget:
+  term: Hard-set budget
+  group: How the plan works
+  aliases: [axial hard-set budget, weekly budget, budget]
+  short: >-
+    The number of hard sets on spine-loading lifts you allow yourself in a week.
+  long: >-
+    From Phase 2 the week has a fixed budget of axial hard sets. Progression happens inside the budget: more weight
+    at the same number of hard sets, or a slow rise in the budget itself at the weekly review. Two bad days in a week
+    cut the remaining budget by 40 percent. The budget is a cap, not a target; a clean week that used fewer sets is
+    still a clean week.
+  see: /learn/training-science/volume-intensity-frequency/
+
+spike-guard:
+  term: Spike guard
+  group: How the plan works
+  aliases: [trailing-30-day maximum, 30-day maximum, workload spike]
+  short: >-
+    A rule against sudden jumps. Today's session may not exceed the biggest single session of the last 30 days by more than one step.
+  long: >-
+    Injuries cluster after sudden jumps in training, so the plan compares each planned session with the largest
+    single session on that lift in the trailing 30 days. If today would be a jump rather than a step, it waits.
+    The site uses this simple guard rather than the acute:chronic workload ratio, a popular formula whose
+    statistical basis has been challenged.
+  see: /learn/training-science/workload-spikes-and-acwr/
+
+acwr:
+  term: Acute:chronic workload ratio (ACWR)
+  group: How the plan works
+  aliases: [ACWR, acute chronic workload ratio]
+  short: >-
+    A formula that compares this week's training to the last month's. The plan does not use it.
+  long: >-
+    The ratio divides recent load (usually one week) by longer-term load (usually four weeks) and treats values
+    above about 1.5 as a danger zone. It became popular in team sport, but later analyses argued the ratio is
+    mathematically coupled to its own inputs and does not predict injury the way it was claimed to. The plan labels
+    this [contested] and uses the plainer trailing-30-day maximum instead.
+  see: /learn/training-science/workload-spikes-and-acwr/
+
+preparedness:
+  term: Preparedness
+  group: How the plan works
+  aliases: [readiness]
+  short: >-
+    How ready you are today, read from sleep and stress. It can lower today's effort ceiling; it never raises it.
+  long: >-
+    Short sleep or a stress spike caps the day's RPE one point lower than planned. Preparedness does not change the
+    verdict on yesterday and does not trigger the regression rule; it only adjusts how hard today may be. A good
+    night's sleep never adds to the plan.
+  see: /learn/training-science/rpe-and-rir/
+
+# ---- Tests and measures ---------------------------------------------------------------------
+
+mcgill-battery:
+  term: McGill endurance battery
+  group: Tests and measures
+  aliases: [McGill tests, endurance battery, McGill endurance tests, four holds]
+  short: >-
+    Four timed holds that measure how long your trunk muscles can keep the spine still. Done in Phase 0 and retested monthly.
+  long: >-
+    The battery is four static holds, each timed to the point where position can no longer be held: the trunk flexor
+    hold, the Biering-Sørensen extensor hold, and the side bridge on each side. The individual times matter less
+    than their ratios to one another, which McGill's 1999 normal database used to describe a balanced trunk. The plan's
+    Phase 1 ratio gates come from that database. The tracker spreadsheet works out the ratios from your seconds.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+flexor-hold:
+  term: Trunk flexor hold
+  group: Tests and measures
+  aliases: [flexor hold, flexor endurance]
+  short: >-
+    Sit with your trunk leaned back at about 60 degrees, feet held, and hold the position as long as you can.
+  long: >-
+    One of the four McGill holds. The tester supports your back at roughly 60 degrees from the floor, then removes the
+    support; the clock stops when your trunk drops. The time is divided by the extensor hold to give the
+    flexor/extensor ratio.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+biering-sorensen:
+  term: Biering-Sørensen extensor hold
+  group: Tests and measures
+  aliases: [extensor hold, Sørensen test, back extensor endurance, extensor endurance]
+  short: >-
+    Lie face down with your upper body off the edge of a bench, hips supported, and hold your trunk level as long as you can.
+  long: >-
+    The best-studied trunk endurance test. Your legs are held and your trunk hangs unsupported from the hips; you hold
+    it horizontal until it drops. It is the reference hold in the McGill battery: the flexor and side-bridge times
+    are each expressed as a fraction of it.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+side-bridge:
+  term: Side bridge
+  group: Tests and measures
+  aliases: [side plank, side bridge hold, side bridge symmetry, left/right side bridge]
+  short: >-
+    A side plank on the forearm and feet, held as long as you can, done on each side.
+  long: >-
+    Two of the four McGill holds, one per side. Each side's time is compared with the extensor hold and with the other
+    side. A large left/right difference is one of the things the battery is designed to show; the Phase 1 gate asks for
+    the two sides within 5 percent of each other.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+endurance-ratios:
+  term: Endurance ratios
+  group: Tests and measures
+  aliases: [ratios, flexor/extensor ratio, side bridge/extensor ratio, ratio gates]
+  short: >-
+    The McGill hold times compared with each other. The plan uses three of them as gates.
+  long: >-
+    Flexor/extensor: flexor hold divided by extensor hold, with below 1.0 meaning the back extensors outlast the
+    front. Side bridge/extensor: each side bridge divided by the extensor hold, with about 0.75 the balanced value in
+    McGill's database. Left/right symmetry: the two side bridges within 5 percent of each other. The ratios are gates
+    rather than the raw times because they describe balance, which changes less with bodyweight and training age than
+    the seconds do.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+filming-lifts:
+  term: Filming your lifts
+  group: Tests and measures
+  aliases: [film, video]
+  short: >-
+    A side-on video of squat, deadlift and RDL at a working weight, re-shot monthly and compared.
+  long: >-
+    The plan does not grade technique and never calls a position wrong. The films are for you to compare with your own
+    earlier films: has range come back, has the bar path changed, does a lift look the same at a heavier weight. Keep
+    the camera at the same height and distance each time so the comparison is fair.
+
+e1rm:
+  term: Estimated one-rep max (e1RM)
+  group: Tests and measures
+  aliases: [e1RM, estimated 1RM, Epley, one-rep max, 1RM]
+  short: >-
+    A guess at the heaviest single you could lift, worked out from a set of several reps. The plan never tests a true max.
+  long: >-
+    The tracker uses the Epley formula: weight × (1 + reps ÷ 30). A set of 100 kg for 8 gives an e1RM of about 127 kg.
+    Every strength gate that says "1.5× bodyweight" is read against this estimate from a recent working set, so you
+    never have to attempt a single to find out where you stand.
+  see: /learn/training-science/progression-models/
+
+bodyweight-multiple:
+  term: Bodyweight multiple
+  group: Tests and measures
+  aliases: [× bodyweight, times bodyweight]
+  short: >-
+    A lift expressed as a fraction of your own bodyweight, so the gate scales with you. "1.5× bodyweight" at 80 kg is 120 kg.
+  long: >-
+    The strength gates use multiples rather than fixed kilograms so the same page works for a 60 kg lifter and a 120 kg
+    lifter. "RDL at 1.0× bodyweight for 8 reps" means eight reps with your own bodyweight on the bar. The tracker
+    computes the multiple from your logged bodyweight and the set's estimated max.
+
+dots:
+  term: DOTS score
+  group: Tests and measures
+  aliases: [DOTS, powerlifting DOTS]
+  short: >-
+    A powerlifting formula that turns your total and bodyweight into one number, so lifters of different sizes can be compared.
+  long: >-
+    DOTS takes the sum of squat, bench and deadlift and adjusts it for bodyweight with a published curve. A score around
+    450 is roughly the top 1 percent of open competitive entries, a marker the plan mentions as a distant landmark, not a
+    gate. The tracker's calculator sheet works it out from a total and bodyweight.
+  see: /learn/rehab/return-to-sport-gates/
+
+# ---- Training terms ----------------------------------------------------------------------------
+
+rpe:
+  term: RPE (rate of perceived exertion)
+  group: Training terms
+  aliases: [RPE 7, RPE ≤ 7, RPE 8, effort]
+  short: >-
+    A 1-to-10 score for how hard a set was. RPE 7 means you could have done three more reps; RPE 10 means none.
+  long: >-
+    RPE is the plan's main dial for effort because it tracks how you are on the day rather than a percentage worked
+    out weeks ago. RPE 7 (three reps left), RPE 8 (two left), RPE 9 (one left), RPE 10 (nothing left). Phase 1 caps
+    main lifts at RPE 7 so no set is a grind; later phases raise the cap. The same idea expressed the other way round
+    is RIR, reps in reserve.
+  see: /learn/training-science/rpe-and-rir/
+
+rir:
+  term: RIR (reps in reserve)
+  group: Training terms
+  aliases: [reps in reserve]
+  short: >-
+    How many more reps you could have done when the set ended. 3 RIR is the same thing as RPE 7.
+  long: >-
+    RIR counts up from the end of the set; RPE counts down from a maximum. They describe the same effort: 3 RIR is
+    RPE 7, 1 RIR is RPE 9, 0 RIR is RPE 10. Most people find one easier to judge than the other. The plan writes its
+    rules in RPE and the tracker accepts either.
+  see: /learn/training-science/rpe-and-rir/
+
+grinding:
+  term: Grinding
+  group: Training terms
+  aliases: [grind, no grinding]
+  short: >-
+    A rep that slows to a crawl and only just completes. The plan's early phases avoid them.
+  long: >-
+    A grinding rep is usually RPE 9.5 or 10. Position tends to change on a grind, which makes the rep hard to compare
+    with the ones before it, and the next morning's verdict harder to read. "No grinding" means stop a set while the
+    bar still moves well, which is what an RPE 7 cap enforces.
+  see: /learn/training-science/rpe-and-rir/
+
+working-load:
+  term: Working load
+  group: Training terms
+  aliases: [working weight, working set, working loads]
+  short: >-
+    The weight you actually train with, after warm-ups.
+  long: >-
+    A working set is one of the sets that counts, as opposed to the lighter sets used to warm up to it. Gates that are
+    "read off a recent working set" use a set you did in normal training, never a special attempt.
+
+percentage:
+  term: Percentage (% of max)
+  group: Training terms
+  aliases: ["65–75%", percent of max, intensity]
+  short: >-
+    Load written as a share of your estimated max. "Squat around 65–75%" means roughly two-thirds to three-quarters of your e1RM.
+  long: >-
+    Training science calls this intensity: how heavy, not how hard. A percentage is a planning number, and the RPE cap
+    always wins on the day; if 70 percent feels like RPE 8 after a short night, the weight comes down. Phase 1 gives a
+    percentage range as a starting position only.
+  see: /learn/training-science/volume-intensity-frequency/
+
+double-progression:
+  term: Double progression
+  group: Training terms
+  short: >-
+    Add reps first, then weight. For example, work 3 sets from 8 reps up to 12, then add weight and start again at 8.
+  long: >-
+    The simplest progression model and the one Phase 1 uses for the RDL. The weight stays fixed while you add reps each
+    week within a range (3 × 8 up to 3 × 12). When every set reaches the top of the range, add a small amount of weight
+    and drop back to the bottom. Progress is slow, visible and hard to overdo, which suits a phase whose job is to build
+    a floor.
+  see: /learn/training-science/progression-models/
+
+apre:
+  term: APRE (autoregulatory progressive resistance exercise)
+  group: Training terms
+  aliases: [autoregulation]
+  short: >-
+    A progression model where the reps you get on a test set decide next week's weight.
+  long: >-
+    Each session ends with a set taken to a target effort; the number of reps you manage sets the load for the next
+    session according to a table. More reps than expected, the weight goes up; fewer, it holds or comes down. Phase 2
+    offers it as an alternative to double progression for lifters who want faster adjustment.
+  see: /learn/training-science/progression-models/
+
+deload:
+  term: Deload
+  group: Training terms
+  aliases: [deloads, deload week]
+  short: >-
+    A planned easier week. Fewer sets, same weight.
+  long: >-
+    Every 4 to 6 weeks the plan cuts sets by 40 to 60 percent while the weight on the bar stays where it was. Dropping
+    volume rather than weight keeps the lifts familiar and lets fatigue clear. A deload is scheduled in advance; it is
+    not the same as the 40 percent cut that two bad days impose, though both reduce sets rather than load.
+  see: /learn/training-science/deloads/
+
+block-periodization:
+  term: Block periodization
+  group: Training terms
+  aliases: [block, blocks, accumulation, intensification, realization, periodization]
+  short: >-
+    Training arranged in blocks of 4 to 6 weeks, each with one job: build volume, then build heaviness, then show it.
+  long: >-
+    Accumulation: more sets at moderate weights. Intensification: fewer sets, heavier. Realization: fewer still, heaviest,
+    ending in a test or a competition. Then the cycle repeats from accumulation. Phase 3 is built this way; the deloads and
+    the hard-set budget carry over from Phase 2 unchanged.
+  see: /learn/training-science/periodization/
+
+rdl:
+  term: RDL (Romanian deadlift)
+  group: Training terms
+  aliases: [Romanian deadlift, hinge, the hinge]
+  short: >-
+    A deadlift that starts from the top, lowers the bar down the thighs with soft knees, and comes back up. The plan's main hip-hinge builder.
+  long: >-
+    The RDL trains the hinge, the movement of folding at the hips with the back held in whatever position you can keep
+    still. Phase 1 uses it as the hinge driver because it is easy to progress with double progression and easy to regress
+    one rung at a time: shorter range (stop at mid-shin), closer load (dumbbells), lighter bar. A hinge stays a hinge
+    through all three.
+
+pulls-from-blocks:
+  term: Pulls from blocks
+  group: Training terms
+  aliases: [block pull, from blocks, blocks]
+  short: >-
+    A deadlift with the plates raised on blocks so the bar starts higher. Shorter range, less bend at the start.
+  long: >-
+    Blocks of 4 inches, then 2 inches, then the floor are the Phase 2 route back to a full deadlift: one step down every
+    two clean weeks. Raising the start shortens the range and lets you keep pulling heavy while the lower part of the
+    lift is earned back.
+  see: /learn/training-science/progression-models/
+
+trap-bar:
+  term: Trap bar
+  group: Training terms
+  aliases: [hex bar]
+  short: >-
+    A hexagonal bar you stand inside, so the load sits at your sides instead of in front of your shins.
+  long: >-
+    Standing inside the bar shortens the moment arm between the weight and your hips, which is why Phase 1 offers it as a
+    pulling option. It is not a safer movement in any categorical sense; it is a pull with a shorter lever, one rung down
+    from a straight bar on the regression ladder.
+
+loaded-carries:
+  term: Loaded carries
+  group: Training terms
+  aliases: [carries, farmer's carry, farmer's walk, suitcase carry]
+  short: >-
+    Walking while holding weight. Farmer's carry is a weight in each hand; suitcase carry is one hand only.
+  long: >-
+    Carries train the trunk to hold still under load while the legs move, which is most of what a spine does in sport
+    and in life. The suitcase carry, with the weight on one side, makes the trunk resist bending sideways and is a
+    Phase 1 gate: half your bodyweight in one hand for 30 metres.
+  see: /learn/training-science/strongman-loading/
+
+anti-rotation:
+  term: Anti-rotation work
+  group: Training terms
+  aliases: [anti-rotation, Pallof press]
+  short: >-
+    Exercises where you resist being twisted, such as a Pallof press, rather than exercises that twist you.
+  long: >-
+    Holding a cable or band out in front of you while it pulls you sideways trains the trunk to keep the spine still
+    against rotation. Phase 1 pairs it with carries twice a week as the plan's trunk work, alongside the McGill big 3.
+
+mcgill-big-3:
+  term: McGill big 3
+  group: Training terms
+  aliases: [big 3, big three, curl-up, bird dog]
+  short: >-
+    Three daily trunk exercises: the curl-up, the side bridge and the bird dog, done as short holds in a descending pyramid.
+  long: >-
+    The curl-up (one hand under the low back, lift the head and shoulders a little), the side bridge, and the bird dog
+    (opposite arm and leg out from all fours). Each is held for about 10 seconds, in sets of 5, 3 and 1 repetitions, which is
+    the descending pyramid. The plan asks for them at least an hour after waking because the disc is stiffest in the first
+    hour. They are the same movements as the McGill tests, used for training rather than measurement.
+  see: /learn/rehab/mcgill-approach-and-critics/
+
+strongman-implements:
+  term: Strongman implements
+  group: Training terms
+  aliases: [yoke, sandbag, stone, atlas stone, yoke walk, implements]
+  short: >-
+    Yoke, sandbag and stones. Each enters the plan as an easier version first and earns its full version.
+  long: >-
+    A yoke is a frame carried on the shoulders; a yoke-and-turn adds a change of direction under load. Sandbag to lap
+    picks the bag up to the thighs; sandbag over bar continues to a lift over a height. Stone to a high platform loads
+    a stone a short distance; a low platform means a longer lift. In each pair the first is the regressed variant,
+    and the regression rule applies: range, then moment arm, then load.
+  see: /learn/training-science/strongman-loading/
+
+# ---- How this page is sourced -------------------------------------------------------------------
+
+from-a-study:
+  term: From a study
+  group: How this page is sourced
+  aliases: [source, source id, study]
+  short: >-
+    The number or rule comes from a cited paper. The label links to it, and the evidence page has a card for it.
+  long: >-
+    Every claim on this site carries a source or a tag. A "from a study" label names the paper (author and year) and links
+    to it. It means the number was measured in that paper's sample; it does not mean the number is right for you, which
+    is why the plan still expects your own log to take over.
+  see: /evidence/
+
+rule-of-thumb:
+  term: Rule of thumb
+  group: How this page is sourced
+  aliases: [heuristic, "[heuristic]"]
+  short: >-
+    A practitioner convention that works in practice but has not been measured in a study.
+  long: >-
+    Written in the site's source code as [heuristic]. The regression rule, the 40 percent cut, "an hour after waking" and
+    the clean-week counts are all rules of thumb. They are kept because they are simple to run and easy to check against
+    your own log, not because a trial proved them.
+
+starting-number:
+  term: Starting number
+  group: How this page is sourced
+  aliases: [proposed, "[proposed]", opening position]
+  short: >-
+    A number to begin with, which your own measurements are expected to replace.
+  long: >-
+    Written in the site's source code as [proposed]. Every threshold, percentage and interval that was not measured in a
+    cited study is a starting number: 20 to 30 minutes of walking, RPE 7, 1.5× bodyweight. Once your log shows what your
+    back tolerates, your number is the one that counts, and the page says so at every gate.
+
+evidence-disagrees:
+  term: Evidence disagrees
+  group: How this page is sourced
+  aliases: [contested, "[contested]"]
+  short: >-
+    Studies point in different directions, or a popular claim has been challenged.
+  long: >-
+    Written in the site's source code as [contested]. The plan uses the label once, on the acute:chronic workload ratio,
+    which it does not use. Articles use it wherever a mechanism is argued from lab studies rather than shown in people.
+
+physio-assessment:
+  term: Physiotherapy assessment
+  group: How this page is sourced
+  aliases: [physio, clinician, physiotherapist]
+  short: >-
+    One session with a physiotherapist or similar clinician who examines your back in person.
+  long: >-
+    The plan works without a diagnosis and without imaging, and says so at every gate. An assessment is still the cheapest
+    input that can turn guesses about your own back into findings, and it is the only part of the plan a website cannot
+    provide. If you can get one, get it before Phase 1 and take this page with you.
+  see: /learn/pathology/when-imaging-is-warranted/

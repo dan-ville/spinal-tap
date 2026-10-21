@@ -1,0 +1,15 @@
+---
+// A vocabulary term. Usage in MDX:
+//   <Term id="verdict">verdict</Term>   → the slot text, dotted-underlined
+//   <Term id="verdict" />               → the glossary's display name
+// Without JS it is a link to /glossary/#id. On a page that renders <Glossary />, the drawer's script
+// upgrades it: click shows a popover with the short definition (desktop) or opens the drawer at the entry (phone).
+// An id missing from src/data/glossary.yml is a build error.
+import { parse } from 'yaml';
+import raw from '../data/glossary.yml?raw';
+interface Props { id: string }
+const { id } = Astro.props;
+const entry = parse(raw)?.[id];
+if (!entry) throw new Error(`<Term id="${id}">: not in src/data/glossary.yml`);
+---
+<a class="term" href={`/glossary/#${id}`} data-term={id}><slot>{entry.term}</slot></a>

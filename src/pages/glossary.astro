@@ -1,0 +1,59 @@
+---
+// /glossary — every entry in src/data/glossary.yml as a page, grouped as the drawer groups them. Each entry has
+// a stable anchor (#id) so <Term> links and the drawer's "Open as a page" land on the right definition.
+import { parse } from 'yaml';
+import raw from '../data/glossary.yml?raw';
+import Base from '../layouts/Base.astro';
+
+interface Entry { term: string; short: string; long?: string; see?: string; aliases?: string[]; group: string }
+const entries = Object.entries(parse(raw) as Record<string, Entry>);
+const groups = [...new Set(entries.map(([, e]) => e.group))];
+const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+---
+<Base title="Vocabulary">
+  <main class="glossary">
+    <p class="crumb"><a href="/">Spinal Tap</a> › vocabulary</p>
+    <h1>Vocabulary</h1>
+    <p class="lede">{entries.length} terms the <a href="/plan/">plan</a> uses, each in one plain sentence and then in full, with the article that teaches it.</p>
+    <nav class="jump" aria-label="Groups">
+      {groups.map((g) => <a href={`#${slug(g)}`}>{g} <span>{entries.filter(([, e]) => e.group === g).length}</span></a>)}
+    </nav>
+    {groups.map((g) => (
+      <section id={slug(g)} class="g-group">
+        <h2>{g}</h2>
+        <dl>
+          {entries.filter(([, e]) => e.group === g).map(([id, e]) => (
+            <div class="entry" id={id}>
+              <dt><a href={`#${id}`}>{e.term}</a>{e.aliases?.length ? <small class="aliases">also: {e.aliases.join(', ')}</small> : null}</dt>
+              <dd>
+                <p class="short">{e.short}</p>
+                {e.long && <p>{e.long}</p>}
+                {e.see && <p class="see"><a href={e.see}>Read the article →</a></p>}
+              </dd>
+            </div>
+          ))}
+        </dl>
+      </section>
+    ))}
+    <p class="fine">Missing a word? Terms live in <code>src/data/glossary.yml</code> in the repository; a pull request adds one.</p>
+  </main>
+</Base>
+<style>
+  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 2rem; }
+  .jump a { padding: 4px 12px; border: 1px solid var(--border-2); border-radius: 9999px; font-size: 0.875rem; text-decoration: none; color: var(--text-2); }
+  .jump a:hover { border-color: var(--brand); color: var(--text); }
+  .jump span { color: var(--faint); font: 500 0.75rem/1 var(--mono); margin-left: 4px; }
+  .g-group h2 { padding-bottom: 0.5rem; border-bottom: 1px solid var(--border-3); }
+  dl { margin: 0; }
+  .entry { padding: 16px 0 4px; border-bottom: 1px solid var(--border-3); scroll-margin-top: calc(var(--nav-h) + 16px); }
+  .entry:target { background: linear-gradient(90deg, var(--brand-light), transparent 70%); margin: 0 -12px; padding-left: 12px; padding-right: 12px; border-radius: 12px; }
+  dt { font-weight: 600; color: var(--text); font-size: 1.0625rem; }
+  dt a { text-decoration: none; }
+  dt a:hover { color: var(--brand-deep); }
+  .aliases { display: block; font-weight: 400; font-size: 0.8125rem; color: var(--faint); }
+  dd { margin: 6px 0 0; }
+  dd p { margin: 0 0 8px; }
+  .short { color: var(--text); }
+  .see { font-size: 0.875rem; }
+  .fine { font-size: 0.875rem; color: var(--muted); margin-top: 2.5rem; }
+</style>

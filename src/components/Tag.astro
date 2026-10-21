@@ -1,0 +1,33 @@
+---
+// Provenance badge with a plain label (docs/plan.md §8 content rules, CONTRIBUTING.md rule 4–5). Usage in MDX:
+//   <Tag kind="proposed" />                → "starting number"   (opens the glossary entry)
+//   <Tag kind="heuristic" />               → "rule of thumb"
+//   <Tag kind="contested" />               → "evidence disagrees"
+//   <Tag source="helms-rpe-rir" />         → "study · Helms 2016" (links to the source)
+// The raw [proposed] / [heuristic] / [contested] words stay in gates.yml and the tracker; this is only how
+// the plan page shows them. scripts/check-plan.mjs checks every `source` id against sources.yml.
+import { parse } from 'yaml';
+import sourcesRaw from '../content/sources/sources.yml?raw';
+
+type Kind = 'heuristic' | 'proposed' | 'contested';
+interface Props { kind?: Kind; source?: string }
+const { kind, source } = Astro.props;
+
+const labels: Record<Kind, { text: string; term: string }> = {
+  proposed: { text: 'starting number', term: 'starting-number' },
+  heuristic: { text: 'rule of thumb', term: 'rule-of-thumb' },
+  contested: { text: 'evidence disagrees', term: 'evidence-disagrees' },
+};
+
+let src: { url: string; author?: string; year?: number; title: string } | undefined;
+if (source) {
+  src = parse(sourcesRaw)?.[source];
+  if (!src) throw new Error(`<Tag source="${source}">: unknown source id`);
+} else if (!kind || !(kind in labels)) {
+  throw new Error(`<Tag>: needs kind="heuristic|proposed|contested" or source="<id>"`);
+}
+const surname = src?.author?.split(/[,;]/)[0]?.trim().split(' ')[0];
+---
+{src
+  ? <a class="tag tag-source" href={src.url} title={src.title}>study · {surname ? `${surname} ${src.year}` : src.year}</a>
+  : <a class={`tag tag-${kind}`} href={`/glossary/#${labels[kind!].term}`} data-term={labels[kind!].term}>{labels[kind!].text}</a>}

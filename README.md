@@ -27,6 +27,7 @@ Three commands define "done". CI runs all of them.
 npm test                           # calc, recall and schedule unit tests
 node scripts/check-sources.mjs     # every cited id exists in sources.yml with a tier; Check ids unique
 node scripts/check-links.mjs       # every internal link in dist/ resolves (run after npm run build)
+node scripts/check-plan.mjs        # gates and glossary are well-formed; every plan term and source id resolves
 ```
 
 ## Licences
@@ -44,7 +45,8 @@ Third-party sources keep their own licences; `src/content/sources/sources.yml` r
 - `src/content/articles/<track>/` MDX articles. `src/content/articles/_template.mdx` is the starting shape.
 - `src/content/evidence/` frontmatter-only evidence cards, one per Tier B source.
 - `src/content/sources/sources.yml` the source registry.
-- `src/pages/plan.mdx` the return-to-lifting plan (read-only); its exit gates live in `src/data/gates.yml`.
+- `src/pages/plan.mdx` the return-to-lifting plan (read-only); its exit gates live in `src/data/gates.yml` (each with a `plain` reading).
+- `src/data/glossary.yml` the vocabulary. `<Term id>` marks a word in prose (popover + drawer via `Glossary.astro`), `<Tag>` renders a provenance label, and `/glossary/` lists every entry. `scripts/check-plan.mjs` validates the file.
 - `src/pages/templates/` the downloads page and a printable weekly log sheet. The site stores nothing about readers; they keep their own log.
 - `scripts/templates/build-tracker.py` builds `public/templates/spinal-tap-tracker.xlsx` (needs Python with openpyxl and PyYAML). Re-run it after changing `src/data/gates.yml`; the output is committed.
 - `atlas/` the 3D atlas, built into `public/atlas/` and embedded as an iframe.
