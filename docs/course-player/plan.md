@@ -220,3 +220,26 @@ Browser pass (Playwright with the preinstalled Chromium, or by hand), recorded i
 - Keyboard-only: skip link, drawers, Esc, focus return; reduced motion; print preview; storage blocked.
 - /atlas/ and /atlas/?focus=FMA13075 behave as before; Back from the next lesson restores the live view.
 - Phone: open the sheet, load 3D, close it, iframe removed.
+
+## Notes for the build loop (2026-10-21)
+
+Owner decisions after the figure verification session:
+- **Figures are final** in [figures-verified.md](figures-verified.md); the verbatim metadata is in
+  [figure-candidates.json](figure-candidates.json). Don't source new figures and don't use rejected ones. Lessons
+  marked "rail" stay rail. Downloading the listed files from upload.wikimedia.org and
+  raw.githubusercontent.com (pinned OpenStax commit) is allowed. Downscale or crop each file to the size caps and
+  record that in `changes`.
+- **Browser verification: automate what can be automated, nothing else.** Add `playwright` as a devDependency
+  (the Chromium builds are already cached in `~/Library/Caches/ms-playwright`; pick a version whose browser
+  revision is present, or run `npx playwright install chromium`). Write `scripts/browser-check.mjs`, which
+  starts `astro preview` on `dist/` and checks the Verification list: layouts at each width, no horizontal scroll
+  at 320px, 3D auto-load on hip-complex at 1280px, Ctrl+wheel vs plain wheel, Check grading → outline tick,
+  Mark complete/Undo, settings export/import, keyboard drawer focus/Esc, storage blocked, /atlas/ and
+  `?focus=` unchanged, phone sheet removing the iframe. Anything not reliably automatable (visual judgement,
+  print preview, WebGL rendering quality) goes in `docs/course-player/human-review.md` as a checklist for the
+  owner. Never mark such an item verified.
+- **Split M4–M6 into small stories**, each leaving `/atlas/` working and `npm run build` green: protocol module +
+  tests → embed entry that renders the scene → scene `embed` prop pieces (frameBox refactor with identical
+  non-embed numbers; context framing; wheel policy; idle/pause) → `?focus` comma list → pack builder + tests →
+  pack wired into the embed → site-side bridge state machine + tests → pane mounting policy.
+- Out of scope: MDX/frontmatter edits, deploys, `git push`, changes to `vercel.json` beyond what the plan names.
