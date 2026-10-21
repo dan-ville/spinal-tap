@@ -30,8 +30,10 @@
   --nav-h: 57px;
   color-scheme: light dark;
 }
+/* Dark tokens: follow the OS unless the theme toggle (Base.astro) pinned a choice on <html data-theme>. */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
     --bg: #0d0d0d;
     --surface: #141414;
     --surface-2: #141414;
@@ -54,6 +56,31 @@
     --shadow: rgba(0, 0, 0, 0.4) 0 2px 4px;
     --hero-wash: radial-gradient(60% 80% at 20% 0%, rgba(24, 226, 153, 0.12), transparent 70%);
   }
+}
+:root[data-theme='light'] { color-scheme: light; }
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --bg: #0d0d0d;
+  --surface: #141414;
+  --surface-2: #141414;
+  --hover: #1c1c1c;
+  --text: #ededed;
+  --text-2: #c9c9c9;
+  --muted: #a0a0a0;
+  --faint: #7a7a7a;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-2: rgba(255, 255, 255, 0.12);
+  --border-3: rgba(255, 255, 255, 0.12);
+  --brand-deep: #18e299;
+  --brand-light: rgba(24, 226, 153, 0.12);
+  --amber: #e5a743;
+  --amber-light: rgba(229, 167, 67, 0.12);
+  --blue: #7aa5ec;
+  --blue-light: rgba(122, 165, 236, 0.12);
+  --red: #ee8a8a;
+  --red-light: rgba(238, 138, 138, 0.12);
+  --shadow: rgba(0, 0, 0, 0.4) 0 2px 4px;
+  --hero-wash: radial-gradient(60% 80% at 20% 0%, rgba(24, 226, 153, 0.12), transparent 70%);
 }
 
 /* ---------- Base ---------- */

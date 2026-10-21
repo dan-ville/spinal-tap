@@ -1,0 +1,18 @@
+# Plan exit gates (docs/plan.md §4). /plan/ renders them as read-only lists; /dashboard/ renders
+# them as checkboxes, persisted in localStorage under `gate:<id>`, so ids must never change.
+# Every gate needs either `source` (an id in sources.yml) or `tag: heuristic | proposed`;
+# scripts/check-plan.mjs fails the build otherwise.
+- { phase: 0, id: p0-checkins-14, tag: proposed, text: "14 consecutive daily check-ins logged" }
+- { phase: 1, id: p1-ratio-flex-ext, source: mcgill-1999-endurance-norms, text: "Flexor/extensor endurance ratio below 1.0" }
+- { phase: 1, id: p1-ratio-bridge-ext, source: mcgill-1999-endurance-norms, text: "Side bridge/extensor ratio about 0.75" }
+- { phase: 1, id: p1-bridge-symmetry, source: mcgill-1999-endurance-norms, text: "Left and right side bridge within 5% of each other" }
+- { phase: 1, id: p1-clean-weeks-4, tag: heuristic, text: "4 consecutive weeks without a bad next-day verdict" }
+- { phase: 1, id: p1-rdl-1x-bw-8, tag: proposed, text: "Pain-free RDL at 1.0× bodyweight for 8 reps" }
+- { phase: 1, id: p1-suitcase-carry, tag: proposed, text: "Suitcase carry at 0.5× bodyweight per hand for 30 m" }
+- { phase: 2, id: p2-deadlift-1-5x-bw-5, tag: proposed, text: "Deadlift from the floor at 1.5× bodyweight for 5 at RPE ≤ 8 with no yellow verdict" }
+- { phase: 2, id: p2-squat-1-5x-bw-5, tag: proposed, text: "Squat at 1.5× bodyweight for 5" }
+- { phase: 2, id: p2-clean-weeks-8, tag: heuristic, text: "8 consecutive clean weeks" }
+- { phase: 2, id: p2-ratios-held, source: mcgill-1999-endurance-norms, text: "Endurance ratios held at the monthly retest" }
+- { phase: 3, id: p3-first-competition, tag: proposed, text: "First competition entered and completed" }
+- { phase: 3, id: p3-clean-blocks-3, tag: heuristic, text: "3 consecutive injury-free blocks" }
+- { phase: 4, id: p4-monthly-screen, tag: proposed, text: "Red-flag screen and McGill retest repeated monthly, logged" }

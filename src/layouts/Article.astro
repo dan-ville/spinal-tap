@@ -26,7 +26,7 @@ const resolved = sources.map((id) => {
 ---
 <Base title={title}>
     <main class="article">
-      <p class="track"><a href="/">Spinal Tap</a> › <a href={`/learn/${track}/`}>{track.replace('-', ' ')}</a></p>
+      <p class="track"><a href="/">Spinal Tap</a> › <a href="/learn/">learn</a> › <a href={`/learn/${track}/`}>{track.replace('-', ' ')}</a></p>
       <h1>{title}</h1>
       <slot name="lede" />
       {track === 'rehab' && <Disclaimer />}

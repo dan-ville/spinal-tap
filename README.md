@@ -24,7 +24,7 @@ The first `npm run build` takes about a minute because it builds the atlas. Late
 Three commands define "done". CI runs all of them.
 
 ```sh
-npm test                           # calc, recall and schedule unit tests
+npm test                           # calc, recall, schedule and journal unit tests
 node scripts/check-sources.mjs     # every cited id exists in sources.yml with a tier; Check ids unique
 node scripts/check-links.mjs       # every internal link in dist/ resolves (run after npm run build)
 ```
@@ -44,7 +44,8 @@ Third-party sources keep their own licences; `src/content/sources/sources.yml` r
 - `src/content/articles/<track>/` MDX articles. `src/content/articles/_template.mdx` is the starting shape.
 - `src/content/evidence/` frontmatter-only evidence cards, one per Tier B source.
 - `src/content/sources/sources.yml` the source registry.
-- `src/pages/plan.mdx` the return-to-lifting plan with gates and calculators.
+- `src/pages/plan.mdx` the return-to-lifting plan (read-only); its exit gates live in `src/data/gates.yml`.
+- `src/pages/dashboard.astro` daily check-in journal, gate tracking, calculators and a whole-site backup (localStorage).
 - `atlas/` the 3D atlas, built into `public/atlas/` and embedded as an iframe.
 - `scripts/` build and verification scripts.
 - `docs/plan.md` the design document.

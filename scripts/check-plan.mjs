@@ -1,21 +1,26 @@
-// Fails if any <Gate> in src/pages/plan.mdx lacks a stable id, or lacks both a known source id and a [heuristic]/[proposed] tag.
+// Fails if any gate in src/data/gates.yml lacks a stable unique id, a 0–4 phase, text, or both a known
+// source id and a heuristic/proposed tag; or if a phase has no <Gate phase={n} /> on src/pages/plan.mdx.
 import { readFileSync } from "node:fs";
 import { parse } from "yaml";
 
 const registry = parse(readFileSync("src/content/sources/sources.yml", "utf8")) ?? {};
+const gates = parse(readFileSync("src/data/gates.yml", "utf8")) ?? [];
 const text = readFileSync("src/pages/plan.mdx", "utf8");
 const errors = [];
 const seen = new Set();
-const attr = (tag, name) => tag.match(new RegExp(`\\b${name}="([^"]*)"`))?.[1];
 
-for (const m of text.matchAll(/<Gate\b[^>]*>/g)) {
-  const id = attr(m[0], "id"), source = attr(m[0], "source"), tag = attr(m[0], "tag");
-  if (!id) errors.push(`gate without id: ${m[0]}`);
-  else if (seen.has(id)) errors.push(`duplicate gate id: ${id}`);
+for (const g of gates) {
+  const { id, phase, source, tag } = g;
+  if (!id) { errors.push(`gate without id: ${JSON.stringify(g)}`); continue; }
+  if (seen.has(id)) errors.push(`duplicate gate id: ${id}`);
   seen.add(id);
+  if (![0, 1, 2, 3, 4].includes(phase)) errors.push(`gate ${id}: phase must be 0–4`);
+  if (!g.text) errors.push(`gate ${id}: missing text`);
   if (source && !(source in registry)) errors.push(`gate ${id}: unknown source id ${source}`);
-  if (!source && !["heuristic", "proposed"].includes(tag)) errors.push(`gate ${id}: needs a source id or tag="heuristic"|"proposed"`);
+  if (!source && !["heuristic", "proposed"].includes(tag)) errors.push(`gate ${id}: needs a source id or tag: heuristic | proposed`);
 }
+for (const phase of new Set(gates.map((g) => g.phase)))
+  if (!text.includes(`<Gate phase={${phase}} />`)) errors.push(`plan.mdx renders no gates for phase ${phase}`);
 for (const m of text.matchAll(/<Source\s+[^>]*?id="([^"]+)"/g))
   if (!(m[1] in registry)) errors.push(`unknown source id: ${m[1]}`);
 
