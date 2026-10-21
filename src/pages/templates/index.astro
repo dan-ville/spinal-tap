@@ -1,0 +1,58 @@
+---
+// /templates — downloadable, offline tools for running the plan. The site itself stores nothing:
+// readers keep their log in their own file or on paper.
+import Base from '../../layouts/Base.astro';
+
+const sheets = [
+  ['Start here', 'How to use the file, the red flags, and the conventions.'],
+  ['Daily log', 'The Phase 0 check-in, one row a day, with your stiffness change against a 14-day baseline.'],
+  ['Training log', 'Load, sets, reps and RPE per lift; e1RM and axial hard sets computed.'],
+  ['Weekly review', 'Hard sets, yellow and bad days per week, and the 40% cut when it applies.'],
+  ['McGill tests', 'The monthly endurance battery, its three ratios and their gate verdicts.'],
+  ['Gates', 'Every exit gate in the plan with its source tag, and progress per phase.'],
+  ['Calculators', 'Epley e1RM, bodyweight multiples and DOTS.'],
+];
+---
+<Base title="Templates">
+  <main class="templates">
+    <p class="crumb"><a href="/">Spinal Tap</a> › templates</p>
+    <h1>Templates</h1>
+    <p class="lede">Spinal Tap stores nothing about you. To run the <a href="/plan/">plan</a>, keep your own log in one of these and own it outright.</p>
+
+    <section class="tpl card">
+      <div class="tpl-head">
+        <span class="badge">Spreadsheet · .xlsx</span>
+        <h2>Progress tracker</h2>
+        <p>One workbook for the whole plan. Opens in Excel, Google Sheets (File › Import), LibreOffice and Numbers. Yellow cells are for you; grey cells are formulas that match the site's calculators exactly.</p>
+        <p><a class="btn btn-primary" href="/templates/spinal-tap-tracker.xlsx" download>Download the tracker</a></p>
+      </div>
+      <ol class="sheets">{sheets.map(([name, what]) => <li><strong>{name}</strong><span>{what}</span></li>)}</ol>
+    </section>
+
+    <section class="tpl card">
+      <div class="tpl-head">
+        <span class="badge">Printable · paper</span>
+        <h2>Weekly log sheet</h2>
+        <p>One page per week for a clipboard or the gym bag: the daily check-in, the verdict guide, working sets and a McGill test box. Print it, or save it as a PDF from the print dialog.</p>
+        <p><a class="btn" href="/templates/log-sheet/">Open the printable sheet</a></p>
+      </div>
+    </section>
+
+    <p class="fine">Both templates are CC BY-SA 4.0, like the site's prose: copy them, change the columns, share your version. They teach and record; they do not diagnose. If anything on the <a href="/learn/pathology/red-flags/">red-flag list</a> applies, stop and see a clinician the same day.</p>
+  </main>
+</Base>
+<style>
+  .tpl { margin: 0 0 16px; }
+  .tpl h2 { margin: 10px 0 6px; }
+  .tpl-head p { margin: 0 0 14px; color: var(--text-2); }
+  .tpl-head p:last-child { margin: 0; }
+  .sheets { list-style: none; padding: 0; margin: 20px 0 0; border-top: 1px solid var(--border-3); counter-reset: s; }
+  .sheets li { counter-increment: s; display: grid; grid-template-columns: 2rem 9rem 1fr; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border-3); font-size: 0.9375rem; }
+  .sheets li::before { content: counter(s, decimal-leading-zero); font: 500 0.75rem/1.9 var(--mono); color: var(--brand-deep); }
+  .sheets span { color: var(--muted); }
+  .fine { font-size: 0.875rem; color: var(--muted); margin-top: 2rem; }
+  @media (max-width: 640px) {
+    .sheets li { grid-template-columns: 2rem 1fr; }
+    .sheets span { grid-column: 2; }
+  }
+</style>

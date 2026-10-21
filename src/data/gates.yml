@@ -1,5 +1,5 @@
-# Plan exit gates (docs/plan.md §4). /plan/ renders them as read-only lists; /dashboard/ renders
-# them as checkboxes, persisted in localStorage under `gate:<id>`, so ids must never change.
+# Plan exit gates (docs/plan.md §4). /plan/ renders them; the Gates sheet of the downloadable tracker
+# is generated from them. After editing, rebuild the tracker: python3 scripts/templates/build-tracker.py
 # Every gate needs either `source` (an id in sources.yml) or `tag: heuristic | proposed`;
 # scripts/check-plan.mjs fails the build otherwise.
 - { phase: 0, id: p0-checkins-14, tag: proposed, text: "14 consecutive daily check-ins logged" }

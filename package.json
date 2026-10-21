@@ -15,7 +15,7 @@
     "check:links": "node scripts/check-links.mjs",
     "build:atlas": "npm --prefix atlas run build && rm -rf public/atlas && cp -R atlas/dist public/atlas && mv public/atlas/index.html public/atlas/app.html && npm run build:atlas-index",
     "build:atlas-index": "node scripts/build-atlas-index.mjs",
-    "test": "node scripts/calc.test.mjs && node scripts/recall.test.mjs && node scripts/schedule.test.mjs && node scripts/journal.test.mjs",
+    "test": "node scripts/calc.test.mjs && node scripts/recall.test.mjs && node scripts/schedule.test.mjs",
     "check:plan": "node scripts/check-plan.mjs"
   },
   "dependencies": {

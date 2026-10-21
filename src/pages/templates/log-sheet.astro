@@ -1,0 +1,104 @@
+---
+// /templates/log-sheet — a printable one-week log (US Letter / A4). On screen it previews the page;
+// print styles drop the site chrome.
+import Base from '../../layouts/Base.astro';
+const days = ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'];
+---
+<Base title="Weekly log sheet">
+  <main class="sheet-page">
+    <div class="screen-only">
+      <p class="crumb"><a href="/">Spinal Tap</a> › <a href="/templates/">templates</a> › log sheet</p>
+      <p class="actions"><button type="button" class="btn-primary" onclick="window.print()">Print or save as PDF</button> <span>One page; print one per week.</span></p>
+    </div>
+
+    <article class="sheet">
+      <header>
+        <h1>Weekly log</h1>
+        <p>Week starting <span class="blank w8"></span> &nbsp; Phase <span class="blank w2"></span> &nbsp; Baseline stiffness <span class="blank w3"></span></p>
+      </header>
+
+      <h2>Daily check-in <small>every morning, before coffee and before the walk</small></h2>
+      <table class="grid days">
+        <thead><tr><th>Day</th><th>Stiffness<br /><small>0–10</small></th><th>Below glute<br /><small>yes / no</small></th><th>Sleep<br /><small>h</small></th><th>Stress<br /><small>1–5</small></th><th>Bodyweight<br /><small>kg</small></th><th>Walk<br /><small>min</small></th><th>Verdict on yesterday<br /><small>clean / yellow / bad</small></th><th class="notes">Notes</th></tr></thead>
+        <tbody>{days.map((d) => <tr><th>{d}</th><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>)}</tbody>
+      </table>
+
+      <div class="guide">
+        <p><b>Clean</b> stiffness at or near baseline, below-glute no.</p>
+        <p><b>Yellow</b> clearly above baseline (about 2 points), settles with the walk. Hold: no progression, no regression.</p>
+        <p><b>Bad</b> well above and does not settle, or below-glute yes. Regress that movement one rung: range, then moment arm, then load. Two bad days this week: cut the week's axial hard sets by 40%.</p>
+      </div>
+
+      <h2>Working sets <small>a hard set is an axial set at RPE 7 or above</small></h2>
+      <table class="grid sets">
+        <thead><tr><th>Day</th><th class="lift">Lift</th><th>Axial?</th><th>Load</th><th>Sets × reps</th><th>RPE</th><th>Hard sets</th></tr></thead>
+        <tbody>{Array.from({ length: 8 }, () => <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>)}</tbody>
+        <tfoot><tr><th colspan="6">Axial hard sets this week</th><td></td></tr></tfoot>
+      </table>
+
+      <div class="split">
+        <section>
+          <h2>McGill tests <small>monthly, seconds</small></h2>
+          <table class="grid mcgill">
+            <tbody>
+              <tr><th>Flexor hold</th><td></td><th>Extensor hold</th><td></td></tr>
+              <tr><th>Side bridge L</th><td></td><th>Side bridge R</th><td></td></tr>
+              <tr><th>Flexor ÷ extensor</th><td></td><th colspan="2" class="target">gate: below 1.0</th></tr>
+              <tr><th>Avg bridge ÷ extensor</th><td></td><th colspan="2" class="target">gate: 0.65–0.85</th></tr>
+              <tr><th>L/R difference %</th><td></td><th colspan="2" class="target">gate: 5% or less</th></tr>
+            </tbody>
+          </table>
+        </section>
+        <section>
+          <h2>Weekly review</h2>
+          <div class="lines">{Array.from({ length: 5 }, () => <span></span>)}</div>
+        </section>
+      </div>
+
+      <footer>
+        <b>Red flags. Stop and see a clinician today:</b> symptoms below the knee, numbness or weakness, saddle anaesthesia, bladder or bowel change, night pain, fever, unexplained weight loss, trauma.
+        <span>Spinal Tap · CC BY-SA 4.0 · teaches, does not diagnose</span>
+      </footer>
+    </article>
+  </main>
+</Base>
+<style>
+  .sheet-page { max-width: 60rem; }
+  .actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 0.875rem; color: var(--muted); }
+  /* The sheet is paper: always black on white, on screen and in print. */
+  .sheet { background: #fff; color: #111; border: 1px solid var(--border-2); border-radius: 8px; box-shadow: var(--shadow); padding: 28px 32px; font-size: 11px; line-height: 1.35; overflow-x: auto; }
+  .sheet h1 { color: #111; font-size: 20px; margin: 0; letter-spacing: -0.3px; }
+  .sheet header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; border-bottom: 2px solid #111; padding-bottom: 8px; }
+  .sheet header p { margin: 0; }
+  .blank { display: inline-block; border-bottom: 1px solid #111; height: 1em; vertical-align: bottom; }
+  .w2 { width: 2em; } .w3 { width: 3em; } .w8 { width: 8em; }
+  .sheet h2 { color: #111; font-size: 12px; margin: 16px 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .sheet h2 small { text-transform: none; letter-spacing: 0; font-weight: 400; color: #555; margin-left: 6px; }
+  .grid { width: 100%; border-collapse: collapse; font-size: 11px; }
+  .grid th, .grid td { border: 1px solid #999; padding: 4px 6px; color: #111; font: inherit; text-transform: none; letter-spacing: 0; text-align: left; vertical-align: top; }
+  .grid thead th { background: #f0f0f0; font-weight: 600; }
+  .grid thead small { font-weight: 400; color: #555; }
+  .grid tbody td { height: 26px; }
+  .grid tbody th { font-weight: 600; }
+  .days tbody th { width: 3em; }
+  .mcgill th { white-space: nowrap; }
+  .mcgill tbody td { height: 22px; width: 3.5em; }
+  .grid .notes { width: 28%; }
+  .sets .lift { width: 30%; }
+  .grid tfoot th { text-align: right; font-weight: 600; }
+  .target { color: #555 !important; font-weight: 400 !important; }
+  .guide { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 6px; }
+  .guide p { margin: 0; padding: 6px 8px; border: 1px solid #ccc; border-radius: 4px; color: #111; }
+  .split { display: grid; grid-template-columns: 1.2fr 1fr; gap: 20px; }
+  .lines span { display: block; height: 20px; border-bottom: 1px solid #999; }
+  .sheet footer { margin-top: 14px; padding-top: 8px; border-top: 1px solid #111; color: #111; }
+  .sheet footer span { display: block; margin-top: 4px; color: #555; }
+  @media (max-width: 640px) { .sheet { padding: 16px; } .sheet > * { min-width: 36rem; } }
+  @media print {
+    @page { margin: 12mm; }
+    :global(.site-nav), :global(.site-footer), .screen-only { display: none !important; }
+    :global(body) { background: #fff; }
+    .sheet-page { max-width: none; padding: 0; margin: 0; }
+    .sheet { border: 0; box-shadow: none; padding: 0; border-radius: 0; overflow: visible; }
+  }
+</style>
