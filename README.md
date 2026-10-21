@@ -52,3 +52,4 @@ Third-party sources keep their own licences; `src/content/sources/sources.yml` r
 - `atlas/` the 3D atlas, built into `public/atlas/` and embedded as an iframe.
 - `scripts/` build and verification scripts.
 - `docs/plan.md` the design document.
+- `docs/course-player/` the plan for the three-pane course player (lesson outline, lesson, anatomy pane) and the research behind it.
