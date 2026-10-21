@@ -116,10 +116,10 @@ Research findings that constrain sourcing:
 Per-lesson assignments: **not final.** The candidates below were gathered from search-engine copies of the
 file pages because the APIs were blocked here. A session that can reach Wikimedia must verify each one through
 `https://commons.wikimedia.org/w/api.php?action=query&titles=File:NAME&prop=imageinfo&iiprop=url|size|mime|extmetadata&format=json`
-(record `LicenseShortName`, `Artist`, `Credit` verbatim into figures.yml) before committing the file. An
-inventory of OpenStax figures at the pinned commit was still running when this plan was committed; redo it
-locally (fetch `modules/<id>/index.cnxml` for 7.3, 8.3, 9.x, 10.x, 11.3–11.6, 13.x, 14.x at the pinned commit and
-read each caption's credit line).
+(record `LicenseShortName`, `Artist`, `Credit` verbatim into figures.yml) before committing the file. The
+inventory of OpenStax figures at the pinned commit is in [openstax-inventory.md](openstax-inventory.md): about
+30 usable figures with verified raw GitHub URLs and credit lines, which this sandbox can download. It also
+records a reachable CC BY 4.0 Servier four-stage disc-herniation series on GitHub.
 
 Prefer, in order: Gray's 1918 plates (PD) → OpenStax first-edition uploads on Commons (CC BY 3.0/4.0) or the
 pinned 2e repo → BruceBlaus/Blausen (CC BY 3.0) → Servier on Commons (CC BY-SA 3.0) → CC BY paper figures.
