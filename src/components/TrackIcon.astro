@@ -1,0 +1,20 @@
+---
+// A line icon per learning track, for the /learn/ banners. <TrackIcon id="anatomy" />
+// Stroke-based on a 24-unit grid; size with --track-icon-size on an ancestor, colour comes from currentColor.
+interface Props { id: string }
+const { id } = Astro.props;
+const paths: Record<string, string> = {
+  anatomy: '<rect x="6" y="2.5" width="12" height="5" rx="2"/><rect x="6" y="9.5" width="12" height="5" rx="2"/><rect x="6" y="16.5" width="12" height="5" rx="2"/><path d="M9 8.5h6M9 15.5h6"/>',
+  biomechanics: '<path d="M3 20h18"/><path d="M9 20l3-5 3 5"/><path d="M4 16.5 20 8"/><rect x="16.5" y="3" width="4.5" height="4.5" rx="1"/><path d="M5.5 14.5v2"/>',
+  'pain-science': '<circle cx="12" cy="12" r="9"/><path d="M6.5 12h2l2-4 3 8 2-4h2"/>',
+  pathology: '<circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/><path d="M8 10.5h5M10.5 8v5"/>',
+  rehab: '<path d="M3 20h4.5v-4.5H12V11h4.5V6.5H21"/><path d="M17 3.5h4v4"/>',
+  'training-science': '<path d="M2 12h2.5M19.5 12H22M8.5 12h7"/><rect x="4.5" y="7" width="4" height="10" rx="1"/><rect x="15.5" y="7" width="4" height="10" rx="1"/>',
+  'self-coaching': '<rect x="4.5" y="3" width="15" height="18" rx="2"/><path d="M8.5 3v18"/><path d="M11.5 11.5l2 2 4-4"/>',
+};
+const d = paths[id] ?? '<circle cx="12" cy="12" r="9"/>';
+---
+<svg class="track-icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" set:html={d} />
+<style>
+  .track-icon { width: var(--track-icon-size, 48px); height: var(--track-icon-size, 48px); flex: none; color: var(--brand-deep); opacity: 0.85; }
+</style>

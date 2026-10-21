@@ -1,0 +1,150 @@
+---
+// /settings — appearance, and everything this browser has stored for the reader: Check self-grades
+// (`recall`, written by Check.astro) and per-article notes (`notes:<slug>`, written by Notes.astro).
+// Export bundles both as one JSON file; import accepts that bundle or the older bare recall export.
+// The site has no accounts and no server; this page is the only place that data can leave the browser.
+import Base from '../layouts/Base.astro';
+---
+<Base title="Settings">
+  <main class="settings">
+    <p class="crumb"><a href="/">Spinal Tap</a> › settings</p>
+    <h1>Settings</h1>
+    <p class="lede">Spinal Tap keeps nothing about you on a server. What little this browser remembers is listed here, and you can take it with you.</p>
+
+    <section class="card">
+      <h2>Appearance</h2>
+      <fieldset class="theme" id="theme-choice">
+        <legend>Theme</legend>
+        <label><input type="radio" name="theme" value="system" /> Follow the system</label>
+        <label><input type="radio" name="theme" value="light" /> Light</label>
+        <label><input type="radio" name="theme" value="dark" /> Dark</label>
+      </fieldset>
+    </section>
+
+    <section class="card">
+      <h2>Your data</h2>
+      <p>Stored in this browser only. Clearing site data, a private window, or another device starts from nothing, so export a copy if you want to keep it.</p>
+      <dl class="inventory">
+        <div><dt>Check grades</dt><dd><span id="n-recall">0</span> graded Checks. Each article's Check remembers your last self-grade and when you answered it.</dd></div>
+        <div><dt>Notes</dt><dd><span id="n-notes">0</span> articles with notes in the box at the end of the article.</dd></div>
+      </dl>
+      <p class="actions">
+        <button type="button" class="btn-primary" id="export">Export JSON</button>
+        <button type="button" id="clear">Clear everything</button>
+        <span id="msg" role="status"></span>
+      </p>
+      <details class="import">
+        <summary>Import a previous export</summary>
+        <p class="actions">
+          <label>File <input type="file" id="import-file" accept="application/json,.json" /></label>
+        </p>
+        <textarea id="import-text" rows="5" placeholder='Or paste the JSON here'></textarea>
+        <p class="actions">
+          <button type="button" data-import="merge">Import and merge</button>
+          <button type="button" data-import="replace">Import and replace</button>
+        </p>
+        <p class="fine">Merge keeps whichever grade is more recent and never overwrites a note you have here with an empty one. Replace drops what this browser has first.</p>
+      </details>
+    </section>
+
+    <p class="fine">The <a href="/templates/">tracker and log sheet</a> are files you keep yourself; nothing from them is stored here.</p>
+  </main>
+</Base>
+
+<script>
+  import { parseRecords, serialise, importRecords } from '../lib/recall';
+  const $ = (s: string) => document.querySelector(s) as HTMLElement;
+  const RECALL = 'recall';
+  const NOTES = 'notes:';
+
+  // ---- theme: same storage the nav toggle in Base.astro uses ----
+  const root = document.documentElement;
+  const radios = document.querySelectorAll<HTMLInputElement>('#theme-choice input');
+  const stored = (() => { try { return localStorage.getItem('theme'); } catch { return null; } })();
+  for (const r of radios) {
+    r.checked = (stored === 'light' || stored === 'dark') ? r.value === stored : r.value === 'system';
+    r.addEventListener('change', () => {
+      try { r.value === 'system' ? localStorage.removeItem('theme') : localStorage.setItem('theme', r.value); } catch {}
+      if (r.value === 'system') delete root.dataset.theme; else root.dataset.theme = r.value;
+      const dark = (root.dataset.theme ?? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light')) === 'dark';
+      document.getElementById('theme-toggle')?.setAttribute('aria-pressed', String(dark));
+    });
+  }
+
+  // ---- data ----
+  const notes = (): Record<string, string> => {
+    const out: Record<string, string> = {};
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i)!;
+      if (k.startsWith(NOTES) && localStorage.getItem(k)) out[k.slice(NOTES.length)] = localStorage.getItem(k)!;
+    }
+    return out;
+  };
+  const recall = () => parseRecords(localStorage.getItem(RECALL));
+  function render() {
+    const nr = Object.keys(recall()).length, nn = Object.keys(notes()).length;
+    $('#n-recall').textContent = String(nr);
+    $('#n-notes').textContent = String(nn);
+    ($('#clear') as HTMLButtonElement).disabled = nr + nn === 0;
+  }
+  const say = (t: string) => { $('#msg').textContent = t; };
+
+  $('#export').addEventListener('click', () => {
+    const bundle = { site: 'spinal-tap', exported: new Date().toISOString(), recall: recall(), notes: notes() };
+    const blob = new Blob([JSON.stringify(bundle, null, 2)], { type: 'application/json' });
+    const a = Object.assign(document.createElement('a'), { href: URL.createObjectURL(blob), download: `spinal-tap-${new Date().toISOString().slice(0, 10)}.json` });
+    a.click();
+    URL.revokeObjectURL(a.href);
+    say('Exported.');
+  });
+
+  $('#clear').addEventListener('click', () => {
+    if (!confirm('Remove every Check grade and note this browser has stored? Export first if you want a copy.')) return;
+    localStorage.removeItem(RECALL);
+    for (const slug of Object.keys(notes())) localStorage.removeItem(NOTES + slug);
+    render();
+    say('Cleared.');
+  });
+
+  function doImport(text: string, mode: 'merge' | 'replace') {
+    let raw: any;
+    try { raw = JSON.parse(text); } catch { say('That is not valid JSON.'); return; }
+    // New bundle {recall, notes}; older exports were the bare recall record set.
+    const incomingRecall = parseRecords(JSON.stringify(raw?.recall ?? raw));
+    const incomingNotes: Record<string, string> = raw?.notes && typeof raw.notes === 'object' ? raw.notes : {};
+    const nr = Object.keys(incomingRecall).length, nn = Object.keys(incomingNotes).length;
+    if (!nr && !nn) { say('No Check grades or notes found in that file.'); return; }
+    if (mode === 'replace') for (const slug of Object.keys(notes())) localStorage.removeItem(NOTES + slug);
+    localStorage.setItem(RECALL, serialise(importRecords(recall(), incomingRecall, mode)));
+    for (const [slug, text] of Object.entries(incomingNotes)) if (typeof text === 'string' && text) localStorage.setItem(NOTES + slug, text);
+    render();
+    say(`Imported ${nr} grade${nr === 1 ? '' : 's'} and ${nn} note${nn === 1 ? '' : 's'} (${mode}).`);
+  }
+  document.querySelectorAll<HTMLElement>('[data-import]').forEach((b) =>
+    b.addEventListener('click', async () => {
+      const file = ($('#import-file') as HTMLInputElement).files?.[0];
+      doImport(file ? await file.text() : ($('#import-text') as HTMLTextAreaElement).value, b.dataset.import as 'merge' | 'replace');
+    }),
+  );
+  render();
+</script>
+
+<style>
+  .card { margin: 0 0 16px; }
+  .card h2 { margin: 0 0 8px; font-size: 1.25rem; }
+  .card > p { margin: 0 0 12px; color: var(--text-2); }
+  .theme { border: 0; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 8px 20px; }
+  .theme legend { font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); margin-bottom: 6px; }
+  .theme label { display: inline-flex; align-items: center; gap: 8px; }
+  .inventory { margin: 0 0 16px; display: grid; gap: 10px; }
+  .inventory div { display: grid; grid-template-columns: 8rem 1fr; gap: 12px; padding: 10px 0; border-top: 1px solid var(--border-3); }
+  .inventory dt { font-weight: 600; color: var(--text); }
+  .inventory dd { margin: 0; color: var(--text-2); }
+  .inventory dd span { font-weight: 600; color: var(--text); }
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin: 0 0 10px; }
+  .import { margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-3); }
+  .import summary { cursor: pointer; font-weight: 500; color: var(--text); margin-bottom: 10px; }
+  textarea { font-family: var(--mono); font-size: 0.8125rem; margin-bottom: 10px; }
+  .fine { font-size: 0.875rem; color: var(--muted); }
+  @media (max-width: 640px) { .inventory div { grid-template-columns: 1fr; gap: 2px; } }
+</style>

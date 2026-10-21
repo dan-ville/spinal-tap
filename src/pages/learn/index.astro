@@ -1,7 +1,8 @@
 ---
-// /learn — the directory: every published article, grouped by track in reading order.
+// /learn — the directory: one collapsible banner per track, in reading order; open one for its articles.
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import TrackIcon from '../../components/TrackIcon.astro';
 import { tracks } from '../../data/tracks';
 
 const published = await getCollection('articles', (a) => a.data.status === 'published');
@@ -15,46 +16,77 @@ const groups = tracks.map((t) => ({
     <p class="crumb"><a href="/">Spinal Tap</a> › learn</p>
     <h1>Learn</h1>
     <p class="lede">{published.length} articles in {tracks.length} tracks. Each track reads in order; start anywhere. New to the words? The <a href="/glossary/">vocabulary</a> defines them.</p>
-    <nav class="jump" aria-label="Tracks">
-      {groups.map((g) => <a href={`#${g.id}`}>{g.name} <span>{g.articles.length}</span></a>)}
-    </nav>
-    <div class="groups">
+    <p class="tools"><button type="button" id="toggle-all" aria-expanded="false">Expand all</button></p>
+    <div class="tracks">
       {groups.map((g, i) => (
-        <section id={g.id} class="group">
-          <header>
-            <span class="num">{String(i + 1).padStart(2, '0')}</span>
-            <h2><a href={`/learn/${g.id}/`}>{g.name}</a></h2>
-            <p>{g.blurb}</p>
-          </header>
-          {g.articles.length === 0 ? <p class="empty">No articles published yet.</p> : (
-            <ol>{g.articles.map((a) => (
-              <li><a href={`/learn/${a.id}/`}>{a.data.title}</a><p>{a.data.summary}</p></li>
-            ))}</ol>
-          )}
-        </section>
+        <details class="tr-card" id={g.id}>
+          <summary>
+            <span class="t-text">
+              <span class="num">{String(i + 1).padStart(2, '0')}</span>
+              <span class="t-name">{g.name}</span>
+              <span class="t-blurb">{g.blurb}</span>
+              <span class="count">{g.articles.length} {g.articles.length === 1 ? 'article' : 'articles'}</span>
+            </span>
+            <TrackIcon id={g.id} />
+            <span class="chev" aria-hidden="true"></span>
+          </summary>
+          <div class="t-body">
+            {g.articles.length === 0 ? <p class="empty">No articles published yet.</p> : (
+              <ol>{g.articles.map((a) => (
+                <li><a href={`/learn/${a.id}/`}>{a.data.title}</a><p>{a.data.summary}</p></li>
+              ))}</ol>
+            )}
+            <a class="track-link" href={`/learn/${g.id}/`}>Open the {g.name.toLowerCase()} track →</a>
+          </div>
+        </details>
       ))}
     </div>
   </main>
 </Base>
+<script>
+  const all = [...document.querySelectorAll<HTMLDetailsElement>('.tr-card')];
+  const btn = document.getElementById('toggle-all') as HTMLButtonElement;
+  const sync = () => {
+    const open = all.every((d) => d.open);
+    btn.textContent = open ? 'Collapse all' : 'Expand all';
+    btn.setAttribute('aria-expanded', String(open));
+  };
+  btn.addEventListener('click', () => { const open = !all.every((d) => d.open); all.forEach((d) => (d.open = open)); sync(); });
+  all.forEach((d) => d.addEventListener('toggle', sync));
+  // /learn/#rehab opens that track
+  const openHash = () => { const t = document.getElementById(location.hash.slice(1)); if (t instanceof HTMLDetailsElement) { t.open = true; t.scrollIntoView({ block: 'start' }); } };
+  window.addEventListener('hashchange', openHash);
+  openHash();
+</script>
 <style>
-  .learn { max-width: 72rem; }
-  .jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 2.5rem; }
-  .jump a { padding: 4px 12px; border: 1px solid var(--border-2); border-radius: 9999px; font-size: 0.875rem; font-weight: 500; text-decoration: none; color: var(--text-2); }
-  .jump a:hover { border-color: var(--brand); color: var(--text); }
-  .jump span { font: 500 0.75rem/1 var(--mono); color: var(--faint); margin-left: 2px; }
-  .groups { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr)); gap: 16px; }
-  .group { border: 1px solid var(--border-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); padding: 20px 24px 8px; }
-  .group header { margin-bottom: 8px; }
+  .tools { display: flex; justify-content: flex-end; margin: -1rem 0 12px; }
+  .tools button { font-size: 0.875rem; padding: 4px 14px; }
+  .tracks { display: grid; gap: 12px; }
+  .tr-card { --track-icon-size: 64px; border: 1px solid var(--border-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); transition: border-color 0.15s; scroll-margin-top: calc(var(--nav-h) + 16px); }
+  .tr-card:hover, .tr-card[open] { border-color: var(--brand); }
+  .tr-card summary { list-style: none; cursor: pointer; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 20px; padding: 18px 20px 18px 24px; border-radius: 16px; }
+  .tr-card summary::-webkit-details-marker { display: none; }
+  .t-text { display: grid; gap: 2px; min-width: 0; }
   .num { font: 500 0.75rem/1.5 var(--mono); color: var(--brand-deep); }
-  .group h2 { margin: 2px 0 4px; font-size: 1.25rem; }
-  .group h2 a { text-decoration: none; }
-  .group header p { margin: 0; font-size: 0.9375rem; color: var(--muted); }
-  .group ol { list-style: none; padding: 0; margin: 12px 0 0; counter-reset: a; }
-  .group li { counter-increment: a; position: relative; padding: 10px 0 10px 36px; border-top: 1px solid var(--border-3); }
-  .group li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 0; top: 12px; font: 500 0.75rem/1.5 var(--mono); color: var(--faint); }
-  .group li a { font-weight: 500; text-decoration: none; }
-  .group li a::after { content: ''; position: absolute; inset: 0; }
-  .group li:hover a { color: var(--brand-deep); }
-  .group li p { margin: 2px 0 0; font-size: 0.875rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .t-name { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.2px; color: var(--text); }
+  .t-blurb { font-size: 0.9375rem; color: var(--muted); }
+  .count { margin-top: 6px; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--faint); }
+  .chev { width: 10px; height: 10px; border-right: 2px solid var(--muted); border-bottom: 2px solid var(--muted); transform: rotate(45deg); transition: transform 0.2s; margin: 0 4px 4px 0; }
+  .tr-card[open] .chev { transform: rotate(-135deg); margin: 4px 4px 0 0; }
+  .t-body { padding: 0 24px 16px; }
+  .t-body ol { list-style: none; padding: 0; margin: 0; counter-reset: a; border-top: 1px solid var(--border-3); }
+  .t-body li { counter-increment: a; position: relative; padding: 10px 0 10px 36px; border-bottom: 1px solid var(--border-3); }
+  .t-body li::before { content: counter(a, decimal-leading-zero); position: absolute; left: 0; top: 12px; font: 500 0.75rem/1.5 var(--mono); color: var(--faint); }
+  .t-body li a { font-weight: 500; text-decoration: none; }
+  .t-body li a::after { content: ''; position: absolute; inset: 0; }
+  .t-body li:hover a { color: var(--brand-deep); }
+  .t-body li p { margin: 2px 0 0; font-size: 0.875rem; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .track-link { display: inline-block; margin-top: 12px; font-size: 0.875rem; font-weight: 500; }
   .empty { color: var(--muted); font-size: 0.9375rem; }
+  @media (max-width: 640px) {
+    .tr-card summary { grid-template-columns: 1fr auto; gap: 12px; padding: 16px; }
+    .track-icon { width: 40px; height: 40px; }
+    .chev { display: none; }
+    .t-body { padding: 0 16px 14px; }
+  }
 </style>

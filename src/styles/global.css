@@ -28,6 +28,7 @@
   --font: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   --nav-h: 57px;
+  --content-w: 46rem; /* every page's reading column; only /atlas/ and the printable log sheet differ */
   color-scheme: light dark;
 }
 /* Dark tokens: follow the OS unless the theme toggle (Base.astro) pinned a choice on <html data-theme>. */
@@ -114,7 +115,7 @@ blockquote { margin: 1.5rem 0; padding: 0 0 0 1rem; border-left: 2px solid var(-
 img { max-width: 100%; }
 
 /* Every page's <main> is the reading column. */
-main { max-width: 46rem; margin: 0 auto; padding: 48px 24px 64px; }
+main { max-width: var(--content-w); margin: 0 auto; padding: 48px 24px 64px; }
 
 /* ---------- Form controls ---------- */
 button, .btn, input, select, textarea { font: inherit; color: inherit; }
@@ -211,13 +212,20 @@ textarea { width: 100%; border-radius: 16px; padding: 12px 16px; }
 
 /* ---------- Plan page (src/pages/plan.mdx) ---------- */
 .plan .fine { font-size: 0.875rem; color: var(--muted); }
-.phases { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
-.phases a { display: grid; align-content: start; gap: 4px; height: 100%; padding: 14px 14px 16px; border: 1px solid var(--border-2); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); text-decoration: none; color: var(--text-2); transition: border-color 0.15s; }
+.phases { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: 10px; }
+.phases a { display: grid; grid-template-columns: 3.25rem 1fr; gap: 2px 16px; padding: 16px 20px 16px 16px; border: 1px solid var(--border-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); text-decoration: none; color: var(--text-2); transition: border-color 0.15s; }
 .phases a:hover { border-color: var(--brand); color: var(--text-2); }
-.phases .ph-num { font: 600 0.75rem/1.5 var(--mono); color: var(--brand-deep); }
-.phases .ph-name { font-weight: 600; color: var(--text); line-height: 1.25; }
+.phases .ph-num { grid-row: 1 / span 3; align-self: start; width: 2.5rem; height: 2.5rem; border-radius: 12px; background: var(--brand-light); color: var(--brand-deep); font: 600 1rem/2.5rem var(--mono); text-align: center; }
+.phases .ph-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; }
+.phases .ph-name { font-size: 1.125rem; font-weight: 600; color: var(--text); letter-spacing: -0.2px; }
 .phases .ph-when { font: 500 0.6875rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
-.phases .ph-exit { font-size: 0.8125rem; color: var(--muted); margin-top: 4px; }
+.phases .ph-do { margin-top: 2px; }
+.phases .ph-exit { margin-top: 4px; font-size: 0.875rem; color: var(--muted); }
+.phases .ph-exit b { font-weight: 600; color: var(--brand-deep); }
+.rules { list-style: none; padding: 0; margin: 1rem 0 1.5rem; display: grid; gap: 10px; }
+.rules li { display: grid; grid-template-columns: 7.5rem 1fr; gap: 12px; padding: 14px 20px; border: 1px solid var(--border-2); border-radius: 16px; background: var(--surface); box-shadow: var(--shadow); }
+.rules .rule-title { font: 600 0.75rem/1.6 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--brand-deep); padding-top: 3px; }
+.rules p { margin: 0; }
 .howto { padding-left: 1.1rem; }
 .howto li { margin-bottom: 0.5rem; }
 .phase-meta { margin: -0.25rem 0 1rem; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
@@ -226,8 +234,11 @@ textarea { width: 100%; border-radius: 16px; padding: 12px 16px; }
 .ladder ol { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 8px; counter-reset: r; }
 .ladder li { counter-increment: r; position: relative; padding: 10px 16px 10px 48px; border: 1px solid var(--border-2); border-radius: 12px; background: var(--surface-2); }
 .ladder li::before { content: counter(r); position: absolute; left: 16px; top: 11px; width: 20px; height: 20px; border-radius: 50%; background: var(--amber-light); color: var(--amber); font: 600 0.75rem/20px var(--mono); text-align: center; }
-@media (max-width: 760px) { .phases { grid-template-columns: 1fr 1fr; } }
-@media (max-width: 480px) { .phases { grid-template-columns: 1fr; } }
+@media (max-width: 640px) {
+  .phases a { grid-template-columns: 2.25rem 1fr; gap: 2px 12px; padding: 14px 16px 14px 12px; }
+  .phases .ph-num { width: 2rem; height: 2rem; font-size: 0.875rem; line-height: 2rem; border-radius: 10px; }
+  .rules li { grid-template-columns: 1fr; gap: 2px; }
+}
 
 /* ---------- Pagefind ---------- */
 #search {

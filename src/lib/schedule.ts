@@ -1,4 +1,4 @@
-// Pure ts-fsrs wrapper. No DOM, no storage: Check.astro and review.astro own localStorage.
+// Pure ts-fsrs wrapper. No DOM, no storage: Check.astro and settings.astro own localStorage.
 import { fsrs, createEmptyCard, Rating, type Card, type Grade as FsrsGrade } from 'ts-fsrs';
 import type { Confidence, Grade, RecallRecord, RecordSet } from './recall.ts';
 

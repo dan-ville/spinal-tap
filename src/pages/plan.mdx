@@ -5,7 +5,6 @@ import Base from '../layouts/Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import Gate from '../components/Gate.astro';
 import Glossary from '../components/Glossary.astro';
-import KeyList from '../components/KeyList.astro';
 import Lede from '../components/Lede.astro';
 import Tag from '../components/Tag.astro';
 import Term from '../components/Term.astro';
@@ -21,40 +20,65 @@ import Term from '../components/Term.astro';
 
 # Rehab-to-performance plan
 
-<Lede>A five-phase route from "my back tightens on heavy sets" to competing. You move on when your own log says you are ready, never when a calendar does.</Lede>
-
-<h2 id="one-minute">The plan in one minute</h2>
-
-<KeyList>
-
-1. **Keep a short morning log.** Five lines a day: how stiff your back feels, whether you felt anything below the glute, sleep, stress, bodyweight. That log, not how you feel in the gym, drives every decision below.
-2. **Each morning gives yesterday a verdict: clean, yellow or bad.** Clean lets you progress, yellow holds, bad makes one movement a little easier in a fixed order. Two bad days in one week make the rest of the week lighter.
-3. **Train in five phases, and leave each one through its exit gates.** A gate is a measurement your log has to show, such as a hold time or a lift at a multiple of your bodyweight. There are no dates.
-4. **Every number here is a starting number.** As your log fills, your own measurements replace it, and the page says so wherever it matters.
-5. **Red flags end self-direction.** The symptoms in the red box below send you to a clinician the same day, in any phase.
-
-</KeyList>
-
-<p class="fine">Template v0. This page describes the plan and stores nothing. To keep your own log, download the <a href="/templates/">tracker spreadsheet or printable log sheet</a>. The plan works without a diagnosis or imaging, and says so where it matters.</p>
-
-<Disclaimer />
+<Lede>A five-phase route from training around a back that limits you to competing on it. You move on when your own records say you are ready, never when a calendar does.</Lede>
 
 <h2 id="phases">The five phases</h2>
 
 <ol class="phases">
-  <li><a href="#phase-0"><span class="ph-num">0</span><span class="ph-name">Baseline</span><span class="ph-when">About 2 weeks</span><span class="ph-exit">Leave when two weeks of mornings are logged</span></a></li>
-  <li><a href="#phase-1"><span class="ph-num">1</span><span class="ph-name">Capacity floor</span><span class="ph-when">4–8 weeks</span><span class="ph-exit">Leave when your trunk holds are balanced, you have had a month of clean mornings, and you can hinge your bodyweight and carry half of it</span></a></li>
-  <li><a href="#phase-2"><span class="ph-num">2</span><span class="ph-name">Progressive loading</span><span class="ph-when">8–16 weeks</span><span class="ph-exit">Leave when squat and deadlift reach 1.5× bodyweight for five, after two clean months</span></a></li>
-  <li><a href="#phase-3"><span class="ph-num">3</span><span class="ph-name">Strength build</span><span class="ph-when">6–12 months</span><span class="ph-exit">Leave when you have competed once and finished three blocks without injury</span></a></li>
-  <li><a href="#phase-4"><span class="ph-num">4</span><span class="ph-name">Performance</span><span class="ph-when">Ongoing</span><span class="ph-exit">No exit. The rules stay; the ceilings rise</span></a></li>
+  <li><a href="#phase-0">
+    <span class="ph-num">0</span>
+    <span class="ph-head"><span class="ph-name">Baseline</span><span class="ph-when">About 2 weeks</span></span>
+    <span class="ph-do">Change nothing in training. Start the morning log, test your trunk endurance, film your main lifts.</span>
+    <span class="ph-exit"><b>Move on when</b> two weeks of mornings are written down.</span>
+  </a></li>
+  <li><a href="#phase-1">
+    <span class="ph-num">1</span>
+    <span class="ph-head"><span class="ph-name">Capacity floor</span><span class="ph-when">4–8 weeks</span></span>
+    <span class="ph-do">Walk and do short trunk holds daily. Lift twice a week, well short of all-out. Carry weight.</span>
+    <span class="ph-exit"><b>Move on when</b> your trunk holds are balanced, a month has passed without a bad morning, and you can hinge your bodyweight for eight and carry half of it in one hand.</span>
+  </a></li>
+  <li><a href="#phase-2">
+    <span class="ph-num">2</span>
+    <span class="ph-head"><span class="ph-name">Progressive loading</span><span class="ph-when">8–16 weeks</span></span>
+    <span class="ph-do">Weights go up on purpose. The deadlift returns to the floor in steps. A weekly cap on hard sets, and a planned easy week every month or so.</span>
+    <span class="ph-exit"><b>Move on when</b> squat and deadlift reach 1.5× bodyweight for five, after two clean months, with your trunk holds still balanced.</span>
+  </a></li>
+  <li><a href="#phase-3">
+    <span class="ph-num">3</span>
+    <span class="ph-head"><span class="ph-name">Strength build</span><span class="ph-when">6–12 months</span></span>
+    <span class="ph-do">A full strength programme in blocks of a month or so. Strongman implements enter through their easier versions.</span>
+    <span class="ph-exit"><b>Move on when</b> you have competed once and finished three blocks without injury.</span>
+  </a></li>
+  <li><a href="#phase-4">
+    <span class="ph-num">4</span>
+    <span class="ph-head"><span class="ph-name">Performance</span><span class="ph-when">Ongoing</span></span>
+    <span class="ph-do">Meet prep, peaking and event-specific loading.</span>
+    <span class="ph-exit"><b>No exit.</b> The rules stay; the ceilings rise.</span>
+  </a></li>
 </ol>
+
+<h2 id="rules">The five rules underneath</h2>
+
+These run through every phase. Each has a one-word handle so it sticks.
+
+<ol class="rules">
+  <li><span class="rule-title">Log</span><p>Five lines every morning: how stiff your back feels, anything felt below the glute, sleep, stress, bodyweight. The <Term id="daily-check-in">log</Term>, not how you feel in the gym, drives every decision on this page.</p></li>
+  <li><span class="rule-title">Verdict</span><p>Each morning gives yesterday a <Term id="verdict">verdict</Term>: clean, yellow or bad. Clean lets you progress, yellow holds, bad makes one movement a little easier in a fixed order. Two bad days in one week make the rest of the week lighter.</p></li>
+  <li><span class="rule-title">Gates</span><p>You leave a phase through its <Term id="exit-gate">exit gates</Term>: measurements you tick off in your own tracker, such as a hold time or a lift at a multiple of your bodyweight. There are no dates.</p></li>
+  <li><span class="rule-title">Starting numbers</span><p>Every number here is a <Term id="starting-number">starting number</Term>. As your records fill, your own measurements replace it, and the page says so wherever it matters.</p></li>
+  <li><span class="rule-title">Red flags</span><p><Term id="red-flags">Red flags</Term> end self-direction. The symptoms in the red box below send you to a clinician the same day, in any phase.</p></li>
+</ol>
+
+<p class="fine">Template v0. This page describes the plan and stores nothing. To keep your own records, download the <a href="/templates/">tracker spreadsheet or printable log sheet</a>. The plan works without a diagnosis or imaging, and says so where it matters.</p>
+
+<Disclaimer />
 
 <h2 id="how-to-read">How to read this page</h2>
 
 <ul class="howto">
   <li><strong>Dotted words are vocabulary.</strong> Tap a word like <Term id="verdict">verdict</Term> for a one-line meaning, or open <strong>Vocabulary</strong> (bottom right) for the whole list. The same list lives at <a href="/glossary/">/glossary/</a>.</li>
   <li><strong>Every rule carries a label saying where it comes from.</strong> <Tag source="mcgill-1999-endurance-norms" /> is a cited study, and the label links to it. <Tag kind="heuristic" /> is a practitioner convention that no study has measured. <Tag kind="proposed" /> is a number to begin with, which your own measurements replace. <Tag kind="contested" /> means studies disagree. Tap any label for more.</li>
-  <li><strong>A gate is met when your log shows it, not when you feel it is.</strong> The <a href="/templates/">tracker spreadsheet</a> has a sheet for marking gates met and works out every ratio and estimate on this page from what you log.</li>
+  <li><strong>A gate is met when your records say so, not when you feel it is.</strong> The <a href="/templates/">tracker spreadsheet</a> has a sheet for ticking gates off and works out every ratio and estimate on this page from what you log.</li>
 </ul>
 
 <h2 id="phase-0">Phase 0 — Baseline</h2>

@@ -12,9 +12,12 @@ interface Props { phase: number }
 const { phase } = Astro.props;
 const gates = (parse(raw) as Gate[]).filter((g) => g.phase === phase);
 const n = gates.length;
+// The site stores nothing, so the wording points at the reader's own tracker, never at the page.
 const intro = phase === 4
-  ? 'This phase has no exit. Its one gate repeats for as long as the plan runs.'
-  : `Leave Phase ${phase} when ${n === 1 ? 'this shows' : `all ${n} of these show`} in your log.`;
+  ? 'No exit. Keep this one going for as long as the plan runs.'
+  : n === 1
+    ? `Tick this off in your tracker when it is true. Phase ${phase + 1} starts then.`
+    : `Tick these off in your tracker as they become true. Phase ${phase + 1} starts when all ${n} are ticked.`;
 ---
 <p class="gates-intro">{intro}</p>
 <ol class="gates">
