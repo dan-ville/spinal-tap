@@ -3,13 +3,14 @@
 // renamed to app.html by build:atlas so this page can own /atlas/ without clobbering it.
 import Base from '../layouts/Base.astro';
 ---
-<Base title="Atlas">
+<Base title="Atlas" footer={false}>
   <main class="atlas-page">
     <iframe id="atlas" src="/atlas/app.html" title="Human Atlas: interactive 3D anatomy of the lumbar spine, pelvis and hip"></iframe>
-    <p class="attribution">
-      3D models from <a href="https://lifesciencedb.jp/bp3d/">BodyParts3D</a>, © The Database Center for Life Science, licensed under CC BY 4.0,
+    <footer class="attribution">
+      3D models from <a href="https://lifesciencedb.jp/bp3d/">BodyParts3D</a>, © The Database Center for Life Science, CC BY 4.0,
       via the <a href="https://github.com/ashemag/human-atlas">human-atlas</a> fork. Full credits in <a href="/ATTRIBUTION.md">ATTRIBUTION.md</a>.
-    </p>
+      Spinal Tap teaches; it does not diagnose or replace a clinician.
+    </footer>
   </main>
 </Base>
 <script>
@@ -20,7 +21,10 @@ import Base from '../layouts/Base.astro';
   }
 </script>
 <style>
+  /* nav + iframe + attribution = 100dvh, so the page itself never scrolls; the atlas scrolls inside its frame */
+  :global(html), :global(body) { height: 100%; overflow: hidden; }
   .atlas-page { max-width: none; padding: 0; display: flex; flex-direction: column; height: calc(100dvh - var(--nav-h)); }
-  iframe { flex: 1; width: 100%; border: 0; min-height: 60vh; background: #f3f4f4; }
-  .attribution { margin: 0 auto; padding: 10px 24px; font-size: 0.8125rem; color: var(--muted); }
+  iframe { flex: 1; min-height: 0; width: 100%; border: 0; background: #f3f4f4; }
+  .attribution { flex: none; margin: 0; padding: 8px 24px; border-top: 1px solid var(--border); text-align: center; font-size: 0.75rem; line-height: 1.5; color: var(--muted); }
+  .attribution a { color: var(--muted); }
 </style>

@@ -37,12 +37,11 @@ const count = (track: string) => published.filter((a) => a.data.track === track)
 </Base>
 <style>
   .hero { background: var(--hero-wash); border-bottom: 1px solid var(--border); }
-  .hero-inner { max-width: 72rem; margin: 0 auto; padding: 96px 24px 72px; }
+  .hero-inner { max-width: var(--content-w); margin: 0 auto; padding: 80px 24px 64px; }
   .hero h1 { font-size: clamp(2.5rem, 6vw, 4rem); line-height: 1.1; letter-spacing: -1.28px; margin: 20px 0 16px; }
   .hero .lede { max-width: 36rem; font-size: 1.125rem; }
   .ctas { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
-  .home { max-width: 72rem; }
-  .tracks { list-style: none; padding: 0; margin: 12px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: 16px; }
+  .tracks { list-style: none; padding: 0; margin: 12px 0 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: 16px; }
   .tracks li { position: relative; display: flex; flex-direction: column; gap: 6px; transition: border-color 0.15s; }
   .tracks li:hover { border-color: var(--brand); }
   .num { font: 500 0.75rem/1.5 var(--mono); color: var(--brand-deep); }

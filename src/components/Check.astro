@@ -12,7 +12,7 @@
 //
 // `answer` may also be passed as a prop for one-liners: <Check id="..." answer="..." >Question</Check>
 // `id` is required and must be unique across the site (scripts/check-sources.mjs enforces it): it keys the
-// self-grade record stored in localStorage (see src/lib/recall.ts) that /review schedules from.
+// self-grade record stored in localStorage (see src/lib/recall.ts); /settings/ exports and imports it.
 interface Props {
   id: string;
   kind?: 'recall' | 'apply' | 'concept';
