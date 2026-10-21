@@ -1,18 +1,75 @@
 # Plan exit gates (docs/plan.md §4). /plan/ renders them; the Gates sheet of the downloadable tracker
 # is generated from them. After editing, rebuild the tracker: python3 scripts/templates/build-tracker.py
 # Every gate needs either `source` (an id in sources.yml) or `tag: heuristic | proposed`;
-# scripts/check-plan.mjs fails the build otherwise.
-- { phase: 0, id: p0-checkins-14, tag: proposed, text: "14 consecutive daily check-ins logged" }
-- { phase: 1, id: p1-ratio-flex-ext, source: mcgill-1999-endurance-norms, text: "Flexor/extensor endurance ratio below 1.0" }
-- { phase: 1, id: p1-ratio-bridge-ext, source: mcgill-1999-endurance-norms, text: "Side bridge/extensor ratio about 0.75" }
-- { phase: 1, id: p1-bridge-symmetry, source: mcgill-1999-endurance-norms, text: "Left and right side bridge within 5% of each other" }
-- { phase: 1, id: p1-clean-weeks-4, tag: heuristic, text: "4 consecutive weeks without a bad next-day verdict" }
-- { phase: 1, id: p1-rdl-1x-bw-8, tag: proposed, text: "Pain-free RDL at 1.0× bodyweight for 8 reps" }
-- { phase: 1, id: p1-suitcase-carry, tag: proposed, text: "Suitcase carry at 0.5× bodyweight per hand for 30 m" }
-- { phase: 2, id: p2-deadlift-1-5x-bw-5, tag: proposed, text: "Deadlift from the floor at 1.5× bodyweight for 5 at RPE ≤ 8 with no yellow verdict" }
-- { phase: 2, id: p2-squat-1-5x-bw-5, tag: proposed, text: "Squat at 1.5× bodyweight for 5" }
-- { phase: 2, id: p2-clean-weeks-8, tag: heuristic, text: "8 consecutive clean weeks" }
-- { phase: 2, id: p2-ratios-held, source: mcgill-1999-endurance-norms, text: "Endurance ratios held at the monthly retest" }
-- { phase: 3, id: p3-first-competition, tag: proposed, text: "First competition entered and completed" }
-- { phase: 3, id: p3-clean-blocks-3, tag: heuristic, text: "3 consecutive injury-free blocks" }
-- { phase: 4, id: p4-monthly-screen, tag: proposed, text: "Red-flag screen and McGill retest repeated monthly, logged" }
+# scripts/check-plan.mjs fails the build otherwise. `text` is the measurement as the tracker shows it;
+# `plain` is the same gate in everyday words for the plan page.
+- phase: 0
+  id: p0-checkins-14
+  tag: proposed
+  text: "14 consecutive daily check-ins logged"
+  plain: "Two weeks of mornings written down without a gap."
+- phase: 1
+  id: p1-ratio-flex-ext
+  source: mcgill-1999-endurance-norms
+  text: "Flexor/extensor endurance ratio below 1.0"
+  plain: "Your back-extension hold lasts longer than your trunk-flexor hold."
+- phase: 1
+  id: p1-ratio-bridge-ext
+  source: mcgill-1999-endurance-norms
+  text: "Side bridge/extensor ratio about 0.75"
+  plain: "Each side bridge lasts about three-quarters as long as your back-extension hold."
+- phase: 1
+  id: p1-bridge-symmetry
+  source: mcgill-1999-endurance-norms
+  text: "Left and right side bridge within 5% of each other"
+  plain: "Your left and right side bridges last almost the same time."
+- phase: 1
+  id: p1-clean-weeks-4
+  tag: heuristic
+  text: "4 consecutive weeks without a bad next-day verdict"
+  plain: "A month of mornings with no bad verdict."
+- phase: 1
+  id: p1-rdl-1x-bw-8
+  tag: proposed
+  text: "Pain-free RDL at 1.0× bodyweight for 8 reps"
+  plain: "Eight Romanian deadlifts with your own bodyweight on the bar, with no pain during the set."
+- phase: 1
+  id: p1-suitcase-carry
+  tag: proposed
+  text: "Suitcase carry at 0.5× bodyweight per hand for 30 m"
+  plain: "Walk 30 metres carrying half your bodyweight in one hand."
+- phase: 2
+  id: p2-deadlift-1-5x-bw-5
+  tag: proposed
+  text: "Deadlift from the floor at 1.5× bodyweight for 5 at RPE ≤ 8 with no yellow verdict"
+  plain: "Five deadlifts from the floor at one and a half times your bodyweight, with two reps still in the tank, and a clean morning after."
+- phase: 2
+  id: p2-squat-1-5x-bw-5
+  tag: proposed
+  text: "Squat at 1.5× bodyweight for 5"
+  plain: "Five squats at one and a half times your bodyweight."
+- phase: 2
+  id: p2-clean-weeks-8
+  tag: heuristic
+  text: "8 consecutive clean weeks"
+  plain: "Two months of mornings with no bad verdict."
+- phase: 2
+  id: p2-ratios-held
+  source: mcgill-1999-endurance-norms
+  text: "Endurance ratios held at the monthly retest"
+  plain: "The three McGill ratios still pass when you retest at the end of the month."
+- phase: 3
+  id: p3-first-competition
+  tag: proposed
+  text: "First competition entered and completed"
+  plain: "You have entered a meet or an event and finished it."
+- phase: 3
+  id: p3-clean-blocks-3
+  tag: heuristic
+  text: "3 consecutive injury-free blocks"
+  plain: "Three training blocks in a row, roughly three to four months, with no injury."
+- phase: 4
+  id: p4-monthly-screen
+  tag: proposed
+  text: "Red-flag screen and McGill retest repeated monthly, logged"
+  plain: "Every month: the red-flag list and the four McGill holds, written in the log."

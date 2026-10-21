@@ -147,6 +147,18 @@ textarea { width: 100%; border-radius: 16px; padding: 12px 16px; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; box-shadow: var(--shadow); padding: 24px; }
 .badge { display: inline-block; font: 600 0.6875rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; padding: 2px 10px; border-radius: 9999px; background: var(--brand-light); color: var(--brand-deep); }
 
+/* Vocabulary terms (Term.astro) and provenance badges (Tag.astro); the drawer itself is in Glossary.astro */
+.term { color: inherit; text-decoration: underline dotted; text-decoration-color: var(--faint); text-decoration-thickness: 1.5px; text-underline-offset: 3px; cursor: help; }
+.term:hover, .term[aria-expanded='true'] { color: var(--brand-deep); text-decoration-color: var(--brand); text-decoration-style: solid; }
+.tag { display: inline-block; vertical-align: 0.1em; margin: 0 2px; padding: 1px 8px; border-radius: 9999px; font: 500 0.6875rem/1.6 var(--mono); letter-spacing: 0.2px; text-decoration: none; white-space: nowrap; border: 1px solid transparent; }
+.tag:hover { text-decoration: none; filter: brightness(0.92); }
+.tag-proposed { background: var(--brand-light); color: var(--brand-deep); }
+.tag-heuristic { background: var(--amber-light); color: var(--amber); }
+.tag-contested { background: var(--red-light); color: var(--red); }
+.tag-source { background: var(--blue-light); color: var(--blue); }
+:root[data-theme='dark'] .tag:hover { filter: brightness(1.15); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .tag:hover { filter: brightness(1.15); } }
+
 /* ---------- Article furniture ---------- */
 .toc { border: 1px solid var(--border-2); border-radius: 16px; padding: 16px 20px; margin: 0 0 2.5rem; font-size: 0.9375rem; background: var(--surface-2); }
 .toc::before { content: 'On this page'; display: block; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); margin-bottom: 8px; }
@@ -196,6 +208,26 @@ textarea { width: 100%; border-radius: 16px; padding: 12px 16px; }
 .check.revealed .check-reveal { display: none; }
 .check-answer { margin-top: 4px; padding-top: 16px; border-top: 1px dashed var(--border-3); }
 .check-grade { margin: 16px 0 0; }
+
+/* ---------- Plan page (src/pages/plan.mdx) ---------- */
+.plan .fine { font-size: 0.875rem; color: var(--muted); }
+.phases { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.phases a { display: grid; align-content: start; gap: 4px; height: 100%; padding: 14px 14px 16px; border: 1px solid var(--border-2); border-radius: 12px; background: var(--surface); box-shadow: var(--shadow); text-decoration: none; color: var(--text-2); transition: border-color 0.15s; }
+.phases a:hover { border-color: var(--brand); color: var(--text-2); }
+.phases .ph-num { font: 600 0.75rem/1.5 var(--mono); color: var(--brand-deep); }
+.phases .ph-name { font-weight: 600; color: var(--text); line-height: 1.25; }
+.phases .ph-when { font: 500 0.6875rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
+.phases .ph-exit { font-size: 0.8125rem; color: var(--muted); margin-top: 4px; }
+.howto { padding-left: 1.1rem; }
+.howto li { margin-bottom: 0.5rem; }
+.phase-meta { margin: -0.25rem 0 1rem; font: 500 0.75rem/1.5 var(--mono); text-transform: uppercase; letter-spacing: 0.6px; color: var(--muted); }
+.plain { margin: 0 0 1.5rem; padding: 14px 18px; border-left: 3px solid var(--brand); border-radius: 0 12px 12px 0; background: linear-gradient(90deg, var(--brand-light), transparent 70%); color: var(--text); }
+.plain strong { color: var(--brand-deep); }
+.ladder ol { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 8px; counter-reset: r; }
+.ladder li { counter-increment: r; position: relative; padding: 10px 16px 10px 48px; border: 1px solid var(--border-2); border-radius: 12px; background: var(--surface-2); }
+.ladder li::before { content: counter(r); position: absolute; left: 16px; top: 11px; width: 20px; height: 20px; border-radius: 50%; background: var(--amber-light); color: var(--amber); font: 600 0.75rem/20px var(--mono); text-align: center; }
+@media (max-width: 760px) { .phases { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 480px) { .phases { grid-template-columns: 1fr; } }
 
 /* ---------- Pagefind ---------- */
 #search {

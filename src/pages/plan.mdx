@@ -4,83 +4,154 @@ title: Rehab-to-performance plan
 import Base from '../layouts/Base.astro';
 import Disclaimer from '../components/Disclaimer.astro';
 import Gate from '../components/Gate.astro';
-import Source from '../components/Source.astro';
+import Glossary from '../components/Glossary.astro';
+import KeyList from '../components/KeyList.astro';
+import Lede from '../components/Lede.astro';
+import Tag from '../components/Tag.astro';
+import Term from '../components/Term.astro';
+
+{/* Prose is layered: a one-minute summary and a phase strip first, then each phase opens "in plain words"
+    before its rules. Dotted <Term>s open the vocabulary (Glossary.astro); <Tag>s are the provenance labels
+    CONTRIBUTING.md requires on every claim. Gates come from src/data/gates.yml. The page stores nothing. */}
 
 <Base title="Plan">
-<main>
+<main class="plan">
+
+<p class="crumb"><a href="/">Spinal Tap</a> › plan</p>
 
 # Rehab-to-performance plan
 
-*Template v0. Gates, not calendars. Every number is a labelled opening position, replaced by your own measurements as your log fills. This page describes the plan; it stores nothing. To keep your own log, download the [tracker spreadsheet or printable log sheet](/templates/).*
+<Lede>A five-phase route from "my back tightens on heavy sets" to competing. You move on when your own log says you are ready, never when a calendar does.</Lede>
 
-**This site teaches. It does not diagnose, clear a symptom, or replace a clinician.** Every rule below keys on load, volume, range and preparedness relative to your own history, never on "this movement is bad". If you have no clinical diagnosis and no imaging, the plan still works, and it says so where it matters. Read the red flags first; they end self-direction and go to a clinician the same day, at any phase.
+<h2 id="one-minute">The plan in one minute</h2>
+
+<KeyList>
+
+1. **Keep a short morning log.** Five lines a day: how stiff your back feels, whether you felt anything below the glute, sleep, stress, bodyweight. That log, not how you feel in the gym, drives every decision below.
+2. **Each morning gives yesterday a verdict: clean, yellow or bad.** Clean lets you progress, yellow holds, bad makes one movement a little easier in a fixed order. Two bad days in one week make the rest of the week lighter.
+3. **Train in five phases, and leave each one through its exit gates.** A gate is a measurement your log has to show, such as a hold time or a lift at a multiple of your bodyweight. There are no dates.
+4. **Every number here is a starting number.** As your log fills, your own measurements replace it, and the page says so wherever it matters.
+5. **Red flags end self-direction.** The symptoms in the red box below send you to a clinician the same day, in any phase.
+
+</KeyList>
+
+<p class="fine">Template v0. This page describes the plan and stores nothing. To keep your own log, download the <a href="/templates/">tracker spreadsheet or printable log sheet</a>. The plan works without a diagnosis or imaging, and says so where it matters.</p>
 
 <Disclaimer />
 
-## How to read the gates
+<h2 id="phases">The five phases</h2>
 
-Each phase ends in exit gates. A gate is met when your log shows it, not when you feel it is. The tag after each gate names where the number comes from: a source id from the site registry, `[heuristic]` for a rule of thumb without a measured source, or `[proposed]` for an opening position you are expected to replace with your own data. The [tracker spreadsheet](/templates/) has a sheet for marking gates met.
+<ol class="phases">
+  <li><a href="#phase-0"><span class="ph-num">0</span><span class="ph-name">Baseline</span><span class="ph-when">About 2 weeks</span><span class="ph-exit">Leave when two weeks of mornings are logged</span></a></li>
+  <li><a href="#phase-1"><span class="ph-num">1</span><span class="ph-name">Capacity floor</span><span class="ph-when">4–8 weeks</span><span class="ph-exit">Leave when your trunk holds are balanced, you have had a month of clean mornings, and you can hinge your bodyweight and carry half of it</span></a></li>
+  <li><a href="#phase-2"><span class="ph-num">2</span><span class="ph-name">Progressive loading</span><span class="ph-when">8–16 weeks</span><span class="ph-exit">Leave when squat and deadlift reach 1.5× bodyweight for five, after two clean months</span></a></li>
+  <li><a href="#phase-3"><span class="ph-num">3</span><span class="ph-name">Strength build</span><span class="ph-when">6–12 months</span><span class="ph-exit">Leave when you have competed once and finished three blocks without injury</span></a></li>
+  <li><a href="#phase-4"><span class="ph-num">4</span><span class="ph-name">Performance</span><span class="ph-when">Ongoing</span><span class="ph-exit">No exit. The rules stay; the ceilings rise</span></a></li>
+</ol>
 
-## Phase 0 — Baseline (2 weeks)
+<h2 id="how-to-read">How to read this page</h2>
 
-The point of Phase 0 is to turn guesses into a log. Nothing changes in training yet.
+<ul class="howto">
+  <li><strong>Dotted words are vocabulary.</strong> Tap a word like <Term id="verdict">verdict</Term> for a one-line meaning, or open <strong>Vocabulary</strong> (bottom right) for the whole list. The same list lives at <a href="/glossary/">/glossary/</a>.</li>
+  <li><strong>Every rule carries a label saying where it comes from.</strong> <Tag source="mcgill-1999-endurance-norms" /> is a cited study, and the label links to it. <Tag kind="heuristic" /> is a practitioner convention that no study has measured. <Tag kind="proposed" /> is a number to begin with, which your own measurements replace. <Tag kind="contested" /> means studies disagree. Tap any label for more.</li>
+  <li><strong>A gate is met when your log shows it, not when you feel it is.</strong> The <a href="/templates/">tracker spreadsheet</a> has a sheet for marking gates met and works out every ratio and estimate on this page from what you log.</li>
+</ul>
 
-- Red-flag screen, written down, repeated monthly.
-- Daily check-in, training day or not: a morning stiffness test performed identically each day, anything felt below the glute (yes/no), hours slept, life stress, bodyweight.
-- McGill endurance battery: trunk flexor hold, Biering-Sørensen extensor hold, side bridge left and right. Record seconds and the ratios. <Source id="mcgill-1999-endurance-norms" />
-- Film squat, deadlift and RDL at working loads; compare monthly.
-- Daily walking minutes.
+<h2 id="phase-0">Phase 0 — Baseline</h2>
 
-The four holds give three ratios: flexor/extensor, side bridge/extensor, and left/right side-bridge asymmetry. The same ratios decide the Phase 1 and Phase 2 ratio gates. The [tracker spreadsheet](/templates/) works them out from your hold times.
+<p class="phase-meta">About 2 weeks · 1 exit gate</p>
 
-**Exit gate**
+<p class="plain"><strong>In plain words.</strong> For two weeks nothing changes in your training. You start writing things down every morning, measure where your trunk endurance stands, and film your main lifts. The point is to turn guesses into a log before any rule has to read from it.</p>
+
+### What you do
+
+- A <Term id="red-flags">red-flag screen</Term>, written down. Repeat it every month.
+- The <Term id="daily-check-in">daily check-in</Term>, training day or not: the <Term id="morning-stiffness-test">morning stiffness test</Term> done the same way each day, anything felt <Term id="below-the-glute">below the glute</Term> (yes or no), hours slept, life stress, bodyweight.
+- The <Term id="mcgill-battery">McGill endurance battery</Term>, once: the <Term id="flexor-hold">trunk flexor hold</Term>, the <Term id="biering-sorensen">Biering-Sørensen extensor hold</Term>, and a <Term id="side-bridge">side bridge</Term> on each side. Write down the seconds. <Tag source="mcgill-1999-endurance-norms" />
+- <Term id="filming-lifts">Film</Term> your squat, deadlift and RDL at working weights. You will re-film and compare each month.
+- Minutes walked each day.
+
+The four holds give three <Term id="endurance-ratios">endurance ratios</Term>: flexor against extensor, side bridge against extensor, and left side against right. The same three ratios are gates in Phase 1 and Phase 2. The <a href="/templates/">tracker spreadsheet</a> works them out from your hold times.
+
+### Exit gate
 
 <Gate phase={0} />
 
-## Phase 1 — Capacity floor (4–8 weeks)
+<h2 id="phase-1">Phase 1 — Capacity floor</h2>
 
-- Daily: walk 20–30 min `[proposed]`; McGill big 3 as endurance work (descending pyramid, e.g. 5-3-1 reps of 10 s holds), done at least an hour after waking because the disc is most hydrated and stiffest in flexion early in the day `[heuristic]`.
-- Two non-consecutive axial-loading days. Main lifts at RPE ≤ 7, no grinding `[proposed]`. <Source id="helms-rpe-rir" /> Squat around 65–75% `[proposed]`; pulls from blocks or trap bar; RDLs as the hinge driver, double progression 3×8 → 3×12 `[proposed]`.
-- Loaded carries (farmer's, suitcase) and anti-rotation work twice a week `[proposed]`.
+<p class="phase-meta">4–8 weeks, typically · 6 exit gates</p>
 
-**Regression rule** `[heuristic]`. A bad next-day verdict drops one rung on that movement, in this order: **range first, then moment arm, then load. Never the movement's identity.** A hinge stays a hinge; it gets shorter, closer to the body, or lighter. **Two bad days in one week cut that week's axial hard sets by 40%.** Intensity is held; it is the volume that comes down.
+<p class="plain"><strong>In plain words.</strong> You build a floor: daily walking and short trunk holds, two lifting days a week that stay well short of all-out, and some carrying. Nothing is heavy yet. The floor is ready when your trunk holds are balanced, you have gone a month without a bad morning, and you can hinge your own bodyweight and carry half of it in one hand.</p>
 
-**Exit gates**
+### What you do
+
+- **Every day.** Walk 20–30 minutes. <Tag kind="proposed" /> The <Term id="mcgill-big-3">McGill big 3</Term> as endurance work, in a descending pyramid (for example 5, 3 and 1 repetitions of 10-second holds), done at least an hour after waking <Tag kind="heuristic" /> because the disc is at its stiffest early in the day.
+- **Two lifting days a week, not back to back.** Main lifts at <Term id="rpe">RPE 7</Term> or easier, meaning three reps left in the tank, with <Term id="grinding">no grinding</Term>. <Tag kind="proposed" /> <Tag source="helms-rpe-rir" /> Squat at around <Term id="percentage">65–75% of your estimated max</Term>. <Tag kind="proposed" /> Pull from <Term id="pulls-from-blocks">blocks</Term> or with a <Term id="trap-bar">trap bar</Term>. The <Term id="rdl">RDL</Term> is the main hinge builder, progressed by <Term id="double-progression">double progression</Term> from 3×8 up to 3×12. <Tag kind="proposed" />
+- **Twice a week.** <Term id="loaded-carries">Loaded carries</Term> (farmer's and suitcase) and <Term id="anti-rotation">anti-rotation work</Term>. <Tag kind="proposed" />
+
+### When a morning is bad
+
+The <Term id="regression-rule">regression rule</Term> <Tag kind="heuristic" /> is the plan's answer to a bad <Term id="verdict">verdict</Term>, and it runs the same way in every phase. The movement that most recently changed gets one step easier, and the steps come in a fixed order:
+
+<div class="ladder">
+
+1. **Range.** The movement gets shorter. An RDL stops at mid-shin instead of below the knee.
+2. **Moment arm.** The weight moves closer to you. Dumbbells at your sides instead of a bar in front, or a pull from blocks.
+3. **Load.** The bar gets lighter. The sets stay.
+
+</div>
+
+**It is never the movement itself.** A hinge stays a hinge; it gets shorter, closer or lighter. And if a second bad morning lands in the same week, that week's remaining <Term id="hard-set">hard sets</Term> on <Term id="axial-loading">spine-loading lifts</Term> are cut by 40 percent. The weight stays; the number of hard sets comes down. The [daily decision tree](/learn/self-coaching/daily-decision-tree/) walks through a week of this with worked examples.
+
+### Exit gates
 
 <Gate phase={1} />
 
-## Phase 2 — Progressive loading (8–16 weeks)
+<h2 id="phase-2">Phase 2 — Progressive loading</h2>
 
-- The deadlift returns to the floor via blocks: 4" → 2" → floor, one step per two clean weeks `[proposed]`.
-- Progression by double progression or APRE. Deload every 4–6 weeks: volume down 40–60%, intensity held `[proposed]`. <Source id="schoenfeld-volume" />
-- Bodyweight-multiple gates below are read off an estimated 1RM from a recent working set, never a tested max `[proposed]`. The [tracker spreadsheet](/templates/) computes Epley e1RM on every logged set.
+<p class="phase-meta">8–16 weeks, typically · 4 exit gates</p>
 
-- A separate weekly axial hard-set budget. The spike guard is your trailing-30-day single-session maximum, not an acute:chronic workload ratio, which does not hold up `[contested]`.
+<p class="plain"><strong>In plain words.</strong> The weights start going up on purpose. The deadlift comes back to the floor in steps, every week has a fixed number of hard sets you may spend on the spine, and every month or so you take a planned easier week. You leave when squat and deadlift reach one and a half times your bodyweight for five, after two clean months, with your trunk holds still balanced.</p>
 
-**Exit gates**
+### What you do
+
+- **The deadlift returns to the floor by steps.** <Term id="pulls-from-blocks">Blocks</Term> at 4 inches, then 2 inches, then the floor: one step down after every two <Term id="clean-week">clean weeks</Term>. <Tag kind="proposed" />
+- **Progress by <Term id="double-progression">double progression</Term> or <Term id="apre">APRE</Term>.** <Term id="deload">Deload</Term> every 4–6 weeks: sets down 40–60 percent, weight held. <Tag kind="proposed" /> <Tag source="schoenfeld-volume" />
+- **Strength gates are read from an estimate, never a tested max.** The bodyweight multiples below come off an <Term id="e1rm">estimated one-rep max</Term> from a recent <Term id="working-load">working set</Term>. <Tag kind="proposed" /> The tracker computes it on every logged set.
+- **A weekly <Term id="hard-set-budget">hard-set budget</Term> for spine-loading lifts.** You spend it inside the week and do not borrow from the next. The <Term id="spike-guard">spike guard</Term> is your biggest single session in the trailing 30 days: today may be one step above it, not a jump. The plan does not use the <Term id="acwr">acute:chronic workload ratio</Term>. <Tag kind="contested" />
+
+### Exit gates
 
 <Gate phase={2} />
 
-## Phase 3 — Strength build (6–12 months)
+<h2 id="phase-3">Phase 3 — Strength build</h2>
 
-- Block periodization: accumulation → intensification → realization, one block of 4–6 weeks each `[proposed]`. <Source id="schoenfeld-volume" /> Deloads and the hard-set budget from Phase 2 carry over unchanged.
-- Strongman implements enter as regressed variants first: yoke walk before yoke-and-turn, sandbag to lap before sandbag over bar, stone to a high platform before a low one `[heuristic]`. Each new implement starts at the bottom of the regression rule and earns its range, moment arm and load in that order.
-- Marker toward elite: a powerlifting DOTS around 450 is roughly the top 1% of competitive open entries `[heuristic]`. Treat it as approximate and multi-year, not a gate. The [tracker spreadsheet](/templates/) computes DOTS from a total and bodyweight.
+<p class="phase-meta">6–12 months, typically · 2 exit gates</p>
 
-**Exit gates**
+<p class="plain"><strong>In plain words.</strong> Now it is a strength programme, organised in blocks of a month or so with one job each. Strongman implements come in through their easier versions first. The rules from Phase 2 keep running underneath. You leave when you have competed once and strung three blocks together without injury.</p>
+
+### What you do
+
+- **<Term id="block-periodization">Block periodization</Term>.** Accumulation, then intensification, then realization, each block 4–6 weeks. <Tag kind="proposed" /> <Tag source="schoenfeld-volume" /> Deloads and the hard-set budget carry over from Phase 2 unchanged.
+- **<Term id="strongman-implements">Strongman implements</Term> enter as their easier version first** <Tag kind="heuristic" />: a yoke walk before a yoke-and-turn, sandbag to lap before sandbag over bar, stone to a high platform before a low one. Each new implement starts at the bottom of the regression ladder and earns its range, moment arm and load in that order.
+- **A distant marker.** A powerlifting <Term id="dots">DOTS score</Term> around 450 is roughly the top 1 percent of open competitive entries. <Tag kind="heuristic" /> It is a landmark years away, not a gate. The tracker computes DOTS from a total and bodyweight.
+
+### Exit gates
 
 <Gate phase={3} />
 
-## Phase 4 — Performance (ongoing)
+<h2 id="phase-4">Phase 4 — Performance</h2>
 
-Meet prep, peaking and event-specific loading. The rules never retire; the ceilings rise. The red-flag screen, the daily check-in, the regression rule and the hard-set budget all stay exactly as written in Phases 0–2. No exit gate: this phase is the plan running as designed.
+<p class="phase-meta">Ongoing · no exit</p>
+
+<p class="plain"><strong>In plain words.</strong> Meet prep, peaking and event-specific loading. Nothing from the earlier phases retires; the ceilings rise. The red-flag screen, the daily check-in, the regression rule and the hard-set budget all stay exactly as written above. This phase is the plan running as designed.</p>
 
 <Gate phase={4} />
 
-## Standing note
+<h2 id="assessment">One thing a website cannot give you</h2>
 
-**One physiotherapy assessment is the cheapest input** that can turn guesses about *your* back into findings. The plan works without it, and says so at every gate above; nothing in it waits on a diagnosis. If you can get one, get it before Phase 1 and give the clinician this page.
+**One <Term id="physio-assessment">physiotherapy assessment</Term> is the cheapest input** that can turn guesses about *your* back into findings. The plan works without it and says so at every gate; nothing in it waits on a diagnosis. If you can get one, get it before Phase 1 and give the clinician this page.
 
 </main>
+<Glossary />
 </Base>
-
