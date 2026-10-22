@@ -30,6 +30,55 @@ Verified facts that shape the design:
   pane never hijacks article scrolling.
 - 14 lessons have ≥1 atlas-modelled structure, 4 tag only absent structures, 24 tag nothing.
 
+## Content model (2026-10-22, supersedes "no MDX edits")
+
+Owner decisions from the 2026-10-22 grilling. Vocabulary is in [GLOSSARY.md](../../GLOSSARY.md); the why is
+[ADR 0001](../adr/0001-sources-speak-site-points.md). Where this section and anything below disagree, this wins.
+
+- **A Lesson is ordered Readings + Homework, with no site prose.** The 41 article bodies are replaced. Lesson
+  titles are kept; summaries/Ledes/KeyLists go.
+- **Readings are free with no login.** Paywalled and registration-walled Sources are removed from the site
+  entirely, abstracts included. Free-but-not-open (NICE, StatPearls, PMC CC BY-NC/ND papers, repository copies)
+  are link-out Readings with a pinpoint locator.
+- **Excerpts** are CC BY or public-domain text only, shown verbatim with a credit line. OpenStax comes from the
+  pinned CC BY commit `b0058a7` only (relicensed to CC BY-NC-SA on 2026-03-19). Text may be cut with "[…]" but
+  never reworded, reordered or stitched; one Excerpt is one passage from one place. Roughly 1,500 words of
+  Excerpt per lesson at most; beyond that, link the full section.
+- **Disagreeing Sources** (e.g. OpenStax §7.3 or "Do Not Lift with Your Back" vs. the later papers) are shown
+  side by side; Homework asks what each says. No site commentary.
+- **Homework**: 3–5 short-answer questions per lesson, AI-drafted. Each answer is a verbatim quote from a
+  Reading in that lesson plus its locator, behind a reveal; self-graded (reuses Check). Questions ask what the
+  text says, never how it applies to the reader. Fixed line on every Homework block: "Questions written with AI
+  assistance from the assigned readings. Answers are quoted from the source." Each track's Homework is listed in
+  `human-review.md` for the owner.
+- **Completion** = Mark complete, or every Homework question self-graded.
+- **Quote check**: pinned plain-text snapshots of every excerptable Source are committed; a new
+  `scripts/check-quotes.mjs` fails the build unless every Excerpt and Homework answer (split on "[…]",
+  whitespace-normalised) is found in its Source's snapshot.
+- **Lesson inventory** is [reading-inventory.md](reading-inventory.md): 30 lessons after 7 merges
+  (flexion-compression and strongman-loading → deadlift-and-squat-spinal-loads; graded-exposure →
+  cognitive-functional-therapy; what-imaging-tells-you → degeneration-and-asymptomatic-findings;
+  mcgill-approach-and-critics → exercise-modes-compared; return-to-sport-gates → radiculopathy;
+  progression-models → rpe-and-rir). workload-spikes-and-acwr, diurnal-disc-changes and periodization are
+  borderline: flag them to the owner if they come out thin. Merged lessons' figures move to the target lesson.
+- **Sources first**: fix sources.yml before any lesson is rebuilt: correct ids/titles/URLs the inventory lists,
+  remove the paywalled Sources, add the confirmed new ones, record the real licence of each (it decides Excerpt
+  vs link).
+- **Glossary entries** become verbatim credited definitions from a Source; terms without one are removed.
+- **Evidence cards** lose `claim`, `effect` and `caveats`; they keep citation, design, link and, for CC BY
+  papers, the abstract's conclusion quoted verbatim.
+- **`/plan`** becomes a short guidelines page of Readings only: NICE NG59 (with its July 2026 surveillance
+  changes), JOSPT 2021 CPG, WHO 2023. The phases, gates (`gates.yml`, `Gate.astro`), the templates and log
+  sheet, the self-coaching track and plan-only glossary terms are deleted. McGill 1999 is paywalled, so the
+  endurance norms go too. The red-flag Disclaimer becomes a link to NICE NG59's assessment section plus the UI
+  line "This site does not diagnose or replace a clinician."
+- **Site-written copy** is allowed only where it makes no claim about the body, pain or training (titles, nav,
+  buttons, the "How this site is made" note). Track blurbs that make claims are cut.
+- **URLs**: surviving lessons keep theirs; merged lessons redirect to their target and dropped pages
+  (`/plan` sections, templates, self-coaching) to their track or `/learn/`, via `vercel.json` redirects.
+- **Order**: this content model ships before the course player. The player then shows Excerpts + Homework in the
+  middle pane; read "Checks" below as "Homework" and the outline's 42 links as the new lesson count.
+
 ## Layout and scroll model
 
 - **Window scrolls the lesson** (keeps anchors, find-in-page, bfcache, print, Glossary maths). Side panes are
@@ -242,4 +291,5 @@ Owner decisions after the figure verification session:
   tests → embed entry that renders the scene → scene `embed` prop pieces (frameBox refactor with identical
   non-embed numbers; context framing; wheel policy; idle/pause) → `?focus` comma list → pack builder + tests →
   pack wired into the embed → site-side bridge state machine + tests → pane mounting policy.
-- Out of scope: MDX/frontmatter edits, deploys, `git push`, changes to `vercel.json` beyond what the plan names.
+- Out of scope: deploys, `git push`, changes to `vercel.json` beyond what the plan names. (MDX edits are now in
+  scope; see "Content model".)
