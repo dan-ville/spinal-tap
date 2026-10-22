@@ -1,0 +1,510 @@
+{
+  "stories": [
+    {
+      "id": "sources-registry-rewrite",
+      "title": "Correct and extend src/content/sources/sources.yml for the sources-first content model",
+      "acceptance_criteria": [
+        "Every registry error listed in the `Source status` tables of docs/course-player/reading-inventory.md is fixed in src/content/sources/sources.yml: `deadlift-loads-2022` title becomes `Low Back Biomechanics during Repetitive Deadlifts: A Narrative Review` (IISE Trans Occup Ergon Hum Factors 2022, PMC9837526); `resorption-2025-review` becomes the Orthop Rev (Pavia) 2024 paper with doi 10.52965/001c.121399; `adams-dolan` carries doi 10.1016/j.jbiomech.2005.03.028 and no PMID; `overley-2016` loses its wrong PMID; `shelton-exercise-science` url becomes https://mhcc.pressbooks.pub/hpe172/",
+        "`openstax-ap-2e` gains `commit: b0058a743bdd2cc08196abaaa7d5469970c0d80c` and a note that the book was relicensed CC BY-NC-SA on 2026-03-19, with `licence: CC-BY-4.0` explicitly scoped to that commit",
+        "Every entry has an `access` key valued `free` or `paywalled` and a `licence` key that is an SPDX-ish string or the literal `unconfirmed`; every id in the `NEW sources proposed` table of reading-inventory.md (ahrq-2016-cer169, fournier-2020-disc-vascular, wilke-2025-rom-nz, nz-methods-2020, disc-diurnal-2026, willard-2012-tlf, stokes-2010-iap, raja-2020-iasp, watson-2019-pne, woolf-2011-central-sensitization, osullivan-2018-cft, graded-exposure-2026-sajp, fardon-2014-nomenclature, finucane-2020-red-flags, lolli-2019-acwr, acwr-meta-2026, refalo-2023-failure, grgic-2021-frequency, baz-valle-2022-volume, periodization-meta-2026, bell-2024-deload-survey, atlas-stone-2021, saraceni-2025-lifting, plus the four StatPearls pages) exists with tier, title, author, year, url, licence and access",
+        "scripts/check-sources.mjs reports an error naming the id when an entry lacks `access` or `licence`, and `node scripts/check-sources.mjs` exits 0 on the real registry",
+        "No file under src/content/articles is modified by this story, and `npm run build`, `npm test`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "source-snapshots",
+      "title": "Commit pinned plain-text snapshots of every excerptable Source",
+      "acceptance_criteria": [
+        "`scripts/fetch-snapshots.mjs` downloads one plain-text snapshot per excerptable Source into src/data/source-snapshots/<source id>.txt and writes src/data/source-snapshots/index.json recording url, sha256, byte count and retrieval date for each id, plus an `unreachable` array of {id, url, status} for hosts this machine cannot reach",
+        "A committed snapshot exists for every sources.yml entry with `access: free` and a CC BY / CC0 / public-domain licence, including openstax-ap-2e fetched from raw.githubusercontent.com at the pinned commit; src/data/source-snapshots/openstax-ap-2e.txt is at least 200 KB and contains the strings `nucleus pulposus` and `zygapophysial`",
+        "Any source listed under `unreachable` is given `excerpt: false` in sources.yml by this same story, so it can only ever be a link-out Reading",
+        "`node scripts/fetch-snapshots.mjs --verify` runs with no network, exits 0 when every committed snapshot matches its recorded sha256, and exits non-zero naming the file when one byte of a snapshot is changed",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "check-quotes-script",
+      "title": "Add scripts/check-quotes.mjs so no Excerpt or Homework answer can drift from its Source",
+      "acceptance_criteria": [
+        "`scripts/check-quotes.mjs` collects every `<Excerpt>` body and every Homework answer quote from src/content/articles/**/*.mdx, whitespace-normalises them, splits each on the ellipsis marker `[...]`, and asserts every fragment occurs literally in src/data/source-snapshots/<source>.txt",
+        "It exits non-zero with a message naming the file, the source id and the locator when a fragment is missing, when an Excerpt names a source with no committed snapshot, or when an Excerpt names a source whose licence is not CC BY / CC0 / public-domain",
+        "`scripts/check-quotes.test.mjs` (same shape as scripts/recall.test.mjs) proves a matching fixture passes and a reworded fixture fails, and `npm test` runs it",
+        "`node scripts/check-quotes.mjs` exits 0 on the current tree (which has no Excerpts yet) and the command is added to .github/workflows/ci.yml",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "lesson-components-and-schema",
+      "title": "Add the Reading, Excerpt and Homework components and relax the article schema",
+      "acceptance_criteria": [
+        "New src/components/Reading.astro (props `source`, `locator`, optional `href`, `type` of `excerpt` or `link`) renders a numbered Reading row with the Source title, author, locator and an outbound link, and throws a build error for an unknown source id or for a source whose sources.yml `access` is `paywalled`",
+        "New src/components/Excerpt.astro (props `source`, `locator`) renders its slot verbatim in a blockquote with a credit line built from sources.yml (author, title, licence) and emits `data-excerpt`, `data-source` and `data-locator` attributes that scripts/check-quotes.mjs reads; it throws a build error when the source licence is not CC BY / CC0 / public-domain",
+        "New src/components/Homework.astro (props `id`, `source`, `locator`) renders through src/components/Check.astro so self-grading still writes the `recall` key, and the lesson renders the fixed line `Questions written with AI assistance from the assigned readings. Answers are quoted from the source.` exactly once per lesson page",
+        "src/pages/learn/[...slug].astro passes Reading, Excerpt and Homework into `<Content components={...}>`, and src/content.config.ts makes `summary` optional on the articles collection",
+        "src/content/articles/_template.mdx is rewritten to the new lesson shape (ordered Readings, then Homework, no site prose) and documents each component prop in a comment",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "retire-self-coaching-and-plan-page",
+      "title": "Delete the self-coaching track and reduce /plan to a Readings-only guidelines page",
+      "acceptance_criteria": [
+        "src/content/articles/self-coaching/ and its five .mdx files are deleted, `self-coaching` is removed from the track enum in src/content.config.ts and from the `tracks` array in src/data/tracks.ts, and nothing under src/ references the string `self-coaching`",
+        "src/pages/plan.mdx contains only Readings for NICE NG59 (with a note that the July 2026 surveillance removed 1.2.13 and 1.2.14), the JOSPT 2021 CPG and WHO 2023; `grep -c '<Gate\\|<Calc\\|<KeyList\\|<Lede' src/pages/plan.mdx` is 0",
+        "src/data/gates.yml, src/components/Gate.astro and src/pages/templates/ are deleted, and no page links to /templates/ (src/pages/settings.astro included)",
+        "src/components/Disclaimer.astro renders a link to NICE NG59's assessment section plus the line `This site does not diagnose or replace a clinician.` and nothing else",
+        "scripts/check-plan.mjs no longer reads gates.yml; it validates src/data/glossary.yml entries and the source ids used on the guidelines page, and `node scripts/check-plan.mjs` exits 0",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-anatomy-lessons",
+      "title": "Rebuild the eight anatomy lessons as Readings plus Homework",
+      "acceptance_criteria": [
+        "All eight files under src/content/articles/anatomy/ contain only ordered `<Reading>` blocks (with `<Excerpt>` children where the inventory says EXCERPT) followed by `<Homework>` blocks: `grep -rc '<Lede\\|<KeyList\\|<Callout\\|<Calc' src/content/articles/anatomy/` reports 0 for every file, and no paragraph of site prose remains outside a component",
+        "Each lesson's Readings, their order, their EXCERPT/LINK type and their locators match the per-lesson tables for anatomy in docs/course-player/reading-inventory.md, and each lesson's frontmatter `sources` lists exactly the source ids its Readings cite",
+        "Each lesson carries 3 to 5 `<Homework>` blocks with ids unique across the site, every answer a verbatim quote plus its locator, and every question asking what a Reading says rather than how it applies to the reader",
+        "New src/data/lesson-structures.yml records, under each anatomy lesson slug, every `<Structure>` id or label that the lesson's pre-rewrite body carried (git show the previous revision to recover them); every recorded id resolves in src/data/atlas-concepts.json",
+        "`order` in the anatomy frontmatter is 1..8 with no duplicates, and docs/course-player/human-review.md gains an `Anatomy` section listing each lesson's Homework questions and answers for the owner",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-biomechanics-lessons",
+      "title": "Rebuild biomechanics as five lessons, absorbing flexion-compression and strongman-loading",
+      "acceptance_criteria": [
+        "src/content/articles/biomechanics/ holds exactly five lessons (torque-and-moment-arms, intra-abdominal-pressure-and-bracing, neutral-zone, diurnal-disc-changes, deadlift-and-squat-spinal-loads) with `order` 1..5; src/content/articles/biomechanics/flexion-compression.mdx and src/content/articles/training-science/strongman-loading.mdx are deleted",
+        "deadlift-and-squat-spinal-loads carries the five Readings listed for it in docs/course-player/reading-inventory.md, including the carried-over disc-diurnal-2026 and saraceni-2025-lifting (from flexion-compression) and atlas-stone-2021 (from strongman-loading)",
+        "Every surviving biomechanics lesson is Readings plus Homework only, with locators and EXCERPT/LINK types matching the inventory, 3 to 5 Homework blocks per lesson with site-unique ids, and verbatim quoted answers",
+        "The OpenStax 7.3 herniation passage and the `Do Not Lift with Your Back` passage are present as Excerpts with no site commentary around them, and the lesson's Homework asks what each text says",
+        "src/data/lesson-structures.yml gains entries for all five lessons, with the deleted lessons' structures merged into deadlift-and-squat-spinal-loads; docs/course-player/human-review.md gains a `Biomechanics` section",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-pathology-lessons",
+      "title": "Rebuild the six pathology lessons, absorbing what-imaging-tells-you and return-to-sport-gates",
+      "acceptance_criteria": [
+        "src/content/articles/pathology/ holds exactly six lessons with `order` 1..6, and src/content/articles/pain-science/what-imaging-tells-you.mdx and src/content/articles/rehab/return-to-sport-gates.mdx are deleted",
+        "degeneration-and-asymptomatic-findings carries the NICE NG59 1.1.5 Reading carried over from what-imaging-tells-you, and radiculopathy carries the sedrak-2021 Reading carried over from return-to-sport-gates, with the locators the inventory gives",
+        "Every pathology lesson is Readings plus Homework only, Readings and locators match the pathology tables in docs/course-player/reading-inventory.md, and no StatPearls or Radiopaedia page is the only Reading on any lesson",
+        "Each lesson has 3 to 5 Homework blocks with site-unique ids and verbatim quoted answers with locators",
+        "src/data/lesson-structures.yml gains entries for all six lessons, including the structures carried from the two merged lessons; docs/course-player/human-review.md gains a `Pathology` section",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-rehab-lessons",
+      "title": "Rebuild rehab as four lessons, absorbing graded-exposure and mcgill-approach-and-critics",
+      "acceptance_criteria": [
+        "src/content/articles/rehab/ holds exactly four lessons (what-the-guidelines-say, exercise-modes-compared, cognitive-functional-therapy, passive-therapies) with `order` 1..4; src/content/articles/rehab/mcgill-approach-and-critics.mdx and src/content/articles/pain-science/graded-exposure.mdx are deleted",
+        "cognitive-functional-therapy carries the graded-exposure-2026-sajp Excerpt and the osullivan-2018-cft link Reading carried over from graded-exposure, and assigns neither NICE 1.2.13 nor 1.2.14; exercise-modes-compared carries the Owen 2020 discussion Reading carried over from mcgill-approach-and-critics",
+        "Every rehab lesson is Readings plus Homework only, with the Readings, types and locators from the rehab tables in docs/course-player/reading-inventory.md, and barbell-medicine, e3-rehab and physiopedia appear in no frontmatter `sources` list",
+        "Each lesson has 3 to 5 Homework blocks with site-unique ids and verbatim quoted answers with locators",
+        "src/data/lesson-structures.yml gains entries for the four lessons; docs/course-player/human-review.md gains a `Rehab` section",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-pain-science-lessons",
+      "title": "Rebuild pain-science as two lessons",
+      "acceptance_criteria": [
+        "src/content/articles/pain-science/ holds exactly two lessons, pain-vs-damage.mdx and sensitization.mdx, with `order` 1 and 2",
+        "pain-vs-damage carries the five Readings the inventory lists (raja-2020-iasp, moseley-butler-explain-pain, watson-2019-pne, the Lancet 2018 paper 1 repository copy, and the OpenStax 14.1 nociceptor Excerpt) and presents the OpenStax damage-meter passage side by side with the others, with no site commentary adjudicating them",
+        "sensitization carries woolf-2011-central-sensitization, the OpenStax 14.2 Excerpt and moseley-butler-explain-pain with the inventory's locators",
+        "Both lessons are Readings plus Homework only, each with 3 to 5 Homework blocks, site-unique ids and verbatim quoted answers with locators",
+        "src/data/lesson-structures.yml gains entries for both lessons; docs/course-player/human-review.md gains a `Pain science` section",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "rebuild-training-science-lessons",
+      "title": "Rebuild training-science as five lessons, absorbing progression-models",
+      "acceptance_criteria": [
+        "src/content/articles/training-science/ holds exactly five lessons (volume-intensity-frequency, rpe-and-rir, periodization, deloads, workload-spikes-and-acwr) with `order` 1..5; src/content/articles/training-science/progression-models.mdx is deleted and rpe-and-rir carries the Helms `Incorporating the Scale into Programming` and Shelton ch. 31 `Progressive Overload` Readings it brought over",
+        "No lesson uses MEV/MAV/MRV volume-landmark vocabulary or cites `volume-landmarks`, `schoenfeld-volume`, `prs-lifting-manual` or any blog source: those ids appear in no frontmatter `sources` list",
+        "Every Shelton Excerpt names a chapter whose footer licence is CC BY 4.0 (ch. 31, 33, 35, 54, 57, 58, 60 only); Shelton ch. 14 appears as a link Reading if at all",
+        "workload-spikes-and-acwr and periodization each carry at least one substantial free Reading; if acwr-meta-2026 or periodization-meta-2026 turns out thin on reading, the lesson is flagged in docs/course-player/human-review.md under `Owner decisions needed` rather than silently padded",
+        "Each lesson is Readings plus Homework only with 3 to 5 Homework blocks, site-unique ids and verbatim quoted answers; src/data/lesson-structures.yml and a `Training science` section of docs/course-player/human-review.md are updated",
+        "A planned Reading whose Source is `access: paywalled` or login-walled in sources.yml (check the real access, e.g. Europe PMC `isOpenAccess`, before trusting the inventory) is omitted rather than included, and the omission is logged in .ralph/progress.txt and docs/course-player/human-review.md; a lesson left without a substantial free Reading is flagged there for the owner instead of being padded",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "glossary-and-evidence-verbatim",
+      "title": "Make glossary entries and evidence cards verbatim and uninterpreted",
+      "acceptance_criteria": [
+        "Every entry in src/data/glossary.yml carries a `source` id, a `locator` and a definition quoted verbatim from that Source; entries with no sourced definition are deleted and no page links to a deleted term (`node scripts/check-links.mjs` exits 0)",
+        "scripts/check-plan.mjs errors when a glossary entry lacks `source` or `locator`, and scripts/check-quotes.mjs also verifies glossary definitions against src/data/source-snapshots/",
+        "The evidence collection schema in src/content.config.ts drops `claim`, `effect` and `caveats` and keeps citation, design, population, certainty, topic, kind; every file under src/content/evidence/ is rewritten to that shape, carrying the abstract's conclusion verbatim only when the source licence is CC BY",
+        "Evidence cards whose source is paywalled or removed (adams-dolan, callaghan-mcgill, mcgill-1999-endurance-norms, steele-2014-lumbar-extension, overley-2016, schoenfeld-volume, louw-2016-pne) are deleted, and /evidence/ builds with the remaining cards",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "purge-paywalled-sources-and-redirects",
+      "title": "Remove paywalled Sources from the registry and redirect every dropped URL",
+      "acceptance_criteria": [
+        "Every sources.yml entry with `access: paywalled` and every blog or commercial Tier C entry the inventory rejects (volume-landmarks, stronger-by-science, barbell-medicine, e3-rehab, physiotutors, squat-university, prs-lifting-manual, nsca-acsm-position-stands, teachmeanatomy, lehman-recovery-strategies, mit-ocw) is deleted from src/content/sources/sources.yml",
+        "scripts/check-sources.mjs errors when any article, evidence card or page cites an id that is absent or has `access: paywalled`, and `node scripts/check-sources.mjs` exits 0",
+        "vercel.json gains `redirects` mapping each of the seven merged lesson URLs to its target lesson (flexion-compression and strongman-loading to /learn/biomechanics/deadlift-and-squat-spinal-loads/, graded-exposure to /learn/rehab/cognitive-functional-therapy/, what-imaging-tells-you to /learn/pathology/degeneration-and-asymptomatic-findings/, mcgill-approach-and-critics to /learn/rehab/exercise-modes-compared/, return-to-sport-gates to /learn/pathology/radiculopathy/, progression-models to /learn/training-science/rpe-and-rir/), the five self-coaching lessons and /learn/self-coaching/ to /learn/, and /templates/* plus the deleted /plan sections to /plan/ or /learn/",
+        "No redirect `source` path also exists as a built page under dist/ (a script or one-liner recorded in the commit message proves it), and no change is made to vercel.json beyond `redirects`",
+        "`find src/content/articles -name '*.mdx' ! -name _template.mdx | wc -l` reports 30, spread over six track directories with counts 8/5/2/6/4/5",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "course-lib-and-structure-resolver",
+      "title": "Add src/lib/course.ts with pure course helpers and move Structure.astro onto it",
+      "acceptance_criteria": [
+        "src/lib/course.ts exports `resolveStructure`, `lessonStructures`, `extractHomeworkIds`, `readingMinutes`, `buildCourse`, `neighbours` and the types `StructureRef`, `Lesson`, `TrackGroup`, and imports nothing from `astro:*`",
+        "`resolveStructure(text, id, concepts)` reproduces src/components/Structure.astro's rules (explicit id wins, otherwise lowercase-name match) and throws for an explicit id absent from src/data/atlas-concepts.json; `lessonStructures` reads src/data/lesson-structures.yml and resolves each entry through it",
+        "scripts/course.test.mjs (assert-based, re-execs itself with --experimental-strip-types like scripts/recall.test.mjs) asserts against the real content that `buildCourse` returns 30 published lessons in 6 groups in src/data/tracks.ts order with per-track counts 8/5/2/6/4/5, that `extractHomeworkIds` yields 3 to 5 ids per lesson all unique site-wide, that every id in lesson-structures.yml resolves, that anatomy/hip-complex resolves its recorded concept ids, and that `neighbours` crosses a track boundary",
+        "src/components/Structure.astro imports `resolveStructure` and contains no local `concepts.find(` call; a dist snapshot of every `<a class=\"structure\">` href and every `.structure--absent` label taken before and after the change in this same session is byte-identical",
+        "`package.json`'s `test` script runs scripts/course.test.mjs, and `npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "course-pages-use-buildcourse",
+      "title": "Drive every /learn page from buildCourse with course-wide prev/next",
+      "acceptance_criteria": [
+        "src/pages/learn/[...slug].astro calls `buildCourse()` once in `getStaticPaths` and passes lesson, groups, structures and prev/next to the layout; it no longer sorts siblings inline by `entry.data.track`",
+        "Prev/next cross track boundaries in src/data/tracks.ts order: the last anatomy lesson's built HTML contains a `rel=\"next\"` link to the first biomechanics lesson and that lesson's `rel=\"prev\"` points back; at a boundary the link text begins `Next track: ` followed by the track name",
+        "src/pages/learn/index.astro and src/pages/learn/[track].astro import `buildCourse` and contain no duplicate grouping or sorting of `getCollection('articles')`; each track card shows the counts 8/5/2/6/4/5 and each track index lists its lessons in `order`",
+        "Entries with `status: draft` are excluded when `import.meta.env.PROD`, and the set of paths built under dist/learn/ is exactly the 30 published lessons",
+        "scripts/check-sources.mjs gains a rule that `order` is unique per track among published articles, reporting the track and duplicate value when it is not; it exits 0 on the real content",
+        "`npm run build`, `npm test`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "player-layout-shell",
+      "title": "Add the Player layout and render lessons through it",
+      "acceptance_criteria": [
+        "New src/layouts/Player.astro wraps src/layouts/Base.astro through a new `wide` prop that lifts the nav's 72rem max-width cap, and lays out `16rem | minmax(0,1fr) | clamp(22rem,30vw,34rem)` at 75rem and above with the lesson column capped at 42rem",
+        "Side panes are sticky grid items with `top: var(--nav-h)`, `height: calc(100svh - var(--nav-h))`, `align-self: start` and `overscroll-behavior: contain` on their inner scrollers; no ancestor element of the grid sets `overflow` (verifiable by grep over the layout and src/styles/global.css)",
+        "src/layouts/Article.astro renders Player, gives the lesson column `<main id=\"lesson\" tabindex=\"-1\">` with `container-type: inline-size`, a skip link targeting it, and a crumb of the form `Anatomy · Lesson 3 of 8`",
+        "An inline script in `<head>`, before any grid markup, reads the `player:ui` localStorage key inside try/catch and applies the collapsed-state classes, so no collapse state is applied after paint",
+        "dist/learn/anatomy/facet-joints/index.html contains exactly one `<h1>`, inside `<main id=\"lesson\">`, and one skip link whose href is `#lesson`",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "course-outline-component",
+      "title": "Add the CourseOutline column and its scroll-spy script",
+      "acceptance_criteria": [
+        "New src/components/CourseOutline.astro renders from `buildCourse()`: one native `<details>` per track, one row per lesson carrying a status glyph slot, the title, a `4 min · 3D/Figure` meta line and an sr-only status; the container carries `data-pagefind-ignore`",
+        "Every built lesson page contains exactly 30 outline lesson links and exactly one element with `aria-current=\"page\"`, and the outline renders and navigates with JavaScript disabled",
+        "The active row expands into that lesson's h2 list, and new src/scripts/player/outline.ts adds collapse toggling persisted to the `player:ui` key, centring of the active row, and h2 scroll-spy via IntersectionObserver",
+        "Every storage access in src/scripts/player/outline.ts is inside try/catch, so the page throws no uncaught error when localStorage is blocked",
+        "Pagefind does not index the outline text: the outline markup in dist/learn/*/*/index.html sits inside the `data-pagefind-ignore` element",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "lesson-end-component",
+      "title": "Add the LessonEnd block with the Homework counter and Mark complete",
+      "acceptance_criteria": [
+        "New src/components/LessonEnd.astro renders after the Homework blocks and before prev/next on every lesson page: a `Homework answered n/m` line whose unanswered count links to `#<homework id>`, a Mark complete button rendered with the `hidden` attribute in static HTML, a large Next card, and a polite live region",
+        "`m` is rendered server-side from `extractHomeworkIds` in src/lib/course.ts, and matches the number of `<Homework>` blocks in the lesson's MDX for every lesson",
+        "No script in the page navigates on its own: grep shows no `location.assign`, `location.href =` or `form.submit()` in src/components/LessonEnd.astro or src/scripts/player/",
+        "The Next card on the last lesson of a track links to the first lesson of the next track with text beginning `Next track: `, and the last lesson of the course renders no Next card",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "lesson-viz-static-pane",
+      "title": "Add the static LessonViz pane with chips, controls and credits",
+      "acceptance_criteria": [
+        "New src/components/LessonViz.astro renders the right pane: header, stage placeholder, controls (`In context` / `Isolated`; `Auto`, `3/4`, `Front`, `Side`, `Back`; `Reset`; `Open full atlas`), a status line, structure chips and a credits block, all inside a `data-pagefind-ignore` container",
+        "Chips come from src/data/lesson-structures.yml via `lessonStructures`; a chip for a structure the atlas lacks carries a visible `not in atlas` marker, and a chip whose MDX label differs from the resolved concept name shows a `shows: <resolved name>` note (covering the hamstring-group, erector-spinae and lumbar-vertebrae mislabels) without any MDX being edited",
+        "`Open full atlas` links to `/atlas/?focus=<comma-separated ids>` for the lesson's modelled structures, and a lesson with no modelled structures renders the pane as a collapsed 3rem rail instead of a stage",
+        "No `<iframe` appears anywhere in the built lesson HTML",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "storage-and-progress-libs",
+      "title": "Add src/lib/storage.ts and src/lib/progress.ts with node tests",
+      "acceptance_criteria": [
+        "src/lib/storage.ts wraps read, write and remove of JSON values so that every localStorage call is inside try/catch and a blocked or full store returns the supplied fallback instead of throwing",
+        "src/lib/progress.ts exports `parse`, `mark`, `unmark`, `lessonStatus`, `resumeTarget` and `gradedHomeworkIds`, documents the `progress` key shape in its file header, and does not import ts-fsrs",
+        "scripts/progress.test.mjs (recall.test.mjs style) asserts: mark then unmark round-trips; `lessonStatus` returns complete when every homework id of a lesson is graded even with no explicit mark; `resumeTarget` returns the first incomplete lesson in course order; `parse` returns an empty record for malformed JSON, for null and for a non-object",
+        "`package.json`'s `test` script runs scripts/progress.test.mjs and `npm test` exits 0",
+        "`npm run build`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "homework-storage-hardening",
+      "title": "Make Check and Notes survive blocked storage and announce grades",
+      "acceptance_criteria": [
+        "src/components/Check.astro and src/components/Notes.astro contain no direct `localStorage.` reference: both go through src/lib/storage.ts",
+        "Grading a Check dispatches a `recall:change` CustomEvent on `document` whose detail carries the check id and the grade; saving a note dispatches `notes:change` with the slug",
+        "With storage throwing, revealing and grading still updates the DOM state (`data-grade` is set) and no uncaught error is logged; this is asserted by a node test over the extracted handler module or, if the handler stays inline, by a comment-free grep proving every call path is wrapped",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "progress-wiring",
+      "title": "Wire progress into the outline, the lesson end and the learn indexes",
+      "acceptance_criteria": [
+        "Grading the last ungraded Homework question on a lesson updates the LessonEnd counter and the outline status glyph for that lesson without a page reload, driven by the `recall:change` event and src/lib/progress.ts",
+        "The Mark complete button is revealed by JS, toggles to `Undo`, writes the `progress` key through src/lib/storage.ts, and announces the change in the LessonEnd live region",
+        "/learn/ shows `n of m complete` per track card and a `Continue: <lesson>` link computed from `resumeTarget`; /learn/<track>/ shows per-lesson status glyphs; `course:last` is written on each lesson view",
+        "With localStorage blocked, all of these degrade to the unprogressed state with no uncaught error",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "bundle-and-settings",
+      "title": "Add src/lib/bundle.ts and make /settings/ handle progress",
+      "acceptance_criteria": [
+        "src/lib/bundle.ts exports a v2 bundle `{version: 2, recall, notes, progress}` plus import functions that accept a v2 bundle, a v1 bundle and a bare `recall` export",
+        "scripts/bundle.test.mjs asserts v1 and bare-recall imports upgrade to v2, that merge keeps the more recent grade and never replaces a note with an empty one, and that replace drops local data first; `npm test` runs it",
+        "/settings/ gains a `Lessons completed` inventory row; Export JSON produces a v2 bundle containing `progress`; Import merge, Import replace and `Clear everything` all cover `progress`, and Clear also removes `course:last`",
+        "The page still works when storage throws: the inventory shows zeros and the buttons report the failure in the status line instead of throwing",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "check-player-script",
+      "title": "Add scripts/check-player.mjs and wire the checks into CI",
+      "acceptance_criteria": [
+        "scripts/check-player.mjs walks dist/learn/*/*/index.html and asserts for each page: exactly one outline containing 30 lesson links and exactly one `aria-current=\"page\"`; no `<h1>` outside `<main id=\"lesson\">`; a skip link; a pane present and carrying `data-pagefind-ignore`; the chip set equal to the lesson's resolved structures from src/lib/course.ts; a credits block; prev/next matching course order; no `<iframe`; page size at most 64 KB",
+        "It exits non-zero and names the offending file and assertion when any of these fails, demonstrated by a temporary edit to one built file that is then reverted",
+        "`node scripts/check-player.mjs` exits 0 on a fresh `npm run build`",
+        "The script is added to .github/workflows/ci.yml and to the command list in CONTRIBUTING.md",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "embed-protocol-and-focus-list",
+      "title": "Add atlas/app/embed-protocol.ts and accept a comma-separated ?focus",
+      "acceptance_criteria": [
+        "atlas/app/embed-protocol.ts is pure (no imports) and exports the envelope `{ns: 'spinal-tap/atlas', v: 1, type}`, creators for the parent-to-atlas messages `show {req, ids, mode, view}`, `reset`, `theme`, `pause`, `resume` and the atlas-to-parent messages `ready`, `progress`, `loaded`, `shown`, `picked`, `interaction`, `error`, plus the guards `isToAtlas` and `isFromAtlas`",
+        "It exports `parseFocus(atlas, list)` splitting on commas, resolving each token by concept id or lowercase name, capping at 32 ids and returning `{concepts, missing}`, and `autoView(atlas, partIds)` returning `back` when the selection's bounding-box centre z is below the lumbar centre z minus 0.03 and `three-quarter` otherwise",
+        "scripts/atlas-embed.test.mjs asserts the guards reject a foreign `ns`, a wrong `v` and a non-object payload; that `parseFocus` caps at 32 and reports missing tokens; and that `autoView` returns both values for known selections; `npm test` runs it",
+        "atlas/app/page.tsx resolves `?focus` through `parseFocus`, unions the elements of all named concepts and joins their names with ` + `; a single id takes exactly the path it takes today, and `/atlas/?focus=FMA13075` is unchanged",
+        "The text of `LUMBAR_PRESET` in atlas/app/anatomy.ts is unchanged, so the regex in scripts/check-sources.mjs still matches; `npm run build:atlas`, `npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "atlas-embed-entry",
+      "title": "Add the standalone atlas embed entry point",
+      "acceptance_criteria": [
+        "New atlas/web/embed.html (with `<meta name=\"robots\" content=\"noindex\">`), atlas/web/embed-main.tsx, atlas/app/embed-page.tsx and atlas/app/embed.css exist, and atlas/vite.config.ts sets `build.rollupOptions.input` to both `web/index.html` and `web/embed.html`",
+        "The embed bundle imports none of globals.css, tailwind, base-ui, cmdk or lucide, never calls `registerAtlasTools`, and never renders the inspector or `EXPLANATIONS`: grepping the built embed chunk for `EXPLANATIONS` and for a known explanation sentence returns no hits",
+        "embed-page.tsx reads focus, mode, view and theme from the URL once, renders AnatomyScene with initial state `{explode: 0, visible: ['skeletal'], isolate: mode === 'isolate', rotate: false, reset: 0, frame: 1}`, posts `ready` once the catalogue has loaded, posts `progress`, `loaded` and `error`, and renders a `role=\"alert\"` message when the scene fails",
+        "After `npm run build`: public/atlas/embed.html and dist/atlas/embed.html exist, /atlas/ is still served from app.html, and opening dist/atlas/embed.html standalone shows the lumbar overview",
+        "Both ends check `e.origin === location.origin` and `e.source`, and post with `targetOrigin = location.origin`, never `*`",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-player.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "scene-framebox-and-context-framing",
+      "title": "Factor frameBox out of the isolate block and add context framing",
+      "acceptance_criteria": [
+        "atlas/app/scene.tsx defines `frameBox(box, dir, pad, insets)` factored out of the isolate block, and the non-embed call site passes today's DOM-measured insets, direction (.2,.1,1) and pad 1.35 so /atlas/ framing numbers are unchanged; scripts/atlas-embed.test.mjs records the pre-refactor camera position for a known box and asserts frameBox reproduces it",
+        "scene.tsx takes an optional `embed` prop `{insets, clearColor, wake, onInteraction}`; with the prop absent nothing in /atlas/ changes (renderer options, ground, platform, rings and rotate behave as before)",
+        "In embed mode the renderer uses `powerPreference: 'low-power'`, takes its clear colour from the prop and re-applies it when it changes, hides ground, platform and rings, and forces rotate false",
+        "SceneState in atlas/app/anatomy.ts gains optional `frame?: number` and `frameIds?: string[]`; in embed mode the fit-on-view and leave-isolate branches are skipped and framing keys on isolate + selected + frame + view + camera.aspect, padding 1.35 isolated and 2.0 in context, using catalogue bounds so it frames before geometry arrives",
+        "`resize()` returns early when `clientWidth` or `clientHeight` is 0, in both modes, so a collapsed pane cannot produce a NaN aspect",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "scene-wheel-and-idle-policy",
+      "title": "Add the embed wheel policy and idle sleep",
+      "acceptance_criteria": [
+        "In embed mode a capture-phase wheel listener on the host sets `controls.enableZoom = e.ctrlKey || e.metaKey || activated`, where `activated` is set by a pointerdown on the canvas and cleared on pointerleave, so a plain wheel chains to the parent document while ctrl+wheel and trackpad pinch still zoom",
+        "A hint reading `Ctrl + scroll or pinch to zoom` appears for about 1.5 s on the first blocked wheel and is not rendered in the non-embed scene",
+        "In embed mode `animate()` stops scheduling after 60 consecutive frames that are not dirty, not moving and not damping, and wakes on the controls `change` event, pointerdown, wheel, the ResizeObserver and the `wake` ref; a `pause` message cancels the rAF until `resume`",
+        "`onInteraction` fires on the first pointerdown or wheel after each `show`",
+        "The non-embed scene still schedules every frame and `/atlas/` behaves exactly as before",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "atlas-pack-builder",
+      "title": "Add scripts/build-atlas-pack.mjs and its integrity tests",
+      "acceptance_criteria": [
+        "scripts/build-atlas-pack.mjs builds its concept set from `LUMBAR_PRESET` (read with the same regex scripts/check-sources.mjs uses), every concept in src/data/lesson-structures.yml resolved through src/lib/course.ts under --experimental-strip-types, and the context ids in new src/data/atlas-pack.json (FMA13478 vertebral column, FMA16580 bony pelvis, FMA9611 femur, plus an empty `extra` list)",
+        "It copies each part's contiguous bytes verbatim to 4-aligned offsets, rebases positions, normals and indices, splits into at most 3 roughly equal chunks, and writes public/atlas/models/packs/course-<sha8>-<n>.bin and .bin.gz plus course.json, a valid `Atlas` object per atlas/app/anatomy.ts with `pack: {sha, parts, gzipBytes}`",
+        "It fails with a per-concept breakdown above 3.5 MB gz, is appended to the `build:atlas` npm script after `build:atlas-index`, and `predev` checks for packs/course.json",
+        "scripts/atlas-pack.test.mjs asserts every packed part's bytes are identical to the corresponding slice of the source body-N.bin, 4-byte alignment, that every kept concept's elements are all present, that two runs produce the same sha, that total gz is under budget, and that the hashed filename matches the immutable cache rule in vercel.json; `npm test` runs it",
+        "After `npm run build`, atlas/public/models/atlas.json and the tracked body-N chunks are unmodified (git reports them clean) and course.json reports roughly 75 parts under 2.5 MB gz",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "embed-loads-course-pack",
+      "title": "Make the embed load the course pack with an atlas.json fallback",
+      "acceptance_criteria": [
+        "atlas/app/embed-page.tsx fetches `BASE_URL + 'models/packs/course.json'` and falls back to `models/atlas.json` on a 404, a network error or a parse error, and reports the chosen source in the `ready` message's `pack` field",
+        "The loader block in atlas/app/scene.tsx (the worker pool, decodeModelResponse, progress and ready gating) is unchanged by this story: `git diff` touches no line of it",
+        "The fetch-with-fallback helper is a separate exported function covered by scripts/atlas-embed.test.mjs, which asserts both the pack path and the fallback path",
+        "After `npm run build`, dist/atlas/embed.html loads course.json from /atlas/models/packs/ and the lumbar overview renders; /atlas/ still loads models/atlas.json",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "atlas-bridge-state-machine",
+      "title": "Add src/lib/atlas-bridge.ts as a pure, tested state machine",
+      "acceptance_criteria": [
+        "src/lib/atlas-bridge.ts implements the states idle, booting, ready, shown, error, paused and unmounted, assigns a request id to each `show`, coalesces pending shows so only the latest is answered, and fails a request with an `error` after a 15 s timeout",
+        "It imports the message helpers from atlas/app/embed-protocol.ts by relative path so there is a single source of truth, and imports nothing from `astro:*` or the DOM beyond what is injected",
+        "scripts/atlas-bridge.test.mjs asserts: a show issued before `ready` is queued and replayed on ready; two rapid shows produce one outstanding request; a `shown` carrying a stale req id is ignored; the 15 s timeout transitions to error; pause and resume round-trip; `npm test` runs it",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "viz-mount-policy",
+      "title": "Mount, pause and unmount the embed iframe from viz.ts",
+      "acceptance_criteria": [
+        "New src/scripts/player/viz.ts mounts the embed iframe only when the viewport is at least 64rem, the pane is open, the lesson has at least one modelled chip, `navigator.connection.saveData` is false and `effectiveType` is not `2g`, and only after the `load` event plus an idle callback",
+        "Below 64rem the iframe is created only on an explicit user action, and closing the sheet removes the iframe from the DOM",
+        "Collapsing the pane sends `pause` and removes the iframe after 60 s; reopening remounts it",
+        "The iframe src is `/atlas/embed.html` with the lesson's focus ids, and every message is posted with `targetOrigin = location.origin` and validated on receipt by origin and source",
+        "The static HTML still contains no `<iframe`: `node scripts/check-player.mjs` exits 0",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "viz-interaction-wiring",
+      "title": "Wire chips, controls, theme and status into the embed",
+      "acceptance_criteria": [
+        "A plain left click on a structure chip sends `show` with that chip's ids and does not navigate; a middle click or a click with a modifier key still opens /atlas/?focus=<ids> in the normal way",
+        "The `In context` / `Isolated` buttons send `show` with the matching mode, the view buttons send the matching view (`Auto` resolving through `autoView`), and `Reset` sends `reset`",
+        "A theme change in the site nav forwards a `theme` message to the iframe, and the embed's clear colour follows it",
+        "The status line reports load progress from `progress`, `showing n of m` plus any missing names from `shown`, the picked part name from `picked`, and on `error` shows a message plus the `Open full atlas` fallback link",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "figures-download-and-registry",
+      "title": "Download the verified figures and generate src/data/figures.yml",
+      "acceptance_criteria": [
+        "Every figure in the `Per-lesson picks` and `Structure figures` lists of docs/course-player/figures-verified.md is downloaded to src/assets/figures/<id>.{png,jpg,svg} from the url recorded in docs/course-player/figure-candidates.json or from the pinned OpenStax commit; no figure from the `Rejected` section is present",
+        "Every raster file is at most 500 KB, every SVG at most 200 KB and src/assets/figures/ at most 10 MB in total, with each downscale or crop described in that figure's `changes` field (including the 10240 px Servier panel, Sacroiliac Joint.png, the two 2.3 MB Blausen files and OpenStax 1117/1417)",
+        "src/data/figures.yml is generated from docs/course-player/figure-candidates.json, not retyped: each entry carries id, file, source (a sources.yml id), title, author, sourceUrl, licence (SPDX), licenceUrl, licenceEvidence, changes, retrieved, alt, caption, kind and optional invertInDark, and the Artist, Credit and LicenseShortName strings are byte-identical to the JSON",
+        "Every file referenced by figures.yml exists on disk and every file in src/assets/figures/ is referenced by figures.yml (asserted by a committed one-liner or script recorded in the commit message)",
+        "No MDX file and no article frontmatter is modified by this story",
+        "`npm run build`, `npm test` and the five check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "lesson-visuals-and-check-figures",
+      "title": "Map figures to lessons and add scripts/check-figures.mjs",
+      "acceptance_criteria": [
+        "src/data/lesson-visuals.yml maps lesson slug to figure ids following docs/course-player/figures-verified.md, with merged lessons' figures moved to their target (pain-science/graded-exposure's fear-avoidance figure under rehab/cognitive-functional-therapy, what-imaging-tells-you's MRI under pathology/degeneration-and-asymptomatic-findings, mcgill-approach-and-critics' side plank under rehab/exercise-modes-compared, strongman-loading's photos under biomechanics/deadlift-and-squat-spinal-loads)",
+        "Every key in lesson-visuals.yml is a slug of one of the 30 surviving lessons, and every lesson the doc marks `rail` is absent from the file",
+        "scripts/check-figures.mjs (in the style of scripts/check-plan.mjs) validates unique ids, all required fields, a licence allowlist of PD, CC0, CC BY 2.0 to 4.0 and CC BY-SA 2.0 to 4.0, that each `source` exists in sources.yml and is not Tier C, that Tier B entries carry `licenceEvidence`, that files exist and are within the size caps, that there are no orphan files, and that every id in lesson-visuals.yml resolves; it exits non-zero naming the figure when any rule fails",
+        "`node scripts/check-figures.mjs` exits 0, and it is added to .github/workflows/ci.yml and CONTRIBUTING.md",
+        "scripts/check-links.mjs parses `srcset` attributes as well as href and src, and still exits 0",
+        "`npm run build`, `npm test` and the other check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "figure-component-credits-and-licence-docs",
+      "title": "Render figures in the pane and publish /credits/",
+      "acceptance_criteria": [
+        "New src/components/Figure.astro renders through `astro:assets` `<Picture>` at widths 350/550/1100 in WebP with `sizes` matched to the pane, and a click opens the largest size; figures sit on a fixed light plate in both themes, with `invertInDark` honoured only where figures.yml sets it",
+        "LessonViz shows a 3D stage plus a `Figures` strip when a lesson has both, a figure stage with the pane open when it has figures only, and the collapsed rail with `not in atlas` chips when it has neither",
+        "A short credit line appears under each figure, and a new /credits/ page generated from src/data/figures.yml lists full title, author, source, licence and changes for every figure, linked from the footer in src/layouts/Base.astro",
+        "LICENSE-content.md, CONTRIBUTING.md, the header comment of src/content/sources/sources.yml and docs/plan.md gain the narrow carve-out wording: one figure from a CC BY or CC BY-SA source may be reproduced when its own licence covers it and is recorded in figures.yml, while lesson text stays verbatim-Excerpt-or-link",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-player.mjs`, `node scripts/check-figures.mjs`, `node scripts/check-quotes.mjs` all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "lesson-bar-drawers-print-a11y",
+      "title": "Add the narrow-screen bar and drawers, and the print and a11y contract",
+      "acceptance_criteria": [
+        "New src/components/LessonBar.astro renders a sticky 44px bar below 64rem with `Lessons`, `Lesson 3 of 8` and `Visual` controls, and `scroll-padding-top` accounts for both the nav and the bar",
+        "New src/scripts/player/drawers.ts opens the outline as a left modal drawer below 64rem and as an overlay drawer between 64rem and 75rem, and the visual pane as a right sheet between 48rem and 64rem and a full-screen dialog below 48rem; Esc closes, focus is trapped while open, focus returns to the opening control, and the background is marked `inert` with `aria-modal` set",
+        "Printing hides the outline, the pane and the bar, and the lesson prints as it did before the player existed (asserted by the print stylesheet rules and a check-player assertion that the print rules exist)",
+        "`prefers-reduced-motion: reduce` disables drawer and scroll animations",
+        "scripts/check-player.mjs gains assertions for the bar markup, the skip-link target and the drawer buttons' `aria-controls` and `aria-expanded`, and exits 0",
+        "`npm run build`, `npm test` and the six check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "browser-check-harness",
+      "title": "Add the Playwright browser-check harness with the layout checks",
+      "acceptance_criteria": [
+        "`playwright` is added as a devDependency at a version whose Chromium revision is present in ~/Library/Caches/ms-playwright (or installed with `npx playwright install chromium`), and `npm run check:browser` runs `node scripts/browser-check.mjs`",
+        "scripts/browser-check.mjs starts `astro preview` against an existing dist/, waits for the port, runs its checks, shuts the server down, and exits non-zero with a per-check PASS/FAIL report naming the viewport and URL",
+        "It checks the layout at 360, 768, 1024, 1280 and 1440 (which of outline, lesson and pane are present and which are rails or drawers at each width), that there is no horizontal scroll at 320px, and that /atlas/ and /atlas/?focus=FMA13075 still render the same concept name as before the player work",
+        "`npm run build && npm run check:browser` exits 0",
+        "The browser check is documented in CONTRIBUTING.md and deliberately NOT added to .github/workflows/ci.yml, with a one-line comment in ci.yml saying why",
+        "`npm run build`, `npm test` and the six check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "browser-check-interactions",
+      "title": "Extend the browser check to the interaction list and record the human-only items",
+      "acceptance_criteria": [
+        "scripts/browser-check.mjs additionally checks: anatomy/hip-complex at 1280px auto-loads the 3D after paint (the iframe appears and a `loaded` message arrives); a plain wheel over the pane scrolls the article while ctrl+wheel zooms; clicking a chip refocuses the pane with no page navigation; grading every Homework question ticks the outline and the LessonEnd counter without a reload; Mark complete and Undo round-trip; a /settings/ export contains `progress` and a v1 export still imports; keyboard-only drawer open, Esc and focus return; a context with localStorage throwing still renders and grades a lesson; a phone viewport opens the sheet, loads the 3D, closes it and leaves no iframe in the DOM",
+        "A figure-only lesson (anatomy/spinal-ligaments) renders the figure stage and a rail lesson (training-science/rpe-and-rir) renders the collapsed rail",
+        "Each check prints PASS or FAIL with its viewport and URL, and `npm run check:browser` exits 0",
+        "docs/course-player/human-review.md gains an `Owner checklist` section listing exactly the items that cannot be automated (visual judgement of figures and framing, print preview, WebGL rendering quality, bfcache restore of the live view), and none of them is recorded as verified anywhere in the repo",
+        "`npm run build`, `npm test` and the six check scripts all exit 0"
+      ],
+      "passes": false
+    },
+    {
+      "id": "docs-plan-contributing-readme",
+      "title": "Document the content model, the player, the embed contract and the pack rules",
+      "acceptance_criteria": [
+        "docs/plan.md sections 2 and 8 are rewritten for the sources-only content model (Lessons are Readings plus Homework, Excerpts are verbatim CC BY or PD, paywalled Sources are never assigned) and reference GLOSSARY.md and docs/adr/0001-sources-speak-site-points.md",
+        "README.md describes the three-pane course player, the 30-lesson course, the `progress` and `player:ui` storage keys, and the content model in a paragraph each",
+        "CONTRIBUTING.md lists every check command that now exists (build, test, check-sources, check-links, check-plan, check-player, check-figures, check-quotes) plus `npm run check:browser`, and says which of them CI runs",
+        "atlas/README.md documents the embed postMessage contract (envelope, both message directions, origin checks) and the course-pack rules (concept sources, 3.5 MB gz budget, hashed filenames under the immutable cache rule, atlas.json never modified)",
+        "docs/course-player/plan.md gains a short `Built` section mapping each milestone M0 to M9 to the files that now implement it",
+        "`npm run build`, `npm test`, `node scripts/check-sources.mjs`, `node scripts/check-links.mjs`, `node scripts/check-plan.mjs`, `node scripts/check-player.mjs`, `node scripts/check-figures.mjs`, `node scripts/check-quotes.mjs` and `npm run check:browser` all exit 0"
+      ],
+      "passes": false
+    }
+  ]
+}
