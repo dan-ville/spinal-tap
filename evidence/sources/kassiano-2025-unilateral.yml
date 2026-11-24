@@ -1,0 +1,37 @@
+id: kassiano-2025-unilateral
+title: 'Comparison of Muscle Growth and Dynamic Strength Adaptations Induced by Unilateral and Bilateral
+  Resistance Training: A Systematic Review and Meta-analysis.'
+authors:
+- Kassiano W
+- Nunes JP
+- Costa B
+- Ribeiro AS
+- Loenneke JP
+- Cyrino ES
+year: 2025
+venue: Sports Med 55(4):923-936
+doi: 10.1007/s40279-024-02169-z
+pmid: '39794667'
+url: https://pubmed.ncbi.nlm.nih.gov/39794667/
+design: meta-analysis
+population: Trials comparing unilateral and bilateral RT
+sample:
+  studies: 9
+  participants: null
+read_level: abstract
+findings:
+- claim: Hypertrophy did not differ between unilateral and bilateral training, but each produced larger
+    strength gains on its own test configuration.
+  effect: Hypertrophy ES -0.21 (95% CI -3.56 to 3.13); bilateral strength ES 0.56 (0.16 to 0.96) favouring
+    bilateral; unilateral strength ES -0.65 (-0.93 to -0.37) favouring unilateral
+  grade: promising
+limitations:
+- Nine studies; moderate risk of bias.
+topics:
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Nine studies; the hypertrophy CI is very wide, so 'equal' means no detectable difference. | Prior check: chapter 2 researcher 2026-11-24"

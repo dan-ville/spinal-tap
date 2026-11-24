@@ -1,0 +1,23 @@
+id: pancar-2026-deload
+title: Effects of deload periods in resistance training on muscle hypertrophy and strength endurance in untrained young men using a randomized within subject design
+authors: [Pancar Z, Ilhan MT, Darendeli MK, Karaca B, Ikidag MA, Tasdogan AM, Ulema MS, Alkhamees NH, Al-Mhanna SB, Batrakoulis A]
+year: 2026
+venue: Scientific Reports 16
+doi: 10.1038/s41598-026-40612-5
+pmid: '41730991'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13031491/
+design: rct
+population: Untrained young men; within-subject (limb) design; 8 wk unilateral leg extension and biceps curl, deload weeks 4 and 8
+sample: {studies: null, participants: 19}
+read_level: full-text
+findings:
+- claim: Reduced-volume deload weeks (sets cut ~66-75%, frequency halved) at weeks 4 and 8 produced hypertrophy and 10RM gains similar to continuous training.
+  effect: 'Quadriceps mid-50% thickness: deload +5.67 mm vs continuous +6.74 mm (difference n.s.); leg extension 10RM paired difference +0.79 kg (95% CI -0.66 to 2.24), p = 0.268'
+  grade: promising
+limitations: ['Untrained men; within-subject design risks cross-education; 10RM, not 1RM; no non-exercise control.']
+topics: [programming/deload]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: 19 untrained men, within-subject limbs, deload weeks 4 and 8 (1 session, 2 sets), no time x condition interactions (p = 0.239-0.955); leg extension 10RM +0.79 kg (-0.66 to 2.24). Confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (methods, results).'

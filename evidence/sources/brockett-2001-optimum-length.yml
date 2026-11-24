@@ -1,0 +1,35 @@
+id: brockett-2001-optimum-length
+title: Human hamstring muscles adapt to eccentric exercise by changing optimum length
+authors:
+- Brockett CL
+- Morgan DL
+- Proske U
+year: 2001
+venue: Med Sci Sports Exerc 33(5):783-790
+doi: 10.1097/00005768-200105000-00017
+pmid: '11323549'
+url: https://pubmed.ncbi.nlm.nih.gov/11323549/
+design: mechanistic
+population: Healthy adults (8 men, 2 women); one or two bouts of eccentric 'hamstring lowers'
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: A single bout of eccentric hamstring exercise shifted the knee angle of peak torque toward longer muscle
+    lengths, and the shift persisted after soreness resolved, consistent with a protective adaptation.
+  effect: Optimum angle shift +7.7 +/- 2.1 deg (P < 0.01) immediately post-exercise, sustained over 8 d
+  grade: promising
+limitations:
+- Small sample; acute/repeated-bout model; the shift was interpreted as sarcomere addition but not measured directly.
+topics:
+- mobility/mechanisms
+- strength/joint-angle
+- mobility/eccentric-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; single bout, n = 10, optimum shift 7.7 +/- 2.1 deg; confirmed.
+    | Prior check: chapter 7 literature researcher 2026-11-24;'

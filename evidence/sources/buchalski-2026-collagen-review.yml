@@ -1,0 +1,21 @@
+id: buchalski-2026-collagen-review
+title: "Collagen Supplementation on Tendon-Related Structural and Performance Outcomes: A Systematic Review"
+authors: [Buchalski A, Jeanfavre M, Altorelli C, Leff G]
+year: 2026
+venue: "J Funct Morphol Kinesiol 11(1):130"
+doi: "10.3390/jfmk11010130"
+pmid: "41900537"
+url: https://pubmed.ncbi.nlm.nih.gov/41900537/
+design: systematic-review
+population: "RCTs of collagen supplementation with resistance or plyometric training (ages 18-52; 246 M, 11 F)"
+sample: {studies: 8, participants: 257}
+read_level: abstract
+findings:
+  - claim: "Three of four trials found larger tendon CSA gains with collagen; for stiffness, the two higher-dose (15-30 g) trials favoured collagen while ~5 g trials did not; no added strength effect."
+    effect: "Narrative synthesis; authors rate tendon CSA and stiffness as 'GRADE A strong evidence', which overstates certainty given n=257 across 8 small trials"
+    grade: contested
+limitations:
+  - "No meta-analysis; its certainty language conflicts with bischof-2024-collagen-meta (very low) and with the null balshaw-2023 trial at 15 g/d."
+topics: [connective-tissue/collagen-supplement]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

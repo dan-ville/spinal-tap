@@ -1,0 +1,21 @@
+id: witard-2024-protein-commentary
+title: "The Anabolic Response to Protein Ingestion During Recovery From Exercise Has No Upper Limit in Magnitude and Duration In Vivo in Humans: A Commentary"
+authors: [Witard OC, Mettler S]
+year: 2024
+venue: "International Journal of Sport Nutrition and Exercise Metabolism 34(5):322-324"
+doi: "10.1123/ijsnem.2024-0041"
+pmid: "38991545"
+url: https://pubmed.ncbi.nlm.nih.gov/38991545/
+design: other
+population: "Commentary on Trommelen 2023"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Critics accept the larger, longer anabolic response to 100 g but argue it was measured in anabolically sensitive, non-resistance-trained young men and does not justify dismissing protein distribution across meals."
+    effect: "Commentary; cites emerging evidence that a 'no upper limit' response does not appear in resistance-trained young women"
+    grade: contested
+limitations:
+  - "Opinion piece; the cited contrary data in trained women not examined here."
+topics: [nutrition/protein]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: accepts Trommelen's findings in 'anabolically sensitive', recreationally active but not resistance-trained young men; cautions against dismissing protein distribution; states that, 'based on emerging evidence', the no-upper-limit idea does not appear to translate to resistance-trained young women. The cited women's evidence was not identified in this pass either. Confirmed."}

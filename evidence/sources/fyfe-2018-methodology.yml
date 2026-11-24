@@ -1,0 +1,33 @@
+id: fyfe-2018-methodology
+title: 'Interpreting Adaptation to Concurrent Compared with Single-Mode Exercise Training: Some Methodological Considerations'
+authors:
+- Fyfe JJ
+- Loenneke JP
+year: 2018
+venue: Sports Med 48(2):289-297
+doi: 10.1007/s40279-017-0812-1
+pmid: '29127601'
+url: https://pubmed.ncbi.nlm.nih.gov/29127601/
+design: narrative-review
+population: Methodological commentary
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Training status, the larger relative size of strength vs hypertrophy changes, and the specificity and sensitivity
+    of outcome measures all shape whether a study detects interference; most studies are more likely to detect interference
+    in strength than in hypertrophy.
+  effect: Methodological argument; no data synthesis
+  grade: promising
+limitations:
+- Commentary; does not quantify the biases it describes.
+topics:
+- concurrent/methods
+- concurrent/training-status
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; confirmed."

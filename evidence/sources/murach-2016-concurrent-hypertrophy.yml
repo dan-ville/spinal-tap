@@ -1,0 +1,32 @@
+id: murach-2016-concurrent-hypertrophy
+title: 'Skeletal Muscle Hypertrophy with Concurrent Exercise Training: Contrary Evidence for an Interference Effect'
+authors:
+- Murach KA
+- Bagley JR
+year: 2016
+venue: Sports Med 46(8):1029-1039
+doi: 10.1007/s40279-016-0496-y
+pmid: '26932769'
+url: https://pubmed.ncbi.nlm.nih.gov/26932769/
+design: narrative-review
+population: Review of human concurrent training studies
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Evidence that concurrent exercise interferes with hypertrophy in humans is weaker than assumed, and under some conditions
+    concurrent exercise may augment resistance-exercise hypertrophy.
+  effect: Narrative review
+  grade: promising
+limitations:
+- Narrative and selective; written before the 2022 meta-analyses that broadly confirmed its position for whole-muscle size.
+topics:
+- concurrent/hypertrophy
+- concurrent/critique
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

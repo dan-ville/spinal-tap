@@ -1,0 +1,41 @@
+id: ferraro-farro-2026-sit
+title: Does Sprint Interval Training Cause Interference in Concurrent Training? A Meta-Analysis Study
+authors:
+- Ferraro-Farro D
+- Bandeira-Guimarães M
+- Blanco-Rambo E
+- Vieira AF
+- Cadore EL
+- Benítez-Flores S
+year: 2026
+venue: Int J Sports Med 47(10):747-759
+doi: 10.1055/a-2820-4527
+pmid: '41734815'
+url: https://pubmed.ncbi.nlm.nih.gov/41734815/
+design: meta-analysis
+population: RCTs in healthy adults comparing SIT-based concurrent training with resistance training alone (>=6 sessions over
+  >=2 wk)
+sample:
+  studies: 9
+  participants: 177
+read_level: full-text
+findings:
+- claim: Sprint interval training added to resistance training did not reduce strength, jump or sprint gains and improved
+    VO2max.
+  effect: Lower-body strength SMD 0.01 (p=0.94); upper-body -0.06 (p=0.83); jump 0.11 (p=0.11) in the published abstract but 0.27 (95% CI -0.06 to 0.60), p=0.11 in the submitted manuscript; sprint -0.01 (p=0.95); VO2max
+    0.78 (95% CI 0.31 to 1.24; p=0.001)
+  grade: promising
+- claim: Short sprints (<=10 s) were associated with larger jump gains than resistance training alone.
+  effect: Jump SMD 0.41 (p=0.025), sensitivity analysis
+  grade: speculative
+limitations:
+- Nine small trials; short durations; erratum issued; CIs not given in abstract.
+topics:
+- concurrent/hiit
+- conditioning/sprint-interval
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Submitted (peer-review) manuscript PDF read (fisiologiadelejercicio.com, 2026/03), plus PubMed abstract and the April 2026 correction notice (content of correction not stated). DISCREPANCY: manuscript body gives jump SMD 0.27 (95% CI -0.06 to 0.60), p=0.11, I2 37.4%; the published abstract says 0.11 (p=0.11). The p-value fits 0.27; treat 0.11 as unverified. VO2max 0.78 (0.31 to 1.24), I2 0.5%; short-sprint jump 0.41 (0.05 to 0.77). Participants: physically active (n=75) and non-elite athletes (n=112)."

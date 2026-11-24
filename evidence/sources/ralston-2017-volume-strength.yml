@@ -1,0 +1,27 @@
+id: ralston-2017-volume-strength
+title: 'The Effect of Weekly Set Volume on Strength Gain: A Meta-Analysis'
+authors: [Ralston GW, Kilgore L, Wyatt FB, Baker JS]
+year: 2017
+venue: Sports Medicine 47(12):2585-2601
+doi: 10.1007/s40279-017-0762-7
+pmid: '28755103'
+url: https://pubmed.ncbi.nlm.nih.gov/28755103/
+design: meta-analysis
+population: Trained and untrained adults; 61 treatment groups
+sample: {studies: 9, participants: null}
+read_level: abstract
+findings:
+- claim: High weekly set volume (>5 sets/exercise/week region) gave slightly larger strength gains than low weekly set volume.
+  effect: HWS vs LWS ES difference 0.18 (95% CI 0.06 to 0.30), p = 0.003; LWS ES 0.82 (0.47 to 1.17), HWS ES 1.01 (0.70 to 1.32)
+  grade: established
+- claim: For exercise-specific 1RM the volume advantage was marginal.
+  effect: ES 0.14 (95% CI -0.01 to 0.29), p = 0.06
+  grade: promising
+limitations:
+- Only 9 studies; mean volumes low (Pelland 2026 reports mean ~3 direct sets/wk), so it says little about the upper dose range.
+topics: [strength/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read (the Europe PMC XML holds only the abstract); HWS vs LWS ES 0.18 (0.06-0.30) and exercise-specific 1RM 0.14 (-0.01 to 0.29), 9 studies, confirmed. Pelland notes Ralston's LWS/HWS split is <=5 vs >5 weekly sets. | Earlier check by chapter 3 literature researcher"

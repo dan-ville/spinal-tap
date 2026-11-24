@@ -1,0 +1,26 @@
+id: graham-2021-rir-autoregulation
+title: Autoregulation by "Repetitions in Reserve" Leads to Greater Improvements in Strength Over a 12-Week Training Program Than Fixed Loading
+authors: [Graham T, Cleather DJ]
+year: 2021
+venue: Journal of Strength and Conditioning Research 35(9):2451-2456
+doi: 10.1519/JSC.0000000000003164
+pmid: '31009432'
+url: https://research.stmarys.ac.uk/3067/
+design: rct
+population: Resistance-trained men; 12 wk, 2x/wk squat program
+sample: {studies: null, participants: 31}
+read_level: full-text
+findings:
+- claim: RIR-based autoregulated squat training produced larger front and back squat gains than fixed percentage loading with matched volume.
+  effect: Front squat +11.7% vs +8.3% (p = 0.004, eta2p = 0.255); back squat +10.8% vs +7.1% (p = 0.006, eta2p = 0.233)
+  grade: promising
+- claim: The autoregulated group trained at a higher average intensity than the fixed-load group.
+  effect: Average weekly intensity FS 83.2 +/- 13.3% vs 80.4 +/- 10.0% 1RM (p < 0.001); BS 83.6 vs 80.4%
+  grade: promising
+limitations: ['Groups differed at baseline (AR stronger: BS 141 vs 129 kg); single site; men only.', Advantage may reflect higher loads rather than autoregulation per se.]
+topics: [programming/autoregulation, methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Accepted manuscript (St Mary''s repository) re-read: FS +11.7% vs +8.3%, BS +10.8% vs +7.1%, average weekly intensity FS 83.2 vs 80.4%, BS 83.6 vs 80.4% confirmed; randomised; baseline BS 141.2 vs 129.1 kg. | Earlier check by chapter 4 literature researcher: Accepted manuscript (St Mary''s repository) read in full.'

@@ -1,0 +1,49 @@
+id: dankel-2020
+title: Assessing differential responders and mean changes in muscle size, strength, and the crossover
+  effect to 2 distinct resistance training protocols.
+authors:
+- Dankel SJ
+- Bell ZW
+- Spitz RW
+- Wong V
+- Viana RB
+- Chatakondi RN
+- Buckner SL
+- Jessee MB
+- Mattocks KT
+- Mouser JG
+- Abe T
+- Loenneke JP
+year: 2020
+venue: Appl Physiol Nutr Metab 45(5):463-470
+doi: 10.1139/apnm-2019-0470
+pmid: '31553889'
+url: https://pubmed.ncbi.nlm.nih.gov/31553889/
+design: rct
+population: Adults; 6 weeks elbow flexion, traditional vs 1RM practice vs control
+sample:
+  studies: null
+  participants: 151
+read_level: abstract
+findings:
+- claim: Traditional training and 1RM practice raised 1RM similarly; only 1RM practice increased untrained-arm
+    1RM, and only traditional training increased muscle thickness.
+  effect: 1RM about +2.4 kg in both; untrained arm +1.5 kg (1RM group only); MT about +0.23 cm (traditional
+    only)
+  grade: promising
+- claim: True inter-individual variability beyond random error was present for 1RM gains with traditional
+    training but not for hypertrophy or isokinetic strength.
+  effect: true variability 1.80 kg
+  grade: promising
+limitations:
+- Untrained; short; single-joint.
+topics:
+- strength/specificity
+- strength/cross-education
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. | Prior check: chapter 2 researcher 2026-11-24"

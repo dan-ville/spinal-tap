@@ -1,0 +1,37 @@
+id: inubashiri-2026
+title: Muscle-specific reticulospinal contributions to limb-trunk coordination during standing arm curls
+  in strength-trained and untrained individuals.
+authors:
+- Inubashiri N
+- Shinzaki S
+- Kanehisa H
+- Isaka T
+- Maeo S
+year: 2026
+venue: Neurosci Lett 890:138776
+doi: 10.1016/j.neulet.2026.138776
+pmid: '42956927'
+url: https://pubmed.ncbi.nlm.nih.gov/42956927/
+design: cross-sectional
+population: Long-term (>= 3 y) strength-trained vs untrained men
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: Trained men showed tighter timing between erector spinae and biceps onset in a standing curl
+    and a smaller startle-induced shortening of biceps onset, suggesting muscle-specific differences in
+    reticulospinal contribution.
+  effect: direction-only results in abstract
+  grade: speculative
+limitations:
+- Cross-sectional, small; indirect startle paradigm.
+topics:
+- strength/reticulospinal
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

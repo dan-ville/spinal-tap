@@ -1,0 +1,47 @@
+id: aagaard-2002
+title: Increased rate of force development and neural drive of human skeletal muscle following resistance
+  training.
+authors:
+- Aagaard P
+- Simonsen EB
+- Andersen JL
+- Magnusson P
+- Dyhre-Poulsen P
+year: 2002
+venue: J Appl Physiol 93(4):1318-1326
+doi: 10.1152/japplphysiol.00283.2002
+pmid: '12235031'
+url: https://pubmed.ncbi.nlm.nih.gov/12235031/
+design: other
+population: Untrained young men (quadriceps)
+sample:
+  studies: null
+  participants: 15
+read_level: abstract
+findings:
+- claim: Fourteen weeks (38 sessions) of heavy resistance training increased isometric knee-extension
+    MVC and early-phase rate of force development, with large increases in early-phase EMG amplitude and
+    rate of EMG rise.
+  effect: MVC 291.1 +/- 9.8 to 339.0 +/- 10.2 N.m; RFD at 0-30 ms 1,601 to 2,020 N.m/s; EMG +22-143% (mean
+    average voltage) and rate of EMG rise +41-106% in 0-200 ms
+  grade: promising
+- claim: The authors attribute the gain in explosive strength to enhanced neural drive (motor unit discharge
+    rate and doublets inferred from surface EMG), not measured directly at the motor unit level.
+  effect: inference from surface EMG; no motor unit decomposition
+  grade: speculative
+- claim: "After 14 weeks of heavy training, RFD normalised to MVC increased in the earliest phase of contraction."
+  effect: "relative RFD +15% at 0 to 1/6 MVC (P < 0.05)"
+  grade: promising
+limitations:
+- Single-group pre-post design without a non-training control in the abstract.
+- Surface EMG amplitude is a crude and muscle-size-confounded index of neural drive (see skarabot-2021-emg,
+  del-vecchio-2026).
+topics:
+- strength/neural-adaptations
+- strength/rate-of-force-development
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Added: relative (to MVC) RFD increased 15% in early contraction after 14 weeks, which runs against the cross-sectional finding of lower relative explosive torque in long-term trained men (balshaw-2022). | Prior check: chapter 2 researcher 2026-11-24"

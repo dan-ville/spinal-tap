@@ -1,0 +1,59 @@
+id: afonso-2026-stretching-injury
+title: How Effective is Stretching for Injury Prevention? A Large-Scale Systematic Review with Meta-analysis
+authors:
+- Afonso J
+- Martins R
+- Thapa RK
+- Lohmann LH
+- Andrade R
+- Behm DG
+- Tilp M
+- Blazevich AJ
+- Warneke K
+- Pizzari T
+- Pizarro A
+- Ramirez-Campillo R
+year: 2026
+venue: Sports Med (online ahead of print, 21 Nov 2026)
+doi: 10.1007/s40279-026-02559-5
+pmid: '43066902'
+url: https://pubmed.ncbi.nlm.nih.gov/43066902/
+design: meta-analysis
+population: Humans performing stretching with a comparator and sports-injury data; >80% male, 14-59 y; mostly static
+  unassisted stretching for 4-24 weeks
+sample:
+  studies: 19
+  participants: 9000
+read_level: full-text
+findings:
+- claim: Stretching did not reduce injury risk compared with all comparators, passive controls or active controls.
+  effect: All comparators OR = 0.945 (95% CI 0.828 to 1.078; 95% PI 0.773 to 1.155), k = 15, n = 9002; passive OR
+    = 0.923 (0.814 to 1.046); active OR = 1.190 (0.849 to 1.667)
+  grade: promising
+- claim: No preventive effect was found for muscle, tendon or ligament/joint-capsule injuries specifically, across
+    19 sensitivity analyses; no study assessed acute pre-activity stretching.
+  effect: GRADE very low for all outcomes except bone injury (low)
+  grade: promising
+- claim: Tissue-specific analyses showed no protective effect for muscle, tendon or ligament/capsule injury, and a borderline
+    increase in bone injury with stretching.
+  effect: Muscle OR 0.768 (95% CI 0.298 to 1.982), k = 4, n = 2577; tendon 0.965 (0.510 to 1.827), k = 4; ligament/capsule
+    0.764 (0.563 to 1.036), k = 3; bone 1.332 (1.000 to 1.776, p = 0.050; PI 0.836 to 2.124), k = 5, n = 5735, GRADE
+    low (preprint Table 2)
+  grade: speculative
+limitations:
+- ~90% of RCTs at high risk of bias; mostly military and male samples; virtually no sport-specific stretching.
+- Abstract-level read; 'over 9000 participants' given as >9000.
+- Full-text numbers from the OSF preprint (v1, July 2025); the peer-reviewed version (online 21 Nov 2026) was not accessible.
+topics:
+- injury/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text of the OSF preprint (v1, 25 Jul 2025, submitted version) read; the published Sports
+    Med version was not reachable. All abstract numbers in this record are identical in the preprint (OR 0.945, 0.828
+    to 1.078, PI 0.773 to 1.155, k = 15, n = 9002; passive 0.923; active 1.190). Added the tissue-specific ORs, including
+    a borderline INCREASE in bone injury (OR 1.332, 1.000 to 1.776, p = 0.050, fragility index 1). Numbers could differ
+    in the peer-reviewed version. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe
+    PMC abstract.'

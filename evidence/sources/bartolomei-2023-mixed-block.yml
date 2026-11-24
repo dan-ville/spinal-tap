@@ -1,0 +1,20 @@
+id: bartolomei-2023-mixed-block
+title: 'New Perspectives in Resistance Training Periodization: Mixed Session vs. Block Periodized Programs in Trained Men'
+authors: [Bartolomei S, Zaniboni F, Verzieri N, Hoffman JR]
+year: 2023
+venue: Journal of Strength and Conditioning Research 37(3):537-545
+doi: 10.1519/JSC.0000000000004465
+pmid: '36727999'
+url: https://pubmed.ncbi.nlm.nih.gov/36727999/
+design: rct
+population: Resistance-trained men; 10 wk, volume equated
+sample: {studies: null, participants: 22}
+read_level: abstract
+findings:
+- claim: Training power, strength and hypertrophy in every session (mixed) beat block sequencing for bench 1RM and muscle thickness, while block favoured vertical jump.
+  effect: Bench 1RM +8.6% mixed vs +2% block (p < 0.001); jump +7.2% block vs +1.2% mixed (p = 0.022)
+  grade: speculative
+limitations: [n = 11 per group; 10 weeks may be too short for block sequencing to pay off; same group that favoured block in 2014.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

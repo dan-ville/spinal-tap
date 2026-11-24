@@ -1,0 +1,43 @@
+id: bjornsen-2019
+title: Type 1 Muscle Fiber Hypertrophy after Blood Flow-restricted Training in Powerlifters.
+authors:
+- Bjørnsen T
+- Wernbom M
+- Kirketeig A
+- Paulsen G
+- Samnøy L
+- Bækken L
+- Cameron-Smith D
+- Berntsen S
+- Raastad T
+year: 2019
+venue: Med Sci Sports Exerc 51(2):288-298
+doi: 10.1249/MSS.0000000000001775
+pmid: '30188363'
+url: https://pubmed.ncbi.nlm.nih.gov/30188363/
+design: rct
+population: National-level powerlifters; two 5-session blocks of low-load BFR front squats vs conventional training,
+  6.5 wk
+sample:
+  studies: null
+  participants: 17
+read_level: abstract
+findings:
+- claim: In national-level powerlifters, two short blocks of low-load BFR squatting grew type I fibres and added myonuclei,
+    and increased vastus lateralis CSA more than conventional training.
+  effect: Type I fibre area +12% vs 0%; myonuclei +18% vs 0%; VL CSA +7.7% vs +0.5% (P = 0.04)
+  grade: promising
+limitations:
+- n = 17; short; front squat 1RM improved only in the conventional group.
+topics:
+- hypertrophy/bfr
+- hypertrophy/trained
+- hypertrophy/satellite-cells
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 17 national-level powerlifters (BFR n = 9, conventional n = 8);
+    type I MFA +12% vs 0%; myonuclei +18% vs 0%; VL CSA +7.7% vs +0.5% (P = 0.04). Confirmed. | Prior check: chapter
+    5 literature researcher 2026-11-24'

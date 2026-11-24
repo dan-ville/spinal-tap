@@ -1,0 +1,21 @@
+id: carvalho-2022-habitual-caffeine
+title: "Can I Have My Coffee and Drink It? A Systematic Review and Meta-analysis to Determine Whether Habitual Caffeine Consumption Affects the Ergogenic Effect of Caffeine"
+authors: [Carvalho A, Marticorena FM, Grecco BH, Barreto G, Saunders B]
+year: 2022
+venue: "Sports Medicine 52(9):2209-2220"
+doi: "10.1007/s40279-022-01685-0"
+pmid: "35536449"
+url: https://pubmed.ncbi.nlm.nih.gov/35536449/
+design: meta-analysis
+population: "Caffeine studies reporting habitual intake; trained and untrained, men and women"
+sample: {studies: 60, participants: null}
+read_level: abstract
+findings:
+  - claim: "Habitual caffeine consumption did not modify the acute ergogenic effect of caffeine, including for strength exercise."
+    effect: "Overall SMD 0.25 (95% CI 0.20 to 0.30); habitual intake moderator p = 0.59; all exercise-type moderators p >= 0.23"
+    grade: promising
+limitations:
+  - "Habitual intake self-reported; between-study moderator analysis."
+topics: [nutrition/caffeine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: ""}

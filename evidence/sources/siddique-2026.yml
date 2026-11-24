@@ -1,0 +1,42 @@
+id: siddique-2026
+title: Age-related differences in corticospinal and reticulospinal adaptations to short-term strength
+  training.
+authors:
+- Siddique U
+- Frazer AK
+- Tallent J
+- Hayman O
+- Akalu Y
+- Rostami M
+- Uribe S
+- Walker S
+- Kidgell DJ
+year: 2026
+venue: Eur J Appl Physiol 126(7):4095-4112
+doi: 10.1007/s00421-026-06222-9
+pmid: '41961284'
+url: https://pubmed.ncbi.nlm.nih.gov/41961284/
+design: other
+population: Older (67 y) and younger (26 y) adults, 2 weeks unilateral elbow-flexor training
+sample:
+  studies: null
+  participants: 25
+read_level: abstract
+findings:
+- claim: Two weeks of training produced similar strength gains in young and older adults with shortened
+    cortical silent periods in both, decreased corticospinal excitability in the young, and improved startle-cued
+    reaction time and RFD, interpreted as greater reticulospinal engagement.
+  effect: direction-only results in abstract; older adults central activation ratio increased (P < 0.001)
+  grade: speculative
+limitations:
+- No untrained control group described in abstract; indirect reticulospinal measures; very short training.
+- "Corticospinal excitability decreased in younger adults, the opposite of the classic excitability hypothesis."
+topics:
+- strength/reticulospinal
+- strength/corticospinal
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; confirmed. Note also that corticospinal excitability decreased in the younger adults. No control group is described in the abstract. | Prior check: chapter 2 researcher 2026-11-24"

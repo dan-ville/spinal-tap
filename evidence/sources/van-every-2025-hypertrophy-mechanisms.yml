@@ -1,0 +1,36 @@
+id: van-every-2025-hypertrophy-mechanisms
+title: 'Load-induced human skeletal muscle hypertrophy: Mechanisms, myths, and misconceptions'
+authors:
+- Van Every DW
+- Lees MJ
+- Wilson B
+- Nippard J
+- Phillips SM
+year: 2025
+venue: Journal of Sport and Health Science 15:101104
+doi: 10.1016/j.jshs.2025.101104
+pmid: '41276164'
+url: https://pubmed.ncbi.nlm.nih.gov/41276164/
+design: narrative-review
+population: Mechanistic review
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Mechanical tension is the primary hypertrophic stimulus; acute hormones, metabolites, cell swelling ('pump')
+    and sarcoplasmic hypertrophy are not meaningful contributors.
+  effect: Narrative synthesis
+  grade: promising
+limitations:
+- Narrative review by one group.
+topics:
+- mechanisms/hypertrophy
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: 2026-11-24
+  by: chapter 3 literature researcher
+  notes: ''

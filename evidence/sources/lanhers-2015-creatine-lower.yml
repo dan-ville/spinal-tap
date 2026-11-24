@@ -1,0 +1,21 @@
+id: lanhers-2015-creatine-lower
+title: "Creatine Supplementation and Lower Limb Strength Performance: A Systematic Review and Meta-Analyses"
+authors: [Lanhers C, Pereira B, Naughton G, Trousselard M, Lesage FX, Dutheil F]
+year: 2015
+venue: "Sports Medicine 45(9):1285-1294"
+doi: "10.1007/s40279-015-0337-4"
+pmid: "25946994"
+url: https://pubmed.ncbi.nlm.nih.gov/25946994/
+design: meta-analysis
+population: "Placebo-controlled RCTs; lower-limb strength in tasks under 3 min"
+sample: {studies: 60, participants: 1297}
+read_level: abstract
+findings:
+  - claim: "Creatine improved lower-limb strength by a small amount regardless of population, dose or training."
+    effect: "Global lower limb ES 0.235 (95% CI 0.125 to 0.346); squat 0.336 (0.047 to 0.625); leg press 0.297 (0.098 to 0.496)"
+    grade: established
+limitations:
+  - "Includes trials with and without training; ES at T1 rather than change scores (change analysis said similar)."
+topics: [nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 60 studies (646 creatine, 651 controls); global lower-limb ES 0.235 (0.125 to 0.346); meta-regression found no link with population or supplementation characteristics. Confirmed. Note: creatine vs placebo with or without training (training was a covariate), outcomes at T1; not a creatine-plus-RT-only analysis."}

@@ -1,0 +1,39 @@
+id: akcay-2026
+title: 'Autoregulation during blood flow restricted exercise offers no additional benefit on thigh muscle hypertrophy
+  and strength adaptations in trained participants: a randomized within-subject 8-week trial.'
+authors:
+- Akçay N
+- Rolnick N
+- Keskin K
+- Kamiş O
+- Köremezli Keskin N
+- Başdemirci O
+- Sofuoğlu C
+- Hughes L
+year: 2026
+venue: Front Physiol 17:1772708
+doi: 10.1016/j.jsams.2015.09.005
+pmid: '41810114'
+url: https://pubmed.ncbi.nlm.nih.gov/41810114/
+design: rct
+population: Resistance-trained men (>= 3 y); within-subject autoregulated vs standard BFR cuff, 8 wk
+sample:
+  studies: null
+  participants: 21
+read_level: abstract
+findings:
+- claim: Autoregulated BFR cuff pressure produced the same thigh hypertrophy and strength gains as non-autoregulated
+    pressure in trained men, with no adverse events.
+  effect: Comparable increases in MT, CSA and 1RM; no between-condition differences
+  grade: promising
+limitations:
+- Within-subject; device-specific; ultrasound.
+topics:
+- hypertrophy/bfr
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

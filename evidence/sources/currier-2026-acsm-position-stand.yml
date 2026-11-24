@@ -1,0 +1,49 @@
+id: currier-2026-acsm-position-stand
+title: 'American College of Sports Medicine Position Stand. Resistance Training Prescription for Muscle Function, Hypertrophy, and Physical Performance in Healthy Adults: An Overview of Reviews'
+authors: [Currier BS, D'Souza AC, Singh MAF, Lowisz CV, Rawson ES, Schoenfeld BJ, Smith-Ryan AE, Steen JP, Thomas GA, Triplett NT, Washington TA, Werner TJ, Phillips SM]
+year: 2026
+venue: Medicine and Science in Sports and Exercise 58(4):851-872
+doi: 10.1249/MSS.0000000000003897
+pmid: '41843416'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12965823/
+design: umbrella-review
+population: Healthy adults >=18 y in RCTs of RT >=6 wk, synthesised from systematic reviews (searched to Oct 2024)
+sample: {studies: 137, participants: 30000}
+read_level: full-text
+findings:
+- claim: Strength is enhanced by heavier loads (>=80% 1RM), full range of motion, multiple sets (2-3 per exercise), exercising the lift early in the session, and >=2 sessions/week.
+  effect: 'Load: 6 reviews (n = 6574) positive, QoE 79%; frequency: 4 reviews (n = 3531) positive, QoE 69%; sets: 7 reviews (n = 5633) positive, QoE 71%'
+  grade: established
+- claim: Hypertrophy is enhanced by higher volume (>=10 sets/muscle/week) and not by load (30-100% 1RM), frequency (volume equated), or training to failure.
+  effect: 'Volume: 5 reviews (n = 2267) positive, QoE 50%; load: 8 reviews (n = 5340) no effect, QoE 66%; frequency: 4 reviews (n = 3177) no effect, QoE 63%'
+  grade: established
+- claim: Training to momentary failure did not enhance strength, hypertrophy or power; a target of near-failure or 2-3 RIR is proposed as sufficient effort.
+  effect: 'Fatigue/failure strength: 3 reviews (n = 1371) no effect, QoE 83%; hypertrophy: 4 reviews (n = 800) no effect, QoE 69%'
+  grade: promising
+- claim: Inter-set rest (<1 min vs >1 min) did not affect strength; its effect on hypertrophy could not be determined.
+  effect: 'Strength: 2 reviews (n = 982) no effect, QoE 63%; hypertrophy: 4 reviews (n = 265) cannot determine, QoE 44%'
+  grade: contested
+- claim: Citing Pelland et al., the panel reads the volume dose-response as plateauing beyond ~2-3 sets/exercise for strength and ~18-20 weekly sets for hypertrophy, and advises at least two sets per exercise.
+  effect: Interpretive statement in discussion
+  grade: contested
+- claim: The 2026 ACSM overview could not determine whether periodization improves strength and judged that it does not affect hypertrophy; it calls periodization less important than previously hypothesised, given progressive overload.
+  effect: 'Periodization, strength: ''?'' cannot determine (1 review positive, n = 616, QoE 75%; 1 review undetermined, n NR, QoE 50%; 2 reviews no effect, n = 1,075, QoE 75%); hypertrophy: no effect, 4 reviews (n = 1,414), QoE 63%'
+  grade: contested
+- claim: Intrasession autoregulation effects on strength could not be determined.
+  effect: '''?'' cannot determine; 1 review n = 308 (QoE 75%) positive, 1 review n = 356 (QoE 25%) no effect'
+  grade: contested
+- claim: The panel states that progression is not necessary to obtain benefit, and that increasing the stimulus is likely required only for continued longer-term progress.
+  effect: Interpretive statement (progressive overload section)
+  grade: convention
+limitations:
+- 'Overview of reviews: vote-count style ''impact'' judgements, overlapping primary studies (CCA only computed for strength), no dose-response modelling of individual variables.'
+- Its QoE percentage is a bespoke GRADE-like score, not formal GRADE; AMSTAR scores of included reviews ranged 1-9/11.
+- Its 18-20 set plateau reading of Pelland differs from Pelland's own interpretation (no clear plateau; PUOS ~31 sets).
+- Periodization and programming conflated in the underlying reviews (acknowledged by the panel).
+- The panel's periodization judgement applies to 'healthy adults' generally, not specifically to trained strength athletes.
+topics: [strength/load, hypertrophy/volume, strength/frequency, strength/proximity-to-failure, strength/rest-interval, hypertrophy/rest-interval, consensus/guidelines, programming/periodization, programming/progression, programming/autoregulation, frontiers/frontier-trials]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch3 verification: Europe PMC full text re-read; Table 4 rows for sets (7 reviews, n = 5633, 71%), hypertrophy volume (5, n = 2267, 50%), frequency (strength 4, n = 3531, 69%, with 3 null reviews n = 608; hypertrophy null 4, n = 3177, 63%), load, failure (strength null 3, n = 1371, 83%; hypertrophy null 4, n = 800, 69%) and inter-set rest (strength null 2, n = 982, 63%; hypertrophy undetermined 4, n = 265, 44%) all match. The 18-20 set reading cites ref 187 = Pelland 2025/2026. | Earlier check by chapter 3 literature researcher; chapter 4 literature researcher: Full PDF read; Table 4 values transcribed. | Ch4: Periodization, autoregulation and progression rows of strength and hypertrophy tables and discussion read. | Chapter 11 researcher added frontiers findings/topics and cited_in. | Ch4 verification: Europe PMC full text re-read: periodization rows (strength ''?'', 1 positive n = 616, 1 undetermined, 2 no effect n = 1,075; hypertrophy no effect 4 reviews n = 1,414, QoE 63%), autoregulation row and progression text (''likely a requirement only for those seeking continued longer term progress'') confirmed. Corrected ''negative'' to ''no effect'' for the n = 356 autoregulation review (table symbol means no impact).'

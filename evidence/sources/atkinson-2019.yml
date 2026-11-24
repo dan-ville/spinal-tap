@@ -1,0 +1,26 @@
+id: atkinson-2019
+title: Issues in the determination of 'responders' and 'non-responders' in physiological research
+authors: [Atkinson G, Williamson P, Batterham AM]
+year: 2019
+venue: Exp Physiol 104(8):1215-1225
+doi: 10.1113/EP087712
+pmid: '31116468'
+url: https://pubmed.ncbi.nlm.nih.gov/31116468/
+design: other
+population: Methodological review of responder classification in parallel-group RCTs
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Counting responders in a sample is biased by within-subject random variability, and differences in responder counts between samples can arise wholly from differences in mean response with no true response heterogeneity.
+  effect: Conceptual and simulated; bias persists even when the threshold is based on measurement error
+  grade: established
+- claim: A less biased approach uses the SD of true individual responses (with control-group information) to estimate the probability that a new person from the population will respond.
+  effect: Conceptual
+  grade: established
+limitations: [Methodological; not resistance-training specific.]
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; responder counts biased, can differ wholly by mean response even with threshold set from measurement error; SD_IR-based probability approach confirmed. | Earlier check (chapter 11 literature researcher): no notes"

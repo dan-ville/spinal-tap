@@ -1,0 +1,24 @@
+id: krieger-2010-sets-hypertrophy
+title: 'Single vs. multiple sets of resistance exercise for muscle hypertrophy: a meta-analysis'
+authors: [Krieger JW]
+year: 2010
+venue: Journal of Strength and Conditioning Research 24(4):1150-1159
+doi: 10.1519/JSC.0b013e3181d4d436
+pmid: '20300012'
+url: https://pubmed.ncbi.nlm.nih.gov/20300012/
+design: meta-analysis
+population: Trained and untrained adults
+sample: {studies: 8, participants: null}
+read_level: abstract
+findings:
+- claim: Multiple sets per exercise produced about 40% larger hypertrophy effect sizes than single sets.
+  effect: Difference 0.10 +/- 0.04 (95% CI 0.02 to 0.19), p = 0.016; ES 0.24 (1 set), 0.34 (2-3 sets), 0.44 (4-6 sets)
+  grade: established
+limitations:
+- Eight studies, 55 effect sizes; many indirect hypertrophy measures.
+topics: [hypertrophy/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; difference 0.10 (95% CI 0.02-0.19), ES 0.24/0.34/0.44 for 1, 2-3 and 4-6 sets, 8 studies, confirmed. | Earlier check by chapter 3 literature researcher"

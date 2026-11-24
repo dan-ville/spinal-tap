@@ -1,0 +1,43 @@
+id: gschneidner-2025-lengthened-partials
+title: 'The effects of lengthened-partial range of motion resistance training of the limbs on arm and thigh muscle
+  area: A multi-site randomised trial'
+authors:
+- Gschneidner D
+- Carlson L
+- Steele J
+- Fisher JP
+year: 2025
+venue: J Sports Sci 43(23):2963-2976
+doi: 10.1080/02640414.2025.2567805
+pmid: '41055237'
+url: https://pubmed.ncbi.nlm.nih.gov/41055237/
+design: rct
+population: Previously trained gym members at 15 sites (cluster randomised); lengthened-partial vs full ROM machine
+  training, 12 wk
+sample:
+  studies: null
+  participants: 297
+read_level: full-text
+findings:
+- claim: In the largest trial to date, in previously trained studio clients, lengthened-partial and full-ROM training
+    produced very similar estimated arm and thigh CSA changes, but formal equivalence was not shown at the pre-registered
+    alpha; strength was a secondary, exploratory outcome.
+  effect: 'Condition x time: arm CSA -0.032 (95% CI -0.123 to 0.058), thigh 0 (-0.094 to 0.094); equivalence p = 0.071
+    (arm), 0.019 (thigh) vs SESOI [-0.1, 0.1] at alpha 0.005 (not rejected); strength = estimated 1RM from training
+    logs (exploratory)'
+  grade: promising
+limitations:
+- Estimated (not imaged) CSA; pragmatic gym setting; equivalence not formally established at the strict alpha.
+- Read from SportRxiv preprint (10.51224/SRXIV.485); published version not read. Participants were clients with >=
+  6 months of supervised training at one studio chain; single-set, high-effort machine training.
+topics:
+- hypertrophy/range-of-motion
+- strength/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: SportRxiv preprint full text read (published J Sports Sci version not accessible). Equivalence
+    not established at the authors'' alpha; CSA estimated from circumference and skinfolds; strength outcome deviated
+    from pre-registration (log-based e1RM). | Prior check: chapter 7 literature researcher 2026-11-24;'

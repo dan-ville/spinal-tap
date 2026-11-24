@@ -1,0 +1,54 @@
+id: marques-2025
+title: 'Muscle Growth Is Very Strongly Correlated with Strength Gains after Lower Body Resistance Training:
+  New Insight from Within-Participant Associations.'
+authors:
+- Marques EA
+- Balshaw TG
+- Funnell MP
+- McDermott EJ
+- Maeo S
+- James LJ
+- Folland JP
+year: 2025
+venue: Med Sci Sports Exerc 57(12):2838-2845
+doi: 10.1249/MSS.0000000000003819
+pmid: '40680785'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12893175/
+design: other
+population: Previously untrained healthy young men; 15 weeks lower-body RT 3x/week (within a collagen
+  vs placebo trial)
+sample:
+  studies: null
+  participants: 39
+read_level: full-text
+findings:
+- claim: Repeated-measures (within-participant) correlations between MRI quadriceps volume growth and
+    knee-extension strength gains were very strong; agonist EMG (normalised to Mmax) changes were moderately
+    correlated.
+  effect: Volume vs iMVT rrm = 0.92; vs 1RM rrm = 0.89; EMG vs iMVT rrm = 0.58, vs 1RM rrm = 0.56 (all
+    P < 0.001)
+  grade: contested
+- claim: Conventional between-participant correlations of percentage changes in the same data were only
+    weak to moderate.
+  effect: Volume vs iMVT r = 0.60; vs 1RM r = 0.35 (P = 0.029); EMG vs iMVT r = 0.45, vs 1RM r = 0.42
+  grade: promising
+- claim: In linear mixed models, muscle growth contributed more than five-fold more than neuromuscular
+    activation to strength gain.
+  effect: standardised beta 0.88-0.94 (growth) vs 0.13-0.17 (activation)
+  grade: contested
+limitations:
+- 'Only pre and post time points: a repeated-measures correlation on two time points per person is largely
+  driven by the shared mean increase in both variables, so it does not show that people who grew more
+  gained more strength (chapter researcher analysis, not stated by the authors).'
+- Untrained participants; knee-extension tasks close to the training exercises.
+- "With two time points, rrm equals the uncentred correlation of change scores and is dominated by the shared mean increase (verifier computed ~0.80 expected even with zero between-person association)."
+- "Same participants as balshaw-2026 (15-week collagen vs placebo trial)."
+topics:
+- strength/hypertrophy-strength
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC12893175) checked; numbers confirmed. Verifier check of the two-time-point caveat: with Table 1 means and SDs (volume +12.7 +/- 7.1%, iMVT +21.6 +/- 9.2%, 1RM +28.6 +/- 12.9%) the uncentred correlation of change scores is about 0.80 even if the between-person r were 0, and 0.92 (iMVT) / 0.87 (1RM) with the reported between-person r, matching the published rrm. Same 39-man collagen-trial dataset as balshaw-2026; study part-funded by the Collagen Research Institute. | Prior check: chapter 2 researcher 2026-11-24"

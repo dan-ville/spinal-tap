@@ -1,0 +1,22 @@
+id: lee-2025-collagen-female-soccer
+title: "High-intensity resistance training and collagen supplementation improve patellar tendon adaptations in professional female soccer athletes"
+authors: [Lee J, Robshaw DC, Erskine RM]
+year: 2025
+venue: "Exp Physiol 110(11):1551-1560"
+doi: "10.1113/EP092106"
+pmid: "39207908"
+url: https://pubmed.ncbi.nlm.nih.gov/39207908/
+design: rct
+population: "Professional female soccer players (25.7 +/- 4.2 y); 10 wk pre-season; 30 g hydrolysed collagen or energy-matched placebo + 500 mg vitamin C before sessions"
+sample: {studies: null, participants: 11}
+read_level: full-text
+findings:
+  - claim: "Collagen before training increased patellar tendon stiffness and modulus more than placebo in trained female athletes; CSA rose with training in both groups."
+    effect: "Stiffness +15.4 +/- 3.1% (d 0.81) vs +4.6 +/- 3.0% (d 0.32), P=0.002; modulus +14.2 +/- 4.0% vs +3.4 +/- 2.8%, P=0.004; CSA training effect P=0.027, no interaction"
+    grade: speculative
+limitations:
+  - "n=6 vs 5, pair-matched; pre-season co-interventions; no funding or conflicts declared."
+  - "n=11 (6 vs 5); between-group test was an unpaired t-test on percentage change after a group x time ANOVA; the reported placebo modulus statistic (t(4)=0.020, P=0.039) is internally inconsistent."
+topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC12576002) checked: stiffness +15.4 +/- 3.1% vs +4.6 +/- 3.0% (SD), P=0.002 confirmed. | Prior check: chapter 8 literature researcher"}

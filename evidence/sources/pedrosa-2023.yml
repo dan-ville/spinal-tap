@@ -1,0 +1,38 @@
+id: pedrosa-2023
+title: Training in the Initial Range of Motion Promotes Greater Muscle Adaptations Than at Final in the Arm Curl.
+authors:
+- Pedrosa GF
+- Simões MG
+- Figueiredo MOC
+- Lacerda LT
+- Schoenfeld BJ
+- Lima FV
+- Chagas MH
+- Diniz RCR
+year: 2023
+venue: Sports (Basel) 11(2):39
+doi: 10.1088/1361-6579/ab516c
+pmid: '36828324'
+url: https://pubmed.ncbi.nlm.nih.gov/36828324/
+design: rct
+population: Untrained young women; within-subject preacher curl in initial (long) vs final (short) ROM, 8 wk
+sample:
+  studies: null
+  participants: 19
+read_level: abstract
+findings:
+- claim: Training the initial (long-length) part of the preacher curl produced more distal biceps growth and more
+    full-ROM 1RM gain than training the final part; summed CSA did not differ.
+  effect: CSA at 70% humerus greater for initial ROM (p = 0.001); 50% site p = 0.311; summed p = 0.111
+  grade: promising
+limitations:
+- Untrained; within-subject; two sites only.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/regional
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

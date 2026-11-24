@@ -1,0 +1,33 @@
+id: nunes-2022-protein
+title: "Systematic review and meta-analysis of protein intake to support muscle mass and function in healthy adults"
+authors: [Nunes EA, Colenso-Semple L, McKellar SR, Yau T, Ali MU, Fitzpatrick-Lewis D, Sherifali D, Gaudichon C, Tome D, Atherton PJ, Robles MC, Naranjo-Modad S, Braun M, Landi F, Phillips SM]
+year: 2022
+venue: "Journal of Cachexia, Sarcopenia and Muscle 13(2):795-810"
+doi: "10.1002/jcsm.12922"
+pmid: "35187864"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8978023/
+design: meta-analysis
+population: "Healthy, non-obese adults 18+ (young and older), most in resistance-training RCTs; intervention intakes 1 to 4.4 g/kg/day"
+sample: {studies: 74, participants: null}
+read_level: full-text
+findings:
+  - claim: "Increasing daily protein intake produced a small additional gain in lean body mass during resistance training."
+    effect: "SMD 0.22 (95% CI 0.14 to 0.30), 62 RCTs with RE, moderate certainty (GRADE); about 0.5-0.7 kg more than control"
+    grade: established
+  - claim: "In adults under 65 doing resistance training, the lean-mass benefit was significant only at total intakes of 1.6 g/kg/day or more."
+    effect: "1.6+ g/kg/day SMD 0.30 (0.17 to 0.43), 23 studies; 1.2-1.59 g/kg/day in <65 y SMD 0.15 (-0.02 to 0.31)"
+    grade: promising
+  - claim: "Lower-body strength gains were slightly larger with more protein, mainly at intakes of 1.6 g/kg/day or more."
+    effect: "All RE trials SMD 0.21 (0.08 to 0.34), low certainty; at 1.6+ g/kg/day SMD 0.40 (0.23 to 0.57), low certainty (abstract misprints CI as 0.09:0.35)"
+    grade: promising
+  - claim: "Bench press strength gained slightly with more protein; handgrip effects were unclear."
+    effect: "Bench SMD 0.18 (0.04 to 0.32), low certainty; handgrip SMD 0.15 (-0.03 to 0.32), very low certainty"
+    grade: promising
+limitations:
+  - "Search to September 2020; few trained-athlete trials; SMDs pool heterogeneous measures."
+  - "Strength evidence downgraded to low certainty (risk of bias, inconsistency)."
+  - "The abstract reports a CI for lower-body strength that does not match its own Table 4."
+  - "Dose subgroups are between-study comparisons; for bench press the >=1.6 g/kg/day subgroup was not significant (SMD 0.13, -0.15 to 0.41) and the continuous meta-regression was flat."
+topics: [nutrition/protein]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) re-read, Tables 2-4. Confirmed: LBM SMD 0.22 (0.14 to 0.30); <65 y at 1.2-1.59 g/kg/day 0.15 (-0.02 to 0.31) vs >=1.6 0.30 (0.17 to 0.43); lower-body 0.21 (0.08 to 0.34), >=1.6 g/kg/day 0.40 (0.23 to 0.57), abstract misprint 0.09:0.35 confirmed; bench (RE trials) 0.18 (0.04 to 0.32). Caveat added: the dose subgroups do not line up across outcomes (bench press at >=1.6 g/kg/day was 0.13, -0.15 to 0.41, NS), and the meta-regression for bench was flat. | Earlier note (chapter 10 literature researcher): Tables 2-5 read; abstract CI typo noted"}

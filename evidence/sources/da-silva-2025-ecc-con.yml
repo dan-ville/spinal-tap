@@ -1,0 +1,40 @@
+id: da-silva-2025-ecc-con
+title: 'Comparison Between Eccentric vs. Concentric Muscle Actions On Hypertrophy: A Systematic Review and Meta-analysis.'
+authors:
+- da Silva LSL
+- Gonçalves LDS
+- Alves Campos PH
+- Benjamim CJR
+- Tasinafo Júnior MF
+- de Lima LCR
+- Bueno Júnior CR
+- Alves CPL
+year: 2025
+venue: J Strength Cond Res 39(1):115-134
+doi: 10.1519/JSC.0000000000004981
+pmid: '39652733'
+url: https://pubmed.ncbi.nlm.nih.gov/39652733/
+design: meta-analysis
+population: RCTs of eccentric vs concentric training with imaging outcomes in healthy adults
+sample:
+  studies: 26
+  participants: 682
+read_level: abstract
+findings:
+- claim: Eccentric and concentric training produced statistically similar hypertrophy, with very low certainty; subgroups
+    favoured eccentric work for upper limbs, short interventions, muscle-thickness outcomes and isokinetic contractions.
+  effect: SMD 0.285 (95% CI -0.131 to 0.701); I2 84.4%; GRADE very low
+  grade: contested
+limitations:
+- Very high heterogeneity; isokinetic and isoinertial protocols pooled; early ultrasound changes may include oedema.
+topics:
+- hypertrophy/contraction-type
+- hypertrophy/eccentric
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 26 studies, 682 participants; SMD 0.285 (-0.131, 0.701), p =
+    0.179, I2 84.4%, GRADE very low; subgroups confirmed. Not open access. | Prior check: chapter 5 literature researcher
+    2026-11-24'

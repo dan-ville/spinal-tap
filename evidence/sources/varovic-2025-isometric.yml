@@ -1,0 +1,44 @@
+id: varovic-2025-isometric
+title: The effects of long muscle length isometric versus full range of motion isotonic training on regional quadriceps
+  femoris hypertrophy in resistance-trained individuals.
+authors:
+- Varovic D
+- Zganjer K
+- Wolf M
+- Androulakis-Korakakis P
+- Schoenfeld B
+- Mikulic P
+year: 2025
+venue: Appl Physiol Nutr Metab 50:1-14
+doi: 10.1139/apnm-2025-0238
+pmid: '40911904'
+url: https://pubmed.ncbi.nlm.nih.gov/40911904/
+design: rct
+population: Resistance-trained men and women; within-subject long-length isometric vs full-ROM isotonic knee extension,
+  6 wk
+sample:
+  studies: null
+  participants: 23
+read_level: abstract
+findings:
+- claim: In trained individuals, long-length isometric knee extension produced quadriceps growth similar to full-ROM
+    dynamic training, with a possible advantage at the proximal anterior thigh.
+  effect: Summed anterior thigh MT difference -0.20 cm (95% HDI -0.54 to 0.16), pd 87%; proximal -0.11 cm (-0.24 to
+    0.02), 82% outside ROPE (negative favours isometric)
+  grade: speculative
+limitations:
+- Only 6 weeks; ultrasound; wide intervals.
+topics:
+- hypertrophy/isometric
+- hypertrophy/muscle-length
+- hypertrophy/trained
+- mobility/end-range-isometrics
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 23 trained, 6 wk; proximal -0.11 cm (-0.24, 0.02) confirmed;
+    also summed anterior thigh -0.20 cm (-0.54, 0.16), pd 87%, 75% outside ROPE, favouring isometric. | Prior check:
+    chapter 5 literature researcher 2026-11-24'

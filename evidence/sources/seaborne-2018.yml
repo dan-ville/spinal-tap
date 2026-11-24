@@ -1,0 +1,45 @@
+id: seaborne-2018
+title: Human Skeletal Muscle Possesses an Epigenetic Memory of Hypertrophy.
+authors:
+- Seaborne RA
+- Strauss J
+- Cocks M
+- Shepherd S
+- O'Brien TD
+- van Someren KA
+- Bell PG
+- Murgatroyd C
+- Morton JP
+- Stewart CE
+- Sharples AP
+year: 2018
+venue: Sci Rep 8(1):1898
+doi: 10.1038/s41598-018-20287-3
+pmid: '29382913'
+url: https://pubmed.ncbi.nlm.nih.gov/29382913/
+design: cohort
+population: Untrained young men; loading, unloading (about 7 wk each) and reloading with genome-wide methylation analysis
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: 'Human muscle showed an epigenetic memory of hypertrophy: genes hypomethylated after loading stayed hypomethylated
+    during unloading, and reloading produced more widespread hypomethylation and larger gains.'
+  effect: 18,816 hypomethylated CpGs after reloading vs 9,153 after initial loading
+  grade: promising
+limitations:
+- Small sample (size not stated in abstract); association of methylation with growth, not causation.
+topics:
+- hypertrophy/muscle-memory
+- frontiers/genetics-omics
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/11-frontiers.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; hypomethylation retained through unloading; reloading 18,816
+    vs 9,153 hypomethylated CpGs. Confirmed. DOI corrected to 10.1038/s41598-018-20287-3. Small sample (n = 8 per
+    published methods; not re-read here). | Prior check: chapter 5 literature researcher 2026-11-24; Chapter 11 researcher
+    added frontiers findings/topics and cited_in.'

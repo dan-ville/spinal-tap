@@ -1,0 +1,37 @@
+id: roberts-2020-sarcoplasmic
+title: 'Sarcoplasmic Hypertrophy in Skeletal Muscle: A Scientific "Unicorn" or Resistance Training Adaptation?'
+authors:
+- Roberts MD
+- Haun CT
+- Vann CG
+- Osburn SC
+- Young KC
+year: 2020
+venue: Front Physiol 11:816
+doi: 10.3389/fphys.2020.00816
+pmid: '32760293'
+url: https://pubmed.ncbi.nlm.nih.gov/32760293/
+design: narrative-review
+population: Review of sarcoplasmic hypertrophy evidence and methods
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Select evidence suggests disproportionate sarcoplasmic expansion can accompany fibre growth during resistance
+    training, alongside conventional proportional growth and myofibril packing; the methods used to detect it are
+    a major source of uncertainty.
+  effect: Narrative synthesis
+  grade: contested
+limitations:
+- Same group as haun-2019; evidence mainly short-term, high-volume protocols.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read. DOI corrected to 10.3389/fphys.2020.00816. | Prior check: chapter
+    5 literature researcher 2026-11-24'

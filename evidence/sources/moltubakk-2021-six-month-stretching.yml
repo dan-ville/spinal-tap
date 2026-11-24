@@ -1,0 +1,46 @@
+id: moltubakk-2021-six-month-stretching
+title: Altered Triceps Surae Muscle-Tendon Unit Properties after 6 Months of Static Stretching
+authors:
+- Moltubakk MM
+- Villars FO
+- Magulas MM
+- Magnusson SP
+- Seynnes OR
+- Bojsen-Møller J
+year: 2021
+venue: Med Sci Sports Exerc 53(9):1975-1986
+doi: 10.1249/MSS.0000000000002671
+pmid: '34398062'
+url: https://pubmed.ncbi.nlm.nih.gov/34398062/
+design: rct
+population: Healthy participants; 24 weeks of daily unilateral plantar-flexor stretching (4 x 60 s), contralateral
+  leg as control
+sample:
+  studies: null
+  participants: 26
+read_level: abstract
+findings:
+- claim: Six months of daily stretching increased ROM and reduced passive torque at a standard angle, with no change
+    in tendon stiffness, resting tendon length or gastrocnemius fascicle length; the non-stretched leg changed in
+    a similar direction.
+  effect: ROM +11 +/- 7 deg (stretched) vs +4 +/- 8 deg (control leg); passive torque -10 +/- 11 vs -7 +/- 10 N
+    m
+  grade: promising
+- claim: Even the longest-running human stretching trial found no serial-sarcomere (fascicle length) adaptation.
+  effect: No change in GM fascicle length
+  grade: promising
+limitations:
+- Contralateral control leg also changed (cross-over or learning effects), weakening between-leg contrasts.
+- Participant age and training status not stated in the abstract; full text not read.
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 24 wk, 4 x 60 s daily, n = 26, ROM +11 vs +4 deg, passive torque
+    -10 vs -7 N m, no change in tendon stiffness, tendon length or GM fascicle length, same-direction changes in non-stretched
+    leg confirmed. Repository copies are behind JS pages. Participants: recreationally active university students (per
+    Panidi 2023 Table 1). | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

@@ -1,0 +1,45 @@
+id: roig-2009
+title: 'The effects of eccentric versus concentric resistance training on muscle strength and mass in healthy adults:
+  a systematic review with meta-analysis.'
+authors:
+- Roig M
+- OBrien K
+- Kirk G
+- Murray R
+- McKinnon P
+- Shadgan B
+- Reid WD
+year: 2009
+venue: Br J Sports Med 43(8):556-568
+doi: 10.1136/bjsm.2008.051417
+pmid: '18981046'
+url: https://pubmed.ncbi.nlm.nih.gov/18981046/
+design: meta-analysis
+population: RCTs in healthy adults comparing eccentric and concentric training
+sample:
+  studies: 20
+  participants: null
+read_level: abstract
+findings:
+- claim: Strength gains after eccentric training were more specific to velocity and contraction mode than after concentric
+    training, and its advantage appeared related to the higher loads used.
+  effect: qualitative from abstract
+  grade: promising
+- claim: Eccentric training at high intensities increased muscle girth more than concentric training, with a trend
+    for greater CSA by MRI/CT; the advantage appeared related to the higher loads possible eccentrically.
+  effect: Qualitative from abstract
+  grade: promising
+limitations:
+- Effect sizes not captured from abstract; older trials.
+topics:
+- strength/specificity
+- strength/contraction-type
+- hypertrophy/eccentric
+- hypertrophy/contraction-type
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 20 RCTs. Confirmed. | Prior check: chapter 2 researcher 2026-11-24'

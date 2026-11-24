@@ -1,0 +1,23 @@
+id: amdi-2026-powerlifting-specificity
+title: 'Exploring Exercise Specificity in Powerlifting: A Survey of Powerlifters'' Training Practices and Demographic Influences'
+authors: [Amdi CH, Spence AJ, Helms ER, McGuigan MR]
+year: 2026
+venue: Journal of Strength and Conditioning Research 40(1):76-89
+doi: 10.1519/JSC.0000000000005261
+pmid: '41166696'
+url: https://pubmed.ncbi.nlm.nih.gov/41166696/
+design: cross-sectional
+population: Powerlifters (548 responded, 401 complete)
+sample: {studies: null, participants: 548}
+read_level: abstract
+findings:
+- claim: Powerlifters train ~4 times a week, the competition lifts 1.4-2.5 times a week at 1-7 reps and RPE 6-10, and almost all use lift variations and accessories; most change programming variables as competition nears but about half keep exercise selection constant.
+  effect: Sessions 4.25/wk; competition squat 1.64, bench 2.48, deadlift 1.37/wk; >97.5% use varied practice; 88.2% modify competition-lift programming near competition
+  grade: convention
+limitations: [Self-report; online convenience sample.]
+topics: [practice/surveys, methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: 548 responded, 401 complete; 4.25 sessions/wk; 1-7 reps at RPE 6-10; >97.5% varied practice; 88.2% modify competition-lift programming. Confirmed. | Earlier check by chapter 4 literature researcher'

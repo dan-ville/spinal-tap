@@ -1,0 +1,22 @@
+id: wang-2026-creatine
+title: "Resistance training combined with creatine supplementation: a three-level meta-analysis of multidimensional outcomes from strength enhancement to body composition remodeling"
+authors: [Wang H, Wang H, Xin X, Yi Z]
+year: 2026
+venue: "Journal of the International Society of Sports Nutrition 23(sup1):2718316"
+doi: "10.1080/15502783.2026.2718316"
+pmid: "42765482"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13600305/
+design: meta-analysis
+population: "RCTs of RT plus creatine vs RT alone, to April 2025"
+sample: {studies: 63, participants: 1489}
+read_level: full-text
+findings:
+  - claim: "Creatine added moderate effects on strength and a small effect on lean mass, with no effect on fat mass; effects were larger in younger samples."
+    effect: "Upper-body strength g 0.54 (95% CI 0.37 to 0.71); lower-body g 0.55 (0.38 to 0.71) after removing one outlier (0.66 with it); lean mass g 0.30 (0.18 to 0.41); trim-and-fill adjusted strength g 0.36 (upper) and 0.35 (lower); inverse age association in meta-regression"
+    grade: established
+limitations:
+  - "Many moderator tests; uneven age subgroups."
+  - "Significant small-study/publication bias for both strength outcomes (Egger p <= 0.015); bias-adjusted effects about one third smaller."
+topics: [nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Correction/addition: upper-body g 0.54 (95% CI 0.37 to 0.71; PI -0.13 to 1.20), 31 studies; lower-body raw g 0.66 (0.47 to 0.85), g 0.55 (0.38 to 0.71) after excluding one outlier (g = 3.77); Egger tests significant for both strength outcomes and trim-and-fill lowered them to g 0.36 (0.21 to 0.51) upper and 0.35 (0.21 to 0.50) lower. Lean mass g 0.30 (0.18 to 0.41)."}

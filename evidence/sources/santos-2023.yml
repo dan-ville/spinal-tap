@@ -1,0 +1,38 @@
+id: santos-2023
+title: 'Long-Term Neurophysiological Adaptations to Strength Training: A Systematic Review With Cross-Sectional
+  Studies.'
+authors:
+- Santos PDG
+- Vaz JR
+- Correia J
+- Neto T
+- Pezarat-Correia P
+year: 2023
+venue: J Strength Cond Res 37(10):2091-2105
+doi: 10.1519/JSC.0000000000004543
+pmid: '37369087'
+url: https://pubmed.ncbi.nlm.nih.gov/37369087/
+design: systematic-review
+population: Cross-sectional comparisons of resistance-trained vs untrained adults (18-40 y) with EMG
+sample:
+  studies: 20
+  participants: null
+read_level: abstract
+findings:
+- claim: Strength-trained people generally show greater maximal voluntary activation, lower activity in
+    submaximal tasks and lower antagonist co-contraction, though methods vary widely.
+  effect: qualitative synthesis of 20 cross-sectional studies
+  grade: contested
+limitations:
+- Surface EMG amplitude in trained people is confounded by muscle size (skarabot-2021-emg); heterogeneous
+  processing.
+topics:
+- strength/training-age
+- strength/neural-adaptations
+- strength/antagonist-coactivation
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

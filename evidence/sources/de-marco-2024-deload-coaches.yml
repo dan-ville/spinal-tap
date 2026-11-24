@@ -1,0 +1,20 @@
+id: de-marco-2024-deload-coaches
+title: 'Resistance Training Prescription During Planned Deloading Periods: A Survey of Strength and Conditioning Coaches Across Varying Sporting Codes'
+authors: [De Marco K, Goods PSR, Baldwin KM, Hiscock DJ, Scott BR]
+year: 2024
+venue: Journal of Strength and Conditioning Research 38(12):2099-2106
+doi: 10.1519/JSC.0000000000004932
+pmid: '39446750'
+url: https://pubmed.ncbi.nlm.nih.gov/39446750/
+design: cross-sectional
+population: S&C coaches (world-class to trained athletes)
+sample: {studies: null, participants: 204}
+read_level: abstract
+findings:
+- claim: During planned deloads (taper, in-season, tournament, travel) coaches mostly cut RT volume by 0-25% and often intensity by 0-25%, prescribing 1-2 sessions of 1-3 sets of 1-6 reps at 60-84% 1RM.
+  effect: Volume reduced in taper by 89.1% of coaches (163/183); intensity reduced in taper by 52.9%
+  grade: convention
+limitations: [Team-sport coaches dominate; 'deload' used more broadly than in strength sport.]
+topics: [programming/deload, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

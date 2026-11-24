@@ -1,0 +1,35 @@
+id: mandsager-2018-crf
+title: Association of Cardiorespiratory Fitness With Long-term Mortality Among Adults Undergoing Exercise Treadmill Testing
+authors:
+- Mandsager K
+- Harb S
+- Cremer P
+- Phelan D
+- Nissen SE
+- Jaber W
+year: 2018
+venue: JAMA Netw Open 1(6):e183605
+doi: 10.1001/jamanetworkopen.2018.3605
+pmid: '30646252'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6324439/
+design: cohort
+population: Adults referred for treadmill testing, mean age 53 y, median follow-up 8.4 y
+sample:
+  studies: null
+  participants: 122007
+read_level: full-text
+findings:
+- claim: Mortality fell across fitness categories with no observed upper limit; low fitness carried risk comparable to or
+    greater than smoking, diabetes or CAD.
+  effect: Elite vs low adjusted HR 0.20 (95% CI 0.16 to 0.24); below vs above average HR 1.41 (95% CI 1.34 to 1.49)
+  grade: established
+limitations:
+- Clinical referral cohort; estimated METs; observational.
+topics:
+- conditioning/health
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Europe PMC full text read; elite vs low adjusted HR 0.20 (0.16-0.24), n=122,007, no upper limit of benefit confirmed. Cohort = patients referred for treadmill testing at a tertiary centre, not athletes."

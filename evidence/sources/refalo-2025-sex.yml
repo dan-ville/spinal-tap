@@ -1,0 +1,36 @@
+id: refalo-2025-sex
+title: 'Sex differences in absolute and relative changes in muscle size following resistance training in healthy adults: a systematic review with Bayesian meta-analysis'
+authors: [Refalo MC, Nuckols G, Galpin AJ, Gallagher IJ, Hamilton DL, Fyfe JJ]
+year: 2025
+venue: PeerJ 13:e19042
+doi: 10.7717/peerj.19042
+pmid: '40028215'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11869894/
+design: meta-analysis
+population: Healthy males and females 18-45 y completing the same RT intervention (mean age 26 y); 13 of 67 observations from resistance-trained samples
+sample: {studies: 29, participants: null}
+read_level: full-text
+findings:
+- claim: Absolute increases in muscle size slightly favoured males.
+  effect: SMD 0.19 (95% HDI 0.11 to 0.28), pd 100%; tau 0.09 (0.01 to 0.20)
+  grade: established
+- claim: Relative (percentage) increases in muscle size were similar between sexes.
+  effect: Exp. % change of lnRR 0.69% (95% HDI -1.50% to 2.88%)
+  grade: established
+- claim: The absolute male advantage was larger for upper-body muscles; relative gains did not differ by region.
+  effect: Absolute SMD upper 0.30 (0.14 to 0.44), lower 0.17 (0.056 to 0.29); relative upper 0.60% (-2.97 to 4.18), lower 1.04% (-2.03 to 4.2)
+  grade: promising
+- claim: Training status did not moderate the sex difference, but data in trained people are sparse.
+  effect: Absolute SMD trained 0.20 (0.01 to 0.38; 13 obs), untrained 0.19 (0.09 to 0.29; 54 obs); relative trained 0.87% (-3.46 to 5.4)
+  grade: promising
+- claim: Type I fibre hypertrophy may favour males while type II fibre hypertrophy is similar.
+  effect: Absolute SMD type I 0.39 (-0.03 to 0.81), pd 97%; type II 0.10 (-0.33 to 0.52), pd 70%; 8 obs each
+  grade: speculative
+limitations:
+- Preprinted 2023 (the 'Refalo 2023' lead); published 2025. Most data from untrained young adults over 6-24 weeks; 1,278 male and 1,537 female data points (participants counted as data points); TESTEX quality 9-12/15.
+topics: [frontiers/sex-differences, hypertrophy/sex]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text re-read; SMD 0.19 (0.11 to 0.28), pd 100%, tau 0.09; lnRR 0.69% (-1.50 to 2.88); 29 studies. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

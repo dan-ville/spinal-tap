@@ -1,0 +1,46 @@
+id: lasevicius-2018-intensity
+title: Effects of different intensities of resistance training with equated volume load on muscle strength and hypertrophy
+authors:
+- Lasevicius T
+- Ugrinowitsch C
+- Schoenfeld BJ
+- Roschel H
+- Tavares LD
+- De Souza EO
+- Laurentino G
+- Tricoli V
+year: 2018
+venue: European Journal of Sport Science 18(6):772-780
+doi: 10.1080/17461391.2018.1450898
+pmid: '29564973'
+url: https://pubmed.ncbi.nlm.nih.gov/29564973/
+design: rct
+population: Untrained men, within-subject limbs at 20%, 40%, 60%, 80% 1RM with volume load matched; 12 wk, 2x/wk
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: With volume load matched, 20% 1RM produced roughly half the hypertrophy of 40-80% 1RM, and 80% 1RM was best
+    for strength.
+  effect: VL CSA +8.9% (20%) vs +20.5%, +20.4%, +19.5% (40/60/80%); elbow flexors +11.4% vs +25.3%, +25.1%, +25.0%
+  grade: promising
+limitations:
+- Untrained men; within-subject design; very low loads only.
+- The 20% 1RM condition was the to-failure condition (3 sets to failure); the 40-80% conditions matched its volume
+  load and did not train to failure. Do not cite as evidence that low effort halves growth.
+topics:
+- hypertrophy/load
+- strength/load
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read. Notes misdescribe this study: the 20% 1RM limb trained to failure
+    (3 sets) and the 40-80% limbs were volume-load matched to it (so not to failure). It shows a load floor (20% to
+    failure about half the growth), not that low effort halves growth. | Ch3 verification: PubMed abstract re-read;
+    VL CSA +8.9% (20% 1RM) vs +20.5/20.4/19.5% (40/60/80%) and elbow flexors +11.4% vs ~+25% confirmed; volume-load
+    matched, within-subject design. | Earlier check by chapter 3 literature researcher'

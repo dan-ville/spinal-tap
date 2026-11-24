@@ -1,0 +1,38 @@
+id: alegre-2014-isometric
+title: Effects of isometric training on the knee extensor moment-angle relationship and vastus lateralis muscle architecture
+authors:
+- Alegre LM
+- Ferri-Morales A
+- Rodriguez-Casares R
+- Aguado X
+year: 2014
+venue: Eur J Appl Physiol 114(11):2437-2446
+doi: 10.1007/s00421-014-2967-x
+pmid: '25099962'
+url: https://pubmed.ncbi.nlm.nih.gov/25099962/
+design: rct
+population: Young adults; isometric knee extension at 90 deg (long) vs 50 deg (short) vs control, 8 wk
+sample:
+  studies: null
+  participants: 28
+read_level: abstract
+findings:
+- claim: Isometric training at long muscle lengths increased dynamic strength and shifted the angle of peak torque
+    toward longer lengths; short-length training shifted it toward shorter lengths and did not significantly raise
+    isokinetic strength.
+  effect: K90 isokinetic strength +23.5% (P < 0.001), peak-torque angle +14.6% (P = 0.002); K50 +10% (NS), angle -7.3%
+    (P = 0.039); thickness K90 9-14% vs K50 5-9%; fascicle length unchanged
+  grade: promising
+limitations:
+- Small groups; fascicle length measured at one site.
+topics:
+- strength/joint-angle
+- strength/isometric
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; K90 +23.5%, angle +14.6%, K50 +10% NS, angle -7.3% confirmed.
+    | Prior check: chapter 7 literature researcher 2026-11-24;'

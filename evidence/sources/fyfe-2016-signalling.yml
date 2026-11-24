@@ -1,0 +1,36 @@
+id: fyfe-2016-signalling
+title: Concurrent exercise incorporating high-intensity interval or continuous training modulates mTORC1 signaling and microRNA
+  expression in human skeletal muscle
+authors:
+- Fyfe JJ
+- Bishop DJ
+- Zacharewicz E
+- Russell AP
+- Stepto NK
+year: 2016
+venue: Am J Physiol Regul Integr Comp Physiol 310(11):R1297-R1311
+doi: 10.1152/ajpregu.00479.2015
+pmid: '27101297'
+url: https://pubmed.ncbi.nlm.nih.gov/27101297/
+design: crossover
+population: Recreationally active males (n=8)
+sample:
+  studies: null
+  participants: 8
+read_level: abstract
+findings:
+- claim: Prior HIIT or work-matched continuous cycling did not compromise mTORC1 signalling (p70S6K, rps6) after resistance
+    exercise; HIIT before RE lowered miR-133a, miR-378 and miR-486 expression.
+  effect: Qualitative signalling outcomes; no effect sizes in abstract
+  grade: promising
+limitations:
+- Acute, n=8; signalling is not hypertrophy.
+topics:
+- concurrent/molecular
+- concurrent/hiit
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; RE-induced p70S6K/rps6 not blunted by prior HIT or MICT, but mTOR Ser2448 lower at +1 h after MICT+RE and miR-133a/378/486 lower after HIT+RE."

@@ -1,0 +1,28 @@
+id: mpampoulis-2025-reduced-frequency
+title: Effect of Different Reduced Training Frequencies After 12 Weeks of Concurrent Ballistic and Aerobic Training on Muscle Power and Triceps Brachii Muscle Architecture
+authors: [Mpampoulis T, Methenitis S, Stasinaki AN, Zaras N, Bogdanis GC, Terzis G]
+year: 2025
+venue: Journal of Functional Morphology and Kinesiology 10(1):37
+doi: 10.3390/jfmk10010037
+pmid: '39846678'
+url: https://pubmed.ncbi.nlm.nih.gov/39846678/
+design: rct
+population: Young women after 12 wk of concurrent training (upper-body ballistic bench-press power training plus lower-body high-intensity interval aerobic training); then 1 session every 7 days (G7, n = 10) vs every 14 days (G14, n = 10) vs detraining (n = 7) for 12 wk
+sample: {studies: null, participants: 27}
+read_level: full-text
+findings:
+- claim: One session per week maintained bench press 1RM over 12 weeks, whereas one session every two weeks let it fall; muscle power declined with both.
+  effect: Bench 1RM unchanged in G7, decreased in G14 (-5.9 +/- 4.9%); muscle power G7 -9.8 +/- 7.7%, G14 -10.9 +/- 7.6%; triceps long-head thickness G7 -0.9 +/- 0.6%, G14 -2.8 +/- 2.7% (both significant, no group difference)
+  grade: promising
+- claim: One session per week kept about 92% of the training-induced gain in triceps thickness; one session every 14 days kept about 72% of it.
+  effect: 'Discussion: G7 preserved ~92% of muscle-thickness gain (training-phase gain +10.7 +/- 3.3%); G14 lost ~28% of it. The authors'' "90-95% of power/strength" retained at 14 days is not clearly a share of the gain (power fell ~10% in both groups).'
+  grade: promising
+limitations:
+- Previously untrained young women; upper-body ballistic (power) training at light-moderate loads, not heavy strength training; 10 per group.
+- Muscle thickness fell slightly but significantly even with one session per week, so 'size maintained' holds only approximately.
+topics: [strength/maintenance, hypertrophy/maintenance]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: Europe PMC full text (methods, results, discussion) read. Corrected population (concurrent ballistic + aerobic training, n = 27) and added thickness losses. G7 kept ~92% of the thickness gain; the abstract's '90-95%' at 14 days is not clearly a share of gains. | Earlier check by chapter 3 literature researcher"

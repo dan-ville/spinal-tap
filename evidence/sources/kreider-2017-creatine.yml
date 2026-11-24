@@ -1,0 +1,27 @@
+id: kreider-2017-creatine
+title: "International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation in exercise, sport, and medicine"
+authors: [Kreider RB, Kalman DS, Antonio J, Ziegenfuss TN, Wildman R, Collins R, Candow DG, Kleiner SM, Almada AL, Lopez HL]
+year: 2017
+venue: "Journal of the International Society of Sports Nutrition 14:18"
+doi: "10.1186/s12970-017-0173-z"
+pmid: "28615996"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5469049/
+design: consensus
+population: "Athletes, healthy adults, clinical populations; narrative review and position"
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+  - claim: "Supplementation raises muscle creatine and phosphocreatine by 20-40% from a 60-80% saturated baseline, allowing more work in repeated high-intensity efforts."
+    effect: "20-40% rise in muscle Cr/PCr; high-intensity/repetitive performance typically +10-20% after loading"
+    grade: established
+  - claim: "Loading at ~0.3 g/kg/day (about 20 g in four doses) for 5-7 days then 3-5 g/day, or 3 g/day for about 28 days, saturates stores."
+    effect: "Position statement on dosing"
+    grade: established
+  - claim: "The ISSN states there is no compelling evidence of harm from short- or long-term use in healthy people, up to 30 g/day for 5 years."
+    effect: "Position statement on safety"
+    grade: promising
+limitations:
+  - "Position stand, not a systematic review; lead authors declare industry consulting and creatine research funding (prepared at the request of the Council for Responsible Nutrition and ISSN)."
+topics: [nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) re-read for the mechanism passage: on a normal diet stores are 60-80% saturated and supplementation 'serves to increase muscle creatine and PCr by 20-40%'. Confirmed; the 20-40% applies to total creatine and PCr together (PCr alone typically rises less). | Earlier note (chapter 10 literature researcher): Competing-interest statement read"}

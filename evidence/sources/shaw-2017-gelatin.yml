@@ -1,0 +1,26 @@
+id: shaw-2017-gelatin
+title: "Vitamin C-enriched gelatin supplementation before intermittent activity augments collagen synthesis"
+authors: [Shaw G, Lee-Barthel A, Ross ML, Wang B, Baar K]
+year: 2017
+venue: "Am J Clin Nutr 105(1):136-143"
+doi: "10.3945/ajcn.116.138594"
+pmid: "27852613"
+url: https://pubmed.ncbi.nlm.nih.gov/27852613/
+design: crossover
+population: "Healthy young men; 5 g or 15 g vitamin-C-enriched gelatin or placebo 1 h before 6 min rope skipping, 3x/day (>=6 h apart) for 3 d"
+sample: {studies: null, participants: 8}
+read_level: full-text
+findings:
+  - claim: "15 g gelatin taken 1 h before short loading bouts doubled circulating PINP, a whole-body collagen synthesis marker, versus placebo."
+    effect: "Baseline PINP 27.9 +/- 4 ng/mL; at 4 h PINP rose 53.9% (placebo), 59.2% (5 g) and 153% (15 g); 15 g doubled PINP AUC vs placebo (means +/- SEM; n=8)"
+    grade: speculative
+  - claim: "Serum taken after gelatin ingestion increased collagen content and mechanics of engineered ligaments in vitro."
+    effect: "Direction only in abstract"
+    grade: speculative
+limitations:
+  - "n=8; blood PINP reflects whole-body (mostly bone) collagen synthesis, not tendon; 3-day study; no tissue outcome in humans."
+  - "Vitamin C 48 mg (blackcurrant cordial) in all arms; 4-day washout between arms; the engineered-ligament bioassay used serum from 4 participants (figures show one representative participant)."
+  - "The authors themselves state that the rise in blood PINP is 'highly unlikely' to come from tendon, ligament or cartilage and mainly reflects bone."
+topics: [connective-tissue/collagen-supplement]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text read from the PMC HTML article page (PMC5183725), which the researcher could not retrieve. Doubling vs placebo confirmed; exact percentages added. | Prior check: chapter 8 literature researcher: PMC and publisher full text not retrievable (PMC XML restricted, Europe PMC 500, publisher page blocked); abstract only."}

@@ -1,0 +1,27 @@
+id: hubal-2005
+title: Variability in muscle size and strength gain after unilateral resistance training
+authors: [Hubal MJ, Gordish-Dressman H, Thompson PD, Price TB, Hoffman EP, Angelopoulos TJ, Gordon PM, Moyna NM, Pescatello LS, Visich PS, Zoeller RF, Seip RL, et al]
+year: 2005
+venue: Med Sci Sports Exerc 37(6):964-72
+doi: null
+pmid: '15947721'
+url: https://pubmed.ncbi.nlm.nih.gov/15947721/
+design: cohort
+population: Untrained young men (243) and women (342), 12 wk unilateral elbow-flexor training (FAMuSS)
+sample: {studies: null, participants: 585}
+read_level: abstract
+findings:
+- claim: Responses to an identical 12-week arm programme ranged from almost none to very large for both size and strength.
+  effect: Biceps CSA -2% to +59%; 1RM 0% to +250%; MVC -32% to +149%
+  grade: established
+- claim: Men gained slightly more relative size while women gained considerably more relative strength.
+  effect: CSA gain 2.5% greater in men (P<0.01); relative strength gains greater in women (P<0.05)
+  grade: promising
+limitations:
+- No non-training control group, so the observed range includes measurement error and biological noise; single training period; untrained arm muscles only.
+topics: [frontiers/individual-response, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read. Ranges confirmed (CSA -2 to +59%, 1RM 0 to +250%, MVC -32 to +149%); men 2.5% greater CSA gain, women greater relative strength gains. Uncontrolled single period: range is gross, not true, variability. | Earlier check (chapter 11 literature researcher): no notes"

@@ -1,0 +1,23 @@
+id: lixandrao-2025-molecular
+title: 'Molecular signatures underlying heterogenous hypertrophy responsiveness to resistance training in older men and women: a within-subject design'
+authors: [Lixandrao ME, Bamman M, Lavin KM, Longobardi I, Telles G, Vechin FC, Damas F, Drummer DJ, McAdam JS, Riani Costa LA, Libardi CA, Gualano B, et al]
+year: 2025
+venue: J Appl Physiol (1985) 139(3):797-811
+doi: 10.1152/japplphysiol.00052.2025
+pmid: '40839394'
+url: https://pubmed.ncbi.nlm.nih.gov/40839394/
+design: mechanistic
+population: Older adults 69 +/- 3 y from the parent unilateral 1-set vs 4-set trial
+sample: {studies: null, participants: 27}
+read_level: abstract
+findings:
+- claim: High responders up-regulated protein-turnover and metabolic pathways, medium responders (growth only with 4 sets) down-regulated proteasome and spliceosome pathways, and low responders showed no measurable molecular change regardless of volume.
+  effect: RNA-seq/PLIER pathway analyses; Frizzled-1 protein rose with higher volume in all groups
+  grade: speculative
+limitations: [Small selected subsample; exploratory omics without replication.]
+topics: [frontiers/genetics-omics, frontiers/ageing, frontiers/individual-response]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 27 older adults (69 +/- 3 y) selected from the parent trial; low/medium/high responder phenotypes; Frizzled-1 up with 4 sets in all. Confirmed. Shows low responders who did not grow even with 4 sets. | Earlier check (chapter 11 literature researcher): no notes"

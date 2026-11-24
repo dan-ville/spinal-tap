@@ -1,0 +1,25 @@
+id: tao-2026-frequency
+title: 'Impact of resistance training frequency on physiological and performance adaptations: A systematic review and meta-analysis'
+authors: [Tao M, Yin M, Zhong Y, Xu K, Zhu C, Deng J, Song Y, Lyu M, Chen Z, Nassis GP, Hackett D, Li Y]
+year: 2026
+venue: International Journal of Sports Science & Coaching 21(4):2628-
+doi: 10.1177/17479541261428779
+pmid: null
+url: https://doi.org/10.1177/17479541261428779
+design: meta-analysis
+population: Adults; studies to Oct 2024
+sample: {studies: 47, participants: 1665}
+read_level: abstract
+findings:
+- claim: Higher training frequency gave slightly greater strength gains, but did not change muscle mass, functional or athletic performance.
+  effect: Strength g = -0.17 (negative favours higher frequency), I2 = 0%, p < 0.0001; muscle mass g = -0.13, I2 = 77.29%, p = 0.34
+  grade: promising
+limitations:
+- Abstract only (read on ECU repository); volume equation status of the strength effect not stated in the abstract; equal-volume muscle-mass subgroup g = 0.01 per Boutagy 2026.
+- The headline strength g = -0.17 is not stated to be volume-equated; Boutagy 2026 (v4, Section 4.4) quotes Tao's equal-volume strength estimate as g = -0.24 (secondary, unverified). Boutagy also reports that Tao's change-score and contrast-coding choices inflated per-trial SMDs and heterogeneity.
+topics: [strength/frequency, hypertrophy/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: abstract re-read on the ECU repository; strength g = -0.17 (I2 = 0%, p < 0.0001), muscle mass g = -0.13 (I2 = 77.29%, p = 0.34) and the conclusion 'independently predicts strength gains' confirmed. Full text is paywalled. | Earlier check by chapter 3 literature researcher"

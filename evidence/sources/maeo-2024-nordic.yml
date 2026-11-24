@@ -1,0 +1,49 @@
+id: maeo-2024-nordic
+title: 'Hamstrings Hypertrophy Is Specific to the Training Exercise: Nordic Hamstring versus Lengthened State Eccentric
+  Training.'
+authors:
+- Maeo S
+- Balshaw TG
+- Nin DZ
+- Mc Dermott EJ
+- Osborne T
+- Cooper NB
+- Massey GJ
+- Kong PW
+- Pain MTG
+- Folland JP
+year: 2024
+venue: Med Sci Sports Exerc 56(10):1893-1905
+doi: 10.1249/MSS.0000000000003490
+pmid: '38857522'
+url: https://pubmed.ncbi.nlm.nih.gov/38857522/
+design: rct
+population: Healthy young men; Nordic hamstring vs lengthened-state eccentric (hip-flexed) training vs control, 12
+  wk, MRI
+sample:
+  studies: null
+  participants: 42
+read_level: full-text
+findings:
+- claim: Lengthened-state eccentric knee-flexor training grew the whole hamstrings and biceps femoris long head more
+    than Nordic hamstring training; each grew different muscles according to whether they also extend the hip.
+  effect: Hamstrings +18% vs +11%; BFlh +19% vs +5%; BFlh aponeurosis +9% vs +3% (all P <= 0.001); hip-extending knee
+    flexors 2.2-fold vs NHT; non-hip-extending knee flexors 1.9-fold with NHT
+  grade: promising
+limitations:
+- n = 14 per group; untrained in these exercises; machine LSET vs bodyweight NHT also differ in load control.
+topics:
+- hypertrophy/eccentric
+- hypertrophy/muscle-length
+- hypertrophy/exercise-selection
+- mobility/eccentric-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: spot check: hamstrings +18% vs +11% (LSET vs NHT) confirmed from abstract. | Prior check:
+    verification pass 2026-11-24; Ch5 verification: full text re-read (Europe PMC PMC11419281): untrained young men
+    (no systematic training in 18 mo), 14/group; numbers confirmed. | Prior check: chapter 5 literature researcher
+    2026-11-24'

@@ -1,0 +1,42 @@
+id: movahhedi-2026-knees-over-toes
+title: 'Unrestricted Versus Restricted Anterior Knee Displacement During Bodyweight Squat Training in Physically Active
+  Young Adults: An Exploratory Three-Arm Randomized Controlled Trial'
+authors:
+- Movahhedi A
+- Cal A
+- Sevgin O
+year: 2026
+venue: J Clin Med 15(18):7162
+doi: 10.3390/jcm15187162
+pmid: '42795934'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13607129/
+design: rct
+population: Healthy physically active adults 18-30 y; 6 wk remotely supervised bodyweight squats (720 reps) with knees
+  free vs knees blocked vs usual activity
+sample:
+  studies: null
+  participants: 60
+read_level: full-text
+findings:
+- claim: The only training trial of the 'knees over toes' cue found no detectable functional advantage or harm from
+    restricting or allowing forward knee travel over 6 weeks of bodyweight squatting.
+  effect: Primary (Oswestry) F(2,54) = 1.999, p = 0.145; largest pairwise difference -2.9 points (95% CI -5.9 to 0.0);
+    21 exploratory outcomes (Y balance, jump, pressure pain threshold) none surviving multiplicity adjustment
+  grade: speculative
+limitations:
+- Exploratory; not an equivalence trial; floor effects; bodyweight only; primary outcome reclassified post hoc (declared
+  in corrected version); no ROM or strength outcome.
+- Primary outcome (Oswestry) mismatched to a healthy population with a floor effect, which the authors call a design
+  error; powered only for large differences (eta2 ~0.15); not an equivalence study; no ROM or strength outcome. Baseline-adjusted
+  (ANCOVA) sensitivity analyses strengthened some exercise-vs-control contrasts, two below the adjusted threshold
+  (exploratory).
+topics:
+- mobility/practitioner-systems
+- strength/technique
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC13607129) read for limitations and multiplicity; numbers confirmed. | Prior
+    check: chapter 7 literature researcher 2026-11-24;'

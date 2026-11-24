@@ -1,0 +1,21 @@
+id: schoenfeld-2018-protein-meal
+title: "How much protein can the body use in a single meal for muscle-building? Implications for daily protein distribution"
+authors: [Schoenfeld BJ, Aragon AA]
+year: 2018
+venue: "Journal of the International Society of Sports Nutrition 15:10"
+doi: "10.1186/s12970-018-0215-1"
+pmid: "29497353"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5828430/
+design: narrative-review
+population: "Resistance-trained adults; acute and longitudinal studies"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Doses above ~20 g raise amino acid oxidation, but not all extra protein is oxidised; to maximise anabolism the authors suggest ~0.4 g/kg per meal over at least four meals to reach at least 1.6 g/kg/day."
+    effect: "0.4 g/kg/meal x 4 meals (upper daily target ~2.2 g/kg/day)"
+    grade: convention
+limitations:
+  - "Narrative extrapolation from acute MPS studies; predates Trommelen 2023."
+topics: [nutrition/protein]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: ""}

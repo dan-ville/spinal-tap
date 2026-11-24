@@ -1,0 +1,34 @@
+id: carroll-2001
+title: 'Neural adaptations to resistance training: implications for movement control.'
+authors:
+- Carroll TJ
+- Riek S
+- Carson RG
+year: 2001
+venue: Sports Med 31(12):829-840
+doi: 10.2165/00007256-200131120-00001
+pmid: '11665911'
+url: https://pubmed.ncbi.nlm.nih.gov/11665911/
+design: narrative-review
+population: Neural adaptation literature
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Resistance training likely adapts many neural elements involved in movement control, so neural
+    gains are partly a form of motor learning that changes how trained muscles are recruited in related
+    tasks; sites remain largely unidentified.
+  effect: narrative synthesis
+  grade: promising
+limitations:
+- Older narrative review.
+topics:
+- strength/neural-adaptations
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

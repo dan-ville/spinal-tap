@@ -1,0 +1,44 @@
+id: bloomquist-2013-squat-depth
+title: Effect of range of motion in heavy load squatting on muscle and tendon adaptations
+authors:
+- Bloomquist K
+- Langberg H
+- Karlsen S
+- Madsgaard S
+- Boesen M
+- Raastad T
+year: 2013
+venue: Eur J Appl Physiol 113(8):2133-2142
+doi: 10.1007/s00421-013-2642-7
+pmid: '23604798'
+url: https://pubmed.ncbi.nlm.nih.gov/23604798/
+design: rct
+population: Male students; deep squat (0-120 deg knee flexion) vs shallow squat (0-60 deg), 12 wk, repetition-matched
+  RM sets
+sample:
+  studies: null
+  participants: 17
+read_level: abstract
+findings:
+- claim: 'Strength gains were specific to the trained depth: shallow-squat training raised shallow-squat 1RM most
+    but deep-squat 1RM little, while deep-squat training raised both.'
+  effect: 'Deep group: ~20 +/- 3% in both squats; shallow group: +36 +/- 4% shallow, +9 +/- 2% deep (P < 0.05)'
+  grade: promising
+- claim: Deep squats produced more front-thigh growth and larger isometric knee-extension gains at long and mid muscle
+    lengths, plus more squat-jump improvement.
+  effect: Front thigh CSA 4-7% greater; isometric strength at 75 deg +6 +/- 2% and 105 deg +8 +/- 1% greater; squat
+    jump +15 +/- 3%
+  grade: promising
+limitations:
+- n = 8-9 per group; minimally trained; shallow group lifted heavier absolute loads.
+topics:
+- strength/range-of-motion
+- strength/joint-angle
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 17 male students; deep ~20% in both squats, shallow +36%
+    shallow / +9% deep confirmed. | Prior check: chapter 7 literature researcher 2026-11-24;'

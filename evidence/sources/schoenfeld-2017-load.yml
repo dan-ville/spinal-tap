@@ -1,0 +1,24 @@
+id: schoenfeld-2017-load
+title: 'Strength and Hypertrophy Adaptations Between Low- vs. High-Load Resistance Training: A Systematic Review and Meta-analysis'
+authors: [Schoenfeld BJ, Grgic J, Ogborn D, Krieger JW]
+year: 2017
+venue: Journal of Strength and Conditioning Research 31(12):3508-3523
+doi: 10.1519/JSC.0000000000002200
+pmid: '28834797'
+url: https://pubmed.ncbi.nlm.nih.gov/28834797/
+design: meta-analysis
+population: Adults without medical conditions; low (<=60% 1RM) vs high (>60% 1RM) load, all sets to momentary failure, >=6 wk
+sample: {studies: 21, participants: null}
+read_level: abstract
+findings:
+- claim: 1RM gains favour high loads, but isometric strength gains and hypertrophy do not differ between low and high loads taken to failure.
+  effect: 1RM significantly greater with high load; no significant difference for isometric strength (ES 0.16, 95% CI -0.06 to 0.37, as quoted by Swinton 2024) or hypertrophy
+  grade: established
+limitations:
+- Included within-subject designs (cross-education may blur contrasts, per Hammert 2026); mostly untrained.
+topics: [strength/load, hypertrophy/load]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 21 studies; 1RM favoured high loads, isometric strength and hypertrophy did not differ. Confirmed qualitatively; the isometric ES is secondary (Swinton). | Earlier check by chapter 3 literature researcher: Isometric ES quoted from Swinton 2024 introduction (secondary)."

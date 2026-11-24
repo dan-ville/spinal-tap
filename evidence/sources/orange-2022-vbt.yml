@@ -1,0 +1,26 @@
+id: orange-2022-vbt
+title: 'Comparison of the effects of velocity-based vs. traditional resistance training methods on adaptations in strength, power, and sprint speed: A systematic review, meta-analysis, and quality of evidence appraisal'
+authors: [Orange ST, Hritz A, Pearson L, Jeffries O, Jones TW, Steele J]
+year: 2022
+venue: Journal of Sports Sciences 40(11):1220-1234
+doi: 10.1080/02640414.2022.2059320
+pmid: '35380511'
+url: https://pubmed.ncbi.nlm.nih.gov/35380511/
+design: meta-analysis
+population: Apparently healthy participants in randomised VBT vs traditional RT trials
+sample: {studies: 4, participants: 88}
+read_level: abstract
+findings:
+- claim: Velocity feedback-based load regulation did not change strength gains relative to traditional training; certainty was low (GRADE).
+  effect: Strength SMD 0.06 (95% CI -0.51 to 0.63); I2 = 42.9%; 10 effects/4 studies; low-quality evidence
+  grade: promising
+- claim: No difference for power or sprint speed either.
+  effect: Power SMD 0.11 (-0.28 to 0.49), low quality; sprint SMD -0.10 (-0.72 to 0.53), very low quality
+  grade: promising
+limitations: [Only four RCTs; wide intervals cannot exclude moderate effects in either direction.]
+topics: [programming/autoregulation, strength/velocity-based-training, technology/velocity-based-training]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: 4 trials, 88 participants, strength SMD 0.06 (-0.51 to 0.63), I2 42.9%, low-quality evidence (GRADE). Confirmed. | Earlier check by chapter 4 literature researcher: Chapter 11 researcher added frontiers findings/topics and cited_in.'

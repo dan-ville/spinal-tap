@@ -1,0 +1,36 @@
+id: tran-2001-hatha-yoga
+title: Effects of Hatha Yoga Practice on the Health-Related Aspects of Physical Fitness
+authors:
+- Tran MD
+- Holly RG
+- Lashbrook J
+- Amsterdam EA
+year: 2001
+venue: Prev Cardiol 4(4):165-170
+doi: 10.1111/j.1520-037x.2001.00542.x
+pmid: '11832673'
+url: https://pubmed.ncbi.nlm.nih.gov/11832673/
+design: cohort
+population: Healthy untrained young adults (9 women, 1 man), 18-27 y; hatha yoga 2x/wk, 8 wk
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: In untrained young adults, 8 weeks of hatha yoga increased isokinetic strength and several flexibility measures.
+  effect: Isokinetic elbow extension +31%, elbow flexion +19%, knee extension +28%; ankle flexibility +13%, trunk
+    flexion +14%, shoulder elevation +155%, trunk extension +188%
+  grade: speculative
+limitations:
+- No control group; n = 10; untrained; large percentage changes on low baselines. Frequently cited in practitioner
+  material as evidence that yoga builds strength.
+topics:
+- mobility/practitioner-systems
+- flexibility/yoga
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 10 (9 women), uncontrolled; numbers confirmed. | Prior check:
+    chapter 7 literature researcher 2026-11-24;'

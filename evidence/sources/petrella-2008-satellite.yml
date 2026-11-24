@@ -1,0 +1,23 @@
+id: petrella-2008-satellite
+title: 'Potent myofiber hypertrophy during resistance training in humans is associated with satellite cell-mediated myonuclear addition: a cluster analysis'
+authors: [Petrella JK, Kim JS, Mayhew DL, Cross JM, Bamman MM]
+year: 2008
+venue: J Appl Physiol (1985) 104(6):1736-42
+doi: 10.1152/japplphysiol.01215.2007
+pmid: '18436694'
+url: https://pubmed.ncbi.nlm.nih.gov/18436694/
+design: cohort
+population: Same 66 adults as bamman-2007-cluster, 16 wk knee-extensor RT
+sample: {studies: null, participants: 66}
+read_level: abstract
+findings:
+- claim: Extreme responders had more satellite cells at baseline, expanded the pool during training and added the most myonuclei.
+  effect: Myofibre hypertrophy 58% (extreme), 28% (modest), 0% (non); satellite cells +117% in extreme only; myonuclear addition +26% extreme, +9% modest
+  grade: promising
+limitations: [Associational; cluster-based classification; no control group.]
+topics: [frontiers/individual-response, frontiers/genetics-omics, hypertrophy/mechanisms]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; Xtr/Mod/Non 17/32/17, myofibre hypertrophy 58/28/0%; SC +117% in Xtr only; myonuclear addition +26% Xtr, +9% Mod. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

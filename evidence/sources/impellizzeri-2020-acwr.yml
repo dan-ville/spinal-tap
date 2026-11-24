@@ -1,0 +1,21 @@
+id: impellizzeri-2020-acwr
+title: "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls"
+authors: [Impellizzeri FM, Tenan MS, Kempton T, Novak A, Coutts AJ]
+year: 2020
+venue: "Int J Sports Physiol Perform 15(6):907-913"
+doi: "10.1123/ijspp.2019-0864"
+pmid: "32502973"
+url: https://pubmed.ncbi.nlm.nih.gov/32502973/
+design: narrative-review
+population: "Methodological critique of training-load and injury literature"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "There is no evidence supporting ACWR for load management or injury-reduction recommendations; no study has estimated its causal effect, and the ratio is inaccurate, ambiguous and not consistently related to injury."
+    effect: "Conceptual and statistical critique; no pooled estimate"
+    grade: established
+limitations:
+  - "Critique paper; does not deny that large unaccustomed load increases can cause injury, only that ACWR measures or predicts it."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; conclusion 'no evidence supporting the use of ACWR in training-load-management systems' confirmed. | Prior check: chapter 8 literature researcher"}

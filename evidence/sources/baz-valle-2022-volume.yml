@@ -1,0 +1,24 @@
+id: baz-valle-2022-volume
+title: A Systematic Review of The Effects of Different Resistance Training Volumes on Muscle Hypertrophy
+authors: [Baz-Valle E, Balsalobre-Fernandez C, Alix-Fages C, Santos-Concejero J]
+year: 2022
+venue: Journal of Human Kinetics 81:199-210
+doi: 10.2478/hukin-2022-0017
+pmid: '35291645'
+url: https://pubmed.ncbi.nlm.nih.gov/35291645/
+design: meta-analysis
+population: Trained men 18-35 y with >=1 y RT experience; RCTs >=6 wk with direct hypertrophy measures
+sample: {studies: 7, participants: null}
+read_level: abstract
+findings:
+- claim: In trained young men, >20 weekly sets did not beat 12-20 sets for quadriceps or biceps, but did for triceps.
+  effect: No difference quadriceps (p = 0.19) or biceps (p = 0.59); high volume better for triceps (p = 0.01). Triceps SMD -0.50 (95% CI -0.88 to -0.11) as quoted by Pelland 2026
+  grade: contested
+- claim: Authors propose 12-20 weekly sets per muscle as an optimum standard recommendation for trained young men.
+  effect: Recommendation 12-20 weekly sets per muscle group
+  grade: convention
+limitations:
+- Six studies pooled; categorical volume bands hide within-band differences; triceps result may reflect uncounted indirect pressing volume.
+topics: [hypertrophy/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: SMDs for each muscle quoted from Pelland 2026 introduction (secondary).}

@@ -1,0 +1,27 @@
+id: lesinski-2016-youth
+title: 'Effects and dose-response relationships of resistance training on physical performance in youth athletes: a systematic review and meta-analysis'
+authors: [Lesinski M, Prieske O, Granacher U]
+year: 2016
+venue: Br J Sports Med 50(13):781-95
+doi: 10.1136/bjsports-2015-095497
+pmid: '26851290'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4941165/
+design: meta-analysis
+population: Youth athletes 6-18 y in controlled trials
+sample: {studies: 43, participants: null}
+read_level: abstract
+findings:
+- claim: Resistance training improved strength and jumping moderately in youth athletes, with smaller effects on sprint, agility and sport performance.
+  effect: Strength and vertical jump SMDwm 0.8-1.09; sprint, agility, sport-specific 0.58-0.75
+  grade: established
+- claim: The most effective strength prescriptions were long (>23 wk), 5 sets per exercise, 6-8 reps at 80-89% 1RM and 3-4 min rest.
+  effect: SMDwm 2.09-3.40 for these categories
+  grade: promising
+limitations:
+- Single-variable dose-responses computed independently; few studies per category; pre-2016.
+topics: [frontiers/ageing, frontiers/youth]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Spot check: PubMed abstract re-read; 43 studies; strength and jump SMDwm 0.8-1.09; sprint, agility, sport-specific 0.58-0.75; > 23 weeks best. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

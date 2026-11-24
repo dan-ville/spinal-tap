@@ -1,0 +1,38 @@
+id: baar-2014-concurrent
+title: Using molecular biology to maximize concurrent training
+authors:
+- Baar K
+year: 2014
+venue: Sports Med 44(Suppl 2):S117-S125
+doi: 10.1007/s40279-014-0252-0
+pmid: '25355186'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4213370/
+design: narrative-review
+population: Review of molecular signalling; recommendations for elite athletes
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Endurance exercise activates AMPK, SIRT1 and ER-stress pathways that can each inhibit mTORC1 in cell and rodent models;
+    AMPK alone does not fully explain the concurrent effect.
+  effect: Narrative review
+  grade: promising
+- claim: 'Recommended practice: do high-intensity endurance work early, allow >=3 h (AMPK returns to baseline within ~3 h)
+    before strength work, refuel fully in between, take leucine-rich protein after lifting and before sleep, and pair strength
+    immediately after low-intensity non-depleting endurance sessions.'
+  effect: Mechanistic recommendation; no outcome trial
+  grade: convention
+limitations:
+- Recommendations are extrapolated from acute signalling, much of it from rodents and cells; not tested in chronic trials
+  as a package.
+topics:
+- concurrent/molecular
+- concurrent/timing
+- concurrent/nutrition
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Europe PMC full text re-read; >=3 h rule (AMPK back to baseline within 3 h; mTORC1 elevated >=18 h), refuelling and SIRT1/ER-stress points confirmed. Also cites a human study where 10 x 6-s sprints 15 min before RE abolished mTORC1 activation."

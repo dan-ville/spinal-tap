@@ -1,0 +1,20 @@
+id: grgic-2017-taper-croatia
+title: Tapering Practices of Croatian Open-Class Powerlifting Champions
+authors: [Grgic J, Mikulic P]
+year: 2017
+venue: Journal of Strength and Conditioning Research 31(9):2371-2378
+doi: 10.1519/JSC.0000000000001699
+pmid: '27806009'
+url: https://pubmed.ncbi.nlm.nih.gov/27806009/
+design: other
+population: Croatian open-class powerlifting champions; interviews
+sample: {studies: null, participants: 10}
+read_level: abstract
+findings:
+- claim: Champions cut volume ~50% with a step or fast-decay exponential taper, maintained or raised intensity (peaking ~8 days out), removed assistance work and finished training ~3 days before competition.
+  effect: Volume -50.5 +/- 11.7%; final-week frequency -47.9 +/- 17.5%; last session 3 +/- 1 days out
+  grade: convention
+limitations: ['Qualitative, n = 10.']
+topics: [programming/taper, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

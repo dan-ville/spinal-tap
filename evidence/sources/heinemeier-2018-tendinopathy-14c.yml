@@ -1,0 +1,21 @@
+id: heinemeier-2018-tendinopathy-14c
+title: "Carbon-14 bomb pulse dating shows that tendinopathy is preceded by years of abnormally high collagen turnover"
+authors: [Heinemeier KM, Schjerling P, Ohlenschlaeger TF, Eismark C, Olsen J, Kjaer M]
+year: 2018
+venue: "FASEB J 32(9):4763-4775"
+doi: "10.1096/fj.201701569R"
+pmid: "29570396"
+url: https://pubmed.ncbi.nlm.nih.gov/29570396/
+design: mechanistic
+population: "Tendinopathic (n=25) and healthy (n=10) Achilles tendons"
+sample: {studies: null, participants: 35}
+read_level: abstract
+findings:
+  - claim: "Healthy adult Achilles collagen had not been replaced in adulthood, but tendinopathic tendon showed substantial renewal, modelled as slow continuous turnover of about half the matrix for years before symptoms."
+    effect: "Modelled ~50% of tendinopathic matrix in continuous slow turnover (no CI in abstract)"
+    grade: promising
+limitations:
+  - "Cross-sectional; cannot separate cause from early disease; small healthy comparison group."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

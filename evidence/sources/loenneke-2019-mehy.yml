@@ -1,0 +1,36 @@
+id: loenneke-2019-mehy
+title: Is muscle growth a mechanism for increasing strength?
+authors:
+- Loenneke JP
+- Dankel SJ
+- Bell ZW
+- Buckner SL
+- Mattocks KT
+- Jessee MB
+- Abe T
+year: 2019
+venue: Med Hypotheses 125:51-56
+doi: 10.1016/j.mehy.2019.02.030
+pmid: '30902152'
+url: https://pubmed.ncbi.nlm.nih.gov/30902152/
+design: other
+population: Hypothesis paper
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: The authors state there is no experimental evidence that exercise-induced hypertrophy is a mechanism
+    for strength gain and point to dissociations after exercise, anabolic drugs and ageing.
+  effect: argument
+  grade: contested
+limitations:
+- Hypothesis paper; dissociations at the mean level do not exclude a contribution.
+topics:
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

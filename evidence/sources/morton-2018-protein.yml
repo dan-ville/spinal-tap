@@ -1,0 +1,33 @@
+id: morton-2018-protein
+title: A systematic review, meta-analysis and meta-regression of the effect of protein supplementation on resistance training-induced gains in muscle mass and strength in healthy adults
+authors: [Morton RW, Murphy KT, McKellar SR, Schoenfeld BJ, Henselmans M, Helms E, Aragon AA, Devries MC, Banfield L, Krieger JW, Phillips SM]
+year: 2018
+venue: British Journal of Sports Medicine 52(6):376-384
+doi: 10.1136/bjsports-2017-097608
+pmid: '28698222'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5867436/
+design: meta-analysis
+population: Healthy adults, 35 +/- 20 y, resistance training at least 6 wk (mean 13 wk); 10 studies in resistance-trained participants
+sample: {studies: 49, participants: 1863}
+read_level: full-text
+findings:
+- claim: Protein supplementation added a small amount to training-induced gains in 1RM strength, about 9% of the gain produced by training itself.
+  effect: 1RM MD 2.49 kg (95% CI 0.64 to 4.33), p = 0.01; training alone raised 1RM by 27 +/- 22 kg; MVC SMD 0.04 (-0.09 to 0.16), NS
+  grade: established
+- claim: Protein supplementation added a small amount of fat-free mass and fibre size.
+  effect: FFM MD 0.30 kg (95% CI 0.09 to 0.52); fibre CSA 310 um2 (51 to 570); mid-femur CSA 7.2 mm2 (0.20 to 14.30)
+  grade: established
+- claim: Gains in fat-free mass plateaued at a total protein intake of about 1.6 g/kg/day, with a wide confidence interval.
+  effect: Break point 1.62 g/kg/day (95% CI 1.03 to 2.20), 42 study arms, 723 participants; segmental model not statistically significant (p = 0.079)
+  grade: promising
+- claim: The FFM benefit of supplementation was larger in resistance-trained people and smaller with increasing age.
+  effect: Trained 0.75 kg (95% CI 0.09 to 1.40); age -0.01 kg per year (-0.02 to -0.00)
+  grade: promising
+limitations:
+- Break point fitted on FFM (mostly DXA) only, not strength or direct hypertrophy; its own model was non-significant.
+- Mean baseline intake already ~1.4 g/kg/day; few trained participants; studies 1962-2016.
+- DXA lean mass includes water and glycogen.
+- Age effect is a between-study meta-regression (ecological), not a within-study age comparison.
+topics: [nutrition/protein, frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read (results and figure 5 legend): 1RM +2.49 kg (0.64 to 4.33), training-alone gain 27 +/- 22 kg (9%); break point 1.62 g/kg/day (1.03 to 2.20), 42 arms, 723 participants, segmental model p = 0.079; trained 0.75 kg; age -0.01 kg/y. All confirmed. The 2020 correction (PMID 32943392) only adds a Schoenfeld conflict-of-interest declaration (Dymatize advisory board); no numbers changed. Chapter 11 findings untouched. | Earlier note (chapter 10 literature researcher): Break-point CI and p = 0.079 read in results section | Chapter 11 researcher added frontiers findings/topics and cited_in."}

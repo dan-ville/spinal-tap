@@ -1,0 +1,22 @@
+id: weidlich-2024-personalized-tendon
+title: "Addressing muscle-tendon imbalances in adult male athletes with personalized exercise prescription based on tendon strain"
+authors: [Weidlich K, Domroes T, Bohm S, Arampatzis A, Mersmann F]
+year: 2024
+venue: "Eur J Appl Physiol 124(11):3201-3214"
+doi: "10.1007/s00421-024-05525-z"
+pmid: "38842575"
+url: https://pubmed.ncbi.nlm.nih.gov/38842575/
+design: cohort
+population: "Adult male volleyball athletes; personalised tendon-strain-targeted training (n=10) vs regular training (n=12) over 9 months"
+sample: {studies: null, participants: 22}
+read_level: full-text
+findings:
+  - claim: "In athletes continuing normal training, maximal patellar tendon strain rose over a season (strength outpacing tendon), while strain-targeted (4.5-6.5%) training prevented the rise and reduced muscle-tendon imbalance."
+    effect: "Max strain increased in controls (p=0.010), not in intervention (p=0.575); imbalance residuals fell only in intervention (p=0.007); strength ~+8% both; normalised stiffness trend in intervention (p=0.051)"
+    grade: speculative
+limitations:
+  - "Non-randomised controlled design, small groups, one sport; no injury outcome."
+  - "Two non-randomised groups of adult male volleyball players (intervention n=10, control n=12); personalised loads averaged 62-68% MVC (range 42-90%); strength rise in the intervention group was only a trend (p=0.064)."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC11519156) read; abstract numbers confirmed (control max strain p=0.010; intervention p=0.575; residuals p=0.007; time x group p=0.043). | Prior check: chapter 8 literature researcher"}

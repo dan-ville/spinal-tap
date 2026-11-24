@@ -1,0 +1,29 @@
+id: grgic-2020-very-elderly
+title: 'Effects of Resistance Training on Muscle Size and Strength in Very Elderly Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials'
+authors: [Grgic J, Garofolini A, Orazem J, Sabol F, Schoenfeld BJ, Pedisic Z]
+year: 2020
+venue: Sports Med 50(11):1983-1999
+doi: 10.1007/s40279-020-01331-7
+pmid: '32740889'
+url: https://pubmed.ncbi.nlm.nih.gov/32740889/
+design: meta-analysis
+population: Adults aged >= 75 y (subgroup >= 80 y) in RCTs of RT vs control
+sample: {studies: 22, participants: null}
+read_level: abstract
+findings:
+- claim: Resistance training increased muscle strength in adults aged 75 and over, including those over 80.
+  effect: Strength difference in ES 0.97 (95% CI 0.50 to 1.44); >= 80 y 1.28 (0.28 to 2.29)
+  grade: established
+- claim: Whole-muscle hypertrophy also occurred, with smaller effects than for strength; fibre hypertrophy and handgrip were not significant.
+  effect: Whole muscle 0.30 (0.10 to 0.50); fibre 0.33 (-0.67 to 1.33); handgrip 0.26 (-0.02 to 0.54)
+  grade: promising
+- claim: Few adverse events were reported.
+  effect: Minimal reports of adverse events
+  grade: promising
+limitations: ['Mostly untrained, often frail or institutionalised participants; small trials.']
+topics: [frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 22 studies; strength 0.97 (0.50 to 1.44); >= 80 y 1.28 (0.28 to 2.29); whole muscle 0.30 (0.10 to 0.50); fibre 0.33 (-0.67 to 1.33); handgrip 0.26 (-0.02 to 0.54). Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

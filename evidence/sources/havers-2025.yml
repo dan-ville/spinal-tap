@@ -1,0 +1,48 @@
+id: havers-2025
+title: Partial Range, Full Gains? The Effect of 8 Weeks of Partial Range of Motion Training at Long Muscle Lengths
+  on Elbow Flexor Hypertrophy and Strength in Trained Individuals.
+authors:
+- Havers T
+- Wagner N
+- Held S
+- Geisler S
+- Wiewelhove T
+year: 2025
+venue: Eur J Sport Sci 25(12):e70087
+doi: 10.1002/ejsc.70087
+pmid: '41247250'
+url: https://pubmed.ncbi.nlm.nih.gov/41247250/
+design: rct
+population: Resistance-trained adults (11 men, 2 women); within-subject preacher curl initial partial (0-70 deg) vs
+  full ROM, 8 wk
+sample:
+  studies: null
+  participants: 13
+read_level: full-text
+findings:
+- claim: In trained individuals, initial-range (long-length) preacher-curl partials and full ROM produced similar
+    mid-arm growth, with a trivial-to-small advantage for partials at the distal site.
+  effect: MT 70% site SMD 0.10, BF 4.87 favouring partial; 50% site similar
+  grade: speculative
+- claim: Full ROM produced slightly larger 1RM and long-length isometric gains.
+  effect: MVC at 100 deg SMD 0.24 (BF 3.02); 1RM SMD 0.17 (BF 1.95) favouring full ROM
+  grade: speculative
+limitations:
+- n = 13; trivial effects; Bayesian with informative framing.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/range-of-motion
+- hypertrophy/trained
+- strength/range-of-motion
+- strength/joint-angle
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 13 trained; MVC 100 deg SMD 0.24 and 1RM SMD 0.17 favour
+    full ROM; consistent. | Prior check: verification pass 2026-11-24; Ch5 verification: full text re-read (Europe
+    PMC PMC12621570): distal SMD 0.10, BF 4.87 favouring partials; 1RM SMD 0.17, BF 1.95 favouring full ROM. Confirmed.
+    BF 4.87 is moderate evidence FOR a (trivial) difference, so "not greater" is slightly too strong. | Prior check:
+    chapter 5 literature researcher 2026-11-24; Chapter 7 researcher corrected DOI against PubMed (10.1002/ejsc.70087).'

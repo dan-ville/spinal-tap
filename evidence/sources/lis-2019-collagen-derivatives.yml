@@ -1,0 +1,21 @@
+id: lis-2019-collagen-derivatives
+title: "Effects of Different Vitamin C-Enriched Collagen Derivatives on Collagen Synthesis"
+authors: [Lis DM, Baar K]
+year: 2019
+venue: "Int J Sport Nutr Exerc Metab 29(5):526-531"
+doi: "10.1123/ijsnem.2018-0385"
+pmid: "30859848"
+url: https://pubmed.ncbi.nlm.nih.gov/30859848/
+design: crossover
+population: "Recreationally active men; 15 g gelatin, hydrolysed collagen, gummy or placebo 1 h before 6 min jump rope"
+sample: {studies: null, participants: 10}
+read_level: abstract
+findings:
+  - claim: "The attempted replication of the gelatin-PINP effect was not statistically significant for any form."
+    effect: "PINP tended to rise ~20% with gelatin and hydrolysed collagen, not placebo or gummy; large variability precluded significance"
+    grade: contested
+limitations:
+  - "n=10; PINP only at 4 h; authors from the same group as the original study."
+topics: [connective-tissue/collagen-supplement]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

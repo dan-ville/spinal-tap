@@ -1,0 +1,40 @@
+id: murakami-2025-ss-vs-rt
+title: Comparison between 6 weeks of static stretching and resistance training programs on passive and active properties
+  of plantar flexors. a randomized controlled trial
+authors:
+- Murakami Y
+- Konrad A
+- Kasahara K
+- Yoshida R
+- Warneke K
+- Behm DG
+- Nakamura M
+year: 2025
+venue: Front Physiol 16:1555253
+doi: 10.3389/fphys.2025.1555253
+pmid: '41169885'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12569644/
+design: rct
+population: Healthy untrained men, 21.7 y (n = 36; static stretching, calf-raise RT or control), 6 weeks
+sample:
+  studies: null
+  participants: 36
+read_level: abstract
+findings:
+- claim: Static stretching and calf-raise resistance training increased dorsiflexion ROM similarly, both apparently
+    through stretch tolerance; only stretching lowered passive stiffness and only RT increased strength and gastrocnemius
+    thickness.
+  effect: DF ROM SS d = 0.65, RT d = 0.37; passive torque at end ROM SS d = 0.64, RT d = 0.41; stiffness SS d = -0.32;
+    ROM change vs passive-torque change r = 0.863 (SS), 0.825 (RT)
+  grade: promising
+limitations:
+- n = 12 per group; untrained men; within-group effect sizes; same research network as several reviews it supports.
+topics:
+- flexibility/stretching
+- flexibility/resistance-training-rom
+cited_in:
+- research/theses/strength-and-mobility/verification/flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: record created; abstract read from the Europe PMC full-text XML.'

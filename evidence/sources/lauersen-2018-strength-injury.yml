@@ -1,0 +1,22 @@
+id: lauersen-2018-strength-injury
+title: "Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: a systematic review, qualitative analysis and meta-analysis"
+authors: [Lauersen JB, Andersen TE, Andersen LB]
+year: 2018
+venue: "Br J Sports Med 52(24):1557-1563"
+doi: "10.1136/bjsports-2018-099078"
+pmid: "30131332"
+url: https://pubmed.ncbi.nlm.nih.gov/30131332/
+design: meta-analysis
+population: "Athletes 12-40 y in RCTs of strength training as primary injury prevention"
+sample: {studies: 6, participants: 7738}
+read_level: abstract
+findings:
+  - claim: "Strength-training interventions cut acute and overuse sports injuries by about two-thirds, with a dose-response."
+    effect: "RR 0.338 (95% CI 0.238 to 0.480); 177 injuries; a 10% increase in strength-training volume reduced risk by >4 percentage points"
+    grade: promising
+limitations:
+  - "Only six trials, mostly specific programmes (e.g. Nordic hamstring, shoulder); 'high' strength of evidence claimed by authors despite few events; not strength athletes."
+  - "Six trials, of which four are the strength-training trials of lauersen-2014-injury-prevention: the two estimates are not independent. The dose-response is a post-hoc meta-regression across 6 trials; participants aged 12-40 y, mostly team sports."
+topics: [injury/strength-training-prevention]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 6 RCTs, 7738 participants, 177 injuries, RR 0.338 (0.238-0.480). Confirmed. BMJ and repository PDFs not reachable. | Prior check: chapter 8 literature researcher"}

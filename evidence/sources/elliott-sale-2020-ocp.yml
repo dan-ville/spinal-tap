@@ -1,0 +1,26 @@
+id: elliott-sale-2020-ocp
+title: 'The Effects of Oral Contraceptives on Exercise Performance in Women: A Systematic Review and Meta-analysis'
+authors: [Elliott-Sale KJ, McNulty KL, Ansdell P, Goodall S, Hicks KM, Thomas K, Swinton PA, Dolan E]
+year: 2020
+venue: Sports Med 50(10):1785-1812
+doi: 10.1007/s40279-020-01317-5
+pmid: '32666247'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7497464/
+design: meta-analysis
+population: Women using oral contraceptive pills vs naturally menstruating women, and OCP consumption vs withdrawal
+sample: {studies: 42, participants: 590}
+read_level: full-text
+findings:
+- claim: OCP use might slightly impair performance relative to natural cycles, but any group-level effect is most likely trivial and does not justify general guidance on OCP use.
+  effect: Probability of >= small effect favouring OCP users ~0 (p < 0.001); favouring naturally menstruating women p = 0.40 (method 1) and 0.19 (method 2); within-group consumption vs withdrawal ~0 probability of small effect
+  grade: promising
+- claim: Most studies were moderate, low or very low quality.
+  effect: 83% moderate/low/very low; 17% high
+  grade: established
+limitations: [Acute performance outcomes; varied pill formulations; few strength outcomes.]
+topics: [frontiers/menstrual-cycle, frontiers/hormonal-contraception]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text re-read; 42 studies, 590 participants; probabilities 0.40 and 0.19 confirmed. | Earlier check (chapter 11 literature researcher): no notes"

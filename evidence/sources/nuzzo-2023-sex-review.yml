@@ -1,0 +1,23 @@
+id: nuzzo-2023-sex-review
+title: Narrative Review of Sex Differences in Muscle Strength, Endurance, Activation, Size, Fiber Type, and Strength Training Participation Rates, Preferences, Motivations, Injuries, and Neuromuscular Adaptations
+authors: [Nuzzo JL]
+year: 2023
+venue: J Strength Cond Res 37(2):494-536
+doi: 10.1519/JSC.0000000000004329
+pmid: '36696264'
+url: https://pubmed.ncbi.nlm.nih.gov/36696264/
+design: narrative-review
+population: Literature on males and females across the lifespan
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Sex differences in strength emerge around age 15, are larger in upper than lower body and in concentric than eccentric contractions, and stem from greater muscle mass and type II fibre area rather than higher voluntary activation.
+  effect: Narrative synthesis
+  grade: established
+- claim: Both sexes gain size and strength with training, with women often showing larger relative strength improvements depending on age and muscle group.
+  effect: Narrative synthesis
+  grade: promising
+limitations: ['Narrative, single author; no pooled effect sizes.']
+topics: [frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

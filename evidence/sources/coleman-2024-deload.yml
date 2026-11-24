@@ -1,0 +1,26 @@
+id: coleman-2024-deload
+title: Gaining more from doing less? The effects of a one-week deload period during supervised resistance training on muscular adaptations
+authors: [Coleman M, Burke R, Augustin F, Piñero A, Maldonado J, Fisher JP, Israetel M, Androulakis Korakakis P, Swinton P, Oberlin D, Schoenfeld BJ]
+year: 2024
+venue: PeerJ 12:e16777
+doi: 10.7717/peerj.16777
+pmid: '38274324'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10809978/
+design: rct
+population: Resistance-trained young adults (29 M, 10 F; ~3.5 y experience); 9-wk high-volume program, sets to volitional failure
+sample: {studies: null, participants: 39}
+read_level: full-text
+findings:
+- claim: A one-week complete break from training at the midpoint of a 9-week program did not change hypertrophy, power or local endurance compared with continuous training.
+  effect: Group differences near zero with 95% CrIs overlapping zero; posterior probabilities favouring deload 0.273-0.835 for muscle size
+  grade: promising
+- claim: Continuous training produced somewhat larger lower-body strength gains than training with a one-week break.
+  effect: Smith squat 1RM group difference (deload minus continuous) -4.5 kg [95% CrI -10.4 to 2.8] (multivariate) and -3.6 kg [-10.4 to 3.2] (univariate); posterior probability favouring continuous 0.851 (1RM) and 0.924 (isometric knee extension)
+  grade: promising
+limitations: ['The ''deload'' was complete cessation, not the reduced-load week most athletes use.', 'Lower body supervised, upper body not; Smith-machine 1RM; funded by Renaissance Periodization (role in design and manuscript).']
+topics: [programming/deload, strength/detraining]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: n = 39 completers (of 50), posterior probabilities 0.851 (1RM) and 0.924 (isometric) favouring continuous training, Smith squat -4.5 kg [-10.4 to 2.8]; funding from Renaissance Periodization with a role in design and manuscript. Confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (methods, results tables, discussion).'

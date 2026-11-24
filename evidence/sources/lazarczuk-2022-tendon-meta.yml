@@ -1,0 +1,37 @@
+id: lazarczuk-2022-tendon-meta
+title: "Mechanical, Material and Morphological Adaptations of Healthy Lower Limb Tendons to Mechanical Loading: A Systematic Review and Meta-Analysis"
+authors: [Lazarczuk SL, Maniar N, Opar DA, Duhig SJ, Shield A, Barrett RS, Bourne MN]
+year: 2022
+venue: "Sports Med 52(10):2405-2429"
+doi: "10.1007/s40279-022-01695-y"
+pmid: "35657492"
+url: https://pubmed.ncbi.nlm.nih.gov/35657492/
+design: meta-analysis
+population: "Healthy humans (children, adults, older adults; 615 M, 135 F); mostly untrained or recreational; Achilles, patellar, quadriceps tendons and VL aponeurosis"
+sample: {studies: 61, participants: 763}
+read_level: full-text
+findings:
+  - claim: "Mechanical loading moderately increased tendon stiffness, largely increased modulus and slightly increased CSA; modulus was the main moderator of stiffness change."
+    effect: "Stiffness SMD 0.74 (95% CI 0.62 to 0.86; 81 groups); modulus SMD 0.82 (0.58 to 1.07; 38 groups); CSA SMD 0.22 (0.12 to 0.33; 68 groups)"
+    grade: established
+  - claim: "Resistance training was the only training type to clearly increase stiffness, modulus and CSA; jump training gave smaller stiffness gains and concurrent training none."
+    effect: "Stiffness: resistance SMD 0.80 (0.67 to 0.94; 68 groups), jump 0.49 (0.22 to 0.77; 11 groups), concurrent 0.03 (-1.03 to 1.10; 2 groups); modulus with resistance SMD 0.90 (0.65 to 1.15)"
+    grade: established
+  - claim: "High-strain (~5%) protocols increased stiffness and modulus more than low-strain (~3%) protocols, which produced no significant change."
+    effect: "High strain stiffness SMD 1.04 (0.65 to 1.43; 3 groups), modulus 0.82 (0.44 to 1.20); high vs low p=0.006 (stiffness), p=0.009 (modulus)"
+    grade: promising
+  - claim: "Relative intensity (>=70% vs <70% 1RM/MVC), volume, contraction mode and duration did not clearly moderate stiffness gains."
+    effect: ">=70%: stiffness SMD 0.86 (0.70 to 1.25; 53 groups); <70%: 0.74 (0.16 to 1.31; 5 groups); low vs high volume 0.81 vs 0.85; >=12 wk 0.88 (0.69 to 1.07) vs <12 wk 0.78 (0.48 to 1.08)"
+    grade: contested
+  - claim: "Older adults showed smaller modulus gains than adults."
+    effect: "Modulus SMD adults 1.05 (0.75 to 1.34; 21 groups) vs elderly 0.21 (-0.21 to 0.63; 4 groups)"
+    grade: promising
+  - claim: "The three studies in well-trained athletes (endurance runners, female endurance athletes, strength-trained men) found no change in patellar tendon stiffness even after high-intensity training."
+    effect: "Narrative, no pooled estimate"
+    grade: speculative
+limitations:
+  - "Pre-post SMDs (not control-adjusted); all but one study n<=15; only three studies measured strain; only one study >14 weeks."
+  - "Free tendons and aponeuroses pooled; measurement methods heterogeneous; some small-study bias."
+topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC9474511) re-read: 61 studies, 763 participants (615 male); stiffness 0.74 (0.62-0.86), modulus 0.82 (0.58-1.07), CSA 0.22 (0.12-0.33); meta-regression (20 studies) modulus p<0.001, CSA p=0.19; RT 0.80, jump 0.49, concurrent 0.03 confirmed. High-strain (~5%) stiffness 1.04 (0.65-1.43) rests on 3 intervention groups (strain contrast n=7 groups), all from the Berlin group. Three trained-athlete studies (strength-trained men, female endurance athletes, highly trained runners) showed no PT stiffness change. | Prior check: chapter 8 literature researcher"}

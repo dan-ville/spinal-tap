@@ -1,0 +1,48 @@
+id: arntz-2024-stretch-hypertrophy
+title: 'Chronic Effects of Static Stretching Exercises on Skeletal Muscle Hypertrophy in Healthy Individuals: A
+  Systematic Review and Multilevel Meta-Analysis'
+authors:
+- Arntz F
+- Markov A
+- Schoenfeld BJ
+- Behrens M
+- Behm DG
+- Prieske O
+- Negra Y
+- Chaabene H
+year: 2024
+venue: Sports Med Open 10(1):106
+doi: 10.1186/s40798-024-00772-y
+pmid: '39340744'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11438763/
+design: meta-analysis
+population: Healthy individuals in chronic static stretching studies with a hypertrophy outcome (searched to July
+  2023); 2 sedentary, 15 recreational, 3 trained, 6 unclassified studies
+sample:
+  studies: 25
+  participants: 710
+read_level: full-text
+findings:
+- claim: The overall effect of chronic static stretching on muscle size was trivial and unclear once prediction
+    intervals are considered.
+  effect: SMD = 0.118 (95% PI -0.233 to 0.469), p = 0.017, I2 = 24%
+  grade: contested
+- claim: Larger hypertrophy was seen in trained individuals, with more varied stretching exercises and with more
+    time under stretch per bout, session, week and in total; ROM gains were not associated with hypertrophy.
+  effect: Trained beta = 0.424 (95% PI 0.095 to 0.753) vs recreational 0.115, sedentary -0.081; exercises beta =
+    0.069 (0.041 to 0.097); ROM SMD 0.698, ROM-hypertrophy association beta = 0.036 (-0.123 to 0.196)
+  grade: speculative
+limitations:
+- The 'trained' subgroup rests on 3 studies; most outcomes from B-mode ultrasound muscle thickness.
+- Did not include several long-duration orthosis studies (per Warneke 2024).
+topics:
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC11438763) re-read; 25 studies, 710 participants, SMD 0.118 (95% PI -0.233 to
+    0.469; p = 0.017), trained beta 0.424 (95% PI 0.095 to 0.753) from 3 studies confirmed. Note the CI excludes zero;
+    only the PI crosses it. | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects transcribed
+    from results/tables.'

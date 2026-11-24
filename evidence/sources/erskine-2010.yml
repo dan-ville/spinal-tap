@@ -1,0 +1,35 @@
+id: erskine-2010
+title: Resistance training increases in vivo quadriceps femoris muscle specific tension in young men.
+authors:
+- Erskine RM
+- Jones DA
+- Williams AG
+- Stewart CE
+- Degens H
+year: 2010
+venue: Acta Physiol 199(1):83-89
+doi: 10.1111/j.1748-1716.2010.02085.x
+pmid: '20102343'
+url: https://pubmed.ncbi.nlm.nih.gov/20102343/
+design: other
+population: Untrained young men; 9 weeks leg-extension training
+sample:
+  studies: null
+  participants: 17
+read_level: abstract
+findings:
+- claim: Nine weeks of training increased MVC torque 31% but quadriceps PCSA only 6%, so in vivo specific
+    tension rose about 20% after correcting for activation, coactivation and moment arm.
+  effect: MVC +31%; activation +3%; PCSA +6%; specific tension +20%
+  grade: promising
+limitations:
+- Untrained; single-joint; specific tension derived from several modelled inputs.
+topics:
+- strength/morphology
+- strength/specific-tension
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

@@ -1,0 +1,44 @@
+id: van-every-2022-interset-stretch
+title: Loaded inter-set stretch may selectively enhance muscular adaptations of the plantar flexors
+authors:
+- Van Every DW
+- Coleman M
+- Rosa A
+- Zambrano H
+- Plotkin D
+- Torres X
+- Mercado M
+- De Souza EO
+- Alto A
+- Oberlin DJ
+- Vigotsky AD
+- Schoenfeld BJ
+year: 2022
+venue: PLoS One 17(9):e0273451
+doi: 10.1371/journal.pone.0273451
+pmid: '36048793'
+url: https://pubmed.ncbi.nlm.nih.gov/36048793/
+design: rct
+population: '21 young healthy (untrained) men; within-subject: calf raises with vs without 20-s loaded inter-set
+  stretch, 2 x/week for 8 weeks'
+sample:
+  studies: null
+  participants: 21
+read_level: abstract
+findings:
+- claim: Loaded inter-set stretching may have slightly enhanced soleus thickness, with uncertain gastrocnemius effects
+    and a modest strength advantage.
+  effect: SOL +0.7 mm (90% CI 0 to 1.6); LG +0.4 mm (-0.4 to 1.3); MG 0 mm (-0.6 to 0.7)
+  grade: speculative
+limitations:
+- Untrained men; small effects within measurement error; short inter-set stretch.
+topics:
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: abstract read from full text (PMC9436038); 21 untrained men, within-subject, 20-s loaded
+    inter-set stretch, soleus +0.7 mm (90% CI 0 to 1.6), LG ambiguous, MG equivocal confirmed. | Prior check: chapter
+    6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

@@ -1,0 +1,22 @@
+id: ding-2026-acwr-meta
+title: "Acute:chronic workload ratio and load management for team sports: a multilevel meta-analysis"
+authors: [Ding L, Weldon A, Xu J, Malone S, Sampaio J, Zhang Z, Zhou Z, Liu X]
+year: 2026
+venue: "Front Public Health 14:1896651"
+doi: "10.3389/fpubh.2026.1896651"
+pmid: "42662491"
+url: https://pubmed.ncbi.nlm.nih.gov/42662491/
+design: meta-analysis
+population: "Team-sport athletes in prospective cohorts (search to Oct 2024)"
+sample: {studies: 16, participants: 797}
+read_level: full-text
+findings:
+  - claim: "Elevated ACWR showed a small-to-moderate pooled association with injury with extreme heterogeneity; the authors reject it as a stand-alone causal or predictive model."
+    effect: "Hedges g 0.35 (95% CI 0.16 to 0.54), I2 95.8%; not significant for time-loss injuries"
+    grade: contested
+limitations:
+  - "Pools associations that may be artefactual (coupling, rescaling); converts heterogeneous effect metrics to g; team sports only."
+  - "Association was as large for contact injuries (g 0.54) as non-contact (g 0.55), and near-null for time-loss (g 0.01, -0.34 to 0.37): an association with contact injuries argues for confounding by exposure rather than tissue overload."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13520966) read: g 0.35 (0.16-0.54), I2 95.8%; 16 studies, 797 athletes; Egger p=0.55. Confirmed. | Prior check: chapter 8 literature researcher"}

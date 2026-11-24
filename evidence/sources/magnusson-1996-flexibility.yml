@@ -1,0 +1,43 @@
+id: magnusson-1996-flexibility
+title: A mechanism for altered flexibility in human skeletal muscle
+authors:
+- Magnusson SP
+- Simonsen EB
+- Aagaard P
+- Sørensen H
+- Kjaer M
+year: 1996
+venue: J Physiol 497(Pt 1):291-298
+doi: 10.1113/jphysiol.1996.sp021768
+pmid: '8951730'
+url: https://pubmed.ncbi.nlm.nih.gov/8951730/
+design: mechanistic
+population: Healthy adults; hamstrings; 3-week stretch training
+sample:
+  studies: null
+  participants: 7
+read_level: abstract
+findings:
+- claim: After 3 weeks of hamstring stretching, passive torque, stiffness and energy at the same knee angle were
+    unchanged, while maximal knee-extension angle rose with a matching rise in peak tolerated torque; the authors
+    attribute the ROM gain to increased stretch tolerance, not altered tissue mechanics.
+  effect: No significant change in stiffness, energy or peak torque at a fixed angle; end ROM and peak torque at
+    end ROM increased (values not in abstract)
+  grade: promising
+- claim: Reflex EMG activity was small and unchanged, so reflex activity does not limit ROM during slow stretches.
+  effect: EMG small and unaffected by training
+  grade: promising
+limitations:
+- n = 7, 3 weeks, one muscle group; classic foundation of the sensory theory but tiny sample.
+- Numbers in the abstract are qualitative.
+topics:
+- flexibility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; n = 7, 3 weeks, unchanged stiffness/energy/peak torque at fixed
+    angle, ROM increase with comparable peak-torque increase confirmed. PMC full text exists (PMC1160931) but PMC returned
+    a browser challenge and Europe PMC had no XML. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers
+    from PubMed/Europe PMC abstract.'

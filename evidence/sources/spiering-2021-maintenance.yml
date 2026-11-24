@@ -1,0 +1,27 @@
+id: spiering-2021-maintenance
+title: 'Maintaining Physical Performance: The Minimal Dose of Exercise Needed to Preserve Endurance and Strength Over Time'
+authors: [Spiering BA, Mujika I, Sharp MA, Foulis SA]
+year: 2021
+venue: Journal of Strength and Conditioning Research 35(5):1449-1458
+doi: 10.1519/JSC.0000000000003964
+pmid: '33629972'
+url: https://pubmed.ncbi.nlm.nih.gov/33629972/
+design: narrative-review
+population: General populations, younger and older adults
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: In younger adults, strength and muscle size can be maintained for up to 32 weeks with one session per week and one set per exercise, provided relative load is kept.
+  effect: 1 session/wk, 1 set/exercise, intensity maintained, up to 32 wk (narrative synthesis)
+  grade: promising
+- claim: Older adults may need about 2 sessions/week and 2-3 sets per exercise to maintain muscle size; intensity is the key variable for maintenance.
+  effect: Narrative synthesis
+  grade: promising
+limitations:
+- Brief narrative review; evidence largely from previously untrained people who trained for a few months; no data for athletes.
+topics: [strength/maintenance, hypertrophy/maintenance]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; young: up to 32 wk with 1 session/wk and 1 set/exercise if relative load kept; older: maintaining size may require up to 2 sessions/wk and 2-3 sets. Confirmed. The 'twice' for older adults applies to muscle size, not strength. | Earlier check by chapter 3 literature researcher"

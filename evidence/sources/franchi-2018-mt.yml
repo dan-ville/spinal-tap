@@ -1,0 +1,37 @@
+id: franchi-2018-mt
+title: Muscle thickness correlates to muscle cross-sectional area in the assessment of strength training-induced hypertrophy.
+authors:
+- Franchi MV
+- Longo S
+- Mallinson J
+- Quinlan JI
+- Taylor T
+- Greenhaff PL
+- Narici MV
+year: 2018
+venue: Scand J Med Sci Sports 28(3):846-853
+doi: 10.1111/sms.12961
+pmid: '28805932'
+url: https://pubmed.ncbi.nlm.nih.gov/28805932/
+design: cohort
+population: Healthy young men; 12 wk isokinetic RT; ultrasound thickness vs MRI ACSA and volume
+sample:
+  studies: null
+  participants: 9
+read_level: abstract
+findings:
+- claim: Ultrasound muscle thickness tracked MRI mid-thigh cross-sectional area at single time points and its training-induced
+    change, but its change did not track whole-muscle volume change.
+  effect: '%change MT vs ACSAmid r = 0.69; vs volume r = 0.33 (ns); MT +7.5%, ACSA +5.2%, volume +5.0%'
+  grade: promising
+limitations:
+- n = 9; vastus lateralis only.
+topics:
+- hypertrophy/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; n = 9; r = 0.69 (ACSA change), r = 0.33 ns (volume change). Confirmed.
+    DOI corrected to 10.1111/sms.12961. | Prior check: chapter 5 literature researcher 2026-11-24'

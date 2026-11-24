@@ -1,0 +1,27 @@
+id: borde-2015-older-dose
+title: 'Dose-Response Relationships of Resistance Training in Healthy Old Adults: A Systematic Review and Meta-Analysis'
+authors: [Borde R, Hortobágyi T, Granacher U]
+year: 2015
+venue: Sports Med 45(12):1693-720
+doi: 10.1007/s40279-015-0385-9
+pmid: '26420238'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4656698/
+design: meta-analysis
+population: Healthy adults with mean age >= 65 y in RCTs
+sample: {studies: 25, participants: null}
+read_level: full-text
+findings:
+- claim: Resistance training improved strength substantially but muscle morphology only modestly in healthy older adults.
+  effect: Strength SMDbs 1.57 (95% CI 1.20 to 1.94; 25 studies, I2 80%); morphology SMDbs 0.42 (0.18 to 0.66; 9 studies, I2 0%)
+  grade: established
+- claim: Largest strength effects came with longer programmes (50-53 wk), 70-79% 1RM, 2-3 sets of 7-9 reps and 2 sessions/week.
+  effect: 50-53 wk SMDbs 2.34; 70-79% 1RM 1.89; 2 sessions/wk 2.13; 2-3 sets 2.99; 7-9 reps 1.98
+  grade: promising
+limitations:
+- Independently computed single-variable dose-responses are confounded with each other; few studies per category; pre-2015.
+topics: [frontiers/ageing, strength/dose-response]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text read (upgraded from abstract). Strength SMDbs 1.57 (95% CI 1.20 to 1.94; I2 80%), morphology 0.42 (0.18 to 0.66; I2 0%); dose-category values confirmed. The two SMDs come from different outcome types and are not a direct strength-vs-size contrast. | Earlier check (chapter 11 literature researcher): no notes"

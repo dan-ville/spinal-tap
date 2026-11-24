@@ -1,0 +1,64 @@
+id: lopez-2021-load
+title: 'Resistance Training Load Effects on Muscle Hypertrophy and Strength Gain: Systematic Review and
+  Network Meta-analysis'
+authors:
+- Lopez P
+- Radaelli R
+- Taaffe DR
+- Newton RU
+- Galvao DA
+- Trajano GS
+- Teodoro JL
+- Kraemer WJ
+- Hakkinen K
+- Pinto RS
+year: 2021
+venue: Medicine and Science in Sports and Exercise 53(6):1206-1216
+doi: 10.1249/MSS.0000000000002585
+pmid: '33433148'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8126497/
+design: meta-analysis
+population: Healthy adults (mean 23.4 y), 75% of studies untrained, none highly strength-trained; all
+  sets to volitional failure; 8.9 +/- 2.1 wk
+sample:
+  studies: 28
+  participants: 747
+read_level: full-text
+findings:
+- claim: When sets go to volitional failure, hypertrophy does not differ between low (>15RM), moderate
+    (9-15RM) and high (<=8RM) loads.
+  effect: High vs low SMD 0.12 (95% CI -0.06 to 0.29); moderate vs low 0.20 (-0.04 to 0.44); high vs moderate
+    -0.09 (-0.33 to 0.16); I2 = 0%
+  grade: established
+- claim: '1RM strength gains are load-dependent: high and moderate loads beat low loads, and high beats
+    moderate by a small, borderline amount.'
+  effect: High vs low SMD 0.60 (95% CI 0.38 to 0.82), P < 0.001; moderate vs low 0.34 (0.05 to 0.62),
+    P = 0.003; high vs moderate 0.26 (-0.02 to 0.54), P = 0.068; I2 = 39.9%
+  grade: established
+- claim: Hypertrophy did not differ between low, moderate and high loads when sets went to failure.
+  effect: P = 0.113-0.469 overall
+  grade: established
+- claim: Strength gains were greater with high and moderate loads than with low loads, with a non-significant
+    edge for high over moderate.
+  effect: High vs low SMD 0.60-0.63; moderate vs low SMD 0.34-0.35 (P < 0.001-0.003); high vs moderate
+    SMD 0.26-0.28 (P = 0.068)
+  grade: established
+limitations:
+- Mostly untrained participants and short interventions; results not generalisable to strength athletes
+  (authors' own caveat).
+- Risk of bias 'some concerns' in 87%; strength testers never blinded; repeated 1RM testing within studies
+  may have narrowed load differences.
+- Most strength tests were dynamic 1RM, which favours heavy training by specificity (see hammert-2026).
+- Corrected in 2022 (erratum).
+- 'RoB 2: 21 of 24 hypertrophy studies had some concerns and 3 high risk, mainly from randomisation reporting.'
+topics:
+- strength/load
+- hypertrophy/load
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Chapter 2 verifier read Table 2 in the full text (PMC8126497); strength numbers confirmed. The strength outcome was 1RM (23 studies, 39 comparisons); funnel-plot asymmetry for strength P = 0.014. | Prior check: verification pass 2026-11-24; Ch3 verification: Table 2 re-read in Europe PMC full text; hypertrophy high vs low 0.12 (-0.06 to 0.29), moderate vs low 0.20 (-0.04 to 0.44), high vs moderate -0.09 (-0.33 to 0.16), I2 = 0%; strength 0.60 (0.38-0.82), 0.34 (0.05-0.62), 0.26 (-0.02 to 0.54), P = 0.068; 98.2%; 75% untrained, no highly strength-trained participants. All confirmed. Load bins are RM-based (low >15RM, moderate 9-15RM, high <=8RM), not %1RM. | Earlier check by chapter 3 literature researcher: Table 2 read directly from Europe PMC full text."

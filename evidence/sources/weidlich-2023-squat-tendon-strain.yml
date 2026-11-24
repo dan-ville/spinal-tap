@@ -1,0 +1,25 @@
+id: weidlich-2023-squat-tendon-strain
+title: "Quantification of patellar tendon strain and opportunities for personalized tendon loading during back squats"
+authors: [Weidlich K, Mersmann F, Domroes T, Schroll A, Bohm S, Arampatzis A]
+year: 2023
+venue: "Sci Rep 13(1):8661"
+doi: "10.1038/s41598-023-35441-9"
+pmid: "37248376"
+url: https://pubmed.ncbi.nlm.nih.gov/37248376/
+design: cross-sectional
+population: "Active athletes from mixed sports (basketball, gymnastics, track and field, soccer, weightlifting) with >=2 y strength training and weekly loaded squats; 13 recruited, 10 analysed (5 men, 5 women, 30.5 +/- 3.5 y)"
+sample: {studies: null, participants: 10}
+read_level: full-text
+findings:
+  - claim: "Patellar tendon strain during back squats rose with load and already reached the adaptive range at moderate loads, but varied too much between people to prescribe by %1RM alone."
+    effect: "Mean strain 4.7 +/- 0.9% (40% 1RM) to 8.22 +/- 1.46% (80% 1RM); individual ranges 2.6-5.8% at 40%, 4.4-7.4% at 60%, 5.1-10.2% at 80% 1RM"
+    grade: promising
+  - claim: "Individual squat strain could be predicted from maximal strain in an isometric MVC plus %1RM."
+    effect: "Estimated vs measured strain R2 = 0.858"
+    grade: promising
+limitations:
+  - "n=10 analysed (13 recruited; 3 excluded for ultrasound artefacts); mixed-sport athletes, not strength-sport specialists; squat reversal at ~60 deg knee flexion (partial squat) with a 1RM specific to that range; ultrasound strain measurement error."
+  - "R2 = 0.858 is agreement between estimated and measured strain within the same 10 participants (no external validation)."
+topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC10226975) re-read. Corrected sample: 13 recruited, 10 analysed (5M/5F), mixed sports. Squats were partial (reversal ~60 deg knee angle). Mean 4.7-8.2% and R2 0.858 confirmed; added individual ranges. | Prior check: chapter 8 literature researcher"}

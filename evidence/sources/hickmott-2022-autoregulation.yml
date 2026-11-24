@@ -1,0 +1,39 @@
+id: hickmott-2022-autoregulation
+title: 'The Effect of Load and Volume Autoregulation on Muscular Strength and Hypertrophy: A Systematic Review and Meta-Analysis'
+authors: [Hickmott LM, Chilibeck PD, Shaw KA, Butcher SJ]
+year: 2022
+venue: Sports Medicine - Open 8:9
+doi: 10.1186/s40798-021-00404-9
+pmid: '35038063'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8762534/
+design: meta-analysis
+population: Resistance-trained participants, almost all male; load-autoregulation studies n = 133 (6 studies; ages 15.8-28.3 y, including adolescent female basketball players and 17-y rugby players); velocity-loss studies n = 308 (9 studies, male except 4 women)
+sample: {studies: 15, participants: 441}
+read_level: full-text
+findings:
+- claim: Autoregulated load prescription (RPE/RIR or VBT) and percentage-based prescription produced similar 1RM gains.
+  effect: MD = 2.07 kg (95% CI -0.32 to 4.46), p = 0.09, SMD = 0.21 (fixed-effect model)
+  grade: promising
+- claim: Subjective (RPE/RIR) autoregulation showed a near-significant small advantage over percentage loading; objective (velocity) autoregulation did not.
+  effect: Subjective MD = 3.15 kg (95% CI -0.14 to 6.45), p = 0.06, SMD 0.30; objective MD = 0.88 kg (-2.59 to 4.34), p = 0.62, SMD 0.10; subgroup difference p = 0.35
+  grade: speculative
+- claim: Velocity-loss thresholds <=25% produced slightly greater 1RM gains than thresholds >25% when sets and relative intensity were equated.
+  effect: MD = 2.32 kg (95% CI 0.33 to 4.31), p = 0.02, SMD = 0.23
+  grade: promising
+- claim: Velocity-loss thresholds >25% (more reps, closer to failure) produced more hypertrophy than <=20%.
+  effect: '<=25% vs >25%: MD 0.61 cm2 (95% CI 0.05 to 1.16), p = 0.03, SMD 0.28 favouring >25%; >25% vs <=20%: MD 0.64 cm2 (0.07 to 1.20), SMD 0.34'
+  grade: promising
+- claim: The <=25% velocity-loss advantage for 1RM was confined to studies that added other exercise to the protocol.
+  effect: With additional exercise SMD 0.62, p = 0.002; without additional exercise SMD 0.13, p = 0.25; subgroup difference p = 0.02
+  grade: speculative
+limitations:
+- All studies had some risk of bias (RoB 2); fixed-effect pooling; short interventions (mostly 6-12 wk).
+- Volume-autoregulation studies come largely from one research group, Smith-machine squat or bench, male only.
+- Autoregulated groups often trained at higher intensity than percentage groups, confounding method with dose.
+- 'Fixed-effect model applied to many comparisons from the same participants (load autoregulation: 247 comparisons from 133 participants; VL strength: 457 comparisons from 308), the same dependency problem criticised in Zhang X 2021; CIs are therefore too narrow.'
+topics: [programming/autoregulation, strength/velocity-based-training, hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: MD 2.07 kg (-0.32 to 4.46), SMD 0.21; subjective 3.15 kg, objective 0.88 kg; VL <=25% MD 2.32 kg (0.33-4.31); CSA 0.61 and 0.64 cm2 confirmed. Population corrected (includes adolescents); added additional-exercise subgroup and dependency limitation. | Earlier check by chapter 4 literature researcher: PMC full text read (results, participant tables, limitations).'

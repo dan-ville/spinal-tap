@@ -1,0 +1,50 @@
+id: patterson-2019
+title: 'Blood Flow Restriction Exercise: Considerations of Methodology, Application, and Safety.'
+authors:
+- Patterson SD
+- Hughes L
+- Warmington S
+- Burr J
+- Scott BR
+- Owens J
+- Abe T
+- Nielsen JL
+- Libardi CA
+- Laurentino G
+- Neto GR
+- Brandner C
+- Martin-Hernandez J
+- Loenneke J
+year: 2019
+venue: Front Physiol 10:533
+doi: 10.3389/fphys.2019.00533
+pmid: '31156448'
+url: https://pubmed.ncbi.nlm.nih.gov/31156448/
+design: consensus
+population: Position stand on BFR methodology, application and safety
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: 'Recommended BFR resistance prescription: 20-40% 1RM, 2-4 sets (commonly 30-15-15-15 reps, 75 total), 30-60
+    s rest with cuff kept inflated, 5-10 min restriction per exercise, 2-3 sessions per week, pressure 40-80% of individually
+    measured arterial occlusion pressure.'
+  effect: Table 1 and text
+  grade: convention
+- claim: The authors report minimal adverse events for venous thromboembolism in the BFR literature but advise screening
+    for thrombosis risk factors and note higher pressures increase cardiovascular responses.
+  effect: Narrative safety review
+  grade: promising
+limitations:
+- Expert position stand; safety evidence largely from healthy volunteers and case reports.
+topics:
+- hypertrophy/bfr
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: full text re-read (Europe PMC PMC6530612) Table: 20-40% 1RM; 30x15x15x15 (75 reps); 30-60
+    s rest; 5-10 min per exercise; 40-80% AOP; 2-3/wk or 1-2/day for 1-3 wk. Confirmed. DOI corrected to 10.3389/fphys.2019.00533.
+    | Prior check: chapter 5 literature researcher 2026-11-24'

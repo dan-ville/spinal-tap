@@ -1,0 +1,23 @@
+id: droguett-2025-rir-experience
+title: 'Objective Accuracy in Estimating Repetitions in Reserve in the Back Squat: An Analysis between Experienced vs. Novice Subjects'
+authors: [Droguett FAB, Festa RR, Quintana NAT, Gomez-Lopez J, Ojeda AH, Farias-Valenzuela C, Giakoni-Ramirez F, Jofre-Saldia E]
+year: 2025
+venue: Journal of Human Kinetics 102:145-158
+doi: 10.5114/jhk/205218
+pmid: '42211811'
+url: https://pubmed.ncbi.nlm.nih.gov/42211811/
+design: cross-sectional
+population: Healthy adults (12 M, 4 F; 24 y), experienced (>=18 months RT) vs novice; Smith-machine back squat at 70% 1RM
+sample: {studies: null, participants: 16}
+read_level: abstract
+findings:
+- claim: Resistance-training experience did not change the accuracy of 3-RIR and 1-RIR calls in the back squat.
+  effect: No between-group differences in RIR3 or RIR1 accuracy (p > 0.05); no differences in velocity, velocity loss or RPE
+  grade: speculative
+limitations: [n = 8 per group; Smith machine; 70% 1RM only.]
+topics: [programming/autoregulation, effort/rir-accuracy]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: added; PubMed abstract read.'

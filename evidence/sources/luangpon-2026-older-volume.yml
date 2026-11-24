@@ -1,0 +1,42 @@
+id: luangpon-2026-older-volume
+title: 'High- versus low-volume static stretching and eccentric exercise: a randomized controlled trial in older
+  adults with hamstring tightness and possible sarcopenia'
+authors:
+- Luangpon N
+- Srijunto W
+- Namsawang J
+- Chaovalit S
+- Snieckus A
+- Lapmanee S
+- Muanjai P
+year: 2026
+venue: Eur J Appl Physiol (online ahead of print)
+doi: 10.1007/s00421-026-06446-9
+pmid: '42806072'
+url: https://pubmed.ncbi.nlm.nih.gov/42806072/
+design: rct
+population: Community-dwelling older adults (67 y) with hamstring tightness and possible sarcopenia; 6 weeks
+sample:
+  studies: null
+  participants: 68
+read_level: abstract
+findings:
+- claim: Thirty minutes of daily stretching did not increase hamstring ROM detectably more than 3 min three times
+    per week; neither produced consistent changes in MTU stiffness or muscle thickness, while eccentric exercise
+    improved strength.
+  effect: ROM +12.4 deg (high volume) vs +10.3 deg (low volume), d = 1.27-1.48, no detectable between-group difference;
+    ECC knee flexor strength ~+7.0 N m (d = 1.53)
+  grade: promising
+limitations:
+- Older, possibly sarcopenic population (indirect for trained adults); equivalence not tested; 6 weeks.
+topics:
+- flexibility/stretching-dose
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 68 older adults (67 y) with hamstring tightness and possible sarcopenia;
+    30 min/day vs 3 min/day 3 d/week; ROM +12.4 vs +10.3 deg, no detectable difference, equivalence not established confirmed.
+    Paywalled. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

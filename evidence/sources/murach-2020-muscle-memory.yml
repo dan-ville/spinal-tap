@@ -1,0 +1,41 @@
+id: murach-2020-muscle-memory
+title: 'Muscle memory: myonuclear accretion, maintenance, morphology, and miRNA levels with training and detraining
+  in adult mice.'
+authors:
+- Murach KA
+- Mobley CB
+- Zdunek CJ
+- Frick KK
+- Jones SR
+- McCarthy JJ
+- Peterson CA
+- Dungan CM
+year: 2020
+venue: J Cachexia Sarcopenia Muscle 11(6):1705-1722
+doi: 10.1002/jcsm.12617
+pmid: '32881361'
+url: https://pubmed.ncbi.nlm.nih.gov/32881361/
+design: mechanistic
+population: Adult mice, progressive weighted wheel running, then 6 months detraining
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: In mice, myonuclei gained with training were lost with detraining in gastrocnemius and plantaris (soleus
+    resisted), contradicting strict myonuclear permanence, while miR-1 changes persisted as a possible memory marker.
+  effect: Myonuclear number returned to untrained levels within 6 months in plantaris and gastrocnemius
+  grade: contested
+limitations:
+- Mouse model; wheel running is not human resistance training.
+topics:
+- hypertrophy/muscle-memory
+- hypertrophy/satellite-cells
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; mouse PoWeR model; myonuclei lost within 6 mo in gastrocnemius
+    and plantaris, soleus resistant. Confirmed. DOI corrected to 10.1002/jcsm.12617. | Prior check: chapter 5 literature
+    researcher 2026-11-24'

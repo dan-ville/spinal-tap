@@ -1,0 +1,66 @@
+id: warneke-2024-stretch
+title: 'Effects of Chronic Static Stretching on Maximal Strength and Muscle Hypertrophy: A Systematic Review and Meta-Analysis
+  with Meta-Regression.'
+authors:
+- Warneke K
+- Lohmann LH
+- Behm DG
+- Wirth K
+- Keiner M
+- Schiemann S
+- Wilke J
+year: 2024
+venue: Sports Med Open 10(1):45
+doi: 10.1186/s40798-024-00706-8
+pmid: '38637473'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11026323/
+design: meta-analysis
+population: RCTs of chronic static stretching (>= 2 wk) measuring strength and muscle size
+sample:
+  studies: 42
+  participants: 1318
+read_level: full-text
+findings:
+- claim: Chronic static stretching produced small hypertrophy, with larger effects for longer stretch durations, frequencies
+    and program lengths; far less effective than resistance training.
+  effect: Hypertrophy d = 0.20; higher doses d = 0.26-0.28; strength d = 0.30
+  grade: promising
+- claim: Chronic static stretching produced a small increase in maximal strength, moderated by stretch duration; >=15
+    min per session and programmes >6 weeks gave larger effects.
+  effect: Strength d = 0.30 (95% CI 0.14 to 0.46), 36 studies, 85 ES, GRADE low; >=15 min d = 0.45 (0.29 to 0.62),
+    14 studies; <15 min d = 0.21 (-0.06 to 0.44); >6 weeks d = 0.36 (0.13 to 0.59) vs <=6 weeks 0.16 (0.05 to 0.26)
+  grade: promising
+- claim: Chronic static stretching produced a trivial-to-small increase in muscle size that reached significance only
+    with >=15 min per session, >6 weeks and >5 sessions per week.
+  effect: Hypertrophy d = 0.20 (95% CI 0.08 to 0.32), 19 studies, 45 ES, GRADE low; >=15 min d = 0.28 (0.12 to 0.44),
+    7 studies; <15 min d = 0.13 (-0.05 to 0.30)
+  grade: contested
+- claim: The authors note the long-duration hypertrophy evidence comes from 7 studies with the highest effects from
+    one research group, and that some short-duration studies report implausibly large gains (e.g. 29% strength from
+    4 x 30 s three times weekly).
+  effect: Authors' discussion
+  grade: contested
+limitations:
+- Mostly untrained participants; many ultrasound outcomes; small effects near measurement error.
+- Mean PEDro 4.17/10; most long-duration studies from the authors' own group; isometric strength tests close to the
+  stretch stimulus; ultrasound muscle thickness.
+- DOI in the earlier version of this record (10.1519/JSC.0000000000002200) was wrong; corrected from the full text.
+topics:
+- hypertrophy/muscle-length
+- flexibility/stretching
+- flexibility/stretch-hypertrophy
+- mobility/loaded-stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC11026323) re-read; strength 0.30 (0.14 to 0.46), >=15 min 0.45 (0.29 to 0.62),
+    <15 min 0.21 (-0.06 to 0.44) p = 0.06, >6 wk 0.36 vs <=6 wk 0.16; hypertrophy 0.20 (0.08 to 0.32; Table 2 prints
+    0.008), >=15 min 0.28 (0.12 to 0.44, 7 studies) confirmed. The >=15 vs <15 min hypertrophy difference was NOT significant
+    (p = 0.29) and meta-regression found no moderator (p = 0.23-0.88); only the >6 vs <=6 week contrast was significant
+    (p = 0.006). | Earlier: Ch5 verification: Spot check, PubMed abstract re-read; 42 studies, 1318 participants; hypertrophy
+    d = 0.20; higher doses d = 0.26-0.28. Confirmed. | Prior check: chapter 5 literature researcher; chapter 6 literature
+    researcher 2026-11-24; Ch6: DOI corrected; full text read, findings added.'

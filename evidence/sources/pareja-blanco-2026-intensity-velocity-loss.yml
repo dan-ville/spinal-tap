@@ -1,0 +1,23 @@
+id: pareja-blanco-2026-intensity-velocity-loss
+title: 'Optimizing Strength and Hypertrophy: The Combined Effect of Intensity and Velocity Loss Thresholds in Bench Press Training'
+authors: [Pareja-Blanco F, Sánchez-Valdepeñas J, Cornejo-Daza PJ, Rodiles-Guerrero L]
+year: 2026
+venue: Medicine and Science in Sports and Exercise 58(8):1773-1781
+doi: 10.1249/MSS.0000000000003988
+pmid: '41872733'
+url: https://pubmed.ncbi.nlm.nih.gov/41872733/
+design: rct
+population: Resistance-trained men; 8 wk bench press; 12 groups (3 intensity ranges x 4 VL thresholds)
+sample: {studies: null, participants: 158}
+read_level: abstract
+findings:
+- claim: 'Relative intensity and velocity loss both shaped adaptations: 70-85% 1RM gave the largest strength and size gains; among VL thresholds of 0, 15, 25 and 50%, 25% gave the largest 1RM gains and 50% the most hypertrophy and endurance.'
+  effect: Significant intensity x time and VL x time interactions for CSA, 1RM and MNR (values not in abstract)
+  grade: promising
+limitations: [~13 per cell; bench press only; men only; full text not read., 'Shows a significant VL x time interaction for 1RM in which 25% VL beat 0% and 15%, i.e. strength was not insensitive to VL and the lowest thresholds were not best.']
+topics: [programming/autoregulation, strength/velocity-based-training, strength/load]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: n = 158 trained men, 12 groups, VL 0/15/25/50%; VL25 best for 1RM, VL50 best for CSA and MNR. Confirmed; full text not available. | Earlier check by chapter 4 literature researcher'

@@ -1,0 +1,23 @@
+id: harries-2015-linear-undulating
+title: Systematic review and meta-analysis of linear and undulating periodized resistance training programs on muscular strength
+authors: [Harries SK, Lubans DR, Callister R]
+year: 2015
+venue: Journal of Strength and Conditioning Research 29(4):1113-1125
+doi: 10.1519/JSC.0000000000000712
+pmid: '25268290'
+url: https://pubmed.ncbi.nlm.nih.gov/25268290/
+design: meta-analysis
+population: Adults and adolescents in LP vs UP trials
+sample: {studies: 17, participants: 510}
+read_level: abstract
+findings:
+- claim: Linear and undulating periodization produced similar upper- and lower-body strength gains.
+  effect: No significant differences between LP and UP (pooled values not given in abstract); 16/17 studies showed gains in both arms; 5 showed between-group differences
+  grade: promising
+limitations: [Short interventions and mixed training histories; few athletes or adolescents.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read; 17 studies, n = 510, no LP-UP difference upper or lower body. Confirmed at abstract level. | Earlier check by chapter 4 literature researcher'

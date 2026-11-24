@@ -1,0 +1,46 @@
+id: mcmahon-2026
+title: Moderate Intensity Resistance Training With Partial Range-of-Motion at Long Muscle Lengths Elicits Similar
+  Hypertrophy and Architectural Adaptations as High Intensity Resistance Training Using Full Range-of-Motion.
+authors:
+- McMahon G
+- Morse C
+- Burden A
+- Winwood K
+- Onambele-Pearson G
+year: 2026
+venue: J Strength Cond Res 40(12):1493-1505
+doi: 10.1519/JSC.0000000000005561
+pmid: '42392615'
+url: https://pubmed.ncbi.nlm.nih.gov/42392615/
+design: rct
+population: 'Adults (training status per full text); knee extensors: shortened partial (0-50 deg, 80% 1RM) vs lengthened
+  partial (40-90 deg, 55% 1RM) vs full ROM (80%) vs control, 8 wk'
+sample:
+  studies: null
+  participants: 45
+read_level: abstract
+findings:
+- claim: Lengthened partials at a moderate load grew the vastus lateralis as much as full-ROM heavy training and more
+    than shortened partials at distal and proximal sites.
+  effect: Delta MT greater for LP and FROM vs SP at 75%; LP > SP at 25%; no LP vs FROM differences (p < 0.05 thresholds)
+  grade: promising
+- claim: Lengthened partials increased fascicle length more than full ROM or shortened partials.
+  effect: Delta Lf LP > FROM at 25% and 75%; LP > SP at all sites
+  grade: promising
+limitations:
+- Loads differed between groups by design; fascicle length by ultrasound, likely extrapolated; about 11 per group.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/range-of-motion
+- hypertrophy/architecture
+- strength/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 45; LP 55% 1RM vs FROM 80%; untrained status not stated in
+    abstract; consistent. | Prior check: verification pass 2026-11-24; Ch5 verification: PubMed abstract re-read;
+    n = 45, 4 groups; LP 55% 1RM = FROM 80% 1RM for VL MT; LP > SP at 25% and 75%; Lf greatest with LP. Confirmed.
+    Ultrasound VL only; not open access. | Prior check: chapter 5 literature researcher 2026-11-24'

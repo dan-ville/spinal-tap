@@ -1,0 +1,39 @@
+id: magnusson-1996-stress-relaxation
+title: Viscoelastic stress relaxation during static stretch in human skeletal muscle in the absence of EMG activity
+authors:
+- Magnusson SP
+- Simonsen EB
+- Dyhre-Poulsen P
+- Aagaard P
+- Mohr T
+- Kjaer M
+year: 1996
+venue: Scand J Med Sci Sports 6(6):323-328
+doi: 10.1111/j.1600-0838.1996.tb00101.x
+pmid: '9046541'
+url: https://pubmed.ncbi.nlm.nih.gov/9046541/
+design: mechanistic
+population: 8 neurologically intact adults and 6 people with complete spinal cord injury; hamstrings
+sample:
+  studies: null
+  participants: 14
+read_level: abstract
+findings:
+- claim: Passive torque declined during a 90-s static hold similarly in intact and spinal-cord-injured participants
+    with no measurable EMG, so the within-stretch decline in resistance is viscoelastic stress relaxation, not reflex
+    relaxation.
+  effect: 'Torque decline over 90 s: 33% (controls) vs 38% (SCI), no difference; EMG 1.8-3.4 microV.s, unchanged'
+  grade: established
+limitations:
+- Single-session mechanics; says nothing about chronic adaptation.
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 8 controls, 6 SCI, 90-s hold, torque decline 33% vs 38%, no EMG
+    change confirmed. No OA copy. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe
+    PMC abstract.'

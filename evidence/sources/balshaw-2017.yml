@@ -1,0 +1,40 @@
+id: balshaw-2017
+title: Changes in agonist neural drive, hypertrophy and pre-training strength all contribute to the individual
+  strength gains after resistance training.
+authors:
+- Balshaw TG
+- Massey GJ
+- Maden-Wilkinson TM
+- Morales-Artacho AJ
+- McKeown A
+- Appleby CL
+- Folland JP
+year: 2017
+venue: Eur J Appl Physiol 117(4):631-640
+doi: 10.1007/s00421-017-3560-x
+pmid: '28239775'
+url: https://pubmed.ncbi.nlm.nih.gov/28239775/
+design: other
+population: Healthy young untrained men; 12 weeks isometric knee-extensor training
+sample:
+  studies: null
+  participants: 28
+read_level: abstract
+findings:
+- claim: Individual strength gains were explained about 60% by changes in agonist EMG, quadriceps volume
+    (MRI) and baseline strength, with agonist neural drive the largest single predictor over 12 weeks.
+  effect: dMVT vs dEMG r = 0.576; vs dVolume r = 0.461; vs baseline MVT r = -0.429; R2 = 59.9% (EMG 30.6%,
+    volume 18.7%, baseline 10.6%)
+  grade: promising
+limitations:
+- Untrained; isometric training and testing; between-participant regression on percentage changes (later
+  reanalysed differently by the same group in marques-2025).
+topics:
+- strength/hypertrophy-strength
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Untrained men, isometric training and test; multiple regression on percentage changes. | Prior check: chapter 2 researcher 2026-11-24"

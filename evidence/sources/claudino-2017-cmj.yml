@@ -1,0 +1,21 @@
+id: claudino-2017-cmj
+title: "The countermovement jump to monitor neuromuscular status: A meta-analysis"
+authors: [Claudino JG, Cronin J, Mezencio B, McMaster DT, McGuigan M, Tricoli V, Amadio AC, Serrao JC]
+year: 2017
+venue: "Journal of Science and Medicine in Sport 20(4):397-402"
+doi: "10.1016/j.jsams.2016.08.011"
+pmid: "27663764"
+url: https://pubmed.ncbi.nlm.nih.gov/27663764/
+design: meta-analysis
+population: "Studies using CMJ to track fatigue and supercompensation in athletes"
+sample: {studies: 151, participants: null}
+read_level: abstract
+findings:
+  - claim: "Average CMJ height across several jumps was more sensitive than the best jump for detecting fatigue and supercompensation."
+    effect: "531 effect sizes; 85.4% of studies used highest jump; average more sensitive (no single pooled ES reported in abstract)"
+    grade: promising
+limitations:
+  - "Mostly team-sport and jump-trained athletes; jump height can change with strategy (countermovement depth) without capacity change."
+topics: [monitoring/jump]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 151 articles, 531 ESs; 85.4% used highest CMJ height; average height more sensitive than highest for fatigue and supercompensation. Confirmed."}

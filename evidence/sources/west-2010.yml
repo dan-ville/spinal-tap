@@ -1,0 +1,41 @@
+id: west-2010
+title: Elevations in ostensibly anabolic hormones with resistance exercise enhance neither training-induced muscle
+  hypertrophy nor strength of the elbow flexors.
+authors:
+- West DW
+- Burd NA
+- Tang JE
+- Moore DR
+- Staples AW
+- Holwerda AM
+- Baker SK
+- Phillips SM
+year: 2010
+venue: J Appl Physiol (1985) 108(1):60-7
+doi: 10.1152/japplphysiol.01147.2009
+pmid: '19910330'
+url: https://pubmed.ncbi.nlm.nih.gov/19910330/
+design: rct
+population: Healthy young men; within-subject arm training under low vs high systemic hormone conditions, 15 wk
+sample:
+  studies: null
+  participants: 12
+read_level: abstract
+findings:
+- claim: Training one arm in a high-hormone milieu (followed by heavy leg exercise) did not increase elbow-flexor
+    hypertrophy or strength compared with the arm trained in a low-hormone milieu.
+  effect: Muscle CSA +12% (low hormone) vs +10% (high hormone); condition x training P = 0.25
+  grade: established
+limitations:
+- n = 12 untrained men; elbow flexors only.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; CSA +12% (low hormone) vs +10% (high hormone), interaction P
+    = 0.25, n = 12 young men. Confirmed. Applies to transient exercise-induced rises within the physiological range
+    only. | Prior check: chapter 5 literature researcher 2026-11-24'

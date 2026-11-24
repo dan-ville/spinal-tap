@@ -1,0 +1,43 @@
+id: balshaw-2022
+title: Effect of long-term maximum strength training on explosive strength, neural, and contractile properties.
+authors:
+- Balshaw TG
+- Massey GJ
+- Maden-Wilkinson TM
+- Lanza MB
+- Folland JP
+year: 2022
+venue: Scand J Med Sci Sports 32(4):685-697
+doi: 10.1111/sms.14120
+pmid: '34978747'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9305549/
+design: cross-sectional
+population: Long-term (>= 3 y) maximum-strength-trained vs untrained young men
+sample:
+  studies: null
+  participants: 63
+read_level: full-text
+findings:
+- claim: Long-term maximum-strength-trained men had greater MVT, quadriceps size and absolute explosive
+    torque, but lower relative explosive torque and slower evoked contractile properties.
+  effect: MVT +66%; QACSAmax +54%; explosive torque 25-150 ms +41 to +64%; relative torque 100-150 ms
+    -11 to -16%; octet TPT +8%
+  grade: promising
+- claim: Neuromuscular activation during explosive contractions did not differ between groups once EMG
+    was normalised, and the greater absolute explosive strength was attributed to muscle size.
+  effect: normalised QEMG 0-50 ms ES 0.03; volitional neural efficacy 48% vs 41% (P = 0.199); absolute
+    QEMG at MVT +42% (ES 1.75)
+  grade: promising
+limitations:
+- Cross-sectional; isometric knee extension only; trained group n = 14.
+- "Loughborough cohort: untrained and long-term-trained men overlap across balshaw-2021, maden-wilkinson-2020, skarabot-2021-emg, balshaw-2022, casolo-2021 and skarabot-2024; treat them as one evidence base, not independent replications."
+topics:
+- strength/training-age
+- strength/rate-of-force-development
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (Europe PMC, PMC9305549) checked; key numbers confirmed (absolute explosive torque +41 to +64%, relative -11 to -16% from 100 ms, octet TPT +8%, absolute QEMG at MVT +42%). | Prior check: chapter 2 researcher 2026-11-24"

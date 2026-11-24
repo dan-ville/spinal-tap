@@ -1,0 +1,45 @@
+id: haun-2019-measurement
+title: 'A Critical Evaluation of the Biological Construct Skeletal Muscle Hypertrophy: Size Matters but So Does the
+  Measurement.'
+authors:
+- Haun CT
+- Vann CG
+- Roberts BM
+- Vigotsky AD
+- Schoenfeld BJ
+- Roberts MD
+year: 2019
+venue: Front Physiol 10:247
+doi: 10.3389/fphys.2019.00247
+pmid: '30930796'
+url: https://pubmed.ncbi.nlm.nih.gov/30930796/
+design: narrative-review
+population: Critical review of how skeletal muscle hypertrophy is defined and measured
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Pre-to-post change scores in DXA lean mass, ultrasound, MRI, fibre CSA and myofibrillar protein measures
+    often correlate poorly, so 'hypertrophy' measured at different levels is not one construct; the authors call for
+    operational definitions.
+  effect: Narrative synthesis with authors' own correlation data
+  grade: established
+- claim: The assumption that fibre growth is matched by proportional myofibrillar protein accretion lacks direct human
+    evidence; myofibrillar protein may be diluted by sarcoplasmic expansion during short-term training.
+  effect: Narrative synthesis
+  grade: contested
+limitations:
+- Authors' own group proposed sarcoplasmic hypertrophy; later trained-vs-untrained data (maeo-2024-trained-fibers)
+  point the other way for long-term training.
+topics:
+- hypertrophy/measurement
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Full text retrieved (Europe PMC PMC6423469) and abstract re-read; qualitative claims confirmed;
+    not re-read in full, so researcher full-text level kept. DOI corrected to 10.3389/fphys.2019.00247. | Prior check:
+    chapter 5 literature researcher 2026-11-24'

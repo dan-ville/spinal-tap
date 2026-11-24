@@ -1,0 +1,22 @@
+id: magnusson-2010-tendinopathy-loading
+title: "The pathogenesis of tendinopathy: balancing the response to loading"
+authors: [Magnusson SP, Langberg H, Kjaer M]
+year: 2010
+venue: "Nat Rev Rheumatol 6(5):262-268"
+doi: "10.1038/nrrheum.2010.43"
+pmid: "20308995"
+url: https://pubmed.ncbi.nlm.nih.gov/20308995/
+design: narrative-review
+population: "Human and animal tendon literature"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "After loading, tendon collagen synthesis peaks around 24 h and stays elevated for about 3 days, while degradation also rises but peaks earlier, implying an early net-catabolic window followed by net synthesis."
+    effect: "Synthesis peak ~24 h, elevated ~72 h; degradation peaks earlier (no numeric net balance given)"
+    grade: speculative
+limitations:
+  - "Narrative review; the early net-loss window is inferred from marker kinetics, not directly measured net balance in tendon proper."
+  - "The 'degradation peaks earlier' statement traces to circulating and peritendinous markers after prolonged running (e.g. Langberg 2000, plasma ICTP briefly up after a marathon); in peritendinous tissue ICTP actually fell early (langberg-1999-peritendinous-collagen). Net balance in tendon proper has never been measured."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Abstract re-read; statement confirmed as written. Grade for the early net-catabolic window lowered to speculative: it is a review-level inference from whole-body/peritendinous markers after endurance exercise. | Prior check: chapter 8 literature researcher"}

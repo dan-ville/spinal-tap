@@ -1,0 +1,36 @@
+id: simic-2013-pre-exercise-stretching
+title: Does pre-exercise static stretching inhibit maximal muscular performance? A meta-analytical review
+authors:
+- Simic L
+- Sarabon N
+- Markovic G
+year: 2013
+venue: Scand J Med Sci Sports 23(2):131-148
+doi: 10.1111/j.1600-0838.2012.01444.x
+pmid: '22316148'
+url: https://pubmed.ncbi.nlm.nih.gov/22316148/
+design: meta-analysis
+population: Studies 1966-2010 on acute static stretching and strength, power, explosive performance
+sample:
+  studies: 104
+  participants: null
+read_level: abstract
+findings:
+- claim: Pre-exercise static stretching caused small mean decrements in strength and explosive performance, larger
+    in isometric tests and with longer total duration, smallest at <=45 s.
+  effect: Strength SMD -0.10 (95% CI -0.15 to -0.04) or -5.4%; power -0.04 (-0.16 to 0.08); explosive -0.03 (-0.07
+    to 0.01) or -2.0%
+  grade: established
+limitations:
+- Many included studies lacked controls; Warneke & Lohmann 2024 argue the standardised effects are trivial and do
+  not justify avoidance.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 104 studies, strength -0.10 (-0.15 to -0.04) = -5.4%, power -0.04
+    (-1.9%), explosive -0.03 (-2.0%) confirmed. Repository copy not retrieved. | Prior check: chapter 6 literature researcher
+    2026-11-24; Numbers from PubMed/Europe PMC abstract.'

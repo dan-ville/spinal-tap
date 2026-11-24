@@ -1,0 +1,21 @@
+id: bricca-2019-exercise-cartilage
+title: "Impact of exercise on articular cartilage in people at risk of, or with established, knee osteoarthritis: a systematic review of randomised controlled trials"
+authors: [Bricca A, Juhl CB, Steultjens M, Wirth W, Roos EM]
+year: 2019
+venue: "Br J Sports Med 53(15):940-947"
+doi: "10.1136/bjsports-2017-098661"
+pmid: "29934429"
+url: https://pubmed.ncbi.nlm.nih.gov/29934429/
+design: systematic-review
+population: "Adults at risk of or with knee OA; RCTs with MRI cartilage outcomes"
+sample: {studies: 9, participants: null}
+read_level: abstract
+findings:
+  - claim: "Knee-loading exercise did not appear harmful to cartilage morphology or composition; most comparisons showed no effect, a few positive (GAG, collagen) and one negative."
+    effect: "14 comparisons: 6 no effect on thickness/volume/defects; 1 positive GAG (at-risk); 1 negative and 1 null GAG in OA; 2 positive and 2 null collagen"
+    grade: promising
+limitations:
+  - "Low-quality evidence; OA or at-risk populations, not healthy trained adults; short trials relative to cartilage turnover."
+topics: [connective-tissue/cartilage]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

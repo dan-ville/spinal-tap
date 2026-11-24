@@ -1,0 +1,33 @@
+id: lum-2019-isometric
+title: 'Brief Review: Effects of Isometric Strength Training on Strength and Dynamic Performance.'
+authors:
+- Lum D
+- Barbosa TM
+year: 2019
+venue: Int J Sports Med 40(6):363-375
+doi: 10.1055/a-0863-4539
+pmid: '30943568'
+url: https://pubmed.ncbi.nlm.nih.gov/30943568/
+design: narrative-review
+population: Review of isometric strength training
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: For hypertrophy, the review suggests isometric training at about 70-75% MVC with 3-30 s contractions and
+    more than 80-150 s total contraction time per session; for maximal strength 80-100% MVC with 1-5 s contractions;
+    isometric strength gains are largely joint-angle specific.
+  effect: Narrative prescription ranges
+  grade: convention
+limitations:
+- Narrative; prescription ranges drawn from few, mostly untrained studies.
+topics:
+- hypertrophy/isometric
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

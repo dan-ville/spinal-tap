@@ -1,0 +1,40 @@
+id: manca-2021
+title: 'Contralateral Effects of Unilateral Strength and Skill Training: Modified Delphi Consensus to
+  Establish Key Aspects of Cross-Education.'
+authors:
+- Manca A
+- Hortobagyi T
+- Carroll TJ
+- Enoka RM
+- Farthing JP
+- Gandevia SC
+- Kidgell DJ
+- Taylor JL
+- Deriu F
+year: 2021
+venue: Sports Med 51(1):11-20
+doi: 10.1007/s40279-020-01377-7
+pmid: '33175329'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7806569/
+design: consensus
+population: International expert panel (modified Delphi)
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Experts agreed that high-intensity and eccentric contractions maximise cross-education and that
+    at least 13-18 sessions or 4-6 weeks are needed for functionally meaningful transfer; mechanisms remain
+    debated.
+  effect: consensus statements
+  grade: convention
+limitations:
+- Expert opinion; clinical and research views diverged.
+topics:
+- strength/cross-education
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: Full text downloaded but numbers taken from its abstract section.

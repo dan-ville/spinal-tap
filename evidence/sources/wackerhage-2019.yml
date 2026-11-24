@@ -1,0 +1,42 @@
+id: wackerhage-2019
+title: Stimuli and sensors that initiate skeletal muscle hypertrophy following resistance exercise.
+authors:
+- Wackerhage H
+- Schoenfeld BJ
+- Hamilton DL
+- Lehti M
+- Hulmi JJ
+year: 2019
+venue: J Appl Physiol (1985) 126(1):30-43
+doi: 10.1152/japplphysiol.00685.2018
+pmid: '30335577'
+url: https://pubmed.ncbi.nlm.nih.gov/30335577/
+design: narrative-review
+population: Mechanistic review of hypertrophy stimuli and sensors
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Mechanical signals are the prime candidate hypertrophy stimuli; an mTORC1-mediated rise in muscle protein
+    synthesis is the key but not sole growth mechanism, with filamin-C/BAG3, costamere and nuclear-deformation pathways
+    as candidate sensors.
+  effect: Narrative synthesis
+  grade: established
+- claim: Exercise-induced muscle damage is probably not essential for hypertrophy, and evidence that metabolites are
+    hypertrophy stimuli is indirect (mainly from BFR and low-load studies).
+  effect: Narrative synthesis
+  grade: promising
+limitations:
+- Narrative review; the specific human mechanosensor remains unidentified.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; mTORC1-MPS "key, but not sole"; mechanical signals "prime" candidates;
+    filamin-C/BAG3 sensor "plausible albeit still incompletely characterized"; metabolite evidence "indirect"; damage
+    "probably not essential". Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

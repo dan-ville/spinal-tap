@@ -1,0 +1,49 @@
+id: scarpelli-2025
+title: Individual muscle hypertrophy response is affected by the overload progression model and is associated with
+  changes in satellite cell content.
+authors:
+- Scarpelli MC
+- Bergamasco JGA
+- Godwin JS
+- Mesquita PHC
+- Chaves TS
+- Silva DG
+- Bittencourt D
+- Dias NF
+- Junior RAM
+- Filho PCC
+- Angleri V
+- Costa LAR
+- Kavazis AN
+- Ugrinowitsch C
+- Roberts MD
+- Libardi CA
+year: 2025
+venue: Eur J Appl Physiol 125(11):3323-3340
+doi: 10.1007/s00421-025-05817-y
+pmid: '40500534'
+url: https://pubmed.ncbi.nlm.nih.gov/40500534/
+design: rct
+population: Untrained adults; within-subject load progression vs repetition progression, 10 wk, ultrasound and biopsies
+sample:
+  studies: null
+  participants: 37
+read_level: abstract
+findings:
+- claim: About a third of participants grew more with repetition progression and a fifth with load progression; better
+    responders to repetition progression showed larger satellite-cell increases, but myonuclear content, proteolysis
+    and ECM markers did not explain responsiveness.
+  effect: REPSProg responders mCSA +14.2% vs +3.4%; satellite cells +108.6% vs +48.9% (p = 0.015)
+  grade: speculative
+limitations:
+- Cluster thresholds (2 typical errors) on within-subject data; untrained.
+topics:
+- hypertrophy/satellite-cells
+- hypertrophy/individual-response
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Spot check, PubMed abstract re-read; satellite cells +108.6 +/- 77.0% vs +48.9 +/- 63.1%
+    (p = 0.015) in REPSProg responders. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

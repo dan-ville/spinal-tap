@@ -1,0 +1,40 @@
+id: guissard-2004-stretch-training
+title: Effect of static stretch training on neural and mechanical properties of the human plantar-flexor muscles
+authors:
+- Guissard N
+- Duchateau J
+year: 2004
+venue: Muscle Nerve 29(2):248-255
+doi: 10.1002/mus.10549
+pmid: '14755490'
+url: https://pubmed.ncbi.nlm.nih.gov/14755490/
+design: mechanistic
+population: Healthy adults; plantar flexors; 30 sessions of static stretching
+sample:
+  studies: null
+  participants: 12
+read_level: abstract
+findings:
+- claim: Thirty sessions of plantar-flexor stretching increased maximal dorsiflexion by 30.8%, associated with reduced
+    passive stiffness and reduced H- and T-reflex amplitudes; MVC and rate of torque development were unaffected.
+  effect: Dorsiflexion +30.8%; ROM change vs passive stiffness r2 = 0.88; T-reflex -36%, H-reflex -14%
+  grade: promising
+- claim: 'Neural and mechanical adaptations followed different time courses: one month after training, flexibility
+    and stiffness changes were partly retained but reflex activity had returned to baseline.'
+  effect: Qualitative (abstract)
+  grade: speculative
+limitations:
+- n = 12, no control group reported in abstract; tonic reflex changes may not generalise to other muscles.
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+- flexibility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; n = 12, 30 sessions, dorsiflexion +30.8%, r2 = 0.88 with reduced
+    passive stiffness, T-reflex -36%, H-reflex -14%, reflexes back to control at 1 month while ROM/stiffness partly maintained
+    confirmed. Authors conclude gains came ''mainly from reduced passive stiffness and tonic reflex activity'', not tolerance.
+    | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

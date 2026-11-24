@@ -1,0 +1,34 @@
+id: konrad-2014-static-stretching
+title: Increased range of motion after static stretching is not due to changes in muscle and tendon structures
+authors:
+- Konrad A
+- Tilp M
+year: 2014
+venue: Clin Biomech 29(6):636-642
+doi: 10.1016/j.clinbiomech.2014.04.013
+pmid: '24856792'
+url: https://pubmed.ncbi.nlm.nih.gov/24856792/
+design: rct
+population: Healthy volunteers; gastrocnemius medialis and Achilles tendon; 6-week static stretching vs control
+sample:
+  studies: null
+  participants: 49
+read_level: abstract
+findings:
+- claim: Six weeks of static stretching increased dorsiflexion ROM without changes in passive resistive torque,
+    MVC, fascicle length, pennation angle, muscle stiffness or tendon stiffness; the authors attribute the gain
+    to increased stretch tolerance.
+  effect: ROM 30.9 (5.3) to 36.3 (6.1) deg in the stretching group; structural variables unaltered
+  grade: promising
+limitations:
+- Single muscle; 6 weeks; ultrasound-based stiffness estimates.
+topics:
+- flexibility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; n = 49, 6 weeks, ROM 30.9 to 36.3 deg, no change in passive resistive
+    torque, fascicle length, pennation, muscle or tendon stiffness confirmed. No OA copy found. | Prior check: chapter
+    6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

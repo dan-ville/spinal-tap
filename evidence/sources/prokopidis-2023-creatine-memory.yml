@@ -1,0 +1,24 @@
+id: prokopidis-2023-creatine-memory
+title: "Effects of creatine supplementation on memory in healthy individuals: a systematic review and meta-analysis of randomized controlled trials"
+authors: [Prokopidis K, Giannos P, Triantafyllidis KK, Kechagias KS, Forbes SC, Candow DG]
+year: 2023
+venue: "Nutrition Reviews 81(4):416-427"
+doi: "10.1093/nutrit/nuac064"
+pmid: "35984306"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9999677/
+design: meta-analysis
+population: "Healthy individuals 11-76 y; placebo-controlled RCTs"
+sample: {studies: 8, participants: null}
+read_level: full-text
+findings:
+  - claim: "Creatine improved memory overall, but the effect sat in older adults; young people showed no effect."
+    effect: "Overall SMD 0.29 (95% CI 0.04 to 0.53), I2 66%; older (66-76 y) SMD 0.88 (0.22 to 1.55); younger (11-31 y) SMD 0.03 (-0.14 to 0.20)"
+    grade: contested
+  - claim: "After a letter identified double counting of participants, the authors' reanalysis reportedly found no overall memory effect but kept the older-adult effect."
+    effect: "Eckert and Pascher 2023 letter (PMID 36644917); author reply (PMID 36644912) not read, summary from secondary source"
+    grade: contested
+limitations:
+  - "Eight trials; double-counting error acknowledged in correspondence; heterogeneity high."
+topics: [nutrition/creatine, cognition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read: numbers confirmed (overall SMD 0.29, 0.04 to 0.53; older 0.88; young 0.03, -0.14 to 0.20). Author reply (PMID 36644912, doi 10.1093/nutrit/nuac111) still not read; secondary sources (a search summary and Citherlet 2026, PMC13105953) report the reanalysis lost the overall effect but kept the older-adult effect, and a revised young-adult SMD of about 0.02 (-0.27 to 0.31). Authors Forbes and Candow declare creatine-industry ties. | Earlier note (chapter 10 literature researcher): Reanalysis outcome is secondary; verify in the author reply"}

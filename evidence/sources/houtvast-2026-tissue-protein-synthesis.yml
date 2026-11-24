@@ -1,0 +1,25 @@
+id: houtvast-2026-tissue-protein-synthesis
+title: "Assessing the responsiveness of musculoskeletal tissues to protein supplementation in vivo in older adults: an exploratory randomized controlled trial"
+authors: [Houtvast DC, Hendriks FK, Weijzen ME, Zorenc AH, Smeets JS, Emans PJ, Wodzig WK, Larsen MS, Baar K, van Loon LJ]
+year: 2026
+venue: "Am J Clin Nutr 124(1):101349"
+doi: "10.1016/j.ajcnut.2026.101349"
+pmid: "42142739"
+url: https://pubmed.ncbi.nlm.nih.gov/42142739/
+design: rct
+population: "Older adults (68 +/- 7 y) awaiting total knee arthroplasty; 14 d deuterium oxide labelling, +/- 40 g/d whey"
+sample: {studies: null, participants: 24}
+read_level: full-text
+findings:
+  - claim: "Daily protein synthesis rates of ligament, tendon, meniscus, cartilage and bone were several-fold lower than muscle."
+    effect: "FSR %/d: muscle 1.17 +/- 0.23; ACL 0.45 +/- 0.27; PCL 0.46 +/- 0.32; patellar tendon 0.20 +/- 0.10; menisci 0.21 and 0.18; femoral cartilage 0.19 +/- 0.11; bone 0.12-0.21"
+    grade: promising
+  - claim: "Two weeks of extra whey protein did not change synthesis rates in any musculoskeletal tissue."
+    effect: "P-treatment = 0.27; treatment x tissue P = 0.14"
+    grade: promising
+limitations:
+  - "Older, osteoarthritic surgical patients, not trained adults; whey not collagen; no exercise stimulus; total protein FSR not collagen-specific."
+  - "Mixed-protein FSR by deuterium labelling over 14 d in older adults (68 +/- 7 y) undergoing total knee arthroplasty; tissues come from osteoarthritic knees; no training; not a trained population."
+topics: [connective-tissue/time-course, connective-tissue/collagen-supplement, connective-tissue/ligament]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13494203) results and disclosures read. FSR values confirmed (muscle 1.17, PT 0.20, ACL 0.45, PCL 0.46, femoral cartilage 0.19 %/d). Disclosure confirms K. Baar grants/fees from PepsiCo and GelTor; two authors employed by Arla Foods Ingredients. | Prior check: chapter 8 literature researcher"}

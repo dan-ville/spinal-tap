@@ -1,0 +1,53 @@
+id: afonso-2021-strength-vs-stretching
+title: 'Strength Training versus Stretching for Improving Range of Motion: A Systematic Review and Meta-Analysis'
+authors:
+- Afonso J
+- Ramirez-Campillo R
+- Moscão J
+- Rocha T
+- Zacca R
+- Martins A
+- Milheiro AA
+- Ferreira J
+- Sarmento H
+- Clemente FM
+year: 2021
+venue: Healthcare (Basel) 9(4):427
+doi: 10.3390/healthcare9040427
+pmid: '33917036'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8067745/
+design: meta-analysis
+population: Supervised RCTs comparing strength training with stretching; samples ranged from untrained students to
+  frail elderly and trained participants; mostly women and hip ROM
+sample:
+  studies: 11
+  participants: 452
+read_level: full-text
+findings:
+- claim: Strength training and stretching did not differ in ROM gains; subgroups by risk of bias, active vs passive
+    ROM and joint movement showed no differences.
+  effect: ES = -0.22 (95% CI -0.55 to 0.12), p = 0.206, I2 = 65.4% (negative numerically favours stretching); GRADE
+    moderate
+  grade: promising
+- claim: Strength training and stretching produced similar gains whether ROM was measured actively or passively.
+  effect: Active ROM ES -0.15 (95% CI -0.65 to 0.36), 8 groups, I2 = 78.7%; passive ROM ES -0.01 (-0.27 to 0.24),
+    6 groups, I2 = 15.3%; subgroup p = 0.642
+  grade: promising
+limitations:
+- Eleven heterogeneous trials (frail elderly to athletes); 6 of 11 at high randomisation risk of bias.
+- A non-significant difference with a CI reaching -0.55 does not establish equivalence.
+topics:
+- flexibility/resistance-training-rom
+- flexibility/resistance-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC8067745) re-read: ES -0.22 (-0.55 to 0.12), 11 RCTs, n = 452, GRADE moderate
+    (Table 3) confirmed. Population includes fibromyalgia, chronic neck pain and ADL-impaired elderly; 6/11 trials
+    high randomisation RoB; indirect for trained adults. | Prior check: verification pass 2026-11-24; Ch6 verification:
+    full text (PMC8067745) re-read; 11 RCTs, n = 452, ES -0.22 (-0.55 to 0.12), p = 0.206, GRADE moderate (Table 3)
+    confirmed. Inconsistency not downgraded despite I2 = 65%. | Prior check: chapter 6 literature researcher 2026-11-24;
+    Full text read; effects transcribed from results/tables.'

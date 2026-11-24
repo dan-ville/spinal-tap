@@ -1,0 +1,24 @@
+id: knowles-2022-sleep-restriction-females
+title: "Sustained Sleep Restriction Reduces Resistance Exercise Quality and Quantity in Females"
+authors: [Knowles OE, Drinkwater EJ, Roberts SSH, Alexander SE, Abbott G, Garnham A, Lamon S, Aisbett B]
+year: 2022
+venue: "Medicine and Science in Sports and Exercise 54(12):2167-2177"
+doi: "10.1249/MSS.0000000000003000"
+pmid: "36136596"
+url: https://pubmed.ncbi.nlm.nih.gov/36136596/
+design: crossover
+population: "Resistance-trained eumenorrheic women, 18-35 y; nine nights of 5-h time in bed vs 7 h or more; four lifting sessions per condition"
+sample: {studies: null, participants: 10}
+read_level: abstract
+findings:
+  - claim: "Nine nights of moderate sleep restriction barely reduced volume load but slowed lower-body compound lifts and raised perceived effort."
+    effect: "Volume load -<1% (P < 0.05); lower-body mean concentric velocity up to -15%; squat intraset velocity loss up to 7% greater; session RPE +11%; salivary cortisol AUC +42%; training distress +84%"
+    grade: promising
+  - claim: "Bar velocity and perceived effort were more sensitive markers of sleep-restricted lifting than volume load."
+    effect: "Upper-body compound lift velocity not significantly affected"
+    grade: promising
+limitations:
+  - "n = 10, single lab; short-term performance only, no adaptation outcome; women only."
+topics: [recovery/sleep, monitoring/velocity]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract (PubMed) re-read; full text not open access. All numbers confirmed. Correction to how the notes use it: the volume-load decline, though trivial (<1%), WAS statistically significant (P < 0.05), so volume load did detect the restriction; velocity and RPE were simply more sensitive. 'Central/perceptual mechanism' is the researcher's inference from higher RPE at the same relative intensity, not a tested mechanism."}

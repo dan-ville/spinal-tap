@@ -1,0 +1,45 @@
+id: psilander-2019
+title: Effects of training, detraining, and retraining on strength, hypertrophy, and myonuclear number in human skeletal
+  muscle.
+authors:
+- Psilander N
+- Eftestøl E
+- Cumming KT
+- Juvkam I
+- Ekblom MM
+- Sunding K
+- Wernbom M
+- Holmberg HC
+- Ekblom B
+- Bruusgaard JC
+- Raastad T
+- Gundersen K
+year: 2019
+venue: J Appl Physiol (1985) 126(6):1636-1645
+doi: 10.1152/japplphysiol.00917.2018
+pmid: '30991013'
+url: https://pubmed.ncbi.nlm.nih.gov/30991013/
+design: rct
+population: Untrained men and women; 10 wk unilateral training, 20 wk detraining, 5 wk bilateral retraining
+sample:
+  studies: null
+  participants: 19
+read_level: abstract
+findings:
+- claim: A previously trained leg did not respond better to retraining than the untrained leg; myonuclear number had
+    not increased during the first training block, so the myonuclear memory hypothesis could not be properly tested.
+  effect: 'T1: CSA about +17%, MT about +10%, strength about +20% with no myonuclear change; T2 responses similar
+    between legs'
+  grade: contested
+limitations:
+- Short retraining (5 wk); no initial myonuclear accretion.
+topics:
+- hypertrophy/muscle-memory
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; no myonuclear accretion in T1; strength "remained elevated (~60%)"
+    after detraining. The abstract does not say this is 60% of the gain; treat the notes'' "60% of the strength gain
+    retained" as unverified. | Prior check: chapter 5 literature researcher 2026-11-24'

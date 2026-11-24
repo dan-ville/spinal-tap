@@ -1,0 +1,49 @@
+id: hammert-2026-nonspecific-strength
+title: 'Non-Specific Strength Changes Between High- and Low-Load Isotonic Resistance Training: A Systematic
+  Review and Meta-Analysis'
+authors:
+- Hammert WB
+- Kataoka R
+- Yamada Y
+- Sallberg RW
+- Kang A
+- Buckner SL
+- Loenneke JP
+year: 2026
+venue: Sports Medicine 56(3):763-773
+doi: 10.1007/s40279-025-02370-8
+pmid: '41381816'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13018011/
+design: meta-analysis
+population: Healthy adults (9 of 10 studies untrained), high (>60% 1RM) vs low (<=40% 1RM) load to task
+  failure, between-subject designs only
+sample:
+  studies: 10
+  participants: 245
+read_level: full-text
+findings:
+- claim: On unpractised isometric/isokinetic tests, high-load training tended to beat low-load training,
+    but the estimate was imprecise and inconclusive.
+  effect: Cohen's d 0.322 (SE 0.17; 95% CI -0.08 to 0.72), p = 0.104; 95% PI -0.45 to 1.1; 44 effects
+  grade: contested
+- claim: When strength was tested on an unpractised isometric or isokinetic task, the advantage of high-load
+    over low-load training was small and uncertain.
+  effect: d = 0.322 (SE 0.17; 95% CI -0.08 to 0.72; P = 0.104); 95% prediction interval -0.45 to 1.1;
+    44 effect sizes
+  grade: contested
+limitations:
+- Non-specific strength was a secondary outcome in all included studies; frequent 1RM testing in low-load
+  arms may have diluted contrasts; mostly lower body, untrained.
+- Ten studies; wide intervals; robust variance estimation; authors from the Buckner/Loenneke group, which
+  holds a specificity-based view.
+topics:
+- strength/load
+- mechanisms/specificity
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Chapter 2 verifier read the full-text abstract and study table (PMC13018011); numbers confirmed. Nine of ten studies untrained; includes jenkins-2017. | Prior check: verification pass 2026-11-24; Ch3 verification: Europe PMC full text; d = 0.322 (95% CI -0.08 to 0.72; p = 0.104; PI -0.45 to 1.1), 10 studies, 245 participants, and the ~326 per group estimate confirmed. | Earlier check by chapter 3 literature researcher: Full text from Europe PMC. Chapter 2 researcher read the abstract section of the PMC full text (PMC13018011)."

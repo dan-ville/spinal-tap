@@ -1,0 +1,58 @@
+id: casolo-2026
+title: 'Ageing does not impair motor neuron adaptations: comparable motor unit responses to strength training
+  in young and older adults.'
+authors:
+- Casolo A
+- Del Vecchio S
+- Goodlich BI
+- Schrader B
+- Nuccio S
+- Lecce E
+- Bazzucchi I
+- Angius L
+- Felici F
+- Schrader J
+- Farina D
+- Del Vecchio A
+year: 2026
+venue: J Physiol 604(7):2796-2815
+doi: 10.1113/JP290541
+pmid: '41823343'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13039239/
+design: rct
+population: Older adults (about 70 y), block-randomised to 4 weeks of isometric dorsiflexion training
+  or control; compared with earlier young-adult data
+sample:
+  studies: null
+  participants: 23
+read_level: full-text
+findings:
+- claim: Four weeks of isometric strength training in older adults increased MVF and motor unit discharge
+    rates, and estimates of persistent inward currents rose and tracked the discharge-rate increase.
+  effect: MVF +17.6%; discharge rate at recruitment +8.2% (P = 0.031) and at constant force +11.3% (P
+    < 0.001); delta-F +1.0 pps; change in DR vs change in MVF rrm = 0.54-0.57
+  grade: promising
+- claim: Recruitment thresholds did not change, so in this cohort rate coding, partly via enhanced intrinsic
+    motor neuron excitability (PICs), carried the neural adaptation.
+  effect: no change in recruitment or derecruitment thresholds
+  grade: speculative
+- claim: "Delta-F rose modestly and tracked the plateau discharge-rate increase, which in turn tracked MVF gains; no direct delta-F vs MVF correlation was reported."
+  effect: "delta-F d = 0.43, rose in 10 of 13 trainees; delta-F change vs plateau DR change rrm = 0.61 (P = 0.021); vs recruitment DR rrm = 0.41 (P = 0.148)"
+  grade: speculative
+- claim: "Compared with 12 young adults from del-vecchio-2019 trained with the identical protocol, older adults showed qualitatively similar but attenuated motor unit adaptations, with discharge-rate rather than threshold changes."
+  effect: "13 older vs 12 young trainees; 242 vs 253 tracked motor units"
+  grade: promising
+limitations:
+- Older adults, not trained lifters; single muscle; isometric.
+- Delta-F is an indirect estimate of persistent inward currents.
+- Small groups (13 training, 10 control).
+- "Same lab and identical tibialis anterior protocol as del-vecchio-2019, casolo-2020, del-vecchio-2026 and casolo-2026; participants probably overlap, so these are not independent replications."
+topics:
+- strength/motor-units
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC13039239) checked. Numbers confirmed. Delta-F correlated with the discharge-rate change at plateau (rrm = 0.61) but not at recruitment (rrm = 0.41, P = 0.148); delta-F was not reported as correlated with MVF directly, so 'PICs track force gains' is a two-step inference. Young comparison group = 12 trainees from del-vecchio-2019. | Prior check: chapter 2 researcher 2026-11-24"

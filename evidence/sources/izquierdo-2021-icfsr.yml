@@ -1,0 +1,20 @@
+id: izquierdo-2021-icfsr
+title: 'International Exercise Recommendations in Older Adults (ICFSR): Expert Consensus Guidelines'
+authors: [Izquierdo M, Merchant RA, Morley JE, Anker SD, Aprahamian I, Arai H, Aubertin-Leheudre M, Bernabei R, Cadore EL, Cesari M, Chen LK, de Souto Barreto P, et al]
+year: 2021
+venue: J Nutr Health Aging 25(7):824-853
+doi: 10.1007/s12603-021-1665-8
+pmid: '34409961'
+url: https://pubmed.ncbi.nlm.nih.gov/34409961/
+design: consensus
+population: Older adults, including frail and multimorbid
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: 'Exercise, including progressive resistance training, should be prescribed to older adults like a medical treatment: individualised, dose-controlled and aimed at the intended outcome, because it substantially attenuates age-related declines in muscle function.'
+  effect: Consensus guideline
+  grade: established
+limitations: [Clinical/geriatric focus; abstract read.]
+topics: [frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

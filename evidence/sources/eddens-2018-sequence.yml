@@ -1,0 +1,35 @@
+id: eddens-2018-sequence
+title: 'The Role of Intra-Session Exercise Sequence in the Interference Effect: A Systematic Review with Meta-Analysis'
+authors:
+- Eddens L
+- van Someren K
+- Howatson G
+year: 2018
+venue: Sports Med 48:177-188
+doi: 10.1007/s40279-017-0784-1
+pmid: '28917030'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5752732/
+design: meta-analysis
+population: Healthy adults (mean age 31 y; 6 of 10 studies untrained, 1 professional athletes) in >=5-week same-session concurrent
+  programmes
+sample:
+  studies: 10
+  participants: 245
+read_level: full-text
+findings:
+- claim: Resistance-then-endurance order favoured lower-body dynamic strength gains; order made no difference to static strength,
+    hypertrophy, VO2max or body fat.
+  effect: Dynamic strength WMD 6.91% change (95% CI 1.96 to 11.87), p=0.006; hypertrophy WMD 1.15% (95% CI -1.56 to 3.87);
+    static strength WMD -0.04% (95% CI -3.19 to 3.11)
+  grade: promising
+limitations:
+- Only ten studies; most participants untrained; the order effect appears for dynamic 1RM (a skill-laden test) but not isometric
+  strength, suggesting a fatigue/quality-of-training mechanism rather than a structural one.
+topics:
+- concurrent/sequence
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Europe PMC full text re-read; WMD 6.91% (1.96 to 11.87), hypertrophy 1.15% (-1.56 to 3.87), static -0.04% (-3.19 to 3.11) confirmed."

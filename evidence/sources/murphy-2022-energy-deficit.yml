@@ -1,0 +1,24 @@
+id: murphy-2022-energy-deficit
+title: "Energy deficiency impairs resistance training gains in lean mass but not strength: A meta-analysis and meta-regression"
+authors: [Murphy C, Koehler K]
+year: 2022
+venue: "Scandinavian Journal of Medicine and Science in Sports 32(1):125-137"
+doi: "10.1111/sms.14075"
+pmid: "34623696"
+url: https://pubmed.ncbi.nlm.nih.gov/34623696/
+design: meta-analysis
+population: "RCTs of resistance training in an energy deficit for at least 3 weeks vs training without a deficit"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Training in an energy deficit impaired lean-mass gains but not strength gains."
+    effect: "Analysis A: lean mass ES -0.57 (p = 0.02); strength ES -0.31 (p = 0.28). Analysis B: lean mass ES -0.11 (deficit) vs 0.20 (control); strength 0.84 vs 0.81"
+    grade: promising
+  - claim: "Meta-regression suggested that a deficit of about 500 kcal/day prevented lean-mass gains."
+    effect: "~500 kcal/day threshold from meta-regression across Analyses A and B"
+    grade: speculative
+limitations:
+  - "Few directly controlled trials; Analysis B compares across studies; mixed populations including overweight; lean mass by DXA (water, glycogen shifts in deficit)."
+topics: [nutrition/energy-deficit]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read; full text blocked (Wiley challenge page) in this pass. Numbers confirmed. Interpretation caveat: strength ES -0.31 (p = 0.28) is a non-significant negative point estimate from few directly controlled trials, i.e. 'not shown to be impaired', not 'spared'. A secondary summary reports 59 studies and 1,495 participants overall (not verified). | Earlier note (chapter 10 literature researcher): e-pub Oct 2021, print 2022; number of studies not stated in abstract"}

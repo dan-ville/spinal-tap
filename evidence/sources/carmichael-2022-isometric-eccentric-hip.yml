@@ -1,0 +1,44 @@
+id: carmichael-2022-isometric-eccentric-hip
+title: Effect of an Isometric or Eccentric Hip Extension Exercise Intervention on Hamstring Strength, Architecture,
+  and Morphology
+authors:
+- Carmichael DS
+- Hickey JT
+- Tofari PJ
+- Bourne MN
+- Ward MR
+- Timmins RG
+year: 2022
+venue: Med Sci Sports Exerc 54(12):2196-2207
+doi: 10.1249/MSS.0000000000003012
+pmid: '35941515'
+url: https://pubmed.ncbi.nlm.nih.gov/35941515/
+design: rct
+population: Recreationally active men; eccentric vs isometric 45-degree hip extension, 6 wk + 4 wk detraining
+sample:
+  studies: null
+  participants: 24
+read_level: abstract
+findings:
+- claim: Eccentric but not isometric hip-extension training lengthened biceps femoris fascicles; strength gains were
+    specific to contraction mode.
+  effect: 'Eccentric: fascicle length +19.7% (d = 1.57), eccentric torque +12% (d = 0.66), BFlh volume +13.3%; isometric:
+    no fascicle change, isometric knee-flexion torque +10.4%'
+  grade: promising
+- claim: Fascicle gains reversed with 4 weeks of detraining while eccentric torque and muscle volumes were retained.
+  effect: Fascicle length -14.8% (d = -1.25) after detraining; torque and volumes unchanged
+  grade: promising
+limitations:
+- n = 12 per group, no non-training control; 2D ultrasound with extrapolation.
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- strength/specificity
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; +19.7% (d 1.57), -14.8% after 4 wk detraining with torque and
+    volumes unchanged confirmed; n = 12 per group. | Prior check: chapter 7 literature researcher 2026-11-24;'

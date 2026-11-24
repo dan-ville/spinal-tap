@@ -1,0 +1,41 @@
+id: nuzzo-2017
+title: Effects of Four Weeks of Strength Training on the Corticomotoneuronal Pathway.
+authors:
+- Nuzzo JL
+- Barry BK
+- Jones MD
+- Gandevia SC
+- Taylor JL
+year: 2017
+venue: Med Sci Sports Exerc 49(11):2286-2296
+doi: 10.1249/MSS.0000000000001367
+pmid: '28692630'
+url: https://pubmed.ncbi.nlm.nih.gov/28692630/
+design: rct
+population: Young adults; elbow-flexor isometric training vs control
+sample:
+  studies: null
+  participants: 21
+read_level: abstract
+findings:
+- claim: Four weeks of isometric elbow-flexor training increased strength, EMG and TMS-assessed voluntary
+    activation with no change in the muscle twitch.
+  effect: Strength +12.8 +/- 6.8% vs 0.0 +/- 2.7%; EMG +27.8% vs -5.2%; voluntary activation +4.7 +/-
+    3.9 vs -0.1 +/- 5.2 percentage points (P = 0.034)
+  grade: promising
+- claim: Cervicomedullary MEPs were unchanged, indicating no change in corticospinal transmission or motoneuron
+    excitability, so the gain lies upstream (cortical drive) or in other descending inputs.
+  effect: CMEPs unchanged in three arm postures
+  grade: promising
+limitations:
+- Small; resting CMEPs may miss task-specific changes.
+- "Training group n = 10 (7 F, 3 M); CMEPs measured at rest only, so task-specific spinal changes during contraction are untested."
+topics:
+- strength/corticospinal
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Training group was 10 people (7 women), controls 11; CMEPs recorded only in resting biceps. | Prior check: chapter 2 researcher 2026-11-24"

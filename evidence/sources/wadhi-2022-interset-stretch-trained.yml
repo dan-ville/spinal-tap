@@ -1,0 +1,42 @@
+id: wadhi-2022-interset-stretch-trained
+title: 'Loaded Inter-set Stretching for Muscular Adaptations in Trained Males: Is the Hype Real?'
+authors:
+- Wadhi T
+- Barakat C
+- Evangelista AL
+- Pearson JR
+- Anand AS
+- Morrison TEA
+- O'Sullivan J
+- Walters J
+- Souza EO
+year: 2022
+venue: Int J Sports Med 43(2):168-176 (correction 42(14):e8)
+doi: 10.1055/a-1529-6281
+pmid: '34375990'
+url: https://pubmed.ncbi.nlm.nih.gov/34375990/
+design: rct
+population: Resistance-trained men (n = 26; 12 inter-set stretch, 14 traditional), 8 weeks of training
+sample:
+  studies: null
+  participants: 26
+read_level: abstract
+findings:
+- claim: Adding a 30-s loaded pectoral stretch (15% of working load) between bench press sets did not change pectoralis
+    thickness, bench 1RM or repetitions to failure compared with traditional training in resistance-trained men.
+  effect: Belly thickness +2.7 vs +3.0 mm; lateral +3.2 vs +2.8 mm; 1RM +6.6 vs +7.5 kg (time effects only, no group
+    differences)
+  grade: speculative
+limitations:
+- Small; short loaded stretch, not the long-duration static stretching of SMH trials; ultrasound; abstract only.
+- Contradicts the chapter 6 statement that no RCT has tested stretching added to RT in resistance-trained lifters.
+topics:
+- hypertrophy/muscle-length
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/verification/flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: record created; PubMed abstract read. A published correction exists (PMID 34583397); its
+    content was not checked.'

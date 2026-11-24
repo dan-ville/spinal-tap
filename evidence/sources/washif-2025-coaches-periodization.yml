@@ -1,0 +1,23 @@
+id: washif-2025-coaches-periodization
+title: Current Periodization, Testing, and Monitoring Practices of Strength and Conditioning Coaches
+authors: [Washif JA, James C, Pagaduan J, Lim J, Lum D, Raja Azidin RMF, Mujika I, Beaven CM]
+year: 2025
+venue: International Journal of Sports Physiology and Performance 20(9):1239-1252
+doi: 10.1123/ijspp.2025-0051
+pmid: '40681169'
+url: https://pubmed.ncbi.nlm.nih.gov/40681169/
+design: cross-sectional
+population: S&C practitioners from 9 Southeast and East Asian countries (25 sports)
+sample: {studies: null, participants: 58}
+read_level: abstract
+findings:
+- claim: Practitioners favour hybrid periodization models and flexible programming, adjust programs mainly on athlete feedback, and nearly all use deloads (95%) and tapers (91%).
+  effect: Hybrid models 39-45%; flexible programming 43%; adjustment by athlete feedback 90%; velocity devices 23%
+  grade: convention
+limitations: [Small regional sample.]
+topics: [practice/surveys, programming/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: n = 58, hybrid 39-45%, flexible 43%, athlete feedback 90%, deloads 95%, tapers 91%, velocity devices 23%. Confirmed. | Earlier check by chapter 4 literature researcher'

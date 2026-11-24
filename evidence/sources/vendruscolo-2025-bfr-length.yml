@@ -1,0 +1,38 @@
+id: vendruscolo-2025-bfr-length
+title: Similar Regional Hypertrophy of the Elbow Flexor Muscles in Response to Low-Load Training With Vascular Occlusion
+  at Short Versus Long Muscle Lengths.
+authors:
+- da Silva Vendruscolo L
+- Brendon H
+- Hevia-Larraín V
+- Aihara AY
+- de Salles Painelli V
+year: 2025
+venue: Sports Health 17(5):1036-1043
+doi: 10.1177/19417381241287522
+pmid: '39449136'
+url: https://pubmed.ncbi.nlm.nih.gov/39449136/
+design: rct
+population: Resistance-trained men; within-subject low-load BFR elbow flexion at long (shoulder extended) vs short
+  (shoulder flexed) length, 3 wk, MRI
+sample:
+  studies: null
+  participants: 21
+read_level: abstract
+findings:
+- claim: Under low-load vascular occlusion, elbow-flexor growth did not differ between long- and short-length positions.
+  effect: 'CSA 45%: +6.20% (short) vs +5.08% (long), d = 0.006; 65%: +5.91% vs +3.83%, d = 0.28; 85%: +8.51% vs
+    +7.38%, d = 0.18'
+  grade: speculative
+limitations:
+- Only 3 weeks; BFR context; small differences in length.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/bfr
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

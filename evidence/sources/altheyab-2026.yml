@@ -1,0 +1,45 @@
+id: altheyab-2026
+title: 'Cross-education of lower limb muscle strength following resistance exercise training in males
+  and females: A systematic review and meta-analysis.'
+authors:
+- Altheyab A
+- Alqurashi H
+- England TJ
+- Phillips BE
+- Piasecki M
+year: 2026
+venue: Exp Physiol 111(6):2895-2917
+doi: 10.1113/EP091881
+pmid: '39235953'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13238690/
+design: meta-analysis
+population: RCTs of unilateral lower-limb resistance training vs control in healthy adults
+sample:
+  studies: 29
+  participants: null
+read_level: full-text
+findings:
+- claim: Unilateral lower-limb training increased untrained-limb 1RM and MVC versus controls with moderate
+    effect sizes, but certainty was low to very low.
+  effect: 1RM SMD 0.59 (95% CI 0.22 to 0.97), very low certainty; MVC SMD 0.55 (0.16 to 0.94), low certainty;
+    concentric SMD 0.61 (0.39 to 0.84); eccentric SMD 0.39 (0.13 to 0.64); isometric SMD 0.45 (0.26 to
+    0.64)
+  grade: established
+- claim: Only eccentric training significantly raised contralateral isometric peak torque in subgroup
+    analysis.
+  effect: eccentric SMD 0.37 (0.13 to 0.61); concentric SMD 0.33 (-0.09 to 0.74)
+  grade: promising
+- claim: "Unilateral lower-limb training did not change muscle thickness or pennation angle of the untrained limb."
+  effect: "muscle thickness SMD 0.01 (95% CI -0.44 to 0.46), 3 studies, moderate certainty; pennation angle SMD 0.25 (-0.27 to 0.77), 2 studies"
+  grade: promising
+limitations:
+- GRADE low to very low; small trials.
+- Searched to September 2023 although published 2026.
+topics:
+- strength/cross-education
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC13238690) checked. Numbers confirmed; concentric peak torque is 0.62 (0.38 to 0.86) in Results vs 0.61 (0.39 to 0.84) in the abstract. The 1RM estimate rests on 6 studies. Added the muscle-structure results (no contralateral thickness or pennation change). | Prior check: chapter 2 researcher 2026-11-24"

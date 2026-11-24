@@ -1,0 +1,24 @@
+id: kissow-2022-phase-based
+title: Effects of Follicular and Luteal Phase-Based Menstrual Cycle Resistance Training on Muscle Strength and Mass
+authors: [Kissow J, Jacobsen KJ, Gunnarsson TP, Jessen S, Hostrup M]
+year: 2022
+venue: Sports Med 52(12):2813-2819
+doi: 10.1007/s40279-022-01679-y
+pmid: '35471634'
+url: https://pubmed.ncbi.nlm.nih.gov/35471634/
+design: narrative-review
+population: Studies of menstrual-cycle phase-based RT in women
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Proponents argue that follicular-phase-based resistance training may be superior to luteal-phase-based training for strength and mass because oestrogen supports anabolism and recovery.
+  effect: Narrative review; no pooled estimate
+  grade: contested
+limitations:
+- Rests on few small trials later criticised (colenso-semple-2023-menstrual) and contradicted by dsouza-2026-menstrual-rct and colenso-semple-2025-mps.
+topics: [frontiers/menstrual-cycle]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; argues follicular-phase-based training 'possibly is superior'. Confirmed as a proponent review. | Earlier check (chapter 11 literature researcher): no notes"

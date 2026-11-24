@@ -1,0 +1,23 @@
+id: mansfield-2020-rir-accuracy
+title: 'Estimating Repetitions in Reserve for Resistance Exercise: An Analysis of Factors Which Impact on Prediction Accuracy'
+authors: [Mansfield SK, Peiffer JJ, Hughes LJ, Scott BR]
+year: 2020
+venue: Journal of Strength and Conditioning Research (online ahead of print 2020)
+doi: 10.1519/JSC.0000000000003779
+pmid: '32881842'
+url: https://pubmed.ncbi.nlm.nih.gov/32881842/
+design: crossover
+population: Trained men (25.9 y); bench press and prone row, 3 sets to failure at 60% and 80% 1RM; load-informed vs blinded
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+- claim: Trained men underestimated reps in reserve in the first set at both moderate and heavy loads, with accuracy improving over later sets as they neared failure; knowing the load did not matter.
+  effect: RIR estimates lower than actual in set 1 at 60% and 80% 1RM (p <= 0.007, ES 1.30-2.89) and set 2 of 80% bench (p = 0.046, ES 0.39)
+  grade: promising
+limitations: [n = 20 men; upper-body exercises only; abstract only., 'A companion paper by the same group (Hughes, Peiffer & Scott 2020, JSCR, PMID 33337690) was retracted; do not cite it.']
+topics: [programming/autoregulation, effort/rir-accuracy]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: added; PubMed abstract read. Qualifies the claim that RIR is accurate for heavy work.'

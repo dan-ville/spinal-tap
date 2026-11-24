@@ -1,0 +1,45 @@
+id: kataoka-2026
+title: Submaximal low-load resistance exercise with blood flow restriction produces similar results to low-load exercise
+  to failure for muscle size and strength, but not endurance.
+authors:
+- Kataoka R
+- Hammert WB
+- Yamada Y
+- Sallberg RW
+- Kang A
+- Song JS
+- Kassiano W
+- Metcalf EE
+- Loenneke JP
+year: 2026
+venue: Eur J Appl Physiol 126(2):825-837
+doi: 10.1007/s00421-025-05949-1
+pmid: '40905987'
+url: https://pubmed.ncbi.nlm.nih.gov/40905987/
+design: rct
+population: 'Untrained young adults (144 randomised); elbow flexion at 30% 1RM: submaximal, submaximal + BFR, to failure,
+  control; 6 wk; ultrasound muscle thickness'
+sample:
+  studies: null
+  participants: 144
+read_level: full-text
+findings:
+- claim: Submaximal low-load training with BFR produced muscle growth comparable to low-load training to failure and
+    more than submaximal training without BFR; strength gains were similar across all training groups.
+  effect: MT +0.14 cm (BFR) vs +0.06 cm (submaximal) vs +0.17 cm (failure); 1RM +0.54 / +0.45 / +0.34 kg vs control
+    -0.36 kg
+  grade: promising
+limitations:
+- 6 weeks; one exercise; small absolute changes.
+topics:
+- hypertrophy/bfr
+- hypertrophy/effort
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: full text re-read (Europe PMC PMC12948889): 144 randomised (186 recruited), untrained,
+    elbow flexion 30% 1RM, 6 wk, ultrasound MT; Bayesian informative hypotheses, best-supported H1 = LL+BFR = LL-failure
+    > LL > CON for MT. DOI corrected to 10.1007/s00421-025-05949-1. | Prior check: chapter 5 literature researcher
+    2026-11-24'

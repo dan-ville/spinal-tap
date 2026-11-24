@@ -1,0 +1,21 @@
+id: gratzke-2007-cartilage-weightlifters
+title: "Knee cartilage morphologic characteristics and muscle status of professional weight lifters and sprinters: a magnetic resonance imaging study"
+authors: [Gratzke C, Hudelmaier M, Hitzl W, Glaser C, Eckstein F]
+year: 2007
+venue: "Am J Sports Med 35(8):1346-1353"
+doi: "10.1177/0363546507299746"
+pmid: "17376857"
+url: https://pubmed.ncbi.nlm.nih.gov/17376857/
+design: cross-sectional
+population: "Professional weightlifters (n=7) and bobsled sprinters (n=7) vs untrained adults (n=14)"
+sample: {studies: null, participants: 28}
+read_level: abstract
+findings:
+  - claim: "Strength athletes had thicker patellar cartilage but no thicker tibiofemoral cartilage or larger joint surfaces than untrained controls."
+    effect: "Patellar cartilage thickness +14% (95% CI 6% to 22%) weightlifters, +17% (9% to 26%) sprinters; other plates not different"
+    grade: speculative
+limitations:
+  - "Very small groups; cross-sectional; selection for joint structure possible."
+topics: [connective-tissue/cartilage]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

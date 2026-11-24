@@ -1,0 +1,27 @@
+id: hecksteden-2015
+title: Individual response to exercise training - a statistical perspective
+authors: [Hecksteden A, Kraushaar J, Scharhag-Rosenberger F, Theisen D, Senn S, Meyer T]
+year: 2015
+venue: J Appl Physiol (1985) 118(12):1450-9
+doi: 10.1152/japplphysiol.00714.2014
+pmid: '25663672'
+url: https://pubmed.ncbi.nlm.nih.gov/25663672/
+design: other
+population: Methodological/statistical review of exercise-training response heterogeneity
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Individual response is a subject-by-training interaction; its quantification is confounded by measurement error and by within-subject variation in training efficacy, which a parallel control group cannot reveal and which requires repeated interventions.
+  effect: Conceptual; no pooled effect
+  grade: established
+- claim: At the individual level a low signal-to-noise ratio cannot be compensated by increasing sample size, so single pre-post changes are unreliable estimates of a person's true response.
+  effect: Conceptual
+  grade: established
+limitations:
+- Methodological paper; examples drawn largely from endurance training; no resistance-training data.
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; within-subject variation in training efficacy needs repeated interventions; low signal-to-noise not fixable by sample size. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

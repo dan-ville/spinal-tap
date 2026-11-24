@@ -1,0 +1,61 @@
+id: konrad-2023-chronic-rom
+title: 'Chronic effects of stretching on range of motion with consideration of potential moderating variables: A systematic
+  review with meta-analysis'
+authors:
+- Konrad A
+- Alizadeh S
+- Daneshjoo A
+- Anvar SH
+- Graham A
+- Zahiri A
+- Goudini R
+- Edwards C
+- Scharf C
+- Behm DG
+year: 2023
+venue: J Sport Health Sci 13(2):186-194 (2024; online 2023)
+doi: 10.1016/j.jshs.2023.06.002
+pmid: '37301370'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10980866/
+design: meta-analysis
+population: Healthy participants (mean age 27 y) in controlled stretch-training studies; static, ballistic/dynamic
+  and PNF
+sample:
+  studies: 77
+  participants: 3870
+read_level: full-text
+findings:
+- claim: Stretch training of 2 weeks or more increased joint ROM versus controls by a moderate-to-large amount.
+  effect: SMD = -1.002 (95% CI -1.165 to -0.840), I2 = 75% (negative favours stretching); 186 effect sizes; Egger
+    intercept -3.96, p < 0.001 (reporting bias)
+  grade: established
+- claim: Static and PNF stretching produced larger ROM gains than ballistic/dynamic stretching; static and PNF did
+    not differ.
+  effect: Static -1.005 (95% CI -1.184 to -0.825), k = 66; PNF -1.283 (-1.757 to -0.813), k = 11; ballistic/dynamic
+    -0.550 (-0.852 to -0.248), k = 8; between-technique p = 0.012; static vs PNF p = 0.28
+  grade: promising
+- claim: Intensity, total stretch duration, weekly frequency, trained state, muscle group and supervision did not
+    moderate ROM gains; females gained more than males.
+  effect: Low vs high intensity -0.923 vs -1.049 (p = 0.54); duration meta-regression p = 0.73; frequency p = 0.42;
+    elite athletes -1.296 (-2.413 to -0.179, k = 4); female -1.558 vs male -0.886 (p = 0.036)
+  grade: promising
+limitations:
+- Comprehensive Meta-Analysis software averaged dependent effects rather than modelling them.
+- Reporting bias detected; heterogeneity high.
+- Most studies used modest stretch durations (~1000 s total), limiting power to detect a dose response; few elite
+  athletes (4 effects).
+topics:
+- flexibility/stretching-dose
+- flexibility/stretching-modality
+- mobility/practitioner-systems
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC10980866) re-read; PNF -1.283, static -1.005, ballistic/dynamic -0.550 confirmed.
+    | Prior check: verification pass 2026-11-24; Ch6 verification: full text (PMC10980866) re-read; overall ES -1.002
+    (-1.165 to -0.840), Egger intercept -3.96, technique Q p = 0.012, static vs PNF p = 0.28, sex p = 0.036, frequency
+    p = 0.42, total duration p = 0.73 all confirmed. Note the authors call ES -1.0 ''moderate'', not large. | Prior
+    check: chapter 6 literature researcher 2026-11-24; Full text read; effects transcribed from results/tables.'

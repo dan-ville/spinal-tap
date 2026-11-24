@@ -1,0 +1,39 @@
+id: mckee-2026
+title: 'Acute and Chronic Effects of High-Load Resistance Training With Blood Flow Restriction in Healthy Adults:
+  A Systematic Review and Meta-Analysis.'
+authors:
+- Mckee JR
+- Selva Raj I
+- Marston KJ
+- De Marco K
+- Beere M
+- Galna B
+- Peiffer JJ
+- Nosaka K
+- Scott BR
+year: 2026
+venue: J Strength Cond Res 40(7):822-842
+doi: 10.1519/JSC.0000000000005467
+pmid: '42223143'
+url: https://pubmed.ncbi.nlm.nih.gov/42223143/
+design: meta-analysis
+population: Healthy adults; high-load RT with vs without BFR
+sample:
+  studies: 8
+  participants: null
+read_level: abstract
+findings:
+- claim: Adding BFR to high-load training did not further increase muscle size or strength.
+  effect: Size g = 0.08 (95% CI -0.18 to 0.34); strength g = 0.11 (-0.11 to 0.33); very low certainty
+  grade: promising
+limitations:
+- Only 8 chronic studies.
+topics:
+- hypertrophy/bfr
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 8 chronic studies; size g 0.08 (-0.18, 0.34); strength g 0.11
+    (-0.11, 0.33); very low certainty. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

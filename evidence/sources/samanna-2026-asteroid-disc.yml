@@ -1,0 +1,21 @@
+id: samanna-2026-asteroid-disc
+title: "Running is associated with intervertebral disc adaptations: a pre-planned secondary analysis of the ASTEROID randomised controlled trial"
+authors: [Samanna CL, Neason C, Tagliaferri SD, Belavy DL, Mitchell UH, Nez HR, Buntine P, Miller CT, Scott D, Mundell NL, Clarkson MJ, Owen PJ]
+year: 2026
+venue: "Eur Spine J 35(7):3822-3838"
+doi: "10.1007/s00586-026-09759-7"
+pmid: "41784643"
+url: https://pubmed.ncbi.nlm.nih.gov/41784643/
+design: rct
+population: "Secondary analysis of ASTEROID (n=40, chronic LBP, 33 +/- 6 y); MRI disc T2 at 0, 6, 12 wk"
+sample: {studies: null, participants: 40}
+read_level: abstract
+findings:
+  - claim: "Favourable 12-week disc T2 changes were seen in subgroups with moderate cumulative running volume and speed and with more multi-level degeneration; findings are hypothesis-generating."
+    effect: "Net T2 difference: running volume 28.6-46.1 km 4.80 (95% CI 2.51 to 7.10) ms, P<0.001; highest aggregated Pfirrmann score 3.42 (0.22 to 6.62) ms, P=0.036"
+    grade: speculative
+limitations:
+  - "Moderator subgroup analyses in a 40-person trial; multiple comparisons; overall whole-sample effect not reported in abstract."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: n=40 CLBP, 12 wk run-walk; 28.6-46.1 km subgroup +4.80 ms (2.51, 7.10). Confirmed; hypothesis-generating. | Prior check: chapter 8 literature researcher"}

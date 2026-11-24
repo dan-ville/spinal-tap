@@ -1,0 +1,35 @@
+id: vondrasek-2026-post-cycling
+title: Effects of Short-Duration Cycling After Resistance Exercise on Aortic Stiffness and Next-Day Recovery in Strength-Trained
+  Men
+authors:
+- Vondrasek JD
+- Brown JE
+- Grosicki GJ
+- Flatt AA
+year: 2026
+venue: J Strength Cond Res 40(5):536-544
+doi: 10.1519/JSC.0000000000005363
+pmid: '41875047'
+url: https://pubmed.ncbi.nlm.nih.gov/41875047/
+design: crossover
+population: Strength-trained men, 23 y, 4 +/- 2 y training
+sample:
+  studies: null
+  participants: 12
+read_level: abstract
+findings:
+- claim: Ten minutes of moderate cycling after upper-body resistance exercise did not change post-exercise aortic stiffness
+    or next-day bar velocity, HRV or perceived recovery.
+  effect: No condition x time interaction for cfPWV (p=0.16); MCV and HRV unchanged at 24 h
+  grade: promising
+limitations:
+- n=12; one short dose; upper-body session only.
+topics:
+- conditioning/recovery
+- conditioning/aerobic
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; n=12 trained men, UPPER-BODY session, 10 min cycling; no effect on next-day bar velocity, HRV or perceived recovery confirmed."

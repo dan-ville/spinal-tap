@@ -1,0 +1,32 @@
+id: zhang-2026-lp-up
+title: 'Comparison of linear and undulating periodization resistance training on athletic capacities and health promotion: a systematic review and meta-analysis'
+authors: [Zhang Z, Ya X, Zhao X, Liu Z, Luo J, Liu Y, Bu Y]
+year: 2026
+venue: Frontiers in Public Health 14:1707627
+doi: 10.3389/fpubh.2026.1707627
+pmid: '41869632'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12999919/
+design: meta-analysis
+population: Mixed populations (trained, untrained, obese, older; 14-80 y; 17 male-only, 5 female-only studies) in LP vs UP trials, 6-28 wk; search to July 2025
+sample: {studies: 29, participants: 704}
+read_level: full-text
+findings:
+- claim: Linear and undulating periodization produced similar gains in upper-body pushing strength.
+  effect: SMD 0.08 (95% CI -0.15 to 0.31); 23 studies; I2 = 46.1%
+  grade: promising
+- claim: Linear and undulating periodization produced similar gains in squat strength.
+  effect: SMD 0.08 (95% CI -0.10 to 0.26); 25 studies; I2 = 20.3%; Egger's test p < 0.05 (possible publication bias)
+  grade: promising
+- claim: Linear and undulating periodization gave similar strength gains in trained participants, so the trained-only UP advantage reported by Moesgaard 2022 was not reproduced.
+  effect: 'Trained: upper-body SMD 0.03 (95% CI -0.34 to 0.40), 12 studies, I2 58.3%; squat SMD -0.02 (-0.22 to 0.18), 15 studies, I2 0%. Not trained: upper 0.13 (-0.15 to 0.42); squat 0.25 (-0.09 to 0.59)'
+  grade: promising
+- claim: Fat-free mass and other body-composition outcomes did not differ overall between LP and UP.
+  effect: Similar effects on body weight, BMI, body fat % and fat-free mass (9, 4, 8 and 7 studies); UP > LP for fat-free mass only in obese participants, SMD 1.17 (0.23 to 2.10)
+  grade: promising
+limitations: ['Mixed health and athletic populations; quality rated with TESTEX; subgroup claims (obese, men) rest on few studies.', Does not separate trained strength athletes.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text read: overall upper SMD 0.08 (-0.15 to 0.31), I2 46.12%; squat SMD 0.08 (-0.10 to 0.26), I2 20.31%, Egger p < 0.05 confirmed. Added Table 3 training-experience subgroups and sample (704 participants). | Earlier check by chapter 4 literature researcher: Strength results read from PMC full text.'

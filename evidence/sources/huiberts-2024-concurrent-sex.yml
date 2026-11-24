@@ -1,0 +1,30 @@
+id: huiberts-2024-concurrent-sex
+title: 'Concurrent Strength and Endurance Training: A Systematic Review and Meta-Analysis on the Impact of Sex and Training Status'
+authors: [Huiberts RO, Wüst RCI, van der Zwaard S]
+year: 2024
+venue: Sports Med 54:485-503
+doi: 10.1007/s40279-023-01943-9
+pmid: '37847373'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10933151/
+design: meta-analysis
+population: Healthy adults 18-50 y in >=4-wk concurrent training studies
+sample: {studies: 59, participants: 1346}
+read_level: full-text
+findings:
+- claim: Concurrent training blunted lower-body strength gains in men but not in women.
+  effect: Males SMD -0.43 (95% CI -0.64 to -0.22), p<0.001; females 0.08 (95% CI -0.34 to 0.49); sex difference p=0.03; 20 studies
+  grade: promising
+- claim: Concurrent training blunted power gains in both sexes with no sex difference.
+  effect: Males -0.27 (95% CI -0.55 to 0.01); females -0.52 (95% CI -0.98 to -0.06); pooled power SMD -0.35 (95% CI -0.58 to -0.11), 13 studies, I2 0% (ESM Fig S3)
+  grade: promising
+- claim: Strength- or endurance-training status did not modify strength or power interference; VO2max gains trended lower (CI includes zero) in endurance-untrained but not trained or highly trained endurance athletes; subgroup difference p=0.04.
+  effect: VO2max untrained -0.35 (95% CI -0.70 to 0.01; Z=1.92, p=0.05, not significant; Fig 6); subgroup difference p=0.04; trained 0.18 (95% CI -0.02 to 0.38); highly trained 0.01 (95% CI -0.32 to 0.34)
+  grade: promising
+limitations:
+- Few female studies; only 4 hypertrophy studies; highly strength-trained athletes essentially absent; risk of bias mostly unclear (Cochrane tool).
+topics: [concurrent/sex, concurrent/training-status, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/09-concurrent-training.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher - Chapter 11 researcher added frontiers findings/topics and cited_in. Verification pass (ch 9): Europe PMC full text and Springer ESM (Figs S3) and main Fig 6 read. Sex result confirmed. Pooled power -0.35 is in ESM Fig S3 only, with CI -0.58 to -0.11, 13 studies. CORRECTED: untrained-endurance VO2max subtotal is -0.35 (95% CI -0.70 to 0.01), Z=1.92, p=0.05, i.e. the CI includes zero (record previously said -0.01). Lower-body strength blunting was significant in strength-untrained (p=0.02) but not strength-trained (p=0.14) participants."

@@ -1,0 +1,20 @@
+id: holmes-2026-rir-rpe-accuracy
+title: Accuracy of different methods for predicting proximity to failure during resistance training
+authors: [Holmes G, Jones MD, Cross R, Engel A, Walker ED, Hagstrom AD, Helms ER, Gibbs MT]
+year: 2026
+venue: Journal of Sports Sciences 44(24):3483-3493
+doi: 10.1080/02640414.2026.2763157
+pmid: '43034269'
+url: https://pubmed.ncbi.nlm.nih.gov/43034269/
+design: crossover
+population: 19 trained and 13 untrained adults; machine chest press and leg extension at 75% 1RM
+sample: {studies: null, participants: 32}
+read_level: abstract
+findings:
+- claim: Calling '2 RIR' and calling 'Borg RPE 8' were equally accurate predictors of proximity to failure.
+  effect: Chest press MD -0.03 reps (95% CI -0.50 to 0.44); leg extension MD 0.16 (-0.39 to 0.71)
+  grade: promising
+limitations: ['Machine exercises only; very recent (Nov 2026), abstract only.']
+topics: [methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

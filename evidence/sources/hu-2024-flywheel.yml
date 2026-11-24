@@ -1,0 +1,40 @@
+id: hu-2024-flywheel
+title: 'Comparing the Effect of Isoinertial Flywheel Training and Traditional Resistance Training on Maximal Strength
+  and Muscle Power in Healthy People: A Systematic Review and Meta-Analysis.'
+authors:
+- Hu Z
+- Liu Y
+- Huang K
+- Huang H
+- Li F
+- Yuan X
+year: 2024
+venue: Life (Basel) 14(7):908
+doi: 10.3390/life14070908
+pmid: '39063661'
+url: https://pubmed.ncbi.nlm.nih.gov/39063661/
+design: meta-analysis
+population: Trials of flywheel vs traditional resistance training in healthy people
+sample:
+  studies: 16
+  participants: 341
+read_level: abstract
+findings:
+- claim: Flywheel training was not superior to traditional training for maximal strength but produced a small advantage
+    for muscle power, against weight stacks rather than free weights.
+  effect: Strength SMD 0.24 (95% CI -0.26 to 0.74); power SMD 0.47 (0.10 to 0.84); vs free weights 0.36 (-0.22 to
+    0.94)
+  grade: promising
+limitations:
+- Hypertrophy not analysed; heterogeneous protocols.
+topics:
+- hypertrophy/flywheel
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 16 studies, 341 participants; strength 0.24 (-0.26, 0.74); power
+    0.47 (0.10, 0.84); vs weight stack 0.61, vs free weights 0.36 (ns). Confirmed. DOI corrected to 10.3390/life14070908.
+    | Prior check: chapter 5 literature researcher 2026-11-24'

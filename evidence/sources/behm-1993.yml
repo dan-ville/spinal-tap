@@ -1,0 +1,32 @@
+id: behm-1993
+title: Velocity specificity of resistance training.
+authors:
+- Behm DG
+- Sale DG
+year: 1993
+venue: Sports Med 15(6):374-388
+doi: 10.2165/00007256-199315060-00003
+pmid: '8341872'
+url: https://pubmed.ncbi.nlm.nih.gov/8341872/
+design: narrative-review
+population: Velocity-specific training literature
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Strength gains are greatest at or near the training velocity, and the intent to move fast may
+    matter more than actual movement velocity.
+  effect: narrative synthesis
+  grade: promising
+limitations:
+- Old narrative review; isokinetic-era evidence.
+topics:
+- strength/specificity
+- strength/velocity
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

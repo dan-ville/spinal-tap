@@ -1,0 +1,23 @@
+id: micke-2026-block-hift
+title: 'Block periodization vs. traditional periodization in high-intensity functional training: a randomized crossover study'
+authors: [Micke F, Huelle J, D'Hulst G, Isenmann E, Geisler S, Held S]
+year: 2026
+venue: Frontiers in Physiology 17:1810477
+doi: 10.3389/fphys.2026.1810477
+pmid: '42245829'
+url: https://pubmed.ncbi.nlm.nih.gov/42245829/
+design: crossover
+population: Experienced high-intensity functional training (CrossFit-style) athletes, 34.5 +/- 9.8 y, 5.8 +/- 3.2 y training; two 6-week load-matched phases, 5 sessions/wk
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+- claim: Concentrating high-intensity sessions into loading weeks (block) produced larger maximal-strength gains than distributing them evenly, without compromising metabolic conditioning.
+  effect: Deadlift 1RM p = 0.018, d = 0.85; isometric mid-thigh pull p = 0.038, d = 0.82; CrossFit Total p = 0.027, d = 0.78; no difference in benchmark workouts; CMJ fell during the concentrated week (d = -1.41)
+  grade: speculative
+limitations: ['''Block'' here means concentrated high-intensity weeks within 6-week phases, not the multi-block accumulation-transmutation-realization model; crossover with 6-week phases risks carryover; n = 20; HIFT athletes, not strength specialists.']
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: added as the only 2025-2026 controlled trial found favouring block-type loading for maximal strength; PubMed abstract read.'

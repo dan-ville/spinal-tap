@@ -1,0 +1,49 @@
+id: warneke-2024-passive-properties-recalculation
+title: Critical evaluation and recalculation of current systematic reviews with meta-analysis on the effects of
+  acute and chronic stretching on passive properties and passive peak torque
+authors:
+- Warneke K
+- Lohmann LH
+- Plöschberger G
+- Konrad A
+year: 2024
+venue: Eur J Appl Physiol 124(11):3153-3173
+doi: 10.1007/s00421-024-05564-6
+pmid: '39066912'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11519181/
+design: meta-analysis
+population: Controlled stretching trials measuring muscle, tendon or MTU stiffness and passive peak torque
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Re-analysed with models that handle dependent effect sizes, chronic stretching reduced muscle stiffness,
+    especially when supervised and of long duration, but not tendon stiffness; chronic passive peak torque at end
+    ROM increased.
+  effect: Muscle stiffness -0.38 (p = 0.01); supervised -0.49 (p = 0.004); long static -0.61 (p < 0.001); unsupervised
+    and short-duration n.s.; chronic PPT 0.55 (p = 0.005)
+  grade: promising
+- claim: Acutely, only long stretching durations reduced muscle stiffness; acute passive-peak-torque evidence is
+    too sparse (4 eligible studies).
+  effect: Qualitative (abstract)
+  grade: speculative
+limitations:
+- Same research group as several included trials; numbers read from abstract only (full text downloaded but not
+  extracted).
+- Chronic overall stiffness not significant (-0.24, p = 0.12; the printed CI -0.56 to -0.07 contradicts the p value).
+  'Long' (>225 s) effect rests on 3 studies with an implausibly narrow CI (RVE with few clusters).
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC11519181) read; chronic muscle stiffness -0.38 (-0.65 to -0.11), supervised
+    -0.49, long static -0.61 (-0.69 to -0.54; 3 studies/6 ES), tendon 0.04 (n.s.), chronic PPT end ROM 0.55 (0.21 to
+    0.90) confirmed. Note chronic OVERALL stiffness was not significant (-0.24, reported CI -0.56 to -0.07 but p = 0.12:
+    internally inconsistent), conflicting with Ingram 2025''s significant 0.37. The ''long'' rows for overall and muscle
+    stiffness are identical, and the 3-study CI is implausibly narrow. | Prior check: chapter 6 literature researcher
+    2026-11-24; Numbers from PubMed/Europe PMC abstract.'

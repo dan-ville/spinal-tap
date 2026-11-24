@@ -1,0 +1,37 @@
+id: lopez-bedoya-2013-active-passive
+title: Effect of three types of flexibility training on active and passive hip range of motion
+authors:
+- Lopez-Bedoya J
+- Vernetta-Santana M
+- Robles-Fuentes A
+- Ariza-Vargas L
+year: 2013
+venue: J Sports Med Phys Fitness 53(3):304-311
+doi: null
+pmid: '23715256'
+url: https://pubmed.ncbi.nlm.nih.gov/23715256/
+design: rct
+population: Physical education students (14 men, 15 women), 20-24 y; hold-relax PNF vs active isolated stretching
+  vs passive static stretching, 9 wk
+sample:
+  studies: null
+  participants: 29
+read_level: abstract
+findings:
+- claim: All three flexibility methods increased passive hip-flexion ROM, but only passive static stretching significantly
+    increased active hip-flexion ROM; active and passive ROM responded differently.
+  effect: Passive ROM improved in all groups (P < 0.05), no between-group difference; active ROM improved only in
+    PSS
+  grade: speculative
+limitations:
+- n = 9-11 per group; no control; image-based angle measurement; counter-intuitive result for active methods.
+topics:
+- mobility/measurement
+- flexibility/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; HR n = 9, AIS n = 9, PSS n = 11; no control group; confirmed.
+    | Prior check: chapter 7 literature researcher 2026-11-24;'

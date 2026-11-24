@@ -1,0 +1,47 @@
+id: warneke-2025-smh-applications
+title: Implications and Applications of Stretch-Mediated Hypertrophy in Therapy, Rehabilitation and Athletic Training-An
+  Outlook to Future Potential Applications
+authors:
+- Warneke K
+- Afonso J
+- Thomas E
+- Rittweger J
+- Konrad A
+- Moser O
+- Lohmann LH
+- Zech A
+- Schoenfeld BJ
+- Behm DG
+year: 2025
+venue: Sports Med 55(8):1815-1825
+doi: 10.1007/s40279-025-02237-y
+pmid: '40481272'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12460394/
+design: narrative-review
+population: Current opinion on stretch-mediated hypertrophy
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Only one RCT in athletes (Warneke 2023, JSCR) and one case study of a drug-free bodybuilder have shown
+    stretch-mediated hypertrophy in resistance-trained people; >15 min per muscle appears necessary, based on a
+    handful of mostly untrained studies of 8 weeks or less; replacing RT with stretching in healthy athletes 'seems
+    unreasonable', but supplementary use and immobilisation, diabetes and spaceflight settings merit study.
+  effect: Narrative
+  grade: speculative
+limitations:
+- Opinion paper from the group producing most positive trials.
+topics:
+- flexibility/stretch-hypertrophy
+- mobility/loaded-stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC12460394) re-read; ''just one RCT on athletes and one case study'' quote and
+    ~1 h/day statement confirmed. The paper does not discuss Wadhi 2022 (loaded inter-set stretch RCT in resistance-trained
+    men, null) or Wohlann 2024 (1 h/week pectoral stretching matched RT). | Prior check: chapter 6 literature researcher
+    2026-11-24; Full text read; effects transcribed from results/tables.'

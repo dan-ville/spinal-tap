@@ -1,0 +1,36 @@
+id: grammenou-2024-fitness-recovery
+title: Effect of Fitness Level on Time Course of Recovery After Acute Strength and High-Intensity Interval Training
+authors:
+- Grammenou M
+- Kendall KL
+- Wilson CJ
+- Porter T
+- Laws SM
+- Haff GG
+year: 2024
+venue: J Strength Cond Res 38(12):2055-2064
+doi: 10.1519/JSC.0000000000004924
+pmid: '39808807'
+url: https://pubmed.ncbi.nlm.nih.gov/39808807/
+design: crossover
+population: Resistance-trained individuals
+sample:
+  studies: null
+  participants: 28
+read_level: abstract
+findings:
+- claim: Both a strength session and a HIIT session reduced isometric mid-thigh pull peak force for up to 6-24 h; fitter individuals
+    recovered CMJ at the same rate despite doing more work.
+  effect: Peak force reduced to 6 h (p<0.05) and 24 h (p<0.001)
+  grade: speculative
+limitations:
+- Composite fitness score mixes grip strength and aerobic power; acute only.
+topics:
+- conditioning/recovery
+- concurrent/timing
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; IMTP peak force still reduced 24 h after the sessions (p<0.001), so force did not uniformly recover within 6-24 h."

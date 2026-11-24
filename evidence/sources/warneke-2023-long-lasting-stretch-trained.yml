@@ -1,0 +1,44 @@
+id: warneke-2023-long-lasting-stretch-trained
+title: 'Influence of Long-Lasting Static Stretching Intervention on Functional and Morphological Parameters in the
+  Plantar Flexors: A Randomized Controlled Trial'
+authors:
+- Warneke K
+- Keiner M
+- Wohlann T
+- Lohmann LH
+- Schmitt T
+- Hillebrecht M
+- Brinkmann A
+- Hein A
+- Wirth K
+- Schiemann S
+year: 2023
+venue: J Strength Cond Res 37(10):1993-2001
+doi: 10.1519/JSC.0000000000004513
+pmid: '37318350'
+url: https://pubmed.ncbi.nlm.nih.gov/37318350/
+design: rct
+population: 45 'well-trained' adults (17 women, 28 y); plantar flexors stretched 6 x 10 min/day for 6 weeks vs control
+sample:
+  studies: null
+  participants: 45
+read_level: abstract
+findings:
+- claim: Daily long-duration calf stretching increased MVC, flexibility, ultrasound muscle thickness and MRI cross-sectional
+    area versus control in well-trained participants.
+  effect: MVC d = 0.64-0.76; flexibility d = 0.85-1.12; muscle thickness d = 0.53-0.60; MRI MCSA d = 0.16-0.30
+  grade: promising
+limitations:
+- The MRI effect (d = 0.16-0.30) is much smaller than the ultrasound effect; 'well-trained' not defined in abstract;
+  the only RCT in trained people cited by Warneke 2025.
+topics:
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 45 ''well-trained'' adults, 6 x 10 min/day for 6 weeks; MVC d =
+    0.64-0.76, MTh d = 0.53-0.60, MRI MCSA d = 0.16-0.30 confirmed. ''Well-trained'' is not defined in the abstract;
+    not shown to be resistance-trained lifters. Paywalled. | Prior check: chapter 6 literature researcher 2026-11-24;
+    Numbers from PubMed/Europe PMC abstract.'

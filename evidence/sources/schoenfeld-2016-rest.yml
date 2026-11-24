@@ -1,0 +1,24 @@
+id: schoenfeld-2016-rest
+title: Longer Interset Rest Periods Enhance Muscle Strength and Hypertrophy in Resistance-Trained Men
+authors: [Schoenfeld BJ, Pope ZK, Benik FM, Hester GM, Sellers J, Nooner JL, Schnaiter JA, Bond-Williams KE, Carter AS, Ross CL, Just BL, Henselmans M, Krieger JW]
+year: 2016
+venue: Journal of Strength and Conditioning Research 30(7):1805-1812
+doi: 10.1519/JSC.0000000000001272
+pmid: '26605807'
+url: https://pubmed.ncbi.nlm.nih.gov/26605807/
+design: rct
+population: Resistance-trained young men; 1-min vs 3-min rest; 8 wk, 3 total-body sessions/wk, 3 x 8-12RM of 7 exercises
+sample: {studies: null, participants: 21}
+read_level: abstract
+findings:
+- claim: 3-minute rest produced greater squat and bench 1RM gains and greater anterior-thigh growth than 1-minute rest when sets were fixed.
+  effect: 1RM squat and bench significantly greater for LONG; thigh thickness greater for LONG; triceps trend p = 0.06
+  grade: promising
+limitations:
+- n = 21; sets fixed so short rest reduced volume load; not replicated when volume load is equated (Longo 2022, per Singer 2024).
+topics: [strength/rest-interval, hypertrophy/rest-interval]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 21 trained men, 3 x 8-12RM, 7 exercises, 3x/wk, 8 wk; 3-min rest gave greater squat and bench 1RM and anterior-thigh thickness than 1-min. Confirmed. | Earlier check by chapter 3 literature researcher"

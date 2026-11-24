@@ -1,0 +1,41 @@
+id: kassiano-2026-mediation
+title: Muscle growth mediates the increases in muscle strength in untrained older women.
+authors:
+- Kassiano W
+- Stavinski N
+- Costa B
+- Kunevaliki G
+- Lisboa F
+- Santos-Melo V
+- Francsuel J
+- Rodrigues R
+- Ribeiro A
+- Cyrino E
+year: 2026
+venue: Appl Physiol Nutr Metab 51:1-7
+doi: 10.1139/apnm-2025-0140
+pmid: '41747236'
+url: https://pubmed.ncbi.nlm.nih.gov/41747236/
+design: rct
+population: Untrained older women; 12 weeks RT vs control
+sample:
+  studies: null
+  participants: 175
+read_level: abstract
+findings:
+- claim: Causal mediation analysis attributed about 11% of the training effect on knee-extension 1RM to
+    anterior-thigh muscle growth; the lateral-thigh model was not significant.
+  effect: ACME 0.74 kg (95% CI 0.20 to 1.35), 10.6% mediated; total effect 7.02 kg (6.01 to 8.04); lateral
+    ACME 0.45 (-0.03 to 1.10)
+  grade: promising
+limitations:
+- Older untrained women; ultrasound thickness; 12 weeks; mediation assumes no unmeasured confounding of
+  mediator and outcome.
+topics:
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed (RET n = 91, control n = 84). Ultrasound thickness mediator. | Prior check: chapter 2 researcher 2026-11-24"

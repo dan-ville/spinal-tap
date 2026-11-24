@@ -1,0 +1,38 @@
+id: eidiyan-kakhki-2026
+title: A Comprehensive Systematic Review and Meta-Analysis of Isoinertial Flywheel vs. Traditional Resistance Training
+  on Strength, Power, Speed, and Agility in Team Sports.
+authors:
+- Mahdi Eidiyan-Kakhki M
+- Rajabi H
+- Amani-Shalamzari S
+- Motamedi P
+- Jafari M
+- Nikolaidis PT
+year: 2026
+venue: Res Q Exerc Sport :1-17
+doi: 10.1080/02701367.2026.2662550
+pmid: '42274465'
+url: https://pubmed.ncbi.nlm.nih.gov/42274465/
+design: meta-analysis
+population: Team-sport athletes; flywheel vs conventional resistance training
+sample:
+  studies: 13
+  participants: 324
+read_level: abstract
+findings:
+- claim: In team-sport athletes, flywheel training did not improve strength or sprint more than conventional training
+    but improved power and agility more.
+  effect: Strength SMD 4.716 (95% CI -16.233 to 25.664); CMJ power SMD 2.583 (0.906 to 4.259); agility SMD -0.207
+    (-0.373 to -0.041)
+  grade: speculative
+limitations:
+- Implausibly large and wide SMDs suggest data-handling problems; hypertrophy not assessed.
+topics:
+- hypertrophy/flywheel
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

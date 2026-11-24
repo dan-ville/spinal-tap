@@ -1,0 +1,37 @@
+id: guo-2026-yoga-older
+title: 'Effects of yoga on lower-extremity muscle strength, balance, and quality of life across diverse older adult
+  populations: A systematic review and Meta-analysis'
+authors:
+- Guo P
+- Chen S
+- Zou J
+- Ji F
+- Wenju L
+year: 2026
+venue: Exp Gerontol 224:113292
+doi: 10.1016/j.exger.2026.113292
+pmid: '42700826'
+url: https://pubmed.ncbi.nlm.nih.gov/42700826/
+design: meta-analysis
+population: Older adults across diverse populations; searches to Dec 2025
+sample:
+  studies: 21
+  participants: 1471
+read_level: abstract
+findings:
+- claim: Apparent yoga benefits for lower-extremity strength in older adults shrank to borderline significance after
+    trim-and-fill adjustment for small-study effects.
+  effect: Unadjusted strength benefit significant; trim-and-fill adjusted borderline (values not in abstract)
+  grade: contested
+limitations:
+- Abstract only; older adults; publication-bias adjustment methods are themselves uncertain.
+topics:
+- mobility/practitioner-systems
+- flexibility/yoga
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; 21 studies, 1471 participants; trim-and-fill borderline strength
+    confirmed; no numbers in abstract. | Prior check: chapter 7 literature researcher 2026-11-24;'

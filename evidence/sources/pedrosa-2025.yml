@@ -1,0 +1,42 @@
+id: pedrosa-2025
+title: 'From full to partials: Investigating the impact of range of motion training on maximum isometric action, and
+  muscle hypertrophy in young women.'
+authors:
+- Pedrosa GF
+- Simões MG
+- Rezende Pereira M
+- Schoenfeld B
+- Lanza MB
+- Lima FV
+- Bischoff ABG
+- Chagas MH
+- Diniz RCR
+year: 2025
+venue: J Sports Sci 43(15):1440-1451
+doi: 10.1080/02640414.2025.2502895
+pmid: '40366729'
+url: https://pubmed.ncbi.nlm.nih.gov/40366729/
+design: rct
+population: Untrained women; knee extension full vs initial vs final vs varied ROM vs control
+sample:
+  studies: null
+  participants: 50
+read_level: abstract
+findings:
+- claim: Initial-ROM, full-ROM and varied-ROM knee extension produced similar and greater summed quadriceps growth
+    than final-ROM partials; isometric strength gains matched the trained angles.
+  effect: Summed CSA +13.2% to +17% (initial, full, varied) vs smaller for final ROM; MVIA at 100 deg +20.6-25.5%
+    for initial and varied
+  grade: promising
+limitations:
+- Untrained women; ultrasound.
+topics:
+- hypertrophy/range-of-motion
+- strength/specificity
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 50 untrained women; INITIAL, FULL, VAR +13.2-17% and all > FINAL
+    (ultrasound). Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

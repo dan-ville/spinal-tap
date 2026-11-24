@@ -1,0 +1,42 @@
+id: morin-2026
+title: 'Neuromechanical Determinants of Muscle-Specific Hamstring Damage and Hypertrophy across Exercises: An EMG-Informed
+  Modeling Approach.'
+authors:
+- Morin T
+- Doguet V
+- Mauget A
+- Panhelleux B
+- Brossard T
+- Nordez A
+- Caillet A
+- Lacourpaille L
+year: 2026
+venue: Med Sci Sports Exerc
+doi: 10.1249/MSS.0000000000004142
+pmid: '42735209'
+url: https://pubmed.ncbi.nlm.nih.gov/42735209/
+design: mechanistic
+population: EMG-informed musculoskeletal modelling of hamstring operating length and force across exercises, acute
+  and 12-wk training data
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Differences between hamstring heads in modelled operating length, and to a lesser extent force, explained
+    which head was most damaged and most hypertrophied after Nordic and leg-curl exercises, but not after stiff-leg
+    deadlifts.
+  effect: Most hypertrophied muscle predicted in 75% of cases; ST +24.4% (Nordic), SM +11.2% (SLD)
+  grade: speculative
+limitations:
+- Modelled, not measured, muscle length and force.
+topics:
+- hypertrophy/regional
+- hypertrophy/muscle-length
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

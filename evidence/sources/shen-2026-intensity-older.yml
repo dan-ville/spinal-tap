@@ -1,0 +1,24 @@
+id: shen-2026-intensity-older
+title: 'Effectiveness of High-Intensity Versus Low-To-Moderate-Intensity Resistance Training in Improving Muscle Strength and Bone Mineral Density in Older Adults: A Systematic Review and Meta-Analysis of Randomized Controlled Trials'
+authors: [Shen YC, Chen KH, Hou WH, Kang YN, Shen WT, Hoang KD, Huang YL, Chen C]
+year: 2026
+venue: Geriatr Gerontol Int 26(7):e70607
+doi: 10.1111/ggi.70607
+pmid: '42366614'
+url: https://pubmed.ncbi.nlm.nih.gov/42366614/
+design: meta-analysis
+population: Adults >= 50 y in RCTs comparing >= 70% vs < 70% 1RM
+sample: {studies: 18, participants: 1283}
+read_level: abstract
+findings:
+- claim: High-intensity training (>= 70% 1RM) increased lower-limb strength more than low-to-moderate intensity in older adults, with no clear differences in bone density, falls or adverse events.
+  effect: Leg press SMD 0.95 (0.48 to 1.43); leg extension 0.63 (0.09 to 1.17); lumbar BMD 0.28 (-0.02 to 0.58); falls RR 2.68 (0.65 to 11.11); adverse events RR 2.42 (0.66 to 8.88)
+  grade: promising
+limitations:
+- Strength tested with heavy loads favours heavy training (specificity); wide CIs on safety outcomes with point estimates above 2, so 'similar safety' is absence of evidence, not equivalence; certainty rating not reported in abstract.
+topics: [frontiers/ageing, strength/load]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 18 RCTs, 1283 participants; leg press 0.95 (0.48-1.43), leg extension 0.63 (0.09-1.17); falls RR 2.68 (0.65-11.11) and adverse events RR 2.42 (0.66-8.88) added. 'Similar safety' rests on non-significance with point estimates above 2. | Earlier check (chapter 11 literature researcher): no notes"

@@ -1,0 +1,56 @@
+id: pelland-2026-volume-frequency
+title: 'The Resistance Training Dose Response: Meta-Regressions Exploring the Effects of Weekly Volume and Frequency on Muscle Hypertrophy and Strength Gains'
+authors: [Pelland JC, Remmert JF, Robinson ZP, Hinson SR, Zourdos MC]
+year: 2026
+venue: Sports Medicine 56(2):481-505
+doi: 10.1007/s40279-025-02344-w
+pmid: '41343037'
+url: https://pubmed.ncbi.nlm.nih.gov/41343037/
+design: meta-analysis
+population: Healthy adults, 79.1% male, mean age 25.2 y; 28 studies untrained and 39 trained; interventions 10.4 +/- 4.5 wk
+sample: {studies: 67, participants: 2058}
+read_level: full-text
+findings:
+- claim: Using 'fractional' set counting (indirect/synergist sets = 0.5), more weekly sets per muscle produced more hypertrophy, with diminishing returns (square-root best-fit model) and no clear plateau within the observed range.
+  effect: Marginal slope 0.24% per additional fractional weekly set (95% CrI 0.15 to 0.33) at the mean of ~12.25 sets; posterior probability slope > 0 = 100%; 35 studies, 220 effects, 1032 participants; R2 marginal 22.3%
+  grade: established
+- claim: More weekly sets produced more strength, but with much stronger diminishing returns (reciprocal model) and a functional plateau at low volumes.
+  effect: Marginal slope 0.21% per additional fractional weekly set (95% CrI 0.16 to 0.26); 66 studies, 490 effects, 2020 participants; R2 marginal 26.1%
+  grade: promising
+- claim: 'Efficiency tiers for hypertrophy: a minimum effective dose of ~4 fractional sets/week, then ever more sets needed per detectable increment (SDES 2.05%), with data too sparse above ~43 sets.'
+  effect: 'MED 4 sets; 5-10 sets: ~6 extra sets per detectable gain; 11-18: ~8.5; 19-29: ~10.75; 30-42: ~12.5; 43+: unclear (Table 3)'
+  grade: promising
+- claim: 'Efficiency tiers for strength: one fractional weekly set already exceeds the smallest detectable effect (3.96%), and additional detectable increments stop at about 4 sets/week.'
+  effect: 'MED 1 set; 2 sets: ~0.75 extra set per detectable gain; 3-4 sets: ~2.25; 5+: additional sets do not consistently exceed SDES (Table 4)'
+  grade: promising
+- claim: With volume adjusted, frequency had a negligible and inconsistent effect on hypertrophy.
+  effect: Marginal slope 0.32% per session (95% CrI -0.14 to 0.82); posterior probability slope > 0 = 91.3%
+  grade: promising
+- claim: With volume adjusted, higher frequency increased strength gains, with diminishing returns beyond about two sessions per week.
+  effect: Marginal slope 3.27% per session (95% CrI 2.74 to 3.84); control-adjusted gain 12.72% (95% CrI 10.57 to 15.05) at 1 session/wk vs 17.32% (95% CrI 14.34 to 20.56) at 2 sessions/wk
+  grade: promising
+- claim: Counting indirect sets as half a set fitted the data better than counting them as full sets or ignoring them, for both outcomes.
+  effect: '2 x log(BF) fractional vs total: 9.48 (hypertrophy volume), 18.21 (strength volume); fractional vs direct: 10.29 and 45.96'
+  grade: promising
+- claim: Both hypertrophy and strength rose with weekly set volume, but strength showed much more pronounced diminishing returns, so the two outcomes have different dose-response curves.
+  effect: posterior probability of positive volume slope 100% for both; diminishing returns stronger for strength
+  grade: promising
+- claim: Frequency (volume-adjusted) had identifiable effects on strength but not on hypertrophy, consistent with a practice (skill) component of strength.
+  effect: posterior probability of positive frequency slope 100% for strength, < 100% for hypertrophy
+  grade: promising
+limitations:
+- Meta-regression of mostly between-study variation; dose effects are associational, and models explained only ~22-26% of variance (marginal R2).
+- Short interventions (mean 10.4 wk), median 10.5 fractional sets/wk for hypertrophy and 6 for strength; few studies above ~25 sets/wk, so the upper curve is uncertain and compatible with plateau or inverted-U.
+- ~78% of effects used some 'failure' definition but only ~30% a clear momentary-failure definition; most studies did not taper before strength testing.
+- Strength 1RM tests often novel to participants, so the large effect of the first set may reflect learning; the 'fractional' 0.5 weight is a convention, not a measured value.
+- Read from the publicly posted publisher PDF (Dec 2025 online) and the SportRxiv preprint v2 (Sept 2024); numbers identical in both.
+- Bayesian meta-regression on between-study variation; authors are coaches and writers (declared).
+topics: [strength/volume, hypertrophy/volume, strength/frequency, hypertrophy/frequency, strength/minimum-dose, strength/hypertrophy-strength, strength/specificity, frontiers/frontier-trials]
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/11-frontiers.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Chapter 2 verifier re-read the abstract; consistent with record. read_level left as set by the chapter 3 check. | Prior check: verification pass 2026-11-24; Ch3 verification: marginal slopes (volume 0.24%/0.21%, frequency 0.32%/3.27%), CrIs, R2, 2xlog(BF) values, SDES 2.05%/3.96%, efficiency tiers and the 12.72% vs 17.32% frequency estimates all match both the SportRxiv preprint v2 and the published Sports Med PDF. 'Few studies have explored ~25+ fractional weekly sets' is in the paper. Frequency models are volume-adjusted (statistical), not volume-equated. The authors present the frequency-strength result as building on Grgic 2018, 'instead of necessarily different findings', not as a contradiction. | Earlier check by chapter 3 literature researcher: Numbers checked against publisher PDF Tables 3-4 and Sections 3.5-3.6; ~31 fractional sets/wk PUOS for hypertrophy is from the OSF supplement as quoted by Remmert 2025, not the paper itself. Chapter 2 researcher read this at abstract level. | Chapter 11 researcher added frontiers findings/topics and cited_in."

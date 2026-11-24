@@ -1,0 +1,20 @@
+id: bosquet-2007-taper
+title: 'Effects of tapering on performance: a meta-analysis'
+authors: [Bosquet L, Montpetit J, Arvisais D, Mujika I]
+year: 2007
+venue: Medicine and Science in Sports and Exercise 39(8):1358-1365
+doi: 10.1249/mss.0b013e31806010e0
+pmid: '17762369'
+url: https://pubmed.ncbi.nlm.nih.gov/17762369/
+design: meta-analysis
+population: Competitive (mostly endurance) athletes
+sample: {studies: 27, participants: null}
+read_level: abstract
+findings:
+- claim: The most effective taper was ~2 weeks with volume reduced exponentially by 41-60% while keeping intensity and frequency.
+  effect: 2-wk duration effect 0.59 +/- 0.33; 41-60% volume cut 0.72 +/- 0.36; intensity unchanged 0.33 +/- 0.14; frequency unchanged 0.35 +/- 0.17
+  grade: established
+limitations: ['Endurance sports (swimming, running, cycling); transfer to maximal strength is an extrapolation.']
+topics: [programming/taper]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

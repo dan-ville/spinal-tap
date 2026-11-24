@@ -1,0 +1,52 @@
+id: cuthbert-2020-nordic-volume
+title: 'The Effect of Nordic Hamstring Exercise Intervention Volume on Eccentric Strength and Muscle Architecture
+  Adaptations: A Systematic Review and Meta-analyses'
+authors:
+- Cuthbert M
+- Ripley N
+- McMahon JJ
+- Evans M
+- Haff GG
+- Comfort P
+year: 2020
+venue: Sports Med 50(1):83-99
+doi: 10.1007/s40279-019-01178-7
+pmid: '31502142'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6942028/
+design: meta-analysis
+population: 'Mixed: recreationally active, amateur and professional athletes; NHE interventions >= 4 wk with biceps
+  femoris architecture measured'
+sample:
+  studies: 13
+  participants: null
+read_level: full-text
+findings:
+- claim: Within-group pre-post effects of Nordic hamstring training on eccentric strength and biceps femoris long-head
+    fascicle length were very large for both high and low prescribed volumes, with no volume trend.
+  effect: Eccentric strength g = 2.12 (high volume) and 2.28 (low volume); fascicle length g >= 2.58; pennation angle
+    reduction g >= 1.31; I2 = 62.49% (strength), 88.03% (architecture)
+  grade: contested
+- claim: A minimum intervention of about 6 weeks appeared necessary; 4-week programmes produced trivial to small changes.
+  effect: 4-wk studies trivial-small pre-post ES; large-very large only at >= 6 wk (descriptive)
+  grade: speculative
+limitations:
+- Effect sizes are within-group pre-post Hedges' g, not controlled between-group effects, so they are inflated relative
+  to controlled estimates.
+- Pooled architecture regardless of fascicle-length method (trigonometric estimation, manual extrapolation, panoramic);
+  Yagiz 2021 shows the method drives the effect size.
+- Mean TESTEX score 6/15; publication bias assessed only with fail-safe N; formally criticised in a published comment
+  (Alt et al. 2020, PMID 31820377).
+- 'Authorship: Cuthbert is first author; McMahon JJ (not G) is third author. The round-0 attribution to ''McMahon
+  et al.'' was wrong.'
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- strength/eccentric
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC6942028) re-read; g 2.12/2.28 strength, fascicle g >= 2.58, pennation g
+    >= 1.31, I2 62.49%/88.03% confirmed; within-group pre-post effect sizes. | Prior check: chapter 7 literature researcher
+    2026-11-24;'

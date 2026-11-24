@@ -1,0 +1,21 @@
+id: seynnes-2009-patellar-tendon
+title: "Training-induced changes in structural and mechanical properties of the patellar tendon are related to muscle hypertrophy but not to strength gains"
+authors: [Seynnes OR, Erskine RM, Maganaris CN, Longo S, Simoneau EM, Grosset JF, Narici MV]
+year: 2009
+venue: "J Appl Physiol 107(2):523-530"
+doi: "10.1152/japplphysiol.00213.2009"
+pmid: "19478195"
+url: https://pubmed.ncbi.nlm.nih.gov/19478195/
+design: cohort
+population: "Healthy young men; 9 wk knee-extension resistance training"
+sample: {studies: null, participants: 15}
+read_level: abstract
+findings:
+  - claim: "Nine weeks of heavy knee-extension training increased patellar tendon stiffness and modulus; tendon changes correlated with muscle hypertrophy, not strength gain."
+    effect: "Stiffness +24% (P<0.001), modulus +20% (P<0.01); PCSA change vs stiffness r=0.68, vs modulus r=0.75"
+    grade: promising
+limitations:
+  - "Single group, n=15, untrained men."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

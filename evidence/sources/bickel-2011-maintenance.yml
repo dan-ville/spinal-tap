@@ -1,0 +1,27 @@
+id: bickel-2011-maintenance
+title: Exercise dosing to retain resistance training adaptations in young and older adults
+authors: [Bickel CS, Cross JM, Bamman MM]
+year: 2011
+venue: Medicine and Science in Sports and Exercise 43(7):1177-1187
+doi: 10.1249/MSS.0b013e318207c15d
+pmid: '21131862'
+url: https://pubmed.ncbi.nlm.nih.gov/21131862/
+design: rct
+population: Young (20-35 y) and older (60-75 y) adults; 16 wk RT 3x/wk then 32 wk of detraining or 1/3 or 1/9 dose
+sample: {studies: null, participants: 70}
+read_level: abstract
+findings:
+- claim: In young adults, one-ninth of the original training dose preserved the hypertrophy gained over 32 weeks; older adults needed more.
+  effect: Both 1/3 and 1/9 doses preserved phase-1 hypertrophy in young but not old; 1/3 dose produced further myofibre hypertrophy in young
+  grade: promising
+- claim: Strength gained was largely retained even during complete detraining.
+  effect: Strength largely retained throughout detraining, with only slight reduction at the final time point
+  grade: promising
+limitations:
+- Previously untrained participants with only 16 weeks of training; 1/9 dose was 1 session/wk at reduced sets with load maintained.
+topics: [strength/maintenance, hypertrophy/maintenance]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 70 adults; both 1/3 and 1/9 doses preserved hypertrophy in young but not old; strength largely retained even with detraining, and older adults' strength was well preserved. Confirmed. The abstract does not spell out the 1/9 prescription. | Earlier check by chapter 3 literature researcher"

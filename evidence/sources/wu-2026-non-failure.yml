@@ -1,0 +1,21 @@
+id: wu-2026-non-failure
+title: 'Effects of resistance training performed to repetition non-failure on exercise performance in healthy adults: a systematic review and meta-analysis'
+authors: [Wu S, Xie L, Zhao Z, Zheng X, Yin X, Hou J, Zhou K, Tang P]
+year: 2026
+venue: BMC Sports Science, Medicine and Rehabilitation 18(1):333
+doi: 10.1186/s13102-026-01861-z
+pmid: '42410632'
+url: https://pubmed.ncbi.nlm.nih.gov/42410632/
+design: meta-analysis
+population: Healthy adults in RCTs
+sample: {studies: 20, participants: 556}
+read_level: abstract
+findings:
+- claim: Non-failure training gave slightly greater dynamic strength gains than failure training, with no difference in hypertrophy, isometric strength, endurance or power.
+  effect: Dynamic strength SMD 0.24 (95% CI 0.06 to 0.42), p = 0.01, favouring non-failure
+  grade: contested
+limitations:
+- Abstract only; pairwise categorical comparison without control of volume or actual proximity; overlaps heavily with earlier meta-analyses.
+topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

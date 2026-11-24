@@ -1,0 +1,52 @@
+id: haun-2019
+title: Muscle fiber hypertrophy in response to 6 weeks of high-volume resistance training in trained young men is
+  largely attributed to sarcoplasmic hypertrophy.
+authors:
+- Haun CT
+- Vann CG
+- Osburn SC
+- Mumford PW
+- Roberson PA
+- Romero MA
+- Fox CD
+- Johnson CA
+- Parry HA
+- Kavazis AN
+- Moon JR
+- Badisa VLD
+- Mwashote BM
+- Ibeanusi V
+- Young KC
+- Roberts MD
+year: 2019
+venue: PLoS One 14(6):e0215267
+doi: 10.1371/journal.pone.0215267
+pmid: '31166954'
+url: https://pubmed.ncbi.nlm.nih.gov/31166954/
+design: other
+population: Resistance-trained young men (5 +/- 3 y); very high-volume 6-week programme
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: In 15 hypertrophic responders, fibre CSA rose 23% while actin and myosin concentrations per fibre fell about
+    30%, suggesting disproportionate sarcoplasmic expansion rather than myofibrillar accretion.
+  effect: fCSA +23%; myosin and actin about -30% (post hoc P < 0.05; ANOVA P = 0.052-0.055)
+  grade: contested
+limitations:
+- Borderline statistics; responders only; very high volume; industry gift-in-kind funding declared.
+- Implies some trained-lifter hypertrophy may add little force per unit size.
+topics:
+- strength/morphology
+- strength/hypertrophy-strength
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; +23% fCSA in the 15 selected high responders (of 30); actin/myosin
+    ~-30% only by forced post hoc tests after ANOVA p = 0.052/0.055; concentrations, not content per fibre. Confirmed.
+    | Prior check: chapter 2 researcher 2026-11-24'

@@ -1,0 +1,51 @@
+id: mattocks-2017-practice-test
+title: Practicing the Test Produces Strength Equivalent to Higher Volume Training
+authors:
+- Mattocks KT
+- Buckner SL
+- Jessee MB
+- Dankel SJ
+- Mouser JG
+- Loenneke JP
+year: 2017
+venue: Medicine and Science in Sports and Exercise 49(9):1945-1954
+doi: 10.1249/MSS.0000000000001300
+pmid: '28463902'
+url: https://pubmed.ncbi.nlm.nih.gov/28463902/
+design: rct
+population: 'Untrained adults; 8 wk knee extension and chest press: 4 sets to failure (8-12RM) vs only
+  1RM attempts'
+sample:
+  studies: null
+  participants: 38
+read_level: abstract
+findings:
+- claim: Only practising the 1RM test produced the same 1RM gains as high-volume hypertrophy training
+    despite less muscle growth.
+  effect: 1RM difference upper body -1.1 kg (90% CI -4.8 to 2.4); lower body 1.0 kg (-0.7 to 2.8); muscle
+    size change greater in HYPER at most sites
+  grade: promising
+- claim: Performing only 1RM attempts produced 1RM, isometric and isokinetic gains not different from
+    four sets to failure, despite less muscle growth.
+  effect: Between-group 1RM difference upper body -1.1 kg (90% CI -4.8 to 2.4); lower body 1.0 kg (90%
+    CI -0.7 to 2.8)
+  grade: promising
+limitations:
+- Untrained participants, 8 weeks; in trained lifters hypertrophy likely contributes more over the long
+  term.
+- Untrained people over 8 weeks, when skill dominates; ultrasound thickness; equivalence not formally
+  tested; machine exercises.
+topics:
+- strength/load
+- strength/minimum-dose
+- mechanisms/specificity
+- strength/specificity
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Chapter 2 verifier re-read the abstract; numbers confirmed. Untrained participants; 90% CIs. | Prior check: verification pass 2026-11-24; Ch3 verification: PubMed abstract re-read; 38 untrained participants, 8 wk, 1RM change not different between practising the test and 4 sets to failure, despite more growth with training. Confirmed. | Earlier check by chapter 3 literature researcher"

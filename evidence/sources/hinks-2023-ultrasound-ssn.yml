@@ -1,0 +1,37 @@
+id: hinks-2023-ultrasound-ssn
+title: Ultrasonographic measurements of fascicle length overestimate adaptations in serial sarcomere number
+authors:
+- Hinks A
+- Franchi MV
+- Power GA
+year: 2023
+venue: Exp Physiol 108(10):1308-1324
+doi: 10.1113/EP091334
+pmid: '37608723'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10988429/
+design: mechanistic
+population: 15 male Sprague-Dawley rats; 2 wk dorsiflexion casting (plantar flexors lengthened), contralateral control
+sample:
+  studies: null
+  participants: 15
+read_level: full-text
+findings:
+- claim: 'Ultrasound-measured fascicle length overstated true serial sarcomere addition: soleus fascicles appeared
+    11% longer by ultrasound but serial sarcomere number rose only 6%, and gastrocnemius ultrasound changes had no
+    sarcomere-number counterpart.'
+  effect: 'Ultrasound FL: soleus +11%, LG -12%, MG +8-11%; SSN: soleus +6%, gastrocnemii no difference; weak FL-SSN
+    correlations; overestimation about 5%'
+  grade: promising
+limitations:
+- Rat immobilisation-in-stretch model, not training; magnitude of bias in human ultrasound unknown.
+topics:
+- mobility/measurement
+- mobility/mechanisms
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC10988429) and abstract re-read; rat casting model; soleus FL +11% vs SSN
+    +6%; overestimation ~5% confirmed. | Prior check: chapter 7 literature researcher 2026-11-24;'

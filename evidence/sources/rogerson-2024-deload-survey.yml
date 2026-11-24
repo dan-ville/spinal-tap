@@ -1,0 +1,26 @@
+id: rogerson-2024-deload-survey
+title: 'Deloading Practices in Strength and Physique Sports: A Cross-sectional Survey'
+authors: [Rogerson D, Nolan D, Androulakis Korakakis P, Immonen V, Wolf M, Bell L]
+year: 2024
+venue: Sports Medicine - Open 10:26
+doi: 10.1186/s40798-024-00691-y
+pmid: '38499934'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10948666/
+design: cross-sectional
+population: Competitive strength and physique athletes (181 M, 65 F; 8.2 y RT experience)
+sample: {studies: null, participants: 246}
+read_level: full-text
+findings:
+- claim: Athletes who currently deload (an inclusion criterion) typically deload for about a week every 5-6 weeks, mostly pre-planned (sometimes combined with autoregulation), cutting volume, load and effort while keeping frequency and exercise selection.
+  effect: Deload duration 6.4 +/- 1.7 days; every 5.6 +/- 2.3 weeks; 48% added recovery modalities
+  grade: convention
+- claim: 'Deloading was common but not universal among respondents: current deload use was an inclusion criterion, and about one in nine respondents was excluded for not deloading.'
+  effect: 32 respondents excluded (18 never deloaded, 14 had stopped); 246 of 278 respondents (88%) currently deloaded
+  grade: convention
+limitations: [Convenience sample; self-report., '''All athletes deload'' is an artefact of the inclusion criteria; respondents were self-selected via online recruitment, so true prevalence is likely lower.']
+topics: [programming/deload, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text read (methods, results): n = 246, 6.4 +/- 1.7 days every 5.6 +/- 2.3 weeks confirmed; found that current deload use was an inclusion criterion (32 excluded), so the 100% prevalence in the notes is wrong. | Earlier check by chapter 4 literature researcher'

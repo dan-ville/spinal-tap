@@ -1,0 +1,27 @@
+id: mcnulty-2020-menstrual
+title: 'The Effects of Menstrual Cycle Phase on Exercise Performance in Eumenorrheic Women: A Systematic Review and Meta-Analysis'
+authors: [McNulty KL, Elliott-Sale KJ, Dolan E, Swinton PA, Ansdell P, Goodall S, Thomas K, Hicks KM]
+year: 2020
+venue: Sports Med 50(10):1813-1827
+doi: 10.1007/s40279-020-01319-3
+pmid: '32661839'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7497427/
+design: meta-analysis
+population: Eumenorrheic women 18-40 y not using hormonal contraception; endurance and strength outcomes
+sample: {studies: 78, participants: null}
+read_level: full-text
+findings:
+- claim: Exercise performance (strength and endurance pooled) may be trivially reduced in the early follicular phase compared with all other phases.
+  effect: Pairwise ES0.5 -0.06 (95% CrI -0.16 to 0.04), 51 studies; largest network contrast early vs late follicular ES0.5 -0.14 (-0.26 to -0.03); SUCRA early follicular 30% vs 53-55% for other phases
+  grade: promising
+- claim: Evidence quality was mostly low and between-study variance large, so the authors judged that no general phase-based guidelines can be formed.
+  effect: GRADE-based quality 'low' for 42% of studies
+  grade: established
+limitations:
+- Many studies did not verify phase with hormones; heterogeneous outcomes; acute performance only, not training adaptation.
+topics: [frontiers/menstrual-cycle, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text re-read; ES0.5 -0.06 (-0.16 to 0.04) pools endurance and strength outcomes (51 studies), described as trivial for both; early vs late follicular -0.14 (-0.26 to -0.03), 73 studies in NMA. Confirmed. A later, lower-quality strength-only MA (niering-2024-menstrual-strength) reports small-to-moderate phase effects. | Earlier check (chapter 11 literature researcher): no notes"

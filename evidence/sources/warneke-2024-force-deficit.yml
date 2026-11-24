@@ -1,0 +1,56 @@
+id: warneke-2024-force-deficit
+title: 'Revisiting the stretch-induced force deficit: A systematic review with multilevel meta-analysis of acute
+  effects'
+authors:
+- Warneke K
+- Lohmann LH
+year: 2024
+venue: J Sport Health Sci 13(6):805-819
+doi: 10.1016/j.jshs.2024.05.002
+pmid: '38735533'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11336295/
+design: meta-analysis
+population: 'Controlled pre-post trials of acute stretching (mostly isolated muscle groups: plantar flexors, hamstrings,
+  quadriceps); 40 male-only, 11 female-only studies'
+sample:
+  studies: 83
+  participants: 2012
+read_level: full-text
+findings:
+- claim: Static stretching produced a small loss of maximal strength versus passive controls, large when single
+    bouts lasted 60 s or more.
+  effect: ES = -0.21 (95% CI -0.39 to -0.02; reported p = 0.003), 36 studies; bouts >=60 s ES = -0.84 (-1.32 to
+    -0.37), 8 studies; bouts <60 s -0.13 (-0.32 to 0.07, n.s.); GRADE low
+  grade: promising
+- claim: Static stretching did not impair speed or athletic performance (jumping, sprinting, throwing, RFD) versus
+    passive or active controls; jump performance was, if anything, slightly better.
+  effect: Speed performance ES = 0.07 (p = 0.29), 21 studies; athletic performance 0.13 (p = 0.20); vs active controls
+    performance -0.12 (-0.35 to 0.11); RFD p = 0.39-0.99; GRADE moderate
+  grade: promising
+- claim: Compared with other warm-up or fatiguing activities, static stretching still produced a small extra loss
+    of maximal strength.
+  effect: Strength vs active controls ES = -0.25 (95% CI -0.36 to -0.13), 16 studies; bouts <60 s -0.28 (-0.41 to
+    -0.15)
+  grade: promising
+- claim: Dynamic stretching had no effect on strength and a small benefit for jumping in adults.
+  effect: Dynamic vs passive control 0.20 (-0.05 to 0.45); adult jumping 0.28 (p = 0.02), 5 studies
+  grade: promising
+limitations:
+- Mean PEDro 3.95 (poor); no allocation concealment reported in any study.
+- 'Internal inconsistencies: abstract gives jump ES 0.15 (p = 0.006) while results text gives 0.21 (p = 0.09); <60
+  s total-volume subgroup (-0.47, 7 studies) was larger than >=60 s volume (-0.18), which the authors attribute
+  to unbalanced subgroups.'
+- Isolated single-joint testing; no barbell 1RM data in lifters.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC11336295) re-read; Table 1 static force deficit -0.21 (-0.39 to -0.02) p =
+    0.003, bout >=60 s -0.84 (-1.32 to -0.37), bout <60 s -0.13 (-0.32 to 0.07), speed 0.07 (p = 0.29), jump 0.21 (p
+    = 0.09) vs abstract 0.15 (p = 0.006) confirmed, as are the internal inconsistencies flagged by the researcher. Also:
+    combined force+performance bout >=60 s -0.48 printed CI (-1.21 to -0.24) with p = 0.17 (inconsistent). Only 18 of
+    83 studies used trained participants; 6 included under-18s. | Prior check: chapter 6 literature researcher 2026-11-24;
+    Full text read; effects transcribed from results/tables.'

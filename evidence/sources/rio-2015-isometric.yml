@@ -1,0 +1,21 @@
+id: rio-2015-isometric
+title: "Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy"
+authors: [Rio E, Kidgell D, Purdam C, Gaida J, Moseley GL, Pearce AJ, Cook J]
+year: 2015
+venue: "Br J Sports Med 49(19):1277-1283"
+doi: "10.1136/bjsports-2014-094386"
+pmid: "25979840"
+url: https://pubmed.ncbi.nlm.nih.gov/25979840/
+design: crossover
+population: "Volleyball players with patellar tendinopathy; single bout isometric (5 x 45 s at 70% MVC) vs isotonic leg extension"
+sample: {studies: null, participants: 6}
+read_level: abstract
+findings:
+  - claim: "One bout of heavy isometrics nearly abolished pain on the single-leg decline squat for at least 45 min, more than isotonic exercise, and reduced cortical inhibition."
+    effect: "SLDS pain 7.0 +/- 2.04 to 0.17 +/- 0.41 (isometric) vs 6.33 +/- 2.80 to 3.75 +/- 3.28 (isotonic); mean reduction 6.8 vs 2.6/10; MVIC +18.7 +/- 7.8% after isometric"
+    grade: contested
+limitations:
+  - "n=6; single session; large effect not reproduced in larger later trials (holden-2020-isometric)."
+topics: [connective-tissue/tendinopathy-isometrics]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; n=6 volleyball players; numbers confirmed. Not replicated independently (holden-2020-isometric). | Prior check: chapter 8 literature researcher"}

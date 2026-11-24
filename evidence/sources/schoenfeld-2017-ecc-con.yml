@@ -1,0 +1,35 @@
+id: schoenfeld-2017-ecc-con
+title: 'Hypertrophic Effects of Concentric vs. Eccentric Muscle Actions: A Systematic Review and Meta-analysis.'
+authors:
+- Schoenfeld BJ
+- Ogborn DI
+- Vigotsky AD
+- Franchi MV
+- Krieger JW
+year: 2017
+venue: J Strength Cond Res 31(9):2599-2608
+doi: 10.1519/JSC.0000000000001983
+pmid: '28486337'
+url: https://pubmed.ncbi.nlm.nih.gov/28486337/
+design: meta-analysis
+population: RCTs comparing concentric and eccentric training in healthy adults, >= 6 wk
+sample:
+  studies: 15
+  participants: null
+read_level: abstract
+findings:
+- claim: Eccentric training produced a small, non-significant hypertrophy advantage over concentric training.
+  effect: ES difference 0.25 +/- 0.13 (95% CI -0.03 to 0.52; p = 0.076); mean growth 10.0% vs 6.8%
+  grade: contested
+limitations:
+- Many isokinetic protocols; eccentric conditions often used higher forces; mostly untrained.
+topics:
+- hypertrophy/contraction-type
+- hypertrophy/eccentric
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 15 studies; ES diff 0.25 +/- 0.13 (95% CI -0.03 to 0.52), p =
+    0.076; 10.0% vs 6.8%. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

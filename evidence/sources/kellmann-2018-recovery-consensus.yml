@@ -1,0 +1,21 @@
+id: kellmann-2018-recovery-consensus
+title: "Recovery and Performance in Sport: Consensus Statement"
+authors: [Kellmann M, Bertollo M, Bosquet L, Brink M, Coutts AJ, Duffield R, Erlacher D, Halson SL, Hecksteden A, Heidari J, Kallus KW, Meeusen R, Mujika I, Robazza C, Skorski S, Venter R, Beckmann J]
+year: 2018
+venue: "International Journal of Sports Physiology and Performance 13(2):240-245"
+doi: "10.1123/ijspp.2017-0759"
+pmid: "29345524"
+url: https://pubmed.ncbi.nlm.nih.gov/29345524/
+design: consensus
+population: "Expert symposium (2016) on recovery and performance"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Recovery should be monitored systematically and individualised because responses to training and recovery strategies vary between and within athletes; it is framed as the balance of stress and recovery to avoid under-recovery and overreaching."
+    effect: "Consensus framework"
+    grade: convention
+limitations:
+  - "Expert consensus; definitions and frameworks rather than effect estimates."
+topics: [recovery/framework, monitoring/fatigue]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: ""}

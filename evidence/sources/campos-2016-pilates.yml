@@ -1,0 +1,44 @@
+id: campos-2016-pilates
+title: 'Effect of the Pilates method on physical conditioning of healthy subjects: a systematic review and meta-analysis'
+authors:
+- Campos RR
+- Dias JM
+- Pereira LM
+- Obara K
+- Barreto MS
+- Silva MF
+- Mazuquin BF
+- Christofaro DG
+- Fernandes RA
+- Iversen MD
+- Cardoso JR
+year: 2016
+venue: J Sports Med Phys Fitness 56(7-8):864-873
+doi: null
+pmid: '26004043'
+url: https://pubmed.ncbi.nlm.nih.gov/26004043/
+design: meta-analysis
+population: Healthy adults; RCTs of Pilates (mat or apparatus) 2-3x/wk for 5-12 wk vs no exercise
+sample:
+  studies: 9
+  participants: null
+read_level: abstract
+findings:
+- claim: In healthy adults, Pilates improved abdominal muscular endurance versus no exercise, but the pooled flexibility
+    effect was not significant.
+  effect: Abdominal endurance MD 9.53% (95% CI 2.41 to 16.43), p = 0.009; flexibility MD 4.97 (-0.53 to 10.47), p
+    = 0.08
+  grade: promising
+limitations:
+- Nine small RCTs; no-exercise comparators; search to 2014.
+topics:
+- mobility/practitioner-systems
+- flexibility/pilates
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; flexibility MD 4.97 (-0.53 to 10.47), p = 0.08 (NS) in healthy
+    adults confirmed: contradicts a clear Pilates flexibility benefit. | Prior check: chapter 7 literature researcher
+    2026-11-24;'

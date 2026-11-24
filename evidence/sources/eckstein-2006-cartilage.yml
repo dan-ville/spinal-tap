@@ -1,0 +1,24 @@
+id: eckstein-2006-cartilage
+title: "The effects of exercise on human articular cartilage"
+authors: [Eckstein F, Hudelmaier M, Putz R]
+year: 2006
+venue: "J Anat 208(4):491-512"
+doi: "10.1111/j.1469-7580.2006.00546.x"
+pmid: "16637874"
+url: https://pubmed.ncbi.nlm.nih.gov/16637874/
+design: narrative-review
+population: "Human quantitative MRI studies of cartilage deformation and adaptation"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Human cartilage deforms little during physiological activity and recovers within about 90 minutes after loading."
+    effect: "Recovery from deformation within ~90 min (review summary)"
+    grade: promising
+  - claim: "Cartilage thins with reduced loading (immobilisation, paraplegia) but there is little evidence that increased loading thickens it; twin data suggest strong genetic control."
+    effect: "Qualitative synthesis"
+    grade: promising
+limitations:
+  - "Narrative review; pre-dates compositional MRI advances; full text not retrieved (PMC XML restricted)."
+topics: [connective-tissue/cartilage]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

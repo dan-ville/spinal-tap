@@ -1,0 +1,21 @@
+id: kalkhoven-2021-load-causal
+title: "Training Load and Injury: Causal Pathways and Future Directions"
+authors: [Kalkhoven JT, Watsford ML, Coutts AJ, Edwards WB, Impellizzeri FM]
+year: 2021
+venue: "Sports Med 51(6):1137-1150"
+doi: "10.1007/s40279-020-01413-6"
+pmid: "33400216"
+url: https://pubmed.ncbi.nlm.nih.gov/33400216/
+design: narrative-review
+population: "Conceptual review"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Injury arises through tissue-level mechanical load (fatigue damage vs repair) and psycho-physiological pathways; common internal-load metrics such as session-RPE are too far removed from tissue mechanics to predict injury reliably, and no external-load metric has been validated against tissue load."
+    effect: "Conceptual; no effect estimate"
+    grade: promising
+limitations:
+  - "Conceptual framework without new data."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

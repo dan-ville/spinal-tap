@@ -1,0 +1,35 @@
+id: gomes-2025-acute-neural
+title: Changes in H-reflex, V-wave, and contractile properties of the plantar flexors following concurrent exercise sessions-the
+  acute interference effect
+authors:
+- Gomes M
+- Gonçalves AD
+- Pezarat-Correia P
+- Mendonca GV
+year: 2025
+venue: J Appl Physiol 138(2):327-341
+doi: 10.1152/japplphysiol.00680.2024
+pmid: '39726267'
+url: https://pubmed.ncbi.nlm.nih.gov/39726267/
+design: crossover
+population: Males experienced in resistance and endurance training
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: Endurance and concurrent sessions reduced spinal motoneuron responsiveness (H-reflex) and twitch/octet contractile
+    properties, and endurance exercise reduced rate of torque development more than resistance exercise.
+  effect: Qualitative significance only in abstract
+  grade: speculative
+limitations:
+- n=10; acute; plantar flexors, which may not generalise to quadriceps or whole-body lifts.
+topics:
+- concurrent/neural
+- concurrent/explosive-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

@@ -1,0 +1,20 @@
+id: buckner-2017-gas
+title: 'The General Adaptation Syndrome: Potential misapplications to resistance exercise'
+authors: [Buckner SL, Mouser JG, Dankel SJ, Jessee MB, Mattocks KT, Loenneke JP]
+year: 2017
+venue: Journal of Science and Medicine in Sport 20(11):1015-1017
+doi: 10.1016/j.jsams.2017.02.012
+pmid: '28377133'
+url: https://pubmed.ncbi.nlm.nih.gov/28377133/
+design: narrative-review
+population: Historical review of Selye's work
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Selye's GAS described universal responses to toxic doses of noxious agents; its extrapolation to resistance exercise as the theoretical basis for periodization is loosely founded and may be inappropriate.
+  effect: Conceptual/historical argument
+  grade: contested
+limitations: [Contested by Cunanan et al. 2018 and reply.]
+topics: [programming/periodization, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

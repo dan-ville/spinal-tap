@@ -1,0 +1,42 @@
+id: kawama-2026-ecc-vs-stretch-hamstring
+title: Similar adaptation in shear moduli of the biarticular hamstring muscles after eccentric-only training and static
+  stretching
+authors:
+- Kawama R
+- Okuda Y
+- Takahashi K
+- Nakamura M
+- Wakahara T
+year: 2026
+venue: J Appl Physiol 141(2):383-399
+doi: 10.1152/japplphysiol.00026.2026
+pmid: '42420772'
+url: https://pubmed.ncbi.nlm.nih.gov/42420772/
+design: rct
+population: Healthy young men; within-subject 10 wk knee-flexor eccentric-only training (one leg) vs static stretching
+  (other leg), 3x/wk
+sample:
+  studies: null
+  participants: 11
+read_level: abstract
+findings:
+- claim: Eccentric-only training and duration-matched static stretching increased hamstring ROM and reduced biceps
+    femoris and semimembranosus shear modulus similarly, but only eccentric training also increased strength and muscle
+    volume.
+  effect: ROM increase similar across legs; local shear modulus decreased in BFlh and SM, not ST; greater MVC and
+    volume gains after eccentric (values not in abstract)
+  grade: promising
+limitations:
+- n = 11; within-subject design allows cross-education contamination; abstract-level read.
+topics:
+- mobility/eccentric-training
+- mobility/mechanisms
+- flexibility/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 11 men, within-subject, 10 wk; similar ROM and shear-modulus
+    change, greater strength and volume with eccentric confirmed. No numbers in abstract. | Prior check: chapter 7
+    literature researcher 2026-11-24;'

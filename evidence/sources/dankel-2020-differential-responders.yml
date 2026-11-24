@@ -1,0 +1,21 @@
+id: dankel-2020-differential-responders
+title: A Method to Stop Analyzing Random Error and Start Analyzing Differential Responders to Exercise
+authors: [Dankel SJ, Loenneke JP]
+year: 2020
+venue: Sports Med 50(2):231-238
+doi: 10.1007/s40279-019-01147-0
+pmid: '31254258'
+url: https://pubmed.ncbi.nlm.nih.gov/31254258/
+design: other
+population: Methodological proposal
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Percentile, SD-from-mean and cluster methods create 'responders' and 'non-responders' even without any intervention; responders should be classified only beyond random error estimated from a time-matched control group.
+  effect: Conceptual; number of differential responders proportional to the intervention:control variance ratio
+  grade: contested
+limitations:
+- The method was criticised in a published exchange (Tenan et al. comment and authors' reply, Sports Med 2020) about its statistical properties; not read here.
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

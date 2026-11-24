@@ -1,0 +1,46 @@
+id: wilson-2012-concurrent
+title: 'Concurrent training: a meta-analysis examining interference of aerobic and resistance exercises'
+authors:
+- Wilson JM
+- Marin PJ
+- Rhea MR
+- Wilson SM
+- Loenneke JP
+- Anderson JC
+year: 2012
+venue: J Strength Cond Res 26(8):2293-2307
+doi: 10.1519/JSC.0b013e31823a3e2d
+pmid: '22002517'
+url: https://pubmed.ncbi.nlm.nih.gov/22002517/
+design: meta-analysis
+population: Healthy adults in studies comparing strength vs concurrent training
+sample:
+  studies: 21
+  participants: null
+read_level: abstract
+findings:
+- claim: Pooled within-group effect sizes were lower for concurrent than strength-only training for hypertrophy, strength
+    and power, with only power significantly blunted.
+  effect: 'Mean within-group ES: hypertrophy ST 1.23, CT 0.85, ET 0.27; strength ST 1.76, CT 1.44, ET 0.78; power ST 0.91,
+    CT 0.55, ET 0.11 (power differed between all 3 groups)'
+  grade: promising
+- claim: Running, but not cycling, combined with resistance training produced significant decrements in hypertrophy and strength.
+  effect: Moderator analysis; values not in abstract
+  grade: contested
+- claim: Interference correlated with endurance frequency and duration.
+  effect: 'Correlations: frequency r -0.26 to -0.35; duration r -0.29 to -0.75 (hypertrophy, strength, power)'
+  grade: contested
+limitations:
+- 422 effect sizes from 21 studies analysed as separate within-group effects rather than controlled between-group contrasts,
+  inflating the number of effects (criticised by Schumann 2022).
+- Included fibre CSA and Wingate power as outcomes and studies without a strength-only control.
+- Correlational moderator analyses across groups are confounded by study design.
+topics:
+- concurrent/interference
+- concurrent/moderators
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; 21 studies, 422 ES, within-group ES and correlations confirmed. Full text not accessed. Schumann 2022 criticises its unit of analysis."

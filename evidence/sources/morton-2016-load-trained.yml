@@ -1,0 +1,52 @@
+id: morton-2016-load-trained
+title: Neither load nor systemic hormones determine resistance training-mediated hypertrophy or strength gains in
+  resistance-trained young men
+authors:
+- Morton RW
+- Oikawa SY
+- Wavell CG
+- Mazara N
+- McGlory C
+- Quadrilatero J
+- Baechler BL
+- Baker SK
+- Phillips SM
+year: 2016
+venue: Journal of Applied Physiology 121(1):129-138
+doi: 10.1152/japplphysiol.00154.2016
+pmid: '27174923'
+url: https://pubmed.ncbi.nlm.nih.gov/27174923/
+design: rct
+population: Resistance-trained men (23 y); 12 wk whole-body RT to volitional failure, 30-50% 1RM (20-25 reps) vs 75-90%
+  1RM (8-12 reps)
+sample:
+  studies: null
+  participants: 49
+read_level: abstract
+findings:
+- claim: In trained men training to failure, light and heavy loads produced similar lean mass and type I/II fibre
+    growth; only bench press 1RM favoured heavy loads.
+  effect: Bench press 1RM change HR 9 +/- 1 vs LR 14 +/- 1 kg (P = 0.012); no group differences in lean mass or fibre
+    CSA
+  grade: promising
+- claim: Acute post-exercise rises in systemic hormones were not related to gains in muscle or strength.
+  effect: No significant correlations between acute hormone responses and changes in strength or hypertrophy
+  grade: established
+limitations:
+- Both groups trained to failure and performed 1RM testing; DXA lean mass is an indirect hypertrophy measure.
+topics:
+- hypertrophy/load
+- strength/load
+- mechanisms/hypertrophy
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/03-dose-response.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; loads were ~30-50% 1RM (not ~30%), outcomes DXA lean mass and
+    biopsy fibre CSA (no imaging of muscle size). Confirmed. | Ch3 verification: PubMed abstract re-read; 49 trained
+    men, ~30-50% vs ~75-90% 1RM to volitional failure, 12 wk, no lean-mass or fibre-CSA difference, bench 1RM +9 +/-
+    1 vs +14 +/- 1 kg (P = 0.012) confirmed. Full text is on PMC (PMC4967245). | Earlier check by chapter 3 literature
+    researcher'

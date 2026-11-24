@@ -1,0 +1,52 @@
+id: held-2026-concurrent-umbrella
+title: 'Maximizing Adaptations in Concurrent Training: An Umbrella Review of Meta-analyses'
+authors:
+- Held S
+- Wolf L
+- Rappelt L
+- Bloch W
+- Donath L
+- Micke F
+- Geisler S
+- Isenmann E
+year: 2026
+venue: Sports Med 56(6):1489-1512
+doi: 10.1007/s40279-026-02401-y
+pmid: '41762427'
+url: https://pubmed.ncbi.nlm.nih.gov/41762427/
+design: umbrella-review
+population: Healthy, mostly recreationally trained participants; meta-analyses searched to 28 Feb 2025 (17 MAs, 144 primary
+  studies)
+sample:
+  studies: 144
+  participants: 1492
+read_level: abstract
+findings:
+- claim: Compared with resistance training alone, concurrent training produced comparable strength, power and hypertrophy
+    outcomes while improving aerobic capacity.
+  effect: CT vs RT aerobic capacity SMD 0.77 (p=0.02); strength, power, hypertrophy not significantly different (values not
+    in abstract)
+  grade: promising
+- claim: Concurrent training improved strength more than endurance training alone and aerobic capacity comparably to endurance
+    training alone.
+  effect: CT vs ET strength SMD 0.59 (p<0.001)
+  grade: established
+- claim: Training sequence had no significant effect overall, with a trend favouring resistance before endurance for strength
+    and hypertrophy.
+  effect: RT-first strength SMD 1.69 (p<0.001, reported as a trend); hypertrophy SMD 0.83 (p=0.36)
+  grade: speculative
+limitations:
+- Abstract only (paywalled); an umbrella of overlapping meta-analyses double-counts primary studies; secondary summaries report
+  the CT vs RT strength estimate is sensitive to inclusion of a single meta-analysis (0.17 to -0.12; unverified); highly trained
+  athletes scarce.
+- The reported sequence SMD 1.69 is implausibly large for an order effect and inconsistent with the 'no significant effect'
+  statement; treat with caution until the full text is checked.
+topics:
+- concurrent/interference
+- concurrent/sequence
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher - Full text not accessible; numbers from PubMed abstract. Verification pass (ch 9): Full text still not accessible (Springer paywall); abstract re-read via PubMed and matches the record. Sequence 'trend' SMD 1.69 with p<0.001 is internally inconsistent in the abstract itself; do not cite until the full text is read."

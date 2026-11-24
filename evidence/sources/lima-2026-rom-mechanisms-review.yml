@@ -1,0 +1,32 @@
+id: lima-2026-rom-mechanisms-review
+title: 'Mechanisms Influencing Maximum Joint Range of Motion and Stiffness: A Narrative Review'
+authors:
+- Lima CD
+- Blazevich AJ
+year: 2026
+venue: Sports Med 56(11):2679-2694
+doi: 10.1007/s40279-026-02491-8
+pmid: '42627476'
+url: https://pubmed.ncbi.nlm.nih.gov/42627476/
+design: narrative-review
+population: Not applicable (narrative review)
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Maximum ROM depends on sensory processing and the decision to stop a stretch as well as on tissue properties,
+    so ROM and stiffness are separate constructs; titin dominates fibre stiffness but matters less at whole-muscle level.
+  effect: Narrative synthesis; no pooled effect
+  grade: speculative
+limitations:
+- Narrative review; abstract only.
+topics:
+- flexibility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/verification/flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: record created; PubMed abstract read. Supports the notes'' point that tolerance is partly
+    built into end-ROM outcomes.'

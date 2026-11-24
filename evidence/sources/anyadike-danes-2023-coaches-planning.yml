@@ -1,0 +1,23 @@
+id: anyadike-danes-2023-coaches-planning
+title: 'Coaches'' Perceptions of Common Planning Concepts Within Training Theory: An International Survey'
+authors: [Anyadike-Danes K, Donath L, Kiely J]
+year: 2023
+venue: Sports Medicine - Open 9:109
+doi: 10.1186/s40798-023-00657-6
+pmid: '37989900'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10663426/
+design: cross-sectional
+population: Coaches worldwide (32% international level; mixed sports)
+sample: {studies: null, participants: 106}
+read_level: full-text
+findings:
+- claim: Most coaches call their planning periodization and accept goal-setting and dividing the season into periods, but only a minority endorse fixed adaptation timeframes, sequential training of capacities, or fixed targets.
+  effect: Periodization users 71%; season goal 85%; distinct periods 73-74%; general-to-specific 60%; adaptations achievable in fixed timeframes 33% agree vs 40% disagree; sequential order 37% vs 40%; single-capacity periods 29% vs 47%; fixed targets 10% of all coaches (12% of periodization users)
+  grade: convention
+limitations: [Mixed sports; survey authored by a prominent critic of periodization., 'Many coaches neither agreed nor disagreed (27% on fixed timeframes), so ''reject'' overstates the result; respondents 92% male; mixed sports (58% individual).']
+topics: [practice/surveys, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text read: 71%, 33%, 37%, 10% confirmed; added disagreement and neutral proportions and the tenets coaches do endorse. | Earlier check by chapter 4 literature researcher'

@@ -1,0 +1,35 @@
+id: osullivan-2012-eccentric-flexibility
+title: 'The effects of eccentric training on lower limb flexibility: a systematic review'
+authors:
+- O'Sullivan K
+- McAuliffe S
+- Deburca N
+year: 2012
+venue: Br J Sports Med 46(12):838-845
+doi: 10.1136/bjsports-2011-090835
+pmid: '22522590'
+url: https://pubmed.ncbi.nlm.nih.gov/22522590/
+design: systematic-review
+population: RCTs comparing eccentric training with other interventions or no intervention; ROM or fascicle length
+  outcomes
+sample:
+  studies: 6
+  participants: null
+read_level: abstract
+findings:
+- claim: All six trials, in three muscle groups, found eccentric training improved lower-limb flexibility measured
+    as joint ROM or fascicle length.
+  effect: Narrative (no pooling); 6 RCTs appraised with PEDro
+  grade: promising
+limitations:
+- Six heterogeneous trials, no meta-analysis; 'strong evidence' wording outruns the sample; superseded by diong-2022-eccentric-flexibility.
+topics:
+- mobility/eccentric-training
+- flexibility/resistance-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; 6 RCTs, no pooling; confirmed; superseded by Diong 2022. | Prior
+    check: chapter 7 literature researcher 2026-11-24;'

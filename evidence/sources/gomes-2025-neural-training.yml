@@ -1,0 +1,36 @@
+id: gomes-2025-neural-training
+title: 'Concurrent training effects on H reflex, V wave and contractile properties of the plantar flexors: insights into different
+  resistance training types'
+authors:
+- Gomes M
+- Gonçalves A
+- Pezarat-Correia P
+- Mendonca GV
+year: 2025
+venue: Eur J Appl Physiol 125(8):2279-2302
+doi: 10.1007/s00421-025-05775-5
+pmid: '40183847'
+url: https://pubmed.ncbi.nlm.nih.gov/40183847/
+design: rct
+population: Trained men; E, R, CT; 11 wk (same trial as Gomes 2025 J Sports Sci)
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: During a maximal-strength block, concurrent training blocked the RTD, EMG and V-wave gains seen with resistance training
+    alone; during a later explosive-strength block those neural measures did improve with concurrent training, though contractile
+    impairments persisted.
+  effect: Qualitative significance only in abstract
+  grade: speculative
+limitations:
+- Small; plantar flexors; same cohort reported across three papers.
+topics:
+- concurrent/neural
+- concurrent/explosive-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read. Interference in RTD/EMG/V-wave was in the FIRST (maximal-strength) block, with gains in the explosive block; plantar-flexion MVIC rose similarly in R and CT. Same cohort as Gomes 2025 J Sports Sci."

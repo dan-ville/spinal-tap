@@ -1,0 +1,45 @@
+id: hakkinen-2003-concurrent
+title: Neuromuscular adaptations during concurrent strength and endurance training versus strength training
+authors:
+- Häkkinen K
+- Alen M
+- Kraemer WJ
+- Gorostiaga E
+- Izquierdo M
+- Rusko H
+- Mikkola J
+- Häkkinen A
+- Valkeinen H
+- Kaarakainen E
+- Romu S
+- Erola V
+- Ahtiainen J
+- Paavolainen L
+year: 2003
+venue: Eur J Appl Physiol 89(1):42-52
+doi: 10.1007/s00421-002-0751-9
+pmid: '12627304'
+url: https://pubmed.ncbi.nlm.nih.gov/12627304/
+design: rct
+population: Men ~37 y, 21 wk; SE 2+2 d/wk (n=11) vs S 2 d/wk (n=16)
+sample:
+  studies: null
+  participants: 27
+read_level: abstract
+findings:
+- claim: Low-frequency concurrent training (2 strength + 2 endurance days per week) did not reduce 1RM, isometric force or
+    quadriceps CSA gains, but abolished the RFD gain and the rise in early (0-500 ms) EMG seen with strength training alone.
+  effect: 1RM +21% (S) vs +22% (SE); isometric +22% vs +21%; RFD increased only in S (p<0.01); early iEMG increased only in
+    S
+  grade: promising
+limitations:
+- Non-randomised group sizes; middle-aged previously untrained men; single site.
+topics:
+- concurrent/explosive-strength
+- concurrent/neural
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; 1RM +21% vs +22%, RFD rise in S only, early iEMG rise in S only confirmed. Middle-aged men (~38 y, from Huiberts ESM), n~11 per group, 21 wk."

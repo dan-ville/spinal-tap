@@ -1,0 +1,32 @@
+id: currier-2023-nma
+title: 'Resistance training prescription for muscle strength and hypertrophy in healthy adults: a systematic review and Bayesian network meta-analysis'
+authors: [Currier BS, Mcleod JC, Banfield L, Beyene J, Welton NJ, D'Souza AC, Keogh JAJ, Lin L, Coletta G, Yang A, Colenso-Semple L, Lau KJ, Verboom A, Phillips SM]
+year: 2023
+venue: British Journal of Sports Medicine 57(18):1211-1220
+doi: 10.1136/bjsports-2023-106807
+pmid: '37414459'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10579494/
+design: meta-analysis
+population: Healthy adults in randomised trials (elite athletes excluded); ~45% women; 12 prescriptions coded by load (>=80% vs <80% 1RM), sets (single vs multi) and frequency (1, 2, >=3/wk)
+sample: {studies: 192, participants: 5097}
+read_level: full-text
+findings:
+- claim: Every prescription beat no exercise, and heavier-load (>=80% 1RM) multi-set programmes ranked highest for strength.
+  effect: HM3 vs control SMD 1.60 (95% CrI 1.38 to 1.82); HM2 1.59 (1.28 to 1.90); LM3 1.07 (0.89 to 1.25); strength network 178 studies, n = 5097
+  grade: established
+- claim: All prescriptions produced comparable hypertrophy; the top-ranked was heavier-load, multi-set, twice weekly.
+  effect: HM2 vs control SMD 0.66 (95% CrI 0.47 to 0.85); LM3 0.50 (0.39 to 0.61); hypertrophy network 119 studies, n = 3364; only 1 of 45 between-prescription comparisons excluded zero
+  grade: established
+- claim: Between prescriptions, the only credible differences for strength were heavier-load multi-set programmes beating lighter-load programmes.
+  effect: 95% CrI excluded zero for 9/66 strength and 1/45 hypertrophy between-prescription comparisons; e.g. HM3 vs LM3 strength 0.53 (0.31 to 0.74)
+  grade: established
+limitations:
+- Coarse categories (load split only at 80% 1RM; frequency capped at >=3); proximity to failure, rest and tempo not modelled.
+- 'Risk of bias moderate-high (strength: 22% high, 67% moderate, 1% low).'
+- Excludes well-trained athletes; rankings sensitive in threshold analysis for strength (HM2 replaced HM3 in 60/65 sensitive comparisons).
+topics: [strength/load, hypertrophy/load, strength/volume, hypertrophy/volume, strength/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: Europe PMC full text re-read; HM3 1.60 (1.38-1.82), HM2 1.59 (1.28-1.90), LM3 1.07 (0.89-1.25), HM3 vs LM3 0.53 (0.31-0.74), HM2 hypertrophy 0.66 (0.47-0.85), and 1/45 hypertrophy contrasts excluding zero all confirmed. | Earlier check by chapter 3 literature researcher: Full text from Europe PMC; league table read directly."

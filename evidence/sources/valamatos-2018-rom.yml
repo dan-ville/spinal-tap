@@ -1,0 +1,40 @@
+id: valamatos-2018-rom
+title: Influence of full range of motion vs. equalized partial range of motion training on muscle architecture and
+  mechanical properties
+authors:
+- Valamatos MJ
+- Tavares F
+- Santos RM
+- Veloso AP
+- Mil-Homens P
+year: 2018
+venue: Eur J Appl Physiol 118(9):1969-1983
+doi: 10.1007/s00421-018-3932-x
+pmid: '29982844'
+url: https://pubmed.ncbi.nlm.nih.gov/29982844/
+design: rct
+population: Untrained men; within-subject isokinetic knee extension full ROM vs short-length partial ROM, time under
+  tension equalized, 15 wk
+sample:
+  studies: null
+  participants: 19
+read_level: abstract
+findings:
+- claim: Full-ROM concentric training lengthened vastus lateralis fascicles and raised specific tension, whereas short-length
+    partial ROM increased PCSA and produced angle-specific strength gains.
+  effect: 'Full ROM: fascicle length +4.9 +/- 2.0% (P < 0.001), specific tension +25.8 +/- 18.7% (P < 0.001); partial:
+    PCSA +7.8 +/- 4.0% (P < 0.001, dav = 0.6), torque-angle (strength) average +17.7 +/- 3.9% (P < 0.05)'
+  grade: promising
+limitations:
+- 11 trained participants (within-subject) plus 8 controls; isokinetic concentric training; untrained.
+topics:
+- strength/range-of-motion
+- strength/joint-angle
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read. Corrected: PCSA gain with partial ROM was +7.8 +/- 4.0%; +17.7%
+    was the torque-angle (strength) gain, not PCSA. | Prior check: chapter 7 literature researcher 2026-11-24;'

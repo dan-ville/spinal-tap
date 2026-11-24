@@ -1,0 +1,37 @@
+id: vigotsky-2018
+title: 'Methods matter: the relationship between strength and hypertrophy depends on methods of measurement
+  and analysis.'
+authors:
+- Vigotsky AD
+- Schoenfeld BJ
+- Than C
+- Brown JM
+year: 2018
+venue: PeerJ 6:e5071
+doi: 10.7717/peerj.5071
+pmid: '29967737'
+url: https://pubmed.ncbi.nlm.nih.gov/29967737/
+design: other
+population: Reanalysis of an 8-week elbow-flexor training and detraining dataset
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: The variance in strength explained by hypertrophy ranged from 0 to 24% depending on site and
+    method of size measurement and statistical model; analyses ignoring inter-individual differences may
+    underestimate the relationship.
+  effect: VAF 0-24.1%; size measures intercorrelated r = 0.326-0.945; within-individual slopes vs strength
+    gain rho = 0.36-0.55
+  grade: promising
+limitations:
+- Reanalysis of a small dataset.
+topics:
+- strength/hypertrophy-strength
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. | Prior check: chapter 2 researcher 2026-11-24"

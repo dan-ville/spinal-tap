@@ -1,0 +1,29 @@
+id: winwood-2026-taper-sr
+title: 'Tapering and Peaking in the Weight Lifting Sports: A Systematic Review of Athletes'' Self-Reported Strategies'
+authors: [Winwood PW, Travis SK, Barnes MJ, Keogh JWL, Pritchard HJ]
+year: 2026
+venue: Sports Medicine 56:3099-3123
+doi: 10.1007/s40279-026-02500-w
+pmid: '42611173'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13759568/
+design: systematic-review
+population: Adult CrossFit, Highland Games, powerlifting, strongman and weightlifting athletes in survey/interview studies; search to July 2025
+sample: {studies: 7, participants: null}
+read_level: full-text
+findings:
+- claim: Across weight-lifting sports, athletes peak volume 4-6 weeks and intensity 2-3 weeks out, then taper mainly with step tapers of 5-9 days (longer in powerlifting), cutting volume ~40-45% and stopping training 1.5-4 days before competition.
+  effect: Volume reductions 34-59% (powerlifting 50.5%, 58.9%, 41-50%; strongman 45.5%); cessation 1.5 +/- 0.6 (weightlifting) to 3.9 +/- 1.8 days (strongman)
+  grade: convention
+- claim: 'Tapering is near-universal: 99% of weightlifters and CrossFit athletes, 87% of strongman and 78% of Highland Games athletes report tapering.'
+  effect: Prevalence from included surveys
+  grade: convention
+- claim: Deadlifts are last trained heavy 6-8 days before competition, squats 5-6.5 days and bench 3-5 days.
+  effect: Pooled descriptive ranges
+  grade: convention
+limitations: ['Describes practice, not efficacy; all 7 studies cross-sectional self-report (AXIS high quality).', Prevalence range across sports is 78-99% (Highland Games 78%); powerlifting's 100% is an artefact because Travis 2021 included only tapering lifters.]
+topics: [programming/taper, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: 7 studies; step tapers 5-9 days; volume -40-45%; deadlift 6-8, squat 5-6.5, bench 3-5 days; prevalence 99% (WL, CrossFit), 87% strongman, 78% Highland Games confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (results sections).'

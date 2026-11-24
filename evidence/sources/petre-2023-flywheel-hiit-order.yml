@@ -1,0 +1,37 @@
+id: petre-2023-flywheel-hiit-order
+title: Effect of the Intrasession Exercise Order of Flywheel Resistance and High-Intensity Interval Training on Maximal Strength
+  and Power Performance in Elite Team-Sport Athletes
+authors:
+- Petré H
+- Ovendal A
+- Westblad N
+- Ten Siethoff L
+- Rosdahl H
+- Psilander N
+year: 2023
+venue: J Strength Cond Res 37(12):2389-2396
+doi: 10.1519/JSC.0000000000004556
+pmid: '37389921'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10671210/
+design: rct
+population: Elite male bandy players, 24.7 y; 7 wk, 2 sessions/wk
+sample:
+  studies: null
+  participants: 23
+read_level: full-text
+findings:
+- claim: HIIT before flywheel resistance training reduced power output during the lifting sessions but did not blunt 7-week
+    gains in isometric squat strength or jump power; RT before HIIT gave the largest strength gain.
+  effect: 'ISq: RT+HIIT ~80% (d 2.10), HIIT+RT ~40% (d 1.64), RT ~70% (d 1.67); training power RT > HIIT+RT (p=0.005)'
+  grade: speculative
+limitations:
+- n=7-8 per group; 7 weeks; flywheel training; authors suggest the order effect on training quality grew in the final weeks.
+topics:
+- concurrent/sequence
+- concurrent/athletes
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

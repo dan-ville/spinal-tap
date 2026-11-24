@@ -1,0 +1,47 @@
+id: enes-2025-tempo
+title: How Slow Should You Go? A Systematic Review With Meta-Analysis of the Effect of Resistance Training Repetition
+  Tempo on Muscle Hypertrophy.
+authors:
+- Enes A
+- Piñero A
+- Hermann T
+- Zamanzadeh A
+- Hennessy T
+- Montenegro D
+- Parnell C
+- Jia A
+- Weitzman T
+- Wolf M
+- Korakakis PA
+- Swinton PA
+- Schoenfeld BJ
+year: 2025
+venue: J Strength Cond Res 39(12):1331-1339
+doi: 10.1519/JSC.0000000000005302
+pmid: '42709703'
+url: https://pubmed.ncbi.nlm.nih.gov/42709703/
+design: meta-analysis
+population: Studies comparing slower vs faster eccentric or concentric tempos with other variables controlled
+sample:
+  studies: 14
+  participants: null
+read_level: abstract
+findings:
+- claim: Repetition tempo had minimal effect on hypertrophy; if anything faster tempos (about 1 s) were trivially
+    better than slower ones (about 3.5 s).
+  effect: Pairwise difference 0.09 (95% CrI -0.04 to 0.22) favouring faster; probability of at least a small effect
+    0.45
+  grade: promising
+limitations:
+- Few studies per subgroup; very slow tempos (> 10 s) excluded or rare.
+topics:
+- hypertrophy/contraction-type
+- hypertrophy/tempo
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 14 studies; pooled difference 0.09 (-0.04, 0.22) favouring faster;
+    slower 1.7-4.5 s (mean ~3.5 s) vs faster 0.3-2 s (mean ~1 s). Confirmed. | Prior check: chapter 5 literature researcher
+    2026-11-24'

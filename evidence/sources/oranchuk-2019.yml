@@ -1,0 +1,43 @@
+id: oranchuk-2019
+title: 'Isometric training and long-term adaptations: Effects of muscle length, intensity, and intent: A systematic
+  review.'
+authors:
+- Oranchuk DJ
+- Storey AG
+- Nelson AR
+- Cronin JB
+year: 2019
+venue: Scand J Med Sci Sports 29(4):484-503
+doi: 10.1111/sms.13375
+pmid: '30580468'
+url: https://pubmed.ncbi.nlm.nih.gov/30580468/
+design: systematic-review
+population: Isometric training studies >= 3 weeks
+sample:
+  studies: 26
+  participants: null
+read_level: abstract
+findings:
+- claim: Isometric training at long muscle lengths produced more hypertrophy and more transfer to dynamic performance
+    than short-length training; ballistic intent increased activation and rapid force more.
+  effect: Long-length hypertrophy 0.86-1.69%/week vs 0.08-0.83%/week; ballistic intent activation 1.04-10.5%/week
+    vs 1.64-5.53%/week
+  grade: promising
+limitations:
+- Systematic review without pooled estimates; few studies.
+topics:
+- strength/specificity
+- strength/joint-angle
+- hypertrophy/isometric
+- hypertrophy/muscle-length
+- mobility/end-range-isometrics
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; confirmed. | Prior check: verification pass 2026-11-24; Ch5 verification:
+    Spot check, PubMed abstract re-read; 26 outputs; long length 0.86-1.69%/wk vs short 0.08-0.83%/wk. Confirmed.
+    | Prior check: chapter 2 researcher 2026-11-24'

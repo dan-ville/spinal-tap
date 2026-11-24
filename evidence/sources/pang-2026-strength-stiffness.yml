@@ -1,0 +1,28 @@
+id: pang-2026-strength-stiffness
+title: "Do Strength and Tendon Stiffness Adapt in Parallel? A Systematic Review and Multilevel Meta-Analysis of Chronic Mechanical Loading in Healthy Humans"
+authors: [Pang K, Li Z]
+year: 2026
+venue: "J Funct Morphol Kinesiol 11(4):393"
+doi: "10.3390/jfmk11040393"
+pmid: "42924672"
+url: https://pubmed.ncbi.nlm.nih.gov/42924672/
+design: meta-analysis
+population: "Healthy or asymptomatic adolescents and adults, trained and untrained; >=4 wk loading with matched strength and tendon-stiffness outcomes"
+sample: {studies: 50, participants: null}
+read_level: full-text
+findings:
+  - claim: "Within the same cohorts, tendon stiffness rose proportionally at least as much as strength after chronic loading, on average."
+    effect: "Strength +16.12% (lnRR 0.1495, 95% CI 0.1210 to 0.1779); stiffness +24.06% (lnRR 0.2156, 0.1638 to 0.2674); contrast -0.0661 (-0.1190 to -0.0132); 70 matched units from 37 cohorts"
+    grade: promising
+  - claim: "Restricting to controlled designs attenuated the strength-stiffness contrast so its interval included zero."
+    effect: "Controlled-design and control-adjusted analyses directionally similar but CI included zero (11 cohorts)"
+    grade: contested
+  - claim: "Maximal tendon strain showed no clear change with training."
+    effect: "-4.77% (95% CI -11.45% to 2.42%)"
+    grade: speculative
+limitations:
+  - "Unregistered review; within-group estimand not control-adjusted; shared force signal between strength and stiffness measurement can create dependence."
+  - "Short interventions; cannot address multi-year mismatch in trained athletes."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13692497) re-read; numbers confirmed. Controlled-design restriction: contrast -0.0403 (-0.0974 to 0.0169), 23 cohorts. Authors state the analysis compares endpoints and 'cannot determine which tissue adapts faster'. Unregistered; includes adolescents and trained participants. | Prior check: chapter 8 literature researcher"}

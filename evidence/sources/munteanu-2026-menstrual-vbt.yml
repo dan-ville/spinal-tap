@@ -1,0 +1,27 @@
+id: munteanu-2026-menstrual-vbt
+title: The Effect of Menstrual Cycle Phase, Symptoms, Motivation, and Readiness to Perform on Resistance Training Performance
+authors: [Munteanu G, Halson SL, Huynh M, Jukic I, García-Ramos A, Fernandez F, Cowley N, Weakley J]
+year: 2026
+venue: Sports Med 56(9):2325-2339
+doi: 10.1007/s40279-026-02459-8
+pmid: '42177355'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13499881/
+design: cohort
+population: Resistance-trained eumenorrheic women 27 +/- 5 y; two supervised mesocycles (~8 wk); phase verified by urinary LH tests and serum estradiol/progesterone
+sample: {studies: null, participants: 28}
+read_level: full-text
+findings:
+- claim: Bench press and trap-bar deadlift velocities deviated from each woman's load-velocity-predicted values by only about 0.01-0.02 m/s across six cycle phases.
+  effect: Observed vs expected mean velocity differences ~0.01-0.02 m/s; significant in bench phases 1 and 5, deadlift phases 1 and 6
+  grade: promising
+- claim: Motivation to train was a significant predictor of session performance while self-rated readiness was not; the paper did not test whether motivation predicts better than cycle phase. Symptom effects were small and exercise-specific.
+  effect: Motivation beta = 0.0004 m/s per mm on a 0-100 mm VAS (p = 0.021), about 0.02 m/s across a 50-mm swing; pain +0.00065 m/s per unit (bench, p = 0.018), -0.001 per unit (deadlift, p < 0.001)
+  grade: promising
+limitations:
+- Observational within-person design; 28 women; performance not long-term adaptation; trial registered retrospectively (ACTRN12626000365369).
+topics: [frontiers/menstrual-cycle, technology/velocity-based-training]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text re-read; 28 trained women, ~0.01-0.02 m/s deviations, motivation beta 0.0004 (p = 0.021). Corrected: motivation is on a 0-100 mm VAS, so the beta is per mm (~0.02 m/s across a 50-mm swing), similar in size to the phase deviations; the paper does not test whether motivation predicts better than phase. | Earlier check (chapter 11 literature researcher): no notes"

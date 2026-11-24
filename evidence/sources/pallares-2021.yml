@@ -1,0 +1,47 @@
+id: pallares-2021
+title: 'Effects of range of motion on resistance training adaptations: A systematic review and meta-analysis.'
+authors:
+- Pallares JG
+- Hernandez-Belmonte A
+- Martinez-Cava A
+- Vetrovsky T
+- Steffl M
+- Courel-Ibanez J
+year: 2021
+venue: Scand J Med Sci Sports 31(10):1866-1881
+doi: 10.1111/sms.14006
+pmid: '34170576'
+url: https://pubmed.ncbi.nlm.nih.gov/34170576/
+design: meta-analysis
+population: Trials comparing full vs partial ROM training
+sample:
+  studies: 16
+  participants: null
+read_level: abstract
+findings:
+- claim: Full-ROM training produced greater strength gains and lower-limb hypertrophy than partial-ROM training.
+  effect: Strength ES 0.56 (P = 0.004); lower-limb hypertrophy ES 0.88 (P = 0.027); architecture ES 0.28 (NS)
+  grade: promising
+- claim: For hypertrophy, the full-ROM advantage most likely reflects that the pooled partial-ROM conditions were
+    mainly short-length partials; it does not show that full ROM beats long-length partials, and later Bayesian syntheses
+    found only trivial full-vs-partial differences.
+  effect: Lower-limb hypertrophy ES 0.88 (p = 0.027) vs wolf-2023-rom muscle size SMD 0.04 (-0.17 to 0.25)
+  grade: contested
+limitations:
+- Strength outcomes often measured at full ROM (test specificity); GRADE used but ratings not captured.
+- Later work shows lengthened partials can match full ROM (separate literature).
+- Pooled partial ROM regardless of the muscle length trained (most partials were at short lengths); conflicts with
+  later Bayesian analyses (wolf-2023-rom).
+topics:
+- strength/specificity
+- strength/range-of-motion
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 16 studies; strength ES 0.56, lower-limb hypertrophy ES 0.88
+    (p = 0.027); RVE. Confirmed. | Prior check: chapter 2 researcher 2026-11-24'

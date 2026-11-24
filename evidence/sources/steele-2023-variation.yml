@@ -1,0 +1,31 @@
+id: steele-2023-variation
+title: 'Meta-analysis of variation in sport and exercise science: Examples of application within resistance training research'
+authors: [Steele J, Fisher JP, Smith D, Schoenfeld BJ, Yang Y, Nakagawa S]
+year: 2023
+venue: J Sports Sci 41(17):1617-1634
+doi: 10.1080/02640414.2023.2286748
+pmid: '38037792'
+url: https://pubmed.ncbi.nlm.nih.gov/38037792/
+design: meta-analysis
+population: Resistance-training RCTs with non-training controls (dataset from Polito et al. 2021), mostly untrained adults
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+- claim: On absolute variance statistics, resistance-training arms showed more variance in change scores than controls, which taken alone suggests true interindividual response variation.
+  effect: Strength SD_IR 0.91 (95% CI 0.36 to 1.47), lnVR 0.9 (0.77 to 1.02); hypertrophy SD_IR 0.42 (0.33 to 0.5), lnVR 0.5 (0.4 to 0.6)
+  grade: contested
+- claim: Because change-score variance rises with the mean change, relative variation (lnCVR) is the fairer test, and on it training reduced relative variation, so the extra variance may be explained by the larger mean change alone.
+  effect: Strength lnCVR -0.61 (95% CI -0.76 to -0.47); hypertrophy lnCVR -0.45 (-0.61 to -0.29)
+  grade: contested
+- claim: Mean effects in the same dataset were large for strength and moderate for hypertrophy.
+  effect: Strength SMD 0.87 (0.77 to 0.97), ~22% gain; hypertrophy SMD 0.34 (0.29 to 0.39), ~5% gain
+  grade: established
+limitations:
+- Read as the SportRxiv preprint (version 2); published version may differ in numbers. Example analyses, not a fresh systematic search; lnCVR assumes SD proportional to mean.
+- lnCVR on change scores divides by control-arm mean changes near zero (the authors used absolute change scores), which inflates control CVs and pushes lnCVR negative almost by construction; a negative lnCVR is weak evidence against true response variation, not proof of its absence.
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: SportRxiv preprint (10.51224/SRXIV.214, download 214/707/649) re-read: SD_ir strength 0.91 (0.36 to 1.47), lnVR 0.9 (0.77 to 1.02), hypertrophy SD_ir 0.42, lnVR 0.5; lnCVR strength -0.61 (-0.76 to -0.47), hypertrophy -0.45 (-0.61 to -0.29). Confirmed. Added limitation on lnCVR with near-zero control change scores. Published J Sports Sci version not accessible. | Earlier check (chapter 11 literature researcher): no notes"

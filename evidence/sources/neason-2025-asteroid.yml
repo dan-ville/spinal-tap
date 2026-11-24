@@ -1,0 +1,21 @@
+id: neason-2025-asteroid
+title: "Running is acceptable and efficacious in adults with non-specific chronic low back pain: the ASTEROID randomised controlled trial"
+authors: [Neason C, Samanna CL, Tagliaferri SD, Belavy DL, Bowe SJ, Clarkson MJ, Craige EA, Gollan R, Main LC, Miller CT, Mitchell UH, Mundell NL, Scott D, Tait JL, Vincent GE, Owen PJ]
+year: 2025
+venue: "Br J Sports Med 59(2):99-108"
+doi: "10.1136/bjsports-2024-108245"
+pmid: "39375007"
+url: https://pubmed.ncbi.nlm.nih.gov/39375007/
+design: rct
+population: "Adults 18-45 y with non-specific chronic LBP; 12 wk digitally delivered progressive run-walk (3 x 30 min/wk) vs waitlist"
+sample: {studies: null, participants: 40}
+read_level: abstract
+findings:
+  - claim: "A progressive run-walk programme was acceptable and improved pain and disability versus waitlist; adverse events were non-serious, mostly lower-limb."
+    effect: "Pain intensity difference -19.35 (95% CI -32.01 to -6.69) points (p=0.003); adherence 70% (2.1 of 3 sessions/wk); 9 non-serious likely study-related adverse events (7 lower-limb)"
+    grade: promising
+limitations:
+  - "Clinical LBP population, not trained lifters; waitlist control; n=40."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

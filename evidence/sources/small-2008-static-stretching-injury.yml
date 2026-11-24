@@ -1,0 +1,35 @@
+id: small-2008-static-stretching-injury
+title: A systematic review into the efficacy of static stretching as part of a warm-up for the prevention of exercise-related
+  injury
+authors:
+- Small K
+- Mc Naughton L
+- Matthews M
+year: 2008
+venue: Res Sports Med 16(3):213-231
+doi: 10.1080/15438620802310784
+pmid: '18785063'
+url: https://pubmed.ncbi.nlm.nih.gov/18785063/
+design: systematic-review
+population: RCTs and CCTs of static stretching in warm-ups
+sample:
+  studies: 7
+  participants: null
+read_level: abstract
+findings:
+- claim: Moderate-to-strong evidence that routine static stretching does not reduce overall injury rates, with preliminary
+    evidence that it may reduce musculotendinous injuries.
+  effect: 4 of 4 RCTs null for all-injury; 3 of 7 studies noted fewer musculotendinous/ligament injuries
+  grade: contested
+limitations:
+- Vote counting; 7 studies.
+topics:
+- injury/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 7 studies (4 RCTs null for all-injury; 1 of 3 CCTs positive), ''preliminary
+    evidence'' for fewer musculotendinous injuries confirmed. T&F PDF behind challenge page. | Prior check: chapter 6
+    literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

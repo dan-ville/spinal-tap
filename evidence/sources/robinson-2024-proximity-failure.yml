@@ -1,0 +1,32 @@
+id: robinson-2024-proximity-failure
+title: 'Exploring the Dose-Response Relationship Between Estimated Resistance Training Proximity to Failure, Strength Gain, and Muscle Hypertrophy: A Series of Meta-Regressions'
+authors: [Robinson ZP, Pelland JC, Remmert JF, Refalo MC, Jukic I, Steele J, Zourdos MC]
+year: 2024
+venue: Sports Medicine 54(9):2209-2231
+doi: 10.1007/s40279-024-02069-2
+pmid: '38970765'
+url: https://pubmed.ncbi.nlm.nih.gov/38970765/
+design: meta-analysis
+population: Adults (27.8 +/- 12.8 y), trained and untrained; failure vs non-failure, velocity-loss and set-structure studies; 8.3 +/- 2.4 wk
+sample: {studies: 55, participants: null}
+read_level: full-text
+findings:
+- claim: Estimated repetitions in reserve (RIR) had a negligible relationship with strength gains across a wide range of proximities to failure.
+  effect: 'Strength (243 effects, 55 studies), linear-log SMC model: beta 0.003 (95% CI -0.012 to 0.018); response-ratio model beta -0.059 (95% CI -0.304 to 0.186)'
+  grade: promising
+- claim: Hypertrophy increased as sets were terminated closer to failure, roughly linearly.
+  effect: Hypertrophy (140 effects, 26 studies), SMC beta -0.019 per RIR (95% CI -0.035 to -0.004); response ratio beta -0.48% per RIR (95% CI -0.78 to -0.179)
+  grade: promising
+- claim: The proximity needed for hypertrophy may be load-dependent, with heavier loads needing less closeness to failure.
+  effect: Load x RIR interaction 'meaningful' only in a response-ratio sensitivity analysis
+  grade: speculative
+limitations:
+- RIR was estimated by the authors from intervention descriptions, not measured; models explained 12-29% of variance (marginal R2).
+- Read from SportRxiv preprint 295 (last modified Nov 2023); published-version numbers were not accessible and may differ slightly.
+- Short interventions; no tapers, so fatigue at post-test may mask strength benefits of near-failure training.
+topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: SportRxiv preprint re-read; strength best fit linear-log, beta 0.003 (-0.012 to 0.018; PI -0.675 to 0.682), 243 effects / 55 studies; hypertrophy best fit linear, beta -0.019 (-0.035 to -0.004), 140 effects / 26 studies; response-ratio -0.059 and -0.48% confirmed. Published abstract matches. RIR was estimated by the authors. | Earlier check by chapter 3 literature researcher: Preprint full text read; published abstract matches conclusions."

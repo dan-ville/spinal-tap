@@ -1,0 +1,37 @@
+id: zhang-2025-bfr-athletes
+title: 'Effects of blood flow restriction training in athletes: a systematic review and meta-analysis.'
+authors:
+- Zhang Y
+- Xu K
+- Yin M
+- Duan B
+- Kong H
+- Xie Y
+- Girard O
+year: 2025
+venue: Int J Sports Med 46(7):467-481
+doi: 10.1055/a-2537-5879
+pmid: '39933726'
+url: https://pubmed.ncbi.nlm.nih.gov/39933726/
+design: meta-analysis
+population: Athletes; BFR combined with low-intensity resistance or aerobic training
+sample:
+  studies: 16
+  participants: null
+read_level: abstract
+findings:
+- claim: In athletes, BFR with low-intensity resistance training improved strength but did not provide additional
+    gains over comparator training.
+  effect: Strength ES 0.25 (BFR + low-intensity RT); low certainty, some concerns risk of bias
+  grade: promising
+limitations:
+- Hypertrophy not a primary outcome; low evidence level.
+topics:
+- hypertrophy/bfr
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

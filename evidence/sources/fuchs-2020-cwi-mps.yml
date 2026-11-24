@@ -1,0 +1,21 @@
+id: fuchs-2020-cwi-mps
+title: "Postexercise cooling impairs muscle protein synthesis rates in recreational athletes"
+authors: [Fuchs CJ, Kouw IWK, Churchward-Venne TA, Smeets JSJ, Senden JM, van Marken Lichtenbelt WD, Verdijk LB, van Loon LJC]
+year: 2020
+venue: "Journal of Physiology 598(4):755-772"
+doi: "10.1113/JP278996"
+pmid: "31788800"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7028023/
+design: crossover
+population: "Healthy recreationally active men, 21 y; one leg cold (8 C) and one thermoneutral (30 C) for 20 min after each session; 20 g labelled milk protein; 2 wk"
+sample: {studies: null, participants: 12}
+read_level: full-text
+findings:
+  - claim: "Cooling the exercised leg reduced incorporation of dietary protein and myofibrillar protein synthesis acutely and over two weeks of training."
+    effect: "Dietary Phe incorporation 0.016 +/- 0.006 vs 0.021 +/- 0.007 MPE (P = 0.016); acute MyoPS 0.058 vs 0.072 %/h (leucine tracer, P = 0.024); 2-wk daily MyoPS 1.48 +/- 0.17 vs 1.67 +/- 0.36 %/day (P = 0.042)"
+    grade: promising
+limitations:
+  - "Within-subject limb model; men only; synthesis rates, not hypertrophy."
+topics: [recovery/cold-water-immersion, nutrition/muscle-protein-synthesis]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) and abstract re-read: 12 men (21 y), one leg 8 C vs other leg 30 C for 20 min after one session, 20 g milk protein; incorporation 0.016 vs 0.021 MPE (P = 0.016); MyoPS 0.058 vs 0.072 %/h (leucine) and 0.042 vs 0.053 (phenylalanine); 2-wk daily MyoPS 1.48 vs 1.67 %/day (P = 0.042). Confirmed."}

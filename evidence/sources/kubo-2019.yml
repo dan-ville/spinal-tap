@@ -1,0 +1,44 @@
+id: kubo-2019
+title: Effects of squat training with different depths on lower limb muscle volumes.
+authors:
+- Kubo K
+- Ikebukuro T
+- Yata H
+year: 2019
+venue: Eur J Appl Physiol 119(9):1933-1942
+doi: 10.1007/s00421-019-04181-y
+pmid: '31230110'
+url: https://pubmed.ncbi.nlm.nih.gov/31230110/
+design: rct
+population: Young men; full squat vs half squat, 10 wk, MRI
+sample:
+  studies: null
+  participants: 17
+read_level: abstract
+findings:
+- claim: Full and half squats grew the knee extensors similarly, but full squats grew the adductors and gluteus maximus
+    more; neither grew the rectus femoris or hamstrings.
+  effect: Knee extensors +4.9% vs +4.6%; adductors +6.2% vs +2.7% (p = 0.026); gluteus maximus +6.7% vs +2.2% (p =
+    0.008); RF and hamstrings no change
+  grade: promising
+- claim: Strength gains were specific to the trained depth.
+  effect: Full squat 1RM +31.8% (FST) vs +11.3% (HST); half squat 1RM +24.2% vs +32.0% (ns)
+  grade: promising
+limitations:
+- Small groups (8 and 9); untrained or recreationally active men.
+topics:
+- hypertrophy/range-of-motion
+- hypertrophy/exercise-selection
+- strength/range-of-motion
+- strength/joint-angle
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; numbers confirmed. Half-squat 1RM gain did not differ between
+    groups (24.2% vs 32.0%, p = 0.132). | Prior check: verification pass 2026-11-24; Ch5 verification: PubMed abstract
+    re-read; 17 males (8 vs 9); knee extensors +4.9 vs +4.6%; adductors +6.2 vs +2.7%; gluteus maximus +6.7 vs +2.2%;
+    RF and hamstrings unchanged. Confirmed. Note half squats also grew the glutes (+2.2%, significant). | Prior check:
+    chapter 5 literature researcher 2026-11-24'

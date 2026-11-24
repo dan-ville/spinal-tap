@@ -1,0 +1,20 @@
+id: pareja-blanco-2017-velocity-loss
+title: Effects of velocity loss during resistance training on athletic performance, strength gains and muscle adaptations
+authors: [Pareja-Blanco F, Rodríguez-Rosell D, Sánchez-Medina L, Sanchis-Moysi J, Dorado C, Mora-Custodio R, Yáñez-García JM, Morales-Alamo D, Pérez-Suárez I, Calbet JAL, González-Badillo JJ]
+year: 2017
+venue: Scandinavian Journal of Medicine and Science in Sports 27(7):724-735
+doi: 10.1111/sms.12678
+pmid: '27038416'
+url: https://pubmed.ncbi.nlm.nih.gov/27038416/
+design: rct
+population: Young men; 8 wk Smith-machine squat
+sample: {studies: null, participants: 22}
+read_level: abstract
+findings:
+- claim: Stopping sets at 20% velocity loss gave similar squat strength gains to 40% velocity loss with 40% fewer repetitions, larger jump gains, and preserved type IIX fibres; 40% gave more vastus hypertrophy.
+  effect: CMJ +9.5% (VL20) vs +3.5% (VL40), P < 0.05; similar 1RM gains; MHC IIX reduced only in VL40
+  grade: promising
+limitations: [n = 12 vs 10; Smith machine; one laboratory.]
+topics: [programming/autoregulation, strength/velocity-based-training, strength/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

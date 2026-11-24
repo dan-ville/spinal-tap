@@ -1,0 +1,41 @@
+id: muddle-2018-motor-units
+title: Effects of fatiguing, submaximal high- versus low-torque isometric exercise on motor unit recruitment and
+  firing behavior.
+authors:
+- Muddle TWD
+- Colquhoun RJ
+- Magrini MA
+- Luera MJ
+- DeFreitas JM
+- Jenkins NDM
+year: 2018
+venue: Physiol Rep 6(8):e13675
+doi: 10.14814/phy2.13675
+pmid: '29673119'
+url: https://pubmed.ncbi.nlm.nih.gov/29673119/
+design: crossover
+population: Resistance-trained men (23 y); isometric knee extension to failure at 70% vs 30% MVIC; decomposed
+  vastus lateralis surface EMG
+sample:
+  studies: null
+  participants: 18
+read_level: abstract
+findings:
+- claim: Low-torque contractions to failure recruited additional higher-threshold motor units, but high-torque
+    contractions still required larger motor units throughout, and full recruitment at low torque appeared to depend
+    on the individual.
+  effect: 4670 motor units analysed; higher-threshold units recruited in both conditions, larger units in high-torque
+    exercise; full recruitment at low torque only in some participants
+  grade: promising
+limitations:
+- Isometric, single session; surface EMG decomposition samples superficial units; no hypertrophy outcome.
+topics:
+- hypertrophy/mechanisms
+- strength/neural
+cited_in:
+- research/theses/strength-and-mobility/verification/hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: Added by Ch5 verification as evidence that fatigue-driven recruitment at low loads may be incomplete; PubMed
+    abstract read.

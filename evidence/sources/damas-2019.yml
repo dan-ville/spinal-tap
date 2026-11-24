@@ -1,0 +1,27 @@
+id: damas-2019
+title: Myofibrillar protein synthesis and muscle hypertrophy individualized responses to systematically changing resistance training variables in trained young men
+authors: [Damas F, Angleri V, Phillips SM, Witard OC, Ugrinowitsch C, Santanielo N, Soligon SD, Costa LAR, Lixandrão ME, Conceição MS, Libardi CA]
+year: 2019
+venue: J Appl Physiol (1985) 127(3):806-815
+doi: 10.1152/japplphysiol.00350.2019
+pmid: '31268828'
+url: https://pubmed.ncbi.nlm.nih.gov/31268828/
+design: rct
+population: Resistance-trained young men (26 y), within-subject unilateral design, 8 wk
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+- claim: Systematically varying load, volume, contraction type and rest did not increase hypertrophy over a standard progressive programme, and no participant benefited more from a specific protocol.
+  effect: VL CSA gain similar between legs (P>0.05) despite higher total volume and slightly higher 0-48 h MyoPS in the variable leg
+  grade: promising
+- claim: Between-subject variability was about 40-fold greater than between-leg (protocol) variability, implicating intrinsic individual factors.
+  effect: 'Between-subject CV: MyoPS 3.30%, CSA 37.8%; between-leg: MyoPS 0.08%, CSA 0.9%'
+  grade: promising
+limitations:
+- Small sample; 8 weeks; unilateral design allows some cross-limb systemic effects; men only.
+topics: [frontiers/individual-response, hypertrophy/variables]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; n = 20 trained men 26 y, 8 wk; CSA gain similar CON vs VAR; between-subject CV MyoPS 3.30%, CSA 37.8% vs between-leg 0.08%, 0.9% (about 40-fold). Confirmed. Note: no replicated period, so between-subject CV also contains measurement error. | Earlier check (chapter 11 literature researcher): no notes"

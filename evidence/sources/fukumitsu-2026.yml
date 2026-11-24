@@ -1,0 +1,40 @@
+id: fukumitsu-2026
+title: Validity and Sensitivity of Extended Field-of-View Wireless Palm-Sized Ultrasonography for Assessing Muscle
+  Hypertrophy.
+authors:
+- Fukumitsu T
+- Hashimoto Y
+- Kanbayashi S
+- Ogawa M
+- Sudo M
+- Okamoto T
+- Ando S
+year: 2026
+venue: Eur J Sport Sci 26(8):e70234
+doi: 10.1002/ejsc.70234
+pmid: '42533296'
+url: https://pubmed.ncbi.nlm.nih.gov/42533296/
+design: cohort
+population: Young adults (validity, n = 100) and men training 8 wk (sensitivity, n = 11); wireless extended-field
+  ultrasound vs MRI
+sample:
+  studies: null
+  participants: 111
+read_level: abstract
+findings:
+- claim: A palm-sized extended-field-of-view ultrasound device measured quadriceps CSA reliably and its training-induced
+    change correlated strongly with MRI.
+  effect: ICC 0.996 (men); SDC 2.35 cm2; r = 0.98 vs MRI; delta CSA r = 0.92; mean change 3.77 cm2 (5.98%) exceeded
+    SDC
+  grade: promising
+limitations:
+- Quadriceps mid-thigh only; small training cohort.
+topics:
+- hypertrophy/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; ICC 0.996, SDC 2.35 cm2 (males), change r = 0.92 vs MRI (n =
+    11, 8 wk). Confirmed. DOI corrected to 10.1002/ejsc.70234. | Prior check: chapter 5 literature researcher 2026-11-24'

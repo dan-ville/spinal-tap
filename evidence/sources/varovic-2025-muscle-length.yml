@@ -1,0 +1,56 @@
+id: varovic-2025-muscle-length
+title: Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis.
+authors:
+- Varovic D
+- Wolf M
+- Schoenfeld BJ
+- Steele J
+- Grgic J
+- Mikulic P
+year: 2025
+venue: Int J Sports Med 46(14):1027-1036
+doi: 10.1055/a-2615-4935
+pmid: '40570881'
+url: https://pubmed.ncbi.nlm.nih.gov/40570881/
+design: meta-analysis
+population: Trials manipulating mean muscle length via ROM or exercise selection with regional size measures; 11 of
+  12 studies untrained
+sample:
+  studies: 12
+  participants: null
+read_level: abstract
+findings:
+- claim: Training at longer mean muscle lengths produced at most trivially more regional hypertrophy than shorter
+    lengths, with an increasing trend from proximal to distal sites and most of each posterior inside the region of
+    practical equivalence.
+  effect: SMD proximal 0.05 (95% QI -0.07 to 0.16); mid 0.07 (-0.02 to 0.15); distal 0.09 (-0.01 to 0.19); lnRR distal
+    +1.88% (-0.44% to 4.34%)
+  grade: promising
+- claim: In the preprint version, 59-83% (SMD model) and 83-97% (percentage model) of the posterior fell within the
+    equivalence region, and the average length contrast between conditions was only 21.8% of muscle length.
+  effect: 'Preprint (SportRxiv, Oct 2024) full text: % within ROPE 82.7 / 77.7 / 59.0 at 25/50/75% sites (SMD model)'
+  grade: promising
+limitations:
+- Average contrast in mean muscle length small (21.8%); only one trained-participant study; 184 effects from 22 arms;
+  published numbers read from abstract, ROPE detail from the preprint full text (slightly different estimates, e.g.
+  proximal SMD 0.04).
+- Effect sizes are slopes per 21.8% difference in mean muscle length; preprint v1 scaled the same model to a 50% difference
+  and reported SMD 0.10/0.15/0.20 (proximal/mid/distal), with distal probability of a meaningful effect 80.75%. The
+  "trivial" result is therefore contrast-specific.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/regional
+- strength/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read (published numbers confirmed). SportRxiv preprint read in full
+    in two versions: v1 (2024-10-07) scaled the length slope to a 50% contrast and reported SMD 0.10/0.15/0.20 with
+    42.7/29.4/18.6% in ROPE; v3 (2024-10-12) rescaled to the 21.8% average contrast and reports 0.04/0.07/0.09 with
+    82.7/77.68/59.02% in ROPE. 11 of 12 studies untrained confirmed (v3). The "trivial" verdict is per 21.8% contrast;
+    larger contrasts are extrapolated to larger effects. | Prior check: chapter 5 literature researcher 2026-11-24;
+    Published numbers from PubMed abstract; ROPE percentages and included-study list from SportRxiv preprint full
+    text (doi 10.51224/SRXIV.464, version 11 Oct 2024).'

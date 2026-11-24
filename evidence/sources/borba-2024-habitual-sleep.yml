@@ -1,0 +1,22 @@
+id: borba-2024-habitual-sleep
+title: "Could a Habitual Sleep Restriction of One-two Hours Be Detrimental to the Benefits of Resistance Training?"
+authors: [Borba DA, Facundo LA, Brant VM, Costa CMA, Guerreiro RC, Narciso FV, da-Silva A, De-Mello MT]
+year: 2024
+venue: "Sleep Science 17(3):e244-e254"
+doi: "10.1055/s-0044-1787297"
+pmid: "39268337"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11390164/
+design: cohort
+population: "Previously untrained men (about 40 y) who habitually slept ~5.8 h per night (6.3 h per day) vs adequate sleepers (~7.3 h per night) and a non-training control; 16 elastic-band sessions to failure over ~5 wk"
+sample: {studies: null, participants: 36}
+read_level: full-text
+findings:
+  - claim: "A habitual shortfall of 1-2 h of sleep did not blunt short-term gains in repetitions or arm muscle area from resistance training."
+    effect: "Both training groups improved max repetitions, arm circumference and arm muscle area; no difference between short and adequate sleepers (p > 0.05)"
+    grade: speculative
+limitations:
+  - "Not randomised (groups formed by habitual sleep); 12 per group; anthropometric size measures; 16 sessions only."
+  - "Elastic-band training only; arm muscle area estimated from circumference and skinfold (Frisancho equation)."
+topics: [recovery/sleep]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Confirmed and sharpened: 36 men (12 per group), previously untrained (no regular RT or systematic exercise in the past year), mean age ~40 y; short sleepers 6:17 h total per day but 5:47 h per night (actigraphy); training was elastic-band exercise, 2 sets to failure, 16 sessions; 'arm muscle area' is an anthropometric estimate from arm circumference and triceps skinfold, not imaging. Groups formed by habitual sleep (not randomised)."}

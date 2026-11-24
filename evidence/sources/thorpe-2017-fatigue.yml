@@ -1,0 +1,21 @@
+id: thorpe-2017-fatigue
+title: "Monitoring Fatigue Status in Elite Team-Sport Athletes: Implications for Practice"
+authors: [Thorpe RT, Atkinson G, Drust B, Gregson W]
+year: 2017
+venue: "International Journal of Sports Physiology and Performance 12(Suppl 2):S227-S234"
+doi: "10.1123/ijspp.2016-0434"
+pmid: "28095065"
+url: https://pubmed.ncbi.nlm.nih.gov/28095065/
+design: narrative-review
+population: "Elite team-sport athletes"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Quick non-exhaustive tests (self-report, heart-rate indices, jumps) are promising fatigue monitors, but practitioners rarely define a minimal important change, and links to performance, injury and illness are unproven."
+    effect: "Narrative review"
+    grade: promising
+limitations:
+  - "Team sport context; no quantitative synthesis."
+topics: [monitoring/fatigue]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: self-report, HR-derived indices and to a lesser extent jumps are 'promising' quick tests in elite team sports; minimal important differences rarely adopted; links to performance, injury and illness need research. Confirmed."}

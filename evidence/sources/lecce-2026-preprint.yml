@@ -1,0 +1,44 @@
+id: lecce-2026-preprint
+title: Unilateral resistance training induces greater rate coding adaptations in high-threshold motor
+  units during maximal voluntary contractions
+authors:
+- Lecce E
+- Amoruso P
+- Del Vecchio A
+- Casolo A
+- Felici F
+- Farina D
+- Bazzucchi I
+year: 2026
+venue: bioRxiv preprint (posted 2026-07-01)
+doi: 10.64898/2026.06.26.734811
+pmid: null
+url: https://doi.org/10.64898/2026.06.26.734811
+design: preprint
+population: Adults, 4 weeks of unilateral elbow-flexor training
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Tracking motor units during maximal contractions, unilateral training increased MVC in the trained
+    limb and the untrained limb, with higher discharge rates and faster fibre conduction velocity in both
+    limbs that were strongly associated with force gains.
+  effect: trained limb +16%, untrained limb +8%; R2 > 0.7 for associations with force gains
+  grade: speculative
+- claim: Discharge-rate increases during MVCs were largest in higher-threshold (higher conduction velocity)
+    motor units.
+  effect: non-uniform adaptation across the pool, as reported in the abstract
+  grade: speculative
+limitations:
+- Not peer reviewed; sample size not stated in the abstract.
+- First method to track units during MVCs; needs replication.
+topics:
+- strength/motor-units
+- strength/cross-education
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

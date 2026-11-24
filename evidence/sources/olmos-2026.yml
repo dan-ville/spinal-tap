@@ -1,0 +1,46 @@
+id: olmos-2026
+title: Differential motor unit firing rate and hypertrophic adaptations of the vastus lateralis despite
+  similar strength increases following high-load versus combined high- and low-load resistance training
+  interventions.
+authors:
+- Olmos AA
+- Lawson DJ
+- Sontag SA
+- Richardson LD
+- Roth BL
+- Jeon S
+- Redinger AL
+- Gamache SM
+- Trevino MA
+year: 2026
+venue: Exp Brain Res 244(7):139
+doi: 10.1007/s00221-026-07334-6
+pmid: '42323749'
+url: https://pubmed.ncbi.nlm.nih.gov/42323749/
+design: other
+population: Untrained men, pseudorandomised to high-load, high+low-load or control
+sample:
+  studies: null
+  participants: 46
+read_level: abstract
+findings:
+- claim: Six weeks of high-load or combined high+low-load training produced similar 1RM and MVC gains
+    despite much larger vastus lateralis growth with the combined programme.
+  effect: mCSA +21% (H+L) vs +4% (H); similar 1RM and MVC increases
+  grade: promising
+- claim: 'Motor unit adaptations differed by programme: high-load raised firing rates of lower-threshold
+    units, whereas combined training enlarged higher-threshold unit action potentials and lowered their
+    firing rates.'
+  effect: direction of MU changes as reported in abstract
+  grade: speculative
+limitations:
+- Untrained men; pseudorandomised; 6 weeks; surface EMG decomposition at 40% MVC.
+topics:
+- strength/motor-units
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Spot check: abstract numbers confirmed (H n = 18, H+L n = 17, controls n = 11; untrained men). | Prior check: chapter 2 researcher 2026-11-24"

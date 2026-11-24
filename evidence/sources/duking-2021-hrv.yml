@@ -1,0 +1,24 @@
+id: duking-2021-hrv
+title: 'Monitoring and adapting endurance training on the basis of heart rate variability monitored by wearable technologies: A systematic review with meta-analysis'
+authors: [Düking P, Zinner C, Trabelsi K, Reed JL, Holmberg HC, Kunz P, Sperlich B]
+year: 2021
+venue: J Sci Med Sport 24(11):1180-1192
+doi: 10.1016/j.jsams.2021.04.012
+pmid: '34489178'
+url: https://pubmed.ncbi.nlm.nih.gov/34489178/
+design: meta-analysis
+population: Endurance-training studies comparing HRV-guided vs predefined training
+sample: {studies: 8, participants: 198}
+read_level: abstract
+findings:
+- claim: Wearable HRV-guided endurance training improved submaximal physiology slightly versus predefined training but not performance or VO2peak, with fewer performance non-responders.
+  effect: Submaximal g 0.296 (0.031 to 0.562); performance g 0.079 (-0.050 to 0.393); VO2peak g 0.171 (-0.213 to 0.371)
+  grade: promising
+limitations:
+- Endurance training only; fixed-effect model. Two small RCTs of HRV-guided recovery in resistance training exist (de-oliveira-2019-hrv-rt, 20 untrained young men; bittencourt-2024-hrv-rt, 21 older women), both null; none in strength-trained people.
+topics: [technology/wearables, frontiers/individual-response]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 8 studies, 198 participants; numbers confirmed. Corrected limitation: small RCTs of HRV-guided resistance training exist (both null). | Earlier check (chapter 11 literature researcher): no notes"

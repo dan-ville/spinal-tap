@@ -1,0 +1,61 @@
+id: alizadeh-2023-rt-rom
+title: 'Resistance Training Induces Improvements in Range of Motion: A Systematic Review and Meta-Analysis'
+authors:
+- Alizadeh S
+- Daneshjoo A
+- Zahiri A
+- Anvar SH
+- Goudini R
+- Hicks JP
+- Konrad A
+- Behm DG
+year: 2023
+venue: Sports Med 53(3):707-722
+doi: 10.1007/s40279-022-01804-x
+pmid: '36622555'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9935664/
+design: meta-analysis
+population: Healthy participants aged 8-79 y (mean 24 y) in controlled RT trials of 4-24 weeks with ROM outcomes
+sample:
+  studies: 55
+  participants: 2756
+read_level: full-text
+findings:
+- claim: Resistance training increased ROM moderately versus control, except body-mass-only training.
+  effect: SMD = 0.73 (95% CI 0.545 to 0.913), I2 = 74%, 52 studies; body weight -0.232 (-0.517 to 0.053, p = 0.11);
+    free weights 1.312, machines 0.957, bands 1.125, Pilates 0.695
+  grade: promising
+- claim: RT and stretch training did not differ in ROM gains, and adding stretching to RT did not add ROM beyond stretching
+    alone.
+  effect: RT vs stretching SMD = 0.084 (95% CI -0.558 to 0.725), 7 studies, I2 = 79%; RT+stretching vs stretching
+    -0.001 (-0.422 to 0.420), 4 studies
+  grade: contested
+- claim: Trained or active people gained less ROM from RT than untrained or sedentary people, but still improved.
+  effect: Trained/active 0.434 (95% CI 0.214 to 0.655) vs untrained/sedentary 1.027 (0.680 to 1.374), p = 0.005
+  grade: promising
+limitations:
+- 'Head-to-head RT vs stretching rests on 7 studies with a CI from -0.56 to 0.73: compatible with meaningful differences
+  either way.'
+- Dependent effects averaged rather than modelled; reporting bias for RT vs control (Egger p = 0.002).
+- No trial compared full vs partial ROM RT on flexibility; mechanisms are argued, not measured.
+- Untrained subgroup reported as 1.042 in abstract/text but 1.027 in Table 2; "trained or active" means weekly exercisers,
+  not trained strength athletes.
+topics:
+- flexibility/resistance-training-rom
+- flexibility/resistance-training
+- mobility/practitioner-systems
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC9935664) re-read. RT vs control 0.73 (0.545 to 0.913), RT vs stretching
+    0.084 (-0.558 to 0.725, 7 studies), body weight -0.232 (4 ES) confirmed. Trained/active 0.434 vs untrained 1.027
+    (Table 2); abstract and text give 1.042 for untrained (internal inconsistency). "Trained or active" = people exercising
+    weekly, not strength athletes. | Prior check: verification pass 2026-11-24; Ch6 verification: full text (PMC9935664)
+    re-read; 55 studies in review, 52 in main MA, ES 0.73 (0.545 to 0.913), RT vs stretching 0.084 (-0.558 to 0.725,
+    7 studies), trained/active 0.434 vs untrained/sedentary 1.027 (p = 0.005), eccentric 0.889 vs concentric (p =
+    0.521) confirmed. Equipment subgroups are small: free weights k = 3, body weight k = 4 (n.s., CI -0.517 to 0.053),
+    so ''body weight does not work'' is imprecise. ''Trained'' is pooled with ''active''. | Prior check: chapter 6
+    literature researcher 2026-11-24; Full text read; effects transcribed from results/tables.'

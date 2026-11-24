@@ -1,0 +1,22 @@
+id: xu-2024-creatine-cognition
+title: "The effects of creatine supplementation on cognitive function in adults: a systematic review and meta-analysis"
+authors: [Xu C, Bi S, Zhang W, Luo L]
+year: 2024
+venue: "Frontiers in Nutrition 11:1424972"
+doi: "10.3389/fnut.2024.1424972"
+pmid: "39070254"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11275561/
+design: meta-analysis
+population: "Adults 20.8-76.4 y, healthy and patients with specific diseases; creatine monohydrate RCTs"
+sample: {studies: 16, participants: 492}
+read_level: full-text
+findings:
+  - claim: "Creatine improved memory with moderate certainty, but not overall cognition or executive function."
+    effect: "Memory SMD 0.31 (95% CI 0.18 to 0.44), GRADE moderate; attention time SMD -0.31 (-0.58 to -0.03) and processing speed SMD -0.51 (-1.01 to -0.01), GRADE low"
+    grade: contested
+limitations:
+  - "Pools patients and healthy adults; benefits larger in those with disease; small trials."
+  - "Unit-of-analysis error: multiple non-independent subtests from the same participants pooled as independent effect sizes, inflating precision (Citherlet 2026 commentary; EFSA 2024 opinion reportedly drew no conclusions from it)."
+topics: [cognition/creatine, nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read: numbers confirmed. NEW (not in the notes): Xu 2024 has the same unit-of-analysis (double-counting) error as Prokopidis 2023: multiple non-independent memory subtests per trial were pooled as independent (Citherlet 2026 commentary, Front Nutr, PMC13105953). EFSA's 2024 opinion on a creatine-cognition health claim reportedly said no conclusions could be drawn from this meta-analysis for that reason (EFSA opinion itself not read). A 2025 corrigendum only fixed wording (attention and processing-speed paragraphs). The 'GRADE moderate' for memory should not be relied on."}

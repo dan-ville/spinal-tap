@@ -1,0 +1,23 @@
+id: colquhoun-2017-fdup
+title: Comparison of Powerlifting Performance in Trained Men Using Traditional and Flexible Daily Undulating Periodization
+authors: [Colquhoun RJ, Gai CM, Walters J, Brannon AR, Kilpatrick MW, DʼAgostino DP, Campbell BI]
+year: 2017
+venue: Journal of Strength and Conditioning Research 31(2):283-291
+doi: 10.1519/JSC.0000000000001500
+pmid: '28129275'
+url: https://pubmed.ncbi.nlm.nih.gov/28129275/
+design: rct
+population: Resistance-trained men (squat >=1.25x, bench >=1x, deadlift >=1.5x BM); 9 wk
+sample: {studies: null, participants: 25}
+read_level: abstract
+findings:
+- claim: Letting lifters choose the order of the week's DUP sessions (flexible DUP) gave the same powerlifting gains as fixed DUP.
+  effect: Total +36.8 kg FDUP vs +40.4 kg DUP; no between-group differences in strength, motivation, session RPE or satisfaction
+  grade: promising
+limitations: [Underpowered for small differences; volume and intensity ended up equal between groups.]
+topics: [programming/autoregulation, programming/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Spot check: PubMed abstract, n = 25 (14 FDUP, 11 DUP), total +36.8 vs +40.4 kg. Confirmed. | Earlier check by chapter 4 literature researcher'

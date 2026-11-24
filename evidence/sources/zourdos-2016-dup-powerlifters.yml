@@ -1,0 +1,20 @@
+id: zourdos-2016-dup-powerlifters
+title: Modified Daily Undulating Periodization Model Produces Greater Performance Than a Traditional Configuration in Powerlifters
+authors: [Zourdos MC, Jo E, Khamoui AV, Lee SR, Park BS, Ormsbee MJ, Panton LB, Contreras RJ, Kim JS]
+year: 2016
+venue: Journal of Strength and Conditioning Research 30(3):784-791
+doi: 10.1519/JSC.0000000000001165
+pmid: '26332783'
+url: https://pubmed.ncbi.nlm.nih.gov/26332783/
+design: rct
+population: Male college-aged powerlifters; 6 wk, 3x/wk
+sample: {studies: null, participants: 18}
+read_level: abstract
+findings:
+- claim: Ordering the week hypertrophy-power-strength (HPS) gave more volume and larger bench 1RM gains than hypertrophy-strength-power (HSP), suggesting session order within a microcycle matters.
+  effect: Bench 1RM greater for HPS (p <= 0.05); ES > 0.50 favouring HPS for squat and bench; no deadlift difference
+  grade: speculative
+limitations: ['n = 9 per group, 6 weeks; strength day used reps to failure so volume differed by design.']
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

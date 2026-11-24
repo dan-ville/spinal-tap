@@ -1,0 +1,21 @@
+id: aussieker-2023-collagen-mps
+title: "Collagen Protein Ingestion during Recovery from Exercise Does Not Increase Muscle Connective Protein Synthesis Rates"
+authors: [Aussieker T, Hilkens L, Holwerda AM, Fuchs CJ, Houben LHP, Senden JM, van Dijk JW, Snijders T, van Loon LJC]
+year: 2023
+venue: "Med Sci Sports Exerc 55(10):1792-1802"
+doi: "10.1249/MSS.0000000000003214"
+pmid: "37202878"
+url: https://pubmed.ncbi.nlm.nih.gov/37202878/
+design: rct
+population: "Recreational athletes (30 M, 15 F; 25 +/- 4 y); 30 g whey, 30 g collagen or placebo after resistance exercise; 5 h tracer infusion and biopsies"
+sample: {studies: null, participants: 45}
+read_level: abstract
+findings:
+  - claim: "Collagen ingestion after resistance exercise did not raise muscle connective (collagen) protein synthesis above placebo, despite raising plasma glycine and proline."
+    effect: "Muscle connective FSR 0.072 +/- 0.019 (whey), 0.068 +/- 0.017 (collagen), 0.058 +/- 0.018 %/h (placebo), P=0.09; myofibrillar FSR raised only by whey"
+    grade: promising
+limitations:
+  - "Muscle connective tissue, not tendon; 5 h window may miss the 24 h synthesis peak; collagen taken after, not before, exercise."
+topics: [connective-tissue/collagen-supplement]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

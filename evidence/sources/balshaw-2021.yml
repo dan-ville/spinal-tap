@@ -1,0 +1,38 @@
+id: balshaw-2021
+title: 'The Human Muscle Size and Strength Relationship: Effects of Architecture, Muscle Force, and Measurement
+  Location.'
+authors:
+- Balshaw TG
+- Maden-Wilkinson TM
+- Massey GJ
+- Folland JP
+year: 2021
+venue: Med Sci Sports Exerc 53(10):2140-2151
+doi: 10.1249/MSS.0000000000002691
+pmid: '33935234'
+url: https://pubmed.ncbi.nlm.nih.gov/33935234/
+design: cross-sectional
+population: Recreationally active men
+sample:
+  studies: null
+  participants: 52
+read_level: abstract
+findings:
+- claim: Between people, MRI quadriceps volume explained about 60% of the variance in isometric knee-extension
+    strength; adding architecture (effective PCSA) did not improve prediction, and single-slice ACSA depended
+    strongly on location.
+  effect: VOL r = 0.773 (59.8% variance); EFFPCSA r = 0.685; ACSAmax r = 0.697; ACSA at 65% femur r =
+    0.719 vs -0.042 to 0.633 elsewhere
+  grade: established
+limitations:
+- Cross-sectional; men only; isometric.
+- "Loughborough cohort: untrained and long-term-trained men overlap across balshaw-2021, maden-wilkinson-2020, skarabot-2021-emg, balshaw-2022, casolo-2021 and skarabot-2024; treat them as one evidence base, not independent replications."
+topics:
+- strength/hypertrophy-strength
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. The 52 recreationally active men are probably the same untrained group as in maden-wilkinson-2020. | Prior check: chapter 2 researcher 2026-11-24"

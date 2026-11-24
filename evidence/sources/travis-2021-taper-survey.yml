@@ -1,0 +1,23 @@
+id: travis-2021-taper-survey
+title: Characterizing the Tapering Practices of United States and Canadian Raw Powerlifters
+authors: [Travis SK, Pritchard HJ, Mujika I, Gentles JA, Stone MH, Bazyler CD]
+year: 2021
+venue: Journal of Strength and Conditioning Research 35(Suppl 2):S26-S35
+doi: 10.1519/JSC.0000000000004177
+pmid: '34846328'
+url: https://pubmed.ncbi.nlm.nih.gov/34846328/
+design: cross-sectional
+population: North American raw powerlifters (regional to international)
+sample: {studies: null, participants: 364}
+read_level: abstract
+findings:
+- claim: Powerlifters peak volume 5-8 weeks and intensity 2 weeks out, then use a 7-10 day step taper cutting volume 41-50%, with the last heavy squat and deadlift 7-10 days out, bench <7 days out, and full cessation ~3 days before competition.
+  effect: Final heavy lifts at 90-92.5% 1RM; complete cessation 2.8 +/- 1.1 days; lift-specific cessation deadlift 5.8, squat 4.1, bench 3.9 days
+  grade: convention
+limitations: [Self-report; only lifters who taper included.]
+topics: [programming/taper, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: n = 364; 7-10-day step taper, volume -41-50%, final heavy squat/deadlift 7-10 days out, bench <7 days, cessation 2.8 +/- 1.1 days. Confirmed. Only tapering lifters were included, so prevalence cannot be inferred. | Earlier check by chapter 4 literature researcher'

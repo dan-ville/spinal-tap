@@ -1,0 +1,40 @@
+id: morton-2011-rt-vs-stretching
+title: 'Resistance training vs. static stretching: effects on flexibility and strength'
+authors:
+- Morton SK
+- Whitehead JR
+- Brinkert RH
+- Caine DJ
+year: 2011
+venue: J Strength Cond Res 25(12):3391-3398
+doi: 10.1519/JSC.0b013e31821624aa
+pmid: '21969080'
+url: https://pubmed.ncbi.nlm.nih.gov/21969080/
+design: rct
+population: Untrained adults; 5 weeks of full-range RT or static stretching of the same muscle-joint complexes; convenience
+  control group
+sample:
+  studies: null
+  participants: 37
+read_level: abstract
+findings:
+- claim: Five weeks of full-range RT improved hamstring, hip flexion and hip extension flexibility as much as static
+    stretching, both better than control.
+  effect: No between-group difference RT vs SS (values not in abstract)
+  grade: promising
+limitations:
+- Small, untrained, 5 weeks, non-randomised control group; authors call it preliminary.
+topics:
+- flexibility/resistance-training-rom
+- flexibility/resistance-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; untrained adults, 5 wk, n = 25 randomised + 12 convenience controls;
+    confirmed. | Prior check: verification pass 2026-11-24; Ch6 verification: PubMed abstract re-read; n = 25 randomised
+    + 12 convenience controls, 5 weeks, untrained; no RT vs SS difference in hamstring, hip flexion, hip extension
+    ROM confirmed. Control group not randomised. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers
+    from PubMed/Europe PMC abstract.'

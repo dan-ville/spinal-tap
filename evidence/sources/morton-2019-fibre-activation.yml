@@ -1,0 +1,43 @@
+id: morton-2019-fibre-activation
+title: Muscle fibre activation is unaffected by load and repetition duration when resistance exercise is performed
+  to task failure.
+authors:
+- Morton RW
+- Sonne MW
+- Farias Zuniga A
+- Mohammad IYZ
+- Jones A
+- McGlory C
+- Keir PJ
+- Potvin JR
+- Phillips SM
+year: 2019
+venue: J Physiol 597(17):4601-4613
+doi: 10.1113/JP278056
+pmid: '31294822'
+url: https://pubmed.ncbi.nlm.nih.gov/31294822/
+design: crossover
+population: Recreationally trained young men; unilateral leg resistance exercise to task failure with heavier vs lighter
+  loads and normal vs long repetition duration; biopsies 1 h after
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: When sets were taken to task failure, type I and type II fibre glycogen depletion and anabolic signalling
+    did not differ between heavier and lighter loads or repetition durations, although surface EMG amplitude did.
+  effect: No between-condition differences in fibre-type glycogen depletion or signalling-protein phosphorylation;
+    EMG amplitude not related to glycogen depletion
+  grade: promising
+limitations:
+- n = 10; acute study; glycogen depletion is an indirect index of fibre recruitment; one muscle.
+topics:
+- hypertrophy/mechanisms
+- hypertrophy/load
+cited_in:
+- research/theses/strength-and-mobility/verification/hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: Added by Ch5 verification as direct evidence on the recruitment explanation of load-independent hypertrophy;
+    PubMed abstract read.

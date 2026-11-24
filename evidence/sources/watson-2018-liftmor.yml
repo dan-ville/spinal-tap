@@ -1,0 +1,22 @@
+id: watson-2018-liftmor
+title: "High-Intensity Resistance and Impact Training Improves Bone Mineral Density and Physical Function in Postmenopausal Women With Osteopenia and Osteoporosis: The LIFTMOR Randomized Controlled Trial"
+authors: [Watson SL, Weeks BK, Weis LJ, Harding AT, Horan SA, Beck BR]
+year: 2018
+venue: "J Bone Miner Res 33(2):211-220"
+doi: "10.1002/jbmr.3284"
+pmid: "28975661"
+url: https://pubmed.ncbi.nlm.nih.gov/28975661/
+design: rct
+population: "Postmenopausal women with low bone mass (65 +/- 5 y); 8 mo supervised HiRIT 2x/wk (5 sets x 5 reps at >85% 1RM, 30 min; resistance plus impact) vs home low-intensity programme"
+sample: {studies: null, participants: 101}
+read_level: abstract
+findings:
+  - claim: "Heavy, supervised resistance plus impact training increased lumbar spine and femoral neck BMD versus low-intensity exercise, with one minor adverse event."
+    effect: "LS BMD +2.9 +/- 2.8% vs -1.2 +/- 2.8% (p<0.001); FN BMD +0.3 +/- 2.6% vs -1.9 +/- 2.6% (p=0.004); FN cortical thickness +13.6% vs +6.3% (p=0.014)"
+    grade: promising
+limitations:
+  - "Older women with low bone mass, not trained adults; effects largely prevention of loss at FN; high supervision."
+  - "Single RCT (n=101) in postmenopausal women with low bone mass (65 +/- 5 y); control was home-based low-intensity exercise; erratum published 2019."
+topics: [connective-tissue/bone]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; numbers confirmed. Grade set to promising (single trial in one population) by verification pass. | Prior check: chapter 8 literature researcher"}

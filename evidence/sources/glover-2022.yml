@@ -1,0 +1,32 @@
+id: glover-2022
+title: Both Corticospinal and Reticulospinal Tracts Control Force of Contraction.
+authors:
+- Glover IS
+- Baker SN
+year: 2022
+venue: J Neurosci 42(15):3150-3164
+doi: 10.1523/JNEUROSCI.0627-21.2022
+pmid: '35241490'
+url: https://pubmed.ncbi.nlm.nih.gov/35241490/
+design: mechanistic
+population: Two female macaques; single-neuron recordings during graded-force pulls
+sample:
+  studies: null
+  participants: 2
+read_level: abstract
+findings:
+- claim: Reticular formation neurons increased firing monotonically with force, carrying a simple force
+    signal, whereas pyramidal tract neurons were heterogeneous; both tracts coded force equally well.
+  effect: Peak rate correlated with force in 21/46 RF cells (20 of 21 positive) and 43/92 PTNs (22 positive,
+    21 negative)
+  grade: speculative
+limitations:
+- Two animals; correlational single-unit data.
+topics:
+- strength/reticulospinal
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Not a training study: force coding in untrained-state monkeys. | Prior check: chapter 2 researcher 2026-11-24"

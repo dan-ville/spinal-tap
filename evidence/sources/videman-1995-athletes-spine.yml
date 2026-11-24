@@ -1,0 +1,21 @@
+id: videman-1995-athletes-spine
+title: "The long-term effects of physical loading and exercise lifestyles on back-related symptoms, disability, and spinal pathology among men"
+authors: [Videman T, Sarna S, Battie MC, Koskinen S, Gill K, Paananen H, Gibbons L]
+year: 1995
+venue: "Spine 20(6):699-709"
+doi: "10.1097/00007632-199503150-00011"
+pmid: "7604346"
+url: https://pubmed.ncbi.nlm.nih.gov/7604346/
+design: cohort
+population: "Former elite Finnish male athletes (n=937) and controls (n=620); MRI subgroups of runners, soccer players, weightlifters and shooters"
+sample: {studies: null, participants: 1557}
+read_level: abstract
+findings:
+  - claim: "Former elite weightlifters showed the most lumbar disc degeneration and bulging on MRI, yet athletes overall reported less back pain than controls and no more back-related hospitalisation or disability."
+    effect: "MRI subgroups: 19 weightlifters, 24 runners, 26 soccer, 25 shooters; degeneration greatest in weightlifters (whole lumbar spine), soccer at L4-S1; no excess in runners"
+    grade: promising
+limitations:
+  - "Historical cohort; small MRI subgroups; imaging degeneration is weakly linked to symptoms; training eras differ from modern practice."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 937 former athletes, 620 controls; MRI on 24 runners, 26 soccer, 19 weightlifters, 25 shooters; weightlifters most degeneration. Back pain was significantly lower in endurance, sprint, game sports, wrestling and boxing; the abstract does not report a significant difference for weightlifters specifically. | Prior check: chapter 8 literature researcher"}

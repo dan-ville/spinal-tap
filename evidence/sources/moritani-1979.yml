@@ -1,0 +1,33 @@
+id: moritani-1979
+title: Neural factors versus hypertrophy in the time course of muscle strength gain.
+authors:
+- Moritani T
+- deVries HA
+year: 1979
+venue: Am J Phys Med 58(3):115-130
+doi: null
+pmid: '453338'
+url: https://pubmed.ncbi.nlm.nih.gov/453338/
+design: other
+population: Young men and women; 8 weeks elbow-flexor training
+sample:
+  studies: null
+  participants: 15
+read_level: abstract
+findings:
+- claim: Neural factors accounted for most of the initial strength gain, with hypertrophy becoming the
+    dominant factor after 3-5 weeks; the untrained arm also gained strength.
+  effect: qualitative partitioning from EMG-force relationships
+  grade: contested
+limitations:
+- Indirect method (EMG/force slope) and girth-based size estimate; small sample; the classic time-course
+  model has been challenged in both directions (seynnes-2007, damas-2016, pearcey-2021).
+topics:
+- strength/time-course
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

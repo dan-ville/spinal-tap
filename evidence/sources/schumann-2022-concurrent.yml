@@ -1,0 +1,58 @@
+id: schumann-2022-concurrent
+title: 'Compatibility of Concurrent Aerobic and Strength Training for Skeletal Muscle Size and Function: An Updated Systematic
+  Review and Meta-Analysis'
+authors:
+- Schumann M
+- Feuerbacher JF
+- Sünkeler M
+- Freitag N
+- Rønnestad BR
+- Doma K
+- Lundberg TR
+year: 2022
+venue: Sports Med 52:601-612
+doi: 10.1007/s40279-021-01587-7
+pmid: '34757594'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8891239/
+design: meta-analysis
+population: Healthy adults of any age and sex; supervised concurrent training >=4 wk vs identical strength training alone
+  (590 CT, 500 ST)
+sample:
+  studies: 43
+  participants: 1090
+read_level: full-text
+findings:
+- claim: Concurrent aerobic and strength training did not blunt maximal strength gains compared with identical strength training
+    alone.
+  effect: SMD -0.06 (95% CI -0.20 to 0.09), p=0.446; 37 studies; I2 = 0%
+  grade: promising
+- claim: Concurrent training did not blunt whole-muscle hypertrophy.
+  effect: SMD -0.01 (95% CI -0.16 to 0.18), p=0.919; 15 studies; I2 = 0%
+  grade: established
+- claim: Concurrent training blunted explosive strength (jump height, RFD, leg-press power) gains.
+  effect: SMD -0.28 (95% CI -0.48 to -0.08), p=0.007; 18 studies; I2 = 35.8%
+  grade: promising
+- claim: The explosive-strength deficit was significant when the two modes were done in the same session (<=20 min apart)
+    but not when separated by >=3 h; no order effect was detected.
+  effect: Same session SMD -0.31 (95% CI -0.62 to -0.01), p=0.043; >=3 h separation n.s.
+  grade: promising
+- claim: Cycling vs running, frequency (>5 vs <5 sessions/wk), training status (untrained vs active) and age did not moderate
+    any outcome; an apparent cycling and low-frequency effect on explosive strength disappeared when one influential study
+    (Mikkola) was removed.
+  effect: Cycling explosive SMD -0.44 (95% CI -0.86 to -0.01) -> -0.27 (95% CI -0.58 to 0.04) without Mikkola
+  grade: promising
+limitations:
+- Mean PEDro 4.3/10 (medium quality), 7 low-quality studies; no GRADE rating.
+- '''Active'' lumped recreationally active with well-trained, so cannot test highly trained athletes; aerobic intensity not
+  analysable.'
+- Mostly short interventions in young men; lower-limb outcomes only.
+topics:
+- concurrent/interference
+- concurrent/moderators
+- concurrent/explosive-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Europe PMC full text re-read. Max strength SMD -0.06 (-0.20 to 0.09), 37 studies, I2 0%; explosive -0.28 (-0.48 to -0.08), 18 studies, I2 35.8% (0% without the Mikkola outlier); hypertrophy -0.01 (-0.16 to 0.18), 15 studies, I2 0%; same-session explosive -0.31 (-0.62 to -0.01), >=3 h n.s.; PEDro 4.3 all confirmed. 'Active' lumps recreational to well-trained."

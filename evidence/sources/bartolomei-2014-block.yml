@@ -1,0 +1,20 @@
+id: bartolomei-2014-block
+title: A comparison of traditional and block periodized strength training programs in trained athletes
+authors: [Bartolomei S, Hoffman JR, Merni F, Stout JR]
+year: 2014
+venue: Journal of Strength and Conditioning Research 28(4):990-997
+doi: 10.1519/JSC.0000000000000366
+pmid: '24476775'
+url: https://pubmed.ncbi.nlm.nih.gov/24476775/
+design: rct
+population: Experienced resistance-trained men; 15 wk, 4 sessions/wk, volume equated
+sample: {studies: null, participants: 24}
+read_level: abstract
+findings:
+- claim: Block periodization possibly improved upper-body maximal strength and power more than traditional periodization; no differences for lower body.
+  effect: 'MBI: likely (79.8%) greater force-power area; possible (~60%) improvement in bench strength and power; no lower-body difference'
+  grade: speculative
+limitations: [Magnitude-based inference; small sample.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

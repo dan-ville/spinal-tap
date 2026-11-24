@@ -1,0 +1,21 @@
+id: balshaw-2023-collagen-peptides
+title: "The Effect of Specific Bioactive Collagen Peptides on Tendon Remodeling during 15 wk of Lower Body Resistance Training"
+authors: [Balshaw TG, Funnell MP, McDermott EJ, Maden-Wilkinson TM, Massey GJ, Abela S, Quteishat B, Edsey M, James LJ, Folland JP]
+year: 2023
+venue: "Med Sci Sports Exerc 55(11):2083-2095"
+doi: "10.1249/MSS.0000000000003242"
+pmid: "37436929"
+url: https://pubmed.ncbi.nlm.nih.gov/37436929/
+design: rct
+population: "Young healthy recreationally active men; 15 wk lower-body resistance training 3x/wk + 15 g/d collagen peptides (n=19) or placebo (n=20); MRI tendon CSA"
+sample: {studies: null, participants: 39}
+read_level: abstract
+findings:
+  - claim: "Daily 15 g collagen peptides did not enhance any tendinous adaptation to 15 weeks of resistance training."
+    effect: "Group x time 0.365 <= P <= 0.877; patellar tendon stiffness +17.3% (CP) vs +20.9% (PLA); modulus +17.8% vs +20.6%; mean tendon CSA time effect +1.4% only"
+    grade: contested
+limitations:
+  - "Supplement not timed to the training session; recreationally active men only."
+topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 15 g/d CP (n=19) vs placebo (n=20), 15 wk lower-body RT 3x/wk, MRI CSA; no between-group differences (0.365 <= P <= 0.877); stiffness +17.3% vs +20.9%. Confirmed. Largest training trial with MRI tendon CSA; Miyamoto 2025 (n=50, MRI) is larger but had no training. | Prior check: chapter 8 literature researcher"}
