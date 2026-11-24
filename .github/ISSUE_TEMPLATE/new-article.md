@@ -11,7 +11,7 @@ labels: content
 
 **Sources** (ids from `src/content/sources/sources.yml`, or new entries with tier and licence):
 
-**Content rules check** (see CONTRIBUTING.md):
+**Content rules check** (see apps/spinal-tap/CONTRIBUTING.md):
 - [ ] No diagnosis
 - [ ] No directional preference
 - [ ] No movement labelled categorically bad
