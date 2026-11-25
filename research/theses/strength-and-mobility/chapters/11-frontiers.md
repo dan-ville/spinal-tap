@@ -255,7 +255,7 @@ outcomes.
 - Judge individual progress against the test's typical error and a smallest worthwhile change
   (**established** method).
 - Ignore genetic tests for training decisions (**established**).
-- Program women by the same principles as men (**established** for relative hypertrophy).
+- Programme women by the same principles as men (**established** for relative hypertrophy).
 - Train consistently through the menstrual cycle; adjust for symptoms and motivation, not calendar phase
   (**promising**).
 - Keep older lifters training heavy (≥70% 1RM) for strength, add volume for size, and do not stop

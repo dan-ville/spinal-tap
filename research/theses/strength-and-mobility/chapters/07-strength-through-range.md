@@ -175,7 +175,7 @@ exists. Zero-hit searches are weak evidence of absence.
 |---|---|---|---|---|
 | **FRC** (CARs, PAILs/RAILs) and its class format **Kinstretch** | Builds "usable" range and joint health [@spina-2026-frc-claims] | One single-session RCT: hip CARs raised passive internal rotation as much as static stretching (n = 28) [@head-2026-cars-vs-static]; no training trial | PAILs resemble contract–relax PNF, which matches static stretching for ROM [@konrad-2023-chronic-rom]; long-length isometrics build strength at long lengths | convention (system); speculative (CARs ≈ stretching acutely) |
 | **ATG / knees over toes** | Resilient knees, range and performance [@patrick-2024-atg-program] | One 6-week RCT of letting the knees travel forward vs blocking them in bodyweight squats: no detectable difference, but it measured neither ROM nor strength and could detect only large effects [@movahhedi-2026-knees-over-toes] | Blocking knee travel raised hip torque from near zero to about 300 N·m† and cut knee torque by about a fifth† (n = 7) [@fry-2003-knee-position]; deep and long-length loading (sections 7.2–7.4) | convention (system); promising (components) |
-| **Jefferson curl** (loaded spinal flexion) | Loaded flexibility, posterior-chain strength | One 18-person RCT of a program combining a modified Jefferson curl with straight-leg deadlifts: matched stretching for sit-and-reach (+6.6 vs +6.1 cm) and raised isometric hinge strength far more, at both 50% and 95% of hip range [@rosenfeldt-2024-rt-vs-stretch]; an EMG study in trained lifters [@yona-2026-jefferson-curl] | Full-range RT improves ROM | speculative |
+| **Jefferson curl** (loaded spinal flexion) | Loaded flexibility, posterior-chain strength | One 18-person RCT of a programme combining a modified Jefferson curl with straight-leg deadlifts: matched stretching for sit-and-reach (+6.6 vs +6.1 cm) and raised isometric hinge strength far more, at both 50% and 95% of hip range [@rosenfeldt-2024-rt-vs-stretch]; an EMG study in trained lifters [@yona-2026-jefferson-curl] | Full-range RT improves ROM | speculative |
 | **Yoga** | Flexibility and strength | Many RCTs, in older or untrained people | Older adults: flexibility g = 0.50, strength 0.45 against inactive controls [@sivaramakrishnan-2019-yoga]; the strength effect fell to borderline after publication-bias adjustment† [@guo-2026-yoga-older] | promising (flexibility, older adults); contested (strength) |
 | **Pilates** | Flexibility and core | Several small RCTs | No significant flexibility effect in healthy adults† [@campos-2016-pilates]; SMD 0.69 or 0.86 in women, depending on whether the paper's text or table is right [@bajcetic-2026-pilates-women] | contested |
 | **Animal Flow** | Mobility and strength | One RCT against inactive controls: some active ROM gains, no strength change† [@buxton-2022-qmt] | Body-weight training weak for ROM | speculative |
@@ -219,7 +219,7 @@ athletes.
 - Keep doing it: architectural gains fade within weeks of stopping (**promising**).
 - Judge mobility by active range and strength at end range in the positions your training needs, not
   by passive flexibility (**speculative**).
-- Treat named mobility systems as collections of reasonable exercises, not as proven programs; their
+- Treat named mobility systems as collections of reasonable exercises, not as proven programmes; their
   outcome claims are untested (**convention**).
 
 ## 7.10 Summary
@@ -247,8 +247,8 @@ claims are untested. Almost none of this has been studied in trained lifters.
 | 9 | Eccentric training improves ROM | established (direction) | [@diong-2022-eccentric-flexibility] [@kay-2023-eccentric-rom] |
 | 10 | Eccentric training matches stretching for ROM and adds strength | promising | [@kawama-2026-ecc-vs-stretch-hamstring] [@kay-2026-eccentric-vs-stretch] |
 | 11 | ROM gains from loading are partly neural and do not require a more compliant muscle | promising | [@kay-2024-cross-education] |
-| 12 | No training trial exists for FRC, Kinstretch, the ATG program or GMB; one acute RCT of CARs | convention (systems); speculative (CARs) | [@head-2026-cars-vs-static] |
+| 12 | No training trial exists for FRC, Kinstretch, the ATG programme or GMB; one acute RCT of CARs | convention (systems); speculative (CARs) | [@head-2026-cars-vs-static] |
 | 13 | Letting the knees travel forward vs blocking them made no detectable difference in one underpowered trial | speculative | [@movahhedi-2026-knees-over-toes] [@fry-2003-knee-position] |
-| 14 | A program including a modified Jefferson curl matched stretching for flexibility and built hinge strength across the range | speculative | [@rosenfeldt-2024-rt-vs-stretch] |
+| 14 | A programme including a modified Jefferson curl matched stretching for flexibility and built hinge strength across the range | speculative | [@rosenfeldt-2024-rt-vs-stretch] |
 | 15 | Yoga improves flexibility in older adults; its strength effect is fragile | promising (flexibility); contested (strength) | [@sivaramakrishnan-2019-yoga] [@guo-2026-yoga-older] |
 | 16 | Pilates' effect on flexibility | contested | [@campos-2016-pilates] [@bajcetic-2026-pilates-women] |

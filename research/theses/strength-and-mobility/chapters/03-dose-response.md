@@ -248,7 +248,7 @@ The verification pass graded the sceptical claim **contested**, and that is the 
 reconciliation is possible but inferential. If returns above about 10 to 20 sets per week are
 positive but small, as the square-root curve implies, trials of 10 to 15 people per group over 7 to
 12 weeks cannot detect them, and their nulls are expected. Large single-trial effects may partly
-reflect swelling (edema) or other artefacts at very high volumes; Pelland's authors judge edema
+reflect swelling (oedema) or other artefacts at very high volumes; Pelland's authors judge oedema
 unlikely to confound measurements in trained people after sessions of about eight sets, but data at
 very high volumes are lacking [@pelland-2026-volume-frequency]. And the clearest positive trial
 compared 8 with 16 sets, *below* the disputed range. The evidence fits a firm benefit from low to
@@ -732,7 +732,7 @@ lifters actually progress; the one multi-year dataset is retrospective and uncon
 [@steele-2023-minimal-dose-longitudinal].
 
 **Measurement of the outcome.** Hypertrophy is usually measured by ultrasound muscle thickness at one
-or two sites. Different measures of the same muscle can disagree [@enes-2025-set-progression], edema
+or two sites. Different measures of the same muscle can disagree [@enes-2025-set-progression], oedema
 after hard sessions is poorly characterised at high volumes, and implausibly large effects in some
 trials remain unexplained [@buckner-2023-volume-doubts]. Strength is usually a 1RM in the trained
 exercise, often unfamiliar to participants, tested repeatedly and rarely after a taper. This inflates
@@ -779,7 +779,7 @@ prior commitment to it.
 
 **The high-volume region.** Whether hypertrophy keeps rising, plateaus or turns down above about 25
 to 30 sets per muscle per week is unresolved, and the most recent trained-athlete trials at very high
-volumes are small and null. Adequately powered trials in trained lifters, with edema-controlled
+volumes are small and null. Adequately powered trials in trained lifters, with oedema-controlled
 measurement (repeated scans after several days of rest), are the single most useful next step.
 
 **Advanced lifters over long horizons.** We need dose-response data in competitive athletes over

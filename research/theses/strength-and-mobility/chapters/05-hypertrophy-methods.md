@@ -188,7 +188,7 @@ The large effects come from untrained people and short-length comparators.
   fascicle length more than short-length or concentric training [@mcmahon-2026] [@franchi-2014]
   (promising; mostly extrapolated). No study has estimated serial sarcomere number after long- vs
   short-length training [@wolf-2026-longitudinal], and the one human estimate, after Nordic
-  training, found longer sarcomeres, not more of them† [@pincheira-2022-sarcomere] (speculative).
+  training, found longer sarcomeres, not more of them [@pincheira-2022-sarcomere] (speculative).
 - **Diminishing returns.** If sarcomere addition shifts the length–tension curve, the advantage
   may shrink with training age [@pedrosa-2026-review] (speculative).
 

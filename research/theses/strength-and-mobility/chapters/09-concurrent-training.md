@@ -23,7 +23,7 @@ in the full text of the source. A **dagger (†)** marks a number read only in t
 **established**, **promising**, **contested**, **speculative** and **convention** (practitioner
 practice with no direct data). Intervals are 95% confidence intervals unless stated otherwise.
 *Concurrent training* (CT) means resistance training (RT) combined with endurance training in the
-same program. Negative effect sizes mean smaller gains with concurrent training.
+same programme. Negative effect sizes mean smaller gains with concurrent training.
 
 The population caveat runs against reassurance. The literature is dominated by untrained or
 "recreationally active" young men, 6–12-week interventions and lower-body tests. The largest

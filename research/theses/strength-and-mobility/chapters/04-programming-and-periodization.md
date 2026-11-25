@@ -66,14 +66,14 @@ reviews, concluded that the effect of periodization on strength "cannot be deter
 has no effect on hypertrophy: "with appropriate progressive overload, periodization is not
 significantly superior to nonperiodized programs" [@currier-2026-acsm-position-stand].
 
-The honest summary is a small advantage for periodized over constant programs, with no added
+The honest summary is a small advantage for periodized over constant programmes, with no added
 hypertrophy (grade: **contested**).
 
 ### 4.2.2 What the comparison actually tests
 
 Afonso and colleagues audited the 21 primary studies behind the older meta-analyses
 [@afonso-2019-periodization-meta]. Every one compared periodized training with a *constant*
-program, that is, one without planned variation. None compared it with training that varied without
+programme, that is, one without planned variation. None compared it with training that varied without
 a plan. None tested a timing prediction, such as when an adaptation should appear. Eight of the 21
 were not about periodization at all (they compared volumes, set numbers or supervision), and all
 scored at maximal risk of bias on the audit's instrument. Whether Moesgaard's comparators were of
@@ -82,7 +82,7 @@ the same kind is a reasonable inference but unverified, because its full text co
 The meta-analytic effect is therefore best read as "variation beats monotony", not "a plan beats
 flexibility" (grade: **established** for the audit's findings). Two further problems weaken the
 literature. Studies last weeks while periodization claims concern months. And the 1RM test rewards
-programs that rehearse it: periodized and undulating arms usually reach heavy, test-like loads more
+programmes that rehearse it: periodized and undulating arms usually reach heavy, test-like loads more
 often, and practising the 1RM test alone can match high-volume training for 1RM gains
 [@mattocks-2017-practice-test]†.
 
@@ -101,7 +101,7 @@ often, and practising the 1RM test alone can match high-volume training for 1RM 
 - **Block.** No meta-analysis exists for maximal strength, and the small trials conflict. A 2026
   crossover in 20 functional-fitness athletes favoured concentrated loading for deadlift 1RM
   (d = 0.85†) [@micke-2026-block-hift]. A 2023 trial favoured mixed sessions over block for bench
-  1RM [@bartolomei-2023-mixed-block]†. A larger 2026 trial (n = 80) found no program superior
+  1RM [@bartolomei-2023-mixed-block]†. A larger 2026 trial (n = 80) found no programme superior
   [@puschkasch-mock-2026-power-phase]† (grade: **speculative**).
 - **Reverse linear.** Not superior in 11 low-quality studies [@gonzalez-rave-2022-reverse] (grade:
   **promising**).
@@ -225,7 +225,7 @@ repetitions, load and effort [@rogerson-2024-deload-survey] (grade: **convention
 
 The experimental evidence is very thin:
 
-- In 39 trained adults on a high-volume program to failure, a one-week *complete break* at week 5
+- In 39 trained adults on a high-volume programme to failure, a one-week *complete break* at week 5
   did not change hypertrophy, power or endurance, and somewhat reduced lower-body strength gains
   (Smith squat −4.5 kg, credible interval −10.4 to 2.8; posterior probability 0.85 favouring
   continuous training) [@coleman-2024-deload]. The "deload" was cessation, not the reduced week
@@ -271,7 +271,7 @@ timing).
   (Grgic, Williams) or older people (Zhang 2026). Women, masters lifters and strongman athletes are
   barely studied.
 - **Comparators.** Periodization has been tested only against monotony.
-- **Test specificity.** Programs that rehearse the 1RM test are rewarded for it.
+- **Test specificity.** Programmes that rehearse the 1RM test are rewarded for it.
 - **Statistics.** Small samples, dependent effects pooled as independent, and fixed-effect models
   produce intervals that are too narrow.
 - **Survey bias.** Some prevalence figures come from samples selected for using the practice.
@@ -306,7 +306,7 @@ timing).
 
 ## 4.10 Summary
 
-Arranging training matters less than its content. Periodized programs beat constant ones by a small
+Arranging training matters less than its content. Periodized programmes beat constant ones by a small
 margin, which mostly reflects variation and test practice; no named model reliably beats another;
 and the theory behind periodization rests on outdated stress science. Autoregulation matches or
 slightly beats fixed loading, most plausibly because it keeps load and effort in step with strength.
@@ -317,9 +317,9 @@ Tapering is well supported by practice and modestly by evidence; deloads are mos
 | # | Claim | Grade | Sources |
 |---|---|---|---|
 | 1 | Periodized training gives slightly larger 1RM gains than constant training, and no extra hypertrophy | contested | [@williams-2017-periodization] [@moesgaard-2022-periodization] [@currier-2026-acsm-position-stand] |
-| 2 | The periodized vs non-periodized literature compares only against constant programs and cannot test periodization's timing claims | established | [@afonso-2019-periodization-meta] |
-| 3 | Linear and undulating programs give similar strength gains, including in trained participants | promising | [@zhang-2026-lp-up] [@harries-2015-linear-undulating] |
-| 4 | Linear and undulating programs give similar hypertrophy (evidence mostly from untrained people) | promising | [@grgic-2017-lp-dup-hypertrophy] |
+| 2 | The periodized vs non-periodized literature compares only against constant programmes and cannot test periodization's timing claims | established | [@afonso-2019-periodization-meta] |
+| 3 | Linear and undulating programmes give similar strength gains, including in trained participants | promising | [@zhang-2026-lp-up] [@harries-2015-linear-undulating] |
+| 4 | Linear and undulating programmes give similar hypertrophy (evidence mostly from untrained people) | promising | [@grgic-2017-lp-dup-hypertrophy] |
 | 5 | No meta-analysis supports block superiority; small trials conflict | speculative | [@micke-2026-block-hift] [@bartolomei-2023-mixed-block] [@puschkasch-mock-2026-power-phase] |
 | 6 | Conjugate programming has no controlled trials | convention | — |
 | 7 | Periodization's theoretical basis (general adaptation syndrome, homeostasis) is outdated | contested | [@kiely-2018-periodization] [@buckner-2017-gas] [@cunanan-2018-gas] |
