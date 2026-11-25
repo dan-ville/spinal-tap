@@ -11,7 +11,7 @@ authors:
 - Diniz RCR
 year: 2023
 venue: Sports (Basel) 11(2):39
-doi: 10.1088/1361-6579/ab516c
+doi: 10.3390/sports11020039
 pmid: '36828324'
 url: https://pubmed.ncbi.nlm.nih.gov/36828324/
 design: rct
@@ -33,6 +33,6 @@ topics:
 cited_in:
 - research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
 checked:
-  date: '2026-11-24'
-  by: chapter 5 literature researcher
-  notes: ''
+  date: '2026-11-25'
+  by: DOI fix
+  notes: 'DOI corrected from 10.1088/1361-6579/ab516c (a different paper); confirmed by PubMed, OpenAlex and Crossref. Earlier check: chapter 5 literature researcher, 2026-11-24.'
