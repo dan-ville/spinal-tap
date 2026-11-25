@@ -1,0 +1,35 @@
+id: munoz-martinez-2017-circuit
+title: 'Effectiveness of Resistance Circuit-Based Training for Maximum Oxygen Uptake and Upper-Body One-Repetition Maximum
+  Improvements: A Systematic Review and Meta-Analysis'
+authors:
+- Muñoz-Martínez FA
+- Rubio-Arias JÁ
+- Ramos-Campo DJ
+- Alcaraz PE
+year: 2017
+venue: Sports Med 47(12):2553-2568
+doi: 10.1007/s40279-017-0773-4
+pmid: '28822112'
+url: https://pubmed.ncbi.nlm.nih.gov/28822112/
+design: meta-analysis
+population: Healthy adults 18-65 y; 8 studies for VO2max (118 participants) and 8 for bench press 1RM (237)
+sample:
+  studies: 8
+  participants: null
+read_level: abstract
+findings:
+- claim: Resistance circuit training increased VO2max and bench-press 1RM versus controls; large VO2max effects needed ~14-30
+    sessions over 6-12 weeks, >=20-30 min per session at ~60-90% 1RM.
+  effect: Significant increases vs control (pooled values not in abstract)
+  grade: promising
+limitations:
+- Eight studies per outcome; mostly untrained adults; compared with no-exercise controls, not with dedicated aerobic training.
+topics:
+- conditioning/circuit
+- conditioning/aerobic
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; 14-30 sessions, 6-12 wk, >=20-30 min, ~60-90% 1RM for VO2max confirmed; healthy adults 18-65, largely untrained."

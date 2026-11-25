@@ -1,0 +1,40 @@
+id: folland-2007
+title: 'The adaptations to strength training: morphological and neurological contributions to increased
+  strength.'
+authors:
+- Folland JP
+- Williams AG
+year: 2007
+venue: Sports Med 37(2):145-168
+doi: 10.2165/00007256-200737020-00004
+pmid: '17241104'
+url: https://pubmed.ncbi.nlm.nih.gov/17241104/
+design: narrative-review
+population: Strength-training literature
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Strength gains arise from a combination of morphological (whole-muscle and fibre CSA via myofibrillar
+    growth, architecture, possibly fibre type and connective tissue) and neural adaptations (agonist activation,
+    intermuscular coordination), with neural factors contributing most early but hypertrophy starting
+    at onset.
+  effect: narrative synthesis
+  grade: established
+- claim: Indirect evidence for neural adaptation comes from training specificity, cross-education and
+    imagined contractions; the rise in whole-muscle specific tension is partly morphological.
+  effect: narrative synthesis
+  grade: established
+limitations:
+- Pre-dates HD-sEMG and modern MRI longitudinal data.
+topics:
+- strength/neural-adaptations
+- strength/morphology
+- strength/time-course
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

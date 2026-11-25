@@ -1,0 +1,24 @@
+id: belavy-2017-running-disc
+title: "Running exercise strengthens the intervertebral disc"
+authors: [Belavy DL, Quittner MJ, Ridgers N, Ling Y, Connell D, Rantalainen T]
+year: 2017
+venue: "Sci Rep 7:45975"
+doi: "10.1038/srep45975"
+pmid: "28422125"
+url: https://pubmed.ncbi.nlm.nih.gov/28422125/
+design: cross-sectional
+population: "Adults 25-35 y: long-distance runners, joggers and non-sporting referents; MRI T2 and accelerometry"
+sample: {studies: null, participants: 79}
+read_level: full-text
+findings:
+  - claim: "Long-distance runners and joggers had higher lumbar disc T2 (hydration/proteoglycan) and relative disc height than non-athletes, strongest in the nucleus."
+    effect: "IVD T2 +11.4% (long-distance runners) and +9.2% (joggers) vs referents"
+    grade: promising
+  - claim: "Disc T2 associated with accelerations typical of fast walking and slow running (~2 m/s), not with total activity or high-impact loading."
+    effect: "Strongest association at 0.44-0.59 g mean amplitude deviation"
+    grade: speculative
+limitations:
+  - "Cross-sectional; self-selection; the 'anabolic window' (0.2-0.8 MPa, 0.1-1 Hz) is extrapolated from animal and tissue models."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC5396190) available; direction and the 2 m/s accelerometry finding confirmed. The +11.4%/+9.2% T2 figures could not be located in the XML text (likely in figures/tables); not re-verified. | Prior check: chapter 8 literature researcher"}

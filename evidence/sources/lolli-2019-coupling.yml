@@ -1,0 +1,21 @@
+id: lolli-2019-coupling
+title: "Mathematical coupling causes spurious correlation within the conventional acute-to-chronic workload ratio calculations"
+authors: [Lolli L, Batterham AM, Hawkins R, Kelly DM, Strudwick AJ, Thorpe R, Gregson W, Atkinson G]
+year: 2019
+venue: "Br J Sports Med 53(15):921-922"
+doi: "10.1136/bjsports-2017-098110"
+pmid: "29101104"
+url: https://pubmed.ncbi.nlm.nih.gov/29101104/
+design: other
+population: "Statistical commentary on ACWR calculation"
+sample: {studies: null, participants: null}
+read_level: secondary
+findings:
+  - claim: "Because the acute week is included in the chronic average (coupled ACWR), the ratio is mathematically coupled to its numerator, generating spurious correlation."
+    effect: "No effect size; statistical argument (summarised via impellizzeri-2020-acwr and andrade-2020-acwr-review)"
+    grade: established
+limitations:
+  - "Letter without abstract; content not read directly this session."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed record has no abstract (letter). Not re-verified. Coupling applies to coupled ACWR; an uncoupled ACWR in one cricket cohort gave similar associations (Windt & Gabbett 2019), and the rescaling critique (impellizzeri-2021) applies to both. | Prior check: chapter 8 literature researcher: No abstract in PubMed; summarised from citing critiques."}

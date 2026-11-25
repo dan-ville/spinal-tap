@@ -1,0 +1,23 @@
+id: pritchard-2016-taper-practices
+title: Tapering Practices of New Zealand's Elite Raw Powerlifters
+authors: [Pritchard HJ, Tod DA, Barnes MJ, Keogh JW, McGuigan MR]
+year: 2016
+venue: Journal of Strength and Conditioning Research 30(7):1796-1804
+doi: 10.1519/JSC.0000000000001292
+pmid: '26670988'
+url: https://pubmed.ncbi.nlm.nih.gov/26670988/
+design: other
+population: Elite New Zealand raw powerlifters (Wilks 431.9 +/- 43.9); semi-structured interviews
+sample: {studies: null, participants: 11}
+read_level: abstract
+findings:
+- claim: Elite powerlifters peak volume ~5 weeks and intensity ~2 weeks out, cut volume ~59% while maintaining intensity, drop accessories ~2 weeks out, and finish training ~3.7 days before competition; taking a week or more off was associated with poor tapers.
+  effect: Volume reduction 58.9 +/- 8.4%; last session 3.7 +/- 1.6 days out; volume peak 5.2 +/- 1.7 wk; intensity peak 1.9 +/- 0.8 wk
+  grade: convention
+limitations: ['Qualitative, n = 11; strategies derived from trial and error.']
+topics: [programming/taper, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Spot check: PubMed abstract, n = 11, volume -58.9 +/- 8.4%, last session 3.7 +/- 1.6 days out. Confirmed. | Earlier check by chapter 4 literature researcher'

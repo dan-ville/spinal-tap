@@ -1,0 +1,33 @@
+id: doma-2017-alternate
+title: 'Implications of Impaired Endurance Performance following Single Bouts of Resistance Training: An Alternate Concurrent
+  Training Perspective'
+authors:
+- Doma K
+- Deakin GB
+- Bentley DJ
+year: 2017
+venue: Sports Med 47(11):2187-2200
+doi: 10.1007/s40279-017-0758-3
+pmid: '28702901'
+url: https://pubmed.ncbi.nlm.nih.gov/28702901/
+design: narrative-review
+population: Review
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Resistance training leaves residual fatigue (neural, biomechanical, soreness, glycogen) that can degrade the quality
+    of endurance sessions for hours to days, so interference runs in both directions.
+  effect: Narrative review
+  grade: promising
+limitations:
+- Narrative; link between acute session quality and chronic adaptation not established.
+topics:
+- concurrent/residual-fatigue
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

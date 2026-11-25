@@ -1,0 +1,22 @@
+id: lilja-2018-nsaid
+title: "High doses of anti-inflammatory drugs compromise muscle strength and hypertrophic adaptations to resistance training in young adults"
+authors: [Lilja M, Mandic M, Apro W, Melin M, Olsson K, Rosenborg S, Gustafsson T, Lundberg TR]
+year: 2018
+venue: "Acta Physiologica 222(2):e12948"
+doi: "10.1111/apha.12948"
+pmid: "28834248"
+url: https://pubmed.ncbi.nlm.nih.gov/28834248/
+design: rct
+population: "Healthy men and women 18-35 y; 8 wk knee-extensor training; ibuprofen 1200 mg/day vs acetylsalicylic acid 75 mg/day"
+sample: {studies: null, participants: 31}
+read_level: abstract
+findings:
+  - claim: "Maximal over-the-counter ibuprofen roughly halved quadriceps hypertrophy compared with low-dose aspirin and blunted some strength gains."
+    effect: "Quadriceps volume +7.5% (ASA) vs +3.7% (IBU), group difference 34 cm3 (P = 0.029); weight-stack leg strength +11-20% in both groups; flywheel-leg strength gains smaller with IBU"
+    grade: contested
+limitations:
+  - "No placebo group; 8 weeks; daily high dose, not occasional use."
+  - "Untrained or recreationally active young adults; a 2025 trial in trained men (Mallinson, diclofenac 75 mg/day, 12 wk) found the opposite: more hypertrophy with the NSAID and no strength difference."
+topics: [recovery/anti-inflammatories]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: IBU 1,200 mg (n = 15) vs ASA 75 mg (n = 16); quadriceps volume +7.5% vs +3.7%, difference 34 cm3 (P = 0.029); strength gains in the weight-stack leg similar (11-20%); only flywheel-leg strength gains smaller with IBU. CONTRADICTING EVIDENCE: Mallinson 2025 (J Physiol, PMID 41139248), 17 TRAINED men, diclofenac 75 mg/day for 12 wk: NSAID INCREASED quadriceps CSA gain (8.6% vs 3.9%, P = 0.038) with no difference in strength. Grade changed to contested. | Earlier note (chapter 10 literature researcher): IBU n = 15; ASA group size not captured from abstract text"}

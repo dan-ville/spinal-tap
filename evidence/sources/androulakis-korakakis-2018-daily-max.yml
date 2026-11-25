@@ -1,0 +1,20 @@
+id: androulakis-korakakis-2018-daily-max
+title: Reduced Volume 'Daily Max' Training Compared to Higher Volume Periodized Training in Powerlifters Preparing for Competition-A Pilot Study
+authors: [Androulakis-Korakakis P, Fisher JP, Kolokotronis P, Gentil P, Steele J]
+year: 2018
+venue: Sports (Basel) 6(3):86
+doi: 10.3390/sports6030086
+pmid: '30158433'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6162635/
+design: cohort
+population: Male powerlifters (>=1 y PL experience); 10 wk to a national championship; non-randomised pairs
+sample: {studies: null, participants: 10}
+read_level: abstract
+findings:
+- claim: Single-set, single-rep RPE-based 'daily max' training gave competition results comparable to higher-volume periodized training for some lifters but declines for others.
+  effect: Pilot, n = 5 per group; individual responses varied
+  grade: speculative
+limitations: ['Non-randomised pilot, n = 10.']
+topics: [programming/autoregulation, programming/periodization, strength/minimal-dose]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

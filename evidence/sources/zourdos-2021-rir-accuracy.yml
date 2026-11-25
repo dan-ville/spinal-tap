@@ -1,0 +1,23 @@
+id: zourdos-2021-rir-accuracy
+title: Proximity to Failure and Total Repetitions Performed in a Set Influences Accuracy of Intraset Repetitions in Reserve-Based Rating of Perceived Exertion
+authors: [Zourdos MC, Goldsmith JA, Helms ER, Trepeck C, Halle JL, Mendez KM, Cooke DM, Haischer MH, Sousa CA, Klemp A, Byrnes RK]
+year: 2021
+venue: Journal of Strength and Conditioning Research 35(Suppl 1):S158-S165
+doi: 10.1519/JSC.0000000000002995
+pmid: '30747900'
+url: https://pubmed.ncbi.nlm.nih.gov/30747900/
+design: cross-sectional
+population: Trained men (training age 4.7 y); one squat set to failure at 70% 1RM (16 +/- 4 reps)
+sample: {studies: null, participants: 25}
+read_level: abstract
+findings:
+- claim: RIR calls are more accurate close to failure and in shorter sets; in a 16-rep set, lifters were 5 reps off when calling RPE 5 but 2 reps off at RPE 9.
+  effect: RIR difference 2.05 +/- 1.73 (RPE 9), 3.65 +/- 2.46 (RPE 7), 5.15 +/- 2.92 (RPE 5); reps per set predicted error at RPE 5 (p = 0.003) and 7 (p = 0.011); training age not predictive
+  grade: promising
+limitations: [Single high-rep set; heavy low-rep sets typical of strength sport are more accurate.]
+topics: [methods/rpe-rir, strength/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: n = 25, 16 +/- 4 reps at 70%, errors 2.05/3.65/5.15 reps. Confirmed. | Earlier check by chapter 4 literature researcher'

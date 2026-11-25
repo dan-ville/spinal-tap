@@ -1,0 +1,39 @@
+id: atherton-2005-ampk-switch
+title: Selective activation of AMPK-PGC-1alpha or PKB-TSC2-mTOR signaling can explain specific adaptive responses to endurance
+  or resistance training-like electrical muscle stimulation
+authors:
+- Atherton PJ
+- Babraj J
+- Smith K
+- Singh J
+- Rennie MJ
+- Wackerhage H
+year: 2005
+venue: FASEB J 19(7):786-788
+doi: 10.1096/fj.04-2179fje
+pmid: '15716393'
+url: https://pubmed.ncbi.nlm.nih.gov/15716393/
+design: mechanistic
+population: Isolated rat muscles, electrical stimulation
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: 'Endurance-like low-frequency stimulation activated AMPK-PGC-1alpha without raising protein synthesis, while resistance-like
+    high-frequency stimulation activated PKB-TSC2-mTOR and protein synthesis: the ''AMPK-PKB switch''.'
+  effect: 'HFS: myofibrillar protein synthesis 5.3-fold at 3 h; LFS: AMPK Thr172 ~2-fold, UCP3 mRNA 11.7-fold, no change in
+    protein synthesis'
+  grade: promising
+limitations:
+- Isolated rat muscle and electrical stimulation, not voluntary human exercise; the switch has not held up as a dominant mechanism
+  in humans.
+topics:
+- concurrent/molecular
+- concurrent/history
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; isolated rat muscle, AMPK Thr172 ~2-fold with LFS, myofibrillar synthesis 5.3-fold with HFS confirmed."

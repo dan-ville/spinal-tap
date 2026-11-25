@@ -1,0 +1,39 @@
+id: spina-2026-frc-claims
+title: What is FRC? (Functional Range Conditioning official description)
+authors:
+- Spina A
+year: 2026
+venue: functionalanatomyseminars.com (practitioner website)
+doi: null
+pmid: null
+url: https://functionalanatomyseminars.com/?p=1695
+design: other
+population: Practitioner system description (FRC, CARs, PAILs/RAILs, Kinstretch)
+sample:
+  studies: null
+  participants: null
+read_level: secondary
+findings:
+- claim: FRC defines mobility as 'the extent of controllable flexibility across articulations (flexibility plus strength)',
+    i.e. 'USABLE motion', and describes itself as 'based in scientific principals and research'; no chronic training
+    trial of FRC, PAILs/RAILs or Kinstretch was found, and the only controlled trial of CARs is one acute session
+    (head-2026-cars).
+  effect: 'PubMed phrase searches return 0 for ''functional range conditioning'' and ''controlled articular rotations''
+    in title/abstract, but this is a phrase-index artefact: Head et al. 2026 (PMID 42517070, ''Comparison of Controlled
+    Articular Rotations and Static Stretching...'') is indexed. One registered RCT (NCT03456050, clinical population)
+    with no results located'
+  grade: convention
+limitations:
+- Official site could not be fetched from this environment; wording taken from a search-engine extract of the page;
+  year is the access year.
+topics:
+- mobility/practitioner-systems
+- mobility/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: Corrected: a peer-reviewed RCT of CARs exists (Head 2026, Int J Exerc Sci, n = 28, acute,
+    CARs = static stretching for hip IR ROM); the researcher''s zero-hit PubMed searches missed it. | Prior check:
+    chapter 7 literature researcher 2026-11-24;'

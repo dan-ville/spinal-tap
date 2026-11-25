@@ -1,0 +1,20 @@
+id: pritchard-2019-taper-intensity
+title: 'Higher- Versus Lower-Intensity Strength-Training Taper: Effects on Neuromuscular Performance'
+authors: [Pritchard HJ, Barnes MJ, Stewart RJ, Keogh JW, McGuigan MR]
+year: 2019
+venue: International Journal of Sports Physiology and Performance 14(4):458-463
+doi: 10.1123/ijspp.2018-0489
+pmid: '30204523'
+url: https://pubmed.ncbi.nlm.nih.gov/30204523/
+design: crossover
+population: Strength-trained men; 4-wk blocks then a 1-wk taper with ~70% volume cut and +5.9% or -8.5% intensity
+sample: {studies: null, participants: 11}
+read_level: abstract
+findings:
+- claim: A one-week taper with a large volume cut improved jump performance; tapers with increased or decreased intensity did not differ significantly, though the higher-intensity taper showed small-effect advantages.
+  effect: CMJ 38.0 to 40.0 cm (T1 to T3, P = .001); no significant taper differences
+  grade: speculative
+limitations: [n = 11; no 1RM outcome.]
+topics: [programming/taper]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

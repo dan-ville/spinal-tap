@@ -1,0 +1,41 @@
+id: blazevich-2018-full-warmup
+title: No Effect of Muscle Stretching within a Full, Dynamic Warm-up on Athletic Performance
+authors:
+- Blazevich AJ
+- Gill ND
+- Kvorning T
+- Kay AD
+- Goh AG
+- Hilton B
+- Drinkwater EJ
+- Behm DG
+year: 2018
+venue: Med Sci Sports Exerc 50(6):1258-1266
+doi: 10.1249/MSS.0000000000001539
+pmid: '29300214'
+url: https://pubmed.ncbi.nlm.nih.gov/29300214/
+design: crossover
+population: 20 male team-sport athletes; randomised, experimenter-blinded crossover
+sample:
+  studies: null
+  participants: 20
+read_level: full-text
+findings:
+- claim: Adding 5-s or 30-s static stretches or dynamic stretches to a comprehensive warm-up did not change sprint,
+    jump, change-of-direction or flexibility outcomes compared with no stretching, although athletes believed stretching
+    would help.
+  effect: No effect of stretch condition on any test; NS rated 4.0 +/- 2.2 vs 5.3-6.4 for stretch conditions (expectation)
+  grade: promising
+limitations:
+- n = 20 men; short stretch durations only; no maximal strength (1RM) outcomes.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: author''s submitted manuscript (Northampton repository) read; 20 male team-sport athletes,
+    randomised crossover, experimenter-blinded, no effect of 5-s, 30-s or dynamic stretches; NS rated 4.0 +/- 2.2 vs
+    5.3-6.4 confirmed. Stretches were short (5 s or 3 x 10 s per region). | Prior check: chapter 6 literature researcher
+    2026-11-24; Numbers from PubMed/Europe PMC abstract.'

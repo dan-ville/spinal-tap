@@ -1,0 +1,46 @@
+id: roberts-2023-mechanisms
+title: 'Mechanisms of mechanical overload-induced skeletal muscle hypertrophy: current understanding and future directions.'
+authors:
+- Roberts MD
+- McCarthy JJ
+- Hornberger TA
+- Phillips SM
+- Mackey AL
+- Nader GA
+- Boppart MD
+- Kavazis AN
+- Reidy PT
+- Ogasawara R
+- Libardi CA
+- Ugrinowitsch C
+- Booth FW
+- Esser KA
+year: 2023
+venue: Physiol Rev 103(4):2679-2757
+doi: 10.1152/physrev.00039.2022
+pmid: '37382939'
+url: https://pubmed.ncbi.nlm.nih.gov/37382939/
+design: narrative-review
+population: Comprehensive review of rodent and human overload hypertrophy mechanisms
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Mechanisms supported by rodent and human data include mTORC1 signalling, ribosome biogenesis (translational
+    capacity), satellite cell proliferation and myonuclear accretion, and repeated post-exercise rises in muscle protein
+    synthesis; the review lists areas of active disagreement about each.
+  effect: Narrative synthesis (Physiol Rev 2023)
+  grade: established
+limitations:
+- Narrative; much mechanistic evidence is from rodent synergist-ablation models with loads far beyond human training.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; four supported mechanisms confirmed. DOI corrected to 10.1152/physrev.00039.2022.
+    | Prior check: chapter 5 literature researcher 2026-11-24'

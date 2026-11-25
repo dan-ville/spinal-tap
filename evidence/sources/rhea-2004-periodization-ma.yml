@@ -1,0 +1,23 @@
+id: rhea-2004-periodization-ma
+title: A meta-analysis of periodized versus nonperiodized strength and power training programs
+authors: [Rhea MR, Alderman BL]
+year: 2004
+venue: Research Quarterly for Exercise and Sport 75(4):413-422
+doi: 10.1080/02701367.2004.10609174
+pmid: '15673040'
+url: https://pubmed.ncbi.nlm.nih.gov/15673040/
+design: meta-analysis
+population: Men and women of varied training background and age
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Periodized programs beat non-periodized programs, but the effect attributable to variation itself was small once volume, frequency and intensity were controlled.
+  effect: Overall ES 0.84 (+/- 1.41); ES specific to training variation = 0.25
+  grade: contested
+limitations: [Afonso 2019 found all 11 strength studies used constant-load comparators and several did not test periodization at all., Huge SD around the pooled effect.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read; ES 0.84 (+/- 1.41) and variation-specific ES 0.25 match. | Earlier check by chapter 4 literature researcher'

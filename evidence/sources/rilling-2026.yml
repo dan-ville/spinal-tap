@@ -1,0 +1,36 @@
+id: rilling-2026
+title: Eccentric overload training promotes serial sarcomerogenesis to a greater extent than conventional resistance
+  training.
+authors:
+- Rilling A
+- Hinks A
+- Kirkup AQ
+- Franchi MV
+- Power GA
+year: 2026
+venue: Am J Physiol Cell Physiol 330(2):C345-C355
+doi: 10.1152/ajpcell.00713.2025
+pmid: '41343154'
+url: https://pubmed.ncbi.nlm.nih.gov/41343154/
+design: mechanistic
+population: Male and female rats; eccentric overload vs conventional training, 4 wk
+sample:
+  studies: null
+  participants: 19
+read_level: abstract
+findings:
+- claim: Eccentric overload training increased serial sarcomere number more than conventional training in rats.
+  effect: SSN soleus +17% (ECC overload) vs +2%; medial gastrocnemius +6% vs +4%
+  grade: speculative
+limitations:
+- Rodent model; 4 weeks.
+topics:
+- hypertrophy/eccentric
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; rats, 4 wk; SSN +17% soleus, +6% MG with eccentric overload vs
+    +2%/+4% conventional. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

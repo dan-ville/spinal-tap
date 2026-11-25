@@ -1,0 +1,29 @@
+id: afonso-2019-periodization-meta
+title: 'A Systematic Review of Meta-Analyses Comparing Periodized and Non-periodized Exercise Programs: Why We Should Go Back to Original Research'
+authors: [Afonso J, Rocha T, Nikolaidis PT, Clemente FM, Rosemann T, Knechtle B]
+year: 2019
+venue: Frontiers in Physiology 10:1023
+doi: 10.3389/fphys.2019.01023
+pmid: '31440169'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6692867/
+design: systematic-review
+population: Two meta-analyses (Rhea & Alderman 2004; Williams 2017) and their 21 primary studies
+sample: {studies: 2, participants: null}
+read_level: full-text
+findings:
+- claim: None of the primary studies in the periodized vs non-periodized meta-analyses compared periodized programs with varied non-periodized programs; all used constant programs as comparators.
+  effect: 21 studies audited; risk-of-bias score maximal (2/2) for every study
+  grade: established
+- claim: None of the studies tested periodization's predictions about the timing of adaptations.
+  effect: 0 of 21 studies
+  grade: established
+- claim: Eight of the 21 included studies did not compare periodized vs non-periodized programs at all (e.g., low vs high volume, single vs multiple sets, supervised vs unsupervised); one was unpublished.
+  effect: 8/21 off-topic studies
+  grade: established
+limitations: [Bespoke two-item bias instrument; does not re-pool data; predates Moesgaard 2022 (whose comparators share the same limitation)., 'Afonso''s term is ''constant programs'' (no planned variation), not specifically constant load; the 21 studies are the union of Rhea & Alderman''s 11 and Williams'' 18.']
+topics: [programming/periodization, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: 21 studies, none with varied non-periodized comparators, none testing timing predictions, 8/21 off-topic, one unpublished (McCarthy 1991). Confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (results and discussion).'

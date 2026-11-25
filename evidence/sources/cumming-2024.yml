@@ -1,0 +1,48 @@
+id: cumming-2024
+title: 'Muscle memory in humans: evidence for myonuclear permanence and long-term transcriptional regulation after
+  strength training.'
+authors:
+- Cumming KT
+- Reitzner SM
+- Hanslien M
+- Skilnand K
+- Seynnes OR
+- Horwath O
+- Psilander N
+- Sundberg CJ
+- Raastad T
+year: 2024
+venue: J Physiol 602(17):4171-4193
+doi: 10.1113/JP285675
+pmid: '39159314'
+url: https://pubmed.ncbi.nlm.nih.gov/39159314/
+design: rct
+population: Untrained men and women; 10 wk unilateral elbow-flexor training, 16 wk detraining, 10 wk retraining of
+  both arms
+sample:
+  studies: null
+  participants: 12
+read_level: abstract
+findings:
+- claim: Myonuclei added during training were retained through 16 weeks of detraining (33% more in type 2 fibres than
+    the control arm), supporting myonuclear permanence in humans, but this did not produce clearly greater regrowth
+    on retraining.
+  effect: Myonuclei +13% (type 1), +33% (type 2) during training; retained after detraining; delta type 2 fCSA on
+    retraining not different between arms
+  grade: contested
+limitations:
+- n = 12; biopsy-based; physiological benefit of retained nuclei unproven.
+topics:
+- hypertrophy/muscle-memory
+- hypertrophy/satellite-cells
+- frontiers/genetics-omics
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/11-frontiers.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 12 untrained, type 2 myonuclei +33 +/- 23%, maintained after
+    16 wk detraining; mixed fCSA gain in first block non-significant (+30%, P = 0.069); delta type 2 fCSA on retraining
+    not different. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24; Chapter 11 researcher added
+    frontiers findings/topics and cited_in.'

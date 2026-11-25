@@ -1,0 +1,44 @@
+id: elgueta-cancino-2022
+title: 'The Effect of Resistance Training on Motor Unit Firing Properties: A Systematic Review and Meta-Analysis.'
+authors:
+- Elgueta-Cancino E
+- Evans E
+- Martinez-Valdes E
+- Falla D
+year: 2022
+venue: Front Physiol 13:817631
+doi: 10.3389/fphys.2022.817631
+pmid: '35295567'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8918924/
+design: meta-analysis
+population: Healthy adults in RCTs and non-randomised trials of resistance training vs no-training control
+sample:
+  studies: 7
+  participants: 167
+read_level: full-text
+findings:
+- claim: Pooled across four studies, resistance training did not significantly change motor unit discharge
+    rate, with very high heterogeneity.
+  effect: MUDR P = 0.43; I2 = 91%; GRADE certainty very low for MUDR and for recruitment threshold
+  grade: contested
+- claim: Low-to-moderate quality evidence supports changes in discharge-rate variability and in the discharge
+    rate vs recruitment threshold relationship; the authors conclude there is a lack of high-quality evidence.
+  effect: MUDR variability reduction (one RCT) rated moderate certainty; other relationships low to very
+    low
+  grade: contested
+- claim: "The discharge-rate meta-analysis pooled four studies and gave a moderate positive but non-significant and highly heterogeneous estimate."
+  effect: "MUDR SMD 0.70 favouring RT, P = 0.38 (Results) or 0.43 (abstract/Discussion); I2 = 91%; 4 studies, 82 participants; sensitivity without high-RoB study P = 0.20, I2 = 90%"
+  grade: contested
+limitations:
+- Searched to June 2021, so it predates most longitudinal HD-sEMG tracking studies.
+- Pooled heterogeneous methods (intramuscular, surface decomposition), muscles, and tasks.
+- "All included participants were men; the review includes del-vecchio-2019, so it is not independent of that trial."
+topics:
+- strength/motor-units
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC8918924) checked. Seven trials (167 men) were reviewed, but the discharge-rate meta-analysis pooled only 4 studies (82 participants), including del-vecchio-2019. Pooled SMD was 0.70 favouring training but not significant; the P value is 0.38 in Results and 0.43 in the abstract and Discussion. The pooled null is therefore an imprecise moderate positive estimate, not evidence of no change. | Prior check: chapter 2 researcher 2026-11-24"

@@ -1,0 +1,23 @@
+id: wang-2026-vbt
+title: 'The effects of velocity-based vs. percentage-based resistance training on sports performance in trained individuals: a systematic review and meta-analysis'
+authors: [Wang Y, Qiu J, Dai D, Li Q, Wang X, Luo Q]
+year: 2026
+venue: BMC Sports Science, Medicine and Rehabilitation 18:57
+doi: 10.1186/s13102-025-01504-9
+pmid: '41491263'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12870409/
+design: meta-analysis
+population: Healthy individuals >=16 y with >=6 months resistance-training experience (mostly male); search to March 2025
+sample: {studies: 17, participants: 348}
+read_level: full-text
+findings:
+- claim: In the most recent VBT meta-analysis, VBT and percentage-based training gave similar maximal-strength gains; VBT had small advantages for jump and change of direction.
+  effect: Strength SMD 0.21 (95% CI -0.01 to 0.43), p = 0.064, I2 = 0%; jump SMD 0.27 (0.03 to 0.51), 14 studies, n = 286; COD SMD 0.45 (0.17 to 0.73); sprint SMD 0.14 (-0.11 to 0.39); random effects; GRADE moderate for all four outcomes
+  grade: promising
+limitations: [PEDro-rated; small trials; VBT protocols heterogeneous (velocity zones vs VL thresholds).]
+topics: [programming/autoregulation, strength/velocity-based-training, technology/velocity-based-training]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text read: 17 studies, n = 348, strength SMD 0.21 (-0.01 to 0.43), jump 0.27, COD 0.45, sprint 0.14 confirmed; GRADE moderate; PEDro median 6. | Earlier check by chapter 4 literature researcher: Chapter 11 researcher added frontiers findings/topics and cited_in.'

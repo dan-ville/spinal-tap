@@ -1,0 +1,22 @@
+id: kubo-2010-time-course
+title: "Time course of changes in muscle and tendon properties during strength training and detraining"
+authors: [Kubo K, Ikebukuro T, Yata H, Tsunoda N, Kanehisa H]
+year: 2010
+venue: "J Strength Cond Res 24(2):322-331"
+doi: "10.1519/JSC.0b013e3181c865e2"
+pmid: "19996769"
+url: https://pubmed.ncbi.nlm.nih.gov/19996769/
+design: cohort
+population: "Young adults; 3 mo isometric knee-extension training then 3 mo detraining; monthly measures"
+sample: {studies: null, participants: 8}
+read_level: abstract
+findings:
+  - claim: "Strength and neural activation rose within 2 months, but muscle CSA and tendon stiffness changed only by month 3; on detraining, tendon stiffness returned to baseline within 2 months while strength was maintained."
+    effect: "Strength +29.6% (2 mo), +40.5% (3 mo); tendon stiffness significant only at 3 mo; stiffness back to pre-training by 2 mo detraining"
+    grade: promising
+limitations:
+  - "n=8; isometric training; monthly sampling coarse."
+  - "n=8; isometric knee-extension training; monthly measures; no control group."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; +29.6% (2 mo), +40.5% (3 mo), stiffness significant only at 3 mo, back to baseline by 2 mo detraining while strength unchanged. Confirmed. | Prior check: chapter 8 literature researcher"}

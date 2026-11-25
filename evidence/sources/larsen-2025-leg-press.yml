@@ -1,0 +1,42 @@
+id: larsen-2025-leg-press
+title: Knee flexion range of motion does not influence muscle hypertrophy of the quadriceps femoris during leg press
+  training in resistance-trained individuals.
+authors:
+- Larsen S
+- Wolf M
+- Schoenfeld BJ
+- Sandberg NØ
+- Fredriksen AB
+- Kristiansen BS
+- van den Tillaar R
+- Swinton PA
+- Falch HN
+year: 2025
+venue: J Sports Sci 43(10):986-994
+doi: 10.1080/02640414.2025.2481534
+pmid: '40113586'
+url: https://pubmed.ncbi.nlm.nih.gov/40113586/
+design: rct
+population: Resistance-trained adults (7.2 +/- 3.5 y); within-subject leg press to 100 deg vs maximal knee flexion
+  (about 154 deg), 8 wk
+sample:
+  studies: null
+  participants: 23
+read_level: abstract
+findings:
+- claim: In trained lifters, deeper knee flexion during the leg press did not add quadriceps growth compared with
+    about 100 degrees.
+  effect: Univariate BF 0.14-0.22 (moderate support for null); multivariate BF < 0.01; MT +1.08 to +1.91 mm in both
+  grade: promising
+limitations:
+- Ultrasound; 8 weeks; quadriceps already near long lengths at 100 deg.
+topics:
+- hypertrophy/range-of-motion
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 23 trained (7.2 y), ~100 vs ~154 deg knee flexion, BF 0.14-0.22,
+    multivariate BF < 0.01, ultrasound, 8 wk. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

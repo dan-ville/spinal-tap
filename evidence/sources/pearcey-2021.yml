@@ -1,0 +1,37 @@
+id: pearcey-2021
+title: 'Chronic resistance training: is it time to rethink the time course of neural contributions to
+  strength gain?'
+authors:
+- Pearcey GEP
+- Alizedah S
+- Power KE
+- Button DC
+year: 2021
+venue: Eur J Appl Physiol 121(9):2413-2422
+doi: 10.1007/s00421-021-04730-4
+pmid: '34052876'
+url: https://pubmed.ncbi.nlm.nih.gov/34052876/
+design: narrative-review
+population: Cross-sectional studies of chronically trained vs untrained people
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: The authors argue that neural plasticity continues with chronic training, citing cross-sectional
+    differences in intracortical circuitry and spinal motoneuron properties, and challenge the model in
+    which neural factors matter only early.
+  effect: argument from cross-sectional evidence
+  grade: speculative
+limitations:
+- Cross-sectional evidence cannot separate training effects from selection.
+topics:
+- strength/time-course
+- strength/training-age
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

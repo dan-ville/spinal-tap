@@ -1,0 +1,34 @@
+id: kay-2012-acute-static-stretch
+title: 'Effect of acute static stretch on maximal muscle performance: a systematic review'
+authors:
+- Kay AD
+- Blazevich AJ
+year: 2012
+venue: Med Sci Sports Exerc 44(1):154-164
+doi: 10.1249/MSS.0b013e318225cb27
+pmid: '21659901'
+url: https://pubmed.ncbi.nlm.nih.gov/21659901/
+design: systematic-review
+population: Acute static stretch trials on maximal muscle performance
+sample:
+  studies: 106
+  participants: null
+read_level: full-text
+findings:
+- claim: Static stretches under 30 s had no detrimental effect and 30-45 s had no significant effect; a sigmoidal
+    dose response made significant decrements likely only with stretches of 60 s or more, regardless of task, contraction
+    mode or muscle.
+  effect: <30 s pooled -1.1%; 30-45 s pooled -1.9%; >=60 s decrements likely
+  grade: established
+limitations:
+- 30% of studies lacked reliability statistics; many lacked control conditions.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: author''s accepted manuscript (Northampton repository) read; 106 studies, <30 s -1.1%, 30-45
+    s -1.9%, sigmoidal dose-response with turning points ~60 s and ~2 min confirmed. | Prior check: chapter 6 literature
+    researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

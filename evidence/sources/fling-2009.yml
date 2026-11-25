@@ -1,0 +1,33 @@
+id: fling-2009
+title: Motor unit synchronization in FDI and biceps brachii muscles of strength-trained males.
+authors:
+- Fling BW
+- Christie A
+- Kamen G
+year: 2009
+venue: J Electromyogr Kinesiol 19(5):800-809
+doi: 10.1016/j.jelekin.2008.06.003
+pmid: '18691906'
+url: https://pubmed.ncbi.nlm.nih.gov/18691906/
+design: cross-sectional
+population: Strength-trained vs untrained college-aged men
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Motor unit synchronisation was greater in strength-trained men by one index (CIS) but not by
+    two others (E, k-prime), so evidence for training-related synchronisation is equivocal.
+  effect: CIS higher in trained; E and k-prime no group difference
+  grade: contested
+limitations:
+- Cross-sectional; synchronisation indices disagree; functional role for maximal force unclear.
+topics:
+- strength/motor-units
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

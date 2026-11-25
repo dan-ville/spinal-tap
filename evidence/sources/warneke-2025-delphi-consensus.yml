@@ -1,0 +1,82 @@
+id: warneke-2025-delphi-consensus
+title: 'Practical recommendations on stretching exercise: A Delphi consensus statement of international research
+  experts'
+authors:
+- Warneke K
+- Thomas E
+- Blazevich AJ
+- Afonso J
+- Behm DG
+- Marchetti PH
+- Trajano GS
+- Nakamura M
+- Ayala F
+- Longo S
+- Babault N
+- Freitas SR
+- Costa PB
+- Konrad A
+- Nordez A
+- Nelson A
+- Zech A
+- Kay AD
+- Donti O
+- Wilke J
+year: 2025
+venue: J Sport Health Sci 14:101067
+doi: 10.1016/j.jshs.2025.101067
+pmid: '40513717'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12305623/
+design: consensus
+population: 20-expert Delphi panel reviewing systematic reviews on healthy populations; >=80% agreement required
+sample:
+  studies: null
+  participants: 20
+read_level: full-text
+findings:
+- claim: For chronic ROM the panel advises static or PNF over dynamic stretching, 2-3 sets daily of 30-120 s per
+    muscle, while noting full-ROM resistance training and foam rolling are alternatives and method choice can follow
+    preference.
+  effect: 95% agreement (round 3)
+  grade: convention
+- claim: For acute ROM, at least 2 bouts of 5-30 s of any technique; stretching is not essential in warm-ups because
+    other warm-up activities give similar acute ROM.
+  effect: 95% agreement
+  grade: convention
+- claim: The panel does not recommend >60 s per muscle of static stretching before maximal or explosive efforts
+    of isolated muscles; short static stretching inside a dynamic warm-up and dynamic stretching do not impair performance.
+  effect: 95% agreement
+  grade: convention
+- claim: Stretching is not recommended as a primary strategy for strength or muscle mass; if RT is not feasible,
+    >=15 min per muscle per session, >=5 times/week (strength) or daily (hypertrophy) for >=6 weeks.
+  effect: 85% (strength) and 90% (hypertrophy) agreement
+  grade: convention
+- claim: The panel does not recommend stretching for injury prevention in general, acknowledging initial evidence
+    that static stretching may reduce muscle injuries with a possible trade-off of more bone and joint injuries.
+  effect: 85% agreement
+  grade: convention
+- claim: Chronic stiffness reduction requires supervised intensive static stretching of >=4 min per muscle, 5 days/week
+    for >=3 weeks; acute reduction needs >4 min per muscle; reduced stiffness may impair stretch-shortening performance.
+  effect: 90% agreement
+  grade: convention
+limitations:
+- Expert opinion built on systematic reviews, many by panel members; no women-balanced panel; healthy populations
+  only.
+topics:
+- consensus/guidelines
+- flexibility/stretching-dose
+- flexibility/acute-performance
+- flexibility/stretch-hypertrophy
+- injury/stretching
+- mobility/loaded-stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC12305623) re-read; 20 experts, 80% threshold, chronic ROM static/PNF 2-3 sets
+    daily of 30-120 s (95%), acute >=2 x 5-30 s (95%), avoid >60 s per muscle before maximal efforts of isolated muscles
+    (95%), strength 85%, hypertrophy 90%, injury 85%, acute stiffness >4 min (90%) confirmed. Several panel members authored
+    the reviews the panel relied on. | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects
+    transcribed from results/tables.'

@@ -1,0 +1,47 @@
+id: skarabot-2021-emg
+title: 'Neural adaptations to long-term resistance training: evidence for the confounding effect of muscle
+  size on the interpretation of surface electromyography.'
+authors:
+- Skarabot J
+- Balshaw TG
+- Maeo S
+- Massey GJ
+- Lanza MB
+- Maden-Wilkinson TM
+- Folland JP
+year: 2021
+venue: J Appl Physiol 131(2):702-715
+doi: 10.1152/japplphysiol.00094.2021
+pmid: '34166110'
+url: https://pubmed.ncbi.nlm.nih.gov/34166110/
+design: cross-sectional
+population: Long-term resistance-trained men (EF 6 +/- 3 y; KE 4 +/- 1 y) vs untrained men
+sample:
+  studies: null
+  participants: 92
+read_level: abstract
+findings:
+- claim: Long-term trained men had much greater strength, muscle size and maximal M-wave amplitude than
+    untrained men.
+  effect: MVT +66-71%, muscle size +54-56%, Mmax +29-60% (P <= 0.010)
+  grade: promising
+- claim: Greater absolute voluntary EMG in trained men disappeared when EMG was normalised to Mmax, implying
+    that larger surface EMG in trained people reflects muscle morphology rather than greater central neural
+    drive.
+  effect: EMG/Mmax no group difference for any muscle (P >= 0.652)
+  grade: promising
+limitations:
+- Cross-sectional; self-selection possible.
+- Mmax normalisation assumes peripheral factors scale identically for voluntary and evoked signals.
+- "Loughborough cohort: untrained and long-term-trained men overlap across balshaw-2021, maden-wilkinson-2020, skarabot-2021-emg, balshaw-2022, casolo-2021 and skarabot-2024; treat them as one evidence base, not independent replications."
+- "Elbow-flexor size by ultrasound thickness, knee-extensor size by MRI."
+topics:
+- strength/neural-adaptations
+- strength/methods
+- strength/training-age
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Only the knee extensors had higher absolute voluntary EMG in trained men (P < 0.001); elbow-flexor EMG did not differ even before normalisation (P = 0.195). Authors' wording is that EMG 'might be confounded' by morphology. | Prior check: chapter 2 researcher 2026-11-24"

@@ -1,0 +1,41 @@
+id: kikuchi-2026-hiit-concurrent
+title: Effects of concurrent high-intensity interval training and strength training on muscle function and aerobic capacity
+authors:
+- Kikuchi S
+- Zempo H
+- Kamiya-Saito M
+- Inoguchi T
+- Oyabe S
+- Homma H
+- Shinchi K
+- Mochizuki Y
+- Kikuchi N
+year: 2026
+venue: Int J Sports Med (online ahead of print)
+doi: 10.1055/a-2943-8779
+pmid: '42759564'
+url: https://pubmed.ncbi.nlm.nih.gov/42759564/
+design: meta-analysis
+population: Randomised and non-randomised studies comparing strength training with HIIT-based concurrent training
+sample:
+  studies: 21
+  participants: 569
+read_level: abstract
+findings:
+- claim: HIIT-based concurrent training did not reduce squat 1RM or countermovement jump gains overall.
+  effect: Squat 1RM SMD -0.06 (p=0.63); CMJ SMD -0.12 (p=0.38)
+  grade: promising
+- claim: Sprint-type intervals did not blunt jump gains, whereas short and long HIIT did.
+  effect: SIT/RST CMJ SMD 0.14 (p=0.40); short/long HIIT CMJ SMD -0.53 (p=0.006); Q-between 5.82, p=0.016
+  grade: speculative
+limitations:
+- Few studies per subgroup; includes non-randomised designs; CIs not reported in abstract.
+topics:
+- concurrent/hiit
+- concurrent/explosive-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read. The -0.53 CMJ estimate pools short AND long HIIT (all non-sprint HIIT), not long HIIT alone. Overall CMJ -0.12 and squat 1RM -0.06, both n.s."

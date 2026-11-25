@@ -1,0 +1,22 @@
+id: challoumas-2023-tendinopathy-nma
+title: "Effectiveness of Exercise Treatments with or without Adjuncts for Common Lower Limb Tendinopathies: A Living Systematic Review and Network Meta-analysis"
+authors: [Challoumas D, Crosbie G, O'Neill S, Pedret C, Millar NL]
+year: 2023
+venue: "Sports Med Open 9(1):71"
+doi: "10.1186/s40798-023-00616-1"
+pmid: "37553459"
+url: https://pubmed.ncbi.nlm.nih.gov/37553459/
+design: meta-analysis
+population: "RCTs in Achilles, patellar tendinopathy and greater trochanteric pain syndrome"
+sample: {studies: 68, participants: null}
+read_level: full-text
+findings:
+  - claim: "No exercise type (including slow heavy resistance and isometrics) showed a clinically important advantage supported by better than low or very-low strength of evidence."
+    effect: "All clinically significant pairwise differences rested on low/very-low GRADE-NMA evidence"
+    grade: promising
+limitations:
+  - "Clinical populations; network sparse for specific comparisons."
+  - "Pairwise isometric vs isotonic for immediate pain in patellar tendinopathy: MD about 1 VAS point favouring isometrics, 95% CI -2.57 to 0.5, I2 70%, 3 studies, low strength of evidence."
+topics: [connective-tissue/tendinopathy-isometrics]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC10409676) read for the isometric comparison and conclusions; 68 RCTs confirmed. | Prior check: chapter 8 literature researcher"}

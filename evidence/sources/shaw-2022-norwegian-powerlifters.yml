@@ -1,0 +1,23 @@
+id: shaw-2022-norwegian-powerlifters
+title: Contemporary Training Practices of Norwegian Powerlifters
+authors: [Shaw MP, Andersen V, Sæterbakken AH, Paulsen G, Samnøy LE, Solstad TEJ]
+year: 2022
+venue: Journal of Strength and Conditioning Research 36(9):2544-2551
+doi: 10.1519/JSC.0000000000003584
+pmid: '32195767'
+url: https://pubmed.ncbi.nlm.nih.gov/32195767/
+design: cross-sectional
+population: Norwegian powerlifters including world and European champions
+sample: {studies: null, participants: 117}
+read_level: abstract
+findings:
+- claim: Norwegian powerlifters train frequently (58% train 5-6 times a week) with mostly submaximal loads (most common 71-80% 1RM), contrasting with older heavy-and-infrequent stereotypes.
+  effect: Survey percentages
+  grade: convention
+limitations: [Self-report; one national culture (high-frequency 'Norwegian' model).]
+topics: [practice/surveys, strength/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: 117 of 124 met criteria; 58.1% train 5-6 times/wk; most common load 71-80% 1RM; 76.9% use variable resistance. Confirmed. | Earlier check by chapter 4 literature researcher'

@@ -1,0 +1,21 @@
+id: mcmorris-2024-creatine-cognition
+title: "Creatine supplementation research fails to support the theoretical basis for an effect on cognition: Evidence from a systematic review"
+authors: [McMorris T, Hale BJ, Pine BS, Williams TB]
+year: 2024
+venue: "Behavioural Brain Research 466:114982"
+doi: "10.1016/j.bbr.2024.114982"
+pmid: "38582412"
+url: https://pubmed.ncbi.nlm.nih.gov/38582412/
+design: systematic-review
+population: "Human creatine supplementation studies measuring brain creatine and cognition"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Supplementation raises brain creatine only modestly and cognitive results are equivocal; effects may be confined to stressed states such as sleep deprivation or hypoxia."
+    effect: "Qualitative synthesis"
+    grade: contested
+limitations:
+  - "Narrative synthesis; argues future trials must measure brain creatine content."
+topics: [cognition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: brain creatine rises 'to a limited extent'; cognitive effects 'somewhat equivocal'; more research needed in stressed populations. Confirmed."}

@@ -1,0 +1,40 @@
+id: rantila-2025
+title: Repeated Resistance Training Reveals the Reproducibility of Muscle Strength and Size Responses Within Individuals.
+authors: [Rantila A, Halonen EJ, Tiainen EJ, Kaasinen SO, Hulmi JJ, Ahtiainen JP]
+year: 2025
+venue: Eur J Sport Sci 25(12):e70095
+doi: 10.1002/ejsc.70095
+pmid: '41307987'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12659766/
+design: other
+population: Untrained healthy men and women, 18-40 y (32 +/- 5 y); RT n=20 completed two identical 10-wk periods separated by 10 wk detraining; controls n=27
+sample: {studies: null, participants: 55}
+read_level: full-text
+findings:
+- claim: Individual gains in muscle size and leg-press 1RM were reproducible across two identical training periods, so individual response has a physiological basis; true non-responders were rare.
+  effect: VL CSA r = 0.697; BB CSA r = 0.761; LP 1RM r = 0.671; BC 1RM r = 0.393 (P = 0.095; 0.383 in the Results text)
+  grade: promising
+- claim: 'True interindividual variability exceeded measurement error and biological noise: the SD of individual responses was above zero, with confidence limits excluding zero, for every outcome.'
+  effect: VL CSA SD_IR^2 5.114 (95% CL 0.947 to 9.281); BB CSA 0.455 (0.117 to 0.793); leg press 1RM/BM 0.041 (0.014 to 0.07); biceps curl 1RM/BM 0.001 (<0.001 to 0.002)
+  grade: promising
+- claim: Repeating an identical programme after detraining reproduced each person's response for muscle size and leg strength.
+  effect: 'RT1 vs RT2 change correlations: VL CSA r = 0.697, BB CSA r = 0.761, leg press 1RM r = 0.671 (p <= 0.001); biceps curl r = 0.393 (p = 0.095; 0.383 in the Results text)'
+  grade: promising
+- claim: 'Non-response below the minimal detectable change was rare and outcome-specific: no participant was a non-responder in both periods for more than one variable, and no size non-responders repeated.'
+  effect: 4 participants (~20%) below MDC in both periods, all on strength outcomes only
+  grade: promising
+- claim: Those who gained most in the first period lost more during detraining.
+  effect: BB CSA r = -0.673; leg press 1RM r = -0.488; VL CSA r = -0.422 (p = 0.072); detraining losses larger for size than strength (VL -9.94% vs LP -5.40%)
+  grade: promising
+limitations:
+- Single-period, single-outcome non-response was common (biceps curl 1RM: 11 of 20 below MDC after RT2); 'rare' applies only to non-response repeated in both periods. SD_IR was estimated for RT1 against one 10-week control period.
+- 28 randomised to RT (about 19 analysed for some outcomes), 27 controls; ultrasound CSA.
+- Small RT group (n = 20; 11 men, 9 women), untrained, 10-week periods; 2 sessions/wk of 4 x 8-10 machine exercises; muscle memory may bias the second period.
+topics: [strength/hypertrophy-strength, strength/methods, frontiers/individual-response]
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/11-frontiers.md
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text re-read. SD_IR^2 values, CLs and r values confirmed, but biceps curl r is 0.393 in the abstract and 0.383 in the Results (both p = 0.095). 4 of 20 were below MDC in both periods, all on one strength variable each (1 leg press, 3 biceps curl); single-period non-response was common for biceps curl 1RM (11 of 20 after RT2). Non-response classification by MDC is itself a responder count (atkinson-2019). | Earlier check (verification pass): Chapter 2 verifier re-read the abstract; numbers confirmed. Untrained participants, so not evidence about training age. | Prior check: chapter 2 researcher 2026-11-24; Full text downloaded but numbers taken from its abstract section. | Chapter 11 researcher read PMC full text (PMC12659766) and upgraded read_level."

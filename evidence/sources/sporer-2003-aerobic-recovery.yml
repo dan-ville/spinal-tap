@@ -1,0 +1,32 @@
+id: sporer-2003-aerobic-recovery
+title: Effects of aerobic exercise on strength performance following various periods of recovery
+authors:
+- Sporer BC
+- Wenger HA
+year: 2003
+venue: J Strength Cond Res 17(4):638-644
+doi: 10.1519/1533-4287(2003)017<0638:eoaeos>2.0.co;2
+pmid: '14636098'
+url: https://pubmed.ncbi.nlm.nih.gov/14636098/
+design: crossover
+population: Men (n=16), high-intensity interval or continuous cycling groups
+sample:
+  studies: null
+  participants: 16
+read_level: abstract
+findings:
+- claim: Leg-press repetitions at ~75% 1RM were reduced 4 and 8 h after aerobic cycling but recovered by 24 h; bench press
+    was unaffected and aerobic type (intervals vs continuous) did not matter.
+  effect: Total leg press reps lower at 4 h and 8 h vs control and 24 h (no ES in abstract)
+  grade: promising
+limitations:
+- Small sample; acute performance only; cycling so local to legs.
+topics:
+- concurrent/timing
+- concurrent/residual-fatigue
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; reduced leg-press reps at 4 and 8 h, not 24 h, confirmed."

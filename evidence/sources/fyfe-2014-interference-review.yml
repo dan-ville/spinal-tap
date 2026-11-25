@@ -1,0 +1,38 @@
+id: fyfe-2014-interference-review
+title: 'Interference between concurrent resistance and endurance exercise: molecular bases and the role of individual training
+  variables'
+authors:
+- Fyfe JJ
+- Bishop DJ
+- Stepto NK
+year: 2014
+venue: Sports Med 44(6):743-762
+doi: 10.1007/s40279-014-0162-1
+pmid: '24728927'
+url: https://pubmed.ncbi.nlm.nih.gov/24728927/
+design: narrative-review
+population: Review of rodent, cell and human studies
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Endurance-exercise signalling can inhibit protein-synthesis pathways and stimulate breakdown in model systems, but
+    human studies of acute concurrent exercise have not shown molecular interference that would explain blunted hypertrophy.
+  effect: Narrative review; no pooled effect
+  grade: promising
+- claim: Order, between-mode recovery, endurance volume, intensity and modality are candidate moderators, but their roles
+    were not fully resolved.
+  effect: Narrative review
+  grade: convention
+limitations:
+- Narrative review; predates most chronic molecular trials.
+topics:
+- concurrent/molecular
+- concurrent/moderators
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; 'human studies to date have not observed such molecular interference following acute concurrent exercise' confirmed."

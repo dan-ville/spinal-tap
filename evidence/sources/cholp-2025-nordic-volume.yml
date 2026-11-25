@@ -1,0 +1,38 @@
+id: cholp-2025-nordic-volume
+title: 'Effect of high vs. low volume of the nordic hamstring curl on hamstring muscle architecture and eccentric
+  strength in soccer players: a systematic review and meta-analysis'
+authors:
+- Cholp J
+- Zemkova E
+year: 2025
+venue: Front Physiol 16:1631205
+doi: 10.3389/fphys.2025.1631205
+pmid: '41178985'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12572617/
+design: meta-analysis
+population: Amateur to professional soccer players; NHE interventions > 4 wk, 2014-2025
+sample:
+  studies: 11
+  participants: null
+read_level: full-text
+findings:
+- claim: High-volume Nordic programmes increased eccentric strength, fascicle length and muscle thickness, whereas
+    low-volume programmes increased eccentric strength but not architecture.
+  effect: 'High volume: strength g = 0.77 (95% CI 0.49 to 1.06), fascicle length 0.43 (0.20 to 0.65), thickness 0.48
+    (0.28 to 0.68); low volume: strength 0.46 (0.06 to 0.87), architecture not significant'
+  grade: speculative
+limitations:
+- Indirect (between-study) volume comparison; Cochrane risk of bias 'some concerns'; soccer players only; fascicle
+  methods mixed.
+- Contradicts Cuthbert 2020's 'no volume effect'; the two used different effect metrics (controlled vs pre-post).
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- strength/eccentric
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: spot check: high-volume fascicle g 0.43 (0.20 to 0.65), thickness 0.48, low-volume eccentric
+    strength 0.46 confirmed from abstract. | Prior check: chapter 7 literature researcher 2026-11-24;'

@@ -1,0 +1,18 @@
+id: steele-2017-rir-experience
+title: Ability to predict repetitions to momentary failure is not perfectly accurate, though improves with resistance training experience
+authors: [Steele J, Endres A, Fisher J, Gentil P, Giessing J]
+year: 2017
+venue: PeerJ 5:e4105
+doi: 10.7717/peerj.4105
+pmid: '29204323'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5712461/
+design: cross-sectional
+population: Trainees of varied experience; single sets to failure on a full-body session
+sample: {studies: null, participants: 141}
+read_level: abstract
+findings:
+- {claim: 'Trainees underpredicted reps to momentary failure, with a tendency toward better accuracy with more training experience.', effect: SEM for combined sample 2.64 (95% CI 2.36 to 2.99) to 3.38 (3.02 to 3.83) reps, grade: promising}
+limitations: ['Machine exercises, mostly moderate loads; conflicts with Halperin 2022 meta-regression finding no training-status effect.']
+topics: [methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: verification pass, notes: 'Ch4 verification: Europe PMC abstract re-read: n = 141, SEM 2.64-3.38 reps, ''tendency towards improved accuracy with greater experience''. Confirmed. | Earlier check by chapter 4 literature researcher'}

@@ -1,0 +1,43 @@
+id: maeo-2024-trained-fibers
+title: Long-Term Resistance Trained Human Muscles Have More Fibers, More Myofibrils, and Tighter Myofilament Packing
+  Than Untrained.
+authors:
+- Maeo S
+- Balshaw TG
+- März B
+- Zhou Z
+- Haug B
+- Martin NRW
+- Maffulli N
+- Folland JP
+year: 2024
+venue: Med Sci Sports Exerc 56(10):1906-1915
+doi: 10.1249/MSS.0000000000003495
+pmid: '38875487'
+url: https://pubmed.ncbi.nlm.nih.gov/38875487/
+design: cross-sectional
+population: Long-term resistance-trained (5.9 +/- 3.5 y) vs untrained men; biceps brachii MRI and biopsy
+sample:
+  studies: null
+  participants: 29
+read_level: full-text
+findings:
+- claim: Long-term trained men had larger biceps with more and larger fibres, about twice as many total myofibrils,
+    and tighter myofilament packing than untrained men, arguing against sarcoplasmic dilution as the long-term pattern.
+  effect: ACSAmax +70%; fibre area +29%; estimated fibre number +34%; myofibrils per fibre +49%, total +105%; myosin
+    spacing -7% (all P < 0.05)
+  grade: promising
+limitations:
+- 'Cross-sectional: selection (genetics) cannot be separated from training; fibre number estimated by division (ACSA
+  / fibre area), not counted.'
+topics:
+- hypertrophy/mechanisms
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: full text re-read (Europe PMC PMC11419278): 16 LRT vs 13 untrained men; ACSAmax +70%,
+    fibre area +29%, fibre number +34% (estimated by division), myofibrils per fibre +49%, total +105%, myosin spacing
+    -7%. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

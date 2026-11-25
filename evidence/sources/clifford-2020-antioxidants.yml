@@ -1,0 +1,21 @@
+id: clifford-2020-antioxidants
+title: "The effects of vitamin C and E on exercise-induced physiological adaptations: a systematic review and Meta-analysis of randomized controlled trials"
+authors: [Clifford T, Jeffries O, Stevenson EJ, Davies KAB]
+year: 2020
+venue: "Critical Reviews in Food Science and Nutrition 60(21):3669-3679"
+doi: "10.1080/10408398.2019.1703642"
+pmid: "31851538"
+url: https://pubmed.ncbi.nlm.nih.gov/31851538/
+design: meta-analysis
+population: "Adults in supervised training of at least 4 wk with vitamin C and/or E"
+sample: {studies: 18, participants: null}
+read_level: abstract
+findings:
+  - claim: "Vitamin C and/or E did not measurably blunt lean-mass or strength gains from resistance training."
+    effect: "RT lean mass and strength SMD -0.07 (95% CI -0.36 to 0.23), 9 RT trials; VO2max SMD -0.14 (-0.43 to 0.15)"
+    grade: promising
+limitations:
+  - "Small, underpowered trials; molecular blunting (Paulsen 2014) may not reach detectable performance differences."
+topics: [nutrition/supplements, recovery/antioxidants]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: ""}

@@ -1,0 +1,29 @@
+id: helms-2018-rpe-percentage
+title: RPE vs. Percentage 1RM Loading in Periodized Programs Matched for Sets and Repetitions
+authors: [Helms ER, Byrnes RK, Cooke DM, Haischer MH, Carzoli JP, Johnson TK, Cross MR, Cronin JB, Storey AG, Zourdos MC]
+year: 2018
+venue: Frontiers in Physiology 9:247
+doi: 10.3389/fphys.2018.00247
+pmid: '29628895'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5877330/
+design: rct
+population: Resistance-trained men (>=2 y; squat >=1.5x, bench >=1.25x BM); 8 wk DUP, squat and bench 3x/wk
+sample: {studies: null, participants: 21}
+read_level: full-text
+findings:
+- claim: RPE-based and percentage-based loading both increased strength and muscle thickness with no significant between-group difference, but small effect sizes favoured RPE loading for 1RM.
+  effect: Squat ES 0.50 +/- 0.63 (90% CL), p = 0.32, 79% chance RPE advantage; bench 0.28 +/- 0.73, p = 0.52; total 0.48 +/- 0.68, p = 0.38; squat +17.1 vs +13.9 kg, bench +10.7 vs +9.6 kg
+  grade: promising
+- claim: The RPE group self-selected heavier loads and trained at higher effort than the percentage group, so the method changed the dose.
+  effect: Mean bench RPE 7.3 vs 5.8 (p < 0.001), relative intensity 84.1% vs 78.7% 1RM (p < 0.001); squat RPE 7.2 vs 6.5 (p = 0.04)
+  grade: promising
+- claim: For the squat, where the RPE group showed its largest strength advantage, average relative intensity did not differ between groups.
+  effect: Squat average relative intensity 79.73 +/- 4.44% (RPE) vs 78.73 +/- 0.20% (1RM group), p = 0.49; relative volume load 10.39 vs 10.49, p = 0.66; RPE intensity higher only in weeks 6-8
+  grade: promising
+limitations: ['n = 10-11 per group, 8 weeks, men only; magnitude-based inference.', 'Percentage group ran at low RPE (5.8 on bench), so the comparison partly tests under-loading.', 'The heavier-load explanation fits the bench press (84.1% vs 78.7%) but not the squat, where effort (RPE 7.2 vs 6.5) differed but average load did not; the largest ES (squat 0.50) occurred where loads were similar.']
+topics: [programming/autoregulation, methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: bench intensity 84.14 vs 78.70%, RPE 7.3 vs 5.8, squat +17.1 vs +13.9 kg, ES 0.50 confirmed; added the squat intensity null. | Earlier check by chapter 4 literature researcher: PMC full text read (results tables 4 and training data).'

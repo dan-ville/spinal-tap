@@ -1,0 +1,22 @@
+id: impellizzeri-2021-chronic-workload
+title: "What Role Do Chronic Workloads Play in the Acute to Chronic Workload Ratio? Time to Dismiss ACWR and Its Underlying Theory"
+authors: [Impellizzeri FM, Woodcock S, Coutts AJ, Fanchini M, McCall A, Vigotsky AD]
+year: 2021
+venue: "Sports Med 51(3):581-592"
+doi: "10.1007/s40279-020-01378-6"
+pmid: "33332011"
+url: https://pubmed.ncbi.nlm.nih.gov/33332011/
+design: other
+population: "Re-analysis of previously published team-sport load and injury data"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Replacing chronic load with fixed or random numbers reproduced the ACWR-injury association, showing it is a rescaling artefact of acute load; neither ACWR nor acute load improved prediction over an intercept-only model."
+    effect: "Original ACWR OR 2.45 (95% CI 1.28 to 4.71); acute load / fixed chronic 1510: OR 1.95 (1.18 to 3.52); random chronic loads OR 1.16 to 2.07 (mean 1.53); random ACWRs mean OR 1.89 (1.42 to 2.70); c-statistic 0.574 (ACWR) and 0.544 (acute load) vs 0.5"
+    grade: promising
+limitations:
+  - "Single re-analysed dataset; argument is statistical, not a test of whether planned gradual progression reduces injury."
+  - "Re-analysis of a single previously published dataset; shows the association can be reproduced by artefact, not that every reported association is artefactual."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read. Corrected: the abstract's 'mean' for random chronic loads is 1.53; 1.89 is the mean OR for random ACWRs. Grade lowered to promising (single dataset); 'no evidence supports causal use of ACWR' remains well supported. | Prior check: chapter 8 literature researcher"}

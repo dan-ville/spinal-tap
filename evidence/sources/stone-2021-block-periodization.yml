@@ -1,0 +1,20 @@
+id: stone-2021-block-periodization
+title: 'Periodization and Block Periodization in Sports: Emphasis on Strength-Power Training-A Provocative and Challenging Narrative'
+authors: [Stone MH, Hornsby WG, Haff GG, Fry AC, Suarez DG, Liu J, Gonzalez-Rave JM, Pierce KC]
+year: 2021
+venue: Journal of Strength and Conditioning Research 35(8):2351-2371
+doi: 10.1519/JSC.0000000000004050
+pmid: '34132223'
+url: https://pubmed.ncbi.nlm.nih.gov/34132223/
+design: narrative-review
+population: Narrative review (pro-periodization)
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Proponents define periodization as phasic management of fitness and recovery timelines (distinct from programming) and argue that periodized training with appropriate programming produces superior athletic enhancement; block periodization is preferred for strength-power athletes.
+  effect: Narrative; no pooled data
+  grade: contested
+limitations: [Written by leading proponents; evidence cited is largely the same short trials critiqued by Afonso and Kiely.]
+topics: [programming/periodization, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

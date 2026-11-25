@@ -1,0 +1,21 @@
+id: parnell-2026-somatotype
+title: Does body build predict training response? Association between baseline somatotype and resistance training-induced muscle hypertrophy and strength gains
+authors: [Parnell C, Pinero A, Mohan A, Coleman M, Hopper A, Segtnan R, Montenegro D, Androulakis Korakakis P]
+year: 2026
+venue: SportRxiv preprint 1085
+doi: 10.51224/SportRxiv.1085
+pmid: null
+url: https://doi.org/10.51224/SportRxiv.1085
+design: preprint
+population: Untrained young men, 9 wk supervised whole-body RT twice weekly
+sample: {studies: null, participants: 40}
+read_level: abstract
+findings:
+- claim: Baseline mesomorphy had small associations with hypertrophy and performance gains that mostly fell within the region of practical equivalence and weakened after adjustment, so body build has limited value for predicting responsiveness.
+  effect: Bayesian models; effects largely within ROPE; modest positive association only for bench press 1RM
+  grade: speculative
+limitations:
+- Preprint, not peer reviewed; posting date (reported as 2026) not verified on the server; small, men only.
+topics: [frontiers/individual-response]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

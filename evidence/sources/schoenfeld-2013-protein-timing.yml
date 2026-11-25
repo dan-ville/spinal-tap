@@ -1,0 +1,21 @@
+id: schoenfeld-2013-protein-timing
+title: "The effect of protein timing on muscle strength and hypertrophy: a meta-analysis"
+authors: [Schoenfeld BJ, Aragon AA, Krieger JW]
+year: 2013
+venue: "Journal of the International Society of Sports Nutrition 10(1):53"
+doi: "10.1186/1550-2783-10-53"
+pmid: "24299050"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3879660/
+design: meta-analysis
+population: "RCTs of protein consumed around resistance training vs away from it"
+sample: {studies: 23, participants: 525}
+read_level: full-text
+findings:
+  - claim: "Once total daily protein was accounted for, consuming protein close to the training session had no effect on strength or hypertrophy."
+    effect: "Full meta-regression: no significant difference for strength (20 studies, 478 subjects) or hypertrophy (23 studies, 525 subjects); total protein intake was the strongest predictor of hypertrophy ES"
+    grade: established
+limitations:
+  - "Most trials did not match total protein between groups, so timing and dose were confounded; mostly untrained participants."
+topics: [nutrition/protein]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Confirmed: strength 20 studies/478 subjects, hypertrophy 23 studies/525 subjects. Precision: the unadjusted pooled analysis showed a small-to-moderate timing effect on hypertrophy; it vanished once total protein intake was entered as a covariate (difference 0.14 +/- 0.11, P = 0.19). So 'timing does not matter once total protein is matched' is a statistical adjustment across studies, not a result of protein-matched trials."}

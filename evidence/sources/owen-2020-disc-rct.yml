@@ -1,0 +1,21 @@
+id: owen-2020-disc-rct
+title: "Exercise for the intervertebral disc: a 6-month randomised controlled trial in chronic low back pain"
+authors: [Owen PJ, Miller CT, Rantalainen T, Simson KJ, Connell D, Hahne AJ, Trudel G, Ford JJ, Belavy DL]
+year: 2020
+venue: "Eur Spine J 29(8):1887-1899"
+doi: "10.1007/s00586-020-06379-7"
+pmid: "32211998"
+url: https://pubmed.ncbi.nlm.nih.gov/32211998/
+design: rct
+population: "Adults with chronic non-specific LBP; 6 mo progressive upright aerobic + resistance exercise vs motor control/manual therapy"
+sample: {studies: null, participants: 40}
+read_level: abstract
+findings:
+  - claim: "Six months of progressive loading exercise did not improve whole-disc T2 versus control."
+    effect: "Whole-IVD T2 94.1 +/- 10.0 vs 96.5 +/- 9.3 ms (p=0.549); posterior annulus and L5/S1 differences lost significance after multiplicity correction"
+    grade: promising
+limitations:
+  - "Small (17 vs 15 completers); LBP population; active comparator."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: n=40 chronic LBP; whole-disc T2 94.1 vs 96.5 ms, p=0.549. Confirmed. | Prior check: chapter 8 literature researcher"}

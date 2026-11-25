@@ -1,0 +1,24 @@
+id: bamman-2007-cluster
+title: Cluster analysis tests the importance of myogenic gene expression during myofiber hypertrophy in humans
+authors: [Bamman MM, Petrella JK, Kim JS, Mayhew DL, Cross JM]
+year: 2007
+venue: J Appl Physiol (1985) 102(6):2232-9
+doi: 10.1152/japplphysiol.00024.2007
+pmid: '17395765'
+url: https://pubmed.ncbi.nlm.nih.gov/17395765/
+design: cohort
+population: Previously untrained adults, 16 wk knee-extensor progressive RT
+sample: {studies: null, participants: 66}
+read_level: abstract
+findings:
+- claim: K-means clustering split trainees into extreme, modest and non-responders by myofibre hypertrophy, and load-induced MGF and myogenin mRNA rose only in responders.
+  effect: 'Myofibre growth: extreme 2,475 um2 (n=17), modest 1,111 um2 (n=32), non 16 um2 decrease (n=17); MGF +126% and myogenin +65% in extreme, no change in non'
+  grade: promising
+limitations:
+- Cluster analysis forces groups even from random error (see dankel-2020-differential-responders); no control group; single biopsy site.
+topics: [frontiers/individual-response, frontiers/genetics-omics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; growth 2,475 / 1,111 / -16 um2; MGF and myogenin +126%/+65% in Xtr and +73%/+41% in Mod, no change in Non. Confirmed ('responders' = Xtr and Mod). | Earlier check (chapter 11 literature researcher): no notes"

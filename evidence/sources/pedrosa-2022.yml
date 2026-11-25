@@ -1,0 +1,44 @@
+id: pedrosa-2022
+title: Partial range of motion training elicits favorable improvements in muscular adaptations when carried out at
+  long muscle lengths.
+authors:
+- Pedrosa GF
+- Lima FV
+- Schoenfeld BJ
+- Lacerda LT
+- Simões MG
+- Pereira MR
+- Diniz RCR
+- Chagas MH
+year: 2022
+venue: Eur J Sport Sci 22(8):1250-1260
+doi: 10.1080/17461391.2021.1927199
+pmid: '33977835'
+url: https://pubmed.ncbi.nlm.nih.gov/33977835/
+design: rct
+population: Untrained women; knee extension full vs initial (long) vs final (short) vs varied partial ROM vs control,
+  12 wk
+sample:
+  studies: null
+  participants: 45
+read_level: abstract
+findings:
+- claim: Initial-ROM (long-length) knee-extension partials produced greater regional rectus femoris and vastus lateralis
+    hypertrophy than full ROM or final-ROM partials at mid and distal sites; final-ROM partials did not differ from
+    control at 60-70% femur length.
+  effect: Relative CSA increases greater for INITIAL at 50-70% femur length (exact values in full text, not read)
+  grade: promising
+limitations:
+- Untrained women; small groups (about 9 per arm); ultrasound.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/range-of-motion
+- hypertrophy/regional
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 45 untrained women, 5 groups including control; INITIAL > all
+    at 70%, > FINAL/FULL/CON at 50-60%; FINAL = CON at 60-70%. Confirmed. | Prior check: chapter 5 literature researcher
+    2026-11-24'

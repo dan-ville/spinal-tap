@@ -1,0 +1,32 @@
+id: rutherford-1986
+title: The role of learning and coordination in strength training.
+authors:
+- Rutherford OM
+- Jones DA
+year: 1986
+venue: Eur J Appl Physiol 55(1):100-105
+doi: 10.1007/BF00422902
+pmid: '3698983'
+url: https://pubmed.ncbi.nlm.nih.gov/3698983/
+design: other
+population: Young healthy volunteers; three 12-week programmes differing in skill demand
+sample:
+  studies: null
+  participants: 32
+read_level: abstract
+findings:
+- claim: Dynamic leg-extension training increased the weight lifted about 200% while isometric strength
+    rose only 15-20%, which the authors attribute to learning and coordination of stabilising muscles.
+  effect: training load +~200% vs isometric force +15-20%; isometric training +~40% isometric force
+  grade: established
+limitations:
+- Untrained; older measurement methods.
+topics:
+- strength/specificity
+- strength/neural-adaptations
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. In this study unilateral isometric training gave no significant contralateral strength change. | Prior check: chapter 2 researcher 2026-11-24"

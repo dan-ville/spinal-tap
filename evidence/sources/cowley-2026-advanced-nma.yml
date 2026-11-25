@@ -1,0 +1,42 @@
+id: cowley-2026-advanced-nma
+title: 'The Effects of Advanced Resistance Training Prescription Methods on Strength, Power, Hypertrophy, and Performance
+  Adaptations in Healthy Adults: A Systematic Review and Bayesian Network Meta-analysis.'
+authors:
+- Cowley N
+- Nicholson V
+- Timmins R
+- Munteanu G
+- Weakley J
+year: 2026
+venue: Sports Med 56(8):1955-1977
+doi: 10.1007/s40279-026-02428-1
+pmid: '41951916'
+url: https://pubmed.ncbi.nlm.nih.gov/41951916/
+design: meta-analysis
+population: Trials comparing traditional RT with seven advanced methods (e.g. flywheel, cluster/rest redistribution,
+  AEL) in healthy adults
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Strength and power adaptations were similar across traditional and advanced resistance training methods,
+    and no advanced method consistently produced superior hypertrophy.
+  effect: All relative effects for strength and power had 95% CrIs crossing zero; hypertrophy synthesised narratively
+  grade: promising
+- claim: Flywheel training produced superior jump adaptations.
+  effect: Network estimate favouring flywheel for jump (value in full text)
+  grade: speculative
+limitations:
+- Number of studies not captured from abstract; hypertrophy not network-analysed.
+topics:
+- hypertrophy/advanced-techniques
+- hypertrophy/flywheel
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Full text retrieved (Europe PMC PMC13457283), hypertrophy section read: 13 of 17 hypertrophy
+    studies found no difference vs traditional training; synthesis narrative. Participants untrained to moderately
+    trained. DOI corrected to 10.1007/s40279-026-02428-1. | Prior check: chapter 5 literature researcher 2026-11-24'

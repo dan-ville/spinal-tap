@@ -1,0 +1,21 @@
+id: xiao-2025-caffeine-velocity
+title: "Effects of acute caffeine intake on muscular power during resistance exercise: a systematic review and meta-analysis"
+authors: [Xiao Y, Ding L, Xu Z, Liu J, Guo L, Barnes MJ, Cao Y, Girard O]
+year: 2025
+venue: "Frontiers in Nutrition 12:1686283"
+doi: "10.3389/fnut.2025.1686283"
+pmid: "41127092"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12537405/
+design: meta-analysis
+population: "Placebo-controlled studies of caffeine on bar velocity and power at fixed repetitions"
+sample: {studies: 12, participants: 230}
+read_level: full-text
+findings:
+  - claim: "Caffeine increased mean bar velocity and power during resistance exercise across loads, more in low habitual consumers."
+    effect: "Mean velocity SMD 0.42 (95% CI 0.19 to 0.65), I2 85%; mean power SMD 0.21 (0.12 to 0.30); low habitual users (<3 mg/kg/day) SMD 0.87 vs 0.21"
+    grade: promising
+limitations:
+  - "Twelve studies; high heterogeneity for velocity; habitual-intake moderator contradicts Carvalho 2022."
+topics: [nutrition/caffeine, monitoring/velocity]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read: 12 studies, n = 230; mean velocity SMD 0.42 (0.19 to 0.65), I2 85%; power 0.21 (0.12 to 0.30), I2 14%; low habitual users (<3 mg/kg/day) SMD 0.87 (0.72 to 1.02) vs 0.21; also larger in males (0.56 vs 0.22). Confirmed."}

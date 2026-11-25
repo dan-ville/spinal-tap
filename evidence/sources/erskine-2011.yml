@@ -1,0 +1,38 @@
+id: erskine-2011
+title: What causes in vivo muscle specific tension to increase following resistance training?
+authors:
+- Erskine RM
+- Jones DA
+- Maffulli N
+- Williams AG
+- Stewart CE
+- Degens H
+year: 2011
+venue: Exp Physiol 96(2):145-155
+doi: 10.1113/expphysiol.2010.053975
+pmid: '20889606'
+url: https://pubmed.ncbi.nlm.nih.gov/20889606/
+design: other
+population: Young men; 9 weeks leg-extension training; biopsy subsample
+sample:
+  studies: null
+  participants: 42
+read_level: abstract
+findings:
+- claim: In vivo specific tension rose 17% while single-fibre specific tension, shortening velocity and
+    power were unchanged and the fall in MyHC IIX did not explain it; the authors favour increased lateral
+    force transmission.
+  effect: in vivo specific tension +17%; single-fibre specific tension unchanged (n = 17 biopsies)
+  grade: speculative
+limitations:
+- Lateral force transmission inferred, not measured.
+topics:
+- strength/morphology
+- strength/specific-tension
+- strength/fibre-type
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

@@ -1,0 +1,47 @@
+id: rosenfeldt-2024-rt-vs-stretch
+title: Comparison of resistance training vs static stretching on flexibility and maximal strength in healthy physically
+  active adults, a randomized controlled trial
+authors:
+- Rosenfeldt M
+- Stien N
+- Behm DG
+- Saeterbakken AH
+- Andersen V
+year: 2024
+venue: BMC Sports Sci Med Rehabil 16(1):142
+doi: 10.1186/s13102-024-00934-1
+pmid: '38943165'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11212372/
+design: rct
+population: Physically active adults, 24 y; straight-leg deadlift + kettlebell modified Jefferson curl from a box
+  vs static stretching vs control, 8 wk, 3x/wk
+sample:
+  studies: null
+  participants: 18
+read_level: full-text
+findings:
+- claim: Full-range loaded hip-hinge training including a modified Jefferson curl improved sit-and-reach as much as
+    volume-matched static stretching, and improved isometric straight-leg deadlift strength at both a near-end-range
+    and mid-range position far more.
+  effect: Sit-and-reach vs control g = 2.53 (RT) and 2.44 (SS), RT vs SS p = 1.00; ISLDL 95% ROM +145 +/- 27 N (RT)
+    vs -16 +/- 57 N (SS), RT vs SS g = 2.69-3.36
+  grade: speculative
+limitations:
+- n = 6 per group; physically active but not strength athletes; sit-and-reach is a composite of hamstring and spinal
+  flexion; Jefferson curl combined with SLDL so its own contribution cannot be isolated.
+- The RT advantage over stretching in isometric SLDL was as large at 50% of hip ROM (+139 N) as at 95% (+145 N), so
+  it is not specific to end range; the control group also gained 49 N at 95% ROM (p = 0.041). Modified Jefferson curl
+  began with a neutral-spine hinge.
+topics:
+- mobility/practitioner-systems
+- flexibility/resistance-training
+- strength/joint-angle
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC11212372) re-read; table values confirmed (S&R +6.6 cm RT vs +6.1 SS; ISLDL
+    95% +145 vs -16 N; 50% +139 vs +17 N). | Prior check: verification pass 2026-11-24; Ch6 verification: full text
+    abstract (PMC11212372) re-read; n = 6 per group; S&R RT g = 2.53, SS g = 2.44 vs control, RT vs SS p = 1.00 confirmed.
+    Relevant to chapter 6 claim 7; very small trial. | Prior check: chapter 7 literature researcher 2026-11-24'

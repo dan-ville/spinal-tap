@@ -1,0 +1,44 @@
+id: damas-2016
+title: Early resistance training-induced increases in muscle cross-sectional area are concomitant with edema-induced
+  muscle swelling.
+authors:
+- Damas F
+- Phillips SM
+- Lixandrao ME
+- Vechin FC
+- Libardi CA
+- Roschel H
+- Tricoli V
+- Ugrinowitsch C
+year: 2016
+venue: Eur J Appl Physiol 116(1):49-56
+doi: 10.1007/s00421-015-3243-4
+pmid: '26280652'
+url: https://pubmed.ncbi.nlm.nih.gov/26280652/
+design: other
+population: Untrained young men; 10 weeks RT
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: Vastus lateralis CSA increases at week 3 coincided with elevated echo intensity and damage markers, so early
+    CSA gains partly reflect oedema rather than hypertrophy.
+  effect: CSA +2.7% at week 3, +10.4% at week 10; echo intensity elevated at week 3 only after normalisation
+  grade: promising
+limitations:
+- n = 10; ultrasound echo intensity is an indirect oedema marker.
+- Oedema inferred from ultrasound echo intensity, not MRI T2; maeo-2018 found ACSA gains from week 4 with no T2 change.
+topics:
+- strength/time-course
+- strength/methods
+- hypertrophy/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; oedema was inferred from ultrasound echo intensity (normalised
+    EI raised only at week 3), not MRI T2. A work-matched MRI study (maeo-2018) found no T2 change while ACSA rose
+    from week 4, so the oedema effect is not universal. | Prior check: chapter 2 researcher 2026-11-24'

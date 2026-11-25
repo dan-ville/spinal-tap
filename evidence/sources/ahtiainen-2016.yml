@@ -1,0 +1,28 @@
+id: ahtiainen-2016
+title: Heterogeneity in resistance training-induced muscle strength and mass responses in men and women of different ages
+authors: [Ahtiainen JP, Walker S, Peltonen H, Holviala J, Sillanpää E, Karavirta L, Sallinen J, Mikkola J, Valkeinen H, Mero A, Hulmi JJ, Häkkinen K]
+year: 2016
+venue: Age (Dordr) 38(1):10
+doi: 10.1007/s11357-015-9870-1
+pmid: '26767377'
+url: https://pubmed.ncbi.nlm.nih.gov/26767377/
+design: cohort
+population: Pooled untrained healthy men and women aged 19-78 y (287 trained, 72 controls), 20-21 wk RT
+sample: {studies: null, participants: 287}
+read_level: abstract
+findings:
+- claim: Gains varied widely between individuals regardless of age and sex, and age and sex did not affect the mean responses.
+  effect: Muscle size +4.8 +/- 6.1% (range -11 to 30%); strength +21.1 +/- 11.5% (range -8 to 60%)
+  grade: promising
+- claim: Using the upper 95% CI of non-training controls as threshold, 29% were low responders for size and 7% for strength.
+  effect: High responders (>1 SD) 14% (size), 12% (strength)
+  grade: contested
+limitations:
+- Pooled retrospective data; responder classification from a single training period is vulnerable to the biases described by atkinson-2019.
+- Abstract wording 'n = 287 with 72 controls' is ambiguous about whether the 72 controls are part of the 287; the 20-21 wk duration was not verifiable from the abstract.
+topics: [frontiers/individual-response, frontiers/ageing, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; size +4.8 +/- 6.1% (-11 to 30), strength +21.1 +/- 11.5% (-8 to 60), 14%/12% high responders, 29%/7% low responders; age and sex did not affect responses. Confirmed. PMC copy not downloadable. Abstract says 'n = 287 with 72 controls', which is ambiguous about whether controls are inside the 287. | Earlier check (chapter 11 literature researcher): no notes"

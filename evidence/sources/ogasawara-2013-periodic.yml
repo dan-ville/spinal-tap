@@ -1,0 +1,20 @@
+id: ogasawara-2013-periodic
+title: Comparison of muscle hypertrophy following 6-month of continuous and periodic strength training
+authors: [Ogasawara R, Yasuda T, Ishii N, Abe T]
+year: 2013
+venue: European Journal of Applied Physiology 113(4):975-985
+doi: 10.1007/s00421-012-2511-9
+pmid: '23053130'
+url: https://pubmed.ncbi.nlm.nih.gov/23053130/
+design: rct
+population: Untrained young men; bench press 3x10 at 75% 1RM, 3x/wk, 24 wk
+sample: {studies: null, participants: 14}
+read_level: abstract
+findings:
+- claim: Three 6-week training blocks separated by 3-week breaks produced the same 24-week gains in muscle CSA and bench 1RM as continuous training; retraining after breaks was faster than continued training.
+  effect: Overall CSA and strength gains similar between groups; gains in the second retraining cycle significantly greater than in the continuous group
+  grade: promising
+limitations: ['Untrained men, one exercise, n = 7 per group.']
+topics: [programming/deload, strength/detraining]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

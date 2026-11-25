@@ -1,0 +1,36 @@
+id: williams-2017-periodization
+title: 'Comparison of Periodized and Non-Periodized Resistance Training on Maximal Strength: A Meta-Analysis'
+authors: [Williams TD, Tolusso DV, Fedewa MV, Esco MR]
+year: 2017
+venue: Sports Medicine 47(10):2083-2100
+doi: 10.1007/s40279-017-0734-y
+pmid: '28497285'
+url: https://pubmed.ncbi.nlm.nih.gov/28497285/
+design: meta-analysis
+population: Adults and adolescents (15-71 y; 53% of effects untrained) in periodized vs non-periodized RT trials measuring squat, bench or leg-press 1RM (1988-2015); volume equated in 45 of 81 effects (7 of 18 studies)
+sample: {studies: 18, participants: 612}
+read_level: full-text
+findings:
+- claim: Periodized RT produced larger 1RM gains than non-periodized RT.
+  effect: ES = 0.43 (95% CI 0.27 to 0.58), P < 0.001; 81 effects from 18 studies
+  grade: contested
+- claim: 'Moderators: undulating models, untrained status, longer studies and higher frequency were associated with larger 1RM gains.'
+  effect: Model beta = 0.51 (P = 0.001); training status beta = -0.59 (P = 0.03); study length beta = 0.03 (P = 0.007); frequency beta = 0.46 (P = 0.012)
+  grade: speculative
+- claim: The pooled effect shrank after accounting for nesting and fell to a small effect once outlying effects were removed.
+  effect: Multilevel intercept-only ES 0.38 (95% CI 0.09 to 0.66), P = 0.012; after removing 14 outlying effects from 5 studies ES 0.23 (0.13 to 0.33), heterogeneity eliminated (Q = 51.17, P = 0.91); overall I2 = 62.5%; Egger P = 0.006
+  grade: contested
+- claim: Whether training volume was equated between arms did not significantly moderate the periodization effect.
+  effect: 'Volume equated in 45/81 effects (55.6%); authors: ''training volume was not a significant predictor of change in 1RM'''
+  grade: speculative
+limitations:
+- 81 effects from 18 studies treated with a random-effects model; dependency of multiple effects per study is a concern.
+- Two published comments (Sports Med 2018;48:491-496) disputed it.
+- Volume was equated in only 7 of 18 studies (45 of 81 effects); some included studies compared volume or supervision rather than periodization (Afonso 2019).
+- Egger test suggests publication bias (P = 0.006); outlier-trimmed estimate (ES 0.23) is smaller than the volume-equated Moesgaard 2022 estimate (ES 0.31).
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Full text read from a copy of the published PDF hosted on a third-party site (fisiologiadelejercicio.com); Springer page blocked. ES 0.43 (0.27-0.58), 81 effects/18 studies, moderators match. Added: 612 participants; volume equated in 45/81 effects; multilevel ES 0.38; outlier-trimmed ES 0.23; volume not a significant moderator. Old limitation saying volume was not equated was wrong. | Earlier check by chapter 4 literature researcher'

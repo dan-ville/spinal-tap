@@ -1,0 +1,23 @@
+id: kataoka-2021-periodization-definition
+title: 'Periodization: Variation in the Definition and Discrepancies in Study Design'
+authors: [Kataoka R, Vasenina E, Loenneke J, Buckner SL]
+year: 2021
+venue: Sports Medicine 51(4):625-651
+doi: 10.1007/s40279-020-01414-5
+pmid: '33405190'
+url: https://pubmed.ncbi.nlm.nih.gov/33405190/
+design: narrative-review
+population: Review of definitions and study designs
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Periodization has many inconsistent definitions; research rarely tests the annual macro-plan it claims to manage, conflates periodization with programming, and studies RT alone without the sport it is meant to be periodized around, so its superiority cannot be experimentally tested as defined.
+  effect: Conceptual/methodological review
+  grade: established
+limitations: ['Critique of the literature, not new data.']
+topics: [programming/periodization, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read; ''inability to define periodization makes the statement of its superiority difficult to experimentally test''. Confirmed at abstract level; Springer full text not reachable. | Earlier check by chapter 4 literature researcher'

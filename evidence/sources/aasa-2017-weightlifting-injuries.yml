@@ -1,0 +1,21 @@
+id: aasa-2017-weightlifting-injuries
+title: "Injuries among weightlifters and powerlifters: a systematic review"
+authors: [Aasa U, Svartholm I, Andersson F, Berglund L]
+year: 2017
+venue: "Br J Sports Med 51(4):211-219"
+doi: "10.1136/bjsports-2016-096037"
+pmid: "27707741"
+url: https://pubmed.ncbi.nlm.nih.gov/27707741/
+design: systematic-review
+population: "Olympic weightlifters and powerlifters"
+sample: {studies: 9, participants: null}
+read_level: abstract
+findings:
+  - claim: "Injury incidence in weightlifting and powerlifting is low relative to contact sports, mostly at spine, shoulder and knee, with almost no risk-factor data."
+    effect: "Weightlifting 2.4-3.3 and powerlifting 1.0-4.4 injuries/1000 h of training"
+    grade: promising
+limitations:
+  - "Mostly low-quality, retrospective studies; only one examined risk factors."
+topics: [injury/strength-sports]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 9 studies, mostly low quality; weightlifting 2.4-3.3 and powerlifting 1.0-4.4 injuries/1000 h of training; one risk-factor study. Confirmed. | Prior check: chapter 8 literature researcher"}

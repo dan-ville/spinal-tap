@@ -1,0 +1,46 @@
+id: ruple-2022-imaging
+title: Comparisons between skeletal muscle imaging techniques and histology in tracking midthigh hypertrophic adaptations
+  following 10 wk of resistance training.
+authors:
+- Ruple BA
+- Smith MA
+- Osburn SC
+- Sexton CL
+- Godwin JS
+- Edison JL
+- Poole CN
+- Stock MS
+- Fruge AD
+- Young KC
+- Roberts MD
+year: 2022
+venue: J Appl Physiol (1985) 133(2):416-425
+doi: 10.1152/japplphysiol.00219.2022
+pmid: '35771220'
+url: https://pubmed.ncbi.nlm.nih.gov/35771220/
+design: cohort
+population: Untrained young men; 10 wk RT; MRI, ultrasound, DXA and biopsy of mid-thigh
+sample:
+  studies: null
+  participants: 12
+read_level: abstract
+findings:
+- claim: 'Detected hypertrophy depended on the method: MRI CSA, DXA thigh lean mass and ultrasound thickness increased
+    but ultrasound CSA and fibre CSA did not; DXA and ultrasound changes correlated only moderately with MRI, and
+    fibre CSA change correlated negatively.'
+  effect: 'Change correlations with MRI: DXA r = 0.580 (P = 0.048); US CSA r = 0.622 (P = 0.031); VL thickness r =
+    0.520 (P = 0.080); fCSA r = -0.569 (P = 0.054, not significant); US vs MRI CCC 0.830 (single time point), 0.700
+    (change); n = 12'
+  grade: promising
+limitations:
+- n = 12; one muscle region; biopsies 72 h after last bout.
+topics:
+- hypertrophy/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; n = 12 untrained men; biopsy 72 h post. fCSA vs MRI r = -0.569
+    was not significant (P = 0.054); VL thickness r = 0.520 (P = 0.080); DXA r = 0.580 (P = 0.048); US mCSA change
+    agreed well with MRI (CCC 0.700). | Prior check: chapter 5 literature researcher 2026-11-24'

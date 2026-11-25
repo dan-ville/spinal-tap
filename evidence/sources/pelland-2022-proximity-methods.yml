@@ -1,0 +1,21 @@
+id: pelland-2022-proximity-methods
+title: 'Methods for Controlling and Reporting Resistance Training Proximity to Failure: Current Issues and Future Directions'
+authors: [Pelland JC, Robinson ZP, Remmert JF, Cerminaro RM, Benitez B, John TA, Helms ER, Zourdos MC]
+year: 2022
+venue: Sports Medicine 52(7):1461-1472
+doi: 10.1007/s40279-022-01667-2
+pmid: '35247203'
+url: https://pubmed.ncbi.nlm.nih.gov/35247203/
+design: narrative-review
+population: Methods review
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: '''Failure'' is defined inconsistently (momentary, volitional or undefined), and percentage-based prescriptions produce a wide range of per-set RIR across individuals, which blurs proximity-to-failure research.'
+  effect: Qualitative methods review
+  grade: established
+limitations:
+- No new data.
+topics: [methods/measurement, hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

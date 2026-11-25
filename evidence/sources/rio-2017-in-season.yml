@@ -1,0 +1,21 @@
+id: rio-2017-in-season
+title: "Isometric Contractions Are More Analgesic Than Isotonic Contractions for Patellar Tendon Pain: An In-Season Randomized Clinical Trial"
+authors: [Rio E, van Ark M, Docking S, Moseley GL, Kidgell D, Gaida JE, van den Akker-Scheek I, Zwerver J, Cook J]
+year: 2017
+venue: "Clin J Sport Med 27(3):253-259"
+doi: "10.1097/JSM.0000000000000364"
+pmid: "27513733"
+url: https://pubmed.ncbi.nlm.nih.gov/27513733/
+design: rct
+population: "In-season jumping athletes with patellar tendinopathy; isometric (80% MVIC) vs isotonic (80% 8RM) leg extension 4x/week for 4 wk, time under load matched"
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+  - claim: "Both programmes reduced pain over 4 weeks, but isometrics gave greater immediate analgesia after sessions."
+    effect: "Greater immediate analgesia with isometric, P<0.002 (magnitudes not in abstract)"
+    grade: contested
+limitations:
+  - "n=20; same research group as rio-2015; immediate within-session outcome."
+topics: [connective-tissue/tendinopathy-isometrics]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

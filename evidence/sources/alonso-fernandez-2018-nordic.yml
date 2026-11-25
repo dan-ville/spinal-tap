@@ -1,0 +1,38 @@
+id: alonso-fernandez-2018-nordic
+title: Changes in muscle architecture of biceps femoris induced by eccentric strength training with nordic hamstring
+  exercise
+authors:
+- Alonso-Fernandez D
+- Docampo-Blanco P
+- Martinez-Fernandez J
+year: 2018
+venue: Scand J Med Sci Sports 28(1):88-94
+doi: 10.1111/sms.12877
+pmid: '28314091'
+url: https://pubmed.ncbi.nlm.nih.gov/28314091/
+design: cohort
+population: Active participants; 8 wk Nordic training then 4 wk detraining, single group
+sample:
+  studies: null
+  participants: 23
+read_level: abstract
+findings:
+- claim: Eight weeks of Nordic training lengthened biceps femoris long-head fascicles and reduced pennation angle,
+    and four weeks of detraining reversed much of the fascicle change.
+  effect: Fascicle length increase d = 2.28 (P < .001); thickness d = 1.54; pennation decrease d = 2.3; detraining
+    fascicle decrease d = 1.79
+  grade: promising
+limitations:
+- No control group; 2D ultrasound with extrapolation; within-group effect sizes.
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 23 single group; d 2.28 increase, d 1.79 decrease after 4
+    wk detraining confirmed; abstract does not state whether values returned to baseline; strength not measured. |
+    Prior check: chapter 7 literature researcher 2026-11-24;'

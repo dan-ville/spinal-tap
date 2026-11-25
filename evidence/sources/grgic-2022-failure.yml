@@ -1,0 +1,27 @@
+id: grgic-2022-failure
+title: 'Effects of resistance training performed to repetition failure or non-failure on muscular strength and hypertrophy: A systematic review and meta-analysis'
+authors: [Grgic J, Schoenfeld BJ, Orazem J, Sabol F]
+year: 2022
+venue: Journal of Sport and Health Science 11(2):202-211
+doi: 10.1016/j.jshs.2021.01.007
+pmid: '33497853'
+url: https://pubmed.ncbi.nlm.nih.gov/33497853/
+design: meta-analysis
+population: Young adults, trained and untrained
+sample: {studies: 15, participants: null}
+read_level: abstract
+findings:
+- claim: Failure and non-failure training produce similar strength and hypertrophy overall.
+  effect: Strength ES -0.09 (95% CI -0.22 to 0.05); hypertrophy ES 0.22 (95% CI -0.11 to 0.55)
+  grade: established
+- claim: When volume was not equated, non-failure training gave more strength; in trained participants, failure gave slightly more hypertrophy.
+  effect: Non-equated strength ES -0.32 (95% CI -0.57 to -0.07); trained hypertrophy ES 0.15 (95% CI 0.03 to 0.26)
+  grade: contested
+limitations:
+- Heterogeneous 'failure' definitions; small subgroup sizes.
+topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; strength ES -0.09 (-0.22 to 0.05), non-equated -0.32 (-0.57 to -0.07), hypertrophy 0.22 (-0.11 to 0.55), trained-subgroup hypertrophy 0.15 (0.03-0.26), 15 studies, all young adults. Confirmed. Full text is on PMC (PMC9068575). | Earlier check by chapter 3 literature researcher"

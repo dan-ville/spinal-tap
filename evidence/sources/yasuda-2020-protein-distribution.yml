@@ -1,0 +1,21 @@
+id: yasuda-2020-protein-distribution
+title: "Evenly Distributed Protein Intake over 3 Meals Augments Resistance Exercise-Induced Muscle Hypertrophy in Healthy Young Men"
+authors: [Yasuda J, Tomita T, Arimitsu T, Fujita S]
+year: 2020
+venue: "Journal of Nutrition 150(7):1845-1851"
+doi: "10.1093/jn/nxaa101"
+pmid: "32321161"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7330467/
+design: rct
+population: "Healthy young untrained men; 12 wk supervised RT 3x/wk; protein-rich breakfast (0.33 g/kg) vs low breakfast (0.12 g/kg) with matched daily protein"
+sample: {studies: null, participants: 26}
+read_level: abstract
+findings:
+  - claim: "With matched daily protein, a protein-rich breakfast tended to give more lean-mass gain than a dinner-skewed pattern."
+    effect: "Total lean tissue mass +2.5 +/- 0.3 kg (high breakfast) vs smaller gain (low breakfast); described as a tendency"
+    grade: speculative
+limitations:
+  - "Small; untrained; DXA; effect described as a tendency in the abstract."
+topics: [nutrition/protein]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: ""}

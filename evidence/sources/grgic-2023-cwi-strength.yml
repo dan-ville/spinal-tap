@@ -1,0 +1,21 @@
+id: grgic-2023-cwi-strength
+title: "Effects of post-exercise cold-water immersion on resistance training-induced gains in muscular strength: a meta-analysis"
+authors: [Grgic J]
+year: 2023
+venue: "European Journal of Sport Science 23(3):372-380"
+doi: "10.1080/17461391.2022.2033851"
+pmid: "35068365"
+url: https://pubmed.ncbi.nlm.nih.gov/35068365/
+design: meta-analysis
+population: "Training studies of CWI after resistance exercise; 92% male"
+sample: {studies: 10, participants: 170}
+read_level: abstract
+findings:
+  - claim: "Post-exercise CWI slightly reduced strength gains, driven by immersion of the trained limb; whole-body immersion showed no clear effect."
+    effect: "Overall ES -0.23 (95% CI -0.45 to -0.01); limb-only ES -0.31 (-0.61 to -0.01); whole-body ES -0.08 (-0.53 to 0.38)"
+    grade: promising
+limitations:
+  - "Small studies (n = 170 total); mostly men; PEDro quality fair-to-good."
+topics: [recovery/cold-water-immersion]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 10 studies, n = 170, 92% male; ES -0.23 (-0.45 to -0.01); limb-only -0.31 (-0.61 to -0.01); whole-body -0.08 (-0.53 to 0.38). Confirmed. Single-author review."}

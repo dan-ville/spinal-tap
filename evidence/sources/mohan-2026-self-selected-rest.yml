@@ -1,0 +1,24 @@
+id: mohan-2026-self-selected-rest
+title: Freedom of Choice? Effects of Self-Selected Rest Intervals on Muscular Adaptations
+authors: [Mohan AE, Pinero A, Coleman M, Hopper A, Segtnan R, Montenegro D, Hermann T, Androulakis Korakakis P, Wolf M, Swinton PA, Schoenfeld BJ]
+year: 2026
+venue: International Journal of Sports Medicine (online ahead of print)
+doi: 10.1055/a-2999-0052
+pmid: '42994440'
+url: https://pubmed.ncbi.nlm.nih.gov/42994440/
+design: rct
+population: Resistance-trained adults; 8 wk lower-body RT, 4 x 8-12; self-selected vs fixed ~2 min rest
+sample: {studies: null, participants: 40}
+read_level: abstract
+findings:
+- claim: Self-selected rest gave the same hypertrophy and strength as fixed ~2-min rest, but fixed-rest sessions were ~29% shorter (self-selected sessions took ~40% longer).
+  effect: Hypertrophy domain -0.1 SD (95% CrI -0.2 to 0.0); performance 0.0 SD (-0.3 to 0.3); session time 56.0 +/- 4.5 vs 78.5 +/- 15.4 min
+  grade: promising
+limitations:
+- Lower body only, 8 weeks.
+topics: [hypertrophy/rest-interval, strength/rest-interval]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; numbers confirmed. Corrected the claim: the abstract says FIXED sessions were ~29% faster (56.0 vs 78.5 min), i.e. self-selected sessions took ~40% longer, not ~29% longer. | Earlier check by chapter 3 literature researcher"

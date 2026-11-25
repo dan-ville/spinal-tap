@@ -1,0 +1,23 @@
+id: swinton-2009-powerlifters
+title: 'Contemporary training practices in elite British powerlifters: survey results from an international competition'
+authors: [Swinton PA, Lloyd R, Agouris I, Stewart A]
+year: 2009
+venue: Journal of Strength and Conditioning Research 23(2):380-384
+doi: 10.1519/JSC.0b013e31819424bd
+pmid: '19197205'
+url: https://pubmed.ncbi.nlm.nih.gov/19197205/
+design: cross-sectional
+population: Elite British powerlifters (Wilks 450 +/- 35)
+sample: {studies: null, participants: 28}
+read_level: abstract
+findings:
+- claim: Elite powerlifters lifted with explosive intent (79-82%), used chains (57%) and bands (39%), and 69% used Olympic lifts or derivatives.
+  effect: Survey percentages; response 28/32
+  grade: convention
+limitations: ['Small, equipped-era sample.']
+topics: [practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Spot check: PubMed abstract, 28 of 32 respondents; explosive intent 79/82%, bands 39%, chains 57%, Olympic-lift derivatives 69%. Confirmed. | Earlier check by chapter 4 literature researcher'

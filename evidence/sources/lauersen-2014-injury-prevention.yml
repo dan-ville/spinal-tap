@@ -1,0 +1,44 @@
+id: lauersen-2014-injury-prevention
+title: 'The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis
+  of randomised controlled trials'
+authors:
+- Lauersen JB
+- Bertelsen DM
+- Andersen LB
+year: 2014
+venue: Br J Sports Med 48(11):871-877
+doi: 10.1136/bjsports-2013-092538
+pmid: '24100287'
+url: https://pubmed.ncbi.nlm.nih.gov/24100287/
+design: meta-analysis
+population: RCTs of exercise-based injury prevention in sport
+sample:
+  studies: 25
+  participants: 26610
+read_level: abstract
+findings:
+- claim: Stretching showed no injury-preventive effect, whereas strength training, proprioception training and multi-component
+    programmes reduced injuries.
+  effect: Stretching RR 0.963 (0.846 to 1.095); strength training RR 0.315 (0.207 to 0.480); proprioception RR 0.550
+    (0.347 to 0.869); multiple exposures RR 0.655 (0.520 to 0.826)
+  grade: established
+limitations:
+- Few strength-training trials drove the large strength effect; stretching trials dominated by military recruits.
+- The strength-training stratum had four trials, all reused in lauersen-2018-strength-injury.
+topics:
+- injury/stretching
+- injury/strength-training-prevention
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/08-connective-tissue.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 25 trials, 26,610 participants; stretching RR 0.963 (0.846 to 1.095);
+    strength RR 0.315 (0.207 to 0.480) confirmed. BMJ PDF returned a challenge page. The strength-vs-stretching contrast
+    is indirect (different trials, populations and comparators) and the strength estimate rests on few trials (see lauersen-2018-strength-injury).
+    | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract. Chapter 8 researcher
+    (2026-11-24) added topic injury/strength-training-prevention and cited_in for chapter 8; the strength-training RR
+    rests on few trials (see lauersen-2018-strength-injury). | Ch8 verification (2026-11-24): PubMed abstract re-read;
+    RR 0.315 (0.207 to 0.480) confirmed. Per Lauersen 2018, the 2014 strength-training stratum contained four trials,
+    which are also four of the six trials in lauersen-2018-strength-injury, so the two RRs are not independent evidence.'

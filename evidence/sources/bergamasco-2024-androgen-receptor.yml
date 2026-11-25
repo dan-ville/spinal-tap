@@ -1,0 +1,21 @@
+id: bergamasco-2024-androgen-receptor
+title: "Acute and Chronic Changes in Muscle Androgen Receptor Markers Are Not Associated with Muscle Hypertrophy in Women and Men"
+authors: [Bergamasco JGA, Scarpelli MC, Godwin JS, Mesquita PHC, Chaves TS, Da Silva DG, Bittencourt D, Dias NF, Medalha Junior RA, Carello Filho PC, Angleri V, Costa LAR, Michel JM, Vechin FC, Kavazis AN, Ugrinowitsch C, Roberts MD, Libardi CA]
+year: 2024
+venue: "Med Sci Sports Exerc 56(11):2146-2155"
+doi: "10.1249/MSS.0000000000003509"
+pmid: "38934511"
+url: https://pubmed.ncbi.nlm.nih.gov/38934511/
+design: cohort
+population: "Young women (19) and men (19), 10 weeks of resistance training; vastus lateralis biopsies"
+sample: {studies: null, participants: 38}
+read_level: abstract
+findings:
+  - claim: "Acute and chronic training-induced changes in muscle androgen-receptor markers did not correlate with hypertrophy in women or men, although baseline cytoplasmic AR content was associated with type II fibre hypertrophy in men."
+    effect: "No correlation of AR, cAR, nAR or AR-DNA changes with type I/II fCSA or mCSA; baseline cAR associated with type II fCSA change in men (significance only reported)"
+    grade: promising
+limitations:
+  - "Small sample; 10 weeks; untrained participants; associations only."
+topics: [frontiers/individual-response, frontiers/sex-differences, hypertrophy/mechanisms]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch11 verification: PubMed abstract read; one of the Roberts/Libardi studies behind the 2026 conference statement on sex-hormone receptors."}

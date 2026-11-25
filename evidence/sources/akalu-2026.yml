@@ -1,0 +1,41 @@
+id: akalu-2026
+title: Determining the cortical, corticospinal, and reticulospinal responses to metronome-paced and self-paced
+  strength training.
+authors:
+- Akalu Y
+- Tallent J
+- Frazer AK
+- Siddique U
+- Rostami M
+- Howatson G
+- Walker S
+- Kidgell DJ
+year: 2026
+venue: Eur J Appl Physiol 126(3):1333-1356
+doi: 10.1007/s00421-025-05939-3
+pmid: '40886203'
+url: https://pubmed.ncbi.nlm.nih.gov/40886203/
+design: rct
+population: Resistance-training-naive adults; single session, three arms
+sample:
+  studies: null
+  participants: 36
+read_level: abstract
+findings:
+- claim: A single bout of metronome-paced training acutely raised corticospinal excitability and reduced
+    intracortical inhibition, whereas self-paced training raised ipsilateral MEP ratio and startle-cued
+    early RFD, interpreted as acute reticulospinal engagement.
+  effect: MP-RT CSE +50% at 5 min, +72% at 30 min; SP-RT ICAR +48%, startle RFD0-50 +60% at 30 min (P
+    = 0.039)
+  grade: speculative
+limitations:
+- Acute responses, not training adaptations; indirect reticulospinal measures; 12 per group.
+topics:
+- strength/reticulospinal
+- strength/corticospinal
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Acute single-session responses in untrained adults; not a training adaptation. | Prior check: chapter 2 researcher 2026-11-24"

@@ -1,0 +1,39 @@
+id: lixandrao-2018
+title: 'Magnitude of Muscle Strength and Mass Adaptations Between High-Load Resistance Training Versus Low-Load Resistance
+  Training Associated with Blood-Flow Restriction: A Systematic Review and Meta-Analysis.'
+authors:
+- Lixandrão ME
+- Ugrinowitsch C
+- Berton R
+- Vechin FC
+- Conceição MS
+- Damas F
+- Libardi CA
+- Roschel H
+year: 2018
+venue: Sports Med 48(2):361-378
+doi: 10.1007/s40279-017-0795-y
+pmid: '29043659'
+url: https://pubmed.ncbi.nlm.nih.gov/29043659/
+design: meta-analysis
+population: Trials comparing low-load BFR training with high-load training
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Low-load BFR training produced hypertrophy similar to high-load training but smaller strength gains, regardless
+    of cuff width, pressure or pressure-setting method.
+  effect: Qualitative from abstract (pooled values in full text, not read)
+  grade: established
+limitations:
+- Study count and pooled values not captured from the abstract.
+topics:
+- hypertrophy/bfr
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; pattern confirmed (abstract gives no pooled numbers). Not open
+    access. | Prior check: chapter 5 literature researcher 2026-11-24'

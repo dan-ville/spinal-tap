@@ -1,0 +1,40 @@
+id: diong-2022-eccentric-flexibility
+title: 'Eccentric exercise improves joint flexibility in adults: A systematic review update and meta-analysis'
+authors:
+- Diong J
+- Carden PC
+- O'Sullivan K
+- Sherrington C
+- Reed DS
+year: 2022
+venue: Musculoskelet Sci Pract 60:102556
+doi: 10.1016/j.msksp.2022.102556
+pmid: '35390669'
+url: https://pubmed.ncbi.nlm.nih.gov/35390669/
+design: meta-analysis
+population: Adults; eccentric exercise vs no intervention or other interventions
+sample:
+  studies: 32
+  participants: 1122
+read_level: abstract
+findings:
+- claim: Eccentric exercise improved joint flexibility in adults by a moderate amount.
+  effect: Hedges' g SMD = 0.54 (95% CI 0.34 to 0.74), 27 trials, 911 participants; I2 = 50%; GRADE low to high
+  grade: established
+limitations:
+- Pooled joint ROM and fascicle length as 'flexibility' outcomes; comparators mixed (no intervention and other interventions);
+  mean PEDro 5.2.
+- 'Secondary report (unverified): ROM-only subgroup g 0.52 (0.31 to 0.74), fascicle-length subgroup g 0.57 (0.28 to
+  0.87).'
+topics:
+- mobility/eccentric-training
+- flexibility/resistance-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read: g 0.54 (0.34 to 0.74), 27 trials, 911 participants confirmed.
+    Outcome pools joint ROM and fascicle length; comparators include other interventions. A secondary summary (search
+    extract, not verified) reports ROM-only g 0.52 (0.31 to 0.74). Full text not accessible. | Prior check: chapter
+    7 literature researcher 2026-11-24;'

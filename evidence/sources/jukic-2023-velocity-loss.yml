@@ -1,0 +1,26 @@
+id: jukic-2023-velocity-loss
+title: 'The Acute and Chronic Effects of Implementing Velocity Loss Thresholds During Resistance Training: A Systematic Review, Meta-Analysis, and Critical Evaluation of the Literature'
+authors: [Jukic I, Castilla AP, Ramos AG, Van Hooren B, McGuigan MR, Helms ER]
+year: 2023
+venue: Sports Medicine 53(1):177-214
+doi: 10.1007/s40279-022-01754-4
+pmid: '36178597'
+url: https://pubmed.ncbi.nlm.nih.gov/36178597/
+design: meta-analysis
+population: Healthy adults; 18 acute and 19 longitudinal velocity-loss studies
+sample: {studies: 37, participants: null}
+read_level: full-text
+findings:
+- claim: The velocity-loss threshold did not influence strength gains, but higher thresholds increased hypertrophy and impaired jump, sprint and velocity outcomes.
+  effect: Hypertrophy b = 0.006 per % VL (95% CI 0.001 to 0.012); CMJ b = -0.040 (95% CI -0.079 to -0.001); strength and endurance not influenced
+  grade: promising
+- claim: The velocity-loss literature rests on few laboratories, mostly Smith-machine squat or bench in young men, and some participant data were reused across papers.
+  effect: 846 pooled participants reduced to 735 (656 male, 69 female) after removing duplicate datasets; only 5 studies included both sexes
+  grade: established
+limitations: [Velocity loss changes both proximity to failure and volume load; mostly Smith-machine squat/bench studies from few labs., Multilevel meta-regression handled multiple effects per study; still mostly 6-8-wk interventions.]
+topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure, programming/autoregulation, strength/velocity-based-training, technology/velocity-based-training]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full-text abstract re-read: 18 acute and 19 longitudinal studies; VL did not influence strength; hypertrophy b = 0.006 (0.001-0.012); CMJ b = -0.040. Confirmed. | Earlier check (verification pass): Ch3 verification: Europe PMC full text abstract; VL had no effect on strength, hypertrophy b = 0.006 (0.001-0.012), CMJ b = -0.040 (-0.079 to -0.001). Confirmed. | Earlier check by chapter 3 literature researcher; chapter 4 literature researcher: Ch4: PMC full text: abstract, methods and participant sections read. | Chapter 11 researcher added frontiers findings/topics and cited_in. | Ch4 verification: Europe PMC full text: 846 pooled participants reduced to 735 (656 male) after duplicate removal (all 37 studies, acute and longitudinal), mostly Smith-machine squat; strength not affected by VL. Confirmed."

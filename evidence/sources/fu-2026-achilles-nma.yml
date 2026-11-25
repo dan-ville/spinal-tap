@@ -1,0 +1,21 @@
+id: fu-2026-achilles-nma
+title: "The effect of exercise training modalities on the morphological and mechanical properties of the achilles tendon: a systematic review and network meta-analysis"
+authors: [Fu B, Qian Y, Wang Y, Fang J, Gu Y, Zhang X]
+year: 2026
+venue: "Front Sports Act Living 8:1782503"
+doi: "10.3389/fspor.2026.1782503"
+pmid: "41908219"
+url: https://pubmed.ncbi.nlm.nih.gov/41908219/
+design: meta-analysis
+population: "Healthy adults; RCTs of exercise interventions with Achilles tendon outcomes (search to Feb 2025)"
+sample: {studies: 31, participants: 1388}
+read_level: abstract
+findings:
+  - claim: "Long-term isometric plantar-flexion training ranked highest for Achilles stiffness and short-term plyometric training highest for Achilles CSA; stretching programmes ranked low."
+    effect: "Stiffness SUCRA 89.3% (isometric); CSA SUCRA 95.6%, SMD 1.33 vs control (plyometric)"
+    grade: promising
+limitations:
+  - "Sparse networks and imprecise estimates for several outcomes; heterogeneous outcome definitions; SUCRA rankings are fragile."
+topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

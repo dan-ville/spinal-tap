@@ -1,0 +1,47 @@
+id: casolo-2021
+title: Behavior of motor units during submaximal isometric contractions in chronically strength-trained
+  individuals.
+authors:
+- Casolo A
+- Del Vecchio A
+- Balshaw TG
+- Maeo S
+- Lanza MB
+- Felici F
+- Folland JP
+- Farina D
+year: 2021
+venue: J Appl Physiol 131(5):1584-1598
+doi: 10.1152/japplphysiol.00192.2021
+pmid: '34617822'
+url: https://pubmed.ncbi.nlm.nih.gov/34617822/
+design: cross-sectional
+population: Strength-trained men (5.9 +/- 3.5 y) vs untrained men; biceps brachii
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: Strength-trained athletes were much stronger and had much larger biceps, but motor unit recruitment
+    and discharge behaviour at the same relative forces did not differ from untrained men.
+  effect: MViF +64.8%, BB ACSAmax +71.9%; MU discharge rate no difference at same normalised force
+  grade: promising
+- claim: Trained muscle produced more absolute force for the same change in discharge rate (higher neural
+    drive-to-muscle gain), pointing to morphological rather than neural factors for their submaximal force
+    advantage.
+  effect: absolute slope of dForce-dDR +66.9% (P = 0.002); no difference when normalised
+  grade: promising
+limitations:
+- Submaximal contractions only (15-70% MViF); maximal motor unit behaviour not assessed.
+- Cross-sectional.
+- "Loughborough cohort: untrained and long-term-trained men overlap across balshaw-2021, maden-wilkinson-2020, skarabot-2021-emg, balshaw-2022, casolo-2021 and skarabot-2024; treat them as one evidence base, not independent replications."
+topics:
+- strength/motor-units
+- strength/training-age
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Submaximal (15-70% MViF) only; trained n = 16, untrained n = 14. | Prior check: chapter 2 researcher 2026-11-24"

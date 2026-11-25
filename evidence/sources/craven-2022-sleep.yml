@@ -1,0 +1,36 @@
+id: craven-2022-sleep
+title: "Effects of Acute Sleep Loss on Physical Performance: A Systematic and Meta-Analytical Review"
+authors: [Craven J, McCartney D, Desbrow B, Sabapathy S, Bellinger P, Roberts L, Irwin C]
+year: 2022
+venue: "Sports Medicine 52(11):2669-2690"
+doi: "10.1007/s40279-022-01706-y"
+pmid: "35708888"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9584849/
+design: meta-analysis
+population: "Healthy adults, mostly young men (89% male overall; strength subset 74% male); acute sleep loss of one night or less (deprivation or restriction to 6 h or less)"
+sample: {studies: 69, participants: 959}
+read_level: full-text
+findings:
+  - claim: "Acute sleep loss reduced next-day exercise performance across all task categories combined."
+    effect: "Mean %change -7.56% (95% CI -11.9 to -3.13), 227 outcomes, I2 = 98.1%"
+    grade: established
+  - claim: "Maximal strength fell only modestly after acute sleep loss, and only total deprivation produced a significant effect in subgroup analysis."
+    effect: "Strength overall -2.85% (95% CI -4.47 to -1.23), 25 studies, n = 289, 66 outcomes, I2 = 62.2%; deprivation -3.00% (-4.52 to -1.48); restriction -2.77% (-6.75 to 1.21); early restriction -1.16% (-2.57 to 0.25); late restriction -4.45% (-9.30 to 0.41)"
+    grade: established
+  - claim: "Lower-body strength was affected by sleep loss; upper-body strength was not significantly affected."
+    effect: "Lower body -3.42% (95% CI -5.54 to -1.31), 46 outcomes; upper body -1.63% (-3.30 to 0.04), 18 outcomes"
+    grade: promising
+  - claim: "Strength-endurance fell more than maximal strength, but the estimate was unstable and rested on few studies."
+    effect: "-9.85% (95% CI -19.6 to -0.13), 5 studies, n = 62, 9 outcomes; significance lost in one-out analysis"
+    grade: speculative
+  - claim: "Performance declined with time awake before the task (about 0.4% per hour) for deprivation and late restriction, and afternoon tasks were affected more than morning tasks."
+    effect: "All tasks: restriction -0.36%/h (95% CI -0.52 to -0.19); late restriction -0.55%/h (-0.82 to -0.28); strength after late restriction -1.07%/h (-2.05 to -0.10)"
+    grade: promising
+limitations:
+  - "Acute protocols only (one night); sustained multi-night restriction was excluded, and no outcome addresses training adaptation."
+  - "Mostly time-in-bed manipulations in young men; sleep quality and fragmentation could not be analysed (one study)."
+  - "Performance quantified as percentage change; extreme overall heterogeneity (I2 98%)."
+  - "Quality appraised with the Rosendal scale; no GRADE rating."
+topics: [recovery/sleep]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) re-read: Table 2 strength -2.85% (-4.47 to -1.23), 25 studies, n = 289, 74% male, I2 62.2%; deprivation -3.00% (-4.52 to -1.48), I2 49.2%; early/late restriction CIs cross zero; lower body -3.42% (-5.54 to -1.31), upper -1.63% (-3.30 to 0.04); late-restriction strength -1.07%/h (-2.05 to -0.10); PM tasks affected, AM generally not. All confirmed. Note: late restriction (-4.45%) was NOT significant here; 'early waking hurts more' rests on Kong 2025 and on point estimates. | Earlier note (chapter 10 literature researcher): Table 2 and Table 5 read in full text"}

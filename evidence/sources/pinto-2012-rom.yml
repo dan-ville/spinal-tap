@@ -1,0 +1,37 @@
+id: pinto-2012-rom
+title: Effect of range of motion on muscle strength and thickness
+authors:
+- Pinto RS
+- Gomes N
+- Radaelli R
+- Botton CE
+- Brown LE
+- Bottaro M
+year: 2012
+venue: J Strength Cond Res 26(8):2140-2145
+doi: 10.1519/JSC.0b013e31823a3b15
+pmid: '22027847'
+url: https://pubmed.ncbi.nlm.nih.gov/22027847/
+design: rct
+population: Untrained young men; full vs partial (50-100 deg) elbow-flexion ROM vs control, 10 wk, 2x/wk
+sample:
+  studies: null
+  participants: 40
+read_level: abstract
+findings:
+- claim: Full-ROM elbow-flexion training increased 1RM more than partial-ROM training; muscle thickness gains were
+    similar.
+  effect: 1RM +25.7% (full) vs +16.0% (partial), full > partial p < 0.05; thickness +9.65% vs +7.83%
+  grade: promising
+limitations:
+- Untrained; 1RM tested through full ROM (favours full ROM); partial ROM range per full text not verified here.
+topics:
+- strength/range-of-motion
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; 1RM +25.7% vs +16.0%, tested in full ROM; confirmed. | Prior
+    check: chapter 7 literature researcher 2026-11-24;'

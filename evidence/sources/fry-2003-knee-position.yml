@@ -1,0 +1,36 @@
+id: fry-2003-knee-position
+title: Effect of knee position on hip and knee torques during the barbell squat
+authors:
+- Fry AC
+- Smith JC
+- Schilling BK
+year: 2003
+venue: J Strength Cond Res 17(4):629-633
+doi: 10.1519/1533-4287(2003)017<0629:eokpoh>2.0.co;2
+pmid: '14636100'
+url: https://pubmed.ncbi.nlm.nih.gov/14636100/
+design: crossover
+population: Weight-trained men; parallel squat with body-weight load, knees restricted behind toes vs unrestricted
+sample:
+  studies: null
+  participants: 7
+read_level: abstract
+findings:
+- claim: Blocking forward knee travel in the squat lowered knee torque modestly but raised hip torque about tenfold
+    and increased trunk lean.
+  effect: Knee torque 150.1 +/- 50.8 vs 117.3 +/- 34.2 N.m (unrestricted vs restricted); hip torque 28.2 +/- 65.0
+    vs 302.7 +/- 71.2 N.m
+  grade: promising
+limitations:
+- n = 7; static torque estimates from video; body-weight load; acute, no training outcome. Secondary sources misquote
+  the hip figure as '1000%'.
+topics:
+- mobility/practitioner-systems
+- strength/technique
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 7 weight-trained men, barbell load = body weight (not unloaded);
+    torques confirmed (hip x10.7, SD 65 N.m at 28 N.m mean). | Prior check: chapter 7 literature researcher 2026-11-24;'

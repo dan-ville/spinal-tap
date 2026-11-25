@@ -1,0 +1,49 @@
+id: tanel-2025
+title: Reticulospinal and corticospinal responses in long-term strength-trained and untrained adults.
+authors:
+- Tanel M
+- Kidgell DJ
+- Vekki S
+- Ahtiainen JP
+- Gomez-Guerrero G
+- Halonen EJ
+- Baker SN
+- Walker S
+year: 2025
+venue: Eur J Appl Physiol 125:3283-3297
+doi: 10.1007/s00421-025-05834-x
+pmid: '40493174'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12528193/
+design: cross-sectional
+population: Long-term strength-trained athletes (11 M/4 F, 32 y) vs untrained adults (11 M/7 F, 32 y);
+  biceps brachii
+sample:
+  studies: null
+  participants: 33
+read_level: full-text
+findings:
+- claim: Untrained adults benefited more from a startling cue (higher StartReact reticulospinal gain)
+    than strength-trained athletes.
+  effect: reticulospinal gain group difference P = 0.003
+  grade: speculative
+- claim: Strength-trained athletes had shorter reaction times to the quiet (80 dB) cue, larger MEPs at
+    high stimulation intensities and shorter silent periods, which the authors interpret as a more excitable
+    cortico-reticulospinal system already primed without a startle.
+  effect: MEP area at 180% aMT P = 0.020; normalised MEP AURC 140-180% aMT P = 0.048 (abstract swaps these two P values); shorter silent period at 180% aMT P = 0.035; VA reaction time 129.8 vs 148.7 ms (P = 0.016); no main group effect on reaction time (P = 0.073)
+  grade: speculative
+limitations:
+- Cross-sectional, small, mixed sex.
+- StartReact gain is an indirect reticulospinal index and its direction is open to interpretation (a smaller
+  startle benefit could mean the pathway is already maximally engaged).
+- The authors note the corticospinal tract also contributes to the StartReact effect, limiting its validity
+  as a pure reticulospinal measure.
+topics:
+- strength/reticulospinal
+- strength/corticospinal
+- strength/training-age
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC12528193) checked. Abstract and Results disagree on two P values: Results give MEP area at 180% aMT P = 0.020 and normalised high-intensity AURC (140-180%) P = 0.048; the abstract swaps them. Record corrected to the Results. There was no main group effect on reaction time (P = 0.073); only the 80 dB (VA) cue was faster in trained (P = 0.016), which drives the reticulospinal-gain difference. | Prior check: chapter 2 researcher 2026-11-24"

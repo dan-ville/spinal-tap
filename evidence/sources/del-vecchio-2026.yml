@@ -1,0 +1,43 @@
+id: del-vecchio-2026
+title: Changes in neural drive after strength training are better estimated from absolute than normalized
+  EMG amplitude.
+authors:
+- Del Vecchio A
+- Casolo A
+- Enoka RM
+- Farina D
+year: 2026
+venue: J Appl Physiol 140(1):177-187
+doi: 10.1152/japplphysiol.00810.2024
+pmid: '41309067'
+url: https://pubmed.ncbi.nlm.nih.gov/41309067/
+design: other
+population: Adults completing 4 weeks of dorsiflexor strength training
+sample:
+  studies: null
+  participants: 13
+read_level: abstract
+findings:
+- claim: Four weeks of training increased MVF about 14%, maximal tibialis anterior RMS EMG about 42%,
+    motor unit discharge rate about 11% and lowered recruitment threshold about 10%.
+  effect: MVF ~+14%; RMS EMG ~+42%; DR ~+11%; RT ~-10%
+  grade: promising
+- claim: Within-participant changes in absolute (not MVC-normalised) HD-EMG amplitude moderately predicted
+    changes in discharge rate and recruitment threshold; normalising to MVC removed the association.
+  effect: RT vs RMS rrm = -0.55 (P = 0.041); DR vs RMS rrm = 0.56 (P = 0.037); reconstructed vs measured
+    EMG r = 0.86
+  grade: promising
+limitations:
+- Small sample; applies only where muscle fibre membrane properties do not change (short-term).
+- Conflicts somewhat with long-term cross-sectional work showing absolute EMG is confounded by muscle
+  size (skarabot-2021-emg).
+- "Same lab and identical tibialis anterior protocol as del-vecchio-2019, casolo-2020, del-vecchio-2026 and casolo-2026; participants probably overlap, so these are not independent replications."
+topics:
+- strength/methods
+- strength/motor-units
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Full text not reachable. Same lab, identical 4-week dorsiflexor protocol and ~14% MVF gain as del-vecchio-2019; the 13 participants are probably a subset of that cohort, so it is not an independent replication (unverified). | Prior check: chapter 2 researcher 2026-11-24"

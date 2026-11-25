@@ -1,0 +1,25 @@
+id: yang-2024-gwas
+title: Genome-wide association study of exercise-induced skeletal muscle hypertrophy and the construction of predictive model
+authors: [Yang X, Li Y, Mei T, Duan J, Yan X, McNaughton LR, He Z]
+year: 2024
+venue: Physiol Genomics 56(8):578-589
+doi: 10.1152/physiolgenomics.00019.2024
+pmid: '38881426'
+url: https://pubmed.ncbi.nlm.nih.gov/38881426/
+design: cohort
+population: Physically inactive Chinese adults; 12 wk RT or HIIT; rectus femoris thickness by ultrasound
+sample: {studies: null, participants: 440}
+read_level: abstract
+findings:
+- claim: A polygenic predictor built from 11 lead SNPs was associated with rectus femoris hypertrophy and reportedly explained about half the response variance, with a combined genetic-phenotypic model reaching AUC 0.81.
+  effect: RT MT +8.8% (range -13.5 to 38.4%); 11 SNPs at P < 1e-5; PPS explained 47.2% (RT) and 38.3% (HIIT); GLM AUC 0.809 (95% CI 0.669 to 0.949)
+  grade: speculative
+limitations:
+- Liberal significance threshold; score built and evaluated in the same small cohort (high risk of overfitting and winner's curse); no external replication; ultrasound thickness of one muscle.
+- Predictive models were 10-fold cross-validated, but within the same cohort used for SNP discovery, which does not guard against selection overfitting. The 2026 expert summary (roberts-2026-heterogeneity-conference) cited the 47% figure as support for polygenic scores; 'likely overfit' is this thesis's methodological judgement, not the source's.
+topics: [frontiers/genetics-omics, frontiers/individual-response]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 440 inactive adults, RT MT +8.8% (-13.5 to 38.4%), 11 lead SNPs at P < 1e-5, PPS 47.2% (RT) and 38.3% (HIIT), GLM AUC 0.809 (0.669-0.949). Confirmed. Models were 10-fold cross-validated, but within the discovery cohort. | Earlier check (chapter 11 literature researcher): no notes"

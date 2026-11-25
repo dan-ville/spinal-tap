@@ -1,0 +1,44 @@
+id: freitas-2018-chronic-stretching-mtu
+title: Can chronic stretching change the muscle-tendon mechanical properties? A review
+authors:
+- Freitas SR
+- Mendes B
+- Le Sant G
+- Andrade RJ
+- Nordez A
+- Milanovic Z
+year: 2018
+venue: Scand J Med Sci Sports 28(3):794-806
+doi: 10.1111/sms.12957
+pmid: '28801950'
+url: https://pubmed.ncbi.nlm.nih.gov/28801950/
+design: meta-analysis
+population: Humans of any age in >2-week stretching interventions (static, dynamic, PNF)
+sample:
+  studies: 26
+  participants: null
+read_level: abstract
+findings:
+- claim: Stretching programmes of 3-8 weeks produced small increases in maximal tolerated passive torque but trivial
+    effects on joint resistance to stretch, muscle architecture, muscle stiffness and tendon stiffness; adaptations
+    to programmes shorter than 8 weeks appear mostly sensory.
+  effect: Small effect for maximal tolerated passive torque; trivial effects for other variables (values not in abstract);
+    mean 1165 s stretching per week
+  grade: promising
+limitations:
+- Pooled static, dynamic and PNF; did not account for within-study dependency (criticised by Warneke 2024 recalculation);
+  large heterogeneity.
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+- mobility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; 26 studies, 3-8 wk; confirmed. | Prior check: verification pass
+    2026-11-24; Ch6 verification: PubMed abstract re-read; 26 studies, 3-8 weeks, mean 1165 s/week, small effect on
+    tolerated torque, trivial on stiffness and architecture confirmed. HAL copy not retrievable (JS page). | Prior
+    check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

@@ -1,0 +1,54 @@
+id: andrews-2025-multiscale
+title: Multiscale hamstring muscle adaptations following 9 weeks of eccentric training
+authors:
+- Andrews MH
+- S AP
+- Gurchiek RD
+- Pincheira PA
+- Chaudhari AS
+- Hodges PW
+- Lichtwark GA
+- Delp SL
+year: 2025
+venue: J Sport Health Sci 14:100996
+doi: 10.1016/j.jshs.2024.100996
+pmid: '39461588'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11863337/
+design: cohort
+population: Recreationally active adults (5 men, 7 women), 27 y; 9 wk supervised Nordic training then 3 wk detraining
+sample:
+  studies: null
+  participants: 12
+read_level: full-text
+findings:
+- claim: Nine weeks of Nordic training increased biceps femoris long-head fascicle length and serial sarcomere number,
+    calculated as 3D-ultrasound fascicle length divided by microendoscopy-measured sarcomere length; the first human
+    evidence consistent with sarcomeres added in series after eccentric training.
+  effect: Fascicle length +19% central, +33% distal; serial sarcomere number +25% central, +49% distal; BFlh volume
+    +8%; knee-flexion strength +40%
+  grade: promising
+- claim: Three weeks of detraining shortened fascicles partly; fascicles, strength and volume stayed above baseline,
+    and sarcomere-number change after detraining could not be tested.
+  effect: Fascicle length -12% central, -16% distal vs post-training but still longer than pre-training (p < 0.001);
+    eccentric strength fell (p = 0.006) but stayed above pre-training; volume maintained (p = 0.270); sarcomere data
+    from only 5 and 4 participants after detraining, "statistical power insufficient"
+  grade: promising
+limitations:
+- Single group, no control; n = 12 recreationally active novices; sarcomere sampling is sparse; one muscle.
+- 'Untrained in NHE: whether trained lifters respond similarly is unknown.'
+- Sarcomere length obtained in only 9 (central) and 6 (distal) of 12 participants at baseline, 9 and 7 post-training,
+  5 and 4 after detraining.
+topics:
+- mobility/eccentric-training
+- mobility/mechanisms
+- hypertrophy/architecture
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC11863337) re-read. Training numbers confirmed. Corrected: SSN is calculated
+    (fascicle / sarcomere length), not measured directly; sarcomere data from 6-9 of 12 participants; after detraining
+    fascicles remained above baseline and SSN change was underpowered (abstract says "reductions" but results say
+    power insufficient). No control group. | Prior check: chapter 7 literature researcher 2026-11-24;'

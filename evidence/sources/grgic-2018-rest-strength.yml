@@ -1,0 +1,24 @@
+id: grgic-2018-rest-strength
+title: 'Effects of Rest Interval Duration in Resistance Training on Measures of Muscular Strength: A Systematic Review'
+authors: [Grgic J, Schoenfeld BJ, Skrepnik M, Davies TB, Mikulic P]
+year: 2018
+venue: Sports Medicine 48(1):137-151
+doi: 10.1007/s40279-017-0788-x
+pmid: '28933024'
+url: https://pubmed.ncbi.nlm.nih.gov/28933024/
+design: systematic-review
+population: 413 males, 78 females; trained and untrained
+sample: {studies: 23, participants: 491}
+read_level: abstract
+findings:
+- claim: Robust strength gains occur even with short rests (<60 s), but rests longer than 2 min appear needed to maximise strength gains in trained individuals; 60-120 s suffices for untrained.
+  effect: Qualitative synthesis (no pooled estimate)
+  grade: promising
+limitations:
+- No meta-analysis; conclusion for trained lifters rests on a few small trials.
+topics: [strength/rest-interval]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 23 studies, 491 participants; >2 min appears needed to maximise strength in trained people, 60-120 s enough in untrained. Confirmed. This is a systematic review without a pooled estimate. | Earlier check by chapter 3 literature researcher"

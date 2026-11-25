@@ -1,0 +1,38 @@
+id: apro-2015-ampk
+title: Resistance exercise-induced S6K1 kinase activity is not inhibited in human skeletal muscle despite prior activation
+  of AMPK by high-intensity interval cycling
+authors:
+- Apró W
+- Moberg M
+- Hamilton DL
+- Ekblom B
+- van Hall G
+- Holmberg HC
+- Blomstrand E
+year: 2015
+venue: Am J Physiol Endocrinol Metab 308(6):E470-E481
+doi: 10.1152/ajpendo.00486.2014
+pmid: '25605643'
+url: https://pubmed.ncbi.nlm.nih.gov/25605643/
+design: crossover
+population: Trained men (n=8)
+sample:
+  studies: null
+  participants: 8
+read_level: abstract
+findings:
+- claim: Interval cycling before resistance exercise raised AMPK activity but did not reduce mTORC1 (S6K1) activity or mixed
+    muscle protein synthesis after the resistance exercise; it did raise MuRF1 gene and protein expression.
+  effect: AMPK activity ~+90% after both bouts in ER; S6K1 activity +~55% (90 min) and +~110% (180 min) with no difference
+    between trials
+  grade: promising
+limitations:
+- Acute single bout, n=8; protein synthesis over 3 h only; catabolic markers are not net balance.
+topics:
+- concurrent/molecular
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; AMPK ~90%, S6K1 ~55%/~110% with no trial difference, MuRF1 rise confirmed. The abstract does NOT report the fractional synthetic rate result; 'protein synthesis not reduced' is unverified at abstract level (full text blocked)."

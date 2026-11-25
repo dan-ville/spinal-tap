@@ -1,0 +1,43 @@
+id: franchi-2014
+title: Architectural, functional and molecular responses to concentric and eccentric loading in human skeletal muscle.
+authors:
+- Franchi MV
+- Atherton PJ
+- Reeves ND
+- Flück M
+- Williams J
+- Mitchell WK
+- Selby A
+- Beltran Valls RM
+- Narici MV
+year: 2014
+venue: Acta Physiol (Oxf) 210(3):642-54
+doi: 10.1111/apha.12225
+pmid: '24387247'
+url: https://pubmed.ncbi.nlm.nih.gov/24387247/
+design: rct
+population: Young men; 10 wk concentric vs eccentric leg press training plus acute signalling cohort
+sample:
+  studies: null
+  participants: 26
+read_level: abstract
+findings:
+- claim: Concentric and eccentric training grew the vastus lateralis similarly, but eccentric training increased fascicle
+    length more (serial growth) and concentric increased pennation angle more (parallel growth), with eccentric growth
+    biased distally.
+  effect: Volume +8% (CON) vs +6% (ECC); fascicle length +5% vs +12%; pennation angle +30% vs +5%; distal VL +2% vs
+    +8%
+  grade: promising
+limitations:
+- n = 6 per training group; fascicle length by ultrasound extrapolation.
+topics:
+- hypertrophy/contraction-type
+- hypertrophy/architecture
+- hypertrophy/eccentric
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; only n = 6 per training group; volume +8% CON vs +6% ECC; Lf
+    +12 vs +5%; distal +8 vs +2%; PA +30 vs +5%. Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

@@ -1,0 +1,35 @@
+id: plotkin-2021
+title: 'Muscle Fiber Type Transitions with Exercise Training: Shifting Perspectives.'
+authors:
+- Plotkin DL
+- Roberts MD
+- Haun CT
+- Schoenfeld BJ
+year: 2021
+venue: Sports (Basel) 9(9):127
+doi: 10.3390/sports9090127
+pmid: '34564332'
+url: https://pubmed.ncbi.nlm.nih.gov/34564332/
+design: narrative-review
+population: Fibre-typing literature
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Resistance training reliably shifts fibres between hybrid and pure types (classically IIx toward
+    IIa); slow-to-fast transitions are less consistent and depend on whether single-fibre methods detect
+    hybrids.
+  effect: narrative synthesis
+  grade: promising
+limitations:
+- Narrative; method-dependent evidence.
+topics:
+- strength/fibre-type
+- strength/morphology
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

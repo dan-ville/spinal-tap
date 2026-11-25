@@ -1,0 +1,29 @@
+id: bell-2023-deload-delphi
+title: 'Integrating Deloading into Strength and Physique Sports Training Programmes: An International Delphi Consensus Approach'
+authors: [Bell L, Strafford BW, Coleman M, Androulakis Korakakis P, Nolan D]
+year: 2023
+venue: Sports Medicine - Open 9:87
+doi: 10.1186/s40798-023-00633-0
+pmid: '37730925'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10511399/
+design: consensus
+population: Expert strength and physique coaches (34 in round 1, 29 in round 2, 21 in round 3)
+sample: {studies: null, participants: 34}
+read_level: full-text
+findings:
+- claim: Coaches agree a deload is a period of reduced training stress to mitigate physiological and psychological fatigue, promote recovery and enhance preparedness; unlike a taper it is not meant to raise performance and can occur anywhere in a programme.
+  effect: Consensus = >=70% agreement in round 3; 138 statements rated; proposed definition
+  grade: convention
+- claim: Volume should be reduced (fewer sets, reps or sessions); intensity may be kept, lowered or raised; deloads may be pre-planned or autoregulated and positioned at the start, middle or end of a mesocycle; there is no standard method.
+  effect: Consensus statements (>=70%)
+  grade: convention
+- claim: Coaches believe deloads reduce risk of non-functional overreaching, overtraining, monotony and injury, but the authors note that NFOR incidence in strength sports is low and the injury link is unproven.
+  effect: Consensus belief; authors' discussion of limited evidence
+  grade: speculative
+limitations: [Expert opinion only; panel attrition 34 to 21; agreement does not equal efficacy.]
+topics: [programming/deload, consensus/guidelines]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: panel 34/29/21, consensus >=70%, definition wording confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (methods, results narrative, discussion).'

@@ -1,0 +1,46 @@
+id: maeo-2021
+title: Greater Hamstrings Muscle Hypertrophy but Similar Damage Protection after Training at Long versus Short Muscle
+  Lengths.
+authors:
+- Maeo S
+- Huang M
+- Wu Y
+- Sakurai H
+- Kusagawa Y
+- Sugiyama T
+- Kanehisa H
+- Isaka T
+year: 2021
+venue: Med Sci Sports Exerc 53(4):825-837
+doi: 10.1249/MSS.0000000000002523
+pmid: '33009197'
+url: https://pubmed.ncbi.nlm.nih.gov/33009197/
+design: rct
+population: Untrained healthy adults; within-subject seated vs prone leg curl, 12 wk, MRI muscle volume
+sample:
+  studies: null
+  participants: 20
+read_level: full-text
+findings:
+- claim: Seated leg curl (hips flexed, biarticular hamstrings lengthened) produced about 1.5-fold more whole-hamstring
+    growth than prone leg curl, driven entirely by the biarticular heads; the monoarticular short head grew similarly.
+  effect: 'ANCOVA-adjusted volume change: whole hamstrings +14.1% vs +9.3%; BFlh +14.4% vs +6.5%; ST +23.6% vs +19.3%;
+    SM +8.2% vs +3.6% (P <= 0.010); BFsh +10% vs +9% (P = 0.190)'
+  grade: promising
+- claim: Both seated and prone training equally reduced susceptibility to eccentric-exercise muscle damage compared
+    with untrained controls.
+  effect: 'T2 change ST at 72 h: control +56.9% vs seated +2.0% vs prone +5.7%'
+  grade: promising
+limitations:
+- Untrained; within-subject; same relative load (70% 1RM of each position) so absolute loads differed; single-muscle
+  model.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/exercise-selection
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: full text re-read (Europe PMC PMC7969179): ANCOVA-adjusted whole hamstrings +14.1% vs
+    +9.3% confirmed; n = 20. | Prior check: chapter 5 literature researcher 2026-11-24'

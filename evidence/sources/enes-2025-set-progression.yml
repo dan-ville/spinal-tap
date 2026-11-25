@@ -1,0 +1,21 @@
+id: enes-2025-set-progression
+title: Does increasing the resistance-training volume lead to greater gains? The effects of weekly set progressions on muscular adaptations in females
+authors: [Enes A, Correa CL, Bernardo MF, Salles GN, Oneda G, Leonel DF, Fleck SJ, Phillips SM, De Souza EO, Souza-Junior TP]
+year: 2025
+venue: Journal of Sports Sciences 43(4):381-392
+doi: 10.1080/02640414.2025.2459003
+pmid: '39869076'
+url: https://pubmed.ncbi.nlm.nih.gov/39869076/
+design: rct
+population: Trained women (2.1 +/- 1.0 y experience); 12 wk; constant 22 sets/wk vs +2 or +4 sets every fortnight
+sample: {studies: null, participants: 30}
+read_level: abstract
+findings:
+- claim: Progressively adding weekly quadriceps sets beyond 22/wk gave greater leg press 1RM and some vastus lateralis CSA gain, but no difference in summed muscle thickness.
+  effect: 4SG and 2SG > CG for 1RM; 4SG > CG for VL-CSA (p = 0.029); no group differences for summed MT (p = 0.783)
+  grade: contested
+limitations:
+- Small groups (9-11); different hypertrophy measures disagree; a companion 2026 trial in women progressing every 2 vs 4 weeks found no differences.
+topics: [hypertrophy/volume, strength/volume, programming/progression]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

@@ -1,0 +1,21 @@
+id: andrade-2020-acwr-review
+title: "Is the Acute: Chronic Workload Ratio (ACWR) Associated with Risk of Time-Loss Injury in Professional Team Sports? A Systematic Review of Methodology, Variables and Injury Risk in Practical Situations"
+authors: [Andrade R, Wik EH, Rebelo-Marques A, Blanch P, Whiteley R, Espregueira-Mendes J, Gabbett TJ]
+year: 2020
+venue: "Sports Med 50(9):1613-1635"
+doi: "10.1007/s40279-020-01308-6"
+pmid: "32572824"
+url: https://pubmed.ncbi.nlm.nih.gov/32572824/
+design: systematic-review
+population: "Adult elite male team-sport athletes (mean 24 y)"
+sample: {studies: 20, participants: 1234}
+read_level: abstract
+findings:
+  - claim: "Most studies associated higher ACWR with more time-loss injury, but methods were so heterogeneous (14 binning schemes) that recommendations were weak."
+    effect: "2375 injuries in 1234 athletes; no pooled estimate"
+    grade: contested
+limitations:
+  - "All male team sports; mostly coupled ACWR; includes ACWR proponent as author."
+topics: [injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

@@ -1,0 +1,23 @@
+id: refalo-2024-rir-accuracy-bench
+title: Accuracy of Intraset Repetitions-in-Reserve Predictions During the Bench Press Exercise in Resistance-Trained Male and Female Subjects
+authors: [Refalo MC, Remmert JF, Pelland JC, Robinson ZP, Zourdos MC, Hamilton DL, Fyfe JJ, Helms ER]
+year: 2024
+venue: Journal of Strength and Conditioning Research 38(3):e78-e85
+doi: 10.1519/JSC.0000000000004653
+pmid: '37967832'
+url: https://pubmed.ncbi.nlm.nih.gov/37967832/
+design: cross-sectional
+population: Resistance-trained men (12) and women (12); bench at 75% 1RM to failure
+sample: {studies: null, participants: 24}
+read_level: abstract
+findings:
+- claim: Trained lifters called 1 RIR and 3 RIR on the bench press to within about two-thirds of a rep, with a slight tendency to underpredict, regardless of sex, experience or strength.
+  effect: Raw error -0.17 +/- 1.00 reps; absolute error 0.65 +/- 0.78 reps; equivalence within +/-1 rep across RIR targets, sets and sessions
+  grade: promising
+limitations: [Bench press only; moderate load; trained participants.]
+topics: [methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read: n = 24 (12 M, 12 F), 75% 1RM, absolute error 0.65 +/- 0.78, raw -0.17 +/- 1.00. Confirmed. Note: 75% 1RM sets are moderate-load, not heavy low-rep work. | Earlier check by chapter 4 literature researcher'

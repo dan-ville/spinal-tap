@@ -1,0 +1,38 @@
+id: hernando-garijo-2026
+title: 'Cross-education of upper-limb strength and muscle thickness following unilateral resistance training:
+  a systematic review and meta-analysis.'
+authors:
+- Hernando-Garijo I
+- de-Miguel-Hernando N
+- Fraca-Fernandez E
+- Jimenez-Del-Barrio S
+- Mingo-Gomez MT
+- Ceballos-Laita L
+- Medrano-de-la-Fuente R
+year: 2026
+venue: Physiother Theory Pract (2026):1-14
+doi: 10.1080/09593985.2026.2689440
+pmid: '42323824'
+url: https://pubmed.ncbi.nlm.nih.gov/42323824/
+design: meta-analysis
+population: RCTs of unilateral upper-limb training vs control in healthy adults
+sample:
+  studies: 31
+  participants: 1214
+read_level: abstract
+findings:
+- claim: Unilateral upper-limb training produced small contralateral strength gains with no detectable
+    contralateral hypertrophy, supporting a neural mechanism.
+  effect: MVIC SMD 0.42 (95% CI 0.12 to 0.72); 1RM SMD 0.36 (0.04 to 0.69); muscle thickness SMD 0.14
+    (-0.23 to 0.51); GRADE low to very low
+  grade: established
+limitations:
+- GRADE low to very low.
+topics:
+- strength/cross-education
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. 'No hypertrophy' means no detectable effect: the muscle-thickness CI (-0.23 to 0.51) does not exclude a moderate effect. | Prior check: chapter 2 researcher 2026-11-24"

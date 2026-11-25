@@ -1,0 +1,21 @@
+id: iversen-2021-time-efficient
+title: 'No Time to Lift? Designing Time-Efficient Training Programs for Strength and Hypertrophy: A Narrative Review'
+authors: [Iversen VM, Norum M, Schoenfeld BJ, Fimland MS]
+year: 2021
+venue: Sports Medicine 51(10):2079-2095
+doi: 10.1007/s40279-021-01490-1
+pmid: '34125411'
+url: https://pubmed.ncbi.nlm.nih.gov/34125411/
+design: narrative-review
+population: Healthy adults
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: For time-efficient training, weekly volume matters more than frequency; a minimum of 4 weekly sets per muscle group in a 6-15RM range (or 15-40 reps to failure) is recommended.
+  effect: 'Recommendation: >=4 weekly sets per muscle group, 6-15RM'
+  grade: convention
+limitations:
+- Narrative review; recommendations are expert synthesis.
+topics: [strength/minimum-dose, hypertrophy/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

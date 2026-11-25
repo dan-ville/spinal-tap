@@ -1,0 +1,37 @@
+id: schoenfeld-2020-rom-review
+title: 'Effects of range of motion on muscle development during resistance training interventions: A systematic review'
+authors:
+- Schoenfeld BJ
+- Grgic J
+year: 2020
+venue: SAGE Open Med 8:2050312120901559
+doi: 10.1177/2050312120901559
+pmid: '32030125'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6977096/
+design: systematic-review
+population: Trials comparing full vs partial ROM with direct hypertrophy measures; 5 of 6 in untrained young men
+sample:
+  studies: 6
+  participants: null
+read_level: full-text
+findings:
+- claim: Lower-body trials favoured full ROM over partial (short-length) ROM for hypertrophy, while the two upper-body
+    trials disagreed (Pinto favouring full ROM; Goto, in trained men, favouring a mid-range partial).
+  effect: Narrative; e.g. Pinto 2012 elbow-flexor thickness +9.7% vs +7.8% (p = 0.07)
+  grade: promising
+- claim: 'Strength gains in the included trials were specific to the trained range: training through a full ROM is
+    needed for strength across the full ROM.'
+  effect: Narrative (e.g. Bloomquist 2013, Kubo 2019)
+  grade: promising
+limitations:
+- Six small studies, one in trained participants; no pooling; partial ROM usually at short muscle lengths.
+topics:
+- strength/range-of-motion
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: abstract re-read; 6 studies, n = 135; narrative; consistent with record. | Prior check:
+    chapter 7 literature researcher 2026-11-24;'

@@ -1,0 +1,32 @@
+id: remmert-2025-per-session-volume
+title: Is There Too Much of a Good Thing? Meta-Regressions of the Effect of Per-Session Volume on Hypertrophy and Strength
+authors: [Remmert JF, Pelland JC, Robinson ZP, Hinson SR, Zourdos MC]
+year: 2025
+venue: SportRxiv preprint 537 (not peer reviewed; last modified March 2025)
+doi: null
+pmid: null
+url: https://sportrxiv.org/index.php/server/preprint/view/537
+design: preprint
+population: 'Same 67-study corpus as Pelland 2026: healthy adults, mean age 25.2 y, trained and untrained'
+sample: {studies: 67, participants: 2058}
+read_level: full-text
+findings:
+- claim: Hypertrophy rose with per-session set volume with diminishing returns; beyond ~11 fractional sets per muscle per session no further increment had a >50% chance of exceeding the smallest detectable effect.
+  effect: Marginal slope 0.393% per fractional set per session (95% CrI 0.202 to 0.583); linear-log best fit; point of undetectable outcome superiority (PUOS) ~11 fractional sets/session (~8.2 direct, ~13.8 total)
+  grade: speculative
+- claim: Strength rose with direct per-session sets with sharper diminishing returns; the PUOS was ~2 direct sets of the tested exercise per session.
+  effect: Marginal slope 1.23% per direct set per session (95% CrI 0.941 to 1.52); reciprocal best fit; PUOS ~2 direct sets (~3.5 fractional, ~5.0 total)
+  grade: speculative
+- claim: The authors report Pelland et al.'s weekly-volume PUOS as ~31 fractional sets/week for hypertrophy and ~3 for strength.
+  effect: PUOS ~31 (hypertrophy) and ~3 (strength) fractional weekly sets, citing OSF material of Pelland et al.
+  grade: speculative
+- claim: Rest-interval length and proximity to failure did not detectably moderate the per-session volume dose-response.
+  effect: Uncertainty intervals of all corresponding interaction contrasts included zero (hypothesis-generating)
+  grade: speculative
+limitations:
+- Preprint, not peer reviewed as of this reading; per-session volume is confounded with weekly volume and frequency across studies.
+- PUOS is not an upper limit; data at very high per-session volumes are sparse (12 studies with >=10 sets/session).
+- Not checked whether a peer-reviewed version appeared by Nov 2026.
+topics: [hypertrophy/volume, strength/volume, hypertrophy/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: Read preprint PDF; numbers from Sections 4.5-4.6 and Table 1.}

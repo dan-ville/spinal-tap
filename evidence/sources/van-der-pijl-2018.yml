@@ -1,0 +1,38 @@
+id: van-der-pijl-2018
+title: Titin-based mechanosensing modulates muscle hypertrophy.
+authors:
+- van der Pijl R
+- Strom J
+- Conijn S
+- Lindqvist J
+- Labeit S
+- Granzier H
+- Ottenheijm C
+year: 2018
+venue: J Cachexia Sarcopenia Muscle 9(5):947-961
+doi: 10.1002/jcsm.12319
+pmid: '29978560'
+url: https://pubmed.ncbi.nlm.nih.gov/29978560/
+design: mechanistic
+population: Mouse unilateral diaphragm denervation (passive stretch) with titin-stiffness mutants
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: 'Stretch-induced hypertrophy scaled with titin stiffness: reduced-stiffness mice grew less and increased-stiffness
+    mice grew more, identifying titin as a mechanosensor.'
+  effect: Hemidiaphragm mass +48% in wild type; -20% (reduced stiffness) and +18% (increased stiffness) response
+  grade: promising
+limitations:
+- Mouse passive-stretch model; transfer to human loaded training at long lengths is inferential.
+topics:
+- hypertrophy/mechanisms
+- hypertrophy/muscle-length
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; mouse UDD: +48% mass in 6 d, -20% (compliant titin), +18% (stiff
+    titin). Confirmed. DOI corrected to 10.1002/jcsm.12319. | Prior check: chapter 5 literature researcher 2026-11-24'

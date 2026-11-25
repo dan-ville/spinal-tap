@@ -1,0 +1,21 @@
+id: heinemeier-2016-cartilage-14c
+title: "Radiocarbon dating reveals minimal collagen turnover in both healthy and osteoarthritic human cartilage"
+authors: [Heinemeier KM, Schjerling P, Heinemeier J, Moller MB, Krogsgaard MR, Grum-Schwensen T, Petersen MM, Kjaer M]
+year: 2016
+venue: "Sci Transl Med 8(346):346ra90"
+doi: "10.1126/scitranslmed.aad8335"
+pmid: "27384346"
+url: https://pubmed.ncbi.nlm.nih.gov/27384346/
+design: mechanistic
+population: "Tibial plateau cartilage from 23 people born 1935-1997 (15 OA, 8 healthy)"
+sample: {studies: null, participants: 23}
+read_level: abstract
+findings:
+  - claim: "Articular cartilage collagen is essentially not replaced after skeletal maturity, with or without osteoarthritis."
+    effect: "14C levels indicated virtually no collagen replacement after maturity; central cartilage formed years earlier than peripheral"
+    grade: established
+limitations:
+  - "Collagen only (proteoglycans turn over faster); tibial plateau; no training-history data."
+topics: [connective-tissue/cartilage, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: tibial plateau cartilage, 23 persons (15 OA, 8 healthy), born 1935-1997; 'virtually no replacement of the collagen matrix after skeletal maturity'. Confirmed. | Prior check: chapter 8 literature researcher"}

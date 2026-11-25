@@ -1,0 +1,20 @@
+id: washif-2024-chatgpt
+title: 'Artificial intelligence in sport: Exploring the potential of using ChatGPT in resistance training prescription'
+authors: [Washif JA, Pagaduan J, James C, Dergaa I, Beaven CM]
+year: 2024
+venue: Biol Sport 41(2):209-220
+doi: 10.5114/biolsport.2024.132987
+pmid: '38524820'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10955742/
+design: other
+population: ChatGPT (GPT-3.5, GPT-4) programmes for hypothetical 20-year-old intermediate/advanced trainees, compared with guidelines
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+- claim: ChatGPT produced plausible 12-week periodised programmes broadly consistent with guidelines, but they likely need expert fine-tuning; GPT-4 gave more detail and adjusted for training status, and programmes were essentially identical for men and women.
+  effect: Qualitative comparison with NSCA textbook guidance; e.g. GPT-3.5 ~3 sessions/wk, 70-85% 1RM, 4-8 reps x 2-4 sets
+  grade: promising
+limitations: [Descriptive author appraisal; no outcome data; model versions now superseded.]
+topics: [technology/ai-coaching]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

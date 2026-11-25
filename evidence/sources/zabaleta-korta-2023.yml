@@ -1,0 +1,37 @@
+id: zabaleta-korta-2023
+title: 'Regional Hypertrophy: The Effect of Exercises at Long and Short Muscle Lengths in Recreationally Trained
+  Women.'
+authors:
+- Zabaleta-Korta A
+- Fernández-Peña E
+- Torres-Unda J
+- Francés M
+- Zubillaga A
+- Santos-Concejero J
+year: 2023
+venue: J Hum Kinet 87:259-270
+doi: 10.5114/jhk/163561
+pmid: '37559762'
+url: https://pubmed.ncbi.nlm.nih.gov/37559762/
+design: rct
+population: Recreationally trained women; incline vs preacher curl, 9 wk
+sample:
+  studies: null
+  participants: 38
+read_level: abstract
+findings:
+- claim: Only the distal biceps region grew significantly, and only with preacher curls, but group x region interactions
+    were not significant.
+  effect: Preacher 70% site MT 2.70 to 2.94 cm; group x region p = 0.367
+  grade: speculative
+limitations:
+- Null interactions; ultrasound; women only.
+topics:
+- hypertrophy/regional
+- hypertrophy/muscle-length
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: 'Evidence audit 2026-11-25: DOI corrected from 10.1080/02640414.2021.1929736 (which belongs to zabaleta-korta-2021) to 10.5114/jhk/163561, confirmed against PubMed (PMID 37559762) and Crossref.'

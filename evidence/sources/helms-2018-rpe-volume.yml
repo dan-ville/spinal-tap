@@ -1,0 +1,20 @@
+id: helms-2018-rpe-volume
+title: Rating of Perceived Exertion as a Method of Volume Autoregulation Within a Periodized Program
+authors: [Helms ER, Cross MR, Brown SR, Storey A, Cronin J, Zourdos MC]
+year: 2018
+venue: Journal of Strength and Conditioning Research 32(6):1627-1636
+doi: 10.1519/JSC.0000000000002032
+pmid: '29786623'
+url: https://pubmed.ncbi.nlm.nih.gov/29786623/
+design: crossover
+population: Nationally qualified powerlifters (9 men, 3 women); 3 wk
+sample: {studies: null, participants: 12}
+read_level: abstract
+findings:
+- claim: '''RPE stops'' (back-off sets at a fixed % reduction until a target RPE is reached) autoregulate volume: larger load drops let lifters do more sets.'
+  effect: Weekly relative volume load 74.6 +/- 22.3 (2% drop), 88.4 +/- 23.8 (4%), 114.4 +/- 33.4 (6%), p < 0.001
+  grade: promising
+limitations: [Acute/short descriptive study; no adaptation outcomes.]
+topics: [programming/autoregulation, methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

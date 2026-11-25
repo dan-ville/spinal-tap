@@ -1,0 +1,40 @@
+id: nunes-2024-sites
+title: 'Determining Changes in Muscle Size and Architecture After Exercise Training: One Site Does Not Fit all.'
+authors:
+- Nunes JP
+- Blazevich AJ
+- Schoenfeld BJ
+- Kassiano W
+- Costa BDV
+- Ribeiro AS
+- Nakamura M
+- Nosaka K
+- Cyrino ES
+year: 2024
+venue: J Strength Cond Res 38(4):787-790
+doi: 10.1519/JSC.0000000000004722
+pmid: '38513182'
+url: https://pubmed.ncbi.nlm.nih.gov/38513182/
+design: narrative-review
+population: Methodological commentary on site selection for muscle size and architecture
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Because hypertrophy and architectural changes are nonuniform within and between muscles, single-site measurements
+    misrepresent training effects; size should be measured at multiple sites across agonists and along the muscle.
+  effect: Narrative
+  grade: established
+limitations:
+- Commentary.
+topics:
+- hypertrophy/measurement
+- hypertrophy/regional
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; short perspective paper (4 pages), not a systematic review. Confirmed
+    as argument, not data. | Prior check: chapter 5 literature researcher 2026-11-24'

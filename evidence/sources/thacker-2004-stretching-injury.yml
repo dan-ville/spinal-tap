@@ -1,0 +1,35 @@
+id: thacker-2004-stretching-injury
+title: 'The impact of stretching on sports injury risk: a systematic review of the literature'
+authors:
+- Thacker SB
+- Gilchrist J
+- Stroup DF
+- Kimsey CD
+year: 2004
+venue: Med Sci Sports Exerc 36(3):371-378
+doi: 10.1249/01.MSS.0000117134.83018.F7
+pmid: '15076777'
+url: https://pubmed.ncbi.nlm.nih.gov/15076777/
+design: meta-analysis
+population: Randomised trials and cohort studies of stretching in sport or fitness
+sample:
+  studies: 6
+  participants: null
+read_level: abstract
+findings:
+- claim: Stretching was not significantly associated with fewer total injuries; evidence was insufficient to endorse
+    or discontinue routine stretching.
+  effect: OR = 0.93 (95% CI 0.78 to 1.11)
+  grade: established
+limitations:
+- Six studies; heterogeneous designs.
+topics:
+- injury/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 6 of 361 articles compared stretching; total injuries OR 0.93 (0.78
+    to 1.11) confirmed. Authors: insufficient evidence to endorse or discontinue. | Prior check: chapter 6 literature
+    researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

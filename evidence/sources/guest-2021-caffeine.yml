@@ -1,0 +1,24 @@
+id: guest-2021-caffeine
+title: "International society of sports nutrition position stand: caffeine and exercise performance"
+authors: [Guest NS, VanDusseldorp TA, Nelson MT, Grgic J, Schoenfeld BJ, Jenkins NDM, Arent SM, Antonio J, Stout JR, Trexler ET, Smith-Ryan AE, Goldstein ER, Kalman DS, Campbell BI]
+year: 2021
+venue: "Journal of the International Society of Sports Nutrition 18(1):1"
+doi: "10.1186/s12970-020-00383-4"
+pmid: "33388079"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7777221/
+design: consensus
+population: "Position stand on caffeine and exercise"
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+  - claim: "Caffeine at 3-6 mg/kg about 60 min before exercise consistently improves performance, including small-to-moderate gains in muscular endurance, movement velocity and strength; doses near 9 mg/kg add side-effects without extra benefit."
+    effect: "Position statement; minimal effective dose possibly ~2 mg/kg"
+    grade: established
+  - claim: "The main ergogenic mechanism is central: adenosine-receptor antagonism; individual responses vary with genetics (e.g., CYP1A2, ADORA2A), habitual intake and side-effects on sleep and anxiety."
+    effect: "Narrative mechanism section"
+    grade: promising
+limitations:
+  - "Society position stand; not a formal systematic review."
+topics: [nutrition/caffeine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) re-read: 3-6 mg/kg; minimal dose possibly 2 mg/kg; ~9 mg/kg adds side-effects; 60 min pre-exercise is the 'most commonly used' timing (practice, not a tested optimum); gum needs a shorter wait; may help under sleep deprivation; genetics and habitual intake contribute to variation. Confirmed."}

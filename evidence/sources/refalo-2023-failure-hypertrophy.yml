@@ -1,0 +1,33 @@
+id: refalo-2023-failure-hypertrophy
+title: 'Influence of Resistance Training Proximity-to-Failure on Skeletal Muscle Hypertrophy: A Systematic Review with Meta-analysis'
+authors: [Refalo MC, Helms ER, Trexler ET, Hamilton DL, Fyfe JJ]
+year: 2023
+venue: Sports Medicine 53(3):649-665
+doi: 10.1007/s40279-022-01784-y
+pmid: '36334240'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9935748/
+design: meta-analysis
+population: Healthy adults; failure vs non-failure and velocity-loss trials measuring hypertrophy
+sample: {studies: 15, participants: null}
+read_level: full-text
+findings:
+- claim: Across any definition of 'failure', failure training had a trivial, borderline advantage for hypertrophy.
+  effect: ES 0.19 (95% CI 0.00 to 0.37), p = 0.045, I2 = 0%; sensitivity range ES 0.15-0.25, p 0.016-0.104
+  grade: contested
+- claim: Studies using a strict momentary-muscular-failure definition showed no clear advantage over non-failure training.
+  effect: ES 0.12 (95% CI -0.13 to 0.37), p = 0.343
+  grade: promising
+- claim: Velocity-loss thresholds above 25% did not beat 20-25%, consistent with a non-linear relation in which the last reps before failure add little.
+  effect: High (>25%) vs moderate (20-25%) VL ES 0.08 (95% CI -0.16 to 0.32), p = 0.529; within-group ES 0.20 (<20% VL), 0.39 (20-25%), 0.42 (>25%)
+  grade: promising
+- claim: Volume equation did not change the failure effect.
+  effect: Volume-equated ES 0.20 (-0.03 to 0.43); non-equated 0.17 (-0.13 to 0.47)
+  grade: promising
+limitations:
+- Assumed pre-post correlation r = 0.75; small number of studies; true proximity in non-failure arms largely unknown.
+topics: [hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: Europe PMC full text; any-definition failure ES 0.19 (0.00-0.37, p = 0.045), momentary failure 0.12 (-0.13 to 0.37, p = 0.343), VL >25% vs 20-25% 0.08 (-0.16 to 0.32), within-group ES 0.20/0.39/0.42. Confirmed. | Earlier check by chapter 3 literature researcher: Full text from Europe PMC."

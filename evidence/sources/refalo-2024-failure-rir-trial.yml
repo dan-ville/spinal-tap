@@ -1,0 +1,27 @@
+id: refalo-2024-failure-rir-trial
+title: Similar muscle hypertrophy following eight weeks of resistance training to momentary muscular failure or with repetitions-in-reserve in resistance-trained individuals
+authors: [Refalo MC, Helms ER, Robinson ZP, Hamilton DL, Fyfe JJ]
+year: 2024
+venue: Journal of Sports Sciences 42(1):85-101
+doi: 10.1080/02640414.2024.2321021
+pmid: '38393985'
+url: https://pubmed.ncbi.nlm.nih.gov/38393985/
+design: rct
+population: 'Resistance-trained males (12) and females (6); within-participant legs: failure vs 1-2 RIR on leg press/leg extension; 8 wk, 2x/wk'
+sample: {studies: null, participants: 18}
+read_level: abstract
+findings:
+- claim: Stopping 1-2 reps short of failure produced the same quadriceps growth as training to momentary failure in trained lifters.
+  effect: Quadriceps thickness change FAIL 0.181 cm (HDI 0.119 to 0.243) vs RIR 0.182 cm (HDI 0.115 to 0.247)
+  grade: promising
+- claim: Failure training caused consistently more acute velocity and repetition loss.
+  effect: Lifting velocity and repetition loss greater for FAIL vs RIR throughout (magnitude varied by exercise and phase)
+  grade: established
+limitations:
+- Small sample, single muscle group, machine exercises; equal set volume.
+topics: [hypertrophy/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 18 trained (12 M, 6 F), 8 wk, within-participant legs; FAIL 0.181 cm (0.119-0.243) vs RIR 0.182 cm (0.115-0.247). Confirmed. | Earlier check by chapter 3 literature researcher"

@@ -1,0 +1,35 @@
+id: gergley-2013-squat-stretch
+title: Acute effect of passive static stretching on lower-body strength in moderately trained men
+authors:
+- Gergley JC
+year: 2013
+venue: J Strength Cond Res 27(4):973-977
+doi: 10.1519/JSC.0b013e318260b7ce
+pmid: '22692125'
+url: https://pubmed.ncbi.nlm.nih.gov/22692125/
+design: crossover
+population: Moderately trained men, 18-24 y (n = 17); counterbalanced warm-up conditions on non-consecutive days
+sample:
+  studies: null
+  participants: 17
+read_level: abstract
+findings:
+- claim: Adding passive static stretching of the lower body to an active dynamic warm-up (machines and barbell squats)
+    reduced barbell back-squat 1RM and self-rated lower-body stability.
+  effect: 1RM -8.36% and perceived stability -22.68% after passive static stretching plus active warm-up vs active
+    warm-up alone (p < 0.05)
+  grade: speculative
+limitations:
+- Single small crossover; stretching dose not given in the abstract (described as 'intensive'); unblinded; stability
+  outcome is subjective.
+- Directly contradicts the chapter 6 notes' statement that no study tested barbell 1RM after stretching within a realistic
+  warm-up.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/verification/flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: record created; PubMed abstract read. Found while trying to refute the claim that no study
+    tested barbell 1RM after stretching.'

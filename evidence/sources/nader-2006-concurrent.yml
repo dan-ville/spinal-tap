@@ -1,0 +1,31 @@
+id: nader-2006-concurrent
+title: 'Concurrent strength and endurance training: from molecules to man'
+authors:
+- Nader GA
+year: 2006
+venue: Med Sci Sports Exerc 38(11):1965-1970
+doi: 10.1249/01.mss.0000233795.39282.33
+pmid: '17095931'
+url: https://pubmed.ncbi.nlm.nih.gov/17095931/
+design: narrative-review
+population: Review
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Proposed that AMPK activation by endurance exercise may inhibit mTOR and its downstream protein-synthesis targets,
+    offering a molecular explanation for interference.
+  effect: Hypothesis; no pooled data
+  grade: speculative
+limitations:
+- Hypothesis built largely on rodent and cell data; later human work did not confirm AMPK-mediated mTORC1 inhibition.
+topics:
+- concurrent/molecular
+- concurrent/history
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; confirmed as a hypothesis-level review."

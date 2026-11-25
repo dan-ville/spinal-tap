@@ -1,0 +1,41 @@
+id: chen-2024-concurrent-nma
+title: 'Comparative efficacy of concurrent training types on lower limb strength and muscular hypertrophy: A systematic review
+  and network meta-analysis'
+authors:
+- Chen Y
+- Feng X
+- Huang L
+- Wang K
+- Mi J
+year: 2024
+venue: J Exerc Sci Fit 22(1):86-96
+doi: 10.1016/j.jesf.2023.12.005
+pmid: '38187085'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10767279/
+design: meta-analysis
+population: Healthy adults 18-45 y; 4 endurance types (HIIT running, HIIT cycling, MICT running, MICT cycling) + RT vs RT
+sample:
+  studies: 40
+  participants: 841
+read_level: full-text
+findings:
+- claim: All four concurrent types gave slightly smaller lower-body strength gains than RT alone; HIIT running was least affected
+    and continuous cycling most.
+  effect: HIIT running SMD -0.08 (95% CI -0.25 to 0.08); HIIT cycling -0.18 (-0.49 to 0.13); MICT running -0.25 (-0.46 to
+    -0.05); MICT cycling -0.38 (-0.62 to -0.14)
+  grade: contested
+- claim: No concurrent type differed meaningfully from RT for muscle CSA.
+  effect: SMDs -0.08 to 0.15, all CIs span zero
+  grade: promising
+limitations:
+- Bayesian NMA with sparse direct comparisons; SUCRA rankings of near-null effects are fragile; modality ranking contradicts
+  Wilson 2012 and Lundberg 2022 (running worse).
+topics:
+- concurrent/moderators
+- concurrent/hiit
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): Europe PMC full text re-read. MCSA SMDs -0.08 to 0.15, all CIs span zero; lower-body strength MICCT -0.38 (-0.62 to -0.14), MICRT -0.25 (-0.46 to -0.05), HIICT -0.18, HIIRT -0.08 confirmed. MCSA outcome pooled lean body mass with imaging, so it is a weaker hypertrophy measure than Schumann's."

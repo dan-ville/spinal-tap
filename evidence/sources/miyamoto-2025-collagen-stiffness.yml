@@ -1,0 +1,21 @@
+id: miyamoto-2025-collagen-stiffness
+title: "Collagen Peptide Supplementation Enhances Muscle-Tendon Stiffness and Explosive Strength: A 16-wk Randomized Controlled Trial"
+authors: [Miyamoto N, Ishihara K, Oshima T, Kawai M, Oritani Y, Iemoto N]
+year: 2025
+venue: "Med Sci Sports Exerc 57(12):2877-2886"
+doi: "10.1249/MSS.0000000000003814"
+pmid: "40623147"
+url: https://pubmed.ncbi.nlm.nih.gov/40623147/
+design: rct
+population: "Healthy young sedentary men; 10 g/d collagen peptide or placebo for 16 wk without training"
+sample: {studies: null, participants: 50}
+read_level: abstract
+findings:
+  - claim: "Without any training, 16 weeks of collagen peptides increased shear-wave stiffness of the medial gastrocnemius and Achilles tendon and normalised RTD, with no change in CSA or MVC."
+    effect: "Achilles stiffness d=0.378 (P<0.001), MG stiffness d=0.594, normalised RTD d=0.525 (collagen group only); within-group effects reported"
+    grade: speculative
+limitations:
+  - "Shear-wave elastography stiffness is not equivalent to force-elongation tendon stiffness; within-group analyses; sedentary untrained men; five of six authors are from a food company R&D institute (Morinaga & Co.)."
+topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

@@ -1,0 +1,55 @@
+id: del-vecchio-2019
+title: The increase in muscle force after 4 weeks of strength training is mediated by adaptations in motor
+  unit recruitment and rate coding.
+authors:
+- Del Vecchio A
+- Casolo A
+- Negro F
+- Scorcelletti M
+- Bazzucchi I
+- Enoka R
+- Felici F
+- Farina D
+year: 2019
+venue: J Physiol 597(7):1873-1887
+doi: 10.1113/JP277250
+pmid: '30727028'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6441907/
+design: rct
+population: Recreationally active young men; tibialis anterior, isometric dorsiflexion training vs control
+sample:
+  studies: null
+  participants: 28
+read_level: abstract
+findings:
+- claim: Four weeks (12 sessions) of ballistic plus sustained isometric dorsiflexion training increased
+    maximal voluntary force by about 14% with no change in controls.
+  effect: MVF 289 +/- 64 to 329 +/- 61 N (time x group P = 0.006, partial eta2 = 0.280); controls 299
+    +/- 41 to 304 +/- 35 N
+  grade: promising
+- claim: Longitudinally tracked motor units (HD-sEMG decomposition) increased their discharge rate and
+    were recruited at lower relative forces after training.
+  effect: Discharge rate at plateau +3.3 +/- 2.5 pps (P = 0.0008, partial eta2 = 0.419); relative recruitment
+    threshold 26 +/- 5 to 21 +/- 5 %MVF (P = 0.003)
+  grade: promising
+- claim: Motor neuron input-output gain was unchanged, so the authors locate the adaptation in greater
+    net synaptic input or altered intrinsic motor neuron properties rather than in the muscle.
+  effect: similar input-output gain pre vs post
+  grade: speculative
+limitations:
+- Small, untrained, single muscle (tibialis anterior), isometric task; generalisation to multi-joint dynamic
+  lifts in trained people is untested.
+- Submaximal (35-70% MVF) contractions only; maximal-force motor unit behaviour not tracked.
+- Absolute recruitment-threshold changes were small and possibly within measurement error, per the authors.
+- "Analysed n is smaller than 28 for some outcomes: elgueta-cancino-2022 extracted 13 trained vs 12 controls; casolo-2026 reused 12 young trainees."
+- "Same lab and identical tibialis anterior protocol as del-vecchio-2019, casolo-2020, del-vecchio-2026 and casolo-2026; participants probably overlap, so these are not independent replications."
+topics:
+- strength/neural-adaptations
+- strength/motor-units
+- strength/time-course
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Verifier could read only the abstract (PMC page behind a browser check; publisher bars XML), so read_level set to abstract. Abstract confirms 14 trained vs 14 controls, discharge rate +3.3 +/- 2.5 pps at plateau (abstract: P < 0.001), lower normalised recruitment thresholds (P < 0.05), unchanged discharge rate at recruitment and derecruitment. MVF 289->329 N, RT 26->21 %MVF, P values and eta2 come from the chapter 2 researcher's full-text reading and were not independently verified; elgueta-cancino-2022 reports 13 trained and 12 controls analysed for discharge rate. | Prior check: chapter 2 researcher 2026-11-24"

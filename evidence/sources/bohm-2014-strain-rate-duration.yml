@@ -1,0 +1,21 @@
+id: bohm-2014-strain-rate-duration
+title: "Human Achilles tendon plasticity in response to cyclic strain: effect of rate and duration"
+authors: [Bohm S, Mersmann F, Tettke M, Kraft M, Arampatzis A]
+year: 2014
+venue: "J Exp Biol 217(Pt 22):4010-4017"
+doi: "10.1242/jeb.112268"
+pmid: "25267851"
+url: https://pubmed.ncbi.nlm.nih.gov/25267851/
+design: rct
+population: "Young adults; 14 wk, 4x/week; reference protocol (~6.5% strain, 3 s load/3 s rest) vs high strain rate (jumps) or long duration (12 s) on contralateral leg; controls"
+sample: {studies: null, participants: 39}
+read_level: abstract
+findings:
+  - claim: "Repeated 3-s high-strain contractions increased stiffness and modulus more than 12-s contractions of equal strain and volume; high-rate (jump) loading produced only trends."
+    effect: "Reference: stiffness +57%, CSA +4.2%, modulus +51%; long duration: +25%, +5.3%, +17%; high rate: stiffness P=0.08, CSA P=0.09; control no change"
+    grade: promising
+limitations:
+  - "Small groups (14, 12, 13); healthy young adults; one tendon."
+topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: groups N=14, 12, control 13; 14 wk, 4x/wk; ~6.5% strain; 3-s reference: stiffness +57%, modulus +51%, CSA +4.2%; 12-s: +25%, +17%, CSA +5.3%; hopping: stiffness trend P=0.08, CSA P=0.09. Confirmed. CSA rose slightly more with 12-s holds. Full text not retrievable (publisher page returned a non-PDF page). Single within-person trial from one lab; unreplicated. | Prior check: chapter 8 literature researcher"}

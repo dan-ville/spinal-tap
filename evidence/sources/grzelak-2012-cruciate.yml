@@ -1,0 +1,21 @@
+id: grzelak-2012-cruciate
+title: "Hypertrophied cruciate ligament in high performance weightlifters observed in magnetic resonance imaging"
+authors: [Grzelak P, Podgorski M, Stefanczyk L, Krochmalski M, Domzalski M]
+year: 2012
+venue: "Int Orthop 36(8):1715-1719"
+doi: "10.1007/s00264-012-1528-3"
+pmid: "22447073"
+url: https://pubmed.ncbi.nlm.nih.gov/22447073/
+design: cross-sectional
+population: "High-performance weightlifters without knee trauma vs controls; contrast MRI"
+sample: {studies: null, participants: 35}
+read_level: full-text
+findings:
+  - claim: "Weightlifters had much larger ACL and PCL midsubstance cross-sections than controls; size correlated with earlier training onset more than with years of training."
+    effect: "ACL 71.7 (52.9-111.2) vs 40.56 (23.83-59.1) mm2; PCL 64.48 (52-88.1) vs 44.98 (31.3-71) mm2; onset vs area rho -0.56 (ACL), -0.71 (PCL); training years vs PCL rho 0.6"
+    grade: speculative
+limitations:
+  - "Retrospective radiology database; abstract says 9 athletes but table reports 16; selection, body-size and contrast-MRI confounding; no mechanical properties."
+topics: [connective-tissue/ligament]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

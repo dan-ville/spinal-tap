@@ -1,0 +1,24 @@
+id: nunes-2024-volume-older-women
+title: 'Higher volume resistance training enhances whole-body muscle hypertrophy in postmenopausal and older females: A secondary analysis of systematic review and meta-analysis of randomized clinical trials'
+authors: [Nunes PRP, Kassiano W, Castro-E-Souza P, Camilo BF, Cristina-Souza G, Vieira-Souza LM, Cyrino ES, Carneiro MADS]
+year: 2024
+venue: Arch Gerontol Geriatr 124:105474
+doi: 10.1016/j.archger.2024.105474
+pmid: '38744142'
+url: https://pubmed.ncbi.nlm.nih.gov/38744142/
+design: meta-analysis
+population: Postmenopausal (>= 45 y) and older (>= 60 y) women in RCTs of whole-body RT vs control
+sample: {studies: 14, participants: null}
+read_level: abstract
+findings:
+- claim: Higher-volume programmes produced more whole-body hypertrophy than lower-volume programmes in postmenopausal and older women, though both beat control.
+  effect: HVRT g 0.52 (0.27 to 0.77), ~1.3 kg; LVRT g 0.34 (0.14 to 0.53), ~0.9 kg; GRADE low
+  grade: promising
+limitations:
+- Indirect comparison across trials; GRADE low certainty; whole-body lean mass proxies. HVRT and LVRT were each compared with control and their CIs overlap widely; no direct between-volume test is reported in the abstract.
+topics: [frontiers/ageing, frontiers/sex-differences, hypertrophy/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 14 RCTs, HVRT g 0.52 (0.27-0.77), LVRT 0.34 (0.14-0.53), GRADE low. Numbers confirmed; each is vs control with overlapping CIs, no direct between-volume test in the abstract. | Earlier check (chapter 11 literature researcher): no notes"

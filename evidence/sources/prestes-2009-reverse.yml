@@ -1,0 +1,20 @@
+id: prestes-2009-reverse
+title: Comparison of linear and reverse linear periodization effects on maximal strength and body composition
+authors: [Prestes J, De Lima C, Frollini AB, Donatto FF, Conte M]
+year: 2009
+venue: Journal of Strength and Conditioning Research 23(1):266-274
+doi: 10.1519/JSC.0b013e3181874bf3
+pmid: '19057409'
+url: https://pubmed.ncbi.nlm.nih.gov/19057409/
+design: rct
+population: Women 20-35 y with >=6 months RT experience; 12 wk, 3x/wk
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+- claim: Linear periodization (12-14RM to 4-6RM) produced larger strength gains than reverse linear periodization (6-4RM to 12-14RM).
+  effect: Both improved in all lifts; increases greater for LP (between-group statistics not given in abstract)
+  grade: speculative
+limitations: ['n = 10 per group; reverse order ends on light loads, so the 1RM test is least specific to its final block.']
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

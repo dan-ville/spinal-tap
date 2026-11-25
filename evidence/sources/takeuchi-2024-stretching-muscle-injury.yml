@@ -1,0 +1,39 @@
+id: takeuchi-2024-stretching-muscle-injury
+title: 'Stretching intervention can prevent muscle injuries: A systematic review and meta-analysis'
+authors:
+- Takeuchi K
+- Nakamura M
+- Fukaya T
+- Nakao G
+- Mizuno T
+year: 2024
+venue: Sport Sci Health 20:1119-1129
+doi: 10.1007/s11332-024-01213-9
+pmid: null
+url: https://doi.org/10.1007/s11332-024-01213-9
+design: meta-analysis
+population: Stretching interventions with injury outcomes
+sample:
+  studies: null
+  participants: null
+read_level: secondary
+findings:
+- claim: As summarised by the 2025 Delphi consensus, static stretching decreased muscle but not tendon injury risk,
+    but in the included studies fewer muscle injuries were accompanied by more bone and joint injuries (per a published
+    comment by Afonso, Costa and Warneke 2025).
+  effect: Not retrieved; secondary description only
+  grade: contested
+limitations:
+- Primary paper not retrieved; DOI verified via Crossref (verification pass); not indexed in PubMed; effect sizes unverified.
+- Contradicted by the larger 2026 Afonso meta-analysis, which found no muscle-injury effect.
+topics:
+- injury/stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: bibliographic details verified via Crossref (Sport Sci Health 20:1119-1129, published 4 Jul
+    2024, DOI 10.1007/s11332-024-01213-9) and the reference list of the Afonso 2026 preprint. Not indexed in PubMed;
+    abstract not available to this pass (publisher host blocked). Effect numbers remain unverified. | Prior check: chapter
+    6 literature researcher 2026-11-24; Described in a secondary source only.'

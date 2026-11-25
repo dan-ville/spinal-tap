@@ -1,0 +1,21 @@
+id: jerger-2023-collagen-patellar
+title: "Specific collagen peptides increase adaptions of patellar tendon morphology following 14-weeks of high-load resistance training: A randomized-controlled trial"
+authors: [Jerger S, Centner C, Lauber B, Seynnes O, Friedrich T, Lolli D, Gollhofer A, Konig D]
+year: 2023
+venue: "Eur J Sport Sci 23(12):2329-2339"
+doi: "10.1080/17461391.2023.2232758"
+pmid: "37424319"
+url: https://pubmed.ncbi.nlm.nih.gov/37424319/
+design: rct
+population: "Healthy moderately active men; 14 wk knee-extensor training at 70-85% 1RM 3x/wk + 5 g/d collagen peptides or placebo"
+sample: {studies: null, participants: 50}
+read_level: abstract
+findings:
+  - claim: "Collagen peptides increased patellar tendon CSA more than placebo at 60-70% of tendon length; stiffness, muscle CSA and strength rose equally in both groups."
+    effect: "Regional CSA group difference p<0.05; stiffness, RF CSA and MVC increased in both (p<0.01) without group difference"
+    grade: contested
+limitations:
+  - "Regional, not mean, CSA effect; same research group as jerger-2022; supplement-industry links in the programme."
+topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

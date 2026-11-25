@@ -1,0 +1,37 @@
+id: buxton-2024-qmt-emg
+title: Comparison of muscle activation during quadrupedal movement training and traditional bodyweight exercises
+authors:
+- Buxton J
+- Daugherty M
+- Grubbs R
+- Isles M
+- Mulligan S
+- Plank E
+- Taylor E
+- Prins P
+year: 2024
+venue: J Bodyw Mov Ther 40:2173-2178
+doi: 10.1016/j.jbmt.2024.11.002
+pmid: '39593581'
+url: https://pubmed.ncbi.nlm.nih.gov/39593581/
+design: cross-sectional
+population: Adults (9 men, 11 women); 8 Animal Flow movements vs push-up, squat, plank
+sample:
+  studies: null
+  participants: 20
+read_level: abstract
+findings:
+- claim: Animal Flow movements produced moderate to very high peak EMG, exceeding the push-up for biceps, deltoid
+    and latissimus and the squat for biceps femoris; the push-up produced more triceps and pectoral activity.
+  effect: e.g. deltoid 66.6 vs 45.6 %MVIC; latissimus 62.8 vs 29.2; biceps femoris 41.9 vs 17.8 (squat)
+  grade: speculative
+limitations:
+- Acute EMG only; bodyweight comparators; no training outcome.
+topics:
+- mobility/practitioner-systems
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: chapter 7 literature researcher
+  notes: ''

@@ -1,0 +1,43 @@
+id: kodama-2009-crf
+title: 'Cardiorespiratory fitness as a quantitative predictor of all-cause mortality and cardiovascular events in healthy
+  men and women: a meta-analysis'
+authors:
+- Kodama S
+- Saito K
+- Tanaka S
+- Maki M
+- Yachi Y
+- Asumi M
+- Sugawara A
+- Totsuka K
+- Shimano H
+- Ohashi Y
+- Yamada N
+- Sone H
+year: 2009
+venue: JAMA 301(19):2024-2035
+doi: 10.1001/jama.2009.681
+pmid: '19454641'
+url: https://pubmed.ncbi.nlm.nih.gov/19454641/
+design: meta-analysis
+population: Healthy men and women in cohort studies (102,980 for all-cause mortality)
+sample:
+  studies: 33
+  participants: 102980
+read_level: abstract
+findings:
+- claim: Each 1-MET higher cardiorespiratory fitness was associated with lower all-cause mortality and CHD/CVD events; people
+    below ~7.9 METs had substantially higher risk.
+  effect: 'Per 1 MET: all-cause RR 0.87 (95% CI 0.84 to 0.90); CHD/CVD RR 0.85 (95% CI 0.82 to 0.88); low vs high CRF all-cause
+    RR 1.70 (95% CI 1.51 to 1.92)'
+  grade: established
+limitations:
+- Observational; confounding by genetics and health status; general population rather than strength athletes.
+topics:
+- conditioning/health
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; RR 0.87 (0.84-0.90) per MET, CHD/CVD 0.85 (0.82-0.88), low vs high 1.70 (1.51-1.92), 33 studies confirmed. Observational."

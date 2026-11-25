@@ -1,0 +1,21 @@
+id: malta-2021-cwi
+title: "The Effects of Regular Cold-Water Immersion Use on Training-Induced Changes in Strength and Endurance Performance: A Systematic Review with Meta-Analysis"
+authors: [Malta ES, Dutra YM, Broatch JR, Bishop DJ, Zagatto AM]
+year: 2021
+venue: "Sports Medicine 51(1):161-174"
+doi: "10.1007/s40279-020-01362-0"
+pmid: "33146851"
+url: https://pubmed.ncbi.nlm.nih.gov/33146851/
+design: meta-analysis
+population: "Controlled training studies with regular CWI at 15 C or colder"
+sample: {studies: 8, participants: null}
+read_level: abstract
+findings:
+  - claim: "Regular CWI after resistance training reduced gains in 1RM, isometric strength, strength endurance and ballistic performance, but did not affect endurance training adaptations."
+    effect: "Strength outcomes SMD -0.60 (95% CI -0.87 to -0.33); ballistic SMD -0.61 (-1.11 to -0.11); endurance SMD -0.07 (-0.54 to 0.53)"
+    grade: promising
+limitations:
+  - "Eight articles; pooled several outcomes per study; larger effect than later meta-analyses."
+topics: [recovery/cold-water-immersion]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 8 articles; strength SMD -0.60 (-0.87 to -0.33); ballistic -0.61 (-1.11 to -0.11); endurance overall SMD -0.07 (the abstract prints the CI as -0.54 to 0.53, which is internally inconsistent). Confirmed."}

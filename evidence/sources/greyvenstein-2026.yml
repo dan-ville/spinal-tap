@@ -1,0 +1,35 @@
+id: greyvenstein-2026
+title: 'Tension to Translation: External to Internal Processes in Muscle Hypertrophy.'
+authors:
+- Greyvenstein D
+- Newbold JP
+- Phillips SM
+year: 2026
+venue: Physiology (Bethesda) 41(4):0
+doi: 10.1152/physiol.00034.2025
+pmid: '41324917'
+url: https://pubmed.ncbi.nlm.nih.gov/41324917/
+design: narrative-review
+population: Review of how loading and protein intake converge on intracellular signalling
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Resistance exercise is the primary driver of human hypertrophy and dietary protein a minor supporting factor;
+    how loading and amino-acid signals are integrated intracellularly remains incompletely understood.
+  effect: Narrative synthesis
+  grade: established
+limitations:
+- Narrative review.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; "resistance exercise is the primary driver, with protein playing
+    a minor supporting role" confirmed. Supports loading as primary driver, not tension-on-fibres specifically. |
+    Prior check: chapter 5 literature researcher 2026-11-24'

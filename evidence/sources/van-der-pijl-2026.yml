@@ -1,0 +1,47 @@
+id: van-der-pijl-2026
+title: The titin N2A-MARP signalosome constrains muscle longitudinal hypertrophy in response to stretch.
+authors:
+- van der Pijl R
+- Gohlke J
+- Strom J
+- Peters E
+- Shen S
+- Conijn S
+- Hourani Z
+- Lange S
+- Chen J
+- Langlais P
+- Labeit S
+- Granzier HL
+- Ottenheijm C
+year: 2026
+venue: Elife 14:RP107597
+doi: 10.7554/eLife.107597
+pmid: '42530086'
+url: https://pubmed.ncbi.nlm.nih.gov/42530086/
+design: mechanistic
+population: Rat and mouse unilateral diaphragm denervation; MARP knockout; rapamycin
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Titin's N2A element and MARP proteins regulate stretch-induced longitudinal (serial) hypertrophy via mTORC1;
+    MARP knockout enhanced and rapamycin suppressed longitudinal growth.
+  effect: Qualitative (abstract)
+  grade: speculative
+limitations:
+- Rodent model; longitudinal growth in humans is inferred from fascicle length estimates.
+topics:
+- hypertrophy/mechanisms
+- hypertrophy/muscle-length
+- mobility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read. Note direction: MARP knockout ENHANCED longitudinal hypertrophy
+    (MARPs constrain it); rapamycin suppressed it. Rat and mouse diaphragm. | Prior check: chapter 5 literature researcher
+    2026-11-24; Chapter 7 researcher corrected DOI against PubMed (10.7554/eLife.107597).'

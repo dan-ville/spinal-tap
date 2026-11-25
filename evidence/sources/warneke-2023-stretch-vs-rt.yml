@@ -1,0 +1,54 @@
+id: warneke-2023-stretch-vs-rt
+title: Comparison of the effects of long-lasting static stretching and hypertrophy training on maximal strength,
+  muscle thickness and flexibility in the plantar flexors
+authors:
+- Warneke K
+- Wirth K
+- Keiner M
+- Lohmann LH
+- Hillebrecht M
+- Brinkmann A
+- Wohlann T
+- Schiemann S
+year: 2023
+venue: Eur J Appl Physiol 123(8):1773-1787
+doi: 10.1007/s00421-023-05184-6
+pmid: '37029826'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10363083/
+design: rct
+population: '69 active adults (30 women, 27 y); 6 weeks: 1 h/day continuous calf stretch with orthosis vs calf hypertrophy
+  training (5 x 10-12, 3 x/week) vs control'
+sample:
+  studies: null
+  participants: 69
+read_level: full-text
+findings:
+- claim: One hour of daily calf stretching for 6 weeks increased isometric plantar-flexor MVC and ROM about as much
+    as conventional calf hypertrophy training.
+  effect: Extended-knee MVC +18.0% (stretch) vs +13.4% (RT); stretch vs RT p = 0.387, d = 0.4; stretch vs control
+    d = 1.17; RT vs control d = 0.9
+  grade: promising
+- claim: Lateral gastrocnemius thickness increased significantly only with resistance training; medial head did
+    not differ between interventions.
+  effect: 'Lateral head: RT vs control p = 0.021, d = 0.61; stretch vs control p = 0.36, d = 0.32'
+  grade: promising
+- claim: Up to 7 h of weekly stretching was needed to match 3 x 15 min of resistance training, making the approach
+    impractical for most people.
+  effect: Authors' comparison of time cost
+  grade: convention
+limitations:
+- Isometric testing favours the isometric-like stretch stimulus; ultrasound muscle thickness; same lab as most positive
+  studies.
+topics:
+- flexibility/stretch-hypertrophy
+- mobility/loaded-stretching
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC10363083) re-read; 69 recreationally active adults, MVC +18.00% vs +13.36%,
+    ROM IG1 vs IG2 p = 0.378 d = 0.38, LG thickness RT vs CG d = 0.61, stretch vs CG d = 0.32 (n.s.), up to 7 h/week
+    vs 3 x 15 min confirmed. | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects transcribed
+    from results/tables.'

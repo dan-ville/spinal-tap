@@ -1,0 +1,51 @@
+id: siddique-2020
+title: 'Determining the Sites of Neural Adaptations to Resistance Training: A Systematic Review and Meta-analysis.'
+authors:
+- Siddique U
+- Rahman S
+- Frazer AK
+- Pearce AJ
+- Howatson G
+- Kidgell DJ
+year: 2020
+venue: Sports Med 50(6):1107-1128
+doi: 10.1007/s40279-020-01258-z
+pmid: '31993949'
+url: https://pubmed.ncbi.nlm.nih.gov/31993949/
+design: meta-analysis
+population: RCTs of resistance training measuring cortical or subcortical responses, mostly untrained
+  adults
+sample:
+  studies: 30
+  participants: 623
+read_level: abstract
+findings:
+- claim: Resistance training increased MEP amplitude measured during contraction but not at rest.
+  effect: Active MEP SMD 0.55 (95% CI 0.27 to 0.84), n = 271; resting MEP SMD 0.49 (95% CI -0.68 to 1.66)
+  grade: promising
+- claim: Corticospinal silent period and active short-interval intracortical inhibition decreased after
+    training, indicating reduced intracortical inhibition.
+  effect: SP SMD 0.65 (95% CI 0.29 to 1.01), n = 184; active SICI SMD 0.68 (95% CI 0.14 to 1.23), n =
+    102
+  grade: promising
+- claim: V-wave amplitude increased, but H-reflex (rest or active) and TMS-assessed voluntary activation
+    did not change.
+  effect: V-wave SMD 0.62 (95% CI 0.14 to 1.10), n = 101; active H-reflex SMD 0.15 (95% CI -0.18 to 0.48);
+    VA-TMS MD 1.41 (95% CI -4.37 to 7.20)
+  grade: promising
+- claim: "Resting SICI did not change after resistance training."
+  effect: "resting SICI SMD 0.26 (95% CI -0.29 to 0.81), n = 52; strength SMD 0.67 (0.41 to 0.94), 30 RCTs"
+  grade: promising
+limitations:
+- An earlier version (2019) was retracted and republished; small pooled samples for several outcomes.
+- Training and testing tasks often mismatched; mostly untrained participants.
+- "Same research group as kidgell-2017 with overlapping primary studies."
+topics:
+- strength/neural-adaptations
+- strength/corticospinal
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Decreases in SP and active SICI are reported as positive SMDs. Resting SICI unchanged (SMD 0.26, -0.29 to 0.81, n = 52). Pooled strength SMD 0.67 (0.41 to 0.94). | Prior check: chapter 2 researcher 2026-11-24"

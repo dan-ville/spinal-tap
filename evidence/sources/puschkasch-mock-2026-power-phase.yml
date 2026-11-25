@@ -1,0 +1,23 @@
+id: puschkasch-mock-2026-power-phase
+title: Does a dedicated optimal power phase enhance performance outcomes in trained athletes? A comparison of periodized maximum strength and strength-power training
+authors: [Puschkasch-Möck S, Haff GG, Behringer M, Wirth K]
+year: 2026
+venue: European Journal of Applied Physiology (online ahead of print, Oct 2026)
+doi: 10.1007/s00421-026-06477-2
+pmid: '42873348'
+url: https://pubmed.ncbi.nlm.nih.gov/42873348/
+design: other
+population: Athletes from various sports (62 M, 18 F), matched by jump height into block-periodized squat, squat plus jump-squat power block, isokinetic and control groups; 14 wk
+sample: {studies: null, participants: 80}
+read_level: abstract
+findings:
+- claim: A block-periodized maximum-strength program and one ending in an optimal-power jump-squat block both raised squat 1RM, with no detectable superiority of either complete program.
+  effect: Significant 1RM increases in SQ and JS groups (p < 0.01); jump height increased only in SQ; power at 40-80% 1RM increased only in JS; no between-program superiority reported
+  grade: speculative
+limitations: ['Matched (not randomised) allocation by jump height; compares block contents, not block vs non-block; abstract only.']
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: added; PubMed abstract read.'

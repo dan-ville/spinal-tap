@@ -1,0 +1,46 @@
+id: bajcetic-2026-pilates-women
+title: 'Effects of Pilates Programs on Body Composition, Flexibility, Muscular Strength, Balance, Functional Performance
+  and Respiratory Function in Adult Women: A Systematic Review and Meta-Analysis'
+authors:
+- Bajcetic C
+- Rudovic V
+- Novakovic M
+- Vjestica M
+- Atanasov R
+- Ralic V
+- Manojlovic M
+- Drid P
+year: 2026
+venue: Sports (Basel) 14(9):407
+doi: 10.3390/sports14090407
+pmid: '42784403'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13611139/
+design: meta-analysis
+population: Healthy adult women; structured mat/reformer Pilates vs inactive or other controls; RCTs and non-RCTs,
+  2007-2025
+sample:
+  studies: 12
+  participants: 540
+read_level: full-text
+findings:
+- claim: Pilates improved sit-and-reach flexibility in adult women, but pooled handgrip strength and vertical jump
+    did not change.
+  effect: 'Text: sit-and-reach SMD 0.69 (95% CI 0.43 to 0.94), 7 studies, I2 = 83%; handgrip SMD 0.04 (-0.63 to 0.72),
+    3 studies. GRADE table (Table 3) reports different values for the same outcomes: sit-and-reach SMD 0.86 (0.23
+    to 1.50), GRADE moderate; handgrip SMD 0.23 (-0.08 to 0.54), GRADE low'
+  grade: promising
+limitations:
+- Mixed randomised and non-randomised designs; mostly inactive controls; women only; high heterogeneity.
+- Internal inconsistency between text and GRADE table for both sit-and-reach and handgrip; a CI of 0.43-0.94 is implausibly
+  narrow for a random-effects pool with I2 83%. Includes non-randomised trials; heterogeneous populations (students,
+  postmenopausal, obese, sedentary women).
+topics:
+- mobility/practitioner-systems
+- flexibility/pilates
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC13611139) re-read. Corrected: text and GRADE table disagree (sit-and-reach
+    0.69 vs 0.86; handgrip 0.04 vs 0.23). | Prior check: chapter 7 literature researcher 2026-11-24;'

@@ -1,0 +1,40 @@
+id: strey-2026
+title: 'Muscle hypertrophy from partial repetition at long vs. short muscle length: A systematic review and meta-analysis'
+authors:
+- Strey B
+- Irigoyen A
+- McMahon G
+- Pinto RS
+year: 2026
+venue: Sport Sciences for Health 22(1):33
+doi: 10.1007/s11332-025-01586-5
+pmid: null
+url: https://pure.ulster.ac.uk/en/publications/muscle-hypertrophy-from-partial-repetition-at-long-vs-short-muscl/
+design: meta-analysis
+population: Trials comparing partial ROM at longer vs shorter muscle length; quadriceps, gastrocnemius and elbow flexors
+sample:
+  studies: 8
+  participants: null
+read_level: abstract
+findings:
+- claim: Partial-ROM training at longer muscle lengths produced more hypertrophy than partial training at shorter
+    lengths, at central and distal sites.
+  effect: Overall ES 0.283 (95% CI 0.04 to 0.52; p = 0.036); distal ES 0.433 (95% CI 0.01 to 0.85; p = 0.048); central
+    ES 0.276 (0.01 to 0.48; p = 0.028)
+  grade: promising
+limitations:
+- Compares long vs short partials, not long partials vs full ROM; 8 studies, mostly vastus lateralis in untrained
+  people; robust variance estimation with few studies; full text embargoed (not read).
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Ulster repository abstract re-read: 8 studies; overall ES 0.283 (p = 0.036); distal 0.433
+    (0.01-0.85, p = 0.048); central 0.276 (0.01-0.48, p = 0.028). Overall CI 0.04-0.52 per publisher abstract as quoted
+    in search results (not opened). Muscles: VL 5, RF 3, VM 2, VI 2, GM/GL 1, BB/BR 1. Full text still embargoed.
+    | Prior check: chapter 5 literature researcher 2026-11-24; Abstract read via Ulster University repository; publisher
+    page not reachable from this session; accepted manuscript embargoed to 2027-01-05.'

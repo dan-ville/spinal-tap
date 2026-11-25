@@ -1,0 +1,21 @@
+id: mersmann-2023-tendon-strain-risk
+title: "Longitudinal Evidence for High-Level Patellar Tendon Strain as a Risk Factor for Tendinopathy in Adolescent Athletes"
+authors: [Mersmann F, Domroes T, Tsai MS, Pentidis N, Schroll A, Bohm S, Arampatzis A]
+year: 2023
+venue: "Sports Med Open 9(1):83"
+doi: "10.1186/s40798-023-00627-y"
+pmid: "37673828"
+url: https://pubmed.ncbi.nlm.nih.gov/37673828/
+design: cohort
+population: "Adolescent athletes 12-17 y followed over a season (4 time points)"
+sample: {studies: null, participants: 44}
+read_level: abstract
+findings:
+  - claim: "Athletes who developed patellar tendon pain had higher tendon strain beforehand; strain of 9% or more more than doubled risk."
+    effect: "Strain higher in symptomatic (n=14) vs asymptomatic (n=23), p=0.03; risk ratio 2.3 for strain >=9% (p=0.026)"
+    grade: speculative
+limitations:
+  - "Adolescents (muscle-tendon imbalance during growth may not transfer to adults); 14 cases; 7 excluded as unclassifiable."
+topics: [connective-tissue/tendon, injury/tendon-risk]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

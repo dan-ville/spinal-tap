@@ -1,0 +1,35 @@
+id: medeiros-2016-hamstring-static
+title: 'Influence of static stretching on hamstring flexibility in healthy young adults: Systematic review and meta-analysis'
+authors:
+- Medeiros DM
+- Cini A
+- Sbruzzi G
+- Lima CS
+year: 2016
+venue: Physiother Theory Pract 32(6):438-445
+doi: 10.1080/09593985.2016.1204401
+pmid: '27458757'
+url: https://pubmed.ncbi.nlm.nih.gov/27458757/
+design: meta-analysis
+population: Healthy young adults (athletes, children, elderly excluded)
+sample:
+  studies: 19
+  participants: null
+read_level: abstract
+findings:
+- claim: Static stretching increased hamstring flexibility in degrees across three common tests.
+  effect: Passive SLR +12.04 deg (95% CI 9.61 to 14.47); passive knee extension +8.58 deg (6.31 to 10.84); active
+    knee extension +8.35 deg (5.15 to 11.55)
+  grade: established
+limitations:
+- Excluded athletes; abstract-level numbers.
+topics:
+- flexibility/stretching-dose
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; SLR 12.04 (9.61 to 14.47), PKE 8.58, AKE 8.35 deg confirmed; 19
+    studies; athletes excluded. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe
+    PMC abstract.'

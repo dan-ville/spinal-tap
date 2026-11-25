@@ -1,0 +1,44 @@
+id: geng-2024
+title: 'Potential Moderators of the Effects of Blood Flow Restriction Training on Muscle Strength and Hypertrophy:
+  A Meta-analysis Based on a Comparison with High-Load Resistance Training.'
+authors:
+- Geng Y
+- Wu X
+- Zhang Y
+- Zhang M
+year: 2024
+venue: Sports Med Open 10(1):58
+doi: 10.1186/s40798-024-00719-3
+pmid: '38773002'
+url: https://pubmed.ncbi.nlm.nih.gov/38773002/
+design: meta-analysis
+population: Trials comparing low-load BFR training with high-load training; moderators including training status
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Overall, low-load BFR and high-load training produced similar hypertrophy, while high loads produced more
+    strength.
+  effect: Hypertrophy ESdiff -0.067 (95% CI -0.205 to 0.071), 34 effects, I2 0%; strength ESdiff -0.335 (-0.515 to
+    -0.156), 63 effects
+  grade: established
+- claim: In trained individuals BFR outperformed high-load training for hypertrophy and strength, but this rests on
+    very few effects.
+  effect: Trained hypertrophy ESdiff 0.695 (0.189 to 1.200), 3 effects; trained strength 0.491 (0.154 to 0.827), 14
+    effects; untrained strength -0.552
+  grade: speculative
+limitations:
+- Trained-subgroup hypertrophy based on 3 effects; 'trained' includes athletes with mixed backgrounds; 28 studies
+  (703 participants) for hypertrophy, 51 (1164) for strength.
+topics:
+- hypertrophy/bfr
+- hypertrophy/trained
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: full text re-read (Europe PMC PMC11109065): overall hypertrophy ESdiff -0.067 (34 effects);
+    trained hypertrophy 0.695 from 3 effects; trained strength 0.491 from 14 effects. Confirmed. DOI corrected to
+    10.1186/s40798-024-00719-3. | Prior check: chapter 5 literature researcher 2026-11-24'

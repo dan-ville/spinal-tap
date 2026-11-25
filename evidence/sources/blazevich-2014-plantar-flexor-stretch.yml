@@ -1,0 +1,46 @@
+id: blazevich-2014-plantar-flexor-stretch
+title: Range of motion, neuromechanical, and architectural adaptations to plantar flexor stretch training in humans
+authors:
+- Blazevich AJ
+- Cannavan D
+- Waugh CM
+- Miller SC
+- Thorlund JB
+- Aagaard P
+- Kay AD
+year: 2014
+venue: J Appl Physiol 117(5):452-462
+doi: 10.1152/japplphysiol.00204.2014
+pmid: '24947023'
+url: https://pubmed.ncbi.nlm.nih.gov/24947023/
+design: mechanistic
+population: Healthy adults; 3 weeks of twice-daily plantar flexor stretching (4 x 30 s) vs non-exercising control
+sample:
+  studies: null
+  participants: 21
+read_level: full-text
+findings:
+- claim: Three weeks of stretching increased dorsiflexion ROM mainly through greater tolerated passive moment (stretch
+    tolerance) and greater muscle and fascicle elongation, with no change in resting fascicle length, tendon stiffness,
+    EMG or MVC.
+  effect: ROM +19.9%; passive moment at end ROM +28%; muscle stiffness during stretch -18%; passive moment during
+    stretch -9.9% (P = 0.15)
+  grade: promising
+- claim: Reduced Hmax:Mmax at plantar-flexed angles suggests some neural change, but motoneuron excitability did
+    not explain the ROM gain.
+  effect: Hmax:Mmax decreased at plantar-flexed and neutral angles only
+  grade: speculative
+limitations:
+- Short (3 weeks), n = 12 trained vs 9 controls.
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: author''s submitted manuscript (Northampton repository) read; ROM +19.9 +/- 10.8%, passive
+    moment at end ROM +28%, muscle stiffness -18.0 +/- 18.3%, muscle length at end ROM +13% confirmed. Authors attribute
+    gains to stretch tolerance AND muscle/fascicle elongation, so this is not a purely ''sensory'' study: muscle stiffness
+    fell. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

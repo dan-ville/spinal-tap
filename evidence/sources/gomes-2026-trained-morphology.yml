@@ -1,0 +1,36 @@
+id: gomes-2026-trained-morphology
+title: Lower-Body Strength and Hypertrophy Adaptations in Response to Concurrent Training in Trained Young Males
+authors:
+- Gomes M
+- Costa M
+- Pezarat-Correia P
+- Mendonca GV
+year: 2026
+venue: J Strength Cond Res (online ahead of print)
+doi: 10.1519/JSC.0000000000005698
+pmid: '42949799'
+url: https://pubmed.ncbi.nlm.nih.gov/42949799/
+design: rct
+population: Trained young males, 11 wk (same trial as Gomes 2025)
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: Concurrent training prevented the leg-press isometric strength gain and delayed early-phase RFD gains, but jump impulse
+    and overall peak RFD still improved, and vastus lateralis CSA increased in both groups.
+  effect: MVIC +18.4 +/- 10.2% in R only; peak RFD R +31.8%, CT +23.1%; CSA R +17.0 +/- 13.0%, CT +8.8 +/- 9.4%; CMJ impulse
+    R +12.7%, CT +8.8%
+  grade: promising
+limitations:
+- Small groups; CSA difference not tested as an interaction in the abstract; overlapping data with Gomes 2025.
+topics:
+- concurrent/explosive-strength
+- concurrent/hypertrophy
+- concurrent/training-status
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; numbers confirmed. Same 30-man cohort as Gomes 2025 J Sports Sci and Gomes 2025 EJAP, not an independent trial. No group x time test for CSA reported in the abstract."

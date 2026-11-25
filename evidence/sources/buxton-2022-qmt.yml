@@ -1,0 +1,42 @@
+id: buxton-2022-qmt
+title: The Effects of a Novel Quadrupedal Movement Training Program on Functional Movement, Range of Motion, Muscular
+  Strength, and Endurance
+authors:
+- Buxton JD
+- Prins PJ
+- Miller MG
+- Moreno A
+- Welton GL
+- Atwell AD
+- Talampas TR
+- Elsey GE
+year: 2022
+venue: J Strength Cond Res 36(8):2186-2193
+doi: 10.1519/JSC.0000000000003818
+pmid: '33021583'
+url: https://pubmed.ncbi.nlm.nih.gov/33021583/
+design: rct
+population: Active college-age adults; commercial quadrupedal movement training (Animal Flow-style) 60 min 2x/wk
+  vs control, 8 wk
+sample:
+  studies: null
+  participants: 42
+read_level: abstract
+findings:
+- claim: Quadrupedal movement training improved Functional Movement Screen scores and some active ROM (hip flexion,
+    hip lateral rotation, shoulder extension) versus control, but not dynamic balance, grip strength or push-up
+    endurance.
+  effect: FMS composite +1.62 +/- 1.53 vs +0.33 +/- 1.15 (p = 0.004); ROM p < 0.05 (values not in abstract); no
+    strength/endurance differences
+  grade: speculative
+limitations:
+- Inactive control (not an alternative exercise); FMS validity contested; single trial.
+topics:
+- mobility/practitioner-systems
+- mobility/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: chapter 7 literature researcher
+  notes: ''

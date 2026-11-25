@@ -1,0 +1,27 @@
+id: roberts-2020-sex
+title: 'Sex Differences in Resistance Training: A Systematic Review and Meta-Analysis'
+authors: [Roberts BM, Nuckols G, Krieger JW]
+year: 2020
+venue: J Strength Cond Res 34(5):1448-1460
+doi: 10.1519/JSC.0000000000003521
+pmid: '32218059'
+url: https://pubmed.ncbi.nlm.nih.gov/32218059/
+design: meta-analysis
+population: Young to middle-aged males and females completing identical RT protocols
+sample: {studies: 23, participants: null}
+read_level: abstract
+findings:
+- claim: Males and females gained muscle size to a similar relative extent.
+  effect: Hypertrophy ES 0.07 +/- 0.06 (favouring males, P = 0.31, I2 = 0); 12 outcomes from 10 studies
+  grade: promising
+- claim: Females gained more relative upper-body strength than males; lower-body relative strength gains did not differ.
+  effect: Upper-body ES -0.60 +/- 0.16 favouring females (P = 0.002, I2 = 72.1; 19 outcomes from 17 studies); lower-body ES -0.21 +/- 0.16 (P = 0.20, I2 = 74.7; 23 outcomes from 23 studies)
+  grade: promising
+limitations:
+- Mostly untrained participants and short studies; relative effect sizes only; high heterogeneity for strength; mechanism (neural, learning, lower baseline) unknown.
+topics: [frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; hypertrophy ES 0.07 +/- 0.06 (12 outcomes, 10 studies); upper-body strength -0.60 +/- 0.16 (19 outcomes, 17 studies); lower-body -0.21 +/- 0.16 (23 outcomes, 23 studies, I2 74.7). Confirmed; outcome counts added. | Earlier check (chapter 11 literature researcher): no notes"

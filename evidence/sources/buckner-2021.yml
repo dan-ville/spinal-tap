@@ -1,0 +1,43 @@
+id: buckner-2021
+title: Do exercise-induced increases in muscle size contribute to strength in resistance-trained individuals?
+authors:
+- Buckner SL
+- Yitzchaki N
+- Kataoka R
+- Vasenina E
+- Zhu WG
+- Kuehne TE
+- Loenneke JP
+year: 2021
+venue: Clin Physiol Funct Imaging 41(4):326-333
+doi: 10.1111/cpf.12699
+pmid: '33724646'
+url: https://pubmed.ncbi.nlm.nih.gov/33724646/
+design: rct
+population: Resistance-trained adults; within-subject arm comparison, biceps curl
+sample:
+  studies: null
+  participants: 25
+read_level: abstract
+findings:
+- claim: In trained people, 8 weeks of 1RM practice and traditional 4 sets to failure produced equivalent
+    1RM gains, though muscle thickness grew more with traditional training.
+  effect: MT difference 0.14-0.17 cm favouring TRAD at 60-70% sites; 1RM change equivalent
+  grade: promising
+- claim: A prior hypertrophy phase did not clearly increase subsequent strength potential after a 4-week
+    1RM phase (Bayesian evidence favoured neither hypothesis).
+  effect: mean between-condition difference 0.72 (4.3) kg; n = 18
+  grade: contested
+limitations:
+- Single-joint biceps curl; ultrasound thickness (poor index of growth per balshaw-2026); short phases;
+  small.
+topics:
+- strength/hypertrophy-strength
+- strength/specificity
+- strength/training-age
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Within-subject arm design in trained people, biceps curl only; the 50% site MT difference CI includes zero. | Prior check: chapter 2 researcher 2026-11-24"

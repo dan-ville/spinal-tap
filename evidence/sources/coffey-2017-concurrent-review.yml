@@ -1,0 +1,36 @@
+id: coffey-2017-concurrent-review
+title: 'Concurrent exercise training: do opposites distract?'
+authors:
+- Coffey VG
+- Hawley JA
+year: 2017
+venue: J Physiol 595(9):2883-2896
+doi: 10.1113/JP272270
+pmid: '27506998'
+url: https://pubmed.ncbi.nlm.nih.gov/27506998/
+design: narrative-review
+population: Review of human molecular and training studies
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: Divergent exercise produces similar signalling and gene-expression responses in untrained or recreationally active
+    people, and the molecular specificity of the response sharpens with training history.
+  effect: Narrative review
+  grade: promising
+- claim: Multiple integrated effectors, rather than a single AMPK-mTOR switch, likely generate any interference effect.
+  effect: Narrative review
+  grade: promising
+limitations:
+- Narrative review; authors state chronic studies give 'robust evidence' for attenuation of hypertrophy and strength, a position
+  later meta-analyses (Schumann 2022) do not support for whole-muscle size.
+topics:
+- concurrent/molecular
+- concurrent/training-status
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PMC HTML full text read (PMC5407958). 'Chronic training studies provide robust evidence...' and 'multiple integrated, rather than isolated, effectors' quotes confirmed; review argues interference is exacerbated with training history (hypothesis)."

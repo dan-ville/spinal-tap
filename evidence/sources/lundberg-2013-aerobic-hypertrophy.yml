@@ -1,0 +1,36 @@
+id: lundberg-2013-aerobic-hypertrophy
+title: Aerobic exercise does not compromise muscle hypertrophy response to short-term resistance training
+authors:
+- Lundberg TR
+- Fernandez-Gonzalo R
+- Gustafsson T
+- Tesch PA
+year: 2013
+venue: J Appl Physiol 114(1):81-89
+doi: 10.1152/japplphysiol.01013.2012
+pmid: '23104700'
+url: https://pubmed.ncbi.nlm.nih.gov/23104700/
+design: rct
+population: Young men (25 y), within-subject unilateral model, 5 wk
+sample:
+  studies: null
+  participants: 10
+read_level: abstract
+findings:
+- claim: A leg doing ~45 min one-legged cycling 6 h before knee-extension resistance exercise gained more quadriceps volume
+    than the resistance-only leg, with similar strength and power gains.
+  effect: QF volume +14% (AE+RE) vs +8% (RE); fibre CSA +17% vs +9% (n.s.); isometric strength +9% vs +11%; peak power +29%
+    vs +24%
+  grade: promising
+limitations:
+- n=10, 5 weeks, untrained-to-moderately-trained, single-joint model; MRI signal intensity rose in AE+RE, so part of the volume
+  gain may be oedema/fluid.
+topics:
+- concurrent/hypertrophy
+- concurrent/critique
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

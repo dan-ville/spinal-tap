@@ -1,0 +1,39 @@
+id: goli-2026
+title: Does Performing Partial Repetitions Beyond Momentary Failure Enhance Muscle Hypertrophy in Volume-Load-Equated
+  Calf-Raise Resistance Training?
+authors:
+- Goli A
+- Attarieh P
+- Nunes JP
+- Nehegadar S
+- Khani S
+- Fashi M
+- Ahmadizad S
+year: 2026
+venue: Int J Exerc Sci 19(4):4003
+doi: 10.1111/sms.14638
+pmid: '42006449'
+url: https://pubmed.ncbi.nlm.nih.gov/42006449/
+design: rct
+population: Untrained men; within-subject calf raise to failure vs half the sets plus long-length partials beyond
+  failure, 10 wk
+sample:
+  studies: null
+  participants: 16
+read_level: abstract
+findings:
+- claim: Adding long-length partial reps after full-ROM failure produced the same gastrocnemius growth with half
+    the sets, when volume load was equated.
+  effect: MT +8% vs +8% (equivalence P < 0.05); per-set +0.16% vs +0.08%
+  grade: speculative
+limitations:
+- Untrained; per-set efficiency depends on how sets are counted; ultrasound.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/advanced-techniques
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

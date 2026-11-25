@@ -1,0 +1,26 @@
+id: boutagy-2026-frequency-preprint
+title: 'Resistance Training Frequency and Muscle Hypertrophy: A Systematic Review and Meta-Analysis of Volume-Equated Trials'
+authors: [Boutagy AG, McKean M]
+year: 2026
+venue: medRxiv preprint v4 (posted 21 November 2026; v3 submitted to Communications in Kinesiology; not peer reviewed)
+doi: 10.64898/2026.10.07.26365015
+pmid: null
+url: https://doi.org/10.64898/2026.10.07.26365015
+design: preprint
+population: Volume-equated trials of 1-3 sessions per muscle per week, >=6 wk, measuring muscle size
+sample: {studies: 16, participants: 380}
+read_level: full-text
+findings:
+- claim: At a fixed weekly volume, 1, 2 or 3 sessions per muscle per week produced indistinguishable hypertrophy; a small advantage for higher frequency cannot be excluded.
+  effect: g = -0.06 (95% CI -0.24 to 0.13), I2 = 0%, PI -0.26 to 0.14; 1 vs 3 sessions g = -0.23 (95% CI -0.57 to 0.10); GRADE low to very low
+  grade: promising
+limitations:
+- Preprint, not prospectively registered, screening partly done by a generative AI tool and checked by authors; most trials used muscle thickness.
+- 'Version matters: v1 (9 Oct 2026) reported g = -0.02 (95% CI -0.21 to 0.16); from v2 (17 Oct 2026) the Neves 2022 input changed to the sets-equated condition and the pooled estimate became g = -0.06 (95% CI -0.24 to 0.13). v3 and v4 changed no estimate. Cite v4 or later.'
+- Moderator analyses could detect only large effects; the 1 vs 3 sessions contrast rests on six trials (106 participants).
+topics: [hypertrophy/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: medRxiv full-text PDFs v1-v4 compared. g = -0.06 (-0.24 to 0.13), PI -0.26 to 0.14, and 1 vs 3 g = -0.23 (-0.57 to 0.10) hold for v2, v3 and v4 (current, 21 Nov 2026); v1 reported g = -0.02 (-0.21 to 0.16). Venue updated to v4. | Earlier check by chapter 3 literature researcher: Abstract and introduction read on medRxiv full-text page."

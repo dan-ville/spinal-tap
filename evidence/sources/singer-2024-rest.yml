@@ -1,0 +1,32 @@
+id: singer-2024-rest
+title: 'Give it a rest: a systematic review with Bayesian meta-analysis on the effect of inter-set rest interval duration on muscle hypertrophy'
+authors: [Singer A, Wolf M, Generoso L, Arias E, Delcastillo K, Echevarria E, Martinez A, Androulakis Korakakis P, Refalo MC, Swinton PA, Schoenfeld BJ]
+year: 2024
+venue: Frontiers in Sports and Active Living 6:1429789
+doi: 10.3389/fspor.2024.1429789
+pmid: '39205815'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11349676/
+design: meta-analysis
+population: Healthy adults; 6 of 9 studies untrained, 3 trained; 5-10 wk; RCTs varying rest only
+sample: {studies: 9, participants: null}
+read_level: full-text
+findings:
+- claim: Rest longer than 60 s gave a small hypertrophy advantage over shorter rest for arm and thigh muscles, with high uncertainty.
+  effect: Controlled SMD arm 0.13 (95% CrI -0.27 to 0.51), P(>0) = 0.74; thigh 0.17 (-0.13 to 0.43), P(>0) = 0.88; whole body -0.08 (-0.45 to 0.29)
+  grade: promising
+- claim: No appreciable further hypertrophy benefit beyond ~90 s of rest.
+  effect: 'Network estimates vs short rest, thigh: intermediate 0.13 (-0.31 to 0.58), long 0.01 (-0.39 to 0.41), very long 0.32 (-0.10 to 0.68)'
+  grade: speculative
+- claim: Training to failure did not modify the rest-hypertrophy relation.
+  effect: Thigh SMD 0.27 (non-failure) and 0.31 (failure) favouring longer rest; arm 0.04
+  grade: speculative
+limitations:
+- 19 measurements from 9 small studies; no torso muscles; moderate volumes; insufficient data for trained subgroup.
+- 'The thigh signal comes mainly from untrained participants: untrained-only subgroup thigh 0.17 (95% CrI -0.15 to 0.47), arm 0.02 (-0.41 to 0.46). The authors judge only a 54% (thigh) and 45% (arm) probability that the benefit exceeds a small effect.'
+- Volume-load mediation is the authors' hypothesis ('perhaps mediated'), supported by one trial (Longo 2022) in which adding sets to equate volume load removed the difference.
+topics: [hypertrophy/rest-interval]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: Europe PMC full text; arm 0.13 (-0.27 to 0.51), thigh 0.17 (-0.13 to 0.43), whole body -0.08 (-0.45 to 0.29), P(>0) 0.74/0.88, and the >90 s conclusion confirmed. Added limitations: the signal is mainly untrained, and volume-load mediation is the authors' 'perhaps'. | Earlier check by chapter 3 literature researcher: Full text from Europe PMC."

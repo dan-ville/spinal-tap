@@ -1,0 +1,22 @@
+id: holden-2020-isometric
+title: "Isometric exercise and pain in patellar tendinopathy: A randomized crossover trial"
+authors: [Holden S, Lyng K, Graven-Nielsen T, Riel H, Olesen JL, Larsen LH, Rathleff MS]
+year: 2020
+venue: "J Sci Med Sport 23(3):208-214"
+doi: "10.1016/j.jsams.2019.09.015"
+pmid: "31735531"
+url: https://pubmed.ncbi.nlm.nih.gov/31735531/
+design: crossover
+population: "Adults with patellar tendinopathy; single high-load isometric vs dynamic session, 7-day washout; pre-registered; blinded to hypothesis"
+sample: {studies: null, participants: 21}
+read_level: full-text
+findings:
+  - claim: "Both isometric and dynamic resistance exercise produced only small, short-lived pain reductions, with no difference between them."
+    effect: "Pain NRS reduction 0.9 (95% CI 0.1 to 1.7) immediately; not sustained at 45 min; no between-exercise differences"
+    grade: promising
+limitations:
+  - "Single session; pain-provocation test outcome."
+  - "Powered (n=21) to detect a 2-point difference between modes; the 0.9-point reduction is the pooled main effect of time across both modes; responders (>=2 points) 4 vs 6 (isometric vs dynamic), not different."
+topics: [connective-tissue/tendinopathy-isometrics]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text read (author accepted manuscript, Aalborg University repository). Numbers confirmed. Grade lowered to promising: one pre-registered crossover in a clinical population. | Prior check: chapter 8 literature researcher"}

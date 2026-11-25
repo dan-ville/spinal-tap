@@ -1,0 +1,25 @@
+id: massey-2018-tendinous-long-term
+title: "Tendinous tissue properties after short- and long-term functional overload: Differences between controls, 12 weeks and 4 years of resistance training"
+authors: [Massey GJ, Balshaw TG, Maden-Wilkinson TM, Folland JP]
+year: 2018
+venue: "Acta Physiol (Oxf) 222(4):e13019"
+doi: "10.1111/apha.13019"
+pmid: "29253326"
+url: https://pubmed.ncbi.nlm.nih.gov/29253326/
+design: cross-sectional
+population: "Young men: untrained, 12-wk trained, and ~4-y heavy-resistance-trained (n=16)"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Four years of heavy resistance training produced no patellar tendon hypertrophy despite much greater muscle size and strength."
+    effect: "Tendon CSA (mean and regional) not different between groups"
+    grade: promising
+  - claim: "Short- and long-term training gave similar increases in high-force stiffness and modulus, but only years of training lowered strain across the whole force range."
+    effect: "High-force stiffness/modulus vs untrained: short-term +25/22%, long-term +17/23% (all P<0.05)"
+    grade: promising
+limitations:
+  - "Cross-sectional (selection bias possible); group sizes for controls and 12-wk group not given in abstract."
+  - "Cross-sectional comparison: the 4-year group (n=16) is a self-selected group of long-term trained men compared with untrained men, not a 4-year intervention."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; numbers confirmed. The '4 years of training' comparison is cross-sectional. | Prior check: chapter 8 literature researcher"}

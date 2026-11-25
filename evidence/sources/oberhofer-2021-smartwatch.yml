@@ -1,0 +1,23 @@
+id: oberhofer-2021-smartwatch
+title: Validation of a Smartwatch-Based Workout Analysis Application in Exercise Recognition, Repetition Count and Prediction of 1RM in the Strength Training-Specific Setting
+authors: [Oberhofer K, Erni R, Sayers M, Huber D, Lüthy F, Lorenzetti S]
+year: 2021
+venue: Sports (Basel) 9(9):118
+doi: 10.3390/sports9090118
+pmid: '34564323'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8471343/
+design: cross-sectional
+population: Recreationally trained athletes; deadlift, bench press, back squat at 60-80% 1RM
+sample: {studies: null, participants: 30}
+read_level: full-text
+findings:
+- claim: A smartwatch app recognised the exercise in most sets and counted squat and deadlift reps acceptably, but bench press counting was poor and 1RM prediction mostly failed.
+  effect: Exercise recognition 88.4% of 363 sets; bench rep count poor (p = 0.01); only 8.9% of 1RM predictions successful
+  grade: promising
+limitations: [One device/app version; technology changes rapidly.]
+topics: [technology/wearables]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Europe PMC full text read; 30 recreationally trained athletes (4.8 +/- 3.9 y training), Apple Watch + StrengthControl app; 88.4% of 363 sets recognised; bench rep count poor (p = 0.01); 8.9% of 1RM predictions successful, failures due to technical difficulties and time. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

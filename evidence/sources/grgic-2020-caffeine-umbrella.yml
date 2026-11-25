@@ -1,0 +1,21 @@
+id: grgic-2020-caffeine-umbrella
+title: "Wake up and smell the coffee: caffeine supplementation and exercise performance-an umbrella review of 21 published meta-analyses"
+authors: [Grgic J, Grgic I, Pickering C, Schoenfeld BJ, Bishop DJ, Pedisic Z]
+year: 2020
+venue: "British Journal of Sports Medicine 54(11):681-688"
+doi: "10.1136/bjsports-2018-100278"
+pmid: "30926628"
+url: https://pubmed.ncbi.nlm.nih.gov/30926628/
+design: umbrella-review
+population: "11 reviews containing 21 meta-analyses of caffeine and exercise; mostly young men"
+sample: {studies: 11, participants: null}
+read_level: abstract
+findings:
+  - claim: "Caffeine is ergogenic for muscle strength, muscle endurance, power and aerobic endurance, with moderate-quality evidence (GRADE) for strength and endurance outcomes; effects are larger for aerobic than anaerobic exercise."
+    effect: "Qualitative umbrella synthesis; AMSTAR 2 moderate-to-high; GRADE mostly moderate; some 95% prediction intervals cross zero"
+    grade: established
+limitations:
+  - "Overlapping primary studies; few women and older adults."
+topics: [nutrition/caffeine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 11 reviews containing 21 meta-analyses; ergogenic for strength, muscle endurance, power, aerobic endurance; moderate GRADE for muscle endurance, strength, anaerobic power and aerobic endurance; effect generally larger for aerobic exercise; most studies in young men. Confirmed."}

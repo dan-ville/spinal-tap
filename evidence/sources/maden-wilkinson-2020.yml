@@ -1,0 +1,45 @@
+id: maden-wilkinson-2020
+title: What makes long-term resistance-trained individuals so strong? A comparison of skeletal muscle
+  morphology, architecture, and joint mechanics.
+authors:
+- Maden-Wilkinson TM
+- Balshaw TG
+- Massey GJ
+- Folland JP
+year: 2020
+venue: J Appl Physiol 128(4):1000-1011
+doi: 10.1152/japplphysiol.00224.2019
+pmid: '31873069'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7191505/
+design: cross-sectional
+population: Long-term (4.0 +/- 0.8 y) knee-extensor-trained men vs untrained men
+sample:
+  studies: null
+  participants: 68
+read_level: full-text
+findings:
+- claim: Long-term trained men were 60% stronger than untrained men and had 56% larger quadriceps volume,
+    with much smaller differences in specific tension and moment arm; quadriceps volume was the only variable
+    retained in a stepwise model of strength.
+  effect: MVT +60%; volume +56%; PCSA +41%; fascicle length +11%; specific tension +9% (P < 0.05; +8% in the Discussion); moment
+    arm +4%; whole-cohort (trained + untrained pooled, n = 68) stepwise regression retained volume only, R2 = 0.81 (r = 0.90)
+  grade: promising
+- claim: Greater muscle volume in trained men came mainly from more sarcomeres in parallel (PCSA) rather
+    than in series, with no evidence of regional hypertrophy.
+  effect: PCSA +41% vs fascicle length +11%
+  grade: promising
+limitations:
+- Cross-sectional (n = 16 trained); isometric single-joint strength; selection effects possible.
+- "R2 = 0.81 is from the pooled trained-plus-untrained cohort; the two-group spread inflates it relative to a within-population estimate (cf. balshaw-2021, r2 = 0.60 in untrained men)."
+- "Loughborough cohort: untrained and long-term-trained men overlap across balshaw-2021, maden-wilkinson-2020, skarabot-2021-emg, balshaw-2022, casolo-2021 and skarabot-2024; treat them as one evidence base, not independent replications."
+topics:
+- strength/hypertrophy-strength
+- strength/morphology
+- strength/training-age
+- strength/specific-tension
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (Europe PMC, PMC7191505) checked. The R2 = 0.81 comes from a stepwise regression on the whole pooled cohort (16 trained + 52 untrained, n = 68; r = 0.90), not within trained men, so the between-group difference inflates it. Specific tension is +9% in the abstract and +8% in the Discussion. | Prior check: chapter 2 researcher 2026-11-24"

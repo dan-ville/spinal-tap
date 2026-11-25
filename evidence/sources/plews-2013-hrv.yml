@@ -1,0 +1,21 @@
+id: plews-2013-hrv
+title: "Training adaptation and heart rate variability in elite endurance athletes: opening the door to effective monitoring"
+authors: [Plews DJ, Laursen PB, Stanley J, Kilding AE, Buchheit M]
+year: 2013
+venue: "Sports Medicine 43(9):773-781"
+doi: "10.1007/s40279-013-0071-8"
+pmid: "23852425"
+url: https://pubmed.ncbi.nlm.nih.gov/23852425/
+design: narrative-review
+population: "Elite endurance athletes"
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+  - claim: "Single-day HRV readings are misleading; rolling averages (e.g., 7-day) of vagal indices such as ln rMSSD and their variation are needed, and both rises and falls can signal maladaptation in elites."
+    effect: "Narrative review with case examples"
+    grade: promising
+limitations:
+  - "Endurance athletes only; no strength-athlete data."
+topics: [monitoring/hrv]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: in elite endurance athletes both increases and decreases in HRV have been associated with negative adaptation; recommends appropriate averaging and specific indices; narrative with case examples. Confirmed."}

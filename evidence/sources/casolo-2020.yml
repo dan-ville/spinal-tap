@@ -1,0 +1,40 @@
+id: casolo-2020
+title: Strength Training Increases Conduction Velocity of High-Threshold Motor Units.
+authors:
+- Casolo A
+- Farina D
+- Falla D
+- Bazzucchi I
+- Felici F
+- Del Vecchio A
+year: 2020
+venue: Med Sci Sports Exerc 52(4):955-967
+doi: 10.1249/MSS.0000000000002196
+pmid: '31688652'
+url: https://pubmed.ncbi.nlm.nih.gov/31688652/
+design: rct
+population: Young adults, tibialis anterior isometric training vs control
+sample:
+  studies: null
+  participants: 24
+read_level: abstract
+findings:
+- claim: Four weeks of ballistic and sustained isometric training increased MVF and motor unit conduction
+    velocity, with the largest increases in higher-threshold units.
+  effect: MVF +14.1% (P = 0.003); MUCV +3.0% (P = 0.028); slope of MUCV vs recruitment threshold +32.6%
+    (P = 0.028); normalised recruitment threshold -14.9%
+  grade: promising
+limitations:
+- Small sample; untrained; single muscle.
+- Conduction velocity changes are a peripheral (membrane) adaptation that also confounds EMG-based neural
+  inferences.
+- "Same lab and identical tibialis anterior protocol as del-vecchio-2019, casolo-2020, del-vecchio-2026 and casolo-2026; participants probably overlap, so these are not independent replications."
+topics:
+- strength/motor-units
+- strength/morphology
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Spot check: abstract numbers confirmed (12 trained vs 12 controls, MVF +14.1%, RT -14.9%). | Prior check: chapter 2 researcher 2026-11-24"

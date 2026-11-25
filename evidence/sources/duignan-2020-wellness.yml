@@ -1,0 +1,21 @@
+id: duignan-2020-wellness
+title: "Single-Item Self-Report Measures of Team-Sport Athlete Wellbeing and Their Relationship With Training Load: A Systematic Review"
+authors: [Duignan C, Doherty C, Caulfield B, Blake C]
+year: 2020
+venue: "Journal of Athletic Training 55(9):944-953"
+doi: "10.4085/1062-6050-0528.19"
+pmid: "32991706"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7534939/
+design: systematic-review
+population: "Adult field- and court-sport athletes; single-item wellness measures (soreness, fatigue, sleep quality, stress, mood)"
+sample: {studies: 21, participants: null}
+read_level: full-text
+findings:
+  - claim: "Single-item wellness scores related to training load anywhere from not at all to very strongly, mostly trivially to moderately in the largest studies, and their measurement properties are largely unestablished."
+    effect: "Narrative synthesis of 21 studies"
+    grade: contested
+limitations:
+  - "Team sports only; heterogeneous items and scales."
+topics: [monitoring/wellness]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text read via NCBI PMC (efetch) and abstract: 21 team-sport studies; associations with load from none to very large, predominantly trivial to moderate in the largest datasets; measurement properties need to be established. Confirmed."}

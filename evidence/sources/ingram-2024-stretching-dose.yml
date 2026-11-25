@@ -1,0 +1,57 @@
+id: ingram-2024-stretching-dose
+title: 'Optimising the Dose of Static Stretching to Improve Flexibility: A Systematic Review, Meta-analysis and
+  Multivariate Meta-regression'
+authors:
+- Ingram LA
+- Tomkinson GR
+- d'Unienville NMA
+- Gower B
+- Gleadhill S
+- Boyle T
+- Bennett H
+year: 2024
+venue: Sports Med 55(3):597-617 (2025; online Nov 2024)
+doi: 10.1007/s40279-024-02143-9
+pmid: '39614059'
+url: https://pubmed.ncbi.nlm.nih.gov/39614059/
+design: meta-analysis
+population: Adults >=18 y (61% male, mean 26.8 y) in randomised and non-randomised controlled trials of static stretching
+  vs passive non-stretching controls; warm-up studies excluded
+sample:
+  studies: 189
+  participants: 6654
+read_level: full-text
+findings:
+- claim: A single session of static stretching moderately increased flexibility and chronic static stretching largely
+    increased it.
+  effect: Acute g = 0.63 (95% CI 0.52 to 0.75), I2 = 51%, GRADE low; chronic g = 0.96 (95% CI 0.84 to 1.09), I2
+    = 62%, 0.87 (0.77 to 0.97) after outliers, GRADE moderate
+  grade: established
+- claim: Spline meta-regression suggested chronic gains stop increasing beyond about 10 min of static stretching
+    per muscle group per week and acute gains beyond about 4 min per session.
+  effect: Chronic cubic spline QM(df = 3) = 10.0, p = 0.02 (plateau by visual inspection at ~10 min/week); acute
+    spline QM(df = 2) = 3.0, p = 0.22 (peak ~4 min/session by inspection)
+  grade: promising
+- claim: Intensity, weekly session frequency, intervention length, age, sex and training status did not moderate
+    chronic gains; people with poor baseline flexibility gained more.
+  effect: Weekly frequency g = -0.001 (95% CI -0.04 to 0.03); intensity low 0.82, moderate 1.05, high 0.84 (all
+    n.s.); trained 0.99 (0.72 to 1.25), athletes 0.73 (-0.08 to 1.54, k = 3, GRADE very low); average/not reported vs poor baseline -0.33 (-0.59 to -0.08), p = 0.01
+  grade: promising
+limitations:
+- The 4-min and 10-min thresholds are read off fitted curves; the acute spline was not significant and data at high
+  weekly volumes are sparse (knots at 3, 8, 16 and 173 min).
+- Potential publication bias (Egger intercept 2.1, p < 0.001); PEDro-rated risk of bias.
+- Mostly hamstrings and plantar flexors, recreationally active young adults; only 3 athlete effects.
+- Excluding warm-up studies makes the estimates cleaner but less like real practice.
+topics:
+- flexibility/stretching-dose
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text re-read (third-party PDF mirror of the published Sports Med article; publisher
+    site not reachable). Headline acute/chronic g, CIs, GRADE (acute low, chronic moderate), spline QM statistics, knots
+    and frequency g confirmed. Corrected: baseline-flexibility contrast is ''average/not reported'' vs poor, -0.33 (-0.59
+    to -0.08), p = 0.01 (was -0.34). | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects
+    transcribed from results/tables.'

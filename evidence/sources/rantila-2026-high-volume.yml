@@ -1,0 +1,27 @@
+id: rantila-2026-high-volume
+title: Exploring the Upper Limits of Resistance Training Volume for Muscle Hypertrophy and Strength in Trained Athletes
+authors: [Rantila A, Ahtiainen JP]
+year: 2026
+venue: Journal of Science in Sport and Exercise (online 28 July 2026):1-11
+doi: 10.1007/s42978-026-00387-7
+pmid: null
+url: https://doi.org/10.1007/s42978-026-00387-7
+design: rct
+population: Strength-trained male athletes; 10-wk run-in then 7-wk phase with normal vs 1.5x weekly sets (up to ~60 sets/wk)
+sample: {studies: null, participants: 27}
+read_level: abstract
+findings:
+- claim: Raising weekly set volume by 1.5x (toward ~60 sets/wk) for 7 weeks did not increase vastus lateralis or biceps femoris thickness, and did not rescue 'non-responders'.
+  effect: No significant group differences in muscle size (NOR n = 12 vs XTR n = 15), whole group or non-responders
+  grade: promising
+- claim: The extra volume did not improve strength, and deadlift strength favoured the lower-volume group.
+  effect: Only DL differed between groups, favouring less volume (P = 0.043)
+  grade: speculative
+limitations:
+- Small sample, 7-week experimental phase, ultrasound thickness only; exact per-group set counts not seen in the abstract.
+topics: [hypertrophy/volume, strength/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: abstract re-read via Crossref (article is CC-BY); 27 strength-trained men, 10-wk run-in then 7 wk NOR (n = 12) vs XTR 1.5x sets (n = 15); no size difference, including non-responders; only deadlift differed (favouring less volume, P = 0.043). Confirmed. Pre-to-post VL thickness change over the whole study was not significant (+6.1%). | Earlier check by chapter 3 literature researcher: Abstract read on publisher (HEP) page."

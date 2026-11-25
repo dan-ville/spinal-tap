@@ -1,0 +1,47 @@
+id: arntz-2023-chronic-stretching-strength
+title: 'Chronic Effects of Static Stretching Exercises on Muscle Strength and Power in Healthy Individuals Across
+  the Lifespan: A Systematic Review with Multi-level Meta-analysis'
+authors:
+- Arntz F
+- Markov A
+- Behm DG
+- Behrens M
+- Negra Y
+- Nakamura M
+- Moran J
+- Chaabene H
+year: 2023
+venue: Sports Med 53(3):723-745
+doi: 10.1007/s40279-022-01806-9
+pmid: '36719536'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9935669/
+design: meta-analysis
+population: Healthy individuals of any age, sex and training status in controlled chronic static stretching trials
+  (searched to May 2022)
+sample:
+  studies: 41
+  participants: null
+read_level: full-text
+findings:
+- claim: Chronic static stretching had trivial-to-small positive effects on strength and power, and moderate-to-large
+    effects on flexibility.
+  effect: Strength SMD = 0.21 (95% CI 0.10 to 0.32); power 0.19 (0.12 to 0.26); flexibility 0.96 (0.70 to 1.22)
+  grade: promising
+- claim: Strength gains were larger in sedentary than recreationally active participants, in older samples and samples
+    with more females, and with more repetitions per session; passive stretching gave more flexibility than active.
+  effect: Sedentary 0.58 vs recreationally active 0.16; age beta = 0.011; passive 0.97 vs active 0.59 flexibility
+  grade: promising
+limitations:
+- Mostly short-duration protocols; few trained participants; strength outcomes mixed isometric and dynamic tests.
+topics:
+- flexibility/stretch-hypertrophy
+- flexibility/stretching-modality
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC9935669) re-read; strength 0.21 (0.10 to 0.32), power 0.19, flexibility 0.96
+    (0.70 to 1.22), sedentary 0.58 vs active 0.16, passive 0.97 vs active 0.59, flexibility betas 0.094/0.090/0.078 confirmed.
+    Flexibility pool limited to studies that also measured strength/power; includes contralateral-control designs and
+    all ages. | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects transcribed from results/tables.'

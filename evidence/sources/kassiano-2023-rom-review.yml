@@ -1,0 +1,39 @@
+id: kassiano-2023-rom-review
+title: Which ROMs Lead to Rome? A Systematic Review of the Effects of Range of Motion on Muscle Hypertrophy.
+authors:
+- Kassiano W
+- Costa B
+- Nunes JP
+- Ribeiro AS
+- Schoenfeld BJ
+- Cyrino ES
+year: 2023
+venue: J Strength Cond Res 37(5):1135-1144
+doi: 10.1519/JSC.0000000000004415
+pmid: '36662126'
+url: https://pubmed.ncbi.nlm.nih.gov/36662126/
+design: systematic-review
+population: Trials comparing full and partial ROM on hypertrophy
+sample:
+  studies: 11
+  participants: null
+read_level: abstract
+findings:
+- claim: Full ROM and initial-ROM (long-length) partials produced more hypertrophy than final-ROM (short-length) partials
+    in quadriceps, biceps and brachialis; initial partials beat full ROM for proximal rectus femoris.
+  effect: Between-group ES 0.20-0.90 (full/initial vs final); initial vs full proximal RF ES 0.35-0.38
+  grade: promising
+limitations:
+- No pooling; small trials; mostly untrained.
+topics:
+- hypertrophy/range-of-motion
+- hypertrophy/muscle-length
+- strength/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 11 studies; ES 0.20-0.90 and 0.35-0.38 confirmed. Note it also
+    found mid-range partials beat full ROM for triceps (ES 1.21). | Prior check: chapter 5 literature researcher 2026-11-24'

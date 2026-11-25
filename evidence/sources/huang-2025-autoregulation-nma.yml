@@ -1,0 +1,26 @@
+id: huang-2025-autoregulation-nma
+title: 'Autoregulated resistance training for maximal strength enhancement: A systematic review and network meta-analysis'
+authors: [Zijing Huang, Sun J, Li D, Chen C, Wang D]
+year: 2025
+venue: Journal of Exercise Science and Fitness 23(4):360-369
+doi: 10.1016/j.jesf.2025.07.006
+pmid: '40791980'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12336695/
+design: meta-analysis
+population: Participants aged 10-30 y in two-arm trials of APRE, RPE, VBT and percentage-based training
+sample: {studies: 19, participants: 438}
+read_level: full-text
+findings:
+- claim: In a network meta-analysis, APRE ranked first for squat and bench 1RM, but most pairwise contrasts were small and imprecise.
+  effect: 'Squat SUCRA: APRE 93.0%, RPE 66.8%, VBT 27.0%, PBT 13.2%; PBT vs APRE SMD -0.55 (95% CI -0.90 to -0.20)'
+  grade: contested
+- claim: For bench press 1RM, percentage-based training was clearly inferior to APRE.
+  effect: PBT vs APRE SMD -0.83 (95% CI -1.22 to -0.44); RPE vs APRE SMD -0.76 (-1.70 to 0.19)
+  grade: contested
+limitations: ['APRE protocols include sets to failure, so APRE vs PBT confounds autoregulation with effort and volume (authors'' own mechanism).', Includes youth (age range 10-30 y); internal inconsistencies in reported counts (428 vs 438 participants; '27 RCTs')., Only 3 RPE and 6 APRE studies; only one study blinded.]
+topics: [programming/autoregulation, strength/velocity-based-training]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Europe PMC full text re-read: SUCRA APRE 93.0%, PBT vs APRE bench SMD -0.83 (-1.22 to -0.44), squat -0.55 (-0.90 to -0.20); discussion attributes APRE effect to training to failure; ''27 RCTs ... 428 participants'' vs 438 inconsistency confirmed. | Earlier check by chapter 4 literature researcher: PMC full text read (results, risk of bias, discussion).'

@@ -1,0 +1,24 @@
+id: jones-2021-sex-older
+title: 'Sex Differences in Adaptations in Muscle Strength and Size Following Resistance Training in Older Adults: A Systematic Review and Meta-analysis'
+authors: [Jones MD, Wewege MA, Hackett DA, Keogh JWL, Hagstrom AD]
+year: 2021
+venue: Sports Med 51(3):503-517
+doi: 10.1007/s40279-020-01388-4
+pmid: '33332016'
+url: https://pubmed.ncbi.nlm.nih.gov/33332016/
+design: meta-analysis
+population: Males and females > 50 y completing identical RT (651 M, 759 F)
+sample: {studies: 30, participants: 1410}
+read_level: abstract
+findings:
+- claim: In older adults, males gained more absolute strength and size, while relative gains were similar or (for lower-body strength) favoured females.
+  effect: 'Absolute: upper strength g 0.48 (0.09 to 0.88), lower strength 0.33 (0.19 to 0.47), size 0.45 (0.23 to 0.66) favouring males; relative lower-body strength g -0.21 (-0.33 to -0.10) favouring females; relative size 0.10 (-0.04 to 0.23); relative upper-body strength -0.29 (-0.62 to 0.04), n.s.'
+  grade: promising
+limitations:
+- Moderate study quality (14.7/29 modified Downs and Black); untrained older adults.
+topics: [frontiers/sex-differences, frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; all absolute and relative effects confirmed; added relative upper-body strength g -0.29 (-0.62 to 0.04, n.s.). | Earlier check (chapter 11 literature researcher): no notes"

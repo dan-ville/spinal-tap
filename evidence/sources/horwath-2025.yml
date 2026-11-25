@@ -1,0 +1,39 @@
+id: horwath-2025
+title: No detectable loss of myonuclei from human muscle fibers after 6 wk of immobilization following an Achilles
+  tendon rupture.
+authors:
+- Horwath O
+- Cumming KT
+- Eftestøl E
+- Ekblom B
+- Ackermann P
+- Raastad T
+- Gundersen K
+- Psilander N
+year: 2025
+venue: Am J Physiol Cell Physiol 328(1):C20-C26
+doi: 10.1152/ajpcell.00692.2024
+pmid: '39545617'
+url: https://pubmed.ncbi.nlm.nih.gov/39545617/
+design: cohort
+population: Physically active adults immobilised 6 wk after Achilles tendon rupture
+sample:
+  studies: null
+  participants: 6
+read_level: abstract
+findings:
+- claim: Myonuclei were not lost from gastrocnemius fibres after 6 weeks of immobilisation, consistent with myonuclear
+    permanence in humans; volume per myonucleus fell 20%.
+  effect: Myonuclear domain -20% (P = 0.008); no myonuclear loss
+  grade: promising
+limitations:
+- n = 6; injury model, not training/detraining.
+topics:
+- hypertrophy/muscle-memory
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; n = 6 Achilles-rupture patients, 6 wk immobilisation (disuse,
+    not detraining after training). Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

@@ -1,0 +1,23 @@
+id: huang-2026-squat-1rm
+title: 'Predicting the Free-Weight Back Squat 1-Repetition Maximum: Comparing Regression Models and Minimum Velocity Thresholds Across Sexes'
+authors: [Huang Y, Chen Z, Weakley J, Fitas A, Li Z, Li D, Jia B, García-Ramos A]
+year: 2026
+venue: Eur J Sport Sci 26(12):e70254
+doi: 10.1002/ejsc.70254
+pmid: '42998302'
+url: https://pubmed.ncbi.nlm.nih.gov/42998302/
+design: cross-sectional
+population: Resistance-trained adults (15 men, 15 women), free-weight back squat
+sample: {studies: null, participants: 30}
+read_level: full-text
+findings:
+- claim: Only optimal minimum velocity thresholds (individual or sample-average) avoided systematic overestimation of squat 1RM; sex did not affect accuracy, but limits of agreement were wide for every method.
+  effect: Individual and average optimal MVT raw error <= 2.20 kg (p = 0.179-0.938), absolute error 4.5-8.3% vs 8.0-12.4% for general (0.30 m/s) and actual MVTs; sex p = 0.636; optimal MVT 0.38 (M) vs 0.36 m/s (F), poor reliability; unified 0.37 m/s proposed
+  grade: promising
+limitations: [Small sample; single exercise; optimal MVT derived from the same participants.]
+topics: [technology/velocity-based-training, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Full text found open access (PMC13744422) and read (upgraded from abstract). Corrected: both individual and sample-average optimal MVTs avoided overestimation; unified 0.37 m/s proposed; optimal MVT requires a prior 1RM test or a population average. | Earlier check (chapter 11 literature researcher): no notes"

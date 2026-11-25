@@ -1,0 +1,20 @@
+id: kiely-2012-periodization
+title: 'Periodization paradigms in the 21st century: evidence-led or tradition-driven?'
+authors: [Kiely J]
+year: 2012
+venue: International Journal of Sports Physiology and Performance 7(3):242-250
+doi: 10.1123/ijspp.7.3.242
+pmid: '22356774'
+url: https://pubmed.ncbi.nlm.nih.gov/22356774/
+design: narrative-review
+population: Conceptual review
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Periodization models share historically inherited planning assumptions that are no longer scientifically justifiable; large inter-individual variation in training response argues for responsive, customised planning rather than generic rule-based models.
+  effect: Conceptual argument; no quantitative data
+  grade: contested
+limitations: [Opinion/conceptual; does not propose a testable alternative model.]
+topics: [programming/periodization, programming/critique]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

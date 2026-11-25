@@ -1,0 +1,36 @@
+id: warneke-2024-rt-force-deficit
+title: Resistance Training Causes the Stretch-Induced Force Deficit-A Randomized Cross-Over Study
+authors:
+- Warneke K
+- Turau K
+- Lohmann LH
+- Hillebrecht M
+- Behm DG
+- Konrad A
+- Schmidt T
+year: 2024
+venue: Sports (Basel) 12(6):145
+doi: 10.3390/sports12060145
+pmid: '38921839'
+url: https://pubmed.ncbi.nlm.nih.gov/38921839/
+design: crossover
+population: 16 participants; calf stretching of 10, 20 or 30 min vs 3 x 12 calf raises to failure
+sample:
+  studies: null
+  participants: 16
+read_level: abstract
+findings:
+- claim: Calf raises to failure reduced plantar-flexor strength more than 10 or 20 min of stretching and as much
+    as 30 min, suggesting the 'stretch-induced' deficit after very long stretching is partly generic fatigue.
+  effect: RT strength decrease > 10 and 20 min stretching (p = 0.01-0.02), similar to 30 min
+  grade: speculative
+limitations:
+- Small crossover; impractically long stretch durations; title overstates the finding.
+topics:
+- flexibility/acute-performance
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: chapter 6 literature researcher
+  notes: Numbers from PubMed/Europe PMC abstract.

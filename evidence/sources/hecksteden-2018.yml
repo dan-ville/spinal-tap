@@ -1,0 +1,24 @@
+id: hecksteden-2018
+title: Repeated testing for the assessment of individual response to exercise training
+authors: [Hecksteden A, Pitsch W, Rosenberger F, Meyer T]
+year: 2018
+venue: J Appl Physiol (1985) 124(6):1567-1579
+doi: 10.1152/japplphysiol.00896.2017
+pmid: '29357481'
+url: https://pubmed.ncbi.nlm.nih.gov/29357481/
+design: rct
+population: Healthy untrained adults, 46 +/- 8 y; 1-year walking/jogging programme vs control
+sample: {studies: null, participants: 36}
+read_level: abstract
+findings:
+- claim: Repeated testing during training showed individual training response of relevant magnitude, but different published responder-classification methods agreed on only 11 of 20 trainees.
+  effect: VO2max response > 0.2 x baseline variability shown by several approaches; 11/20 consistently classified
+  grade: promising
+limitations:
+- Endurance training and VO2max, not resistance training; small sample; control arm only 6 months.
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; n = 36, 46 +/- 8 y, 1-yr walking/jogging, control 6 months; only 11 of 20 consistently classified. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

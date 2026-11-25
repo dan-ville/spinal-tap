@@ -1,0 +1,38 @@
+id: thomas-2018-stretching-typology
+title: 'The Relation Between Stretching Typology and Stretching Duration: The Effects on Range of Motion'
+authors:
+- Thomas E
+- Bianco A
+- Paoli A
+- Palma A
+year: 2018
+venue: Int J Sports Med 39(4):243-254
+doi: 10.1055/s-0044-101146
+pmid: '29506306'
+url: https://pubmed.ncbi.nlm.nih.gov/29506306/
+design: meta-analysis
+population: Long-term stretching studies in healthy participants
+sample:
+  studies: 23
+  participants: null
+read_level: abstract
+findings:
+- claim: All stretching types improved ROM long term, with static protocols showing larger gains than ballistic
+    or PNF; at least 5 min of stretching per week improved ROM, time per session did not matter, and weekly frequency
+    was positively associated with ROM; the authors suggested at least 5 days and 5 min per week of static stretching.
+  effect: Static > ballistic/PNF (p < 0.05); effect sizes not in abstract
+  grade: contested
+limitations:
+- Pooled percentage changes from 23 studies; frequency finding conflicts with Konrad 2023 and Ingram 2024, which
+  found no frequency effect when volume is accounted for.
+topics:
+- flexibility/stretching-dose
+- flexibility/stretching-modality
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 23 studies, static > ballistic and PNF (p < 0.05), >=5 min/week,
+    >=5 days/week confirmed. Paywalled. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe
+    PMC abstract.'

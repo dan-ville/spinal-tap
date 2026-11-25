@@ -1,0 +1,38 @@
+id: dankel-2017-metabolites
+title: Do metabolites that are produced during resistance exercise enhance muscle hypertrophy?
+authors:
+- Dankel SJ
+- Mattocks KT
+- Jessee MB
+- Buckner SL
+- Mouser JG
+- Loenneke JP
+year: 2017
+venue: Eur J Appl Physiol 117(11):2125-2135
+doi: 10.1007/s00421-017-3690-1
+pmid: '28776271'
+url: https://pubmed.ncbi.nlm.nih.gov/28776271/
+design: narrative-review
+population: Critical review of the metabolic stress hypothesis
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Argues that metabolites produced during resistance exercise are not anabolic per se; their apparent effect
+    is better explained by fatigue-driven recruitment of more motor units, so more fibres experience mechanotransduction.
+  effect: Opinion/synthesis; the only human study testing post-exercise metabolite pooling found no added hypertrophy
+  grade: promising
+limitations:
+- Opinion review from one group; no direct experiment separates activation from metabolite exposure.
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read. This is an opinion-led review ("it is our opinion"); the recruitment
+    mechanism is a hypothesis, so grade the mechanism speculative; "no evidence of independent anabolic effect" promising.
+    | Prior check: chapter 5 literature researcher 2026-11-24'

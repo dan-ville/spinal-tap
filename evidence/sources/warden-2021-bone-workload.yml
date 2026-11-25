@@ -1,0 +1,27 @@
+id: warden-2021-bone-workload
+title: "Preventing Bone Stress Injuries in Runners with Optimal Workload"
+authors: [Warden SJ, Edwards WB, Willy RW]
+year: 2021
+venue: "Curr Osteoporos Rep 19(3):298-307"
+doi: "10.1007/s11914-021-00666-y"
+pmid: "33635519"
+url: https://pubmed.ncbi.nlm.nih.gov/33635519/
+design: narrative-review
+population: "Runners; bone mechanobiology and fatigue literature"
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+  - claim: "Bone microdamage repair by remodelling is slow: resorption takes about 4 weeks and refilling about 3 months (full mineralisation up to a year), and resorption transiently adds porosity that lowers fatigue resistance."
+    effect: "Resorption ~4 wk; formation ~3 mo; mineralisation up to 1 y (cited)"
+    grade: established
+  - claim: "Bone fatigue life falls steeply with strain magnitude, so small increases in load intensity matter more than equivalent increases in cycle number."
+    effect: "Microdamage rate rises with strain to the power ~17 in vitro; ~10% more strain roughly halves cycles to failure (cited estimates)"
+    grade: promising
+  - claim: "Bone cells desensitise after about 20 consecutive cycles and recover most mechanosensitivity after 4-8 h of rest, favouring short bouts spread through the day."
+    effect: "~95% loss of mechanosensitivity after 20 cycles; >90% restored with 4-8 h rest (animal data, cited)"
+    grade: promising
+limitations:
+  - "Narrative review drawing heavily on animal and in vitro data; runner-specific."
+topics: [connective-tissue/bone, connective-tissue/short-bout-loading, injury/training-load]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC8316280) re-read: resorption ~4 wk, replacement ~3 mo, mineralisation up to 1 y; 95% loss of mechanosensitivity after 20 cycles; >90% restored after 4-8 h; microdamage exponent 17 in vitro; ~10% more strain halves cycles to failure. Confirmed. Narrative review of runners citing animal and in vitro work. | Prior check: chapter 8 literature researcher"}

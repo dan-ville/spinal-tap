@@ -1,0 +1,24 @@
+id: androulakis-korakakis-2020-minimum-dose
+title: 'The Minimum Effective Training Dose Required to Increase 1RM Strength in Resistance-Trained Men: A Systematic Review and Meta-Analysis'
+authors: [Androulakis-Korakakis P, Fisher JP, Steele J]
+year: 2020
+venue: Sports Medicine 50(4):751-765
+doi: 10.1007/s40279-019-01236-0
+pmid: '31797219'
+url: https://pubmed.ncbi.nlm.nih.gov/31797219/
+design: meta-analysis
+population: Resistance-trained men; lowest-dose groups of included trials
+sample: {studies: 6, participants: null}
+read_level: abstract
+findings:
+- claim: A single set of 6-12 reps at ~70-85% 1RM to failure, 2-3 times per week for 8-12 weeks, increases squat and bench 1RM in trained men, though less than higher doses.
+  effect: Overall 1RM +12.09 kg (95% CI 8.16 to 16.03); squat +17.48 kg (8.51 to 26.46); bench +8.25 kg (0.68 to 15.83); 5 studies pooled
+  grade: promising
+limitations:
+- Only 6 studies, all men; deadlift, women and highly trained athletes not covered; single reviewer search.
+topics: [strength/minimum-dose, strength/minimal-dose]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 6 studies included, 5 pooled; 1RM +12.09 kg (8.16-16.03), squat +17.48 (8.51-26.46), bench +8.25 (0.68-15.83); single set of 6-12 reps at ~70-85% 1RM, 2-3x/wk, 8-12 wk. Confirmed. | Earlier check by chapter 3 literature researcher: Chapter 11 researcher added frontiers findings/topics and cited_in."

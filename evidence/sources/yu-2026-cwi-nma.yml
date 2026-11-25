@@ -1,0 +1,24 @@
+id: yu-2026-cwi-nma
+title: "Cold water immersion protocol optimization across exercise modalities: a systematic review and network meta-analysis of resistance training, endurance exercise, and team sport applications"
+authors: [Yu T, Liu Y, Ding C, Wang S, Wan Y, Fei X, Guan D, Wang J, Hao L]
+year: 2026
+venue: "BMC Sports Science, Medicine and Rehabilitation 18(1):216"
+doi: "10.1186/s13102-026-01653-5"
+pmid: "41845491"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13122509/
+design: meta-analysis
+population: "RCTs (2014-2025) of post-exercise CWI at 20 C or colder in healthy athletes; 85% male"
+sample: {studies: 87, participants: 2313}
+read_level: abstract
+findings:
+  - claim: "For resistance-training strength, passive recovery ranked best and no CWI protocol outperformed it."
+    effect: "Medium-duration moderate-temperature CWI vs passive Hedges g 0.00 (95% CrI -0.38 to 0.38); 24 studies, 598 participants, moderate certainty"
+    grade: promising
+  - claim: "CWI improved perceived recovery and muscle-damage markers across modalities."
+    effect: "Perceived recovery g -0.66 (-0.98 to -0.33); damage biomarkers g -0.51 (-0.86 to -0.16); exploratory"
+    grade: promising
+limitations:
+  - "69-85% of comparisons indirect; mostly acute recovery outcomes, not long-term adaptation."
+topics: [recovery/cold-water-immersion]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Spot check (abstract, PubMed): 87 studies, 2,313 participants; RT strength network 24 studies, 598 participants, moderate certainty, passive recovery ranked best; medium-duration moderate-temperature CWI vs passive g 0.00 (-0.38 to 0.38); perceived recovery g -0.66 (-0.98 to -0.33); 69-85% of comparisons indirect. Confirmed."}

@@ -1,0 +1,25 @@
+id: lamon-2021-sleep-mps
+title: "The effect of acute sleep deprivation on skeletal muscle protein synthesis and the hormonal environment"
+authors: [Lamon S, Morabito A, Arentson-Lantz E, Knowles O, Vincent GE, Condo D, Alexander SE, Garnham A, Paddon-Jones D, Aisbett B]
+year: 2021
+venue: "Physiological Reports 9(1):e14660"
+doi: "10.14814/phy2.14660"
+pmid: "33400856"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC7785053/
+design: crossover
+population: "Healthy young adults (7 men, 6 women, 18-35 y), not exercising; one night of total sleep deprivation vs normal sleep"
+sample: {studies: null, participants: 13}
+read_level: full-text
+findings:
+  - claim: "One night of total sleep deprivation reduced postprandial mixed-muscle protein synthesis the following afternoon."
+    effect: "FSR 0.072 +/- 0.015 (CON) vs 0.059 +/- 0.014 %/h (DEP), -18%, p = .040"
+    grade: promising
+  - claim: "Sleep deprivation shifted the hormonal milieu in a catabolic direction (higher cortisol, lower testosterone) without changing markers of protein breakdown."
+    effect: "Plasma cortisol +21% (p = .030); testosterone AUC -24% (p = .029); MuRF1/MAFbx mRNA unchanged"
+    grade: promising
+limitations:
+  - "Single night, no exercise stimulus, students of unreported training status; mixed-muscle (not myofibrillar) synthesis over a 2-h window."
+  - "Small sample, sexes pooled; hormonal changes partly reflect altered diurnal timing."
+topics: [recovery/sleep, nutrition/muscle-protein-synthesis]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read. FSR, cortisol +21% (p = .030) and testosterone AUC -24% (p = .029) confirmed; the sleep x time interaction for testosterone was not significant (p = .063). Correction: the paper describes participants as 'healthy male and female students'; training status is not reported, so 'untrained' in the limitations was an assumption."}

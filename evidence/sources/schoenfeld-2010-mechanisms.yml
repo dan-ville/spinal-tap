@@ -1,0 +1,32 @@
+id: schoenfeld-2010-mechanisms
+title: The mechanisms of muscle hypertrophy and their application to resistance training.
+authors:
+- Schoenfeld BJ
+year: 2010
+venue: J Strength Cond Res 24(10):2857-72
+doi: 10.1519/JSC.0b013e3181e840f3
+pmid: '20847704'
+url: https://pubmed.ncbi.nlm.nih.gov/20847704/
+design: narrative-review
+population: Classic review proposing mechanical tension, muscle damage and metabolic stress as hypertrophy drivers
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Proposed the influential three-factor model in which mechanical tension, muscle damage and metabolic stress
+    each contribute to exercise-induced hypertrophy.
+  effect: Narrative hypothesis
+  grade: contested
+limitations:
+- Hypothesis-generating; later work weakened the damage and metabolic stress arms (see dankel-2017-metabolites,
+  damas-2016-myops).
+topics:
+- hypertrophy/mechanisms
+- mechanisms/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

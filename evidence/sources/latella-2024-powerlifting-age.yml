@@ -1,0 +1,24 @@
+id: latella-2024-powerlifting-age
+title: 'Using Powerlifting Athletes to Determine Strength Adaptations Across Ages in Males and Females: A Longitudinal Growth Modelling Approach'
+authors: [Latella C, van den Hoek D, Wolf M, Androulakis-Korakakis P, Fisher JP, Steele J]
+year: 2024
+venue: Sports Med 54(3):753-774
+doi: 10.1007/s40279-023-01962-6
+pmid: '38060089'
+url: https://pubmed.ncbi.nlm.nih.gov/38060089/
+design: cohort
+population: Competitive powerlifters across age and weight classes (retrospective competition records)
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Competitive lifters gained most strength early in their careers, women progressed faster, and continued training largely offset age-related strength loss even in masters categories.
+  effect: ~7.5-12.5% in first year, up to ~20% after 10 y; female Masters 3-4 (>59 y) still +2.5-5.0%; male Masters 4 (>69 y) ~-0.35%/y
+  grade: promising
+limitations:
+- Retrospective competition data; survivor bias (those who keep competing); no training records.
+topics: [frontiers/ageing, frontiers/sex-differences]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; ~7.5-12.5% first year, ~20% after 10 y; female Masters 3-4 (> 59 y) +2.5-5.0%; male Masters 4 (> 69 y) ~-0.35%/y. Authors compare with general-population norms, not a control. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

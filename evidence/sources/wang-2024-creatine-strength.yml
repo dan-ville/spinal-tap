@@ -1,0 +1,27 @@
+id: wang-2024-creatine-strength
+title: "Effects of Creatine Supplementation and Resistance Training on Muscle Strength Gains in Adults <50 Years of Age: A Systematic Review and Meta-Analysis"
+authors: [Wang Z, Qiu B, Li R, Han Y, Petersen C, Liu S, Zhang Y, Liu C, Candow DG, Del Coso J]
+year: 2024
+venue: "Nutrients 16(21):3665"
+doi: "10.3390/nu16213665"
+pmid: "39519498"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC11547435/
+design: meta-analysis
+population: "Adults under 50; RT 4-12 wk with creatine (loading 15-25 g/day or 0.3 g/kg; maintenance 2-10 g/day) vs placebo; 469 men, 49 women"
+sample: {studies: 23, participants: 518}
+read_level: full-text
+findings:
+  - claim: "Creatine plus resistance training increased upper- and lower-body strength more than placebo plus training."
+    effect: "Upper body WMD 4.43 kg (95% CI 3.12 to 5.75); lower body WMD 11.35 kg (8.44 to 14.25)"
+    grade: established
+  - claim: "The strength benefit was significant in men but not in women, where data were sparse."
+    effect: "Men upper 4.95 kg (3.52 to 6.38), lower 11.68 kg (8.60 to 14.76); women not significant (2 studies, 40 women)"
+    grade: promising
+  - claim: "Training status, loading and training duration did not moderate the effect; higher doses (>5 g/day) trended toward larger lower-body gains."
+    effect: "Dose subgroup p = 0.068 (16.43 vs 9.90 kg)"
+    grade: speculative
+limitations:
+  - "Short trials; few women; absolute kg effects depend on exercise tested."
+topics: [nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read. Confirmed: upper +4.43 kg (3.12 to 5.75), I2 0%; lower +11.35 kg (8.44 to 14.25), I2 0%; men upper 4.95 (3.52 to 6.38), lower 11.68 (8.60 to 14.76); women upper 1.54 (-1.81 to 4.89), lower 8.03 (-0.83 to 16.90), p = 0.076; 2 female-only studies (40 women) plus 1 mixed (9 women). D.G. Candow (co-author) declares creatine-industry ties."}

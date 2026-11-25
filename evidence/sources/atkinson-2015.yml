@@ -1,0 +1,27 @@
+id: atkinson-2015
+title: True and false interindividual differences in the physiological response to an intervention
+authors: [Atkinson G, Batterham AM]
+year: 2015
+venue: Exp Physiol 100(6):577-88
+doi: 10.1113/EP085070
+pmid: '25823596'
+url: https://pubmed.ncbi.nlm.nih.gov/25823596/
+design: other
+population: Methodological review with simulated data
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Popular plots of individual changes are contaminated by within-subject random variation and regression to the mean and can show large apparent individual differences when the true response is identical in everyone.
+  effect: Simulation (blood pressure example)
+  grade: established
+- claim: True interindividual response variation is quantified only by comparing the SD of changes in the intervention arm with that in a comparator arm (SD of individual responses); moderators should be explored only if this difference is meaningful.
+  effect: SD_IR = sqrt(SD_intervention^2 - SD_control^2)
+  grade: established
+limitations:
+- Methodological; assumes parallel-group design and constant variance; does not address mean-variance relationships (see steele-2023-variation).
+topics: [frontiers/individual-response, methods/statistics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; SD-of-changes comparison against a comparator arm (or prior repeatability study) and the simulated blood-pressure demonstration confirmed. | Earlier check (chapter 11 literature researcher): no notes"

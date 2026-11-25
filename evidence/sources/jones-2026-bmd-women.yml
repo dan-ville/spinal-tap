@@ -1,0 +1,21 @@
+id: jones-2026-bmd-women
+title: "A systematic review and meta-analysis of the effects of high-intensity, impact, and strength training on bone mineral density in premenopausal and postmenopausal women"
+authors: [Jones E, Starrs P, Hunter B]
+year: 2026
+venue: "Menopause 33(12):1394-1405"
+doi: "10.1097/GME.0000000000002839"
+pmid: "42578477"
+url: https://pubmed.ncbi.nlm.nih.gov/42578477/
+design: meta-analysis
+population: "RCTs (2018-2025) in pre- and postmenopausal women"
+sample: {studies: 8, participants: 379}
+read_level: abstract
+findings:
+  - claim: "High-intensity, impact and strength training gave small BMD gains in postmenopausal women but no significant effect in the two premenopausal trials."
+    effect: "Postmenopausal FN 0.47 (P=0.014; n=141), LS 0.36 (P=0.012; n=182); premenopausal not significant (2 RCTs, n=112)"
+    grade: promising
+limitations:
+  - "Very few premenopausal trials; small pooled samples; t-distribution with few df."
+topics: [connective-tissue/bone]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 8 RCTs (n=379), 6 postmenopausal (n=267), 2 premenopausal (n=112); significant only postmenopausal (FN 0.47, LS 0.36). Confirmed; RCTs published from 2018 only. | Prior check: chapter 8 literature researcher"}

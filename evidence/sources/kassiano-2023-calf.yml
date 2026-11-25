@@ -1,0 +1,46 @@
+id: kassiano-2023-calf
+title: Greater Gastrocnemius Muscle Hypertrophy After Partial Range of Motion Training Performed at Long Muscle Lengths.
+authors:
+- Kassiano W
+- Costa B
+- Kunevaliki G
+- Soares D
+- Zacarias G
+- Manske I
+- Takaki Y
+- Ruggiero MF
+- Stavinski N
+- Francsuel J
+- Tricoli I
+- Carneiro MAS
+- Cyrino ES
+year: 2023
+venue: J Strength Cond Res 37(9):1746-1753
+doi: 10.1519/JSC.0000000000004460
+pmid: '37015016'
+url: https://pubmed.ncbi.nlm.nih.gov/37015016/
+design: rct
+population: Young women; calf raise full vs initial (dorsiflexed) vs final ROM, 8 wk
+sample:
+  studies: null
+  participants: 42
+read_level: abstract
+findings:
+- claim: Calf raises in the initial, dorsiflexed (long-length) part of the range grew the gastrocnemius about twice
+    as much as full ROM or the final (plantarflexed) part.
+  effect: Medial gastrocnemius +15.2% (initial) vs +6.7% (full) and +3.4% (final), p <= 0.009; lateral +14.9% vs +7.3%
+    (full, p = 0.060) vs +6.2% (final)
+  grade: promising
+limitations:
+- Untrained women; ultrasound thickness; one machine.
+topics:
+- hypertrophy/muscle-length
+- hypertrophy/range-of-motion
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Spot check, PubMed abstract re-read; 42 women; MG +15.2% (initial) vs +6.7% (full) vs
+    +3.4% (final). Confirmed; lateral gastrocnemius initial vs full not significant (+14.9 vs +7.3%, p = 0.060); ultrasound
+    thickness. | Prior check: chapter 5 literature researcher 2026-11-24'

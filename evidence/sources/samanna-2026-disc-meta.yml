@@ -1,0 +1,30 @@
+id: samanna-2026-disc-meta
+title: "The Impact of Exercise on Intervertebral Disc Health: A Systematic Review and Meta-Analysis"
+authors: [Samanna CL, Owen PJ, Mitchell UH, Ehrenbrusthoff K, Saueressig T, Moreira E, Arora NK, Mundell NL]
+year: 2026
+venue: "Sports Med 56(4):941-965"
+doi: "10.1007/s40279-025-02336-w"
+pmid: "41840183"
+url: https://pubmed.ncbi.nlm.nih.gov/41840183/
+design: meta-analysis
+population: "Physically loaded groups (exercise, sport, activity) vs controls; 2 RCTs, 9 cohort, 28 cross-sectional studies (search to June 2025)"
+sample: {studies: 39, participants: 4152}
+read_level: full-text
+findings:
+  - claim: "Upright bipedal loading (mostly running) was the only exposure associated with better disc health; certainty very low."
+    effect: "Hedges g 0.31 (95% CI 0.12 to 0.50), 7 studies, n=586, I2 86%, GRADE very low"
+    grade: speculative
+  - claim: "'Explosive end-range' sports including weightlifting showed no pooled difference, but several individual studies reported more degeneration in weightlifters, gymnasts, wrestlers and cricketers."
+    effect: "g -0.10 (-1.03 to 0.83), 4 studies, n=245, GRADE very low"
+    grade: contested
+  - claim: "Combined physical loading was associated with greater odds of reduced disc signal intensity."
+    effect: "OR 2.80 (1.53 to 5.11), 5 studies, GRADE low"
+    grade: contested
+  - claim: "Prospective data were sparse and null."
+    effect: "RCT/cohort vs control at final time point g -0.16 (-1.24 to 0.93), 2 studies, n=65"
+    grade: speculative
+limitations:
+  - "Mostly observational; extreme heterogeneity (I2 up to 99%); categorical degeneration grades insensitive; sensitivity analysis omitting a weightlifting and a rowing study flipped the combined-loading result to favourable."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13124787) re-read: 39 studies, 4152 participants; upright bipedal g 0.31 (0.12, 0.50), very low; combined loading OR 2.80 (1.53, 5.11), low; leave-one-out omitting a weightlifting study (Vadala) gave g 0.41 (0.01, 0.81). The 'explosive end-range' subgroup mixes weightlifting, martial arts, baseball and gymnastics. | Prior check: chapter 8 literature researcher"}

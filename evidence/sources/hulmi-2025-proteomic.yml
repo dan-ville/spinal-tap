@@ -1,0 +1,45 @@
+id: hulmi-2025-proteomic
+title: Human skeletal muscle possesses both reversible proteomic signatures and a retained proteomic memory after
+  repeated resistance training.
+authors:
+- Hulmi JJ
+- Halonen EJ
+- Sharples AP
+- O'Connell TM
+- Kuikka L
+- Lappi VM
+- Salokas K
+- Keskitalo S
+- Varjosalo M
+- Ahtiainen JP
+year: 2025
+venue: J Physiol 603(9):2655-2673
+doi: 10.1113/JP288104
+pmid: '40183698'
+url: https://pubmed.ncbi.nlm.nih.gov/40183698/
+design: rct
+population: Untrained adults; 10 wk RT, 10 wk detraining, 10 wk retraining vs control
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: Most training-induced proteome changes reversed with detraining, but several proteins (including CBR1 and
+    contraction, cytoskeletal and calcium-binding proteins such as calpain-2) remained elevated after 10 weeks off,
+    suggesting a proteomic memory.
+  effect: 150 proteins altered after RT1 (93% increased); subset retained after detraining
+  grade: speculative
+limitations:
+- Functional consequence for regrowth not shown; untrained participants.
+topics:
+- hypertrophy/muscle-memory
+- frontiers/genetics-omics
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+- research/theses/strength-and-mobility/chapters/11-frontiers.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; untrained, 10 wk detraining; CBR1 and CAPN2 retained. Confirmed.
+    | Prior check: chapter 5 literature researcher 2026-11-24; Chapter 11 researcher added frontiers findings/topics
+    and cited_in.'

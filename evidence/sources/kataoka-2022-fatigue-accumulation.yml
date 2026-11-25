@@ -1,0 +1,18 @@
+id: kataoka-2022-fatigue-accumulation
+title: Is there Evidence for the Suggestion that Fatigue Accumulates Following Resistance Exercise?
+authors: [Kataoka R, Vasenina E, Hammert WB, Ibrahim AH, Dankel SJ, Buckner SL]
+year: 2022
+venue: Sports Medicine 52(1):25-36
+doi: 10.1007/s40279-021-01572-0
+pmid: '34613589'
+url: https://pubmed.ncbi.nlm.nih.gov/34613589/
+design: narrative-review
+population: Review of peripheral and central fatigue time courses
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- {claim: 'Evidence that fatigue ''accumulates'' across RT sessions is equivocal: peripheral metabolic disturbances resolve, central fatigue has not been shown to accumulate, and prolonged strength loss may reflect muscle damage rather than accumulated fatigue.', effect: Narrative synthesis, grade: contested}
+limitations: [Narrative review; challenges a premise behind planned deloads and tapers.]
+topics: [programming/deload, recovery/fatigue]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: verification pass, notes: 'Ch4 verification: PubMed abstract re-read: ''evidence for the presence of fatigue accumulation with resistance training is equivocal''. Confirmed at abstract level. | Earlier check by chapter 4 literature researcher'}

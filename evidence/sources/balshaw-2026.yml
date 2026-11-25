@@ -1,0 +1,48 @@
+id: balshaw-2026
+title: Ultrasound Muscle Thickness Is a Poor Index of Criterion Magnetic Resonance Imaging Measures of
+  Resistance Training-Induced Muscle Growth.
+authors:
+- Balshaw TG
+- Funnell MP
+- McDermott EJ
+- Maden-Wilkinson TM
+- James LJ
+- Folland JP
+year: 2026
+venue: Med Sci Sports Exerc 58:2466-2476
+doi: 10.1249/MSS.0000000000004078
+pmid: null
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13652124/
+design: other
+population: Healthy young men; 15 weeks lower-body RT
+sample:
+  studies: null
+  participants: 39
+read_level: full-text
+findings:
+- claim: Changes in ultrasound muscle thickness underestimated MRI-measured quadriceps growth by more
+    than half on average and did not correlate with MRI changes at the individual level.
+  effect: Quadriceps dMT vs dACSA/dVOL r = -0.152 to -0.015 (NS); constituent muscles r = -0.197 to 0.422
+    (NS)
+  grade: promising
+- claim: "Group-mean ultrasound thickness change underestimated MRI growth for the whole quadriceps, vastus lateralis and vastus medialis by more than half, but not for vastus intermedius or rectus femoris."
+  effect: "QF mean offset -7.3% (vs dACSA) and -7.8% (vs dVOL); QF/VL/VM P = 0.001-0.012; VI and RF NS (P = 0.057-0.113)"
+  grade: promising
+- claim: "Cross-sectional ultrasound thickness was moderately related to MRI size before training even though changes were unrelated."
+  effect: "pre-training QF MT vs ACSA r = 0.525, vs VOL r = 0.455"
+  grade: promising
+limitations:
+- Single cohort (same as marques-2025); quadriceps only.
+- 'Implication: studies that use single-site ultrasound thickness (including most Loenneke/Buckner trials)
+  have limited power to detect size-strength coupling.'
+- "Untrained young men, quadriceps only; MT measured at 11 sites, so the finding concerns ultrasound thickness generally, not only single-site MT."
+- "Same participants as marques-2025; part-funded by the Collagen Research Institute."
+topics:
+- strength/methods
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC13652124) read; read_level raised to full-text. Ultrasound thickness was measured at 11 sites (2-3 per muscle), not a single site. Group-level underestimation was significant for the whole quadriceps, VL and VM but not VI or RF; quadriceps mean offset -7.3% (vs ACSA) and -7.8% (vs volume), more than half the MRI change. Individual changes uncorrelated with MRI. Pre-training MT vs MRI size r = 0.455-0.525 for the whole quadriceps. Same 39 men as marques-2025. | Prior check: chapter 2 researcher 2026-11-24; Full text downloaded but numbers taken from its abstract section."

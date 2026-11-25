@@ -1,0 +1,36 @@
+id: wang-2026-hirt-elite
+title: 'Effects of high-intensity resistance training within concurrent training programs on athletic performance in elite
+  athletes: a systematic review'
+authors:
+- Wang T
+- Ng YG
+- Amri S
+- Kamalden TF
+- Gao Z
+- Yuan Q
+year: 2026
+venue: PeerJ 14:e21807
+doi: 10.7717/peerj.21807
+pmid: '42866183'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13657067/
+design: systematic-review
+population: Elite athletes in concurrent sport-specific programmes, 5-18 wk
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: In elite athletes doing large endurance or sport loads, adding high-intensity resistance training improved maximal
+    strength and power without clear harm to aerobic outcomes; the authors rate certainty low to moderate.
+  effect: Narrative synthesis; no pooled effect; no formal GRADE
+  grade: promising
+limitations:
+- No meta-analysis; small samples; HIRT always embedded in concurrent programmes.
+topics:
+- concurrent/athletes
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

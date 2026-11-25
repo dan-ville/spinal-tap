@@ -1,0 +1,21 @@
+id: nulty-2025-collagen-middle-aged
+title: "Hydrolysed Collagen Supplementation Enhances Patellar Tendon Adaptations to 12 Weeks' Resistance Training in Middle-Aged Men"
+authors: [Nulty CD, Phelan K, Erskine RM]
+year: 2025
+venue: "Eur J Sport Sci 25(4):e12281"
+doi: "10.1002/ejsc.12281"
+pmid: "40100255"
+url: https://pubmed.ncbi.nlm.nih.gov/40100255/
+design: rct
+population: "Recreationally active men 47 +/- 5 y; 12 wk progressive lower-limb resistance training 2x/wk; 30 g hydrolysed collagen + 50 mg vitamin C post-session vs maltodextrin + vitamin C"
+sample: {studies: null, participants: 20}
+read_level: full-text
+findings:
+  - claim: "Collagen augmented gains in patellar tendon CSA, stiffness and modulus but not strength or muscle size."
+    effect: "CSA +6.8 +/- 5.4 vs +1.2 +/- 2.1 mm2 (group x time p=0.027); stiffness +661 +/- 331 vs +247 +/- 305 N/mm (p=0.009); modulus +0.21 +/- 0.13 vs +0.09 +/- 0.13 GPa (p=0.018)"
+    grade: speculative
+limitations:
+  - "n=9 vs 11; ultrasound CSA; middle-aged recreational men; tendon stress higher in collagen group at baseline."
+topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC11917387) checked: CSA +6.8 vs +1.2 mm2 (p=0.027), stiffness +661 +/- 331 vs +247 +/- 305 N/mm (p=0.009), modulus +0.21 vs +0.09 GPa (p=0.018). Confirmed. n=20 (9 vs 11); ultrasound CSA. | Prior check: chapter 8 literature researcher"}

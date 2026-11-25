@@ -1,0 +1,24 @@
+id: steele-2023-minimal-dose-longitudinal
+title: Long-Term Time-Course of Strength Adaptation to Minimal Dose Resistance Training Through Retrospective Longitudinal Growth Modeling
+authors: [Steele J, Fisher JP, Giessing J, Androulakis-Korakakis P, Wolf M, Kroeske B, Reuters R]
+year: 2023
+venue: Research Quarterly for Exercise and Sport 94(4):913-930
+doi: 10.1080/02701367.2022.2070592
+pmid: '35591809'
+url: https://pubmed.ncbi.nlm.nih.gov/35591809/
+design: cohort
+population: Clients of a commercial gym chain (60% female, 48 +/- 11 y); 1x/wk, single sets to momentary failure on six machines; up to 6.8 y
+sample: {studies: null, participants: 14690}
+read_level: abstract
+findings:
+- claim: Once-weekly single-set training to failure produced ~30-50% strength gains in year one and ~50-60% above baseline after 6 years, with a practical plateau after 1-2 years.
+  effect: Linear-log growth; ~30-50% first-year gains; ~50-60% of baseline by ~6 years
+  grade: promising
+limitations:
+- Retrospective commercial records, no control group, machine-specific strength; plateau may reflect the fixed minimal dose.
+topics: [strength/minimum-dose, frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Relied on the Ch3 abstract check. Population is commercial-gym clients (48 +/- 11 y), not older adults specifically. | Earlier check (verification pass): Ch3 verification: PubMed abstract re-read; 14,690 clients (60% female, 48 +/- 11 y), 1x/wk single sets of six exercises, ~30-50% gains in year 1, ~50-60% by ~6 y, practical plateau at ~1-2 y. Confirmed. | Earlier check by chapter 3 literature researcher: Chapter 11 researcher added frontiers findings/topics and cited_in."

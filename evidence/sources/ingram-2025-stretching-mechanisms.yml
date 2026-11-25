@@ -1,0 +1,74 @@
+id: ingram-2025-stretching-mechanisms
+title: 'Mechanisms Underlying Range of Motion Improvements Following Acute and Chronic Static Stretching: A Systematic
+  Review, Meta-analysis and Multivariate Meta-regression'
+authors:
+- Ingram LA
+- Tomkinson GR
+- d'Unienville NMA
+- Gower B
+- Gleadhill S
+- Boyle T
+- Bennett H
+year: 2025
+venue: Sports Med 55(6):1449-1466
+doi: 10.1007/s40279-025-02204-7
+pmid: '40180774'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12152101/
+design: meta-analysis
+population: Adults >=18 y (71% male, mean 26 y) in controlled trials of acute or chronic static stretching vs passive
+  controls; 60% plantar flexors, 29% hamstrings; 11% trained, 2% athletes
+sample:
+  studies: 65
+  participants: 1542
+read_level: full-text
+findings:
+- claim: Chronic static stretching moderately increased maximum tolerable passive resistive torque (stretch tolerance);
+    a single session did not.
+  effect: Chronic g = 0.74 (95% CI 0.38 to 1.10), I2 = 65%, 0.82 after outlier removal; acute g = 0.25 (95% CI -0.01
+    to 0.51), p = 0.05. GRADE very low (chronic), low (acute)
+  grade: promising
+- claim: Both acute and chronic static stretching produced small decreases in overall passive stiffness.
+  effect: Acute g = 0.42 (95% CI 0.21 to 0.63), 0.33 after outliers; chronic g = 0.37 (95% CI 0.18 to 0.56). GRADE
+    very low (acute), low (chronic); Egger tests suggest publication bias
+  grade: promising
+- claim: Neither acute nor chronic static stretching changed fascicle length.
+  effect: Acute g = 0.11 (95% CI -0.26 to 0.47); chronic g = 0.07 (95% CI -0.25 to 0.26), I2 = 0%. GRADE low
+  grade: promising
+- claim: Chronic ROM gains were associated with both increased tolerable torque and decreased stiffness; the authors
+    conclude acute gains are mainly stiffness-mediated and chronic gains mainly tolerance-mediated, with a growing
+    mechanical contribution over time.
+  effect: 'Meta-regression: ROM vs max tolerable torque g = 0.74 (95% CI 0.41 to 1.09), 16 studies; ROM vs stiffness
+    g = 0.59 (95% CI 0.08 to 1.10), 17 studies; chronic ROM g = 0.85 (95% CI 0.56 to 1.14)'
+  grade: promising
+- claim: Acute stiffness reductions required at least moderate intensity (to discomfort); chronic effects on stiffness
+    and tolerance were not moderated by intensity, duration, sex or baseline flexibility.
+  effect: Moderate (p < 0.002) and high (p = 0.02) vs low intensity for acute stiffness; chronic moderators all p
+    > 0.05
+  grade: speculative
+limitations:
+- Mean PEDro 4.2/7; GRADE low to very low for every outcome.
+- Chronic interventions averaged 6.5 weeks (1-24), possibly too short for structural change.
+- Stiffness measures pooled across MTU, muscle, tendon and passive-torque slope; intensity classified from subjective
+  descriptions.
+- Few trained participants or athletes; no strength athletes.
+- 'Acute meta-regression: overall stiffness not associated with acute ROM gains (g = -0.37, 95% CI -0.87 to 0.13,
+  p = 0.15); only MTU stiffness subgroup significant. Chronic meta-regression: only passive torque at a given angle
+  significant; muscle (0.48, -1.25 to 2.21) and tendon stiffness not. The ''acute = stiffness'' reading is therefore
+  the authors'' interpretation, not a tested association.'
+topics:
+- flexibility/mechanisms
+- flexibility/stiffness
+- mobility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: abstract and full text (PMC12152101) re-read; g 0.74 tolerance, 0.37 stiffness, no fascicle
+    effect confirmed. | Prior check: verification pass 2026-11-24; Ch6 verification: full text (PMC12152101) re-read;
+    all record numbers confirmed. Caution for chapter wording: g = 0.37 is OVERALL stiffness (MTU, muscle, tendon,
+    passive torque at angle and SWE pooled), not muscle stiffness; in chronic meta-regression only ''passive torque
+    at a given angle'' was associated with ROM (g = 1.57, 0.25 to 2.88), muscle stiffness was not (0.48, -1.25 to
+    2.21); in acute meta-regression overall stiffness was NOT associated with ROM (g = -0.37, -0.87 to 0.13, p = 0.15).
+    | Prior check: chapter 6 literature researcher 2026-11-24; Full text read; effects transcribed from results/tables.'

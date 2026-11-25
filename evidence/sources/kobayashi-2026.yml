@@ -1,0 +1,44 @@
+id: kobayashi-2026
+title: Exercise-specific preferential hypertrophy of individual elbow flexor muscles after incline versus preacher
+  dumbbell curl training.
+authors:
+- Kobayashi Y
+- Maeo S
+- Eihara Y
+- Ono M
+- Sato M
+- Sugiyama T
+- Kanehisa H
+- Isaka T
+year: 2026
+venue: J Sports Sci 44(23):3288-3301
+doi: 10.1080/02640414.2026.2741751
+pmid: '42829982'
+url: https://pubmed.ncbi.nlm.nih.gov/42829982/
+design: rct
+population: Untrained adults; within-subject incline (shoulder-extended) vs preacher (shoulder-flexed) dumbbell curl,
+  12 wk, MRI
+sample:
+  studies: null
+  participants: 21
+read_level: abstract
+findings:
+- claim: Incline curls grew the biceps slightly more and preacher curls grew the brachialis and brachioradialis more,
+    while total elbow-flexor growth and regional patterns were similar.
+  effect: Biceps +22.1% vs +18.9% (g = 0.33); brachialis +17.1% vs +21.1% (g = 0.50); brachioradialis +13.5% vs +17.6%
+    (g = 0.47); total +17.6% vs +19.2% (g = 0.22, P = 0.134)
+  grade: promising
+limitations:
+- Untrained; differences small to moderate.
+topics:
+- hypertrophy/exercise-selection
+- hypertrophy/regional
+- hypertrophy/muscle-length
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 21 untrained; BB +22.1 vs +18.9% (g 0.33); BRC +17.1 vs +21.1%
+    (g 0.50); BRR +13.5 vs +17.6%; total +17.6 vs +19.2% (P = 0.134). Confirmed. | Prior check: chapter 5 literature
+    researcher 2026-11-24'

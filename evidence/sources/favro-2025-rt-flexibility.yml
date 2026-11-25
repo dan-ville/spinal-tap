@@ -1,0 +1,43 @@
+id: favro-2025-rt-flexibility
+title: 'The Influence of Resistance Training on Joint Flexibility in Healthy Adults: A Systematic Review, Meta-analysis,
+  and Meta-regression'
+authors:
+- Favro F
+- Roma E
+- Gobbo S
+- Bullo V
+- Di Blasio A
+- Cugusi L
+- Bergamin M
+year: 2025
+venue: J Strength Cond Res 39(3):386-397
+doi: 10.1519/JSC.0000000000005000
+pmid: '39787531'
+url: https://pubmed.ncbi.nlm.nih.gov/39787531/
+design: meta-analysis
+population: Healthy adults >=18 y in RT interventions >=4 weeks with a flexibility outcome
+sample:
+  studies: 36
+  participants: 1469
+read_level: full-text
+findings:
+- claim: Resistance training improved joint flexibility moderately in a three-level meta-analysis, with larger effects
+    for high-intensity protocols; activity level and age did not moderate.
+  effect: g = 0.63 (95% CI 0.48 to 0.79), p < 0.0001; intensity moderator p = 0.0225 (high > low); sex p = 0.043
+  grade: promising
+limitations:
+- No included study at low risk of bias; substantial heterogeneity (authors' own caveat).
+- Activity level not a significant moderator (22 sedentary, 7 active studies); mean age 46 y; no study at low risk of
+  bias.
+topics:
+- flexibility/resistance-training-rom
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC11841725) read for abstract and moderators; g = 0.6325 (0.4762 to 0.7888),
+    36 studies, 1469 participants (mean age 46), intensity moderator p = 0.0225 confirmed. Activity level was NOT a significant
+    moderator (22 sedentary vs 7 active studies; trend toward larger effect in sedentary), so it does not replicate Alizadeh''s
+    trained-vs-untrained difference. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe
+    PMC abstract.'

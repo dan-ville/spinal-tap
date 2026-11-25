@@ -1,0 +1,33 @@
+id: patrick-2024-atg-program
+title: ATG Physical Fitness Program (Substack post)
+authors:
+- Patrick B
+year: 2024
+venue: kneesovertoesguy.substack.com (practitioner newsletter)
+doi: null
+pmid: null
+url: https://kneesovertoesguy.substack.com/p/atg-physical-fitness-program
+design: other
+population: Practitioner marketing and programme description (ATG / Knees Over Toes)
+sample:
+  studies: null
+  participants: null
+read_level: secondary
+findings:
+- claim: The ATG programme claims to have turned knees from 'damaged and fragile to remarkably protected', that ATG
+    split squats are 'the fundamental reason I can now dunk and do the splits', and that sled work allows effort 'without
+    increased injury risk', citing no peer-reviewed studies.
+  effect: Quoted marketing claims; no research cited (page retrieved 2026-11-24 via an automated extractor)
+  grade: convention
+limitations:
+- Practitioner self-report and testimonials; publication year approximate (undated post); text read through an automated
+  page summariser, so quotations should be rechecked against the live page.
+topics:
+- mobility/practitioner-systems
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: Not re-fetched; practitioner claims; no change. | Prior check: chapter 7 literature researcher
+    2026-11-24;'

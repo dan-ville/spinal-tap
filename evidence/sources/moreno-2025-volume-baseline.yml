@@ -1,0 +1,24 @@
+id: moreno-2025-volume-baseline
+title: Increasing set volume relative to baseline does not augment skeletal muscle adaptations when compared to maintenance of baseline training volume in recreationally trained individuals
+authors: [Moreno EN, Sampson DT, Figueroa EC, Jessee MB, Buckner SL]
+year: 2025
+venue: European Journal of Applied Physiology 125(4):1049-1059
+doi: 10.1007/s00421-024-05655-4
+pmid: '39557664'
+url: https://pubmed.ncbi.nlm.nih.gov/39557664/
+design: rct
+population: Adults with >6 months elbow-flexion training; arms randomised to increased vs baseline set volume; 12 wk, 2 sessions/wk
+sample: {studies: null, participants: 42}
+read_level: abstract
+findings:
+- claim: Increasing sets above each person's habitual volume did not add elbow flexor hypertrophy or 1RM versus keeping habitual volume.
+  effect: Muscle thickness difference BTV vs ITV at 50% site 0.022 cm (95% CI -0.096 to 0.140); 70% site 0.004 cm (-0.092 to 0.101); 1RM vs control +1.915 kg (BTV) and +1.780 kg (ITV)
+  grade: promising
+limitations:
+- Single muscle group, unilateral design; habitual volumes of participants not visible in abstract.
+topics: [hypertrophy/volume, strength/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 42 adults with >6 months of elbow-flexion training, within-participant arms; 50% site 0.022 cm (-0.096 to 0.140) BTV vs ITV; 1RM gains similar. Confirmed. | Earlier check by chapter 3 literature researcher"

@@ -1,0 +1,41 @@
+id: conceicao-2018
+title: 'Muscle Fiber Hypertrophy and Myonuclei Addition: A Systematic Review and Meta-analysis.'
+authors:
+- Conceição MS
+- Vechin FC
+- Lixandrão M
+- Damas F
+- Libardi CA
+- Tricoli V
+- Roschel H
+- Camera D
+- Ugrinowitsch C
+year: 2018
+venue: Med Sci Sports Exerc 50(7):1385-1393
+doi: 10.1249/MSS.0000000000001593
+pmid: '29509639'
+url: https://pubmed.ncbi.nlm.nih.gov/29509639/
+design: meta-analysis
+population: Training and supplementation studies with fibre CSA and myonuclei
+sample:
+  studies: 27
+  participants: 903
+read_level: abstract
+findings:
+- claim: Myonuclei are added even with fibre hypertrophy of 10% or less, challenging a fixed 'myonuclear domain ceiling'
+    of about 26%; addition is more consistent above about 22% growth.
+  effect: Significant myonuclear addition with <=10% fibre growth; larger at about 22%
+  grade: promising
+limitations:
+- Mixed interventions including steroid and endurance studies; observational pooling.
+topics:
+- hypertrophy/satellite-cells
+- hypertrophy/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: Spot check, PubMed abstract re-read; 27 studies, 62 groups, 903 subjects; <=10% fibre
+    growth adds myonuclei; more consistent at ~22%; classic threshold 26%. Confirmed. | Prior check: chapter 5 literature
+    researcher 2026-11-24'

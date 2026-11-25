@@ -1,0 +1,44 @@
+id: mcmahon-2014-rom
+title: Impact of range of motion during ecologically valid resistance training protocols on muscle size, subcutaneous
+  fat, and strength
+authors:
+- McMahon GE
+- Morse CI
+- Burden A
+- Winwood K
+- Onambele GL
+year: 2014
+venue: J Strength Cond Res 28(1):245-255
+doi: 10.1519/JSC.0b013e318297143a
+pmid: '23629583'
+url: https://pubmed.ncbi.nlm.nih.gov/23629583/
+design: rct
+population: Recreationally active young adults; longer (0-90 deg) vs shorter (0-50 deg) ROM lower-body training, 8
+  wk + 4 wk detraining, plus control
+sample:
+  studies: null
+  participants: 26
+read_level: abstract
+findings:
+- claim: Longer-ROM training produced larger gains in strength, distal quadriceps size and vastus lateralis fascicle
+    length than shorter-ROM training.
+  effect: Fascicle length +23 +/- 5% vs +10 +/- 2%; distal ACSA +59 +/- 15% vs +16 +/- 10%; strength figures as reported
+  grade: promising
+- claim: Strength gained with short-ROM training was lost faster during detraining than strength gained with long-ROM
+    training.
+  effect: Faster relative loss in SR group (as reported)
+  grade: speculative
+limitations:
+- n = 8 per group; 2D ultrasound with extrapolated fascicle length; abstract reports 'p > 0.05' for significant effects
+  (typographical); the strength figures in the abstract appear reversed relative to the text.
+topics:
+- strength/range-of-motion
+- hypertrophy/architecture
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: spot check: fascicle length +23 +/- 5% (long ROM) vs +10 +/- 2% confirmed from abstract.
+    | Prior check: chapter 7 literature researcher 2026-11-24;'

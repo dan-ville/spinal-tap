@@ -1,0 +1,41 @@
+id: scott-2017-panoramic
+title: 'Panoramic ultrasound: a novel and valid tool for monitoring change in muscle mass.'
+authors:
+- Scott JM
+- Martin DS
+- Ploutz-Snyder R
+- Matz T
+- Caine T
+- Downs M
+- Hackney K
+- Buxton R
+- Ryder JW
+- Ploutz-Snyder L
+year: 2017
+venue: J Cachexia Sarcopenia Muscle 8(3):475-481
+doi: 10.1002/jcsm.12172
+pmid: '28052593'
+url: https://pubmed.ncbi.nlm.nih.gov/28052593/
+design: cohort
+population: Healthy adults in 70-day bed rest with or without exercise; panoramic ultrasound vs MRI
+sample:
+  studies: null
+  participants: 27
+read_level: abstract
+findings:
+- claim: Panoramic ultrasound validly tracked changes in quadriceps CSA versus MRI but performed poorly for gastrocnemius
+    hypertrophy.
+  effect: Quadriceps CCC 0.78; gastrocnemius CCC 0.37; gastrocnemius hypertrophy specificity 33%
+  grade: promising
+limitations:
+- Bed-rest context; mostly men.
+topics:
+- hypertrophy/measurement
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; 27 bed-rest participants; CCC 0.78 quads, 0.37 gastrocnemius;
+    gastrocnemius hypertrophy specificity 33%. Confirmed; context is bed rest with/without exercise, not hypertrophy
+    training. | Prior check: chapter 5 literature researcher 2026-11-24'

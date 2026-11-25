@@ -1,0 +1,21 @@
+id: miller-2007-tendon-collagen-women
+title: "Tendon collagen synthesis at rest and after exercise in women"
+authors: [Miller BF, Hansen M, Olesen JL, Schwarz P, Babraj JA, Smith K, Rennie MJ, Kjaer M]
+year: 2007
+venue: "J Appl Physiol 102(2):541-546"
+doi: "10.1152/japplphysiol.00797.2006"
+pmid: "16990502"
+url: https://pubmed.ncbi.nlm.nih.gov/16990502/
+design: mechanistic
+population: "Healthy young women (early follicular n=8, late luteal n=7) vs previously studied men"
+sample: {studies: null, participants: 15}
+read_level: abstract
+findings:
+  - claim: "Women had lower patellar tendon collagen synthesis than men at rest and 72 h after exercise, with no menstrual-phase effect, and no persisting post-exercise elevation."
+    effect: "Rest: women 0.025 +/- 0.002 vs men 0.045 +/- 0.008 %/h; 72 h: women 0.027 +/- 0.005 vs men 0.058 +/- 0.008 %/h"
+    grade: promising
+limitations:
+  - "Small samples; men from a separate study; single time point at 72 h."
+topics: [connective-tissue/tendon, connective-tissue/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

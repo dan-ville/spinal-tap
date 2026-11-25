@@ -1,0 +1,35 @@
+id: zabaleta-korta-2021
+title: 'The role of exercise selection in regional Muscle Hypertrophy: A randomized controlled trial.'
+authors:
+- Zabaleta-Korta A
+- Fernández-Peña E
+- Torres-Unda J
+- Garbisu-Hualde A
+- Santos-Concejero J
+year: 2021
+venue: J Sports Sci 39(20):2298-2304
+doi: 10.1080/02640414.2021.1929736
+pmid: '34743671'
+url: https://pubmed.ncbi.nlm.nih.gov/34743671/
+design: rct
+population: Adults; Smith-machine squat vs leg extension with equal volume and intensity
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Leg extensions grew all regions of the rectus femoris, whereas squats grew only the central vastus lateralis,
+    supporting exercise-specific regional growth.
+  effect: Within-group significance only (p < 0.05)
+  grade: promising
+limitations:
+- Sample size not given in abstract; comparisons within groups; a published letter criticised the analysis.
+topics:
+- hypertrophy/regional
+- hypertrophy/exercise-selection
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: chapter 5 literature researcher
+  notes: ''

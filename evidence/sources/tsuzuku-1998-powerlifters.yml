@@ -1,0 +1,21 @@
+id: tsuzuku-1998-powerlifters
+title: "Effects of high-intensity resistance training on bone mineral density in young male powerlifters"
+authors: [Tsuzuku S, Ikegami Y, Yabe K]
+year: 1998
+venue: "Calcif Tissue Int 63(4):283-286"
+doi: "10.1007/s002239900527"
+pmid: "9744984"
+url: https://pubmed.ncbi.nlm.nih.gov/9744984/
+design: cross-sectional
+population: "Young male powerlifters vs controls; DXA"
+sample: {studies: null, participants: 21}
+read_level: abstract
+findings:
+  - claim: "Powerlifters had higher lumbar spine and whole-body BMD than controls, but not proximal femur BMD; spine BMD correlated with powerlifting performance."
+    effect: "Significant group differences at L2-L4 and whole body (values not in abstract)"
+    grade: speculative
+limitations:
+  - "n=10 vs 11; cross-sectional; body mass confounding."
+topics: [connective-tissue/bone]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

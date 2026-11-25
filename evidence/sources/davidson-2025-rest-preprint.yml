@@ -1,0 +1,24 @@
+id: davidson-2025-rest-preprint
+title: 'Investigating the impact of less than or greater than 60 seconds of inter-set rest on muscle hypertrophy and strength increases in males with >1 year of resistance training experience: systematic review with meta-analysis'
+authors: [Davidson L, Barillas S]
+year: 2025
+venue: medRxiv preprint (September 2025)
+doi: 10.1101/2025.09.22.25336351
+pmid: null
+url: https://doi.org/10.1101/2025.09.22.25336351
+design: preprint
+population: Resistance-trained males (>=1 y)
+sample: {studies: 6, participants: null}
+read_level: abstract
+findings:
+- claim: In trained men, longer rest modestly favoured strength while hypertrophy differences were trivial.
+  effect: Strength SMD -0.74 (favouring longer rest per authors' sign convention); hypertrophy SMD 0.08; no CIs given in abstract
+  grade: speculative
+limitations:
+- Preprint, six studies, no CIs in abstract, inconsistent sign conventions; low weight.
+topics: [strength/rest-interval, hypertrophy/rest-interval]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification (spot check): medRxiv abstract (v2, 2 Oct 2025) re-read; 6 studies, strength SMD -0.74, hypertrophy 0.08. Confirmed. | Earlier check by chapter 3 literature researcher"

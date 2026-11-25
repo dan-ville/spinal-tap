@@ -1,0 +1,38 @@
+id: park-2026-ankle-nma
+title: 'Flexibility-enhancing Interventions for Ankle Range of Motion: A Network Meta-analysis'
+authors:
+- Park JM
+- Lee KW
+- Yoon SY
+- Kim YW
+- Lee SC
+year: 2026
+venue: Int J Sports Med 47(11):843-853
+doi: 10.1055/a-2876-9237
+pmid: '42134336'
+url: https://pubmed.ncbi.nlm.nih.gov/42134336/
+design: meta-analysis
+population: Physically active healthy adults; ankle dorsiflexion; RCTs searched to Aug 2025
+sample:
+  studies: 41
+  participants: 1670
+read_level: abstract
+findings:
+- claim: Network meta-analysis ranked PNF and foam rolling highest for passive dorsiflexion ROM, both superior to
+    control in protocols longer than a month; static stretching ranked best for long-term active ROM.
+  effect: 'Passive ROM SUCRA: PNF 76.8%, foam rolling 67.8%; >1 month: PNF SMD 1.04 (0.64 to 1.44), foam rolling
+    1.03 (0.53 to 1.53); active ROM SUCRA: foam rolling 87.2% (short term), static long-term 72.4%'
+  grade: speculative
+limitations:
+- Ankle only; SUCRA rankings exaggerate small differences; head-to-head comparisons not given in abstract.
+topics:
+- flexibility/stretching-modality
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; 41 RCTs, n = 1670, PNF SUCRA 76.8%, foam rolling 67.8%, long-term
+    PNF SMD 1.04 (0.64 to 1.44), foam rolling 1.03 (0.53 to 1.53), static SUCRA 72.4% for long-term active ROM confirmed.
+    Population: physically active healthy adults. Paywalled. | Prior check: chapter 6 literature researcher 2026-11-24;
+    Numbers from PubMed/Europe PMC abstract.'

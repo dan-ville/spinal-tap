@@ -1,0 +1,23 @@
+id: willems-2017-grip-gwas
+title: Large-scale GWAS identifies multiple loci for hand grip strength providing biological insights into muscular fitness
+authors: [Willems SM, Wright DJ, Day FR, Trajanoska K, Joshi PK, Morris JA, Matteini AM, Garton FC, Grarup N, Oskolkov N, Thalamuthu A, Mangino M, et al]
+year: 2017
+venue: Nat Commun 8:16015
+doi: 10.1038/ncomms16015
+pmid: '29313844'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5510175/
+design: cohort
+population: UK Biobank and replication cohorts
+sample: {studies: null, participants: 195180}
+read_level: abstract
+findings:
+- claim: Even in 195,180 people, only 16 loci reached genome-wide significance for grip strength, illustrating that baseline strength is highly polygenic with small per-variant effects.
+  effect: 16 loci at P < 5e-8 (e.g. ACTG1, PEX14, TGFA, SYT1)
+  grade: established
+limitations: ['Baseline grip strength, not training response.']
+topics: [frontiers/genetics-omics]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 195,180 individuals, 16 loci at P < 5e-8. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"

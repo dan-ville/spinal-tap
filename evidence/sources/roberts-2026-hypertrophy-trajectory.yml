@@ -1,0 +1,24 @@
+id: roberts-2026-hypertrophy-trajectory
+title: 'Modeling the Trajectory of Skeletal Muscle Hypertrophy During Resistance Training: A Systematic Review and Meta-Analysis'
+authors: [Roberts BM, Robinson Z, Pearson J, Lawson D, Remmert J, Scheller C, Haun C, Moore S]
+year: 2026
+venue: SportRxiv preprint 910
+doi: 10.51224/SportRxiv.910
+pmid: null
+url: https://doi.org/10.51224/SportRxiv.910
+design: preprint
+population: Healthy adults in RT interventions > 2 wk with direct muscle-size measures (MRI, CT, ultrasound, biopsy)
+sample: {studies: 480, participants: null}
+read_level: abstract
+findings:
+- claim: Hypertrophy rose with training duration on a curvilinear, diminishing-returns path, reaching about 7% at a typical 10-week study.
+  effect: At 10 wk SMC 0.34 (95% CrI 0.31 to 0.37), +6.98% (6.32 to 7.64); 3,237 observations
+  grade: promising
+- claim: Studies with more male participants showed larger effects, while age and training experience showed no consistent interaction with the trajectory.
+  effect: Direction reported; magnitudes not in abstract
+  grade: speculative
+limitations:
+- Preprint, not peer reviewed; posting year assumed 2025-2026 (not verified on server); sex moderation at study level (ecological) and absolute vs relative scaling not stated in abstract.
+topics: [frontiers/ageing, frontiers/sex-differences, hypertrophy/time-course]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

@@ -1,0 +1,42 @@
+id: tundidor-duque-2026-velocity-loss
+title: 'Velocity Loss During Resistance Training: Implications for Concurrent Training Adaptations'
+authors:
+- Tundidor-Duque RM
+- Loturco I
+- Paéz-Maldondado JA
+- Asín-Izquierdo I
+- Lovillo-Fuentes F
+- Sánchez-Valdepeñas J
+- Cornejo-Daza PJ
+- Pereira LA
+- Sáez de Villarreal E
+- Pareja-Blanco F
+year: 2026
+venue: Scand J Med Sci Sports 36:e70265
+doi: 10.1111/sms.70265
+pmid: '41855389'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13002141/
+design: rct
+population: Moderately trained men; 8 wk; squat RT at 0%, 15% or 40% velocity loss followed 10 min later by high-intensity
+  running, 2x/wk; or running alone
+sample:
+  studies: null
+  participants: 41
+read_level: full-text
+findings:
+- claim: Within concurrent training, higher velocity-loss (more fatiguing) resistance sets gave the most hypertrophy but the
+    smallest aerobic (maximal aerobic speed) gains; lower velocity loss favoured endurance adaptation.
+  effect: CSA greatest in VL40 (group x time p<0.05); MAS effect size larger with lower VL (group x time p=0.04)
+  grade: speculative
+limitations:
+- ~10 per group; 8 weeks; the 'resistance then endurance 10 min later' design tests fatigue carry-over into endurance, the
+  reverse of the usual interference question.
+topics:
+- concurrent/moderators
+- concurrent/residual-fatigue
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

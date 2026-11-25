@@ -1,0 +1,38 @@
+id: pincheira-2022-sarcomere
+title: Biceps femoris long head sarcomere and fascicle length adaptations after 3 weeks of eccentric exercise training
+authors:
+- Pincheira PA
+- Boswell MA
+- Franchi MV
+- Delp SL
+- Lichtwark GA
+year: 2022
+venue: J Sport Health Sci 11(1):43-49
+doi: 10.1016/j.jshs.2021.09.002
+pmid: '34509714'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8847943/
+design: cohort
+population: Recreationally active adults (7 men, 3 women), 27 y, no NHE experience; 3 wk Nordic training (9 sessions)
+sample:
+  studies: null
+  participants: 10
+read_level: full-text
+findings:
+- claim: After 3 weeks of Nordic training, distal biceps femoris fascicles lengthened because resting sarcomeres were
+    longer, not because sarcomeres were added in series; the central region did not change.
+  effect: Distal fascicle length +21% (p < 0.001, partial eta2 = 0.81); distal sarcomere length +17% (p < 0.001, eta2
+    = 0.90); estimated serial sarcomere number unchanged in either region; eccentric strength +15%
+  grade: promising
+limitations:
+- n = 10, no control group, one leg; microendoscopy samples few fibres; 3D ultrasound fascicles.
+topics:
+- mobility/eccentric-training
+- mobility/mechanisms
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: full text (PMC8847943) and abstract re-read; distal fascicle +21%, sarcomere length +17%,
+    SSN unchanged, n = 10, uncontrolled; confirmed. | Prior check: chapter 7 literature researcher 2026-11-24;'

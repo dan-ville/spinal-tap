@@ -1,0 +1,31 @@
+id: robinson-2025-volume-individual
+title: 'The Effect of Resistance Training Volume on Individual-Level Skeletal Muscle Adaptations: A Novel Replicated Within-Participant Unilateral Trial'
+authors: [Robinson ZP, Steele J, Helms ER, Trexler ET, Hall ME, Huang C, Pelland JC, Remmert JF, Hinson SR, Mikula SA, Hamaide AA, Zourdos MC]
+year: 2025
+venue: bioRxiv preprint (posted July 2025)
+doi: 10.1101/2025.07.24.666533
+pmid: null
+url: https://doi.org/10.1101/2025.07.24.666533
+design: preprint
+population: Recreationally trained adults; legs randomised to ~8 vs ~16 sets/week, two 11-week phases separated by washout
+sample: {studies: null, participants: 16}
+read_level: abstract
+findings:
+- claim: Doubling weekly sets (~8 to ~16) gave a modest detectable advantage for vastus lateralis hypertrophy but not for leg press 1RM.
+  effect: Hypertrophy +1.8 cm2 (95% HDI 0.29 to 3.41; 98.77% posterior probability); 1RM +3.48 kg (95% HDI -5.1 to 12.15; 80.01% posterior probability)
+  grade: promising
+- claim: Despite large gross variability, there was no convincing evidence of true individual differences in response to volume (condition-specific response variation).
+  effect: Correlation of replicated responses 0.67-0.70 for general response vs 0.04-0.06 for volume-specific response
+  grade: promising
+- claim: In the replicated within-participant design, responsiveness in general (averaged across volumes) was more consistent across phases than any person-specific benefit from higher volume, so 'volume responders' were not identifiable.
+  effect: General response correlation 0.67-0.70 vs condition-specific (volume) 0.04-0.06; authors 'failed to detect irrefutable evidence of meaningful IRV'
+  grade: promising
+limitations:
+- Preprint; n = 16; unilateral model allows cross-limb effects; not checked whether published by Nov 2026.
+- Still an unpublished bioRxiv v1 (2025-07-31) per bioRxiv API on 2026-11-24; full text not retrievable (blocked), abstract read.
+topics: [hypertrophy/volume, strength/volume, methods/individual-response, frontiers/individual-response]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: Abstract re-read via the Ch3 record; bioRxiv full-text PDF still blocked (returned a 17-byte stub). No journal version found by web search 2026-11-24; the 2026 J Appl Physiol conference summary still cites it as a bioRxiv preprint. OSF registration lists a 6-8 week washout. Numbers unchanged. | Earlier check (verification pass): Ch3 verification: bioRxiv abstract (v1, 31 Jul 2025) re-read via API; 16 recreationally trained, two 11-wk phases, ~8 vs ~16 sets/wk; +1.8 cm2 (95% HDI 0.29-3.41; 98.77%); 1RM +3.48 kg (-5.1 to 12.15; 80.01%); GEN r 0.67-0.70 vs CON 0.04-0.06. Confirmed; not peer reviewed. | Earlier check by chapter 3 literature researcher: Chapter 11 researcher added frontiers findings/topics and cited_in."

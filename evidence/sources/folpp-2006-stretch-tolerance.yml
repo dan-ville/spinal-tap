@@ -1,0 +1,36 @@
+id: folpp-2006-stretch-tolerance
+title: Can apparent increases in muscle extensibility with regular stretch be explained by changes in tolerance
+  to stretch?
+authors:
+- Folpp H
+- Deall S
+- Harvey LA
+- Gwinn T
+year: 2006
+venue: Aust J Physiother 52(1):45-50
+doi: 10.1016/s0004-9514(06)70061-7
+pmid: '16515422'
+url: https://pubmed.ncbi.nlm.nih.gov/16515422/
+design: rct
+population: Healthy adults with limited hamstring extensibility; within-subject (one leg stretched)
+sample:
+  studies: null
+  participants: 20
+read_level: abstract
+findings:
+- claim: Twenty minutes of hamstring stretching each weekday for 4 weeks did not change extensibility (hip angle
+    at a standard torque) but increased the angle reached at maximal tolerated torque.
+  effect: Extensibility -1 deg (95% CI -4 to 3); stretch tolerance +8 deg (95% CI 5 to 12)
+  grade: promising
+limitations:
+- Small within-subject design; 4 weeks; contralateral leg may be affected by central effects.
+topics:
+- flexibility/mechanisms
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: PubMed abstract re-read; n = 20 with limited hamstring extensibility, within-subject, 20
+    min/weekday for 4 weeks; extensibility -1 deg (-4 to 3), tolerance +8 deg (5 to 12) confirmed. | Prior check: chapter
+    6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

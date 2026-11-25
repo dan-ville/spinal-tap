@@ -1,0 +1,24 @@
+id: vasconcelos-2026-elbow-failure
+title: 'Elbow Flexor Adaptations to Failure Versus Repetitions-in-Reserve Training: A Unilateral Within-Participant Study in Resistance-Trained Adults'
+authors: [Vasconcelos T, Alves AR, Refalo MC, Lucas GC, Vasconcelos PR, Paulo Brito J, Casanova F, Vilaca-Alves J, Oliveira R]
+year: 2026
+venue: Muscles 5(3):61
+doi: 10.3390/muscles5030061
+pmid: '42784046'
+url: https://pubmed.ncbi.nlm.nih.gov/42784046/
+design: rct
+population: Resistance-trained adults; arms randomised to failure vs 1-3 RIR preacher curl at 70-80% 1RM; 8 wk, 2x/wk
+sample: {studies: null, participants: 19}
+read_level: abstract
+findings:
+- claim: 1-3 RIR matched failure training for elbow flexor hypertrophy and 1RM.
+  effect: Thickness difference 0.032 cm (95% HDI -0.044 to 0.113); 1RM difference 0.588 kg (85% HDI -0.491 to 1.66)
+  grade: promising
+limitations:
+- Small, single-exercise, unilateral design.
+topics: [hypertrophy/proximity-to-failure, strength/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; 19 trained adults, unilateral, 8 wk; thickness difference 0.032 cm (95% HDI -0.044 to 0.113); 1RM 0.588 kg reported with an 85% HDI (-0.491 to 1.66). Confirmed. Full text is on PMC (PMC13609929) and was not read. | Earlier check by chapter 3 literature researcher"

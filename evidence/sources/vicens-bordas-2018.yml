@@ -1,0 +1,37 @@
+id: vicens-bordas-2018
+title: Is inertial flywheel resistance training superior to gravity-dependent resistance training in improving muscle
+  strength? A systematic review with meta-analyses.
+authors:
+- Vicens-Bordas J
+- Esteve E
+- Fort-Vanmeerhaeghe A
+- Bandholm T
+- Thorborg K
+year: 2018
+venue: J Sci Med Sport 21(1):75-83
+doi: 10.1016/j.jsams.2017.10.006
+pmid: '29107539'
+url: https://pubmed.ncbi.nlm.nih.gov/29107539/
+design: meta-analysis
+population: Randomised and non-randomised trials of flywheel vs gravity-dependent training
+sample:
+  studies: 7
+  participants: 76
+read_level: abstract
+findings:
+- claim: Flywheel training was not superior to gravity-dependent training for strength; data were insufficient to
+    judge hypertrophy.
+  effect: 'RCTs: SMD -0.05 (95% CI -0.51 to 0.40), I2 0%'
+  grade: contested
+limitations:
+- Very small evidence base (3 RCTs).
+topics:
+- hypertrophy/flywheel
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch5 verification: PubMed abstract re-read; SMD -0.05 (-0.51, 0.40); 7 trials; secondary outcomes not pooled.
+    Confirmed. | Prior check: chapter 5 literature researcher 2026-11-24'

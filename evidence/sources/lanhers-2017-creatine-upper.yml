@@ -1,0 +1,21 @@
+id: lanhers-2017-creatine-upper
+title: "Creatine Supplementation and Upper Limb Strength Performance: A Systematic Review and Meta-Analysis"
+authors: [Lanhers C, Pereira B, Naughton G, Trousselard M, Lesage FX, Dutheil F]
+year: 2017
+venue: "Sports Medicine 47(1):163-173"
+doi: "10.1007/s40279-016-0571-4"
+pmid: "27328852"
+url: https://pubmed.ncbi.nlm.nih.gov/27328852/
+design: meta-analysis
+population: "Placebo-controlled RCTs; upper-limb strength in tasks under 3 min"
+sample: {studies: 53, participants: 1138}
+read_level: abstract
+findings:
+  - claim: "Creatine improved upper-limb strength by a small amount independent of population or protocol."
+    effect: "Global upper limb ES 0.317 (95% CI 0.185 to 0.449); bench press ES 0.265 (0.132 to 0.398)"
+    grade: established
+limitations:
+  - "Mixed training and non-training trials; meta-regression underpowered for moderators."
+topics: [nutrition/creatine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 53 studies (563 creatine, 575 controls); global upper-limb ES 0.317 (0.185 to 0.449); bench press 0.265 (0.132 to 0.398). Confirmed. Same caveat as the 2015 lower-limb review (training not required)."}

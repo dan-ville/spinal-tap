@@ -1,0 +1,38 @@
+id: buckner-2016
+title: 'The problem of muscle hypertrophy: Revisited.'
+authors:
+- Buckner SL
+- Dankel SJ
+- Mattocks KT
+- Jessee MB
+- Mouser JG
+- Counts BR
+- Loenneke JP
+year: 2016
+venue: Muscle Nerve 54(6):1012-1014
+doi: 10.1002/mus.25420
+pmid: '27717161'
+url: https://pubmed.ncbi.nlm.nih.gov/27717161/
+design: other
+population: Commentary
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: The authors argue that exercise-induced hypertrophy and strength gain may be separate phenomena,
+    citing weak correlations between their changes, maintained strength despite muscle loss in detraining,
+    and similar growth but divergent strength between low- and high-load training.
+  effect: argument; no new data
+  grade: contested
+limitations:
+- Opinion piece; arguments rely on between-subject correlations and low-load comparisons with specificity
+  confounds.
+topics:
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; argument confirmed. | Prior check: chapter 2 researcher 2026-11-24"

@@ -1,0 +1,24 @@
+id: buckner-2023-volume-doubts
+title: 'The dose-response relationship between resistance training volume and muscle hypertrophy: There are still doubts'
+authors: [Buckner SL, Moreno EN, Baxter HT]
+year: 2023
+venue: Journal of Trainology 12(2):29-36
+doi: 10.17338/trainology.12.2_29
+pmid: null
+url: https://doi.org/10.17338/trainology.12.2_29
+design: narrative-review
+population: Resistance-trained individuals (literature critique)
+sample: {studies: null, participants: null}
+read_level: abstract
+findings:
+- claim: Trials in trained people that show a volume dose-response report unusually large growth (e.g. 0.6-0.72 cm quadriceps thickness vs a typical 0.1-0.25 cm), and several trials show similar growth with lower and higher volumes, so the importance of volume may be exaggerated.
+  effect: Qualitative critique; quadriceps thickness gains of 0.6-0.72 cm in high-volume studies vs typical 0.1-0.25 cm
+  grade: contested
+limitations:
+- Non-systematic review by a group with a stated position; offers no pooled estimate.
+topics: [hypertrophy/volume, methods/measurement]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: J-STAGE abstract re-read; non-systematic review; 0.1-0.25 cm 'common' vs 0.6-0.72 cm quadriceps thickness gains in high-volume trials. Confirmed. | Earlier check by chapter 3 literature researcher"

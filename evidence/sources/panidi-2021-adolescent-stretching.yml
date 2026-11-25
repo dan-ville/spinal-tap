@@ -1,0 +1,43 @@
+id: panidi-2021-adolescent-stretching
+title: Muscle Architectural and Functional Adaptations Following 12-Weeks of Stretching in Adolescent Female Athletes
+authors:
+- Panidi I
+- Bogdanis GC
+- Terzis G
+- Donti A
+- Konrad A
+- Gaspari V
+- Donti O
+year: 2021
+venue: Front Physiol 12:701338
+doi: 10.3389/fphys.2021.701338
+pmid: '34335307'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8322691/
+design: rct
+population: 21 adolescent female volleyball players; one leg stretched 5 x/week for 12 weeks (540 s rising to 900
+  s per session), contralateral leg control
+sample:
+  studies: null
+  participants: 21
+read_level: full-text
+findings:
+- claim: High-volume plantar-flexor stretching increased dorsiflexion, gastrocnemius fascicle length (panoramic
+    ultrasound), cross-sectional area and one-leg jump height more in the stretched than the control leg.
+  effect: Dorsiflexion +22 +/- 20% vs +8 +/- 17%; GM mid fascicle length at rest +6 +/- 7%; at max dorsiflexion
+    +11 +/- 7%; CSA +23 +/- 14% vs +13 +/- 14%; jump +27 +/- 30% vs +17 +/- 23%
+  grade: speculative
+limitations:
+- Adolescent athletes (growth confounds; both legs grew); within-subject design with ongoing sport training.
+- Large hypertrophy from stretching alone is implausibly high per Warneke 2024's own discussion; not replicated
+  in adults.
+topics:
+- flexibility/mechanisms
+- flexibility/stretch-hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch6 verification: full text (PMC8322691) abstract and methods read; 21 female volleyball players (13.5 y),
+    5x/week, 540 to 900 s per session, FL +6 +/- 7% at rest, CSA +23% vs +13%, gains maintained after 3 weeks detraining
+    confirmed. | Prior check: chapter 6 literature researcher 2026-11-24; Numbers from PubMed/Europe PMC abstract.'

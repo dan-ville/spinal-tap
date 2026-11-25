@@ -1,0 +1,36 @@
+id: kruse-2021-longitudinal-growth
+title: Stimuli for Adaptations in Muscle Length and the Length Range of Active Force Exertion-A Narrative Review
+authors:
+- Kruse A
+- Rivares C
+- Weide G
+- Tilp M
+- Jaspers RT
+year: 2021
+venue: Front Physiol 12:742034
+doi: 10.3389/fphys.2021.742034
+pmid: '34690815'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC8531727/
+design: narrative-review
+population: Animal and human literature on longitudinal muscle growth
+sample:
+  studies: null
+  participants: null
+read_level: full-text
+findings:
+- claim: There is no clear evidence that any specific strategy produces longitudinal (serial) growth of human muscle;
+    animal work suggests loading at long muscle lengths is decisive, and combining stretch with activation is promising
+    but untested.
+  effect: Narrative synthesis
+  grade: speculative
+limitations:
+- Narrative; pre-dates human microendoscopy evidence of serial sarcomere addition (andrews-2025-multiscale).
+topics:
+- mobility/mechanisms
+- hypertrophy/architecture
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: chapter 7 literature researcher
+  notes: ''

@@ -1,0 +1,23 @@
+id: pareja-blanco-2020-velocity-loss
+title: Velocity Loss as a Critical Variable Determining the Adaptations to Strength Training
+authors: [Pareja-Blanco F, Alcazar J, Sánchez-Valdepeñas J, Cornejo-Daza PJ, Piqueras-Sanchiz F, Mora-Vela R, Sánchez-Moreno M, Bachero-Mena B, Ortega-Becerra M, Alegre LM]
+year: 2020
+venue: Medicine and Science in Sports and Exercise 52(8):1752-1762
+doi: 10.1249/MSS.0000000000002295
+pmid: '32049887'
+url: https://pubmed.ncbi.nlm.nih.gov/32049887/
+design: rct
+population: Young resistance-trained men; 8 wk, 2x/wk full squat at 70-85% 1RM
+sample: {studies: null, participants: 64}
+read_level: abstract
+findings:
+- claim: Velocity-loss thresholds of 0, 10, 20 and 40% produced similar strength, sprint and jump gains despite large volume differences; 20-40% maximised hypertrophy while 40% slowed muscle contraction and early RFD.
+  effect: No between-group differences in strength, sprint or jump gains; hypertrophy significant within VL20 and VL40 (group x time P = 0.06); slowed delay time only in VL40 (interaction P = 0.05); early RFD decreased within VL40 (P = 0.04; no interaction reported in abstract)
+  grade: promising
+limitations: [Smith machine; ~16 per group; one laboratory., The early-RFD decrease is a within-group change; the abstract reports no between-group difference for jump or sprint.]
+topics: [programming/autoregulation, strength/velocity-based-training, strength/proximity-to-failure]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: PubMed abstract re-read; n = 64, VL 0/10/20/40%, no between-group strength, jump or sprint differences confirmed. RFD effect is within-group only. | Earlier check by chapter 4 literature researcher'

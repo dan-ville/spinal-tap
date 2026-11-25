@@ -1,0 +1,21 @@
+id: owen-2021-athletes-disc
+title: "Mechanical loading influences the lumbar intervertebral disc. A cross-sectional study in 308 athletes and 71 controls"
+authors: [Owen PJ, Hangai M, Kaneoka K, Rantalainen T, Belavy DL]
+year: 2021
+venue: "J Orthop Res 39(5):989-997"
+doi: "10.1002/jor.24809"
+pmid: "32691862"
+url: https://pubmed.ncbi.nlm.nih.gov/32691862/
+design: cross-sectional
+population: "Young athletes (mean 19 y) in baseball, swimming, basketball, kendo, soccer and running vs non-athletic controls"
+sample: {studies: null, participants: 379}
+read_level: abstract
+findings:
+  - claim: "Basketball and soccer players showed signs of disc hypertrophy or better nucleus hydration than controls, while longer careers and higher training volume related weakly to lower hydration."
+    effect: "Training volume/career duration explained <1% of variance in nucleus hydration"
+    grade: speculative
+limitations:
+  - "Cross-sectional; no strength-sport group; T2-weighted signal ratios rather than quantitative T2."
+topics: [connective-tissue/disc]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

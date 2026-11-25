@@ -1,0 +1,20 @@
+id: winwood-2018-strongman-taper
+title: Tapering Practices of Strongman Athletes
+authors: [Winwood PW, Dudson MK, Wilson D, Mclaren-Harrison JKH, Redjkins V, Pritchard HJ, Keogh JWL]
+year: 2018
+venue: Journal of Strength and Conditioning Research 32(5):1181-1196
+doi: 10.1519/JSC.0000000000002453
+pmid: '29373426'
+url: https://pubmed.ncbi.nlm.nih.gov/29373426/
+design: cross-sectional
+population: Strongman athletes (33 y; 12.6 y RT, 5.3 y implement training)
+sample: {studies: null, participants: 454}
+read_level: abstract
+findings:
+- claim: 87% of strongman athletes taper, typically a ~9-day step taper cutting volume ~46% with all training stopping ~4 days out; deadlift, yoke and stones were reported to need the longest recovery.
+  effect: Taper length 8.6 +/- 5.0 days; step taper 52%; volume -45.5 +/- 12.9%; cessation 3.9 +/- 1.8 days; intensity ~50% in last week
+  grade: convention
+limitations: [Self-report survey.]
+topics: [programming/taper, practice/surveys]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

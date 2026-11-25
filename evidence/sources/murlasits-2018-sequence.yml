@@ -1,0 +1,33 @@
+id: murlasits-2018-sequence
+title: 'The physiological effects of concurrent strength and endurance training sequence: A systematic review and meta-analysis'
+authors:
+- Murlasits Z
+- Kneffel Z
+- Thalib L
+year: 2018
+venue: J Sports Sci 36(11):1212-1219
+doi: 10.1080/02640414.2017.1364405
+pmid: '28783467'
+url: https://pubmed.ncbi.nlm.nih.gov/28783467/
+design: meta-analysis
+population: Healthy adults in chronic trials comparing strength-endurance vs endurance-strength order in the same session
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Performing strength before endurance in the same session produced greater lower-body 1RM gains; order did not affect
+    aerobic capacity.
+  effect: 'Lower-body 1RM: +3.96 kg (95% CI 0.81 to 7.10) favouring S-E; VO2max: 0.39 ml/kg/min (95% CI -1.03 to 1.81)'
+  grade: promising
+limitations:
+- Small number of short trials, mostly untrained or recreational participants; absolute kg difference is modest.
+- Fixed or random effects chosen by heterogeneity; number of studies not stated in abstract.
+topics:
+- concurrent/sequence
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; +3.96 kg (0.81 to 7.10), VO2max 0.39 (-1.03 to 1.81) confirmed. Full text not accessed."

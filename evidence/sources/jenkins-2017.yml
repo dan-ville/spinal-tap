@@ -1,0 +1,45 @@
+id: jenkins-2017
+title: Greater Neural Adaptations following High- vs. Low-Load Resistance Training.
+authors:
+- Jenkins NDM
+- Miramonti AA
+- Hill EC
+- Smith CM
+- Cochrane-Snyman KC
+- Housh TJ
+- Cramer JT
+year: 2017
+venue: Front Physiol 8:331
+doi: 10.3389/fphys.2017.00331
+pmid: '28611677'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5447067/
+design: rct
+population: Untrained young men; leg extension to failure at 80% vs 30% 1RM for 6 weeks
+sample:
+  studies: null
+  participants: 26
+read_level: full-text
+findings:
+- claim: Despite similar increases in muscle thickness, 80% 1RM training raised 1RM and MVIC far more
+    than 30% 1RM training.
+  effect: 1RM +27.7% vs +9.5%; MVIC +28.0% vs +13.4% at week 6; 80% group 1RM d = 2.53 baseline to week
+    6
+  grade: promising
+- claim: Only high-load training increased voluntary activation and maximal EMG and reduced the activation
+    needed for submaximal torques, implicating neural adaptation as the cause of the load-specific strength
+    advantage.
+  effect: VA greater in 80% vs 30% at week 6; EMG amplitude increase only at 80%
+  grade: promising
+limitations:
+- Small; untrained; leg extension only; 1RM test favours the group that trained heavy.
+- "One small trial (13 per group); the high-load advantage also appeared on the unpractised isometric test (MVIC +28.0% vs +13.4%)."
+topics:
+- strength/neural-adaptations
+- strength/specificity
+- strength/load
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Full text (PMC5447067) checked; numbers confirmed. VA during MVIC was higher with 80% than 30% at week 6 (80% group baseline to week 6 d = 1.04); VA in the 30% group rose at week 3. 13 per group; ultrasound thickness. | Prior check: chapter 2 researcher 2026-11-24"

@@ -1,0 +1,20 @@
+id: enes-2026-volume-progression
+title: How Often Should Volume Increase? Effects of Different Volume-Progression Frequencies on Strength and Hypertrophy Adaptations in Women
+authors: [Enes A, Macedo ACG, Nass G, Costa-Rodrigues J, Alves-Marques F, Santana C, Dell'Avanzi FG, Rodrigues BG, Alves RC, De Souza EO, Souza-Junior TP]
+year: 2026
+venue: Journal of Strength and Conditioning Research (online ahead of print)
+doi: 10.1519/JSC.0000000000005747
+pmid: '43044063'
+url: https://pubmed.ncbi.nlm.nih.gov/43044063/
+design: rct
+population: Recreationally trained women (1.1 y experience); within-subject limbs; 12 wk
+sample: {studies: null, participants: 21}
+read_level: abstract
+findings:
+- claim: Adding 2 weekly quadriceps sets every 2 weeks or every 4 weeks gave the same leg-press 1RM and muscle-thickness gains over 12 weeks.
+  effect: 1RM condition difference p = 0.317; summed muscle thickness p = 0.616
+  grade: promising
+limitations: [Within-subject design (cross-education possible); already high volumes; women only.]
+topics: [programming/progression, hypertrophy/volume, strength/volume]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

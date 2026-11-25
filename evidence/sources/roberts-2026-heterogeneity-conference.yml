@@ -1,0 +1,36 @@
+id: roberts-2026-heterogeneity-conference
+title: 'Research into resistance training response heterogeneity: a summary of the 2025 conference at the University of Jyvaskyla'
+authors: [Roberts MD, Bamman MM, Hornberger TA, Mackey AL, Derave W, Atherton PJ, Phillips SM, Schoenfeld BJ, Nader GA, Hecksteden A, Hulmi JJ, Sillanpää E, et al]
+year: 2026
+venue: J Appl Physiol (1985) 140(6):1761-1776
+doi: 10.1152/japplphysiol.00289.2026
+pmid: '42172438'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13322123/
+design: consensus
+population: Expert conference summary (14 senior investigators in muscle biology and training)
+sample: {studies: null, participants: null}
+read_level: full-text
+findings:
+- claim: Ribosome biogenesis and satellite-cell expansion/myonuclear addition are the mechanisms most consistently associated with high hypertrophic response across laboratories; rDNA copy number, ECM proteins, muscle sex-hormone-receptor protein content or DNA-binding activity (Roberts/Libardi data) and physiological circulating hormone levels did not separate high from low responders; other studies link baseline muscle androgen-receptor content to hypertrophy (morton-2018-androgen-receptor).
+  effect: Narrative synthesis of multiple laboratories' data
+  grade: promising
+- claim: 'Genetic association studies have identified few robust variants (FAMuSS: 2 of ~500 SNPs; 1 of >315,000 SNPs in 119 men), and a predictive polygenic score would need >100,000 participants; practitioners should not place undue weight on genetic tests.'
+  effect: Narrative; heritability of exercise adaptation estimated ~30-70%
+  grade: established
+- claim: When hypertrophy is expressed relatively and trainees start untrained, females and males are about equally responsive, with no clear sex difference in responder distribution; male advantages appear with advanced training and absolute measures.
+  effect: Narrative
+  grade: promising
+- claim: Chronological age does not guarantee blunted response; anabolic resistance relates to blunted MPS and ribosome biogenesis rather than protein intake, and some older adults respond well.
+  effect: Narrative
+  grade: promising
+- claim: Experts recommend replicated-trial or unilateral within-subject designs, multivariate composite responder scores, and checking adherence, progression, sleep and diet before attributing low response to intrinsic factors.
+  effect: Consensus recommendation
+  grade: convention
+limitations:
+- Conference summary, not a systematic review; read as the PMC author manuscript; authors' own data dominate.
+topics: [frontiers/individual-response, frontiers/genetics-omics, frontiers/sex-differences, frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PMC author manuscript retrieved via NCBI efetch (PMC13322123) and searched. Ribosome biogenesis and satellite cells, rDNA copy number, ECM, FAMuSS 2 of ~500 SNPs, GLI3 1 of >315,000 SNPs in 119 men, >100,000 for a robust PGS, heritability ~30-70+%, chronological age statement: confirmed. Corrected: the hormone-receptor null refers to Roberts/Libardi data on muscle sex-hormone receptor content or DNA binding; other work (morton-2018-androgen-receptor; baseline cytoplasmic AR in bergamasco-2024-androgen-receptor) links baseline AR content to hypertrophy. Practitioner advice is 'not place undue weight' on genetic tests. The summary cites yang-2024-gwas's 47% as support for polygenic scores (with a liberal-threshold caveat), not as overfit. | Earlier check (chapter 11 literature researcher): no notes"

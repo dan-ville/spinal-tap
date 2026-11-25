@@ -1,0 +1,43 @@
+id: kay-2023-eccentric-rom
+title: 'Effects of Eccentric Resistance Training on Lower-Limb Passive Joint Range of Motion: A Systematic Review
+  and Meta-analysis'
+authors:
+- Kay AD
+- Baxter BA
+- Hill MW
+- Blazevich AJ
+year: 2023
+venue: Med Sci Sports Exerc 55(4):710-721
+doi: 10.1249/MSS.0000000000003085
+pmid: '36730587'
+url: https://pubmed.ncbi.nlm.nih.gov/36730587/
+design: meta-analysis
+population: Healthy humans; eccentric training studies with lower-limb passive ROM outcomes
+sample:
+  studies: 17
+  participants: 376
+read_level: abstract
+findings:
+- claim: Eccentric resistance training produced a large increase in lower-limb passive joint ROM, largest for dorsiflexion
+    and knee extension and smallest for knee flexion.
+  effect: Pooled g = 0.86 (95% CI 0.65 to 1.08), 22 outcomes; dorsiflexion 1.12 (0.78 to 1.47); knee extension 0.82
+    (0.48 to 1.17); knee flexion 0.41 (0.05 to 0.77)
+  grade: promising
+- claim: Isokinetic eccentric training produced larger ROM gains than isotonic eccentric training, and 6-8 week programmes
+    showed the largest effects.
+  effect: Isokinetic g = 1.07 (0.59 to 1.54) vs isotonic 0.77 (0.56 to 0.99); 4-5 wk 0.63; 6-8 wk 0.98; 9-14 wk 0.75
+    (0.03 to 1.46)
+  grade: speculative
+limitations:
+- Abstract-level read; many effects appear to be pre-post rather than controlled; small studies; passive ROM only.
+topics:
+- mobility/eccentric-training
+- flexibility/resistance-training
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; all numbers confirmed. Accepted manuscript (Northampton repository)
+    could not be fetched; whether g is vs control or pre-post not verified. | Prior check: chapter 7 literature researcher
+    2026-11-24;'

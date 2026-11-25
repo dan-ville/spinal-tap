@@ -1,0 +1,23 @@
+id: rhea-2002-dup
+title: A comparison of linear and daily undulating periodized programs with equated volume and intensity for strength
+authors: [Rhea MR, Ball SD, Phillips WT, Burkett LN]
+year: 2002
+venue: Journal of Strength and Conditioning Research 16(2):250-255
+doi: null
+pmid: '11991778'
+url: https://pubmed.ncbi.nlm.nih.gov/11991778/
+design: rct
+population: Men 21 +/- 2.3 y; 12 wk, 3 sets bench and leg press, 3x/wk
+sample: {studies: null, participants: 20}
+read_level: abstract
+findings:
+- claim: Daily undulating periodization (8RM/6RM/4RM within each week) produced greater bench and leg press 1RM gains than linear periodization (8RM to 6RM to 4RM over 12 weeks).
+  effect: Significant differences favouring DUP at mid and post test (values not in abstract)
+  grade: speculative
+limitations: [n = 10 per group; widely cited but small and not replicated consistently (Harries 2015 found no difference overall).]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Spot check: PubMed abstract, n = 20 (10 per group). Confirmed. | Earlier check by chapter 4 literature researcher'

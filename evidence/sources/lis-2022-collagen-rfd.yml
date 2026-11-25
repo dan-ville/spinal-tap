@@ -1,0 +1,21 @@
+id: lis-2022-collagen-rfd
+title: "Collagen and Vitamin C Supplementation Increases Lower Limb Rate of Force Development"
+authors: [Lis DM, Jordan M, Lipuma T, Smith T, Schaal K, Baar K]
+year: 2022
+venue: "Int J Sport Nutr Exerc Metab 32(2):65-73"
+doi: "10.1123/ijsnem.2020-0313"
+pmid: "34808597"
+url: https://pubmed.ncbi.nlm.nih.gov/34808597/
+design: rct
+population: "Healthy male athletes 18-25 y; 20 g hydrolysed collagen + 50 mg vitamin C or maltodextrin daily 60 min before training, 3 wk"
+sample: {studies: null, participants: 50}
+read_level: abstract
+findings:
+  - claim: "RFD fell in both groups during training but recovered to baseline by week 3 only with collagen; maximal force did not differ."
+    effect: "Change baseline to test 3 in RFD favoured collagen (p=0.036); CMJ eccentric deceleration impulse p=0.008; no difference in maximal force or squat jump"
+    grade: speculative
+limitations:
+  - "3 weeks; no tendon measurement; multiple outcomes with mixed significance; mechanism (tendon stiffness) assumed."
+topics: [connective-tissue/collagen-supplement]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

@@ -1,0 +1,41 @@
+id: cumming-2025
+title: 'Divergent strength gains but similar hypertrophy after low-load and high-load resistance exercise
+  training in trained individuals: many roads lead to Rome.'
+authors:
+- Cumming KT
+- Elvatun IC
+- Kalenius R
+- Divljak G
+- Raastad T
+- Psilander N
+- Horwath O
+year: 2025
+venue: J Appl Physiol 139(3):685-697
+doi: 10.1152/japplphysiol.00353.2025
+pmid: '40827709'
+url: https://pubmed.ncbi.nlm.nih.gov/40827709/
+design: rct
+population: Resistance-trained men and women; within-subject leg design, 3-5RM vs 20-25RM for 9 weeks
+sample:
+  studies: null
+  participants: 14
+read_level: abstract
+findings:
+- claim: In trained lifters, high- and low-load training produced similar multi-joint 1RM gains and similar
+    muscle thickness growth, but only high-load training improved single-joint 1RM.
+  effect: multi-joint 1RM +21 +/- 10% both; single-joint 1RM +9 +/- 13% (HL) vs -3 +/- 10% (LL); MT +7-8%;
+    no fibre CSA or fibre-type change
+  grade: promising
+limitations:
+- n = 14; leg-vs-leg within-subject design allows cross-education contamination between conditions; muscle
+  thickness by ultrasound.
+topics:
+- strength/load
+- strength/specificity
+- strength/training-age
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Authors conclude low and high loads give comparable adaptations. | Prior check: chapter 2 researcher 2026-11-24"

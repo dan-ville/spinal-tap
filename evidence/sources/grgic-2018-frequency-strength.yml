@@ -1,0 +1,27 @@
+id: grgic-2018-frequency-strength
+title: 'Effect of Resistance Training Frequency on Gains in Muscular Strength: A Systematic Review and Meta-Analysis'
+authors: [Grgic J, Schoenfeld BJ, Davies TB, Lazinica B, Krieger JW, Pedisic Z]
+year: 2018
+venue: Sports Medicine 48(5):1207-1220
+doi: 10.1007/s40279-018-0872-x
+pmid: '29470825'
+url: https://pubmed.ncbi.nlm.nih.gov/29470825/
+design: meta-analysis
+population: Mostly untrained adults
+sample: {studies: 22, participants: null}
+read_level: abstract
+findings:
+- claim: Strength gains rose with weekly frequency when volume was free to vary.
+  effect: ES 0.74, 0.82, 0.93 and 1.08 for 1, 2, 3 and 4+ sessions/wk; p = 0.003
+  grade: established
+- claim: In volume-equated studies frequency had no significant effect, so the authors attributed the frequency effect mainly to volume.
+  effect: Volume-equated subgroup p = 0.421; per Pelland 2026, ES 0.53 (95% CI 0.13 to 0.93) at 1/wk vs 0.80 (-0.25 to 1.86) at 2/wk
+  grade: contested
+limitations:
+- Linear models only; mostly untrained; frequency of practising the tested lift not separated from muscle-group frequency.
+topics: [strength/frequency]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch3 verification: PubMed abstract re-read; ES 0.74/0.82/0.93/1.08 (p = 0.003) and volume-equated p = 0.421 confirmed. Volume-equated ES 0.53 (1x) vs 0.80 (2x) confirmed in the published Pelland 2026 PDF (secondary). | Earlier check by chapter 3 literature researcher: Volume-equated ES values quoted from Pelland 2026 discussion (secondary)."

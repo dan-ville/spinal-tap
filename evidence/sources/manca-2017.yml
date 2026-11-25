@@ -1,0 +1,35 @@
+id: manca-2017
+title: 'Cross-education of muscular strength following unilateral resistance training: a meta-analysis.'
+authors:
+- Manca A
+- Dragone D
+- Dvir Z
+- Deriu F
+year: 2017
+venue: Eur J Appl Physiol 117(11):2335-2354
+doi: 10.1007/s00421-017-3720-z
+pmid: '28936703'
+url: https://pubmed.ncbi.nlm.nih.gov/28936703/
+design: meta-analysis
+population: RCTs of unilateral resistance training in healthy adults
+sample:
+  studies: 31
+  participants: 785
+read_level: abstract
+findings:
+- claim: Unilateral resistance training increased strength of the untrained contralateral limb by about
+    12%, more in the lower than upper limb and most with eccentric training.
+  effect: +11.9% (95% CI 9.1 to 14.8); upper limb +9.4%, lower limb +16.4%; isometric 8.2%, concentric
+    11.3%, eccentric 17.7%, isotonic-dynamic 15.9%
+  grade: established
+limitations:
+- High risk of bias across included studies (authors).
+- Percentage pooling; contralateral gain is typically about half the trained-limb gain.
+topics:
+- strength/cross-education
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Abstract re-read; numbers confirmed. Contraction-type subgroups were not formally compared (eccentric 17.7% vs isotonic-dynamic 15.9%), so 'most after eccentric training' is a point-estimate ranking. | Prior check: chapter 2 researcher 2026-11-24"

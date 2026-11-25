@@ -1,0 +1,23 @@
+id: emanuel-2022-coaches-rir
+title: 'Seeing Effort: Assessing Coaches'' Prediction of the Number of Repetitions in Reserve Before Task-Failure'
+authors: [Emanuel A, Har-Nir I, Obolski U, Halperin I]
+year: 2022
+venue: Sports Medicine - Open 8:132
+doi: 10.1186/s40798-022-00526-8
+pmid: '36273064'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9588140/
+design: cross-sectional
+population: Certified RT coaches watching videos of trainees performing sets to failure at 70-80% 1RM
+sample: {studies: null, participants: 259}
+read_level: abstract
+findings:
+- claim: Coaches watching a lifter misjudge RIR by several reps early in a set and about one rep near failure; coaching experience barely helps.
+  effect: Absolute error 4.8, 2.0 and 1.2 reps at 33%, 66% and 90% of the set; experience effect -0.020 reps/y (95% CI -0.039 to -0.0007); heavier loads -1.17 (-2.16 to -0.19)
+  grade: promising
+limitations: ['Video, not live; trainees'' sets averaged 13.9 reps.']
+topics: [methods/rpe-rir]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: 'Ch4 verification: Spot check: Europe PMC abstract and results; n = 259 coaches, absolute errors 4.8, 2.0, 1.2 reps; trainees averaged 13.9 reps. Confirmed. | Earlier check by chapter 4 literature researcher'

@@ -1,0 +1,44 @@
+id: gomes-2025-load-velocity
+title: 'Effects of concurrent training on maximal and explosive strength in trained individuals: Insights from the load-velocity
+  relationship'
+authors:
+- Gomes M
+- Fitas A
+- Santos P
+- Pezarat-Correia P
+- Mendonca GV
+year: 2025
+venue: J Sports Sci 43(17):1762-1782
+doi: 10.1080/02640414.2025.2518827
+pmid: '40512632'
+url: https://doi.org/10.1080/02640414.2025.2518827
+design: rct
+population: Trained young men (~23 y), squat 1RM >=1.5 x body mass (baseline ~1.6); E, R, CT (n=10 each); 3x/wk, 11 wk (33
+  sessions); CT = resistance then 30 min running in moderate-heavy domains
+sample:
+  studies: null
+  participants: 30
+read_level: full-text
+findings:
+- claim: 'In trained men, concurrent training roughly halved back-squat 1RM gains over 11 weeks: both groups improved equally
+    in a 5-week maximal-strength block, but only resistance-only kept improving during the following explosive-strength block.'
+  effect: '1RM baseline to post: R +15.6 +/- 3.7% vs CT +8.1 +/- 6.5% (group x time F=21.4, p=0.003); mid to post: R +6.5
+    +/- 3.7%, CT n.s.'
+  grade: promising
+- claim: Countermovement-jump gains were about halved with concurrent training; CT showed no CMJ gain during the maximal-strength block and improved only in the explosive block.
+  effect: 'CMJ height baseline to post: R +10.5 +/- 3.6% vs CT +5.4 +/- 5.6% (group x time F=11.6, p<0.001)'
+  grade: promising
+- claim: Resistance training alone reduced VO2max slightly, while concurrent training preserved aerobic thresholds.
+  effect: R VO2max -3.2 +/- 1.8% baseline to post (p=0.009); CT VT1 +6.7 +/- 6.3%
+  grade: speculative
+limitations:
+- n=10 per group; same-session order (resistance first); running 3x/wk.
+topics:
+- concurrent/explosive-strength
+- concurrent/training-status
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher - Numbers read from author-accepted PDF hosted at fisiologiadelejercicio.com (22 pages). Verification pass (ch 9): Author-accepted PDF (fisiologiadelejercicio.com) re-read. 1RM R +15.6 +/- 3.7% vs CT +8.1 +/- 6.5%; CMJ R +10.5 +/- 3.6% vs CT +5.4 +/- 5.6%; R VO2max -3.2 +/- 1.8%; baseline squat/BM 1.6-1.7 confirmed. Note: the 1RM deficit arose in the explosive block (wk 6-11), but the CMJ deficit arose in the maximal-strength block (CT gained only wk 6-11). Participants also met endurance criteria (running >=6 mo, VO2max >=50); CT = same session, RT first, 20 min rest, 30 min running; max-strength work cut to 1x/wk in block 2."

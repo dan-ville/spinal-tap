@@ -1,0 +1,21 @@
+id: helms-2023-energy-surplus
+title: "Effect of Small and Large Energy Surpluses on Strength, Muscle, and Skinfold Thickness in Resistance-Trained Individuals: A Parallel Groups Design"
+authors: [Helms ER, Spence AJ, Sousa C, Kreiger J, Taylor S, Oranchuk DJ, Dieter BP, Watkins CM]
+year: 2023
+venue: "Sports Medicine - Open 9:102"
+doi: "10.1186/s40798-023-00651-y"
+pmid: "37914977"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10620361/
+design: rct
+population: "Trained lifters of mixed experience; 8 wk, 3 d/wk; maintenance vs +5% vs +15% energy"
+sample: {studies: null, participants: 17}
+read_level: abstract
+findings:
+  - claim: "Faster body-mass gain mainly increased fat gain; it did not clearly increase muscle thickness or squat 1RM, though bench 1RM rose more in the large-surplus group."
+    effect: "Regression: BM change predicts skinfold change (BF10 = 14.3, R2 = 0.49) but only weakly biceps MT (BF10 = 1.4, R2 = 0.24); bench 1RM HIGH > MAIN (BF10 = 14.5); no group effect for MT or squat"
+    grade: speculative
+limitations:
+  - "21 randomised, 17 completed (COVID); 8 weeks; moderate training volume."
+topics: [nutrition/energy-surplus]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Spot check (abstract, PubMed): 21 randomised, 17 completers; no group effect for muscle thickness or squat 1RM; HIGH surplus increased bench 1RM more (BF10 9.9 and 14.5); body-mass change predicted skinfold change (BF10 14.3) and weakly biceps thickness (BF10 1.4, R2 0.24). Confirmed."}

@@ -1,0 +1,20 @@
+id: painter-2012-block-dup
+title: 'Strength gains: block versus daily undulating periodization weight training among track and field athletes'
+authors: [Painter KB, Haff GG, Ramsey MW, McBride J, Triplett T, Sands WA, Lamont HS, Stone ME, Stone MH]
+year: 2012
+venue: International Journal of Sports Physiology and Performance 7(2):161-169
+doi: 10.1123/ijspp.7.2.161
+pmid: '22173008'
+url: https://pubmed.ncbi.nlm.nih.gov/22173008/
+design: rct
+population: Division I track and field athletes; 10 wk
+sample: {studies: null, participants: 31}
+read_level: abstract
+findings:
+- claim: Block and DUP produced statistically similar strength gains; block achieved them with less volume load, i.e., greater 'training efficiency'.
+  effect: No significant between-group strength differences; volume load and improvement per volume load differed (P <= .05)
+  grade: speculative
+limitations: [Matched rather than randomised allocation; efficiency metric is author-defined.]
+topics: [programming/periodization, strength/periodization]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

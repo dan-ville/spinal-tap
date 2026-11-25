@@ -1,0 +1,33 @@
+id: tomlin-2001-aerobic-recovery
+title: The relationship between aerobic fitness and recovery from high intensity intermittent exercise
+authors:
+- Tomlin DL
+- Wenger HA
+year: 2001
+venue: Sports Med 31(1):1-11
+doi: 10.2165/00007256-200131010-00001
+pmid: '11219498'
+url: https://pubmed.ncbi.nlm.nih.gov/11219498/
+design: narrative-review
+population: Review of repeated-sprint and intermittent exercise studies
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Higher aerobic fitness is associated with better power recovery across repeated high-intensity bouts, via a larger
+    aerobic response, faster PCr resynthesis and possibly faster lactate removal; the link is stronger for large-muscle-mass
+    efforts.
+  effect: Narrative review; no pooled effect
+  grade: promising
+limitations:
+- Mostly cycling/sprint intermittent tasks with short rests, not heavy resistance exercise with 2-5 min rests.
+topics:
+- conditioning/aerobic
+- conditioning/recovery
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 9 literature researcher. Verification pass (ch 9): PubMed abstract re-read; narrative review, confirmed."

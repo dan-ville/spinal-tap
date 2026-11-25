@@ -1,0 +1,55 @@
+id: konrad-2025-detraining
+title: 'Detraining Effects Following Chronic Stretching Training on Range of Motion: A Systematic Review and Meta-Analysis'
+authors:
+- Konrad A
+- Warneke K
+- Donti O
+- Panidi I
+- Gaspari V
+- Nakamura M
+- Thomas E
+- Bogdanis GC
+year: 2025
+venue: Sports Med Open 11(1):141
+doi: 10.1186/s40798-025-00935-5
+pmid: '41269471'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC12638565/
+design: meta-analysis
+population: Healthy participants of all ages (almost half of studies under 18 y; 3 athlete samples) in 5-15-week stretching
+  programmes followed by 2-6 weeks of detraining
+sample:
+  studies: 13
+  participants: 556
+read_level: full-text
+findings:
+- claim: ROM gained from stretching (mean ~8.7 weeks) declined only slightly over 2-6 weeks (mean ~4.3) of cessation
+    and stayed above baseline.
+  effect: Pre-post ES = 0.93 (95% CI 0.54 to 1.31), GRADE high; post-detraining ES = -0.41 (-0.73 to -0.09), GRADE
+    low; pre-detraining ES = 0.55 (0.33 to 0.77), GRADE low
+  grade: promising
+- claim: Participants who stayed active in their sport during detraining did not lose ROM significantly, while inactive
+    participants did; higher weekly stretching frequency moderated post-to-detraining change.
+  effect: Inactive post-detraining ES = -0.52 (p = 0.04); active n.s. (p = 0.09); pre-detraining 0.38 (inactive) vs
+    0.93 (active)
+  grade: speculative
+limitations:
+- 13 small studies, many in youth; detraining windows only 2-6 weeks, so the rate and end-point of decay are unknown.
+- 'Minimum maintenance dose untested except one older trial (Reid and Kim: 3 sessions/week maintained, 1/week did
+  not; secondary).'
+topics:
+- flexibility/detraining
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/06-flexibility-and-range-of-motion.md
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: spot check: pre-to-detraining ES 0.55 (0.33 to 0.77) confirmed from abstract; chapter
+    7 notes misquote it as 0.47. | Prior check: verification pass 2026-11-24; Ch6 verification: full text (PMC12638565)
+    re-read; 13 studies, 556 participants, pre-post 0.93 (0.54 to 1.31) GRADE high, post-detraining -0.41 (-0.73 to
+    -0.09), pre-detraining 0.55 (0.33 to 0.77), inactive -0.52 (p = 0.04), active n.s. (p = 0.09) confirmed. At least
+    6 of 13 studies were in children or adolescents (mean ages 5.9-16.5 y). The inactive subgroup''s printed CI (-0.97
+    to -0.39) is inconsistent with p = 0.04. ''Active participants maintained ROM'' rests on a non-significant decrease
+    (p = 0.09), i.e. absence of evidence. | Prior check: chapter 6 literature researcher 2026-11-24; Full text read;
+    effects transcribed from results/tables.'

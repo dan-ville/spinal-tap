@@ -1,0 +1,24 @@
+id: grgic-2018-caffeine
+title: "Effects of caffeine intake on muscle strength and power: a systematic review and meta-analysis"
+authors: [Grgic J, Trexler ET, Lazinica B, Pedisic Z]
+year: 2018
+venue: "Journal of the International Society of Sports Nutrition 15:11"
+doi: "10.1186/s12970-018-0216-0"
+pmid: "29527137"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC5839013/
+design: meta-analysis
+population: "Placebo-controlled crossover studies of acute caffeine on 1RM and vertical jump; mostly young men"
+sample: {studies: 20, participants: null}
+read_level: full-text
+findings:
+  - claim: "Acute caffeine produced small improvements in 1RM strength and jump power."
+    effect: "Strength SMD 0.20 (95% CI 0.03 to 0.36), 10 studies; power SMD 0.17 (0.00 to 0.34), 10 studies"
+    grade: established
+  - claim: "The strength effect was significant for the upper body but not the lower body."
+    effect: "Upper SMD 0.21 (0.02 to 0.39); lower SMD 0.15 (-0.05 to 0.34)"
+    grade: promising
+limitations:
+  - "Small number of studies per outcome; blinding effectiveness rarely checked; few women."
+topics: [nutrition/caffeine]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) and abstract re-read: 10 strength and 10 power studies; 1RM SMD 0.20 (0.03 to 0.36); power 0.17 (0.00 to 0.34); upper 0.21 (0.02 to 0.39); lower 0.15 (-0.05 to 0.34), p = 0.147. Confirmed."}

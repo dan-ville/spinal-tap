@@ -1,0 +1,46 @@
+id: bourne-2017-nordic-architecture
+title: 'Impact of the Nordic hamstring and hip extension exercises on hamstring architecture and morphology: implications
+  for injury prevention'
+authors:
+- Bourne MN
+- Duhig SJ
+- Timmins RG
+- Williams MD
+- Opar DA
+- Al Najjar A
+- Kerr GK
+- Shield AJ
+year: 2017
+venue: Br J Sports Med 51(5):469-477
+doi: 10.1136/bjsports-2016-096130
+pmid: '27660368'
+url: https://pubmed.ncbi.nlm.nih.gov/27660368/
+design: rct
+population: Recreationally active male athletes, 22 y; Nordic vs 45-degree hip extension vs control, 10 wk
+sample:
+  studies: null
+  participants: 30
+read_level: abstract
+findings:
+- claim: Both Nordic hamstring and hip-extension training lengthened biceps femoris long-head fascicles by similar
+    amounts versus baseline.
+  effect: Mid-training d = 1.12-1.39; post-training d = 1.77-2.17 (p < 0.001); between exercises d = 0.49-0.80, p
+    = 0.279-0.976
+  grade: promising
+- claim: Hip-extension training grew the biceps femoris long head more than Nordic training; both grew semitendinosus
+    similarly.
+  effect: BFlh volume HE vs NHE d = 1.03 (p = 0.037); semitendinosus vs control d = 2.16-2.50
+  grade: promising
+limitations:
+- n = 10 per group; 2D ultrasound with extrapolated fascicle length; erratum published 2019.
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- hypertrophy/exercise-selection
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; n = 30 recreationally active men; post d 1.77-2.17; BFlh volume
+    HE vs NHE d 1.03 confirmed. | Prior check: chapter 7 literature researcher 2026-11-24;'

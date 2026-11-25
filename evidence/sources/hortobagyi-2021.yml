@@ -1,0 +1,43 @@
+id: hortobagyi-2021
+title: Functional relevance of resistance training-induced neuroplasticity in health and disease.
+authors:
+- Hortobagyi T
+- Granacher U
+- Fernandez-Del-Olmo M
+- Howatson G
+- Manca A
+- Deriu F
+- Taube W
+- Gruber M
+- Marquez G
+- Lundbye-Jensen J
+- Colomer-Poveda D
+year: 2021
+venue: Neurosci Biobehav Rev 122:79-91
+doi: 10.1016/j.neubiorev.2020.12.019
+pmid: '33383071'
+url: https://pubmed.ncbi.nlm.nih.gov/33383071/
+design: systematic-review
+population: Studies of resistance training with activation, stimulation or imaging outcomes across the
+  lifespan
+sample:
+  studies: null
+  participants: null
+read_level: abstract
+findings:
+- claim: Across activation, brain and peripheral-nerve stimulation and imaging data, increases in motor
+    performance and measured neuroplasticity tend to be uncoupled, so a causal link between measured neural
+    changes and strength gain is inconclusive.
+  effect: qualitative conclusion; authors call for causal mediation designs
+  grade: promising
+limitations:
+- Abstract-level read; synthesis method not fully captured.
+topics:
+- strength/neural-adaptations
+- strength/methods
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

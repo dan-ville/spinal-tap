@@ -1,0 +1,44 @@
+id: timmins-2016-ecc-con-architecture
+title: Architectural Changes of the Biceps Femoris Long Head after Concentric or Eccentric Training
+authors:
+- Timmins RG
+- Ruddy JD
+- Presland J
+- Maniar N
+- Shield AJ
+- Williams MD
+- Opar DA
+year: 2016
+venue: Med Sci Sports Exerc 48(3):499-508
+doi: 10.1249/MSS.0000000000000795
+pmid: '26460634'
+url: https://pubmed.ncbi.nlm.nih.gov/26460634/
+design: rct
+population: Men; 6 wk concentric-only vs eccentric-only isokinetic knee-flexor training, then 28 d detraining
+sample:
+  studies: null
+  participants: 28
+read_level: abstract
+findings:
+- claim: Eccentric-only training lengthened and concentric-only training shortened biceps femoris long-head fascicles,
+    showing contraction-mode-specific architectural change.
+  effect: Eccentric d = 2.65 to 2.98 (longer); concentric d = -1.62 to -0.96 (shorter), P < 0.05, at all contraction
+    intensities
+  grade: promising
+- claim: The eccentric-induced fascicle lengthening returned to baseline after 28 days of detraining.
+  effect: Detraining d = -1.73 to -1.55 in the eccentric group
+  grade: promising
+limitations:
+- 2D ultrasound with fascicle extrapolation; isokinetic dynamometer training, not free-weight practice; men only.
+topics:
+- mobility/eccentric-training
+- hypertrophy/architecture
+- mobility/detraining
+cited_in:
+- research/theses/strength-and-mobility/chapters/07-strength-through-range.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: 'Ch7 verification: PubMed abstract re-read; ecc d 2.65-2.98, con d -1.62 to -0.96, detraining d -1.73 to
+    -1.55 with return to baseline at 28 d confirmed. n = 14 per group, men. | Prior check: chapter 7 literature researcher
+    2026-11-24;'

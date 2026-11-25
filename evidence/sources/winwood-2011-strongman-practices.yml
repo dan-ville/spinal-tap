@@ -1,0 +1,39 @@
+id: winwood-2011-strongman-practices
+title: The strength and conditioning practices of strongman competitors
+authors:
+- Winwood PW
+- Keogh JW
+- Harris NK
+year: 2011
+venue: Journal of Strength and Conditioning Research 25(11):3118-3128
+doi: 10.1519/JSC.0b013e318212daea
+pmid: '21993033'
+url: https://pubmed.ncbi.nlm.nih.gov/21993033/
+design: cross-sectional
+population: Strongman competitors (83 local, 65 national, 19 international)
+sample:
+  studies: null
+  participants: 167
+read_level: abstract
+findings:
+- claim: 80% of strongman competitors used some form of periodization; nearly all combined maximal strength (97%), power (90%)
+    and hypertrophy (74%) work, Olympic lifts (88%), and accommodating resistance (bands 56%, chains 38%).
+  effect: Survey percentages
+  grade: convention
+- claim: The farmer's walk, log press and stones were the strongman events most commonly performed in general training sessions,
+    i.e. strongman athletes' 'conditioning' is largely implement-based event practice rather than conventional aerobic work.
+  effect: Survey ranking (167 competitors); no conditioning volumes reported in abstract
+  grade: convention
+limitations:
+- Self-report; 2011 practices.
+topics:
+- practice/surveys
+- programming/periodization
+- conditioning/strongman
+cited_in:
+- research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: verification pass
+  notes: "Earlier: chapter 4 literature researcher - Chapter 9 researcher added event-use finding (abstract). Verification pass (ch 9): PubMed abstract re-read; 167 competitors; farmer's walk, log press and stones most used, confirmed."

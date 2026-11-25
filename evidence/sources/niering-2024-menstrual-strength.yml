@@ -1,0 +1,21 @@
+id: niering-2024-menstrual-strength
+title: "The Influence of Menstrual Cycle Phases on Maximal Strength Performance in Healthy Female Adults: A Systematic Review with Meta-Analysis"
+authors: [Niering M, Wolf-Belala N, Seifert J, Tovar O, Coldewey J, Kuranda J, Muehlbauer T]
+year: 2024
+venue: "Sports (Basel) 12(1):31"
+doi: "10.3390/sports12010031"
+pmid: "38251305"
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC10818650/
+design: meta-analysis
+population: "Healthy eumenorrheic adult women; maximal isometric, isokinetic and dynamic strength compared between the early follicular phase and other phases"
+sample: {studies: 22, participants: 433}
+read_level: abstract
+findings:
+  - claim: "Maximal strength was lower in the early follicular phase, with medium effects for isometric strength and small effects for isokinetic and dynamic strength."
+    effect: "Isometric weighted mean SMD 0.60 favouring late follicular (7 studies); isokinetic 0.39 favouring ovulation (5 studies); dynamic 0.14 favouring late follicular (3 studies)"
+    grade: contested
+limitations:
+  - "Weighted mean SMDs from few studies per contrast (3-7); confidence intervals and phase-verification quality not given in the abstract; disagrees with mcnulty-2020-menstrual and colenso-semple-2023-menstrual."
+topics: [frontiers/menstrual-cycle]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Ch11 verification: found while trying to refute claim 8; PubMed abstract read. Contrary synthesis to the 'trivial effect' reading."}

@@ -1,0 +1,43 @@
+id: shamim-2018-protein-concurrent
+title: 'Adaptations to Concurrent Training in Combination with High Protein Availability: A Comparative Trial in Healthy,
+  Recreationally Active Men'
+authors:
+- Shamim B
+- Devlin BL
+- Timmins RG
+- Tofari P
+- Lee Dow C
+- Coffey VG
+- Hawley JA
+- Camera DM
+year: 2018
+venue: Sports Med 48:2869-2883
+doi: 10.1007/s40279-018-0999-9
+pmid: '30341593'
+url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6244626/
+design: rct
+population: Recreationally active men, 25 y; 12 wk; 2 g/kg/d protein; RES (n=10), END (n=10), CET 6 sessions/wk (n=12)
+sample:
+  studies: null
+  participants: 32
+read_level: full-text
+findings:
+- claim: With a high-protein diet, concurrent training matched resistance-only gains in leg-press 1RM, lean mass and vastus
+    lateralis volume.
+  effect: Leg press 1RM +24 +/- 13% (CET) vs +33 +/- 16% (RES), no group difference; lean mass ~+4% both; VL volume +15% vs
+    +11%
+  grade: promising
+- claim: Anaerobic power tended to be lower after concurrent training.
+  effect: Wingate peak power 10.8 +/- 1.7 (CET) vs 12.5 +/- 1.6 W/kg (RES) at POST, p=0.053
+  grade: speculative
+limitations:
+- Not powered for equivalence; no low-protein comparator, so the role of protein is inferred; recreationally active men.
+topics:
+- concurrent/nutrition
+- concurrent/hypertrophy
+cited_in:
+- research/theses/strength-and-mobility/chapters/09-concurrent-training.md
+checked:
+  date: '2026-11-24'
+  by: chapter 9 literature researcher
+  notes: ''

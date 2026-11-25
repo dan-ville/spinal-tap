@@ -1,0 +1,31 @@
+id: folland-2021
+title: Muscle Growth Does Contribute to the Increases in Strength that Occur after Resistance Training.
+authors:
+- Folland JP
+- Balshaw TG
+year: 2021
+venue: Med Sci Sports Exerc 53(9):2006-2010
+doi: 10.1249/MSS.0000000000002732
+pmid: '34398063'
+url: https://pubmed.ncbi.nlm.nih.gov/34398063/
+design: other
+population: Debate commentary
+sample:
+  studies: null
+  participants: null
+read_level: secondary
+findings:
+- claim: Debate piece arguing that muscle growth contributes to training-induced strength gains, drawing
+    on MRI-based longitudinal and cross-sectional data from the authors group.
+  effect: argument; content inferred from title and the authors primary studies
+  grade: contested
+limitations:
+- No abstract; full text not read.
+topics:
+- strength/hypertrophy-strength
+cited_in:
+- research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
+checked:
+  date: '2026-11-24'
+  by: chapter 2 researcher
+  notes: ''

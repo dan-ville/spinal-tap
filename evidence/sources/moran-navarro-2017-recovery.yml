@@ -1,0 +1,21 @@
+id: moran-navarro-2017-recovery
+title: "Time course of recovery following resistance training leading or not to failure"
+authors: [Moran-Navarro R, Perez CE, Mora-Rodriguez R, de la Cruz-Sanchez E, Gonzalez-Badillo JJ, Sanchez-Medina L, Pallares JG]
+year: 2017
+venue: "European Journal of Applied Physiology 117(12):2387-2399"
+doi: "10.1007/s00421-017-3725-7"
+pmid: "28965198"
+url: https://pubmed.ncbi.nlm.nih.gov/28965198/
+design: crossover
+population: "Resistance-trained men; bench press and full squat protocols 3x5(10), 6x5(10), 3x10(10); measures from -12 h to +72 h"
+sample: {studies: null, participants: 10}
+read_level: abstract
+findings:
+  - claim: "Sets to failure caused a larger acute drop in jump height and bar velocity and slowed recovery by 24-48 h compared with volume-matched sets stopping halfway."
+    effect: "Recovery from 3x5(10) and 6x5(10) significantly faster than 3x10(10) between 24 and 48 h; ammonia, GH, CK and other markers elevated longer after failure"
+    grade: promising
+limitations:
+  - "n = 10 trained men; single exercise pair; velocity against fixed loads as the recovery marker."
+topics: [recovery/time-course, monitoring/velocity]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 10 resistance-trained men; 3x5(10), 6x5(10), 3x10(10) in bench press and full squat; failure slowed recovery of CMJ and velocity (V1 load and 75% 1RM) up to 24-48 h; ammonia, GH and CK followed different courses. Confirmed. Note: velocity was measured against fixed loads; volume load was not a comparator."}

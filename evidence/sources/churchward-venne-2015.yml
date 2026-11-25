@@ -1,0 +1,24 @@
+id: churchward-venne-2015
+title: There Are No Nonresponders to Resistance-Type Exercise Training in Older Men and Women
+authors: [Churchward-Venne TA, Tieland M, Verdijk LB, Leenders M, Dirks ML, de Groot LC, van Loon LJ]
+year: 2015
+venue: J Am Med Dir Assoc 16(5):400-11
+doi: 10.1016/j.jamda.2015.01.071
+pmid: '25717010'
+url: https://pubmed.ncbi.nlm.nih.gov/25717010/
+design: cohort
+population: Older (>65 y) men and women, supervised RT, retrospective pooled analysis
+sample: {studies: null, participants: 110}
+read_level: abstract
+findings:
+- claim: Every participant improved on at least one outcome, and the prevalence of non-response fell as training continued from 12 to 24 weeks.
+  effect: Lean mass +0.9 kg at 12 wk (range -3.3 to +5.4), +1.1 kg at 24 wk; leg press 1RM +33 kg (12 wk), +50 kg (24 wk); n=110 at 12 wk, 85 at 24 wk
+  grade: promising
+limitations:
+- No control group; 'response on at least one outcome' is a lenient criterion that random error alone can satisfy; retrospective.
+topics: [frontiers/individual-response, frontiers/ageing]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+checked:
+  date: 2026-11-24
+  by: verification pass
+  notes: "Ch11 verification: PubMed abstract re-read; 12 wk n = 110, 24 wk n = 85; lean mass +0.9 kg (-3.3 to +5.4) and +1.1 kg (-1.8 to +9.2); leg press +33 kg (-36 to +87) and +50 kg (-28 to +145); every participant improved on at least one outcome. Confirmed. | Earlier check (chapter 11 literature researcher): no notes"
