@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Supplement not timed to the training session; recreationally active men only."
 topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 15 g/d CP (n=19) vs placebo (n=20), 15 wk lower-body RT 3x/wk, MRI CSA; no between-group differences (0.365 <= P <= 0.877); stiffness +17.3% vs +20.9%. Confirmed. Largest training trial with MRI tendon CSA; Miyamoto 2025 (n=50, MRI) is larger but had no training. | Prior check: chapter 8 literature researcher"}

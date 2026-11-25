@@ -18,5 +18,5 @@ limitations:
   - "Endurance-type kicking, not heavy resistance; stable-isotope FSR reflects a labile pool, which may overstate bulk-matrix turnover (see heinemeier-2013-tendon-14c)."
   - "Single study: n=8 and n=6 young men, separate groups per time point; one exercise mode (1 h kicking at 67% Wmax). Grade lowered from established to promising by verification pass."
 topics: [connective-tissue/tendon, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; numbers confirmed. Full text (PMC1474228) blocked by a browser check. Grade lowered to promising: one small study with a non-resistance exercise; the time course has not been replicated in tendon proper after heavy resistance exercise. | Prior check: chapter 8 literature researcher"}

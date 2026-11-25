@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Co-author affiliated with a collagen manufacturer's research institute (CRI, Kiel); CSA only significant outcome; untrained-to-moderately-active men."
 topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: n=40, 5 g/d SCP, 14 wk; Achilles CSA +11.0% vs +4.7% (p=0.002); stiffness and strength no between-group difference. Confirmed. Author list includes S. Oesser (collagen-manufacturer research institute). | Prior check: chapter 8 literature researcher"}

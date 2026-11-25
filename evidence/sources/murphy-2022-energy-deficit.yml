@@ -20,5 +20,5 @@ findings:
 limitations:
   - "Few directly controlled trials; Analysis B compares across studies; mixed populations including overweight; lean mass by DXA (water, glycogen shifts in deficit)."
 topics: [nutrition/energy-deficit]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read; full text blocked (Wiley challenge page) in this pass. Numbers confirmed. Interpretation caveat: strength ES -0.31 (p = 0.28) is a non-significant negative point estimate from few directly controlled trials, i.e. 'not shown to be impaired', not 'spared'. A secondary summary reports 59 studies and 1,495 participants overall (not verified). | Earlier note (chapter 10 literature researcher): e-pub Oct 2021, print 2022; number of studies not stated in abstract"}

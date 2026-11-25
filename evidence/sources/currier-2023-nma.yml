@@ -25,7 +25,7 @@ limitations:
 - 'Risk of bias moderate-high (strength: 22% high, 67% moderate, 1% low).'
 - Excludes well-trained athletes; rankings sensitive in threshold analysis for strength (HM2 replaced HM3 in 60/65 sensitive comparisons).
 topics: [strength/load, hypertrophy/load, strength/volume, hypertrophy/volume, strength/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

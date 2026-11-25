@@ -17,5 +17,5 @@ findings:
 limitations:
 - Superseded by the authors' 2019 update with more studies, which found no meaningful volume-equated effect.
 topics: [hypertrophy/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

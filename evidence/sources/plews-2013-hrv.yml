@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Endurance athletes only; no strength-athlete data."
 topics: [monitoring/hrv]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: in elite endurance athletes both increases and decreases in HRV have been associated with negative adaptation; recommends appropriate averaging and specific indices; narrative with case examples. Confirmed."}

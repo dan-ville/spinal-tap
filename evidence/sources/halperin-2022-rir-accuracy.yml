@@ -22,7 +22,7 @@ findings:
   grade: promising
 limitations: [Very high heterogeneity; exploratory., 'Pooled 262 effects from 12 clusters; how task failure was explained and confirmed varied between studies, a likely source of the I2 ~98%.', 'Numbers read from the SportRxiv preprint version (June 2021), which matches the published abstract.']
 topics: [methods/measurement, strength/proximity-to-failure, methods/rpe-rir, programming/autoregulation]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/dose-response.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

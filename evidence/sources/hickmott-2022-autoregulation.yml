@@ -32,7 +32,7 @@ limitations:
 - Autoregulated groups often trained at higher intensity than percentage groups, confounding method with dose.
 - 'Fixed-effect model applied to many comparisons from the same participants (load autoregulation: 247 comparisons from 133 participants; VL strength: 457 comparisons from 308), the same dependency problem criticised in Zhang X 2021; CIs are therefore too narrow.'
 topics: [programming/autoregulation, strength/velocity-based-training, hypertrophy/proximity-to-failure]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

@@ -17,5 +17,5 @@ findings:
 limitations:
 - Abstract read; the statement's specific dose recommendations were not extracted.
 topics: [frontiers/ageing]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/notes/frontiers.md]
 checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

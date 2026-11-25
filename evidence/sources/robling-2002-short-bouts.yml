@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Animal model with controlled loading; direct human trials of bout distribution are lacking."
 topics: [connective-tissue/bone, connective-tissue/short-bout-loading]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 26 adult female rats, 360 cycles/d 3 d/wk for 16 wk; 4 x 90 (3 h apart) vs 1 x 360: ultimate force +87% vs +64%, energy to failure +165% vs +94%; aBMD/BMC +5-12%. Confirmed. | Prior check: chapter 8 literature researcher"}

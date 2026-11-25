@@ -16,7 +16,7 @@ findings:
   grade: contested
 limitations: [Afonso 2019 found all 11 strength studies used constant-load comparators and several did not test periodization at all., Huge SD around the pooled effect.]
 topics: [programming/periodization, strength/periodization]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

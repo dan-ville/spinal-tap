@@ -20,7 +20,7 @@ findings:
 limitations:
 - Few studies above 10 sets/week at the time; mixed training status; percentage gains derived from mixed measures.
 topics: [hypertrophy/volume]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

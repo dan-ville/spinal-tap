@@ -18,5 +18,5 @@ limitations:
   - "Only six trials, mostly specific programmes (e.g. Nordic hamstring, shoulder); 'high' strength of evidence claimed by authors despite few events; not strength athletes."
   - "Six trials, of which four are the strength-training trials of lauersen-2014-injury-prevention: the two estimates are not independent. The dose-response is a post-hoc meta-regression across 6 trials; participants aged 12-40 y, mostly team sports."
 topics: [injury/strength-training-prevention]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 6 RCTs, 7738 participants, 177 injuries, RR 0.338 (0.238-0.480). Confirmed. BMJ and repository PDFs not reachable. | Prior check: chapter 8 literature researcher"}

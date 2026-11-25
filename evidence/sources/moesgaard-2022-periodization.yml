@@ -29,7 +29,7 @@ limitations:
 - Full text not reachable (publisher host blocked); heterogeneity, risk of bias and study durations not verified here.
 - The trained-only UP advantage is not reproduced by the larger Zhang Z 2026 synthesis, whose training-experience subgroups show no LP-UP difference in trained participants (upper body SMD 0.03, -0.34 to 0.40, 12 studies; squat SMD -0.02, -0.22 to 0.18, 15 studies).
 topics: [programming/periodization, strength/periodization, hypertrophy/periodization]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

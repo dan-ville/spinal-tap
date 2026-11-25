@@ -20,5 +20,5 @@ findings:
 limitations:
   - "Cross-sectional; self-selection; the 'anabolic window' (0.2-0.8 MPa, 0.1-1 Hz) is extrapolated from animal and tissue models."
 topics: [connective-tissue/disc]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC5396190) available; direction and the 2 m/s accelerometry finding confirmed. The +11.4%/+9.2% T2 figures could not be located in the XML text (likely in figures/tables); not re-verified. | Prior check: chapter 8 literature researcher"}

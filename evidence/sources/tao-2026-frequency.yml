@@ -18,7 +18,7 @@ limitations:
 - Abstract only (read on ECU repository); volume equation status of the strength effect not stated in the abstract; equal-volume muscle-mass subgroup g = 0.01 per Boutagy 2026.
 - The headline strength g = -0.17 is not stated to be volume-equated; Boutagy 2026 (v4, Section 4.4) quotes Tao's equal-volume strength estimate as g = -0.24 (secondary, unverified). Boutagy also reports that Tao's change-score and contrast-coding choices inflated per-trial SMDs and heterogeneity.
 topics: [strength/frequency, hypertrophy/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

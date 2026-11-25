@@ -20,5 +20,5 @@ findings:
 limitations:
 - Six studies pooled; categorical volume bands hide within-band differences; triceps result may reflect uncounted indirect pressing volume.
 topics: [hypertrophy/volume]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: SMDs for each muscle quoted from Pelland 2026 introduction (secondary).}

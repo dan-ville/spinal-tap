@@ -20,5 +20,5 @@ findings:
 limitations:
   - "Core samples only, from forensic donors with unknown training history; does not exclude peripheral or non-collagenous turnover; cannot resolve training-induced turnover in athletes."
 topics: [connective-tissue/tendon, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC3633810) re-read. 28 forensic Achilles core samples, 4 muscle. Tendon 14C matched the atmosphere a median 8 y after birth; the '17 years' figure is the authors' model (formation during height growth, 0-17 y moving average), not a directly measured age. Core samples only; donors' activity unknown; three samples deviated (possible high turnover). Animal work (eLife 2020, rat Achilles) shows faster turnover in the interfascicular matrix than in fascicles. | Prior check: chapter 8 literature researcher"}

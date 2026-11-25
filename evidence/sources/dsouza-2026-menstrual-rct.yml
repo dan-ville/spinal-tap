@@ -20,7 +20,7 @@ findings:
 limitations:
 - n = 24 with four conditions spread across two legs per person (each participant contributes two of four conditions); previously untrained or recreationally active women (no lower-body RT for >= 6 months); unilateral quadriceps model; three cycles only; one participant with luteal-phase deficiency and two with a cycle > 35 d kept in the ITT analysis; same McMaster group as colenso-semple-2025-mps. Volume (issue) and page numbers not checked.
 topics: [frontiers/menstrual-cycle]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

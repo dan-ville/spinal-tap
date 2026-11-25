@@ -1,0 +1,28 @@
+id: lee-2020
+title: Stretching and strength
+authors:
+- Lee C
+year: 2020
+venue: Sports Med 1:1
+doi: null
+pmid: null
+url: https://example.org/lee-2020
+design: rct
+population: Adults
+sample:
+  studies: null
+  participants: 40
+read_level: abstract
+findings:
+- claim: No effect on strength.
+  effect: no difference
+  grade: speculative
+limitations: []
+topics:
+- flexibility/strength
+cited_in:
+- research/theses/demo/chapters/01-intro.md
+checked:
+  date: '2026-11-24'
+  by: test
+  notes: ''

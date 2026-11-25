@@ -24,5 +24,5 @@ limitations:
   - "Numbers not retrieved: the open-access repository PDF returned a browser check; abstract only."
   - "Mostly untrained participants; TMS outcomes heterogeneous in protocol and contraction state."
 topics: [strength/corticospinal, strength/neural-adaptations]
-cited_in: [research/theses/strength-and-mobility/verification/neuromuscular-basis-of-strength.md]
+cited_in: [research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md, research/theses/strength-and-mobility/verification/neuromuscular-basis-of-strength.md]
 checked: {date: '2026-11-24', by: verification pass, notes: "Added by the chapter 2 verification pass as a newer meta-analysis that contradicts kidgell-2017 on SICI and qualifies its corticospinal-excitability conclusion."}

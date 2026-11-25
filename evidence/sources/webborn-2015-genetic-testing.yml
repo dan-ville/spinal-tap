@@ -17,7 +17,7 @@ findings:
 limitations:
 - 2015; predates polygenic-score work, though the 2026 conference summary reached the same practical conclusion.
 topics: [frontiers/genetics-omics]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

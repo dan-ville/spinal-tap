@@ -24,5 +24,5 @@ limitations:
   - "SMDs are pre-post within-group effects; small samples (6-15 per study); 35 of 37 interventions <=14 weeks; few trained participants."
   - "Only 5 low-intensity interventions, so the intensity contrast rests on a small comparator set."
 topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md, research/theses/strength-and-mobility/verification/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC4532714) re-read: 27 studies, 37 interventions, 264 participants; stiffness SMD 0.70 (0.51, 0.88), modulus 0.69 (0.36, 1.03), CSA 0.24 (0.07, 0.42); >70% intensity 0.90 (0.71, 1.08; N=27) vs 0.04 (-0.46, 0.53; N=5); isometric 0.95, con-ecc 0.82, ecc 1.04 confirmed. Pre-post within-group SMDs; mean intervention 12.9 +/- 4.5 wk, so the small CSA effect may partly reflect short durations (authors' caveat). | Prior check: chapter 8 literature researcher"}

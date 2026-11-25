@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Small groups (14, 12, 13); healthy young adults; one tendon."
 topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: groups N=14, 12, control 13; 14 wk, 4x/wk; ~6.5% strain; 3-s reference: stiffness +57%, modulus +51%, CSA +4.2%; 12-s: +25%, +17%, CSA +5.3%; hopping: stiffness trend P=0.08, CSA P=0.09. Confirmed. CSA rose slightly more with 12-s holds. Full text not retrievable (publisher page returned a non-PDF page). Single within-person trial from one lab; unreplicated. | Prior check: chapter 8 literature researcher"}

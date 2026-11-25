@@ -19,7 +19,7 @@ findings:
   grade: established
 limitations: [Velocity loss changes both proximity to failure and volume load; mostly Smith-machine squat/bench studies from few labs., Multilevel meta-regression handled multiple effects per study; still mostly 6-8-wk interventions.]
 topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure, programming/autoregulation, strength/velocity-based-training, technology/velocity-based-training]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/dose-response.md, research/theses/strength-and-mobility/notes/frontiers.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

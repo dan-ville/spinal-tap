@@ -17,5 +17,5 @@ findings:
 limitations:
   - "n=10; PINP only at 4 h; authors from the same group as the original study."
 topics: [connective-tissue/collagen-supplement]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

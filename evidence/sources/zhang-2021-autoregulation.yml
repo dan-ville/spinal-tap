@@ -22,7 +22,7 @@ findings:
   grade: speculative
 limitations: ['Only 4 of 8 studies were RCTs; two APRE studies were non-randomised (Mann 2010, Mann thesis) and drive the APRE result.', 'Multiple outcomes from the same participants pooled as independent reports under a fixed-effect model, inflating precision.', No blinding in any study; PEDro 4-6; several 1RMs estimated from formulas.]
 topics: [programming/autoregulation]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

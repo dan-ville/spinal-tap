@@ -19,7 +19,7 @@ findings:
   grade: speculative
 limitations: ['Argument, not data; proponents (Cunanan 2018, Stone 2021) contest the reading of Selye.']
 topics: [programming/periodization, programming/critique]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

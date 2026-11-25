@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Team sports only; heterogeneous items and scales."
 topics: [monitoring/wellness]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text read via NCBI PMC (efetch) and abstract: 21 team-sport studies; associations with load from none to very large, predominantly trivial to moderate in the largest datasets; measurement properties need to be established. Confirmed."}

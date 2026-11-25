@@ -28,5 +28,5 @@ limitations:
 - PUOS is not an upper limit; data at very high per-session volumes are sparse (12 studies with >=10 sets/session).
 - Not checked whether a peer-reviewed version appeared by Nov 2026.
 topics: [hypertrophy/volume, strength/volume, hypertrophy/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: Read preprint PDF; numbers from Sections 4.5-4.6 and Table 1.}

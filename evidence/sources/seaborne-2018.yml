@@ -35,7 +35,8 @@ topics:
 - frontiers/genetics-omics
 cited_in:
 - research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
-- research/theses/strength-and-mobility/chapters/11-frontiers.md
+- research/theses/strength-and-mobility/notes/frontiers.md
+- research/theses/strength-and-mobility/notes/hypertrophy-methods.md
 checked:
   date: '2026-11-24'
   by: verification pass

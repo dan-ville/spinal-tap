@@ -1,0 +1,16 @@
+{
+  "name": "freeweights",
+  "private": true,
+  "type": "module",
+  "description": "Free Weights: open-source, evidence-checked fitness and health. Research, evidence and the apps built on them.",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "npm test --workspaces --if-present",
+    "evidence": "freeweights-evidence"
+  }
+}

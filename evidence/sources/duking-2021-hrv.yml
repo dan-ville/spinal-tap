@@ -17,7 +17,7 @@ findings:
 limitations:
 - Endurance training only; fixed-effect model. Two small RCTs of HRV-guided recovery in resistance training exist (de-oliveira-2019-hrv-rt, 20 untrained young men; bittencourt-2024-hrv-rt, 21 older women), both null; none in strength-trained people.
 topics: [technology/wearables, frontiers/individual-response]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

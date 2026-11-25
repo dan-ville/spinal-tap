@@ -23,5 +23,5 @@ findings:
 limitations:
   - "Short trials; few women; absolute kg effects depend on exercise tested."
 topics: [nutrition/creatine]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read. Confirmed: upper +4.43 kg (3.12 to 5.75), I2 0%; lower +11.35 kg (8.44 to 14.25), I2 0%; men upper 4.95 (3.52 to 6.38), lower 11.68 (8.60 to 14.76); women upper 1.54 (-1.81 to 4.89), lower 8.03 (-0.83 to 16.90), p = 0.076; 2 female-only studies (40 women) plus 1 mixed (9 women). D.G. Candow (co-author) declares creatine-industry ties."}

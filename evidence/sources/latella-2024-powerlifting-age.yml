@@ -17,7 +17,7 @@ findings:
 limitations:
 - Retrospective competition data; survivor bias (those who keep competing); no training records.
 topics: [frontiers/ageing, frontiers/sex-differences]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

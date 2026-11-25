@@ -22,7 +22,7 @@ findings:
   grade: promising
 limitations: ['n = 10-11 per group, 8 weeks, men only; magnitude-based inference.', 'Percentage group ran at low RPE (5.8 on bench), so the comparison partly tests under-loading.', 'The heavier-load explanation fits the bench press (84.1% vs 78.7%) but not the squat, where effort (RPE 7.2 vs 6.5) differed but average load did not; the largest ES (squat 0.50) occurred where loads were similar.']
 topics: [programming/autoregulation, methods/rpe-rir]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

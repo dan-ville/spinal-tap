@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Moderator subgroup analyses in a 40-person trial; multiple comparisons; overall whole-sample effect not reported in abstract."
 topics: [connective-tissue/disc]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: n=40 CLBP, 12 wk run-walk; 28.6-46.1 km subgroup +4.80 ms (2.51, 7.10). Confirmed; hypothesis-generating. | Prior check: chapter 8 literature researcher"}

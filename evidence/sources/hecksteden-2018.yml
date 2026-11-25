@@ -17,7 +17,7 @@ findings:
 limitations:
 - Endurance training and VO2max, not resistance training; small sample; control arm only 6 months.
 topics: [frontiers/individual-response, methods/statistics]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

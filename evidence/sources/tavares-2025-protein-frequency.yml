@@ -17,5 +17,5 @@ findings:
 limitations:
   - "32 randomised, 18 completed; underpowered; 8 weeks."
 topics: [nutrition/protein]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 32 resistance-trained men randomised, 18 completed; 3 vs 5 meals >0.24 g/kg; lean mass +1.15 vs +0.63 kg, VL CSA +3.41 vs +2.53 cm2, knee-extension 1RM +19.1 vs +16.0 kg, no group differences. Confirmed; the trial is described as 'randomized non-controlled'."}

@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Gene expression only; no hypertrophy or strength outcome; n = 10."
 topics: [recovery/sleep]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 10 trained women, nine nights 5 h vs >=7 h; SR alone did not change the transcriptome; ~3,000 transcripts changed 48 h after three RE sessions in both conditions with only 39% of down- and 18% of up-regulated genes shared. Confirmed."}

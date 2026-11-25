@@ -19,7 +19,7 @@ findings:
   grade: promising
 limitations: ['Groups differed at baseline (AR stronger: BS 141 vs 129 kg); single site; men only.', Advantage may reflect higher loads rather than autoregulation per se.]
 topics: [programming/autoregulation, methods/rpe-rir]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

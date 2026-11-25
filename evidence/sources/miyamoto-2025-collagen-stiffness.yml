@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Shear-wave elastography stiffness is not equivalent to force-elongation tendon stiffness; within-group analyses; sedentary untrained men; five of six authors are from a food company R&D institute (Morinaga & Co.)."
 topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

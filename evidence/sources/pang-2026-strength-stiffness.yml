@@ -24,5 +24,5 @@ limitations:
   - "Unregistered review; within-group estimand not control-adjusted; shared force signal between strength and stiffness measurement can create dependence."
   - "Short interventions; cannot address multi-year mismatch in trained athletes."
 topics: [connective-tissue/tendon, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13692497) re-read; numbers confirmed. Controlled-design restriction: contrast -0.0403 (-0.0974 to 0.0169), 23 cohorts. Authors state the analysis compares endpoints and 'cannot determine which tissue adapts faster'. Unregistered; includes adolescents and trained participants. | Prior check: chapter 8 literature researcher"}

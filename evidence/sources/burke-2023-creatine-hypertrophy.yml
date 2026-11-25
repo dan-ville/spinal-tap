@@ -21,5 +21,5 @@ limitations:
   - "Only 10 studies, one in women; Bayesian estimates with credible intervals crossing zero for most sites; mostly ultrasound."
   - "Several authors declare creatine-related funding (Candow, Forbes)."
 topics: [nutrition/creatine, hypertrophy/supplements]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read. Confirmed: pooled SMD 0.11 (CrI -0.02 to 0.25); site estimates 0.10-0.16 cm, every one with a CrI crossing zero (e.g. elbow flexors 0.10, -0.13 to 0.32; knee extensors 0.13, -0.07 to 0.37); young ES 0.23 (0.01 to 0.44), older 0.06 (-0.10 to 0.21); young subgroup only 4 studies (mean age 23.5 y). Caveat for the notes: this is not an industry-independent replication; co-authors Candow, Forbes and Schoenfeld (formerly Dymatize advisory board) declare creatine-related ties."}

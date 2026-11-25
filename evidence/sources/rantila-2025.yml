@@ -27,13 +27,15 @@ findings:
   effect: BB CSA r = -0.673; leg press 1RM r = -0.488; VL CSA r = -0.422 (p = 0.072); detraining losses larger for size than strength (VL -9.94% vs LP -5.40%)
   grade: promising
 limitations:
-- Single-period, single-outcome non-response was common (biceps curl 1RM: 11 of 20 below MDC after RT2); 'rare' applies only to non-response repeated in both periods. SD_IR was estimated for RT1 against one 10-week control period.
+- "Single-period, single-outcome non-response was common (biceps curl 1RM: 11 of 20 below MDC after RT2); 'rare' applies only to non-response repeated in both periods. SD_IR was estimated for RT1 against one 10-week control period."
 - 28 randomised to RT (about 19 analysed for some outcomes), 27 controls; ultrasound CSA.
 - Small RT group (n = 20; 11 men, 9 women), untrained, 10-week periods; 2 sessions/wk of 4 x 8-10 machine exercises; muscle memory may bias the second period.
 topics: [strength/hypertrophy-strength, strength/methods, frontiers/individual-response]
 cited_in:
 - research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md
 - research/theses/strength-and-mobility/chapters/11-frontiers.md
+- research/theses/strength-and-mobility/notes/frontiers.md
+- research/theses/strength-and-mobility/notes/neuromuscular-basis-of-strength.md
 checked:
   date: 2026-11-24
   by: verification pass

@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Collagen only (proteoglycans turn over faster); tibial plateau; no training-history data."
 topics: [connective-tissue/cartilage, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: tibial plateau cartilage, 23 persons (15 OA, 8 healthy), born 1935-1997; 'virtually no replacement of the collagen matrix after skeletal maturity'. Confirmed. | Prior check: chapter 8 literature researcher"}
