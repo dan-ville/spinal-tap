@@ -1,4 +1,4 @@
-# Training evidence monorepo
+# Free Weights
 
 One repository for training research and the sites built on it. Research rounds produce theses
 and structured evidence records. The apps read from that evidence.
@@ -12,7 +12,7 @@ and structured evidence records. The apps read from that evidence.
 | `docs/` | Repository-wide design documents. |
 | `evidence/` | Structured evidence records, one YAML file per source, shared by every thesis and app. See [evidence/README.md](evidence/README.md). |
 
-More apps will sit beside Spinal Tap, each with its own brand but sharing one framework and the evidence base. The plan is in [docs/design/suite.md](docs/design/suite.md).
+This is **Free Weights**, an open-source toolkit for evidence-based fitness and health. More apps will sit beside Spinal Tap, each with its own brand but sharing one framework and the evidence base. The plan is in [docs/design/suite.md](docs/design/suite.md).
 
 ## Working on Spinal Tap
 

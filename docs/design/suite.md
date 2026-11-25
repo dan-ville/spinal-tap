@@ -1,14 +1,14 @@
-# The suite: one framework, several branded apps
+# Free Weights: one framework, several branded apps
 
-**Status:** proposed, 2026-11-25. Decisions marked *owner* were made by the owner. The rest are
-proposals until the owner confirms them; open questions are at the end. Work is tracked in GitHub
-issues, each linked from the phase it belongs to.
+**Status:** accepted, 2026-11-25. Decisions marked *owner* were made by the owner; the owner reviewed
+the rest with this document. Work is tracked in GitHub issues, each linked from the phase it belongs to.
 
 ## Goal
 
-This repository holds research rounds, a shared evidence base and the sites built on them. Today
-there is one site, Spinal Tap. The aim is several sites that share one framework, in the way
-TanStack's libraries share one structure and design language:
+**Free Weights** is an open-source toolkit for evidence-based fitness and health: free as in open
+source, and free weights as in the gym. This repository holds its research rounds, a shared evidence
+base and the sites built on them. Today there is one site, Spinal Tap. The aim is several sites that
+share one framework, in the way TanStack's libraries share one structure and design language:
 
 - **Spinal Tap**: the lumbar spine for people who lift (exists).
 - **Meatball Strong**: strength and mobility, built on the strength and mobility thesis (new).
@@ -32,7 +32,11 @@ Each app has its own name, brand, domain and content. Underneath, they share a d
 ### D1. Separate branded apps on one shared framework (*owner*, 2026-11-25)
 
 Each subject gets its own app, brand and deploy, built from shared packages. There is no hub site.
-An app links to the others in its footer.
+Instead, every app carries a thin **Free Weights bar** across the top of the page that links to the
+other apps, as TanStack's sites do (*owner*). The app's own navigation sits below it.
+
+**Each app shows only what pertains to it** (*owner*): its own articles, and only the evidence records
+its own content cites. The evidence base is shared in the repository, not on the sites.
 
 ### D2. Astro stays the framework
 
@@ -49,7 +53,7 @@ directly. The atlas is the exception (D6).
 ### D4. Data stays at the root
 
 `evidence/` and `research/` stay where they are, as plain files any tool can read. The
-`@suite/evidence` package (the scope name is a placeholder until the suite is named, Q1) reads them.
+`@freeweights/evidence` package reads them.
 Apps never copy evidence into their own folders.
 
 ### D5. One evidence base, one citation model
@@ -114,16 +118,20 @@ research/            # data: rounds, theses, notes, verification, METHODS.md
 | `evidence` | Schema; `loadRecords()`; an Astro loader so apps get records as a content collection; CLI: `check` (schema, ids, every citation resolves, `cited_in` accurate; runs in CI), `doi-audit` (Crossref: DOI matches title, retractions, corrections; networked, run on demand and weekly), `oa-lookup` (OpenAlex: legal open-access full texts for abstract-only records) | `check-sources.mjs` |
 | `ui` | Tokens, `Base` layout, Callout, Lede, Tag, KeyList, Notes, Term, Glossary, Source, Evidence card, Disclaimer, theme toggle | `global.css`, most of `components/`, `layouts/` |
 | `atlas` | The viewer app and models; `<AtlasViewer>` and `<Structure>` | `atlas/`, `Structure.astro`, `build-atlas-index.mjs` |
-| `kit` | `suite()` Astro integration: MDX; article and glossary collections; routes for the evidence browser (`/evidence/`, `/evidence/[id]/`), the glossary and search; spaced-repetition review (FSRS, from `recall.ts` and `schedule.ts`); a Markdown renderer for thesis chapters that turns `[@id]` into citations; link and glossary checks | `lib/recall.ts`, `lib/schedule.ts`, `check-links.mjs`, parts of `check-plan.mjs`, the evidence and glossary pages |
+| `kit` | `freeweights()` Astro integration: the Free Weights bar (from one shared list of apps and their URLs); MDX; article and glossary collections; routes for the evidence browser (`/evidence/`, `/evidence/[id]/`), the glossary and search; spaced-repetition review (FSRS, from `recall.ts` and `schedule.ts`); a Markdown renderer for thesis chapters that turns `[@id]` into citations; link and glossary checks | `lib/recall.ts`, `lib/schedule.ts`, `check-links.mjs`, parts of `check-plan.mjs`, the evidence and glossary pages |
 
 Spinal Tap keeps its own: the return-to-lifting plan, gates, calculator, tracker templates and its
-articles. Meatball Strong starts with: the thesis reader, the evidence browser, the glossary and
-search. Its programmes and articles come later (Q2).
+articles. Meatball Strong is built the way Spinal Tap was (*owner*): a plan document first, then
+sections of MDX articles written from the strength and mobility thesis, with evidence cards, a
+glossary, knowledge checks and spaced review, atlas links where structures are named, and its own
+practical tools in place of Spinal Tap's return-to-lifting plan.
 
 **CI:** one job validates the evidence base and runs package tests. One job per app builds the app
 and runs its checks, filtered by the paths each app depends on.
 
-**Deploys:** one Vercel project per app, each with its Root Directory set to its app folder and
+**Deploys:** one Vercel project per app, on its `vercel.app` domain for now (*owner*). The app list
+behind the Free Weights bar holds each URL, so a custom domain later is a one-line change. Each
+project has its Root Directory set to its app folder and
 "include files outside the root directory" enabled, so the workspace packages and root data are
 available. Installs run from the repository root.
 
@@ -168,17 +176,15 @@ is written. That is the first issue.
 | 1 | npm workspaces; `packages/evidence` with schema, loader and `check`; CI job; `doi-audit` and `oa-lookup` | — | [#7](https://github.com/dan-ville/spinal-tap/issues/7) |
 | 2 | Merge Spinal Tap's sources and evidence cards into `evidence/`; Spinal Tap reads through the package; `sources.yml` removed | 1 | [#8](https://github.com/dan-ville/spinal-tap/issues/8) |
 | 3 | Extract `ui`, `atlas` and `kit` from Spinal Tap, with no visible change to Spinal Tap | 2 | [#9](https://github.com/dan-ville/spinal-tap/issues/9) |
-| 4 | `apps/meatball-strong` v0: brand, thesis reader, evidence browser, glossary, search; Vercel project | 3 | [#10](https://github.com/dan-ville/spinal-tap/issues/10) |
+| 4 | `apps/meatball-strong`, built like Spinal Tap: plan document, brand, sections of articles from the thesis, evidence cards, glossary, review, search; Vercel project | 3 | [#10](https://github.com/dan-ville/spinal-tap/issues/10) |
 | 5 | A spinal rehab research round under `METHODS.md`, so Spinal Tap's content gets the same evidence chain as the strength thesis | 0, 2 | [#11](https://github.com/dan-ville/spinal-tap/issues/11) |
 | Data | Read the 14 published corrections; find DOIs for the 8 records without one; run `oa-lookup` over the 444 abstract-only records and re-read what becomes available | 1 | [#12](https://github.com/dan-ville/spinal-tap/issues/12) |
 
-## Open questions
+## Decided with the owner (2026-11-25)
 
-- **Q1. What is the suite called?** It names the npm scope (`@<name>/ui`) and probably the repository.
-  The repository is still called `spinal-tap`.
-- **Q2. What does Meatball Strong show?** Proposal: v0 renders the thesis as a library, with citations
-  linked to the evidence browser. Articles and programmes written from the thesis come after, in the
-  style of Spinal Tap's articles.
-- **Q3. Are evidence-browser pages shared across apps?** Proposal: each app shows the whole evidence
-  base, filtered by default to the topics its content cites.
-- **Q4. Domains** for each app.
+- **Name:** Free Weights. Packages use the `@freeweights/` scope. Renaming the repository from
+  `spinal-tap` is the owner's call; GitHub redirects the old URL.
+- **Meatball Strong** is built like Spinal Tap, not as a thesis reader.
+- **Per-app scope:** each app shows only its own content and the evidence it cites, with the Free
+  Weights bar linking the apps.
+- **Hosting:** Vercel, on `vercel.app` domains.
