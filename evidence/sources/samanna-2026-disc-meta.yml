@@ -26,5 +26,5 @@ findings:
 limitations:
   - "Mostly observational; extreme heterogeneity (I2 up to 99%); categorical degeneration grades insensitive; sensitivity analysis omitting a weightlifting and a rowing study flipped the combined-loading result to favourable."
 topics: [connective-tissue/disc]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC13124787) re-read: 39 studies, 4152 participants; upright bipedal g 0.31 (0.12, 0.50), very low; combined loading OR 2.80 (1.53, 5.11), low; leave-one-out omitting a weightlifting study (Vadala) gave g 0.41 (0.01, 0.81). The 'explosive end-range' subgroup mixes weightlifting, martial arts, baseball and gymnastics. | Prior check: chapter 8 literature researcher"}

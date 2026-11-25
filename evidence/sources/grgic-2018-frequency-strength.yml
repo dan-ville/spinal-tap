@@ -20,7 +20,7 @@ findings:
 limitations:
 - Linear models only; mostly untrained; frequency of practising the tested lift not separated from muscle-group frequency.
 topics: [strength/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

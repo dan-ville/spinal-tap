@@ -18,5 +18,5 @@ limitations:
   - "Narrative review; the early net-loss window is inferred from marker kinetics, not directly measured net balance in tendon proper."
   - "The 'degradation peaks earlier' statement traces to circulating and peritendinous markers after prolonged running (e.g. Langberg 2000, plasma ICTP briefly up after a marathon); in peritendinous tissue ICTP actually fell early (langberg-1999-peritendinous-collagen). Net balance in tendon proper has never been measured."
 topics: [connective-tissue/tendon, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Abstract re-read; statement confirmed as written. Grade for the early net-catabolic window lowered to speculative: it is a review-level inference from whole-body/peritendinous markers after endurance exercise. | Prior check: chapter 8 literature researcher"}

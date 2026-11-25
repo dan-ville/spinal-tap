@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Includes trials with and without training; ES at T1 rather than change scores (change analysis said similar)."
 topics: [nutrition/creatine]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 60 studies (646 creatine, 651 controls); global lower-limb ES 0.235 (0.125 to 0.346); meta-regression found no link with population or supplementation characteristics. Confirmed. Note: creatine vs placebo with or without training (training was a covariate), outcomes at T1; not a creatine-plus-RT-only analysis."}

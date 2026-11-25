@@ -17,5 +17,5 @@ findings:
 limitations:
 - Abstract only; pairwise categorical comparison without control of volume or actual proximity; overlaps heavily with earlier meta-analyses.
 topics: [strength/proximity-to-failure, hypertrophy/proximity-to-failure]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

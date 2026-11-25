@@ -18,5 +18,5 @@ limitations:
   - "Clinical populations; network sparse for specific comparisons."
   - "Pairwise isometric vs isotonic for immediate pain in patellar tendinopathy: MD about 1 VAS point favouring isometrics, 95% CI -2.57 to 0.5, I2 70%, 3 studies, low strength of evidence."
 topics: [connective-tissue/tendinopathy-isometrics]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC10409676) read for the isometric comparison and conclusions; 68 RCTs confirmed. | Prior check: chapter 8 literature researcher"}

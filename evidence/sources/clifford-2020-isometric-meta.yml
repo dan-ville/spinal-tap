@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Few, small, heterogeneous trials across tendons; level-of-evidence rating, not GRADE."
 topics: [connective-tissue/tendinopathy-isometrics]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC7406028) re-read: 10 RCTs, 3 good / 7 poor quality; immediate pain isometric vs isotonic no significant difference (p=0.19); level 3 limited evidence. Confirmed. | Prior check: chapter 8 literature researcher"}

@@ -18,7 +18,7 @@ limitations:
 - Pooled frequencies above 3/wk and treated multiple sites per trial as separate effects (per Boutagy 2026).
 - 'Secondary sources disagree on the volume-equated estimate: Pelland 2026 quotes ES 0.07 (95% CI -0.08 to 0.21) for direct measures, Boutagy 2026 quotes 0.07 (95% CI -0.02 to 0.17) for 13 volume-equated studies. Probably different subgroups; the primary paper was not read, so treat both CIs as unverified.'
 topics: [hypertrophy/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

@@ -18,5 +18,5 @@ limitations:
   - "Small (11 studies, 244 participants), heterogeneous; abstract does not separate resting from active MEPs or report inhibition outcomes."
   - "Mostly untrained participants."
 topics: [strength/corticospinal, strength/neural-adaptations]
-cited_in: [research/theses/strength-and-mobility/verification/neuromuscular-basis-of-strength.md]
+cited_in: [research/theses/strength-and-mobility/chapters/02-neuromuscular-basis-of-strength.md, research/theses/strength-and-mobility/verification/neuromuscular-basis-of-strength.md]
 checked: {date: '2026-11-24', by: verification pass, notes: "Added by the chapter 2 verification pass as the most recent TMS meta-analysis; its positive excitability estimate conflicts with the borderline result of kidgell-2017."}

@@ -29,7 +29,7 @@ findings:
 limitations:
 - Preprinted 2023 (the 'Refalo 2023' lead); published 2025. Most data from untrained young adults over 6-24 weeks; 1,278 male and 1,537 female data points (participants counted as data points); TESTEX quality 9-12/15.
 topics: [frontiers/sex-differences, hypertrophy/sex]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

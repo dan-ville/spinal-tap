@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Twelve studies; high heterogeneity for velocity; habitual-intake moderator contradicts Carvalho 2022."
 topics: [nutrition/caffeine, monitoring/velocity]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read: 12 studies, n = 230; mean velocity SMD 0.42 (0.19 to 0.65), I2 85%; power 0.21 (0.12 to 0.30), I2 14%; low habitual users (<3 mg/kg/day) SMD 0.87 (0.72 to 1.02) vs 0.21; also larger in males (0.56 vs 0.22). Confirmed."}

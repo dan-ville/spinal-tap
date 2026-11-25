@@ -10,9 +10,20 @@ and structured evidence records. The apps read from that evidence.
 | `apps/spinal-tap/` | Spinal Tap, the lumbar-spine learning site (Astro). Self-contained: its own `package.json`, lockfile, `vercel.json`, licences and README. |
 | `research/` | Research rounds: theses, chapter drafts and the working notes behind them. See [research/README.md](research/README.md). |
 | `docs/` | Repository-wide design documents. |
+| `packages/` | Shared packages, starting with `@freeweights/evidence` (schema, loader and checks for the evidence base). |
 | `evidence/` | Structured evidence records, one YAML file per source, shared by every thesis and app. See [evidence/README.md](evidence/README.md). |
 
 This is **Free Weights**, an open-source toolkit for evidence-based fitness and health. More apps will sit beside Spinal Tap, each with its own brand but sharing one framework and the evidence base. The plan is in [docs/design/suite.md](docs/design/suite.md).
+
+## Working on the evidence base
+
+```sh
+npm ci                              # from the repository root (Node 22.18 or newer)
+npx freeweights-evidence check      # what CI runs
+npm test                            # package tests
+```
+
+See [evidence/README.md](evidence/README.md#tools) for the other commands.
 
 ## Working on Spinal Tap
 
@@ -22,7 +33,7 @@ npm ci && npm --prefix atlas ci
 npm run dev
 ```
 
-CI (`.github/workflows/ci.yml`) runs the Spinal Tap checks from `apps/spinal-tap`. Vercel must have
+CI (`.github/workflows/ci.yml`) runs the evidence checks from the root and the Spinal Tap checks from `apps/spinal-tap`. Vercel must have
 its project **Root Directory** set to `apps/spinal-tap`.
 
 ## Licences

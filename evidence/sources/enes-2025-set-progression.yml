@@ -17,5 +17,5 @@ findings:
 limitations:
 - Small groups (9-11); different hypertrophy measures disagree; a companion 2026 trial in women progressing every 2 vs 4 weeks found no differences.
 topics: [hypertrophy/volume, strength/volume, programming/progression]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked: {date: 2026-11-24, by: chapter 3 literature researcher, notes: ''}

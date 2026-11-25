@@ -17,5 +17,5 @@ findings:
 limitations:
   - "n = 10 trained men; single exercise pair; velocity against fixed loads as the recovery marker."
 topics: [recovery/time-course, monitoring/velocity]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: 10 resistance-trained men; 3x5(10), 6x5(10), 3x10(10) in bench press and full squat; failure slowed recovery of CMJ and velocity (V1 load and 75% 1RM) up to 24-48 h; ammonia, GH and CK followed different courses. Confirmed. Note: velocity was measured against fixed loads; volume load was not a comparator."}

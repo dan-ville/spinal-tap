@@ -16,7 +16,7 @@ findings:
   grade: speculative
 limitations: [n = 6 per group; effects trivial in size (g ~0.1).]
 topics: [programming/taper]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

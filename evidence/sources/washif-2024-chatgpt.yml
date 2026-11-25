@@ -16,5 +16,5 @@ findings:
   grade: promising
 limitations: [Descriptive author appraisal; no outcome data; model versions now superseded.]
 topics: [technology/ai-coaching]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked: {date: '2026-11-24', by: chapter 11 literature researcher, notes: ''}

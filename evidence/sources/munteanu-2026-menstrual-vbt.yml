@@ -20,7 +20,7 @@ findings:
 limitations:
 - Observational within-person design; 28 women; performance not long-term adaptation; trial registered retrospectively (ACTRN12626000365369).
 topics: [frontiers/menstrual-cycle, technology/velocity-based-training]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

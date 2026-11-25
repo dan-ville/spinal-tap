@@ -29,7 +29,7 @@ limitations:
 - Volume was equated in only 7 of 18 studies (45 of 81 effects); some included studies compared volume or supervision rather than periodization (Afonso 2019).
 - Egger test suggests publication bias (P = 0.006); outlier-trimmed estimate (ES 0.23) is smaller than the volume-equated Moesgaard 2022 estimate (ES 0.31).
 topics: [programming/periodization, strength/periodization]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

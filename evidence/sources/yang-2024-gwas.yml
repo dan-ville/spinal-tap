@@ -18,7 +18,7 @@ limitations:
 - Liberal significance threshold; score built and evaluated in the same small cohort (high risk of overfitting and winner's curse); no external replication; ultrasound thickness of one muscle.
 - Predictive models were 10-fold cross-validated, but within the same cohort used for SNP discovery, which does not guard against selection overfitting. The 2026 expert summary (roberts-2026-heterogeneity-conference) cited the 47% figure as support for polygenic scores; 'likely overfit' is this thesis's methodological judgement, not the source's.
 topics: [frontiers/genetics-omics, frontiers/individual-response]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

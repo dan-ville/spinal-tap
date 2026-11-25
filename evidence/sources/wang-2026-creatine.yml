@@ -18,5 +18,5 @@ limitations:
   - "Many moderator tests; uneven age subgroups."
   - "Significant small-study/publication bias for both strength outcomes (Egger p <= 0.015); bias-adjusted effects about one third smaller."
 topics: [nutrition/creatine]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Correction/addition: upper-body g 0.54 (95% CI 0.37 to 0.71; PI -0.13 to 1.20), 31 studies; lower-body raw g 0.66 (0.47 to 0.85), g 0.55 (0.38 to 0.71) after excluding one outlier (g = 3.77); Egger tests significant for both strength outcomes and trim-and-fill lowered them to g 0.36 (0.21 to 0.51) upper and 0.35 (0.21 to 0.50) lower. Lean mass g 0.30 (0.18 to 0.41)."}

@@ -17,5 +17,5 @@ findings:
 limitations:
   - "n=9 vs 11; ultrasound CSA; middle-aged recreational men; tendon stress higher in collagen group at baseline."
 topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC11917387) checked: CSA +6.8 vs +1.2 mm2 (p=0.027), stiffness +661 +/- 331 vs +247 +/- 305 N/mm (p=0.009), modulus +0.21 vs +0.09 GPa (p=0.018). Confirmed. n=20 (9 vs 11); ultrasound CSA. | Prior check: chapter 8 literature researcher"}

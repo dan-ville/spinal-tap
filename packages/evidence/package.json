@@ -1,0 +1,24 @@
+{
+  "name": "@freeweights/evidence",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Schema, loader and checks for the Free Weights evidence base (evidence/sources/*.yml).",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "bin": {
+    "freeweights-evidence": "./src/cli.ts"
+  },
+  "scripts": {
+    "test": "node --test --no-warnings test/*.test.ts"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1",
+    "zod": "^4.6.7"
+  }
+}

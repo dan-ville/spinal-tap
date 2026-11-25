@@ -19,7 +19,7 @@ limitations:
 - 'Version matters: v1 (9 Oct 2026) reported g = -0.02 (95% CI -0.21 to 0.16); from v2 (17 Oct 2026) the Neves 2022 input changed to the sets-equated condition and the pooled estimate became g = -0.06 (95% CI -0.24 to 0.13). v3 and v4 changed no estimate. Cite v4 or later.'
 - Moderator analyses could detect only large effects; the 1 vs 3 sessions contrast rests on six trials (106 participants).
 topics: [hypertrophy/frequency]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

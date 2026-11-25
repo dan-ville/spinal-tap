@@ -20,7 +20,7 @@ findings:
 limitations:
 - Single-variable dose-responses computed independently; few studies per category; pre-2016.
 topics: [frontiers/ageing, frontiers/youth]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

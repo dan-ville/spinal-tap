@@ -24,7 +24,7 @@ limitations:
 - Read as the SportRxiv preprint (version 2); published version may differ in numbers. Example analyses, not a fresh systematic search; lnCVR assumes SD proportional to mean.
 - lnCVR on change scores divides by control-arm mean changes near zero (the authors used absolute change scores), which inflates control CVs and pushes lnCVR negative almost by construction; a negative lnCVR is weak evidence against true response variation, not proof of its absence.
 topics: [frontiers/individual-response, methods/statistics]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

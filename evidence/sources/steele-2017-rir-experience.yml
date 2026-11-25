@@ -14,5 +14,5 @@ findings:
 - {claim: 'Trainees underpredicted reps to momentary failure, with a tendency toward better accuracy with more training experience.', effect: SEM for combined sample 2.64 (95% CI 2.36 to 2.99) to 3.38 (3.02 to 3.83) reps, grade: promising}
 limitations: ['Machine exercises, mostly moderate loads; conflicts with Halperin 2022 meta-regression finding no training-status effect.']
 topics: [methods/rpe-rir]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked: {date: 2026-11-24, by: verification pass, notes: 'Ch4 verification: Europe PMC abstract re-read: n = 141, SEM 2.64-3.38 reps, ''tendency towards improved accuracy with greater experience''. Confirmed. | Earlier check by chapter 4 literature researcher'}

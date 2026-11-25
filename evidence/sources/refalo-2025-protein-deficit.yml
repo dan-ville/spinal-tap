@@ -20,5 +20,5 @@ findings:
 limitations:
   - "Bayesian meta-regression across arms (not randomised comparisons of protein doses); heterogeneous; journal is practitioner-oriented."
 topics: [nutrition/energy-deficit, nutrition/protein]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text read (AUT repository PDF, 15 pages). Confirmed: 29 studies; >97% probability of a linear relationship; g/kg BM beta 0.07 (HDI -0.01 to 0.14, i.e. crosses zero) and g/kg FFM beta 0.06 (0.01 to 0.12); stronger with FFM scaling, >4 wk, men, lower BF%; authors call findings exploratory. Practical section suggests at least ~2.5 g/kg FFM/day (range 2.5-4.2 g/kg FFM/day) as a starting point. Authors include E.R. Helms and E.T. Trexler. | Earlier note (chapter 10 literature researcher): Abstract read from AUT repository record"}

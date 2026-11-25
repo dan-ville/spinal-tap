@@ -18,5 +18,5 @@ limitations:
   - "Very small groups; unilateral isokinetic training; diclofenac, not ibuprofen; abstract only."
   - "Direction opposite to Lilja 2018 (ibuprofen 1,200 mg/day in untrained adults), so NSAID effects on adaptation are contested."
 topics: [recovery/anti-inflammatories]
-cited_in: [research/theses/strength-and-mobility/verification/recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Added by the chapter 10 verification pass as counter-evidence to lilja-2018-nsaid; abstract from PubMed E-utilities."}

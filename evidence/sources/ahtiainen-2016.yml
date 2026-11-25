@@ -21,7 +21,7 @@ limitations:
 - Pooled retrospective data; responder classification from a single training period is vulnerable to the biases described by atkinson-2019.
 - Abstract wording 'n = 287 with 72 controls' is ambiguous about whether the 72 controls are part of the 287; the 20-21 wk duration was not verifiable from the abstract.
 topics: [frontiers/individual-response, frontiers/ageing, frontiers/sex-differences]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

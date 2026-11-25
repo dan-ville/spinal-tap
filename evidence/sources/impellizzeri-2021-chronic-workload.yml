@@ -18,5 +18,5 @@ limitations:
   - "Single re-analysed dataset; argument is statistical, not a test of whether planned gradual progression reduces injury."
   - "Re-analysis of a single previously published dataset; shows the association can be reproduced by artefact, not that every reported association is artefactual."
 topics: [injury/training-load]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md, research/theses/strength-and-mobility/verification/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read. Corrected: the abstract's 'mean' for random chronic loads is 1.53; 1.89 is the mean OR for random ACWRs. Grade lowered to promising (single dataset); 'no evidence supports causal use of ACWR' remains well supported. | Prior check: chapter 8 literature researcher"}

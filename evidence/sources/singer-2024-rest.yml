@@ -25,7 +25,7 @@ limitations:
 - 'The thigh signal comes mainly from untrained participants: untrained-only subgroup thigh 0.17 (95% CrI -0.15 to 0.47), arm 0.02 (-0.41 to 0.46). The authors judge only a 54% (thigh) and 45% (arm) probability that the benefit exceeds a small effect.'
 - Volume-load mediation is the authors' hypothesis ('perhaps mediated'), supported by one trial (Longo 2022) in which adding sets to equate volume load removed the difference.
 topics: [hypertrophy/rest-interval]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

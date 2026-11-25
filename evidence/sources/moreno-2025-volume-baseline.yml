@@ -17,7 +17,7 @@ findings:
 limitations:
 - Single muscle group, unilateral design; habitual volumes of participants not visible in abstract.
 topics: [hypertrophy/volume, strength/volume]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

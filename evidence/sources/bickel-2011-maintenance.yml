@@ -20,7 +20,7 @@ findings:
 limitations:
 - Previously untrained participants with only 16 weeks of training; 1/9 dose was 1 session/wk at reduced sets with load maintained.
 topics: [strength/maintenance, hypertrophy/maintenance]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

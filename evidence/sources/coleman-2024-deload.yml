@@ -19,7 +19,7 @@ findings:
   grade: promising
 limitations: ['The ''deload'' was complete cessation, not the reduced-load week most athletes use.', 'Lower body supervised, upper body not; Smith-machine 1RM; funded by Renaissance Periodization (role in design and manuscript).']
 topics: [programming/deload, strength/detraining]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

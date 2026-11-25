@@ -29,7 +29,7 @@ findings:
 limitations:
 - Conference summary, not a systematic review; read as the PMC author manuscript; authors' own data dominate.
 topics: [frontiers/individual-response, frontiers/genetics-omics, frontiers/sex-differences, frontiers/ageing]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

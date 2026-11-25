@@ -20,7 +20,7 @@ findings:
 limitations:
 - Methodological; assumes parallel-group design and constant variance; does not address mean-variance relationships (see steele-2023-variation).
 topics: [frontiers/individual-response, methods/statistics]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

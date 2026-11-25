@@ -20,7 +20,7 @@ findings:
 limitations:
 - Small sample, single muscle group, machine exercises; equal set volume.
 topics: [hypertrophy/proximity-to-failure]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/12-synthesis.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

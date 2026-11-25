@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Four weeks; overweight not lean athletes; single-blind; 4-compartment model but short duration."
 topics: [nutrition/energy-deficit, nutrition/protein]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Abstract re-read: ~40% energy deficit, 4 wk, n = 20 per group, RT + HIIT 6 d/wk; LBM +1.2 +/- 1.0 kg (2.4 g/kg/day) vs +0.1 +/- 1.0 kg (1.2 g/kg/day); fat mass -4.8 vs -3.5 kg; performance improved similarly. Confirmed. Abstract says 'young men'; the overweight descriptor comes from the full paper per the researcher (not re-checked)."}

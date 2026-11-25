@@ -17,5 +17,5 @@ findings:
 limitations:
   - "11 trained participants; frequency and volume matched but small sample; strain is whole-tendon, not local."
 topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: n=11 trained one leg at 4.55 +/- 1.38% and the other at 2.85 +/- 0.99% strain, 14 wk, 10 controls; adaptation only in high-strain leg. Confirmed. Full text not open access. | Prior check: chapter 8 literature researcher"}

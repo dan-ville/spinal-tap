@@ -18,7 +18,7 @@ limitations:
 - Responder classification from one leg and one period; single isolation exercise; non-responder group defined post hoc on the 1-set leg, so regression to the mean could exaggerate the 4-set advantage.
 - The non-responder 'rescue' is a group-level time x set interaction; the follow-up (lixandrao-2025-molecular) defines low responders whose hypertrophy was blunted at both 1 and 4 sets, so not every 1-set non-responder grew with more volume.
 topics: [frontiers/individual-response, frontiers/ageing, hypertrophy/volume]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

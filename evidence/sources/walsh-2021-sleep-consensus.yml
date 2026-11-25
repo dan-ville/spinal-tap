@@ -20,5 +20,5 @@ findings:
 limitations:
   - "Narrative review; studies criticised for poor control, few women and questionable sleep-assessment validity."
 topics: [recovery/sleep]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "chapter 10 literature researcher", notes: "Volume/pages from journal print issue; e-pub 2020"}

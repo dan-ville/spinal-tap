@@ -1,0 +1,28 @@
+# Weekly network audit of the evidence base: DOIs against Crossref (wrong papers, retractions,
+# corrections) and open-access full texts in OpenAlex. Reports are kept as run artifacts.
+# The job fails when a DOI points to another paper or a cited paper is withdrawn.
+name: Evidence audit
+on:
+  schedule:
+    - cron: '17 6 * * 1'
+  workflow_dispatch:
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - run: npm ci
+      - run: npx freeweights-evidence oa-lookup --out oa-lookup.json
+        continue-on-error: true
+      - run: npx freeweights-evidence doi-audit --out doi-audit.json
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: evidence-audit
+          path: '*.json'
+          if-no-files-found: ignore

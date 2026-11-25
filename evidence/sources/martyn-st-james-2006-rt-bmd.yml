@@ -18,5 +18,5 @@ limitations:
   - "Low methodological quality; small-study effects; search to 2004."
   - "Funnel asymmetry (smaller studies larger effects) and low methodological quality of all included studies; controlled studies included, not only RCTs."
 topics: [connective-tissue/bone]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: LS WMD 0.014 g/cm2 (0.009, 0.019), relative 0.98%; FN 0.001 (-0.006, 0.008). Confirmed. | Prior check: chapter 8 literature researcher"}

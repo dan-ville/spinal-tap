@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Endurance training only; no meta-analysis of HRV-guided resistance training exists; one author declares small industry fees."
 topics: [monitoring/hrv]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Correction: population was sedentary, physically active AND endurance-trained participants (8 studies, 199 participants, 7 randomised), not endurance athletes only; 2 of 8 interventions were combined endurance and strength training. Numbers confirmed: vagal HRV SMD 0.50 (0.09 to 0.91); VO2max 0.20 (-0.07 to 0.47); endurance performance 0.20 (-0.09 to 0.48); resting HR 0.04. An earlier meta-analysis (Granero-Gallegos 2020) reported a significant VO2max benefit, so 'at most small' rests on this better-specified analysis."}

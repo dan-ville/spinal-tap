@@ -17,7 +17,7 @@ findings:
 limitations:
 - Cluster analysis forces groups even from random error (see dankel-2020-differential-responders); no control group; single biopsy site.
 topics: [frontiers/individual-response, frontiers/genetics-omics]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

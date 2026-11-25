@@ -18,5 +18,5 @@ limitations:
   - "Pools patients and healthy adults; benefits larger in those with disease; small trials."
   - "Unit-of-analysis error: multiple non-independent subtests from the same participants pooled as independent effect sizes, inflating precision (Citherlet 2026 commentary; EFSA 2024 opinion reportedly drew no conclusions from it)."
 topics: [cognition/creatine, nutrition/creatine]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text re-read: numbers confirmed. NEW (not in the notes): Xu 2024 has the same unit-of-analysis (double-counting) error as Prokopidis 2023: multiple non-independent memory subtests per trial were pooled as independent (Citherlet 2026 commentary, Front Nutr, PMC13105953). EFSA's 2024 opinion on a creatine-cognition health claim reportedly said no conclusions could be drawn from this meta-analysis for that reason (EFSA opinion itself not read). A 2025 corrigendum only fixed wording (attention and processing-speed paragraphs). The 'GRADE moderate' for memory should not be relied on."}

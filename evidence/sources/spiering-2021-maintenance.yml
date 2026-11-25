@@ -20,7 +20,7 @@ findings:
 limitations:
 - Brief narrative review; evidence largely from previously untrained people who trained for a few months; no data for athletes.
 topics: [strength/maintenance, hypertrophy/maintenance]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/dose-response.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

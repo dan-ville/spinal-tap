@@ -19,7 +19,7 @@ findings:
   grade: promising
 limitations: ['Few, small studies in powerlifters (n = 33 across 2 taper studies); TESTEX-rated; no pooling.', 'The <=7-day cessation gains (squat +1.7-4.9%, bench +1.4-4.9%) are within-study pre-post changes after tapers, not isolated effects of cessation; the >7-day 1-4% losses come from few studies (e.g., Hortobagyi 14-day decline not statistically significant).']
 topics: [programming/taper, strength/detraining]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

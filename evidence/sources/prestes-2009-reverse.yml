@@ -16,5 +16,5 @@ findings:
   grade: speculative
 limitations: ['n = 10 per group; reverse order ends on light loads, so the 1RM test is least specific to its final block.']
 topics: [programming/periodization, strength/periodization]
-cited_in: [research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md]
+cited_in: [research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked: {date: 2026-11-24, by: chapter 4 literature researcher, notes: ''}

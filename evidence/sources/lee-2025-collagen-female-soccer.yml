@@ -18,5 +18,5 @@ limitations:
   - "n=6 vs 5, pair-matched; pre-season co-interventions; no funding or conflicts declared."
   - "n=11 (6 vs 5); between-group test was an unpaired t-test on percentage change after a group x time ANOVA; the reported placebo modulus statistic (t(4)=0.020, P=0.039) is internally inconsistent."
 topics: [connective-tissue/collagen-supplement, connective-tissue/tendon]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC12576002) checked: stiffness +15.4 +/- 3.1% vs +4.6 +/- 3.0% (SD), P=0.002 confirmed. | Prior check: chapter 8 literature researcher"}

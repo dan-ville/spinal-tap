@@ -21,5 +21,5 @@ limitations:
   - "n=10 analysed (13 recruited; 3 excluded for ultrasound artefacts); mixed-sport athletes, not strength-sport specialists; squat reversal at ~60 deg knee flexion (partial squat) with a 1RM specific to that range; ultrasound strain measurement error."
   - "R2 = 0.858 is agreement between estimated and measured strain within the same 10 participants (no external validation)."
 topics: [connective-tissue/tendon, connective-tissue/loading-parameters]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC10226975) re-read. Corrected sample: 13 recruited, 10 analysed (5M/5F), mixed sports. Squats were partial (reversal ~60 deg knee angle). Mean 4.7-8.2% and R2 0.858 confirmed; added individual ranges. | Prior check: chapter 8 literature researcher"}

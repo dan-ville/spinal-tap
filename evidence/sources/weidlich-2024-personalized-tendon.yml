@@ -18,5 +18,5 @@ limitations:
   - "Non-randomised controlled design, small groups, one sport; no injury outcome."
   - "Two non-randomised groups of adult male volleyball players (intervention n=10, control n=12); personalised loads averaged 62-68% MVC (range 42-90%); strength rise in the intervention group was only a trend (p=0.064)."
 topics: [connective-tissue/tendon, connective-tissue/time-course]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC11519156) read; abstract numbers confirmed (control max strain p=0.010; intervention p=0.575; residuals p=0.007; time x group p=0.043). | Prior check: chapter 8 literature researcher"}

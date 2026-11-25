@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Retrospective radiology database; abstract says 9 athletes but table reports 16; selection, body-size and contrast-MRI confounding; no mechanical properties."
 topics: [connective-tissue/ligament]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "chapter 8 literature researcher", notes: ""}

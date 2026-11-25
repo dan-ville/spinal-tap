@@ -23,5 +23,5 @@ findings:
 limitations:
   - "Narrative review drawing heavily on animal and in vitro data; runner-specific."
 topics: [connective-tissue/bone, connective-tissue/short-bout-loading, injury/training-load]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: Full text (PMC8316280) re-read: resorption ~4 wk, replacement ~3 mo, mineralisation up to 1 y; 95% loss of mechanosensitivity after 20 cycles; >90% restored after 4-8 h; microdamage exponent 17 in vitro; ~10% more strain halves cycles to failure. Confirmed. Narrative review of runners citing animal and in vitro work. | Prior check: chapter 8 literature researcher"}

@@ -17,5 +17,5 @@ findings:
 limitations:
   - "n=14 per group; cross-sectional; covariate-adjusted only for weight and age."
 topics: [connective-tissue/bone]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read: 14 weightlifters vs 14 students; distal femur trabecular density +11% (P=0.040); forearm BSI +41% and +43%; no cortical density difference. Confirmed. Cross-sectional. | Prior check: chapter 8 literature researcher"}

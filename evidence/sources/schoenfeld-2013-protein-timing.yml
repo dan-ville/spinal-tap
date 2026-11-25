@@ -17,5 +17,5 @@ findings:
 limitations:
   - "Most trials did not match total protein between groups, so timing and dose were confounded; mostly untrained participants."
 topics: [nutrition/protein]
-cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md]
+cited_in: [research/theses/strength-and-mobility/chapters/10-recovery-and-nutrition.md, research/theses/strength-and-mobility/notes/recovery-and-nutrition.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Full text (Europe PMC XML) read. Confirmed: strength 20 studies/478 subjects, hypertrophy 23 studies/525 subjects. Precision: the unadjusted pooled analysis showed a small-to-moderate timing effect on hypertrophy; it vanished once total protein intake was entered as a covariate (difference 0.14 +/- 0.11, P = 0.19). So 'timing does not matter once total protein is matched' is a statistical adjustment across studies, not a result of protein-matched trials."}

@@ -42,7 +42,7 @@ limitations:
 - Periodization and programming conflated in the underlying reviews (acknowledged by the panel).
 - The panel's periodization judgement applies to 'healthy adults' generally, not specifically to trained strength athletes.
 topics: [strength/load, hypertrophy/volume, strength/frequency, strength/proximity-to-failure, strength/rest-interval, hypertrophy/rest-interval, consensus/guidelines, programming/periodization, programming/progression, programming/autoregulation, frontiers/frontier-trials]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/chapters/04-programming-and-periodization.md, research/theses/strength-and-mobility/notes/dose-response.md, research/theses/strength-and-mobility/notes/frontiers.md, research/theses/strength-and-mobility/notes/programming-and-periodization.md]
 checked:
   date: 2026-11-24
   by: verification pass

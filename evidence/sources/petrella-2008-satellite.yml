@@ -16,7 +16,7 @@ findings:
   grade: promising
 limitations: [Associational; cluster-based classification; no control group.]
 topics: [frontiers/individual-response, frontiers/genetics-omics, hypertrophy/mechanisms]
-cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md]
+cited_in: [research/theses/strength-and-mobility/chapters/11-frontiers.md, research/theses/strength-and-mobility/notes/frontiers.md]
 checked:
   date: 2026-11-24
   by: verification pass

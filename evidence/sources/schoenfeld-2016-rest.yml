@@ -17,7 +17,7 @@ findings:
 limitations:
 - n = 21; sets fixed so short rest reduced volume load; not replicated when volume load is equated (Longo 2022, per Singer 2024).
 topics: [strength/rest-interval, hypertrophy/rest-interval]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

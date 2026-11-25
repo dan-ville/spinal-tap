@@ -20,7 +20,7 @@ findings:
 limitations:
 - Only 9 studies; mean volumes low (Pelland 2026 reports mean ~3 direct sets/wk), so it says little about the upper dose range.
 topics: [strength/volume]
-cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md]
+cited_in: [research/theses/strength-and-mobility/chapters/03-dose-response.md, research/theses/strength-and-mobility/notes/dose-response.md]
 checked:
   date: 2026-11-24
   by: verification pass

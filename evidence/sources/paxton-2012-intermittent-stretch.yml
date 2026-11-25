@@ -17,5 +17,5 @@ findings:
 limitations:
   - "In vitro constructs with immature matrix; ERK1/2 used as a proxy; human in vivo test (tsai-2024-tendon-loading-frequency) did not find timing effects."
 topics: [connective-tissue/short-bout-loading, connective-tissue/ligament]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md, research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read (PMC XML gave abstract only): ERK1/2 peaked at 10 min, refractory up to 6 h; 10 min every 6 h at 2.5% stretch for 7 d; collagen CTL 3.1%, CONT 4.8%, INT 5.9%. Confirmed. In vitro engineered ligament; signalling-guided. | Prior check: chapter 8 literature researcher"}

@@ -17,5 +17,5 @@ findings:
 limitations:
   - "n=6; single session; large effect not reproduced in larger later trials (holden-2020-isometric)."
 topics: [connective-tissue/tendinopathy-isometrics]
-cited_in: [research/theses/strength-and-mobility/chapters/08-connective-tissue.md]
+cited_in: [research/theses/strength-and-mobility/notes/connective-tissue.md]
 checked: {date: 2026-11-24, by: "verification pass", notes: "Ch8 verification: PubMed abstract re-read; n=6 volleyball players; numbers confirmed. Not replicated independently (holden-2020-isometric). | Prior check: chapter 8 literature researcher"}
