@@ -4,7 +4,9 @@ A doctoral-style thesis on how strength and mobility are built in healthy, train
 the current evidence (searched through November 2026). It stands alone: it is not tied to any
 rehabilitation plan in this repo.
 
-**Status:** in progress (research workflow launched 2026-11-24).
+**Status:** in progress. Research and verification are done for all ten literature chapters;
+chapters 2 and 3 are written. The rest are being written as light first drafts, one step every
+four hours by a scheduled task. The plan and step queue are in [`outline.md`](outline.md).
 
 ## Method
 
