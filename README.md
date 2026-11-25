@@ -13,7 +13,7 @@ and structured evidence records. The apps read from that evidence.
 | `packages/` | Shared packages, starting with `@freeweights/evidence` (schema, loader and checks for the evidence base). |
 | `evidence/` | Structured evidence records, one YAML file per source, shared by every thesis and app. See [evidence/README.md](evidence/README.md). |
 
-This is **Free Weights**, an open-source toolkit for evidence-based fitness and health. More apps will sit beside Spinal Tap, each with its own brand but sharing one framework and the evidence base. The plan is in [docs/design/suite.md](docs/design/suite.md).
+This is **Free Weights**, an open-source toolkit for evidence-based fitness and health. More apps will sit beside Spinal Tap, each with its own brand but sharing one framework and the evidence base. The plan is in [docs/design/suite.md](docs/design/suite.md). Where the work stands: [.agents/workstreams/free-weights/checkpoint.md](.agents/workstreams/free-weights/checkpoint.md).
 
 ## Working on the evidence base
 
