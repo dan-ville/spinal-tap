@@ -12,17 +12,12 @@ All 662 evidence records in `sources/`, grouped by the area of each record's fir
 
 ### Known issues not fixed in this step
 
-A read-only check of every DOI against Crossref, run on 2026-11-25 outside the step queue, found the following. They are listed here for a later fix.
+A read-only check of every DOI against Crossref, run on 2026-11-25 outside the step queue, found the following. Fixes made since are noted on each item.
 
-- **Five DOIs point to a different paper.** Each record also lists a PubMed ID, from which the correct DOI can be looked up.
-  - `jorgenson-2020`: the DOI resolves to a 1980 cardiac stereology paper.
-  - `goli-2026`: the DOI resolves to a 2024 muscle–tendon sensitivity paper.
-  - `pedrosa-2023`: the DOI resolves to a physiological-measurement paper.
-  - `akcay-2026`: the DOI resolves to a 2015 BFR meta-analysis.
-  - `wang-2026-bfr`: the DOI resolves to a 2024 BFR device-validity study.
+- **Five DOIs pointed to a different paper.** Fixed on 2026-11-25: each correct DOI was looked up from the record's PubMed ID and confirmed in OpenAlex and Crossref (`jorgenson-2020`, `goli-2026`, `pedrosa-2023`, `akcay-2026`, `wang-2026-bfr`).
 - **No retractions** among the records with a DOI. 14 papers carry a published correction, erratum or corrigendum that has not been read: `bourne-2017-nordic-architecture`, `cuthbert-2020-nordic-volume`, `davis-2020-massage`, `doma-2017-alternate`, `gao-2023-sequence`, `hindle-2019-strongman-biomechanics`, `lopez-2021-load`, `morton-2018-protein`, `patterson-2019`, `plotkin-2023-hip-thrust`, `tsai-2024-tendon-loading-frequency`, `tundidor-duque-2026-velocity-loss`, `watson-2018-liftmor`, `xu-2024-creatine-cognition`.
 - **8 records have no DOI** (practitioner web pages, a preprint and papers whose DOI was not recorded): `campos-2016-pilates`, `hubal-2005`, `lopez-bedoya-2013-active-passive`, `moritani-1979`, `patrick-2024-atg-program`, `remmert-2025-per-session-volume`, `rhea-2002-dup`, `spina-2026-frc-claims`. One record, `kong-2025-sleep-deprivation`, could not be checked because of Crossref's rate limit.
-- **Read-level mismatch.** `pincheira-2022-sarcomere` is recorded as full text (read by the chapter 7 verification), but Chapter 5 marks its numbers with a dagger as abstract-only. The chapter mark is the one to change.
+- **Read-level mismatch.** `pincheira-2022-sarcomere` was recorded as full text but marked abstract-only in chapter 5. Fixed in the final edit (thesis step 12): the chapter mark was removed.
 
 ## Counts
 

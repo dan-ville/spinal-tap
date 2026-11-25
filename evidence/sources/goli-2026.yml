@@ -11,7 +11,7 @@ authors:
 - Ahmadizad S
 year: 2026
 venue: Int J Exerc Sci 19(4):4003
-doi: 10.1111/sms.14638
+doi: 10.70252/ijes2026403
 pmid: '42006449'
 url: https://pubmed.ncbi.nlm.nih.gov/42006449/
 design: rct
@@ -34,6 +34,6 @@ topics:
 cited_in:
 - research/theses/strength-and-mobility/chapters/05-hypertrophy-methods.md
 checked:
-  date: '2026-11-24'
-  by: chapter 5 literature researcher
-  notes: ''
+  date: '2026-11-25'
+  by: DOI fix
+  notes: 'DOI corrected from 10.1111/sms.14638 (a different paper); confirmed by PubMed, OpenAlex and Crossref. Earlier check: chapter 5 literature researcher, 2026-11-24.'
